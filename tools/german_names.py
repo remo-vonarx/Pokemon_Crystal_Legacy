@@ -424,9 +424,8 @@ PLACES = {
 }
 
 # ordinary trainers, from PokeWiki's Gen 2 class pages, matched by class,
-# location and vanilla team (see docs/superpowers/plans/2026-11-03-german-names.md).
-# Umlauts are written out (GOETZ, JOERG, BJOERN, GUENTER, SOENCKE, JUERGEN,
-# KAETE); unused trainers keep their English names. The twins are matched
+# location and vanilla team. Ä, Ö and Ü have their own font tiles (see
+# charmap.asm); unused trainers keep their English names. The twins are matched
 # by position (first English twin = first German twin); LEA & PIA becomes
 # JANA&NANA, because "JANA & NANA" is one character too long.
 REGULAR_TRAINER_NAMES = {
@@ -480,11 +479,11 @@ REGULAR_TRAINER_NAMES = {
 	},
 	'BugCatcherGroup': {
 		'DON': 'ULI',
-		'ROB': 'GOETZ',
+		'ROB': 'GÖTZ',
 		'ED': 'ALAN',
 		'WADE': 'GREG',
 		'BENNY': 'AXEL',
-		'AL': 'JOERG',
+		'AL': 'JÖRG',
 		'JOSH': 'ENNO',
 		'ARNIE': 'UDO',
 		'KEN': 'RUDI',
@@ -586,7 +585,7 @@ REGULAR_TRAINER_NAMES = {
 		'BENJAMIN': 'WOLFGANG',
 		'ERIK': 'WIELAND',
 		'MICHAEL': 'PHILLIP',
-		'PARRY': 'GUENTER',
+		'PARRY': 'GÜNTER',
 		'TIMOTHY': 'ROMAN',
 		'BAILEY': 'LUDWIG',
 		'TIM': 'HARTMUT',
@@ -643,9 +642,9 @@ REGULAR_TRAINER_NAMES = {
 	},
 	'PokefanMGroup': {
 		'WILLIAM': 'WILHELM',
-		'DEREK': 'SOENCKE',
+		'DEREK': 'SÖNCKE',
 		'ROBERT': 'WINFRIED',
-		'JOSHUA': 'JUERGEN',
+		'JOSHUA': 'JÜRGEN',
 		'CARTER': 'ERNST',
 		'TREVOR': 'REINHOLD',
 		'BRANDON': 'MATTHIAS',
@@ -699,7 +698,7 @@ REGULAR_TRAINER_NAMES = {
 		'KIPP': 'MICHEL',
 		'ALAN': 'HOLGER',
 		'JOHNNY': 'NIKLAS',
-		'DANNY': 'BJOERN',
+		'DANNY': 'BJÖRN',
 		'TOMMY': 'TORBEN',
 		'DUDLEY': 'FLAVIO',
 		'JOE': 'KONRAD',
@@ -730,7 +729,7 @@ REGULAR_TRAINER_NAMES = {
 		'MARKUS': 'URBAN',
 	},
 	'SwimmerFGroup': {
-		'ELAINE': 'KAETE',
+		'ELAINE': 'KÄTE',
 		'PAULA': 'ELFI',
 		'KAYLEE': 'KARIN',
 		'SUSIE': 'THEKLA',
