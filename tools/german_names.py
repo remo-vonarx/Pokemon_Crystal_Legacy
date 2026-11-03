@@ -379,12 +379,12 @@ TRAINER_NAMES = {
 	'ArcherGroup': {'ARCHER': 'ATLAS'},
 	'ExecutiveFGroup': {'ARIANA': 'ATHENA'},
 	'MysticalmanGroup': {'EUSINE': 'EUSIN'},
-	# PokeWiki, matched by vanilla Eeveelution; the unused first NAOKO too
+	# checked against the German Kristall ROM; its unused first NAOKO is still
+	# called NAOKO there, but the name mapping can only give both one name
 	'KimonoGirlGroup': {'NAOKO': 'EDITH', 'SAYO': 'KEIKO', 'ZUKI': 'LINDA', 'KUNI': 'WILMA', 'MIKI': 'LORE'},
-	# PokeWiki; CHOW/NICO/EDMOND and JIN/NEAL have identical teams, so their
-	# order is a guess (trainer ID order)
+	# checked against the German Kristall ROM, by trainer position
 	'SageGroup': {
-		'CHOW': 'ECKART', 'NICO': 'HELMUT', 'EDMOND': 'LUDGER', 'JIN': 'DETLEV', 'NEAL': 'LUKAS',
+		'CHOW': 'HELMUT', 'NICO': 'ECKART', 'EDMOND': 'LUDGER', 'JIN': 'DETLEV', 'NEAL': 'LUKAS',
 		'TROY': 'INGOLF', 'LI': 'MAREK', 'PING': 'MONTY', 'JEFFREY': 'HERIBERT',
 		'GAKU': 'YORICK', 'MASA': 'THURE', 'KOJI': 'ERASMUS',
 	},
@@ -425,12 +425,15 @@ PLACES = {
 	'CINNABAR': 'ZINNOBER',
 }
 
-# ordinary trainers, from PokeWiki's Gen 2 class pages, matched by class,
-# location and vanilla team. Ä, Ö and Ü have their own font tiles (see
-# charmap.asm); unused trainers keep their English names. The twins are matched
-# by position (first English twin = first German twin); LEA & PIA becomes
-# JANA&NANA, because "JANA & NANA" is one character too long.
+# ordinary trainers, as in the German Kristall ROM (compared by trainer
+# position), unused ones included. Ä, Ö and Ü have their own font tiles (see
+# charmap.asm). LEA & PIA becomes JANA&NANA, because "JANA & NANA" is one
+# character too long. GRUNT and EXECUTIVE (Kristall: RÜPEL, VORSTAND) stay
+# English, as they are titles like the trainer classes.
 REGULAR_TRAINER_NAMES = {
+	'PKMNTrainerGroup': {
+		'CAL': 'HERMANN',
+	},
 	'BeautyGroup': {
 		'VICTORIA': 'MARTHA',
 		'SAMANTHA': 'TINA',
@@ -438,6 +441,16 @@ REGULAR_TRAINER_NAMES = {
 		'JULIA': 'CORINNA',
 		'VALERIE': 'JUTTA',
 		'OLIVIA': 'TIFFY',
+		'JULIE': 'HEIKE',
+		'JACLYN': 'KAROLA',
+		'BRENDA': 'ULRIKE',
+		'CAROLINE': 'ANNE',
+		'CARLENE': 'GERDA',
+		'JESSICA': 'BETTINA',
+		'RACHAEL': 'ANJA',
+		'ANGELICA': 'DENISE',
+		'KENDRA': 'SIMONE',
+		'VERONICA': 'MARION',
 	},
 	'BikerGroup': {
 		'DWAYNE': 'ELERT',
@@ -447,6 +460,8 @@ REGULAR_TRAINER_NAMES = {
 		'RILEY': 'HANNES',
 		'JOEL': 'MANUEL',
 		'GLENN': 'HEKTOR',
+		'BENNY': 'AXEL',
+		'KAZU': 'GANGOLF',
 	},
 	'BirdKeeperGroup': {
 		'ROD': 'KLAUS',
@@ -509,6 +524,12 @@ REGULAR_TRAINER_NAMES = {
 		'TED': 'PATRICK',
 		'JERRY': 'WALTER',
 		'SPENCER': 'MORITZ',
+		'HARVEY': 'HORST',
+		'DALE': 'HUGO',
+		'THOMAS': 'AUGUST',
+		'LEROY': 'TASSILO',
+		'DAVID': 'FLORIAN',
+		'JOHN': 'ROBERT',
 	},
 	'CooltrainerFGroup': {
 		'GWEN': 'ANGI',
@@ -542,6 +563,10 @@ REGULAR_TRAINER_NAMES = {
 		'KEVIN': 'NICO',
 		'ALLEN': 'STAN',
 		'DARIN': 'REMUS',
+		'ERICK': 'ALF',
+		'ANDY': 'HIOB',
+		'TYLER': 'KNUT',
+		'STEVE': 'ANNO',
 	},
 	'FirebreatherGroup': {
 		'OTIS': 'BILL',
@@ -550,6 +575,8 @@ REGULAR_TRAINER_NAMES = {
 		'WALT': 'WOLF',
 		'RAY': 'UDE',
 		'LYLE': 'WIM',
+		'DICK': 'WULF',
+		'NED': 'SAM',
 	},
 	'FisherGroup': {
 		'JUSTIN': 'ALBRECHT',
@@ -574,6 +601,7 @@ REGULAR_TRAINER_NAMES = {
 		'EDWARD': 'CHARLES',
 		'GREGORY': 'ALFRED',
 		'ALFRED': 'HUBERT',
+		'VIRGIL': 'KASPAR',
 	},
 	'GuitaristGroup': {
 		'CLYDE': 'JIMMY',
@@ -620,6 +648,9 @@ REGULAR_TRAINER_NAMES = {
 		'GRACE': 'DOROTHEA',
 		'REBECCA': 'ANASTASIA',
 		'DORIS': 'DAPHNE',
+		'BETHANY': 'THUSNELDA',
+		'MARGRET': 'PANDORA',
+		'ETHEL': 'ROLANDA',
 	},
 	'OfficerGroup': {
 		'KEITH': 'KLAUS',
@@ -729,6 +760,12 @@ REGULAR_TRAINER_NAMES = {
 		'TERU': 'ROLF',
 		'HUGH': 'RANDALF',
 		'MARKUS': 'URBAN',
+		'STAN': 'GRIMBALD',
+		'GREGG': 'HERBERT',
+		'JAY': 'GEROLD',
+		'DAVE': 'SIMON',
+		'RUSS': 'ALFONS',
+		'NORTON': 'EMIL',
 	},
 	'SwimmerFGroup': {
 		'ELAINE': 'KÄTE',
@@ -744,6 +781,12 @@ REGULAR_TRAINER_NAMES = {
 		'NIKKI': 'THEA',
 		'DIANA': 'HEIDI',
 		'BRIANA': 'HELENE',
+		'LISA': 'ILSE',
+		'JILL': 'AGNES',
+		'MARY': 'ANITA',
+		'KATIE': 'ANKE',
+		'TARA': 'RITA',
+		'JODY': 'URSELA',
 	},
 	'SwimmerMGroup': {
 		'HAROLD': 'ANATOL',
@@ -759,6 +802,14 @@ REGULAR_TRAINER_NAMES = {
 		'CAMERON': 'DIMITRI',
 		'SETH': 'NICOLAI',
 		'PARKER': 'BOGDAN',
+		'HAL': 'PIOTR',
+		'PATON': 'IVAN',
+		'DARYL': 'SERGEI',
+		'WALTER': 'YURI',
+		'TONY': 'VITALI',
+		'RICK': 'BORIS',
+		'JAMES': 'OLEG',
+		'LEWIS': 'SPUTNIK',
 	},
 	'TeacherGroup': {
 		'COLETTE': 'INCA',
