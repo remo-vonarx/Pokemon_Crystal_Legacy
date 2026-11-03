@@ -64,5 +64,5 @@ UnusedSweetHoneyAfterText3: ; unreferenced
 	done
 
 UnusedSweetHoneyButterfreeText: ; unreferenced
-	text "SMETTBO: Freeh!"
+	text "SMETTBO: Booh!"
 	done

@@ -363,7 +363,7 @@ RadioTower2FTeacherText_Rockets:
 
 RadioTowerJigglypuffText:
 	text "PUMMELUFF:"
-	line "Jiggly…"
+	line "Pummel…"
 	done
 
 RadioTower2FBlackBelt1Text:

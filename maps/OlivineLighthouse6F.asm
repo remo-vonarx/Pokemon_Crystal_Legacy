@@ -180,7 +180,7 @@ JasmineCianwoodPharmacyText:
 	line "the sea…"
 
 	para "And I can't leave"
-	line "AMPHY unattended…"
+	line "AMPHI unattended…"
 	done
 
 JasmineGetSomeMedicineText:
@@ -192,7 +192,7 @@ JasmineGetSomeMedicineText:
 JasmineCureAmphyText:
 	text "JASMIN: …Will"
 	line "that medicine cure"
-	cont "AMPHY?"
+	cont "AMPHI?"
 	done
 
 PlayerHandedSecretpotionText:
@@ -206,7 +206,7 @@ JasmineDontBeOffendedText:
 	line "please don't be"
 	cont "offended…"
 
-	para "…AMPHY will not"
+	para "…AMPHI will not"
 	line "take anything from"
 	cont "anyone but me…"
 	done
@@ -214,7 +214,7 @@ JasmineDontBeOffendedText:
 JasmineAmphyHowAreYouFeelingText:
 	text "JASMIN: …"
 
-	para "AMPHY, how are you"
+	para "AMPHI, how are you"
 	line "feeling?"
 	done
 
@@ -241,12 +241,12 @@ JasmineISeeText:
 	done
 
 JasmineAmphyHangOnText:
-	text "…AMPHY, hang on!"
+	text "…AMPHI, hang on!"
 	done
 
 AmphyPalPalooText:
-	text "AMPHY: …"
-	line "…Pa… paloo…"
+	text "AMPHI: …"
+	line "…Pa…Paluu…"
 	done
 
 AmphyBreathingLaboredText:
@@ -255,7 +255,7 @@ AmphyBreathingLaboredText:
 	done
 
 AmphyPaluPaluluText:
-	text "AMPHY: Palu!"
+	text "AMPHI: Palu!"
 	line "Palulu!"
 	done
 

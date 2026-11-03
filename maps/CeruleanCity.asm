@@ -181,7 +181,7 @@ CeruleanCitySuperNerdText:
 	done
 
 CeruleanCitySlowbroText:
-	text "LAHMUS: Yarah?"
+	text "LAHMUS: Jarah?"
 	done
 
 CeruleanCityCooltrainerFText1:

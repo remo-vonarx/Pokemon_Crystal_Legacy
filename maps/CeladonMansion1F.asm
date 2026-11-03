@@ -54,17 +54,17 @@ CeladonMansionManagerText:
 	done
 
 CeladonMansion1FMeowthText:
-	text "MAUZI: Meow!"
+	text "MAUZI: Mauz!"
 	done
 
 CeladonMansion1FClefairyText:
-	text "PIEPI: Clef"
-	line "cleff!"
+	text "PIEPI: Piep piep"
+	line "piep!"
 	done
 
 CeladonMansion1FNidoranFText:
-	text "NIDORAN: Kya"
-	line "kyaoo!"
+	text "NIDORAN: Nido"
+	line "nido!"
 	done
 
 CeladonMansionManagersSuiteSignText:

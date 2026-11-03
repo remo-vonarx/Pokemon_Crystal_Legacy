@@ -39,7 +39,7 @@ VioletNicknameSpeechHouseLassText:
 	done
 
 VioletNicknameSpeechHouseBirdText:
-	text "ERDBEERE: Pijji!"
+	text "ERDBEERE: Taubsii!"
 	done
 
 VioletNicknameSpeechHouse_MapEvents:

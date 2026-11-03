@@ -66,15 +66,15 @@ MrFujisHouseLassText:
 	done
 
 MrFujisPsyduckText:
-	text "ENTON: Gu-guwa?"
+	text "ENTON: Qua-qua?"
 	done
 
 MrFujisNidorinoText:
-	text "NIDORINO: Gyun!"
+	text "NIDORINO: Nido!"
 	done
 
 MrFujisPidgeyText:
-	text "TAUBSI: Pijji!"
+	text "TAUBSI: Gru gru!"
 	done
 
 MrFujisHouse_MapEvents:

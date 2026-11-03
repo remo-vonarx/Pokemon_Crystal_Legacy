@@ -65,7 +65,7 @@ CelebrityText2:
 	done
 
 CelebritysFearowText:
-	text "IBITAK: Feero!"
+	text "IBITAK: Ibitaag!"
 	done
 
 Route28SteelWingHouse_MapEvents:

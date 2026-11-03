@@ -46,18 +46,18 @@ ViridianNicknameSpeechHousePokefanMText:
 	done
 
 ViridianNicknameSpeechHouseLassText:
-	text "They're SPEARY--"
+	text "They're HABBI--"
 	line "a HABITAK--and"
-	cont "RATTEY--a"
+	cont "FRATZI--a"
 	cont "RATTFRATZ."
 	done
 
 SpearyText:
-	text "SPEARY: Ch-chun!"
+	text "HABBI: Kr-rrr!"
 	done
 
 RatteyText:
-	text "RATTEY: Kikiii!"
+	text "FRATZI: Kikiii!"
 	done
 
 ViridianNicknameSpeechHouse_MapEvents:

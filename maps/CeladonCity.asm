@@ -85,7 +85,7 @@ CeladonCityFisherText:
 	done
 
 CeladonCityPoliwrathText:
-	text "QUAPPO: Croak!"
+	text "QUAPPO: Quaak!"
 	done
 
 CeladonCityTeacher1Text:

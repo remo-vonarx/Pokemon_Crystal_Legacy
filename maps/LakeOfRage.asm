@@ -350,7 +350,7 @@ LakeOfRageLanceAskHelpText:
 	done
 
 LakeOfRageGyaradosCryText:
-	text "GARADOS: Gyashaa!"
+	text "GARADOS: Gashaa!"
 	done
 
 LakeOfRageGotRedScaleText:

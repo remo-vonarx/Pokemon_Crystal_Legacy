@@ -280,7 +280,8 @@ PokemonFanClubClefairyDollText:
 	done
 
 PokemonFanClubBayleefText:
-	text "LORBLATT: Li liif!"
+	text "LORBLATT: Bla,"
+	line "blatt!"
 	done
 
 PokemonFanClubListenSignText:

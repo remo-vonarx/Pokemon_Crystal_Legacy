@@ -271,10 +271,12 @@ POKEMON = {
 # English spellings used in text besides the official in-game name
 POKEMON_TEXT_ALIASES = {}
 
-# nicknames of NPC-owned Pokemon (SPEARY and RATTEY in Viridian City
-# stay until their German nicknames are known)
+# nicknames of NPC-owned Pokemon, as in the German Kristall
 NPC_NICKNAMES = {
 	'STRAWBERRY': 'ERDBEERE',
+	'SPEARY': 'HABBI',
+	'RATTEY': 'FRATZI',
+	'AMPHY': 'AMPHI',
 }
 
 # in-game trades: (nickname, OT) -> German (nickname, OT), in NPCTrades order

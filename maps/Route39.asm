@@ -185,7 +185,7 @@ Route39HiddenNugget:
 	hiddenitem NUGGET, EVENT_ROUTE_39_HIDDEN_NUGGET
 
 Route39MiltankText:
-	text "MILTANK: Mooo!"
+	text "MILTANK: Muh!"
 	done
 
 SailorEugeneSeenText:

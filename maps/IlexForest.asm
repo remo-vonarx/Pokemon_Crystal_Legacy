@@ -771,7 +771,7 @@ Text_ItsTheMissingPokemon:
 	done
 
 Text_Kwaaaa:
-	text "PORENTA: Kwaa!"
+	text "PORENTA: Quack!"
 	done
 
 Text_CharcoalMasterIntro:

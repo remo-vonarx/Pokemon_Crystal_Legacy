@@ -19,8 +19,8 @@ This fork keeps the English text of Crystal Legacy, but uses the German names, s
 * The ordinary trainers' names as in *Pokémon Kristall* (YOUNGSTER JULIAN, BUG CATCHER GREG, PICNICKER ANETTE, ...); their classes stay English. The font has Ä, Ö and Ü for them (BUG CATCHER JÖRG, HIKER GÜNTER)
 * Cities: NEUBORKIA, ROSALIA CITY, VIOLA CITY, AZALEA CITY, DUKATIA CITY, TEAK CITY, OLIVIANA CITY, ANEMONIA CITY, MAHAGONIA CITY, EBENHOLZ CITY, and in Kanto ALABASTIA, VERTANIA CITY, MARMORIA CITY, AZURIA CITY, ORANIA CITY, LAVANDIA, PRISMANIA CITY, FUCHSANIA CITY, SAFFRONIA CITY and ZINNOBER ISLAND
 * Places named after a city or Pokémon (FLEGMON WELL, DIGDA'S CAVE, VERTANIA FOREST, DUKATIA DEPT.STORE, ...) and the KNOFENSA-TURM
-* The in-game trade nicknames and OTs (HERAKLES from RALF, ...), ERDBEERE in Viola City, and the default names GOLD, KRISTA and SILBER
-* The cries of LUGIA and HO-OH; `docs/german_cries.md` lists every talking Pokémon for checking the rest against the German release
+* The in-game trade nicknames and OTs (HERAKLES from RALF, ...), the nicknames of other people's Pokémon (ERDBEERE, HABBI, FRATZI, AMPHI) and the default names GOLD, KRISTA and SILBER
+* The cries of the talking Pokémon, as written in *Pokémon Kristall* (MILTANK: "Muh!", LUGIA: "Uargh!", ...); `docs/german_cries.md` lists them all
 
 **Still English:** everything else, including moves, items, badges, types, trainer classes, Pokédex categories and landmarks such as MT.MOON, ICE PATH or RUINS OF ALPH.
 

@@ -1,51 +1,56 @@
-# Pokémon cries in dialogue (manual check)
+# Pokémon cries in dialogue
 
-Every text box in which a Pokémon "speaks". The speaker name is already German;
-the cry itself is still the English one unless marked "applied". Please fill in
-the German cry from *Pokémon Kristall* where it differs.
-"Spells EN name" marks cries that echo the English name and should change in any case.
+Every text box in which a Pokémon "speaks". The speakers and cries are those of the
+German *Pokémon Kristall*, read from its ROM (game code BYTD), except where a note
+says otherwise. "/" separates the lines of the text box.
 
-| # | Where | Pokémon | Current cry | Spells EN name | German cry (fill in) |
-|---|---|---|---|---|---|
-| 1 | `data/text/unused_sweet_honey.asm:67` (unused) | BUTTERFREE → **SMETTBO** | Freeh! | yes |  |
-| 2 | `maps/AzaleaTown.asm:386` | SLOWPOKE → **FLEGMON** | … |  |  |
-| 3 | `maps/BlackthornDragonSpeechHouse.asm:43` | DRATINI (same) | Draa! |  |  |
-| 4 | `maps/CeladonCity.asm:88` | POLIWRATH → **QUAPPO** | Croak! |  |  |
-| 5 | `maps/CeladonMansion1F.asm:57` | MEOWTH → **MAUZI** | Meow! | yes |  |
-| 6 | `maps/CeladonMansion1F.asm:61` | CLEFAIRY → **PIEPI** | Clef cleff! | yes |  |
-| 7 | `maps/CeladonMansion1F.asm:66` | NIDORAN (same) | Kya kyaoo! |  |  |
-| 8 | `maps/CeruleanCity.asm:184` | SLOWBRO → **LAHMUS** | Yarah? |  |  |
-| 9 | `maps/CeruleanPoliceStation.asm:41` | DIGLETT → **DIGDA** | Dug dug. |  |  |
-| 10 | `maps/CeruleanTradeSpeechHouse.asm:46` | KANGASKHAN → **KANGAMA** | Garu garuu. |  |  |
-| 11 | `maps/CeruleanTradeSpeechHouse.asm:51` | ZUBAT (same) | Zuba zubaa. |  |  |
-| 12 | `maps/CharcoalKiln.asm:146` | FARFETCH'D → **PORENTA** | Kwaa! |  |  |
-| 13 | `maps/CopycatsHouse1F.asm:70` | BLISSEY → **HEITEIRA** | Bliisii! | yes |  |
-| 14 | `maps/CopycatsHouse2F.asm:343` | DODRIO → **DODRI** | Gii giii! |  |  |
-| 15 | `maps/DanceTheatre.asm:295` | RHYDON → **RIZEROS** | Gugooh gugogooh! |  |  |
-| 16 | `maps/GoldenrodDeptStoreB1F.asm:107` | MACHOKE → **MASCHOCK** | Maaacho! |  |  |
-| 17 | `maps/IlexForest.asm:774` | FARFETCH'D → **PORENTA** | Kwaa! |  |  |
-| 18 | `maps/IndigoPlateauPokecenter1F.asm:312` | ABRA (same) | Aabra… |  |  |
-| 19 | `maps/KurtsHouse.asm:671` | SLOWPOKE → **FLEGMON** | … Yawn? |  |  |
-| 20 | `maps/LakeOfRage.asm:353` | GYARADOS → **GARADOS** | Gyashaa! |  |  |
-| 21 | `maps/MrFujisHouse.asm:69` | PSYDUCK → **ENTON** | Gu-guwa? |  |  |
-| 22 | `maps/MrFujisHouse.asm:73` | NIDORINO (same) | Gyun! |  |  |
-| 23 | `maps/MrFujisHouse.asm:77` | PIDGEY → **TAUBSI** | Pijji! |  |  |
-| 24 | `maps/NationalPark.asm:398` | PERSIAN → **SNOBILIKAT** | Fufushaa! |  |  |
-| 25 | `maps/OlivineHouseBeta.asm:37` | RHYDON → **RIZEROS** | Gugooh! |  |  |
-| 26 | `maps/PewterNidoranSpeechHouse.asm:26` | NIDORAN (same) | Gau gau! |  |  |
-| 27 | `maps/PewterPokecenter1F.asm:50` | JIGGLYPUFF → **PUMMELUFF** | Puu pupuu. | yes |  |
-| 28 | `maps/PokemonFanClub.asm:283` | BAYLEEF → **LORBLATT** | Li liif! | yes |  |
-| 29 | `maps/RadioTower2F.asm:365` | JIGGLYPUFF → **PUMMELUFF** | Jiggly… | yes |  |
-| 30 | `maps/RadioTower4F.asm:149` | MEOWTH → **MAUZI** | Meowth… | yes |  |
-| 31 | `maps/Route28SteelWingHouse.asm:68` | FEAROW → **IBITAK** | Feero! | yes |  |
-| 32 | `maps/Route34IlexForestGate.asm:119` | BUTTERFREE → **SMETTBO** | Freeh! | yes |  |
-| 33 | `maps/Route39.asm:188` | MILTANK (same) | Mooo! |  |  |
-| 34 | `maps/Route39Barn.asm:141` | MILTANK (same) | …Moo… |  |  |
-| 35 | `maps/Route39Barn.asm:149` | MILTANK (same) | Mooo! |  |  |
-| 36 | `maps/TeamRocketBaseB3F.asm:436` | MURKROW → **KRAMURX** | The password is… |  |  |
-| 37 | `maps/TinTower9F.asm:13` (unused) | HO-OH (same) | Shaoooh! |  | Uah! (applied) |
-| 38 | `maps/TinTower9F.asm:17` (unused) | LUGIA (same) | Gyaaan! |  | Uargh! (applied) |
-| 39 | `maps/VermilionCity.asm:147` | MACHOP → **MACHOLLO** | Guooh gogogoh! |  |  |
-| 40 | `maps/VioletNicknameSpeechHouse.asm:42` | nickname STRAWBERRY → **ERDBEERE** (PIDGEY → TAUBSI) | Pijji! |  |  |
-| 41 | `maps/ViridianNicknameSpeechHouse.asm:56` | nickname SPEARY (SPEAROW → HABITAK), German nickname open | Ch-chun! |  |  |
-| 42 | `maps/ViridianNicknameSpeechHouse.asm:60` | nickname RATTEY (RATTATA → RATTFRATZ), German nickname open | Kikiii! |  |  |
+| Where | Pokémon | Cry | Note |
+|---|---|---|---|
+| `data/text/unused_sweet_honey.asm:67` (unused) | BUTTERFREE → **SMETTBO** | Booh! |  |
+| `maps/AzaleaTown.asm:386` | SLOWPOKE → **FLEGMON** | … / …… …… …… |  |
+| `maps/AzaleaTown.asm:392` | FLEGMON (no name shown) | …… ……Yawn? | Kristall: "Gähn?"; the text stays English |
+| `maps/AzaleaTown.asm:396` (unused) | WOOSTER (SUMPEX) | Gugyoo… |  |
+| `maps/BlackthornDragonSpeechHouse.asm:43` | DRATINI | Draa! |  |
+| `maps/CeladonCity.asm:88` | POLIWRATH → **QUAPPO** | Quaak! |  |
+| `maps/CeladonMansion1F.asm:57` | MEOWTH → **MAUZI** | Mauz! |  |
+| `maps/CeladonMansion1F.asm:61` | CLEFAIRY → **PIEPI** | Piep piep / piep! |  |
+| `maps/CeladonMansion1F.asm:66` | NIDORAN | Nido / nido! |  |
+| `maps/CeruleanCity.asm:184` | SLOWBRO → **LAHMUS** | Jarah? |  |
+| `maps/CeruleanPoliceStation.asm:41` | DIGLETT → **DIGDA** | Dig, Dig. |  |
+| `maps/CeruleanTradeSpeechHouse.asm:46` | KANGASKHAN → **KANGAMA** | Gamu / gamu. |  |
+| `maps/CeruleanTradeSpeechHouse.asm:51` | ZUBAT | Zuba zuba. |  |
+| `maps/CharcoalKiln.asm:146` | FARFETCH'D → **PORENTA** | Kwaa! |  |
+| `maps/CopycatsHouse1F.asm:70` | BLISSEY → **HEITEIRA** | Teirii! |  |
+| `maps/CopycatsHouse2F.asm:343` | DODRIO → **DODRI** | Gii giii! |  |
+| `maps/DanceTheatre.asm:295` | RHYDON → **RIZEROS** | Gugooh / gugogooh! |  |
+| `maps/GoldenrodDeptStoreB1F.asm:107` | MACHOKE → **MASCHOCK** | Mascho! |  |
+| `maps/IlexForest.asm:774` | FARFETCH'D → **PORENTA** | Quack! |  |
+| `maps/IndigoPlateauPokecenter1F.asm:312` | ABRA | Aabra… |  |
+| `maps/KurtsHouse.asm:671` | SLOWPOKE → **FLEGMON** | … / Yawn? | Kristall: "Gähn?"; the text stays English |
+| `maps/LakeOfRage.asm:353` | GYARADOS → **GARADOS** | Gashaa! |  |
+| `maps/MrFujisHouse.asm:69` | PSYDUCK → **ENTON** | Qua-qua? |  |
+| `maps/MrFujisHouse.asm:73` | NIDORINO | Nido! |  |
+| `maps/MrFujisHouse.asm:77` | PIDGEY → **TAUBSI** | Gru gru! |  |
+| `maps/NationalPark.asm:398` | PERSIAN → **SNOBILIKAT** | Fauch! |  |
+| `maps/OlivineHouseBeta.asm:37` | RHYDON → **RIZEROS** | Gugooh! |  |
+| `maps/OlivineLighthouse6F.asm:248` | AMPHY → **AMPHI** (AMPHAROS) | … / …Pa…Paluu… |  |
+| `maps/OlivineLighthouse6F.asm:258` | AMPHY → **AMPHI** (AMPHAROS) | Palu! / Palulu! |  |
+| `maps/PewterNidoranSpeechHouse.asm:26` | NIDORAN | Nido, / nido! |  |
+| `maps/PewterPokecenter1F.asm:50` | JIGGLYPUFF → **PUMMELUFF** | Puu / pupuu. |  |
+| `maps/PokemonFanClub.asm:283` | BAYLEEF → **LORBLATT** | Bla, / blatt! |  |
+| `maps/RadioTower2F.asm:365` | JIGGLYPUFF → **PUMMELUFF** | Pummel… |  |
+| `maps/RadioTower4F.asm:149` | MEOWTH → **MAUZI** | Mauzi… |  |
+| `maps/Route28SteelWingHouse.asm:68` | FEAROW → **IBITAK** | Ibitaag! |  |
+| `maps/Route34IlexForestGate.asm:119` | BUTTERFREE → **SMETTBO** | Boh! |  |
+| `maps/Route39.asm:188` | MILTANK | Muh! |  |
+| `maps/Route39Barn.asm:141` | MILTANK | …Muh… |  |
+| `maps/Route39Barn.asm:149` | MILTANK | MUH! |  |
+| `maps/TeamRocketBaseB3F.asm:436` | MURKROW → **KRAMURX** | The / password is… / HAIL GIOVANNI. | dialogue; the text stays English |
+| `maps/TinTower9F.asm:13` (unused) | HO-OH | Shaoooh! |  |
+| `maps/TinTower9F.asm:17` (unused) | LUGIA | Gyaaan! |  |
+| `maps/TinTowerRoof.asm:42` | HO-OH (no name shown) | Uah! |  |
+| `maps/VermilionCity.asm:147` | MACHOP → **MACHOLLO** | Guooh / gogogoh! |  |
+| `maps/VioletNicknameSpeechHouse.asm:42` | STRAWBERRY → **ERDBEERE** (TAUBSI) | Taubsii! |  |
+| `maps/ViridianNicknameSpeechHouse.asm:56` | SPEARY → **HABBI** (HABITAK) | Kr-rrr! |  |
+| `maps/ViridianNicknameSpeechHouse.asm:60` | RATTEY → **FRATZI** (RATTFRATZ) | Kikiii! |  |
+| `maps/WhirlIslandLugiaChamber.asm:41` | LUGIA (no name shown) | Uargh! |  |

@@ -67,7 +67,7 @@ CopycatsHouse1FPokefanFText_ReturnedMachinePart:
 	done
 
 CopycatsHouse1FBlisseyText:
-	text "HEITEIRA: Bliisii!"
+	text "HEITEIRA: Teirii!"
 	done
 
 CopycatsHouse1F_MapEvents:
