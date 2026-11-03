@@ -116,25 +116,25 @@ NationalParkBugContestHiddenFullHeal:
 	hiddenitem FULL_HEAL, EVENT_NATIONAL_PARK_HIDDEN_FULL_HEAL
 
 BugCatchingContestant1AText:
-	text "DON: I'm going to"
+	text "ULI: I'm going to"
 	line "win! Don't bother"
 	cont "me."
 	done
 
 BugCatchingContestant2AText:
-	text "ED: My PARASECT"
+	text "ALAN: My PARASEK"
 	line "puts #MON to"
 	cont "sleep with SPORE."
 	done
 
 BugCatchingContestant3AText:
-	text "NICK: I'm raising"
+	text "LARS: I'm raising"
 	line "fast #MON for"
 	cont "battles."
 	done
 
 BugCatchingContestant4AText:
-	text "WILLIAM: I'm not"
+	text "WILHELM: I'm not"
 	line "concerned about"
 	cont "winning."
 
@@ -143,15 +143,15 @@ BugCatchingContestant4AText:
 	done
 
 BugCatchingContestant5AText:
-	text "BENNY: Ssh! You'll"
-	line "scare off SCYTHER."
+	text "AXEL: Ssh! You'll"
+	line "scare off SICHLOR."
 
 	para "I'll talk to you"
 	line "later."
 	done
 
 BugCatchingContestant6AText:
-	text "BARRY: You should"
+	text "TILL: You should"
 	line "weaken bug #MON"
 
 	para "first, then throw"
@@ -167,7 +167,7 @@ BugCatchingContestant7AText:
 	done
 
 BugCatchingContestant8AText:
-	text "JOSH: I've been"
+	text "ENNO: I've been"
 	line "collecting bug"
 
 	para "#MON since I"
@@ -178,7 +178,7 @@ BugCatchingContestant8AText:
 	done
 
 BugCatchingContestant9AText:
-	text "SAMUEL: If you've"
+	text "GUIDO: If you've"
 	line "got the time to"
 
 	para "chat, go find some"
@@ -186,9 +186,9 @@ BugCatchingContestant9AText:
 	done
 
 BugCatchingContestant10AText:
-	text "KIPP: I've studied"
-	line "about bug #MON"
-	cont "a lot."
+	text "MICHEL: I've"
+	line "studied about bug"
+	cont "#MON a lot."
 
 	para "I'm going to win"
 	line "for sure."

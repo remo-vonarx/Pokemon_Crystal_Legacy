@@ -356,18 +356,18 @@ BugCatcherJoshAfterBattleText:
 	done
 
 TwinsAmyandmay1SeenText:
-	text "AMY: Hi! Are you"
+	text "EVA: Hi! Are you"
 	line "challenging the"
 	cont "LEADER? No way!"
 	done
 
 TwinsAmyandmay1BeatenText:
-	text "AMY & MAY: Oh,"
+	text "EVA & UTE: Oh,"
 	line "double goodness!"
 	done
 
 TwinsAmyandmay1AfterBattleText:
-	text "AMY: You're"
+	text "EVA: You're"
 	line "really strong!"
 
 	para "But KAI's even"
@@ -379,7 +379,7 @@ TwinsAmyandmay1AfterBattleText:
 	done
 
 TwinsAmyandmay2SeenText:
-	text "MAY: You want to"
+	text "UTE: You want to"
 	line "see the LEADER?"
 	cont "Good luck!"
 	
@@ -392,12 +392,12 @@ TwinsAmyandmay2SeenText:
 	done
 
 TwinsAmyandmay2BeatenText:
-	text "AMY & MAY: Oh,"
+	text "EVA & UTE: Oh,"
 	line "double goodness!"
 	done
 
 TwinsAmyandmay2AfterBattleText:
-	text "MAY: Our bug #-"
+	text "UTE: Our bug #-"
 	line "MON lost! Oh, what"
 	cont "a shame."
 
