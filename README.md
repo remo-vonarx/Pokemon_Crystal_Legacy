@@ -9,9 +9,35 @@ Huge thanks to TSP for leading the project, Jaashouh the admin of the discord se
 We would also like to credit & thank Katt, Chamber, Soloo993, Blue Emerald, Lake, Neslug, Tom Wang, Seasick, & Pikachu25 for the several amazing custom sprites used in the hack. Nayru62 for their help involving the Pokedex & Pokemon pages. Rangi42, Idain, DamienDoury, Sylvie, aaaaaa123456789, SonicRay100, Edtv-thevoid, coco-bandicoot, MajorAgnostic, KDLPro, Nick-PC, XaeroChill, & NobodySociety for their incredibly helpful tutorials for Pokecrystal. Finally, a massive shoutout to everyone involved in [the Pokémon Crystal Disassembly](https://github.com/pret/pokecrystal) as this project wouldn’t have even been able to get off the ground without them!
 
 
+## Changes in this fork
+
+This fork keeps the English text of Crystal Legacy, but uses the German names, so the game feels familiar to everyone who grew up with the German releases. It is the sister of the German-names fork of [Yellow Legacy](https://github.com/cRz-Shadows/Pokemon_Yellow_Legacy).
+
+**German:**
+* All 251 Pokémon, also in dialogue, signs, phone calls, the radio and the Pokédex (FLEGMON, KARPADOR, ICOGNITO, ...); the Pokédex A to Z mode is sorted by the German names
+* Characters: PROF LIND, PROF EICH, MAMA, the gym leaders (FALK, KAI, BIANKA, JENS, HARTWIG, JASMIN, NORBERT, SANDRA, ROCKO, MAJOR BOB, JANINA, PYRO, BLAU), the ELITE FOUR WILLI and MELANIE, champion SIEGFRIED, ROT, EUSIN, DJ MARGIT and DJ BASTIAN, the executives ATLAS and ATHENA, the KIMONO GIRLS and the SAGES
+* The ordinary trainers' names as in *Pokémon Kristall* (YOUNGSTER JULIAN, BUG CATCHER GREG, PICNICKER ANETTE, ...); their classes stay English, and umlauts are written out (BUG CATCHER JOERG)
+* Cities: NEUBORKIA, ROSALIA CITY, VIOLA CITY, AZALEA CITY, DUKATIA CITY, TEAK CITY, OLIVIANA CITY, ANEMONIA CITY, MAHAGONIA CITY, EBENHOLZ CITY, and in Kanto ALABASTIA, VERTANIA CITY, MARMORIA CITY, AZURIA CITY, ORANIA CITY, LAVANDIA, PRISMANIA CITY, FUCHSANIA CITY, SAFFRONIA CITY and ZINNOBER ISLAND
+* Places named after a city or Pokémon (FLEGMON WELL, DIGDA'S CAVE, VERTANIA FOREST, DUKATIA DEPT.STORE, ...) and the KNOFENSA-TURM
+* The in-game trade nicknames and OTs (HERAKLES from RALF, ...), ERDBEERE in Viola City, and the default names GOLD, KRISTA and SILBER
+* The cries of LUGIA and HO-OH; `docs/german_cries.md` lists every talking Pokémon for checking the rest against the German release
+
+**Still English:** everything else, including moves, items, badges, types, trainer classes, Pokédex categories and landmarks such as MT.MOON, ICE PATH or RUINS OF ALPH.
+
+To keep names and line lengths consistent after changes, run `python3 tools/check_names.py` and `python3 tools/check_text_width.py`; `tools/germanize.py` replaces English names inside text strings and `tools/rename_trainers.py` renames trainers.
+
 ## Download and Play
 
 * ### **You should use RGBDS version 0.5.2.**
+* On macOS, build 0.5.2 from source:
+  ```
+  brew install bison libpng pkg-config
+  curl -L https://github.com/gbdev/rgbds/archive/refs/tags/v0.5.2.tar.gz | tar -xz
+  cd rgbds-0.5.2
+  make BISON=$(brew --prefix bison)/bin/bison
+  make install PREFIX=$HOME/.local/rgbds-0.5.2
+  ```
+  Then run `export PATH=$HOME/.local/rgbds-0.5.2/bin:$PATH` before `make` in this repository. With a newer RGBDS the `Pics` banks overflow.
 * To set up the repository, see [INSTALL.md](INSTALL.md).
 
 
