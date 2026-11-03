@@ -157,7 +157,7 @@ GoldenrodFlowerShopTeacherHeresTheSquirtbottleText:
 
 GoldenrodFlowerShopTeacherHeresTheGoldBerryText:
 	text "Oh, you"
-	line "found FLORIA…"
+	line "found FLORA…"
 
 	para "Here's a GOLD"
 	line "BERRY as thanks!"

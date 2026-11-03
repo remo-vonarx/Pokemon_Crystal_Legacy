@@ -226,11 +226,11 @@ BlackthornYoungsterText:
 	done
 
 MeetSantosText:
-	text "SANTOS: …"
+	text "SAMSON: …"
 
 	para "It's Saturday…"
 
-	para "I'm SANTOS of"
+	para "I'm SAMSON of"
 	line "Saturday…"
 	done
 
@@ -239,7 +239,7 @@ SantosGivesGiftText:
 	done
 
 SantosGaveGiftText:
-	text "SANTOS: …"
+	text "SAMSON: …"
 
 	para "SPELL TAG…"
 
@@ -251,7 +251,7 @@ SantosGaveGiftText:
 	done
 
 SantosSaturdayText:
-	text "SANTOS: …"
+	text "SAMSON: …"
 
 	para "See you again on"
 	line "another Saturday…"
@@ -261,7 +261,7 @@ SantosSaturdayText:
 	done
 
 SantosNotSaturdayText:
-	text "SANTOS: Today's"
+	text "SAMSON: Today's"
 	line "not Saturday…"
 	done
 

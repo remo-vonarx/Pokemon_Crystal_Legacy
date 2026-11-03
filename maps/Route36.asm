@@ -446,7 +446,7 @@ SudowoodoAttackedText:
 
 FloriaText1:
 	text "I'm the FLOWER"
-	line "SHOP's FLORIA!"
+	line "SHOP's FLORA!"
 
 	para "Listen, listen!"
 
@@ -598,10 +598,10 @@ SchoolboyAlanBooksText:
 	done
 
 MeetArthurText:
-	text "ARTHUR: Who are"
+	text "DONATUS: Who are"
 	line "you?"
 
-	para "I'm ARTHUR of"
+	para "I'm DONATUS of"
 	line "Thursday."
 	done
 
@@ -611,7 +611,7 @@ ArthurGivesGiftText:
 	done
 
 ArthurGaveGiftText:
-	text "ARTHUR: A #MON"
+	text "DONATUS: A #MON"
 	line "that uses rock-"
 
 	para "type moves should"
@@ -622,15 +622,17 @@ ArthurGaveGiftText:
 	done
 
 ArthurThursdayText:
-	text "ARTHUR: I'm ARTHUR"
-	line "of Thursday. I'm"
+	text "DONATUS: I'm"
+	line "DONATUS of"
+	cont "Thursday."
 
-	para "the second son out"
-	line "of seven children."
+	para "I'm the second son"
+	line "out of seven"
+	cont "children."
 	done
 
 ArthurNotThursdayText:
-	text "ARTHUR: Today's"
+	text "DONATUS: Today's"
 	line "not Thursday. How"
 	cont "disappointing."
 	done

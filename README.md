@@ -15,14 +15,16 @@ This fork keeps the English text of Crystal Legacy, but uses the German names, s
 
 **German:**
 * All 251 Pokémon, also in dialogue, signs, phone calls, the radio and the Pokédex (FLEGMON, KARPADOR, ICOGNITO, ...); the Pokédex A to Z mode is sorted by the German names
-* Characters: PROF LIND, PROF EICH, MAMA, the gym leaders (FALK, KAI, BIANKA, JENS, HARTWIG, JASMIN, NORBERT, SANDRA, ROCKO, MAJOR BOB, JANINA, PYRO, BLAU), the ELITE FOUR WILLI and MELANIE, champion SIEGFRIED, ROT, EUSIN, DJ MARGIT and DJ BASTIAN, the executives ATLAS and ATHENA, the KIMONO GIRLS and the SAGES
-* The ordinary trainers' names as in *Pokémon Kristall* (YOUNGSTER JULIAN, BUG CATCHER GREG, PICNICKER ANETTE, ...); their classes stay English. The font has Ä, Ö and Ü for them (BUG CATCHER JÖRG, HIKER GÜNTER)
+* Characters: PROF LIND, PROF EICH, MAMA, the gym leaders (FALK, KAI, BIANKA, JENS, HARTWIG, JASMIN, NORBERT, SANDRA, ROCKO, MAJOR BOB, JANINA, PYRO, BLAU), the ELITE FOUR WILLI and MELANIE, champion SIEGFRIED, ROT, EUSIN, DJ MARGIT and DJ BASTIAN, the executives ATLAS and ATHENA, the KIMONO GIRLS and the SAGES, the weekday siblings (MONJA, DIETLINDE, MITKO, DONATUS, FRIEDA, SAMSON, SONNFRIED), SARAH, FLORA, DJ LILLY, DJ FABIAN, MR.PSYCHO and the default names in the naming menus
+* All trainers' names as in *Pokémon Kristall* (YOUNGSTER JULIAN, BUG CATCHER GREG, PICNICKER ANETTE, ...); their classes stay English, and so do GRUNT and EXECUTIVE. The font has Ä, Ö and Ü for them (BUG CATCHER JÖRG, HIKER GÜNTER)
 * Cities: NEUBORKIA, ROSALIA CITY, VIOLA CITY, AZALEA CITY, DUKATIA CITY, TEAK CITY, OLIVIANA CITY, ANEMONIA CITY, MAHAGONIA CITY, EBENHOLZ CITY, and in Kanto ALABASTIA, VERTANIA CITY, MARMORIA CITY, AZURIA CITY, ORANIA CITY, LAVANDIA, PRISMANIA CITY, FUCHSANIA CITY, SAFFRONIA CITY and ZINNOBER ISLAND
 * Places named after a city or Pokémon (FLEGMON WELL, DIGDA'S CAVE, VERTANIA FOREST, DUKATIA DEPT.STORE, ...) and the KNOFENSA-TURM
-* The in-game trade nicknames and OTs (HERAKLES from RALF, ...), the nicknames of other people's Pokémon (ERDBEERE, HABBI, FRATZI, AMPHI) and the default names GOLD, KRISTA and SILBER
+* The in-game trade nicknames and OTs (HERAKLES from RALF, ...), the nicknames of other people's Pokémon (ERDBEERE, HABBI, FRATZI, AMPHI, HABSI, MODRI) and the default names GOLD, KRISTA and SILBER
 * The cries of the talking Pokémon, as written in *Pokémon Kristall* (MILTANK: "Muh!", LUGIA: "Uargh!", ...); `docs/german_cries.md` lists them all
 
 **Still English:** everything else, including moves, items, badges, types, trainer classes, Pokédex categories and landmarks such as MT.MOON, ICE PATH or RUINS OF ALPH.
+
+The names, trades and cries were checked against a dump of the German *Pokémon Kristall* cartridge.
 
 To keep names and line lengths consistent after changes, run `python3 tools/check_names.py` and `python3 tools/check_text_width.py`; `tools/germanize.py` replaces English names inside text strings and `tools/rename_trainers.py` renames trainers.
 

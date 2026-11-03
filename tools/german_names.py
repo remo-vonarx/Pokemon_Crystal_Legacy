@@ -277,6 +277,8 @@ NPC_NICKNAMES = {
 	'SPEARY': 'HABBI',
 	'RATTEY': 'FRATZI',
 	'AMPHY': 'AMPHI',
+	'KENYA': 'HABSI',
+	'SHUCKIE': 'MODRI',
 }
 
 # in-game trades: (nickname, OT) -> German (nickname, OT), in NPCTrades order
@@ -340,6 +342,23 @@ PEOPLE = {
 	'ZUKI': 'LINDA',
 	'KUNI': 'WILMA',
 	'MIKI': 'LORE',
+	# other people, from the German Kristall ROM
+	'DAISY': 'SARAH',
+	'FLORIA': 'FLORA',
+	'LILY': 'LILLY',
+	'FERN': 'FABIAN',
+	'MR.PSYCHIC': 'MR.PSYCHO',
+	'KIYO': 'LEIF',
+	'TANIA': 'TANJA',
+	'MANIA': 'GABRIELE',
+	'RANDY': 'HARALD',
+	# the weekday siblings
+	'MONICA': 'MONJA',
+	'TUSCANY': 'DIETLINDE',
+	'WESLEY': 'MITKO',
+	'ARTHUR': 'DONATUS',
+	'SANTOS': 'SAMSON',
+	'SUNNY': 'SONNFRIED',
 }
 
 # phrases in which a name is an ordinary word and must stay English
@@ -348,6 +367,7 @@ PROTECTED = [
 	r'RED SCALE',
 	r'RED APRICORN',
 	r'BLUE CARD',
+	r'SUNNY DAY',
 	r'Your BLUE$',  # "Your BLUE" / "CARD"
 	r'^(?:RED|BLUE) +$',  # Pokedex border colours
 ]

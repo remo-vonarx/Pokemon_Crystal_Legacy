@@ -481,13 +481,13 @@ CooltrainerfLoisAfterBattleText:
 	done
 
 MeetWesleyText:
-	text "WESLEY: Well, how"
+	text "MITKO: Well, how"
 	line "do you do?"
 
 	para "Seeing as how it's"
 	line "Wednesday today,"
 
-	para "I'm WESLEY of"
+	para "I'm MITKO of"
 	line "Wednesday."
 	done
 
@@ -498,13 +498,13 @@ WesleyGivesGiftText:
 	done
 
 WesleyGaveGiftText:
-	text "WESLEY: BLACKBELT"
+	text "MITKO: BLACKBELT"
 	line "beefs up the power"
 	cont "of fighting moves."
 	done
 
 WesleyWednesdayText:
-	text "WESLEY: Since you"
+	text "MITKO: Since you"
 	line "found me, you must"
 
 	para "have met my broth-"
@@ -515,7 +515,7 @@ WesleyWednesdayText:
 	done
 
 WesleyNotWednesdayText:
-	text "WESLEY: Today's"
+	text "MITKO: Today's"
 	line "not Wednesday."
 	cont "That's too bad."
 	done

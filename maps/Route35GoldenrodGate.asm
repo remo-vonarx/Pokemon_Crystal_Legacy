@@ -68,10 +68,10 @@ GiftSpearowMail:
 	next "to another road@"
 
 GiftSpearowName:
-	db "KENYA@"
+	db "HABSI@"
 
 GiftSpearowOTName:
-	db "RANDY@"
+	db "HARALD@"
 
 	db 0 ; unused
 

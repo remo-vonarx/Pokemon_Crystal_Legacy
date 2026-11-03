@@ -1222,7 +1222,7 @@ Cianwood_Map_Name2: ; map_const ROUTE_41, ;  2
 Cianwood_Map_Name3: ; map_const CIANWOOD_CITY ;  3
 	db "ANEMONIA CITY@"
 Cianwood_Map_Name4: ; map_const MANIAS_HOUSE ;  4
-	db "MANIA'S HOUSE@"
+	db "GABRIELE'S HOUSE@"
 Cianwood_Map_Name5: ; map_const CIANWOOD_GYM ;  5
 	db "ANEMONIA GYM@"
 Cianwood_Map_Name6: ; map_const CIANWOOD_POKECENTER_1F ;  6
@@ -1317,7 +1317,7 @@ Saffron_Map_Name6: ; map_const SAFFRON_POKECENTER_1F ;  6
 Saffron_Map_Name7: ; map_const SAFFRON_POKECENTER_2F_BETA ;  7
 	db "SAFFRONIA PC BETA@"
 Saffron_Map_Name8: ; map_const MR_PSYCHICS_HOUSE ;  8
-	db "MR.PSYCHICS HOUSE@"
+	db "MR.PSYCHOS HOUSE@"
 Saffron_Map_Name9: ; map_const SAFFRON_MAGNET_TRAIN_STATION,;  9
 	db "SAFFRONIA STATION@"
 Saffron_Map_Name10: ; map_const SILPH_CO_1F ; 10

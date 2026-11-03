@@ -150,7 +150,7 @@ BillsEevee_Str:
 	next "baby with un-"
 	next "limited potential.@"
 TyrogueEvent_Str:
-	db 	 "Gift from KIYO,"
+	db 	 "Gift from LEIF,"
 	next "Karate Expert."
 	next "@"
 OldAmberEvent_Str:

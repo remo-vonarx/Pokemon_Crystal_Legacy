@@ -734,12 +734,12 @@ _BenIntroText3::
 
 _FernIntroText1::
 	text_start
-	line "FERN: #MUSIC!"
+	line "FABIAN: #MUSIC!"
 	done
 
 _FernIntroText2::
 	text_start
-	line "With DJ FERN!"
+	line "With DJ FABIAN!"
 	done
 
 _BenFernText1::
@@ -853,7 +853,7 @@ _PnP_Text2::
 
 _PnP_Text3::
 	text_start
-	line "me, DJ LILY!"
+	line "me, DJ LILLY!"
 	done
 
 _PnP_Text4::

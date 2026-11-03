@@ -62,7 +62,7 @@ LizBattleRematchText:
 	done
 
 LizWrongNumberText:
-	text "Hi, TANIA. How are"
+	text "Hi, TANJA. How are"
 	line "you? This is"
 	cont "ANETTE."
 

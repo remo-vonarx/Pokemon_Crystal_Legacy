@@ -85,7 +85,7 @@ ChadBlueGossipText:
 ChadDaisyGossipText:
 	text "PROF EICH has a"
 	line "granddaughter"
-	cont "named DAISY."
+	cont "named SARAH."
 
 	para "When she's around,"
 	line "even the most"
@@ -189,7 +189,7 @@ ChadProfOakTrainerGossipText:
 ChadDaisyTeaGossipText:
 	text "PROF EICH has a"
 	line "granddaughter"
-	cont "named DAISY."
+	cont "named SARAH."
 
 	para "She has tea every"
 	line "day for an hour"

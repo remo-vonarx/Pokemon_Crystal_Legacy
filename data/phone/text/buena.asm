@@ -419,17 +419,17 @@ BuenaPhoneCompanyVacationText:
 BuenaPhoneBenAndFernText:
 	text "Did you know…?"
 
-	para "BEN and FERN talk"
-	line "on the phone for"
+	para "BEN and FABIAN"
+	line "talk on the phone"
 
-	para "hours about what"
-	line "#MON music they"
+	para "for hours about"
+	line "what #MON music"
 
-	para "should play on"
-	line "different days of"
-	cont "the week."
+	para "they should play"
+	line "on different days"
+	cont "of the week."
 
-	para "One time, FERN's"
+	para "One time, FABIAN's"
 	line "rapping style kind"
 
 	para "of rubbed off on"
@@ -449,7 +449,7 @@ BuenaPhoneBenAndFernText:
 BuenaPhoneGoingShoppingText:
 	text "I'm going shopping"
 	line "with MARGIT and"
-	cont "LILY soon."
+	cont "LILLY soon."
 
 	para "It'll be great if"
 	line "DUKATIA DEPT."
