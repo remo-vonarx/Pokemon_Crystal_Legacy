@@ -417,13 +417,13 @@ PKMNTrainerGroup:
 	; CRAIG
 	db "CRAIG@", TRAINERTYPE_NICKNAME | TRAINERTYPE_DVS | TRAINERTYPE_STAT_EXP | TRAINERTYPE_ITEM_MOVES
 		db 70, JOLTEON	
-				db "@JOLTEON@"
+				db "@BLITZA@"
 				db $ed, PERFECT_DV ; atk|def, spd|spc
 				dw $01FE, $01FE, $01FE, $01FE, $01FE ; hp, atk, def, spd, spc
 				db MINT_BERRY
 				db BATON_PASS, GROWTH, THUNDERBOLT, HIDDEN_POWER
 		db 70, MEGANIUM
-				db "@MEGANIUM@"
+				db "@MEGANIE@"
 				db $df, $df ; atk|def, spd|spc
 				dw $01FE, $01FE, $01FE, $01FE, $01FE ; hp, atk, def, spd, spc
 				db LEFTOVERS
@@ -435,7 +435,7 @@ PKMNTrainerGroup:
 				db GOLD_BERRY
 				db CURSE, EARTHQUAKE, ANCIENTPOWER, SUBSTITUTE
 		db 70, MISDREAVUS
-				db "@MISDREAVUS@"
+				db "@TRAUNFUGIL@"
 				db $df, $df ; atk|def, spd|spc
 				dw $01FE, $01FE, $01FE, $01FE, $01FE ; hp, atk, def, spd, spc
 				db MIRACLEBERRY
@@ -4037,13 +4037,13 @@ PKMNTrainerFGroup:
 	; WEEBRA
 	db "WEEBRA@", TRAINERTYPE_NICKNAME | TRAINERTYPE_DVS | TRAINERTYPE_STAT_EXP | TRAINERTYPE_ITEM_MOVES
 		db 70, FORRETRESS	
-				db "@FORRETRESS@"
+				db "@FORSTELLKA@"
 				db $dc, $dd ; atk|def, spd|spc
 				dw $01FE, $01FE, $01FE, $01FE, $01FE ; hp, atk, def, spd, spc
 				db QUICK_CLAW
 				db TOXIC, ROLLOUT, SANDSTORM, PROTECT
 		db 70, QUAGSIRE
-				db "@QUAGSIRE@"
+				db "@MORLORD@"
 				db $dc, $dd ; atk|def, spd|spc
 				dw $01FE, $01FE, $01FE, $01FE, $01FE ; hp, atk, def, spd, spc
 				db QUICK_CLAW
@@ -4055,7 +4055,7 @@ PKMNTrainerFGroup:
 				db SCOPE_LENS
 				db SKY_ATTACK, ROCK_SLIDE, FLAMETHROWER, IRON_TAIL
 		db 70, SNORLAX
-				db "@SNORLAX@"
+				db "@RELAXO@"
 				db $dc, $dd ; atk|def, spd|spc
 				dw $01FE, $01FE, $01FE, $01FE, $01FE ; hp, atk, def, spd, spc
 				db LEFTOVERS

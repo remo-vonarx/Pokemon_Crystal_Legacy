@@ -489,7 +489,7 @@ PicnickerTiffanyWantsPicnicText:
 	done
 
 PicnickerTiffanyClefairyText:
-	text "Isn't my CLEFABLE"
+	text "Isn't my PIXI"
 	line "just the most"
 	cont "adorable thing?"
 	done

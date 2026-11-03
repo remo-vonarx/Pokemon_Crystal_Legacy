@@ -321,7 +321,7 @@ SageNealAfterBattleText:
 SproutTower3FPaintingText:
 	text "It's a powerful"
 	line "painting of a"
-	cont "BELLSPROUT."
+	cont "KNOFENSA."
 	done
 
 SproutTower3FStatueText:

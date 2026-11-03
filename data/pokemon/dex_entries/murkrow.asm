@@ -5,6 +5,6 @@
 	next "object it finds in"
 	next "a secret location."
 
-	page "MURKROW and"
-	next "MEOWTH loot one"
+	page "KRAMURX and"
+	next "MAUZI loot one"
 	next "another's stashes.@"

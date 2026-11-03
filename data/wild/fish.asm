@@ -260,17 +260,17 @@ Group4_Name:
 Group5_Name:
     db " DRATINI@"
 Group6_Name:
-    db " QWILFISH SWARM@"
+    db " BALDORFISH SWARM@"
 Group7_Name:
     db " REMORAID SWARM@"
 Group8_Name:
-    db " GYARADOS@"
+    db " GARADOS@"
 Group9_Name:
     db " ROUTE 45@"
 Group10_Name:
     db " WHIRL ISLE@"
 Group11_Name:
-    db " QWILFISH@"
+    db " BALDORFISH@"
 Group12_Name:
     db " REMORAID@"
 Group13_Name:

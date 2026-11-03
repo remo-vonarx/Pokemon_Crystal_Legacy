@@ -398,12 +398,12 @@ BeautySamanthaSeenText:
 	done
 
 BeautySamanthaBeatenText:
-	text "No! Oh, MEOWTH,"
+	text "No! Oh, MAUZI,"
 	line "I'm so sorry!"
 	done
 
 BeautySamanthaAfterBattleText:
-	text "I taught MEOWTH"
+	text "I taught MAUZI"
 	line "moves for taking"
 	cont "on any type…"
 	done

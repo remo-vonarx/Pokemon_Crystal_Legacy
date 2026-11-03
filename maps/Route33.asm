@@ -183,7 +183,7 @@ HikerAnthony2AfterText:
 
 HikerAnthonyDunsparceText:
 	text "Hey, did you get a"
-	line "DUNSPARCE?"
+	line "DUMMISEL?"
 
 	para "I caught one too."
 

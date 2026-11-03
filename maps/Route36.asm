@@ -546,7 +546,7 @@ Route36LassText:
 	para "I saw a #MON"
 	line "that looked like"
 
-	para "GROWLITHE, but it"
+	para "FUKANO, but it"
 	line "had a scary aura"
 	cont "to it."
 	done

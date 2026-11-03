@@ -218,10 +218,10 @@ MahoganyMart1FBlackBeltText:
 	line "ment worked like a"
 	cont "charm."
 
-	para "MAGIKARP are just"
+	para "KARPADOR are just"
 	line "worthless, but"
 
-	para "GYARADOS are big"
+	para "GARADOS are big"
 	line "moneymakers."
 	done
 

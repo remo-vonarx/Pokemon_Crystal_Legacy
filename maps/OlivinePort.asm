@@ -345,7 +345,7 @@ OlivinePortFridayShipText:
 	done
 
 OlivinePortFishingGuru1Text:
-	text "SHELLDER are easy"
+	text "MUSCHAS are easy"
 	line "to catch here."
 
 	para "They're kind of"

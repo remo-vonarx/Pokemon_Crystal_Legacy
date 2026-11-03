@@ -56,7 +56,7 @@ LakeOfRageGioScript:
 
 GioBeforeText:
 	text "Nothin' but"
-	line "GYARADOS…"
+	line "GARADOS…"
 
 	para "I know it's them."
 	done
@@ -274,10 +274,10 @@ LakeOfRageLanceTeleportIntoSkyMovement:
 
 LakeOfRageLanceForcedToEvolveText:
 	text "This lake is full"
-	line "of GYARADOS but"
+	line "of GARADOS but"
 	cont "nothing else…"
 
-	para "So the MAGIKARP"
+	para "So the KARPADOR"
 	line "are being forced"
 	cont "to evolve…"
 	done
@@ -321,7 +321,7 @@ LakeOfRageLanceRadioSignalText:
 	text "LANCE: Excellent!"
 
 	para "It seems that the"
-	line "LAKE's MAGIKARP"
+	line "LAKE's KARPADOR"
 
 	para "are being forced"
 	line "to evolve."
@@ -348,7 +348,7 @@ LakeOfRageLanceAskHelpText:
 	done
 
 LakeOfRageGyaradosCryText:
-	text "GYARADOS: Gyashaa!"
+	text "GARADOS: Gyashaa!"
 	done
 
 LakeOfRageGotRedScaleText:
@@ -357,21 +357,22 @@ LakeOfRageGotRedScaleText:
 	done
 
 LakeOfRageGrampsText:
-	text "The GYARADOS are"
+	text "The GARADOS are"
 	line "angry!"
 
 	para "It's a bad omen!"
 	done
 
 LakeOfRageGrampsText_ClearedRocketHideout:
-	text "Hahah! The MAGI-"
-	line "KARP are biting!"
+	text "Hahah! The"
+	line "KARPADOR are"
+	cont "biting!"
 	done
 
 LakeOfRageSuperNerdText:
 	text "I heard this lake"
 	line "was made by ram-"
-	cont "paging GYARADOS."
+	cont "paging GARADOS."
 
 	para "I wonder if there"
 	line "is any connection"
@@ -384,11 +385,11 @@ LakeOfRageCooltrainerFText:
 	text "Did my eyes de-"
 	line "ceive me? I saw a"
 
-	para "red GYARADOS in"
+	para "red GARADOS in"
 	line "the LAKE…"
 
 	para "But I thought"
-	line "GYARADOS were"
+	line "GARADOS were"
 	cont "usually blue?"
 	done
 
@@ -456,7 +457,7 @@ CooltrainermAaronAfterBattleText:
 
 CooltrainerfLoisSeenText:
 	text "What happened to"
-	line "the red GYARADOS?"
+	line "the red GARADOS?"
 
 	para "It's gone?"
 
@@ -474,7 +475,7 @@ CooltrainerfLoisBeatenText:
 CooltrainerfLoisAfterBattleText:
 	text "Come to think of"
 	line "it, I've seen a"
-	cont "pink BUTTERFREE."
+	cont "pink SMETTBO."
 	done
 
 MeetWesleyText:
@@ -520,7 +521,7 @@ WesleyNotWednesdayText:
 LakeOfRageSignText:
 	text "LAKE OF RAGE,"
 	line "also known as"
-	cont "GYARADOS LAKE."
+	cont "GARADOS LAKE."
 	done
 
 FishingGurusHouseSignText:

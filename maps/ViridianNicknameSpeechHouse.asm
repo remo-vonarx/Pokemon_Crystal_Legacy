@@ -47,8 +47,9 @@ ViridianNicknameSpeechHousePokefanMText:
 
 ViridianNicknameSpeechHouseLassText:
 	text "They're SPEARY--"
-	line "a SPEAROW--and"
-	cont "RATTEY--a RATTATA."
+	line "a HABITAK--and"
+	cont "RATTEY--a"
+	cont "RATTFRATZ."
 	done
 
 SpearyText:

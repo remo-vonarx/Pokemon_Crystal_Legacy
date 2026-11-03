@@ -299,7 +299,7 @@ PokefanfJaimeBeatenText:
 	done
 
 PokefanfJaimeAfterBattleText:
-	text "I met UMBREON at"
+	text "I met NACHTARA at"
 	line "night right here"
 	cont "on ROUTE 39."
 

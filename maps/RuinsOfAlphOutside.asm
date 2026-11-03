@@ -262,9 +262,9 @@ RuinsOfAlphOutsideFisherText2:
 
 RuinsOfAlphOutsideYoungster1Text:
 	text "There are many"
-	line "kinds of UNOWN, so"
+	line "kinds of ICOGNITO,"
 
-	para "we use them for"
+	para "so we use them for"
 	line "our secret codes."
 	done
 

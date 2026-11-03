@@ -13,13 +13,13 @@ JoseMonsStickHasADeliciousAromaText:
 
 JoseDefeatedMonText:
 	text "A while ago, my"
-	line "FARFETCH'D KO'd"
+	line "PORENTA KO'd"
 	cont "this @"
 	text_ram wStringBuffer4
 	text "."
 
 	para "You should have"
-	line "seen FARFETCH'D"
+	line "seen PORENTA"
 
 	para "wield that stick."
 	line "Amazing stuff!"
@@ -46,7 +46,7 @@ JoseBattleRematchText:
 	line "again?"
 
 	para "For some reason,"
-	line "my FARFETCH'D is"
+	line "my PORENTA is"
 
 	para "all worked up and"
 	line "raring to go."
@@ -65,7 +65,7 @@ JoseHangUpText:
 	done
 
 JoseFoundItemText:
-	text "My FARFETCH'D had"
+	text "My PORENTA had"
 	line "something pretty"
 	cont "in its beak."
 
@@ -97,7 +97,7 @@ JoseReminderText:
 	text "<PLAY_G>, could you"
 	line "hurry over?"
 
-	para "FARFETCH'D is"
+	para "PORENTA is"
 	line "agitated."
 
 	para "If you don't come"

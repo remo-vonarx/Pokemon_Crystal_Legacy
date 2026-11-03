@@ -366,7 +366,7 @@ RadioTower1FRadioCardWomanQuestion5Text:
 	para "Do GOLDENROD GAME"
 	line "CORNER's slots"
 
-	para "have CHARMANDER"
+	para "have GLUMANDA"
 	line "on their reels?"
 	done
 

@@ -97,11 +97,11 @@ MountMortarB1FTyrogueRewardText:
 
 MountMortarB1FReceiveMonText:
 	text "<PLAYER> received"
-	line "TYROGUE."
+	line "RABAUZ."
 	done
 
 MountMortarB1FKiyoGotTyrogueText:
-	text "TYROGUE is a"
+	text "RABAUZ is a"
 	line "FIGHTING-type."
 
 	para "It evolves into a"

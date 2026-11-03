@@ -86,7 +86,7 @@ CooltrainermCodySeenText:
 
 CooltrainermCodyBeatenText:
 	text "Rats! If only I"
-	line "had a DRAGONITE!"
+	line "had a DRAGORAN!"
 	done
 
 CooltrainermCodyAfterBattleText:

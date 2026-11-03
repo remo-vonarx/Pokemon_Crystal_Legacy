@@ -1880,7 +1880,7 @@ Pokedex_DrawOptionScreenBG:
 	db "#DEX COLOR@"
 
 .UnownMode:
-	db "UNOWN MODE@"
+	db "ICOGNITO MODE@"
 
 Pokedex_DrawColorScreenBG:
 	call Pokedex_FillBackgroundColor2
@@ -2606,7 +2606,7 @@ Pokedex_DisplayModeDescription:
 		 "of the border.", -1
 
 .UnownMode:
-	db   "UNOWN are listed  ", $37, $36, \
+	db   "ICOGNITO are shown", $37, $36, \
 		 "                  ", $37, $36, \
 		 "in catching order.", -1
 

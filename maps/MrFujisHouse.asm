@@ -66,7 +66,7 @@ MrFujisHouseLassText:
 	done
 
 MrFujisPsyduckText:
-	text "PSYDUCK: Gu-guwa?"
+	text "ENTON: Gu-guwa?"
 	done
 
 MrFujisNidorinoText:
@@ -74,7 +74,7 @@ MrFujisNidorinoText:
 	done
 
 MrFujisPidgeyText:
-	text "PIDGEY: Pijji!"
+	text "TAUBSI: Pijji!"
 	done
 
 MrFujisHouse_MapEvents:

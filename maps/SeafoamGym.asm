@@ -129,7 +129,7 @@ BlaineIntroText:
 	para "that same"
 	line "legendary bird,"
 
-	para "MOLTRES."
+	para "LAVADOS."
 	
 	para "Ha! You'd better"
 	line "have BURN HEAL,"

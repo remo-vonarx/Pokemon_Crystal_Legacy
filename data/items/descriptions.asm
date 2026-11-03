@@ -375,7 +375,7 @@ CarbosDesc:
 
 LuckyPunchDesc:
 	db   "Ups critical hit"
-	next "ratio of CHANSEY.@"
+	next "ratio of CHANEIRA.@"
 
 CalciumDesc:
 	db   "Ups SPECIAL stats"
@@ -516,7 +516,7 @@ ElixerDesc:
 
 RedScaleDesc:
 	db   "A scale from the"
-	next "red GYARADOS.@"
+	next "red GARADOS.@"
 
 SecretPotionDesc:
 	db   "Fully heals any"
@@ -966,7 +966,7 @@ LovelyMailDesc:
 	next "(HOLD)@"
 
 EonMailDesc:
-	db   "EEVEE-print MAIL."
+	db   "EVOLI-print MAIL."
 	next "(HOLD)@"
 
 MorphMailDesc:

@@ -47,7 +47,7 @@ PewterPokecenter1FTeacherText:
 	done
 
 PewterJigglypuffText:
-	text "JIGGLYPUFF: Puu"
+	text "PUMMELUFF: Puu"
 	line "pupuu."
 	done
 
@@ -55,7 +55,7 @@ PewterPokecenter1FBugCatcherText:
 	text "Most #MON get"
 	line "drowsy if they"
 
-	para "hear a JIGGLYPUFF"
+	para "hear a PUMMELUFF"
 	line "singing."
 
 	para "There are several"

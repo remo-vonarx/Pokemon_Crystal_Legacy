@@ -337,7 +337,7 @@ BugCatcherAlAfterBattleText:
 
 BugCatcherJoshSeenText:
 	text "You saved all the"
-	line "SLOWPOKE? Whew,"
+	line "FLEGMON? Whew,"
 	cont "you're mighty!"
 
 	para "But my grown-up"
@@ -373,7 +373,7 @@ TwinsAmyandmay1AfterBattleText:
 	para "But BUGSY's even"
 	line "stronger! His"
 
-	para "SCYTHER's CUT al-"
+	para "SICHLOR's CUT al-"
 	line "most always makes"
 	cont "critical hits!"
 	done
@@ -385,7 +385,7 @@ TwinsAmyandmay2SeenText:
 	
 	para "BUGSY is so"
 	line "strong! His"
-	cont "SCYTHER's CUT"
+	cont "SICHLOR's CUT"
 	
 	para "always seems to"
 	line "crit!"
@@ -404,7 +404,7 @@ TwinsAmyandmay2AfterBattleText:
 	para "BUGSY's won't"
 	line "lose though!"
 
-	para "His PINECO makes"
+	para "His TANNZA makes"
 	line "short work of"
 	cont "ROCK-type #MON!"
 	done

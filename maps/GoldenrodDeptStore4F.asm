@@ -70,9 +70,9 @@ GoldenrodDeptStore4FGameboyKidText:
 	line "of the rumoured"
 	cont "#MON:"
 
-	para "MACHOKE, KADABRA,"
-	line "HAUNTER and, um,"
-	cont "GRAVELER,"
+	para "MASCHOCK, KADABRA,"
+	line "ALPOLLO and, um,"
+	cont "GEOROK,"
 
 	para "but they all"
 	line "evolve through"

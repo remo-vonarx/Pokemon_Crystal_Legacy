@@ -181,17 +181,17 @@ CeruleanCitySuperNerdText:
 	done
 
 CeruleanCitySlowbroText:
-	text "SLOWBRO: Yarah?"
+	text "LAHMUS: Yarah?"
 	done
 
 CeruleanCityCooltrainerFText1:
-	text "My SLOWBRO and I"
+	text "My LAHMUS and I"
 	line "make an awesome"
 	cont "combination!"
 	done
 
 CeruleanCityCooltrainerFText2:
-	text "SLOWBRO, show me"
+	text "LAHMUS, show me"
 	line "your CONFUSION!"
 	done
 

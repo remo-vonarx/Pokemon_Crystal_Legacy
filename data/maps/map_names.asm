@@ -647,7 +647,7 @@ Dungeons_Map_Name23: ; map_const RUINS_OF_ALPH_HO_OH_CHAMBER ; 23
 Dungeons_Map_Name24: ; map_const RUINS_OF_ALPH_KABUTO_CHAMBER ; 24
 	db "KABUTO CHAMBER@"
 Dungeons_Map_Name25: ; map_const RUINS_OF_ALPH_OMANYTE_CHAMBER ; 25
-	db "OMANYTE CHAMBER@"
+	db "AMONITAS CHAMBER@"
 Dungeons_Map_Name26: ; map_const RUINS_OF_ALPH_AERODACTYL_CHAMBER ; 26
 	db "AERO CHAMBER@"
 Dungeons_Map_Name27: ; map_const RUINS_OF_ALPH_INNER_CHAMBE ; 27
@@ -659,7 +659,7 @@ Dungeons_Map_Name29: ; map_const RUINS_OF_ALPH_HO_OH_ITEM_ROOM ; 29
 Dungeons_Map_Name30: ; map_const RUINS_OF_ALPH_KABUTO_ITEM_ROOM ; 30
 	db "KABUTO PRIZE ROOM@"
 Dungeons_Map_Name31: ; map_const RUINS_OF_ALPH_OMANYTE_ITEM_ROOM ; 31
-	db "OMANYTE PRIZEROOM@"
+	db "AMONITAS PRIZE RM@"
 Dungeons_Map_Name32: ; map_const RUINS_OF_ALPH_AERODACTYL_ITEM_ROOM ; 32
 	db "AERO PRIZE ROOM@"
 Dungeons_Map_Name33: ; map_const RUINS_OF_ALPH_HO_OH_WORD_ROOM,; 33
@@ -667,7 +667,7 @@ Dungeons_Map_Name33: ; map_const RUINS_OF_ALPH_HO_OH_WORD_ROOM,; 33
 Dungeons_Map_Name34: ; map_const RUINS_OF_ALPH_KABUTO_WORD_ROOM,; 34
 	db "KABUTO WORD ROOM@"
 Dungeons_Map_Name35: ; map_const RUINS_OF_ALPH_OMANYTE_WORD_ROOM,; 35
-	db "OMANYTE WORD ROOM@"
+	db "AMONITAS WORDROOM@"
 Dungeons_Map_Name36: ; map_const RUINS_OF_ALPH_AERODACTYL_WORD_ROOM,; 36
 	db "AERO WORD ROOM@"
 Dungeons_Map_Name37: ; map_const UNION_CAVE_1F,; 37
@@ -677,9 +677,9 @@ Dungeons_Map_Name38: ; map_const UNION_CAVE_B1F,; 38
 Dungeons_Map_Name39: ; map_const UNION_CAVE_B2F,; 39
 	db "UNION CAVE B2F@"
 Dungeons_Map_Name40: ; map_const SLOWPOKE_WELL_B1F,; 40
-	db "SLOWPOKE WELL B1@"
+	db "FLEGMON WELL B1@"
 Dungeons_Map_Name41: ; map_const SLOWPOKE_WELL_B2F,; 41
-	db "SLOWPOKE WELL B2@"
+	db "FLEGMON WELL B2@"
 Dungeons_Map_Name42: ; map_const OLIVINE_LIGHTHOUSE_1F,; 42
 	db "LIGHTHOUSE 1F@"
 Dungeons_Map_Name43: ; map_const OLIVINE_LIGHTHOUSE_2F,; 43
@@ -765,7 +765,7 @@ Dungeons_Map_Name82: ; map_const DRAGON_SHRINE ; 82
 Dungeons_Map_Name83: ; map_const TOHJO_FALLS,; 83
 	db "TOHJO FALLS@"
 Dungeons_Map_Name84: ; map_const DIGLETTS_CAVE,; 84
-	db "DIGLETT'S CAVE@"
+	db "DIGDA'S CAVE@"
 Dungeons_Map_Name85: ; map_const MOUNT_MOON,; 85
 	db "MT. MOON@"
 Dungeons_Map_Name86: ; map_const UNDERGROUND_PATH,; 86
@@ -891,7 +891,7 @@ Azalea_Map_Name7: ; map_const AZALEA_TOWN, ; 7
 Lake_of_Rage_Map_Name1: ; map_const LAKE_OF_RAGE_HIDDEN_POWER_HOUSE ;  1
 	db "HIDDEN POWER HS@"
 Lake_of_Rage_Map_Name2: ; map_const LAKE_OF_RAGE_MAGIKARP_HOUSE ;  2
-	db "MAGIKARP HOUSE@"
+	db "KARPADOR HOUSE@"
 Lake_of_Rage_Map_Name3: ; map_const ROUTE_43_MAHOGANY_GATE ;  3
 	db "ROUTE 43 GATE 1@"
 Lake_of_Rage_Map_Name4: ; map_const ROUTE_43_GATE ;  4

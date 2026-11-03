@@ -76,7 +76,7 @@ CeladonCityHiddenPpUp:
 	hiddenitem PP_UP, EVENT_CELADON_CITY_HIDDEN_PP_UP
 
 CeladonCityFisherText:
-	text "This POLIWRATH is"
+	text "This QUAPPO is"
 	line "my partner."
 
 	para "I wonder if it'll"
@@ -85,7 +85,7 @@ CeladonCityFisherText:
 	done
 
 CeladonCityPoliwrathText:
-	text "POLIWRATH: Croak!"
+	text "QUAPPO: Croak!"
 	done
 
 CeladonCityTeacher1Text:
@@ -106,13 +106,13 @@ else
 endc
 
 CeladonCityGramps1Text:
-	text "GRIMER have been"
+	text "SLEIMA have been"
 	line "appearing lately."
 
 	para "See that pond out"
 	line "in front of the"
 
-	para "house? GRIMER live"
+	para "house? SLEIMA live"
 	line "there now."
 
 	para "Where did they"

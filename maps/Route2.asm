@@ -141,7 +141,7 @@ Route2SignText:
 	done
 
 Route2DiglettsCaveSignText:
-	text "DIGLETT'S CAVE"
+	text "DIGDA'S CAVE"
 	done
 
 Route2_MapEvents:

@@ -76,7 +76,7 @@ SudowoodoEvent_Str:
 	next "watered. LVL 20.@"
 ShinyGyarados_Str:
 	db 	 "Unique rampaging"
-	next "Red GYARADOS."
+	next "Red GARADOS."
 	next "LVL 30.@"
 SnorlaxEvent_Str:
 	db 	 "Guaranteed to be"

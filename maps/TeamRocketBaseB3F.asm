@@ -432,7 +432,7 @@ ExecutiveM4AfterText:
 	done
 
 RocketBaseMurkrowText:
-	text "MURKROW: The"
+	text "KRAMURX: The"
 	line "password is…"
 
 	para "HAIL GIOVANNI."
@@ -498,7 +498,7 @@ GruntM28AfterBattleText:
 	line "the boss's room…"
 
 	para "Uh…, I think it is"
-	line "RATICATE TAIL."
+	line "RATTIKARL TAIL."
 	done
 
 ScientistRossSeenText:

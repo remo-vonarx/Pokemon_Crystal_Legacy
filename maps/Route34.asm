@@ -551,7 +551,7 @@ Route34MovementData_DayCareManWalksBackInside_WalkAroundPlayer:
 
 YoungsterSamuelSeenText:
 	text "Hey! I'm looking"
-	line "for MANKEY!"
+	line "for MENKI!"
 	done
 
 YoungsterSamuelBeatenText:

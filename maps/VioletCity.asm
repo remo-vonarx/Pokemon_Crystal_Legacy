@@ -214,7 +214,8 @@ VioletCityLassText:
 	line "defenses of"
 	
 	para "tough #MON like"
-	line "ONIX and GEODUDE."
+	line "ONIX and"
+	cont "KLEINSTEIN."
 	done
 
 VioletCitySuperNerdText:

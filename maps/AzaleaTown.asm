@@ -337,7 +337,7 @@ AzaleaTownRocket2Text:
 	done
 
 AzaleaTownGrampsTextBefore:
-	text "The SLOWPOKE have"
+	text "The FLEGMON have"
 	line "disappeared from"
 	cont "town…"
 
@@ -347,7 +347,7 @@ AzaleaTownGrampsTextBefore:
 	done
 
 AzaleaTownGrampsTextAfter:
-	text "The SLOWPOKE have"
+	text "The FLEGMON have"
 	line "returned."
 
 	para "Knowing them, they"
@@ -383,7 +383,7 @@ AzaleaTownYoungsterText:
 	done
 
 AzaleaTownSlowpokeText1:
-	text "SLOWPOKE: …"
+	text "FLEGMON: …"
 
 	para "<……> <……> <……>"
 	done
@@ -437,17 +437,17 @@ AzaleaGymSignText:
 	done
 
 SlowpokeWellSignText:
-	text "SLOWPOKE WELL"
+	text "FLEGMON WELL"
 
 	para "Also known as the"
 	line "RAINMAKER WELL."
 
 	para "Locals believe"
-	line "that a SLOWPOKE's"
+	line "that a FLEGMON's"
 	cont "yawn summons rain."
 
 	para "Records show that"
-	line "a SLOWPOKE's yawn"
+	line "a FLEGMON's yawn"
 
 	para "ended a drought"
 	line "400 years ago."

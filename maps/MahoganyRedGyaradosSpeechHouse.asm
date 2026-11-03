@@ -34,13 +34,13 @@ MahoganyRedGyaradosSpeechHouseUnusedBookshelf2: ; unreferenced
 
 MahoganyRedGyaradosSpeechHouseBlackBeltText:
 	text "I heard that a red"
-	line "GYARADOS appeared"
+	line "GARADOS appeared"
 	cont "at the LAKE."
 
 	para "That's odd, since"
 	line "even ordinary"
 
-	para "GYARADOS are rare"
+	para "GARADOS are rare"
 	line "in that lake…"
 	done
 

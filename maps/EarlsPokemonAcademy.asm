@@ -235,12 +235,12 @@ EarlsPokemonAcademyYoungster1Text:
 	para "trade can evolve"
 	line "through leveling."
 
-	para "MACHOKE and"
-	line "GRAVELER evolve"
+	para "MASCHOCK and"
+	line "GEOROK evolve"
 	cont "at LVL 38, while"
 	
 	para "KADABRA and"
-	line "HAUNTER evolve"
+	line "ALPOLLO evolve"
 	cont "at LVL 42."
 
 	para "Some items, like"
@@ -255,7 +255,7 @@ EarlsPokemonAcademyYoungster1Text:
 	
 	para "A BRICK PIECE"
 	line "given to a"
-	cont "TYROGUE has led"
+	cont "RABAUZ has led"
 	
 	para "to a new #MON"
 	line "discovery."

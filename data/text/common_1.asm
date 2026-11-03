@@ -329,12 +329,12 @@ _LookPikachuPosterText::
 
 _LookClefairyPosterText::
 	text "It's a poster of a"
-	line "cute CLEFAIRY."
+	line "cute PIEPI."
 	done
 
 _LookJigglypuffPosterText::
 	text "It's a poster of a"
-	line "cute JIGGLYPUFF."
+	line "cute PUMMELUFF."
 	done
 
 _LookAdorableDecoText::
