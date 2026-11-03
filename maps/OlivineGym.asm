@@ -160,7 +160,7 @@ Jasmine_SteelTypeIntro:
 	para "allow me to intro-"
 	line "duce myself."
 
-	para "I am JASMINE, a"
+	para "I am JASMIN, a"
 	line "GYM LEADER. I use"
 	cont "the STEEL-type."
 
@@ -245,7 +245,7 @@ Jasmine_RematchDefeatText:
 	done
 
 OlivineGymGuideText:
-	text "JASMINE uses the"
+	text "JASMIN uses the"
 	line "newly discovered"
 	cont "STEEL-type."
 
@@ -294,7 +294,7 @@ OlivineGymGuideWinText:
 	done
 
 OlivineGymGuidePreText:
-	text "JASMINE, the GYM"
+	text "JASMIN, the GYM"
 	line "LEADER, is at the"
 	cont "LIGHTHOUSE."
 

@@ -624,7 +624,7 @@ _ThrewAwayText::
 	prompt
 
 _OakThisIsntTheTimeText::
-	text "OAK: <PLAYER>!"
+	text "EICH: <PLAYER>!"
 	line "This isn't the"
 	cont "time to use that!"
 	prompt
@@ -1205,7 +1205,7 @@ _PokecenterPlayersPCText::
 	prompt
 
 _PokecenterOaksPCText::
-	text "PROF.OAK's PC"
+	text "PROF EICH's PC"
 	line "accessed."
 
 	para "#DEX Rating"
@@ -1234,7 +1234,7 @@ _OakPCText3::
 	text_ram wStringBuffer4
 	text " #MON owned"
 
-	para "PROF.OAK's"
+	para "PROF EICH's"
 	line "Rating:"
 	done
 
@@ -1378,8 +1378,8 @@ _OakRating19::
 	done
 
 _OakPCText4::
-	text "The link to PROF."
-	line "OAK's PC closed."
+	text "The link to PROF"
+	line "EICH's PC closed."
 	done
 
 _TrainerRankingExplanationText:: ; unreferenced
@@ -1445,7 +1445,7 @@ _ItemsTooImportantText::
 	prompt
 
 _ItemsOakWarningText::
-	text "OAK: <PLAYER>!"
+	text "EICH: <PLAYER>!"
 	line "This isn't the"
 	cont "time to use that!"
 	done
@@ -1565,7 +1565,7 @@ _OakText1::
 	para "Welcome to the"
 	line "world of #MON!"
 
-	para "My name is OAK."
+	para "My name is EICH."
 
 	para "People call me the"
 	line "#MON PROF."

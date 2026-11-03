@@ -418,7 +418,7 @@ Route31YoungsterText:
 
 	para "I'm going to raise"
 	line "it to take on"
-	cont "FALKNER."
+	cont "FALK."
 
 	para "He's the leader of"
 	line "VIOLET CITY's GYM."

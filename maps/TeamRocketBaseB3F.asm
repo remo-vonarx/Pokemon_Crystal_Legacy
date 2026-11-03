@@ -321,8 +321,9 @@ RocketBaseRivalShovesPlayerMovement:
 	step_end
 
 LanceGetPasswordText:
-	text "LANCE: It takes"
-	line "two passwords to"
+	text "SIEGFRIED:"
+	line "It takes two"
+	cont "passwords to"
 
 	para "get into the"
 	line "boss's quarters."

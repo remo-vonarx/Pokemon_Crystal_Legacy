@@ -94,7 +94,7 @@ SeafoamGymGuideScript:
 	end
 
 BlaineIntroText:
-	text "BLAINE: Waaah!"
+	text "PYRO: Waaah!"
 
 	para "My GYM in CINNABAR"
 	line "burned down."
@@ -123,7 +123,7 @@ BlaineIntroText:
 	para "All these years"
 	line "later and now"
 	
-	para "RED has entrusted"
+	para "ROT has entrusted"
 	line "me to look over"
 
 	para "that same"
@@ -139,7 +139,7 @@ BlaineIntroText:
 	done
 
 BlaineWinLossText:
-	text "BLAINE: Awesome."
+	text "PYRO: Awesome."
 	line "I've burned out…"
 
 	para "You've earned"
@@ -152,7 +152,7 @@ ReceivedVolcanoBadgeText:
 	done
 
 BlaineAfterBattleText:
-	text "BLAINE: I did lose"
+	text "PYRO: I did lose"
 	line "this time, but I'm"
 
 	para "going to win the"
@@ -166,7 +166,7 @@ BlaineAfterBattleText:
 	done
 
 BlaineFightDoneText:
-	text "BLAINE: My fire"
+	text "PYRO: My fire"
 	line "#MON will be"
 
 	para "even stronger."
@@ -174,7 +174,7 @@ BlaineFightDoneText:
 	done
 
 BlaineRematchText:
-	text "BLAINE: Whoa!"
+	text "PYRO: Whoa!"
 
 	para "I see you've"
 	line "become the"
@@ -193,7 +193,7 @@ BlaineRematchText:
 	done
 
 Blaine_RematchDefeatText:
-	text "BLAINE: Your"
+	text "PYRO: Your"
 	line "skills are truly"
 	cont "fiery!"
 

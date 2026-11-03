@@ -278,7 +278,7 @@ BirdKeeperRodBeatenText:
 	done
 
 BirdKeeperRodAfterBattleText:
-	text "FALKNER's skills"
+	text "FALK's skills"
 	line "are for real!"
 
 	para "Don't get cocky"
@@ -289,7 +289,7 @@ BirdKeeperRodAfterBattleText:
 BirdKeeperAbeSeenText:
 	text "Let me see if you"
 	line "are good enough to"
-	cont "face FALKNER!"
+	cont "face FALK!"
 	done
 
 BirdKeeperAbeBeatenText:
@@ -319,7 +319,7 @@ VioletGymGuideText:
 	para "You believe?"
 	line "Then listen."
 	
-	para "FALKNER's ace"
+	para "FALK's ace"
 	line "is a bulky owl"
 	
 	para "that loves to"

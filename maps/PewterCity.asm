@@ -122,7 +122,7 @@ PewterCitySignText:
 PewterGymSignText:
 	text "PEWTER CITY"
 	line "#MON GYM"
-	cont "LEADER: BROCK"
+	cont "LEADER: ROCKO"
 
 	para "The Rock Solid"
 	line "#MON Trainer"

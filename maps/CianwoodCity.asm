@@ -261,7 +261,7 @@ CianwoodCityPokefanMText:
 	done
 
 CianwoodCityLassText:
-	text "CHUCK, the GYM"
+	text "HARTWIG, the GYM"
 	line "LEADER, spars with"
 
 	para "his fighting #-"
@@ -279,7 +279,7 @@ CianwoodCityUnusedText:
 	done
 
 EusineSuicuneText:
-	text "EUSINE: Yo,"
+	text "EUSIN: Yo,"
 	line "<PLAYER>."
 
 	para "Wasn't that"
@@ -351,7 +351,7 @@ CianwoodGymSignText:
 	text "CIANWOOD CITY"
 	line "#MON GYM"
 
-	para "LEADER: CHUCK"
+	para "LEADER: HARTWIG"
 
 	para "His Roaring Fists"
 	line "Do the Talking"

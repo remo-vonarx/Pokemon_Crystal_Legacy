@@ -181,7 +181,7 @@ OlivineCityRivalText:
 	line "said by some to be"
 	
 	para "stronger than"
-	line "PRYCE, yet is"
+	line "NORBERT, yet is"
 
 	para "supposedly taking"
 	line "care of a sick"
@@ -208,8 +208,8 @@ OlivineCityRivalText:
 	para "Maybe then you"
 	line "could at least"
 	
-	para "take on CHUCK"
-	line "or PRYCE!"
+	para "take on HARTWIG"
+	line "or NORBERT!"
 	done
 
 OlivineCitySailor1Text:
@@ -247,7 +247,7 @@ OlivineCityStandingYoungsterPokedexText:
 
 OlivineCitySailor2Text:
 	text "The league has"
-	line "JASMINE pegged"
+	line "JASMIN pegged"
 
 	para "as the sixth"
 	line "strongest GYM"
@@ -257,9 +257,9 @@ OlivineCitySailor2Text:
 	line "a load of crud."
 	
 	para "There's no way"
-	line "PRYCE could hurt"
+	line "NORBERT could hurt"
 	
-	para "JASMINE's Steel"
+	para "JASMIN's Steel"
 	line "type #MON!"
 	
 	para "Bureaucracy if"
@@ -285,7 +285,7 @@ OlivineCityPortSignText:
 OlivineGymSignText:
 	text "OLIVINE CITY"
 	line "#MON GYM"
-	cont "LEADER: JASMINE"
+	cont "LEADER: JASMIN"
 
 	para "The Steel-Clad"
 	line "Defense Girl"

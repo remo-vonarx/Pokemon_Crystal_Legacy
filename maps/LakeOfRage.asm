@@ -288,7 +288,7 @@ LakeOfRageLanceIntroText1:
 	cont "rumors?"
 
 	para "You're <PLAYER>?"
-	line "I'm LANCE, a"
+	line "I'm SIEGFRIED, a"
 	cont "trainer like you."
 	done
 
@@ -318,7 +318,8 @@ LakeOfRageLanceIntroText3:
 	done
 
 LakeOfRageLanceRadioSignalText:
-	text "LANCE: Excellent!"
+	text "SIEGFRIED:"
+	line "Excellent!"
 
 	para "It seems that the"
 	line "LAKE's KARPADOR"
@@ -343,8 +344,9 @@ LakeOfRageLanceRefusedText:
 	done
 
 LakeOfRageLanceAskHelpText:
-	text "LANCE: Hm? Are you"
-	line "going to help us?"
+	text "SIEGFRIED: Hm?"
+	line "Are you going to"
+	cont "help us?"
 	done
 
 LakeOfRageGyaradosCryText:

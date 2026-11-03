@@ -312,7 +312,7 @@ TinTower1FSage3EntersMovement:
 	step_end
 
 TinTower1FEusineSuicuneText:
-	text "EUSINE: Awesome!"
+	text "EUSIN: Awesome!"
 	line "Too awesome, even!"
 
 	para "I've never seen a"

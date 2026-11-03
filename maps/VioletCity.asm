@@ -262,7 +262,7 @@ VioletCitySignText:
 VioletGymSignText:
 	text "VIOLET CITY"
 	line "#MON GYM"
-	cont "LEADER: FALKNER"
+	cont "LEADER: FALK"
 
 	para "The Elegant Master"
 	line "of Flying #MON"

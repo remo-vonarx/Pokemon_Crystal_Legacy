@@ -186,7 +186,7 @@ EcruteakPokecenter1FPokefanMTextMobile:
 	done
 
 EcruteakPokecenter1FCooltrainerFText:
-	text "MORTY, the GYM"
+	text "JENS, the GYM"
 	line "LEADER, is soooo"
 	cont "cool."
 

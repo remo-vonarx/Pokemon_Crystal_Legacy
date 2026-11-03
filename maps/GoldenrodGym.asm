@@ -210,7 +210,7 @@ BridgetWalksAwayMovement:
 	step_end
 
 WhitneyBeforeText:
-	text "Hi! I'm WHITNEY!"
+	text "Hi! I'm BIANKA!"
 
 	para "Everyone was into"
 	line "#MON, so I got"
@@ -351,7 +351,7 @@ LassBridgetBeatenText:
 
 LassBridgetAfterBattleText:
 	text "I'm trying to beat"
-	line "WHITNEY, but…"
+	line "BIANKA, but…"
 	cont "It's depressing."
 
 	para "I'm okay! If I"
@@ -363,7 +363,7 @@ LassBridgetAfterBattleText:
 
 BridgetWhitneyCriesText:
 	text "Oh, no. You made"
-	line "WHITNEY cry."
+	line "BIANKA cry."
 
 	para "It's OK. She'll"
 	line "stop soon. She"
@@ -413,7 +413,7 @@ GoldenrodGymGuideText:
 	line "making!"
 
 	para "This GYM is home"
-	line "to WHITNEY, the"
+	line "to BIANKA, the"
 	cont "master of NORMAL-"
 	cont "type #MON."
 

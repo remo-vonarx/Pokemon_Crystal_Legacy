@@ -1017,13 +1017,13 @@ Pallet_Map_Name1: ; map_const ROUTE_1,;  1
 Pallet_Map_Name2: ; map_const PALLET_TOWN,;  2
 	db "PALLET TOWN@"
 Pallet_Map_Name3: ; map_const REDS_HOUSE_1F ;  3
-	db "RED'S HOUSE 1F@"
+	db "ROT'S HOUSE 1F@"
 Pallet_Map_Name4: ; map_const REDS_HOUSE_2F ;  4
-	db "RED'S HOUSE 2F@"
+	db "ROT'S HOUSE 2F@"
 Pallet_Map_Name5: ; map_const BLUES_HOUSE ;  5
-	db "BLUE'S HOUSE@"
+	db "BLAU'S HOUSE@"
 Pallet_Map_Name6: ; map_const OAKS_LAB ;  6  ; 14
-	db "OAK'S LAB@"
+	db "EICH'S LAB@"
 
 Pewter_Map_Name1: ; map_const ROUTE_3,;  1
 	db "ROUTE 3@"
@@ -1072,15 +1072,15 @@ Indigo_Map_Name1: ; map_const ROUTE_23,;  1
 Indigo_Map_Name2: ; map_const INDIGO_PLATEAU_POKECENTER_1F ;  2
 	db "INDIGO PLATEAU@"
 Indigo_Map_Name3: ; map_const WILLS_ROOM ;  3
-	db "E4 WILL'S ROOM@"
+	db "E4 WILLI'S ROOM@"
 Indigo_Map_Name4: ; map_const KOGAS_ROOM ;  4
 	db "E4 KOGA'S ROOM@"
 Indigo_Map_Name5: ; map_const BRUNOS_ROOM ;  5
 	db "E4 BRUNO'S ROOM@"
 Indigo_Map_Name6: ; map_const KARENS_ROOM ;  6
-	db "E4 KAREN'S ROOM@"
+	db "E4 MELANIE'S ROOM@"
 Indigo_Map_Name7: ; map_const LANCES_ROOM,;  7
-	db "E4 LANCE'S ROOM@"
+	db "SIEGFRIED'S ROOM@"
 Indigo_Map_Name8: ; map_const HALL_OF_FAME ;  8
 	db "E4 HALL OF FAME@"                                           ; 17
 
@@ -1284,7 +1284,7 @@ New_Bark_Map_Name3: ; map_const ROUTE_29, ;  3
 New_Bark_Map_Name4: ; map_const NEW_BARK_TOWN,;  4
 	db "NEW BARK TOWN@"
 New_Bark_Map_Name5: ; map_const ELMS_LAB ;  5
-	db "ELM'S LAB@"
+	db "LIND'S LAB@"
 New_Bark_Map_Name6: ; map_const PLAYERS_HOUSE_1F ;  6
 	db "PLAYER'S HOUSE 1F@"
 New_Bark_Map_Name7: ; map_const PLAYERS_HOUSE_2F ;  7
@@ -1292,7 +1292,7 @@ New_Bark_Map_Name7: ; map_const PLAYERS_HOUSE_2F ;  7
 New_Bark_Map_Name8: ; map_const PLAYERS_NEIGHBORS_HOUSE ;  8
 	db "NEW BARK HOUSE@"
 New_Bark_Map_Name9: ; map_const ELMS_HOUSE ;  9
-	db "ELM'S HOUSE@"
+	db "LIND'S HOUSE@"
 New_Bark_Map_Name10: ; map_const ROUTE_26_HEAL_HOUSE ; 10
 	db "ROUTE 26 HOUSE@"
 New_Bark_Map_Name11: ; map_const DAY_OF_WEEK_SIBLINGS_HOUSE ; 11

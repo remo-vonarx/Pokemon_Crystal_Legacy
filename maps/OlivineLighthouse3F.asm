@@ -105,7 +105,7 @@ GentlemanPrestonBeatenText:
 	done
 
 GentlemanPrestonAfterBattleText:
-	text "JASMINE used to"
+	text "JASMIN used to"
 	line "use rock #MON"
 	cont "like ONIX."
 	done

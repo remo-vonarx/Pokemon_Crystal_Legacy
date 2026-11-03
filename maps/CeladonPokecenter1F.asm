@@ -91,7 +91,7 @@ CeladonPokecenter1FPharmacistText:
 	done
 
 CeladonEusineText1:
-	text "EUSINE: Hi!"
+	text "EUSIN: Hi!"
 
 	para "I'm back visiting"
 	line "my hometown."

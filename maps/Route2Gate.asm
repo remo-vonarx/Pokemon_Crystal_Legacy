@@ -12,8 +12,8 @@ Route2GateScientistScript:
 Route2GateScientistText:
 	text "Are you <PLAY_G>?"
 
-	para "I work as PROF."
-	line "OAK's AIDE."
+	para "I work as PROF"
+	line "EICH's AIDE."
 
 	para "I had no idea that"
 	line "you were out here."

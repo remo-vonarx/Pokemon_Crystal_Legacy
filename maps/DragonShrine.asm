@@ -402,7 +402,7 @@ DragonShrineElderGreetingText:
 	para "No need to explain"
 	line "why you came."
 
-	para "CLAIR sent you"
+	para "SANDRA sent you"
 	line "here, didn't she?"
 
 	para "That girl is a"
@@ -468,7 +468,7 @@ DragonShrinePassedTestText:
 	done
 
 DragonShrineMustIInformLanceText:
-	text "CLAIR!"
+	text "SANDRA!"
 
 	para "This child is"
 	line "impeccable, in"
@@ -479,11 +479,11 @@ DragonShrineMustIInformLanceText:
 	cont "BADGE!"
 
 	para "…Or must I inform"
-	line "LANCE of this?"
+	line "SIEGFRIED of this?"
 	done
 
 DragonShrineElderScoldsClairText:
-	text "CLAIR…"
+	text "SANDRA…"
 
 	para "Reflect upon what"
 	line "it is that you"
@@ -537,7 +537,7 @@ DragonShrineSymbolicDragonText:
 	done
 
 DragonShrineClairsGrandfatherText:
-	text "CLAIR appears to"
+	text "SANDRA appears to"
 	line "have learned an"
 
 	para "invaluable lesson"
@@ -553,10 +553,11 @@ DragonShrineSilverIsInTrainingText:
 	cont "training here."
 
 	para "He is much like"
-	line "CLAIR when she was"
+	line "SANDRA when she"
 
-	para "younger. It is a"
-	line "little worrisome…"
+	para "was younger. It"
+	line "is a little"
+	cont "worrisome…"
 	done
 
 DragonShrineWrongAnswerText1:
@@ -582,12 +583,12 @@ DragonShrineElder2Text:
 	cont "approval."
 
 	para "In fact, not since"
-	line "Master LANCE."
+	line "Master SIEGFRIED."
 	done
 
 DragonShrineElder3Text:
 	text "You know young"
-	line "Master LANCE?"
+	line "Master SIEGFRIED?"
 
 	para "He looks so much"
 	line "like our MASTER"

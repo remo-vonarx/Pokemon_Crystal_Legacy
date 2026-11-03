@@ -179,7 +179,7 @@ PokemaniacEthanBeatenText:
 
 PokemaniacEthanAfterBattleText:
 	text "LILY's nice, but"
-	line "MARY's the best!"
+	line "MARGIT's the best!"
 
 	para "I want to check"
 	line "out JOHTO's radio"

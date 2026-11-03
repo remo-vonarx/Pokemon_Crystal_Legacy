@@ -99,7 +99,7 @@ PewterGymStatue:
 	jumpstd GymStatue2Script
 
 BrockIntroText:
-	text "BROCK: Wow, it's"
+	text "ROCKO: Wow, it's"
 	line "not often that we"
 
 	para "get a challenger"
@@ -124,7 +124,7 @@ BrockIntroText:
 	done
 
 BrockWinLossText:
-	text "BROCK: Your #-"
+	text "ROCKO: Your #-"
 	line "MON's powerful at-"
 	cont "tacks overcame my"
 	cont "rock-hard defense…"
@@ -142,7 +142,7 @@ ReceivedBoulderBadgeText:
 	done
 
 BrockBoulderBadgeText:
-	text "BROCK: <PLAY_G>,"
+	text "ROCKO: <PLAY_G>,"
 	line "thanks. I enjoyed"
 
 	para "battling you, even"
@@ -157,7 +157,7 @@ BrockBoulderBadgeText:
 	done
 
 BrockFightDoneText:
-	text "BROCK: The world"
+	text "ROCKO: The world"
 	line "is huge. There are"
 
 	para "still many strong"
@@ -170,7 +170,7 @@ BrockFightDoneText:
 	done
 
 BrockRematchText:
-	text "BROCK: Hey there,"
+	text "ROCKO: Hey there,"
 	line "<PLAYER>!"
 
 	para "I heard you are"
@@ -187,7 +187,7 @@ BrockRematchText:
 	done
 
 Brock_RematchDefeatText:
-	text "BROCK: Your #-"
+	text "ROCKO: Your #-"
 	line "#MON once again"
 	cont "overcame my rock-"
 	cont "hard defense…"
@@ -215,7 +215,7 @@ CamperJerryBeatenText:
 
 CamperJerryAfterBattleText:
 	text "Hey, you! Trainer"
-	line "from JOHTO! BROCK"
+	line "from JOHTO! ROCKO"
 
 	para "is tough. He'll"
 	line "punish you if you"

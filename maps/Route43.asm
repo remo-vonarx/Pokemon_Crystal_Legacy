@@ -374,8 +374,9 @@ PokemaniacBenAfterBattleText:
 	line "like besides"
 	cont "#MON?"
 
-	para "MARY on the radio."
-	line "I bet she's cute!"
+	para "MARGIT on the"
+	line "radio. I bet she's"
+	cont "cute!"
 	done
 
 PokemaniacBrentSeenText:

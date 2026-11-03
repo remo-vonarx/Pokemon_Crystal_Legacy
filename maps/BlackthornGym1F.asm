@@ -172,7 +172,7 @@ BlackthornGymStatue:
 	jumpstd GymStatue2Script
 
 ClairIntroText:
-	text "I am CLAIR."
+	text "I am SANDRA."
 
 	para "The world's best"
 	line "dragon master."
@@ -353,7 +353,7 @@ CooltrainermPaulBeatenText:
 	done
 
 CooltrainermPaulAfterBattleText:
-	text "LANCE told you"
+	text "SIEGFRIED told you"
 	line "that he'd like to"
 
 	para "see you again?"
@@ -412,9 +412,9 @@ BlackthornGymGuideText:
 	para "are almost done!"
 	line "Count on me!"
 	
-	para "While CLAIR looks"
+	para "While SANDRA looks"
 	line "up to the Dragon"
-	cont "Master, LANCE,"
+	cont "Master, SIEGFRIED,"
 	
 	para "she's managed to"
 	line "create her own"
@@ -442,7 +442,7 @@ BlackthornGymGuideText:
 
 BlackthornGymGuideWinText:
 	text "You were great to"
-	line "beat CLAIR!"
+	line "beat SANDRA!"
 
 	para "All that's left is"
 	line "the #MON LEAGUE"

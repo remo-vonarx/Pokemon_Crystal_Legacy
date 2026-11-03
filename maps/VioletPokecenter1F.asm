@@ -107,7 +107,7 @@ VioletPokecenterElmsAideFavorText:
 	text "<PLAY_G>, long"
 	line "time, no see."
 
-	para "PROF.ELM asked me"
+	para "PROF LIND asked me"
 	line "to find you."
 
 	para "He has another"
@@ -132,8 +132,8 @@ VioletPokecenterElmsAideGiveEggText:
 	line "the only person"
 	cont "we can rely on."
 
-	para "Please call PROF."
-	line "ELM when that EGG"
+	para "Please call PROF"
+	line "LIND when that EGG"
 	cont "hatches!"
 	done
 
@@ -148,7 +148,7 @@ VioletCityElmsAideFullPartyText:
 	done
 
 VioletPokecenterElmsAideRefuseText:
-	text "B-but… PROF.ELM"
+	text "B-but… PROF LIND"
 	line "asked for you…"
 	done
 

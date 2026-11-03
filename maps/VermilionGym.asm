@@ -128,7 +128,7 @@ VermilionGymStatue:
 	jumpstd GymStatue2Script
 
 LtSurgeIntroText:
-	text "SURGE: Hey, you"
+	text "BOB: Hey, you"
 	line "little tyke!"
 
 	para "I have to hand it"
@@ -151,7 +151,7 @@ LtSurgeIntroText:
 	done
 
 LtSurgeWinLossText:
-	text "SURGE: Arrrgh!"
+	text "BOB: Arrrgh!"
 	line "You are strong!"
 
 	para "OK, kid. You get"
@@ -164,7 +164,7 @@ ReceivedThunderBadgeText:
 	done
 
 LtSurgeThunderBadgeText:
-	text "SURGE: THUNDER-"
+	text "BOB: THUNDER-"
 	line "BADGE increases"
 	cont "#MON's speed. "
 
@@ -176,7 +176,7 @@ LtSurgeThunderBadgeText:
 	done
 
 LtSurgeFightDoneText:
-	text "SURGE: Hey, kid!"
+	text "BOB: Hey, kid!"
 	line "Still slugging and"
 	cont "chugging away?"
 
@@ -185,7 +185,7 @@ LtSurgeFightDoneText:
 	done
 
 SurgeRematchText:
-	text "SURGE: So, "
+	text "BOB: So, "
 	line "you're now"
 	cont "KANTO CHAMPION!"
 
@@ -199,14 +199,14 @@ SurgeRematchText:
 	done
 
 Surge_RematchDefeatText:
-	text "SURGE: Arrrgh!"
+	text "BOB: Arrrgh!"
 	line "You're still just"
 	cont "as strong!"
 	done
 
 GentlemanGregorySeenText:
 	text "You're here to"
-	line "defeat LT.SURGE?"
+	line "defeat MAJOR BOB?"
 
 	para "Not if I can help"
 	line "it!"
@@ -214,7 +214,7 @@ GentlemanGregorySeenText:
 
 GentlemanGregoryBeatenText:
 	text "Sorry I failed"
-	line "you, LT.SURGE,"
+	line "you, MAJOR BOB,"
 	cont "sir!"
 	done
 
@@ -222,12 +222,12 @@ GentlemanGregoryAfterBattleText:
 	text "When I was still"
 	line "in the army, LT."
 
-	para "SURGE saved my"
+	para "BOB saved my"
 	line "life."
 	done
 
 GuitaristVincentSeenText:
-	text "LT.SURGE recog-"
+	text "MAJOR BOB recog-"
 	line "nized my potential"
 
 	para "with electric"
@@ -265,7 +265,8 @@ JugglerHortonAfterBattleText:
 	line "fortable about"
 
 	para "beating me…"
-	line "LT.SURGE is tough."
+	line "MAJOR BOB is"
+	cont "tough."
 	done
 
 VermilionGymGuideText:
@@ -275,7 +276,7 @@ VermilionGymGuideText:
 	para "You lucked out"
 	line "this time."
 
-	para "LT.SURGE is very"
+	para "MAJOR BOB is very"
 	line "cautious. He has"
 
 	para "traps set all over"
@@ -287,7 +288,7 @@ VermilionGymGuideText:
 
 	para "You'll have no"
 	line "problem getting to"
-	cont "LT.SURGE."
+	cont "MAJOR BOB."
 	done
 
 VermilionGymGuideWinText:

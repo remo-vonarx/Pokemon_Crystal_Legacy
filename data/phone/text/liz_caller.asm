@@ -109,7 +109,7 @@ LizFalknerGossipText:
 	line "road, is even more"
 
 	para "cool and handsome"
-	line "than FALKNER."
+	line "than FALK."
 
 	para "I wish I could"
 	line "meet him!"

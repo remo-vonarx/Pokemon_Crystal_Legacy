@@ -60,7 +60,7 @@ ViridianPokecenter1FCooltrainerFText:
 	cont "gone."
 
 	para "I wonder what be-"
-	line "came of BLAINE,"
+	line "came of PYRO,"
 	cont "the GYM LEADER."
 	done
 

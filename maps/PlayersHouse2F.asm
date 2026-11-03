@@ -93,7 +93,7 @@ PlayersHousePCScript:
 	end
 
 PlayersRadioText1:
-	text "PROF.OAK'S #MON"
+	text "PROF EICH's #MON"
 	line "TALK! Please tune"
 	cont "in next time!"
 	done
@@ -103,7 +103,7 @@ PlayersRadioText2:
 	done
 
 PlayersRadioText3:
-	text "This is DJ MARY,"
+	text "This is DJ MARGIT,"
 	line "your co-host!"
 	done
 

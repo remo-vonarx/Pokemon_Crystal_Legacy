@@ -720,8 +720,9 @@ UndergroundSilverAfterText:
 	text "…I don't under-"
 	line "stand…"
 
-	para "Is what that LANCE"
-	line "guy said true?"
+	para "Is what that"
+	line "SIEGFRIED guy said"
+	cont "true?"
 
 	para "That I don't treat"
 	line "#MON properly?"
@@ -760,8 +761,9 @@ UndergroundSilverLossText:
 	line "ROCKET history."
 
 	para "And I'm going to"
-	line "grind that LANCE"
-	cont "under my heels."
+	line "grind that"
+	cont "SIEGFRIED under"
+	cont "my heels."
 	done
 
 GoldenrodUndergroundSwitchRoomEntrances_SuperNerdText:

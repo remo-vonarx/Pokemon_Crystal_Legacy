@@ -105,7 +105,7 @@ WillsRoom_EnterMovement:
 	step_end
 
 WillScript_WillRematchBeforeText:
-	text "WILL:"
+	text "WILLI:"
 	line "Ah, welcome back."
 
     para "I have foreseen"
@@ -134,7 +134,7 @@ WillScript_WillBeforeText:
 
 	para "Allow me to intro-"
 	line "duce myself. I am"
-	cont "WILL."
+	cont "WILLI."
 
 	para "I have trained all"
 	line "around the world,"

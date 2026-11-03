@@ -273,7 +273,7 @@ LancesRoomMovementData_MaryRunsBackAndForth:
 	step_end
 
 LanceRematchBattleIntroText:
-	text "LANCE: "
+	text "SIEGFRIED: "
 	line "Welcome back!"
 
     para "You've proven"
@@ -321,8 +321,9 @@ LanceRematchBattleIntroText:
     done
 
 LanceBattleIntroText:
-	text "LANCE: I've been"
-	line "waiting for you."
+	text "SIEGFRIED: I've"
+	line "been waiting for"
+	cont "you."
 
 	para "<PLAY_G>!"
 
@@ -367,9 +368,10 @@ LanceBattleIntroText:
 	para "As the #MON"
 	line "LEAGUE CHAMPION…"
 
-	para "I, LANCE the drag-"
-	line "on master, accept"
-	cont "your challenge!"
+	para "I, SIEGFRIED the"
+	line "dragon master,"
+	cont "accept your"
+	cont "challenge!"
 	done
 
 LanceBattleWinText:
@@ -410,15 +412,15 @@ LanceBattleAfterText:
 	done
 
 LancesRoomMaryOhNoOakText:
-	text "MARY: Oh, no!"
+	text "MARGIT: Oh, no!"
 	line "It's all over!"
 
-	para "PROF.OAK, if you"
+	para "PROF EICH, if you"
 	line "weren't so slow…"
 	done
 
 LancesRoomOakCongratulationsText:
-	text "PROF.OAK: Ah,"
+	text "PROF EICH: Ah,"
 	line "<PLAY_G>!"
 
 	para "It's been a long"
@@ -451,13 +453,13 @@ LancesRoomOakCongratulationsText:
 	done
 
 LancesRoomRematchOakCongratulationsText:
-	text "PROF.OAK: Ah,"
+	text "PROF EICH: Ah,"
     line "<PLAY_G>!"
 
 	para "I've been following"
     line "your progress"
-    cont "since PROF."
-    cont "ELM sent you on"
+    cont "since PROF"
+    cont "LIND sent you on"
 	cont "your way."
 
     para "You've certainly"
@@ -500,19 +502,21 @@ LancesRoomRematchOakCongratulationsText:
 	done
 
 LancesRoomMaryInterviewText:
-	text "MARY: Let's inter-"
-	line "view the brand new"
-	cont "JOHTO CHAMPION!"
+	text "MARGIT: Let's"
+	line "interview the"
+	cont "brand new JOHTO"
+	cont "CHAMPION!"
 	done
 
 LancesRoomRematchMaryInterviewText:
-	text "MARY: Let's inter-"
-	line "view the brand new"
-	cont "KANTO CHAMPION!"
+	text "MARGIT: Let's"
+	line "interview the"
+	cont "brand new KANTO"
+	cont "CHAMPION!"
 	done
 
 LancesRoomNoisyText:
-	text "LANCE: This is"
+	text "SIEGFRIED: This is"
 	line "getting to be a"
 	cont "bit too noisy…"
 
@@ -521,13 +525,13 @@ LancesRoomNoisyText:
 	done
 
 LancesRoomMaryNoInterviewText:
-	text "MARY: Oh, wait!"
+	text "MARGIT: Oh, wait!"
 	line "We haven't done"
 	cont "the interview!"
 	done
 
 LancesRoomRematchMaryNoInterviewText:
-	text "MARY: Come on!"
+	text "MARGIT: Come on!"
 	line "You can't blow off"
 	cont "the interview"
 	cont "AGAIN!"

@@ -189,10 +189,11 @@ Route35GoldenrodGateFisherText:
 	line "world."
 
 	para "Three years ago,"
-	line "PROF.OAK said that"
+	line "PROF EICH said"
 
-	para "there were 150"
-	line "different kinds."
+	para "that there were"
+	line "150 different"
+	cont "kinds."
 	done
 
 Route35GoldenrodGate_MapEvents:

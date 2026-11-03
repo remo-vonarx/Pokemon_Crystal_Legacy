@@ -147,7 +147,7 @@ BuenaPhoneLuckyNumberShowText:
 	para "a prize on the"
 	line "LUCKY NUMBER SHOW?"
 
-	para "REED moans that"
+	para "BASTIAN moans that"
 	line "he's never won, so"
 
 	para "he vows to keep"
@@ -167,7 +167,7 @@ BuenaPhoneStressedFromWorkText:
 	para "ate a ton of junk"
 	line "food!"
 
-	para "MARY and I have"
+	para "MARGIT and I have"
 	line "this deal about"
 	cont "losing weight…"
 
@@ -179,17 +179,17 @@ BuenaPhoneStressedFromWorkText:
 	para "This has to be a"
 	line "total secret!"
 
-	para "MARY weighs…"
+	para "MARGIT weighs…"
 
-	para "Aiyee! M-MARY!"
+	para "Aiyee! M-MARGIT!"
 
 	para "Uh… Um… I… Sorry,"
 	line "wrong number!"
 	done
 
 BuenaPhoneProfessorOakText:
-	text "Yesterday, PROF."
-	line "OAK was in the"
+	text "Yesterday, PROF"
+	line "EICH was in the"
 
 	para "studio to tape his"
 	line "show."
@@ -201,7 +201,7 @@ BuenaPhoneProfessorOakText:
 	line "in to my program!"
 
 	para "Oh! Here comes"
-	line "PROF.OAK again!"
+	line "PROF EICH again!"
 
 	para "I'm going to chat"
 	line "him up again!"
@@ -366,14 +366,15 @@ BuenaPhoneStarterPokemonText:
 	para "Did you know that"
 	line "the first #MON"
 
-	para "MARY caught was a"
-	line "DROWZEE?"
+	para "MARGIT caught was"
+	line "a TRAUMATO?"
 
 	para "Isn't that so out"
 	line "of character?"
 
-	para "But MARY's DROWZEE"
-	line "kept making her"
+	para "But MARGIT's"
+	line "TRAUMATO kept"
+	cont "making her"
 
 	para "fall asleep on the"
 	line "job, so she traded"
@@ -447,8 +448,8 @@ BuenaPhoneBenAndFernText:
 
 BuenaPhoneGoingShoppingText:
 	text "I'm going shopping"
-	line "with MARY and LILY"
-	cont "soon."
+	line "with MARGIT and"
+	cont "LILY soon."
 
 	para "It'll be great if"
 	line "GOLDENROD DEPT."

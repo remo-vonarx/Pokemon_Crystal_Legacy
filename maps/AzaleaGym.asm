@@ -176,7 +176,7 @@ AzaleaGymStatue:
 	jumpstd GymStatue2Script
 
 BugsyText_INeverLose:
-	text "I'm BUGSY!"
+	text "I'm KAI!"
 	line "I never lose when"
 
 	para "it comes to bug"
@@ -370,7 +370,7 @@ TwinsAmyandmay1AfterBattleText:
 	text "AMY: You're"
 	line "really strong!"
 
-	para "But BUGSY's even"
+	para "But KAI's even"
 	line "stronger! His"
 
 	para "SICHLOR's CUT al-"
@@ -383,7 +383,7 @@ TwinsAmyandmay2SeenText:
 	line "see the LEADER?"
 	cont "Good luck!"
 	
-	para "BUGSY is so"
+	para "KAI is so"
 	line "strong! His"
 	cont "SICHLOR's CUT"
 	
@@ -401,7 +401,7 @@ TwinsAmyandmay2AfterBattleText:
 	line "MON lost! Oh, what"
 	cont "a shame."
 
-	para "BUGSY's won't"
+	para "KAI's won't"
 	line "lose though!"
 
 	para "His TANNZA makes"
@@ -412,7 +412,7 @@ TwinsAmyandmay2AfterBattleText:
 AzaleaGymGuideText:
 	text "Yo, challenger!"
 
-	para "BUGSY's young, but"
+	para "KAI's young, but"
 	line "his knowledge of"
 
 	para "bug #MON is for"
@@ -423,7 +423,7 @@ AzaleaGymGuideText:
 	cont "advice."
 
 	para "Let's see…"
-	line "BUGSY's bagworm"
+	line "KAI's bagworm"
 	cont "#MON knows a"
 	
 	para "move that covers"

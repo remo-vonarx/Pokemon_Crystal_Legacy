@@ -160,7 +160,7 @@ OlivineLighthouseJasmineLeavesRightMovement:
 	step_end
 
 JasmineCianwoodPharmacyText:
-	text "JASMINE: … This"
+	text "JASMIN: … This"
 	line "#MON always"
 
 	para "kept the sea lit"
@@ -190,7 +190,7 @@ JasmineGetSomeMedicineText:
 	done
 
 JasmineCureAmphyText:
-	text "JASMINE: …Will"
+	text "JASMIN: …Will"
 	line "that medicine cure"
 	cont "AMPHY?"
 	done
@@ -198,11 +198,11 @@ JasmineCureAmphyText:
 PlayerHandedSecretpotionText:
 	text "<PLAYER> handed the"
 	line "SECRETPOTION to"
-	cont "JASMINE."
+	cont "JASMIN."
 	done
 
 JasmineDontBeOffendedText:
-	text "JASMINE: …Um,"
+	text "JASMIN: …Um,"
 	line "please don't be"
 	cont "offended…"
 
@@ -212,14 +212,14 @@ JasmineDontBeOffendedText:
 	done
 
 JasmineAmphyHowAreYouFeelingText:
-	text "JASMINE: …"
+	text "JASMIN: …"
 
 	para "AMPHY, how are you"
 	line "feeling?"
 	done
 
 JasmineThankYouText:
-	text "JASMINE: …Oh, I'm"
+	text "JASMIN: …Oh, I'm"
 	line "so relieved…"
 
 	para "This is just so"
@@ -237,7 +237,7 @@ JasmineThankYouText:
 	done
 
 JasmineISeeText:
-	text "JASMINE: …I see…"
+	text "JASMIN: …I see…"
 	done
 
 JasmineAmphyHangOnText:

@@ -734,7 +734,7 @@ AfterChikoritaMovement:
 	step_end
 
 ElmText_Intro:
-	text "ELM: <PLAY_G>!"
+	text "LIND: <PLAY_G>!"
 	line "There you are!"
 
 	para "I needed to ask"
@@ -834,38 +834,38 @@ ElmText_LetYourMonBattleIt:
 	done
 
 LabWhereGoingText:
-	text "ELM: Wait! Where"
+	text "LIND: Wait! Where"
 	line "are you going?"
 	done
 
 TakeCyndaquilText:
-	text "ELM: You'll take"
-	line "CYNDAQUIL, the"
+	text "LIND: You'll take"
+	line "FEURIGEL, the"
 	cont "fire #MON?"
 	done
 
 TakeTotodileText:
-	text "ELM: Do you want"
-	line "TOTODILE, the"
+	text "LIND: Do you want"
+	line "KARNIMANI, the"
 	cont "water #MON?"
 	done
 
 TakeChikoritaText:
-	text "ELM: So, you like"
-	line "CHIKORITA, the"
+	text "LIND: So, you like"
+	line "ENDIVIE, the"
 	cont "grass #MON?"
 	done
 
 DidntChooseStarterText:
-	text "ELM: Think it over"
-	line "carefully."
+	text "LIND: Think it"
+	line "over carefully."
 
 	para "Your partner is"
 	line "important."
 	done
 
 ChoseStarterText:
-	text "ELM: I think"
+	text "LIND: I think"
 	line "that's a great"
 	cont "#MON too!"
 	done
@@ -911,7 +911,7 @@ ElmDirectionsText3:
 	done
 
 GotElmsNumberText:
-	text "<PLAYER> got ELM's"
+	text "<PLAYER> got LIND's"
 	line "phone number."
 	done
 
@@ -928,7 +928,7 @@ ElmDescribesMrPokemonText:
 ElmPokeBallText:
 	text "It contains a"
 	line "#MON caught by"
-	cont "PROF.ELM."
+	cont "PROF LIND."
 	done
 
 ElmsLabHealingMachineText1:
@@ -942,8 +942,8 @@ ElmsLabHealingMachineText2:
 	done
 
 ElmAfterTheftText1:
-	text "ELM: <PLAY_G>, this"
-	line "is terrible…"
+	text "LIND: <PLAY_G>,"
+	line "this is terrible…"
 
 	para "Oh, yes, what was"
 	line "MR.#MON's big"
@@ -953,11 +953,11 @@ ElmAfterTheftText1:
 ElmAfterTheftText2:
 	text "<PLAYER> handed"
 	line "the MYSTERY EGG to"
-	cont "PROF.ELM."
+	cont "PROF LIND."
 	done
 
 ElmAfterTheftText3:
-	text "ELM: This?"
+	text "LIND: This?"
 	done
 
 ElmAfterTheftText4:
@@ -969,9 +969,9 @@ ElmAfterTheftText4:
 	done
 
 ElmAfterTheftText5:
-	text "ELM: What?!?"
+	text "LIND: What?!?"
 
-	para "PROF.OAK gave you"
+	para "PROF EICH gave you"
 	line "a #DEX?"
 
 	para "<PLAY_G>, is that"
@@ -1019,7 +1019,7 @@ ElmAfterTheftText6:
 	done
 
 ElmStudyingEggText:
-	text "ELM: Don't give"
+	text "LIND: Don't give"
 	line "up! I'll call if"
 
 	para "I learn anything"
@@ -1027,7 +1027,7 @@ ElmStudyingEggText:
 	done
 
 ElmAideHasEggText:
-	text "ELM: <PLAY_G>?"
+	text "LIND: <PLAY_G>?"
 	line "Didn't you meet my"
 	cont "assistant?"
 
@@ -1043,8 +1043,9 @@ ElmAideHasEggText:
 	done
 
 ElmWaitingEggHatchText:
-	text "ELM: Hey, has that"
-	line "EGG changed any?"
+	text "LIND: Hey, has"
+	line "that EGG changed"
+	cont "any?"
 	done
 
 ElmThoughtEggHatchedText:
@@ -1056,7 +1057,7 @@ ElmThoughtEggHatchedText:
 	done
 
 ShowElmTogepiText1:
-	text "ELM: <PLAY_G>, you"
+	text "LIND: <PLAY_G>, you"
 	line "look great!"
 	done
 
@@ -1110,7 +1111,7 @@ ElmGiveEverstoneText2:
 	done
 
 ElmText_CallYou:
-	text "ELM: <PLAY_G>, I'll"
+	text "LIND: <PLAY_G>, I'll"
 	line "call you if any-"
 	cont "thing comes up."
 	done
@@ -1130,7 +1131,7 @@ AideText_AfterTheft:
 	done
 
 ElmGiveMasterBallText1:
-	text "ELM: Hi, <PLAY_G>!"
+	text "LIND: Hi, <PLAY_G>!"
 	line "Thanks to you, my"
 
 	para "research is going"
@@ -1163,7 +1164,7 @@ ElmGiveMasterBallText2:
 	done
 
 ElmGiveTicketText1:
-	text "ELM: <PLAY_G>!"
+	text "LIND: <PLAY_G>!"
 	line "There you are!"
 
 	para "I called because I"
@@ -1199,13 +1200,14 @@ ElmGiveTicketText2:
 	line "won't hold back."
 
 	para "Give my regards to"
-	line "PROF.OAK in KANTO!"
+	line "PROF EICH in"
+	cont "KANTO!"
 	done
 
 ElmsLabMonEggText: ; unreferenced
 	text "It's the #MON"
 	line "EGG being studied"
-	cont "by PROF.ELM."
+	cont "by PROF LIND."
 	done
 
 AideText_GiveYouPotion:
@@ -1268,7 +1270,7 @@ ElmsLabOfficerText1:
 
 	para "I was just getting"
 	line "some information"
-	cont "from PROF.ELM."
+	cont "from PROF LIND."
 
 	para "Apparently, it was"
 	line "a young male with"
@@ -1349,8 +1351,9 @@ ElmsLabTravelTip4Text:
 
 ElmsLabTrashcanText:
 	text "The wrapper from"
-	line "the snack PROF.ELM"
-	cont "ate is in there…"
+	line "the snack"
+	cont "PROF LIND ate is"
+	cont "in there…"
 	done
 
 ElmsLabPCText:

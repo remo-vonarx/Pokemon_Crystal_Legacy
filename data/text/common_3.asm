@@ -1398,7 +1398,7 @@ _ItemCantUseOnEggText::
 	prompt
 
 _ItemOakWarningText::
-	text "OAK: <PLAYER>!"
+	text "EICH: <PLAYER>!"
 	line "This isn't the"
 	cont "time to use that!"
 	prompt

@@ -145,7 +145,7 @@ BlackthornCityMartSign:
 Text_ClairIsOut:
 	text "I am sorry."
 
-	para "CLAIR, our GYM"
+	para "SANDRA, our GYM"
 	line "LEADER, entered"
 
 	para "the DRAGON'S DEN"
@@ -157,7 +157,7 @@ Text_ClairIsOut:
 	done
 
 Text_ClairIsIn:
-	text "CLAIR, our GYM"
+	text "SANDRA, our GYM"
 	line "LEADER, is waiting"
 	cont "for you."
 
@@ -170,7 +170,7 @@ Text_ClairIsIn:
 
 Text_ClairIsBeaten:
 	text "You defeated"
-	line "CLAIR?"
+	line "SANDRA?"
 
 	para "That's amazing!"
 
@@ -178,7 +178,7 @@ Text_ClairIsBeaten:
 	line "of her losing to"
 
 	para "anyone other than"
-	line "LANCE."
+	line "SIEGFRIED."
 	done
 
 BlackthornGrampsRefusesEntryText:
@@ -190,7 +190,7 @@ BlackthornGrampsRefusesEntryText:
 	done
 
 BlackthornGrampsGrantsEntryText:
-	text "If CLAIR allows"
+	text "If SANDRA allows"
 	line "it, her grand-"
 	cont "father--our MASTER"
 	cont "--will also."
@@ -284,7 +284,7 @@ BlackthornCitySignText:
 BlackthornGymSignText:
 	text "BLACKTHORN CITY"
 	line "#MON GYM"
-	cont "LEADER: CLAIR"
+	cont "LEADER: SANDRA"
 
 	para "The Blessed User"
 	line "of Dragon #MON"

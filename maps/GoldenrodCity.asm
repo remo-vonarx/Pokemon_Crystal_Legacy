@@ -432,7 +432,7 @@ GoldenrodDeptStoreSignText:
 GoldenrodGymSignText:
 	text "GOLDENROD CITY"
 	line "#MON GYM"
-	cont "LEADER: WHITNEY"
+	cont "LEADER: BIANKA"
 
 	para "The Incredibly"
 	line "Pretty Girl!"

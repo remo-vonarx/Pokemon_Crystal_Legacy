@@ -291,7 +291,7 @@ JanineText_DisappointYou:
 	done
 
 JanineText_ToughOne:
-	text "JANINE: You're a"
+	text "JANINA: You're a"
 	line "tough one. You"
 	cont "definitely won…"
 
@@ -305,7 +305,7 @@ Text_ReceivedSoulBadge:
 	done
 
 JanineText_ToxicSpeech:
-	text "JANINE: You're so"
+	text "JANINA: You're so"
 	line "tough! I have a"
 	cont "special gift!"
 
@@ -317,7 +317,7 @@ JanineText_ToxicSpeech:
 	done
 
 JanineText_ApplyMyself:
-	text "JANINE: I'm going"
+	text "JANINA: I'm going"
 	line "to really apply"
 
 	para "myself and improve"
@@ -346,7 +346,7 @@ JanineRematchText:
 	done
 
 Janine_RematchDefeatText:
-	text "JANINE: You're"
+	text "JANINA: You're"
 	line "still just as"
 	cont "tough!"
 
@@ -357,7 +357,7 @@ Janine_RematchDefeatText:
 LassAliceBeforeText:
 	text "Fufufu!"
 
-	para "I'm JANINE, the"
+	para "I'm JANINA, the"
 	line "GYM LEADER!"
 
 	para "No, I'm not!"
@@ -390,7 +390,7 @@ LassLindaAfterText:
 	done
 
 PicnickerCindyBeforeText:
-	text "I'm JANINE!"
+	text "I'm JANINA!"
 
 	para "How did you know I"
 	line "was real?"
@@ -412,7 +412,7 @@ CamperBarryBeforeText:
 	text "Wahahaha!"
 
 	para "You betcha!"
-	line "I'm JANINE!"
+	line "I'm JANINA!"
 	done
 
 CamperBarryBeatenText:
@@ -435,10 +435,10 @@ FuchsiaGymGuideText:
 
 	para "you. The trainers"
 	line "all look like the"
-	cont "LEADER, JANINE."
+	cont "LEADER, JANINA."
 
 	para "Which of them is"
-	line "the real JANINE?"
+	line "the real JANINA?"
 	done
 
 FuchsiaGymGuideWinText:

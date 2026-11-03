@@ -412,8 +412,8 @@ RadioTower1FLassText:
 	done
 
 RadioTower1FYoungsterText:
-	text "I love MARY, from"
-	line "#MON TALK."
+	text "I love MARGIT,"
+	line "from #MON TALK."
 
 	para "I only know what"
 	line "she sounds like,"

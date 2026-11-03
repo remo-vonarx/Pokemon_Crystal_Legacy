@@ -221,7 +221,7 @@ ChuckIntroText1:
 	done
 
 ChuckIntroText2:
-	text "CHUCK: Urggh!"
+	text "HARTWIG: Urggh!"
 	line "…"
 
 	para "Oooarrgh!"

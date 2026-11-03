@@ -569,7 +569,7 @@ RadioTower5FGiovanniText2:
 	line "over..."
 
 	para "But recall,"
-	line "ARCHER."
+	line "ATLAS."
 
 	para "Why did I choose"
 	line "to disband it?"
@@ -618,7 +618,7 @@ RadioTower5FGiovanniText5:
 	done
 
 RadioTower5FRocketBossDisbandText1:
-	text "ARCHER:"
+	text "ATLAS:"
 	line "I..."
 
 	para "I did this for"
