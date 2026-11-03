@@ -18,9 +18,9 @@ Route2GateScientistText:
 	para "I had no idea that"
 	line "you were out here."
 
-	para "PROF.OAK's LAB is"
-	line "nearby in PALLET"
-	cont "TOWN."
+	para "PROF EICH's LAB is"
+	line "nearby in"
+	cont "ALABASTIA."
 	done
 
 Route2Gate_MapEvents:

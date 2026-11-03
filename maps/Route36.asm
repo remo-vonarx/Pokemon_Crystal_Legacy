@@ -529,7 +529,7 @@ RockSmashGuyText3:
 UnusedOddTreeText: ; unreferenced
 	text "An odd tree is"
 	line "blocking the way"
-	cont "to GOLDENROD CITY."
+	cont "to DUKATIA CITY."
 
 	para "I wanted to go see"
 	line "the huge #MON"

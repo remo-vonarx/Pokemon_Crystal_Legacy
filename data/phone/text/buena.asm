@@ -396,7 +396,7 @@ BuenaPhoneCompanyVacationText:
 	line "a company vacation"
 
 	para "to the RADIO TOWER"
-	line "in LAVENDER."
+	line "in LAVANDIA."
 
 	para "We're wasting our"
 	line "vacation on a trip"
@@ -452,7 +452,7 @@ BuenaPhoneGoingShoppingText:
 	cont "LILY soon."
 
 	para "It'll be great if"
-	line "GOLDENROD DEPT."
+	line "DUKATIA DEPT."
 
 	para "STORE has a sale"
 	line "on when we go…"

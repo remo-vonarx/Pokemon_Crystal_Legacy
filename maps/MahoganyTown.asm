@@ -144,7 +144,7 @@ RageCandyBarMerchantTryOneText:
 	text "Hiya, kid!"
 
 	para "I see you're new"
-	line "in MAHOGANY TOWN."
+	line "in MAHAGONIA CITY."
 
 	para "Since you're new,"
 	line "you should try a"
@@ -223,7 +223,7 @@ MahoganyTownLassText:
 	done
 
 MahoganyTownSignText:
-	text "MAHOGANY TOWN"
+	text "MAHAGONIA CITY"
 
 	para "Welcome to the"
 	line "Home of the Ninja"
@@ -231,12 +231,13 @@ MahoganyTownSignText:
 
 MahoganyTownRagecandybarSignText:
 	text "While visiting"
-	line "MAHOGANY TOWN, try"
-	cont "a RAGECANDYBAR!"
+	line "MAHAGONIA CITY,"
+	cont "try a"
+	cont "RAGECANDYBAR!"
 	done
 
 MahoganyGymSignText:
-	text "MAHOGANY TOWN"
+	text "MAHAGONIA CITY"
 	line "#MON GYM"
 	cont "LEADER: NORBERT"
 

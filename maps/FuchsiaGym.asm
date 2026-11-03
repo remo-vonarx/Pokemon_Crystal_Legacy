@@ -286,8 +286,9 @@ JanineText_DisappointYou:
 
 	para "I'm the real deal!"
 
-	para "JANINE of FUCHSIA"
-	line "GYM, that's me!"
+	para "JANINA of"
+	line "FUCHSANIA GYM,"
+	cont "that's me!"
 	done
 
 JanineText_ToughOne:

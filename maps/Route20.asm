@@ -124,8 +124,8 @@ CinnabarGymSignText:
 	text "What does this"
 	line "sign say?"
 
-	para "CINNABAR GYM"
-	line "LEADER: BLAINE"
+	para "ZINNOBER GYM"
+	line "LEADER: PYRO"
 	done
 
 Route20_MapEvents:

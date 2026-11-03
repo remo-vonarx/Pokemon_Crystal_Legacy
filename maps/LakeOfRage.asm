@@ -330,7 +330,7 @@ LakeOfRageLanceRadioSignalText:
 	para "A mysterious radio"
 	line "broadcast coming"
 
-	para "from MAHOGANY is"
+	para "from MAHAGONIA is"
 	line "the cause."
 
 	para "We'll be waiting"

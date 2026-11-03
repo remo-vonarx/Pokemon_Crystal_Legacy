@@ -415,7 +415,7 @@ AzaleaTownKurtText3:
 	done
 
 AzaleaTownSignText:
-	text "AZALEA TOWN"
+	text "AZALEA CITY"
 	line "Where People and"
 
 	para "#MON Live in"
@@ -427,7 +427,7 @@ KurtsHouseSignText:
 	done
 
 AzaleaGymSignText:
-	text "AZALEA TOWN"
+	text "AZALEA CITY"
 	line "#MON GYM"
 	cont "LEADER: KAI"
 

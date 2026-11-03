@@ -211,7 +211,7 @@ SageLiSeenText:
 	text "So good of you to"
 	line "come here!"
 
-	para "SPROUT TOWER is a"
+	para "KNOFENSA-TURM is a"
 	line "place of training."
 
 	para "People and #MON"
@@ -254,7 +254,7 @@ SageLiFlashExplanationText:
 	line "of battle, you"
 
 	para "need the BADGE"
-	line "from VIOLET's GYM."
+	line "from VIOLA's GYM."
 	done
 
 SageLiAfterBattleText:

@@ -62,7 +62,7 @@ DayOfWeekSiblingsHousePokedexText3:
 	line "ROUTE 32"
 
 	para "Saturday, SANTOS"
-	line "BLACKTHORN CITY"
+	line "EBENHOLZ CITY"
 
 	para "Sunday, SUNNY"
 	line "ROUTE 37"

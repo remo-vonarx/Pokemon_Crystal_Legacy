@@ -76,7 +76,7 @@ LavenderTownYoungsterText:
 	done
 
 LavenderTownSignText:
-	text "LAVENDER TOWN"
+	text "LAVANDIA"
 
 	para "The Noble Purple"
 	line "Town"
@@ -92,7 +92,7 @@ KantoRadioStationSignText:
 	done
 
 VolunteerPokemonHouseSignText:
-	text "LAVENDER VOLUNTEER"
+	text "LAVANDIA VOLUNTEER"
 	line "#MON HOUSE"
 	done
 

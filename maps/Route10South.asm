@@ -69,8 +69,8 @@ PokefanmRobertAfterBattleText:
 Route10SignText:
 	text "ROUTE 10"
 
-	para "CERULEAN CITY -"
-	line "LAVENDER TOWN"
+	para "AZURIA CITY -"
+	line "LAVANDIA"
 	done
 
 Route10South_MapEvents:

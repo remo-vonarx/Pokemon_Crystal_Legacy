@@ -287,7 +287,7 @@ BlackthornGymClairText_League:
 	line "where it is?"
 
 	para "From here, go to"
-	line "NEW BARK TOWN."
+	line "NEUBORKIA."
 
 	para "Then SURF east."
 	line "The route there is"

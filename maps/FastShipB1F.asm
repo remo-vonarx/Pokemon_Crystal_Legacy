@@ -291,8 +291,9 @@ PicnickerDebraBeatenText:
 	done
 
 PicnickerDebraAfterBattleText:
-	text "SAFFRON, CELADON…"
-	line "I hear there are"
+	text "SAFFRONIA,"
+	line "PRISMANIA…"
+	cont "I hear there are"
 
 	para "many big cities"
 	line "in KANTO."
@@ -330,8 +331,8 @@ SailorGarrettAfterBattleText:
 	text "We get different"
 	line "passengers from"
 
-	para "VERMILION CITY to"
-	line "OLIVINE CITY."
+	para "ORANIA CITY to"
+	line "OLIVIANA CITY."
 	done
 
 FisherJonahSeenText:
@@ -350,7 +351,7 @@ FisherJonahBeatenText:
 
 FisherJonahAfterBattleText:
 	text "I plan to fish off"
-	line "VERMILION's pier."
+	line "ORANIA's pier."
 	done
 
 BlackbeltWaiSeenText:
@@ -412,7 +413,7 @@ TeacherShirleyBeatenText:
 TeacherShirleyAfterBattleText:
 	text "We're on a field"
 	line "trip to the RUINS"
-	cont "outside VIOLET."
+	cont "outside VIOLA."
 	done
 
 SchoolboyNateSeenText:

@@ -138,8 +138,8 @@ VioletGymStatue:
 	jumpstd GymStatue2Script
 
 FalknerIntroText:
-	text "I'm FALKNER, the"
-	line "VIOLET #MON GYM"
+	text "I'm FALK, the"
+	line "VIOLA #MON GYM"
 	cont "leader!"
 
 	para "People say you can"

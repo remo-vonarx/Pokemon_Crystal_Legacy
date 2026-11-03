@@ -675,7 +675,7 @@ GoldenrodPokecomCenterPerson12Text: ; unreferenced
 	text "I came over here"
 	line "when I got word"
 
-	para "that GOLDENROD's"
+	para "that DUKATIA's"
 	line "#MON CENTER has"
 
 	para "new machines that"

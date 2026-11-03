@@ -754,7 +754,8 @@ RocketBaseLanceWhirlpoolText:
 	line "out of battle only"
 
 	para "with the BADGE"
-	line "from MAHOGANY GYM."
+	line "from MAHAGONIA"
+	cont "GYM."
 	done
 
 RocketBaseLanceMonMasterText:

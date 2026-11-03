@@ -9,7 +9,7 @@ IrwinRocketTakeoverRumorText:
 	text "<PLAY_G>, have you"
 	line "heard?"
 
-	para "GOLDENROD's RADIO"
+	para "DUKATIA's RADIO"
 	line "TOWER has been"
 
 	para "taken over by TEAM"
@@ -86,10 +86,10 @@ IrwinRisingBadgeGossipText:
 
 IrwinEliteFourGossipText:
 	text "Yesterday, I went"
-	line "out to NEW BARK"
+	line "out to NEUBORKIA."
 
-	para "TOWN.  There was a"
-	line "lady who looked a"
+	para "There was a lady"
+	line "who looked a"
 
 	para "lot like you,"
 	line "<PLAY_G>."
@@ -203,8 +203,8 @@ IrwinCalledRightAwayText:
 IrwinFogBadgeGossipText:
 	text "I saw, I heard!"
 
-	para "You beat MORTY of"
-	line "ECRUTEAK GYM!"
+	para "You beat JENS of"
+	line "TEAK GYM!"
 
 	para "Th-that's just"
 	line "incredible!"

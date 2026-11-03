@@ -174,7 +174,7 @@ JasmineCianwoodPharmacyText:
 	line "that there is a"
 
 	para "wonderful PHARMACY"
-	line "in CIANWOOD…"
+	line "in ANEMONIA…"
 
 	para "But that's across"
 	line "the sea…"

@@ -105,8 +105,9 @@ BrockIntroText:
 	para "get a challenger"
 	line "from JOHTO."
 
-	para "I'm BROCK, the"
-	line "PEWTER GYM LEADER."
+	para "I'm ROCKO, the"
+	line "MARMORIA GYM"
+	cont "LEADER."
 
 	para "I'm an expert on"
 	line "ROCK-type #MON."

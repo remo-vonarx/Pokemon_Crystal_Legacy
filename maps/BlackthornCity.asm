@@ -222,7 +222,7 @@ BlackthornCooltrainerF1Text:
 BlackthornYoungsterText:
 	text "Dragon masters all"
 	line "come from the city"
-	cont "of BLACKTHORN."
+	cont "of EBENHOLZ."
 	done
 
 MeetSantosText:
@@ -275,14 +275,14 @@ BlackthornCooltrainerF2Text:
 	done
 
 BlackthornCitySignText:
-	text "BLACKTHORN CITY"
+	text "EBENHOLZ CITY"
 
 	para "A Quiet Mountain"
 	line "Retreat"
 	done
 
 BlackthornGymSignText:
-	text "BLACKTHORN CITY"
+	text "EBENHOLZ CITY"
 	line "#MON GYM"
 	cont "LEADER: SANDRA"
 

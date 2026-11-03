@@ -351,8 +351,8 @@ RadioTower1FRadioCardWomanQuestion4Text:
 	text "So far so good!"
 	line "Question 4:"
 
-	para "Is FALKNER the"
-	line "VIOLET GYM LEADER"
+	para "Is FALK the"
+	line "VIOLA GYM LEADER"
 
 	para "who uses bird"
 	line "#MON?"
@@ -363,7 +363,7 @@ RadioTower1FRadioCardWomanQuestion5Text:
 	line "Here's the final"
 	cont "question:"
 
-	para "Do GOLDENROD GAME"
+	para "Do DUKATIA GAME"
 	line "CORNER's slots"
 
 	para "have GLUMANDA"

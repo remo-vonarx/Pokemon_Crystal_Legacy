@@ -23,7 +23,7 @@ Route19FuchsiaGateOfficerScript:
 	end
 
 Route19FuchsiaGateOfficerText:
-	text "CINNABAR's volcano"
+	text "ZINNOBER's volcano"
 	line "erupted."
 
 	para "It hurled boulders"
@@ -31,12 +31,12 @@ Route19FuchsiaGateOfficerText:
 	cont "19 indefinitely."
 
 	para "I wonder if the"
-	line "people of CINNABAR"
+	line "people of ZINNOBER"
 	cont "are safe…"
 	done
 
 Route19FuchsiaGateOfficerText_RocksCleared:
-	text "No CINNABAR citi-"
+	text "No ZINNOBER citi-"
 	line "zens were injured"
 
 	para "by the eruption."

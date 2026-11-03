@@ -68,7 +68,7 @@ PewterCityFruitTree2:
 
 PewterCityCooltrainerFText:
 	text "Have you visited"
-	line "PEWTER GYM?"
+	line "MARMORIA GYM?"
 
 	para "The LEADER uses"
 	line "ROCK-type #MON."
@@ -115,12 +115,12 @@ PewterCityGrampsText_GotSilverWing:
 	done
 
 PewterCitySignText:
-	text "PEWTER CITY"
+	text "MARMORIA CITY"
 	line "A Stone Gray City"
 	done
 
 PewterGymSignText:
-	text "PEWTER CITY"
+	text "MARMORIA CITY"
 	line "#MON GYM"
 	cont "LEADER: ROCKO"
 
@@ -132,7 +132,7 @@ PewterMuseumSignText:
 	text "There's a notice"
 	line "here…"
 
-	para "PEWTER MUSEUM OF"
+	para "MARMORIA MUSEUM OF"
 	line "SCIENCE is closed"
 	cont "for renovations…"
 	done
@@ -147,7 +147,7 @@ PewterCityMtMoonGiftShopSignText:
 
 PewterCityWelcomeSignText:
 	text "WELCOME TO"
-	line "PEWTER CITY!"
+	line "MARMORIA CITY!"
 	done
 
 PewterCity_MapEvents:

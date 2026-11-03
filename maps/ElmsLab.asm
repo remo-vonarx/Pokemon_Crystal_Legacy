@@ -881,7 +881,7 @@ ElmDirectionsText1:
 	text "MR.#MON lives a"
 	line "little bit beyond"
 
-	para "CHERRYGROVE, the"
+	para "ROSALIA, the"
 	line "next city over."
 
 	para "It's almost a"
@@ -1003,7 +1003,7 @@ ElmAfterTheftText5:
 
 	para "The closest GYM"
 	line "would be the one"
-	cont "in VIOLET CITY."
+	cont "in VIOLA CITY."
 	done
 
 ElmAfterTheftText6:
@@ -1034,7 +1034,7 @@ ElmAideHasEggText:
 	para "He should have met"
 	line "you with the EGG"
 
-	para "at VIOLET CITY's"
+	para "at VIOLA CITY's"
 	line "#MON CENTER."
 
 	para "You must have just"
@@ -1180,7 +1180,8 @@ ElmGiveTicketText1:
 
 ElmGiveTicketText2:
 	text "The ship departs"
-	line "from OLIVINE CITY."
+	line "from OLIVIANA"
+	cont "CITY."
 
 	para "But you knew that"
 	line "already, <PLAY_G>."

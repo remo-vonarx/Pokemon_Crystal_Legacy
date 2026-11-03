@@ -28,8 +28,8 @@ GoldenrodDeptStore1FElevatorButton:
 	jumpstd ElevatorButtonScript
 
 GoldenrodDeptStore1FReceptionistText:
-	text "Welcome to GOLDEN-"
-	line "ROD DEPT.STORE."
+	text "Welcome to DUKATIA"
+	line "DEPT.STORE."
 	done
 
 GoldenrodDeptStore1FGentlemanText:

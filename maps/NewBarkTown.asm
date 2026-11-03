@@ -260,7 +260,7 @@ NewBarkTownRivalText2:
 	done
 
 NewBarkTownSignText:
-	text "NEW BARK TOWN"
+	text "NEUBORKIA"
 
 	para "The Town Where the"
 	line "Winds of a New"

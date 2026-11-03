@@ -263,7 +263,7 @@ ClairText_WhatsTheMatterDragonDen:
 	line "get there?"
 
 	para "From here, go to"
-	line "NEW BARK TOWN."
+	line "NEUBORKIA."
 
 	para "Then SURF east to"
 	line "#MON LEAGUE."

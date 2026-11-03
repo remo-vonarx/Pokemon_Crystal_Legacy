@@ -223,7 +223,7 @@ PowerPlantOfficer1AThiefBrokeInText:
 
 PowerPlantOfficer1CeruleanShadyCharacterText:
 	text "I just got word"
-	line "from CERULEAN."
+	line "from AZURIA."
 
 	para "It appears that a"
 	line "shady character"

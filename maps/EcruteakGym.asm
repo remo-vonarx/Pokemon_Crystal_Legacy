@@ -208,7 +208,7 @@ MortyIntroText:
 	text "Good of you to"
 	line "have come."
 
-	para "Here in ECRUTEAK,"
+	para "Here in TEAK,"
 	line "#MON have been"
 	cont "revered."
 

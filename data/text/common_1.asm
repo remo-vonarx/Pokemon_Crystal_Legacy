@@ -1041,7 +1041,7 @@ _BuenaRadioText5::
 
 _BuenaRadioText6::
 	text_start
-	line "I'm in GOLDENROD's"
+	line "I'm in DUKATIA's"
 	done
 
 _BuenaRadioText7::

@@ -115,7 +115,7 @@ EusineLeavesCeladonText:
 	line "party healed, so"
 
 	para "now I'm headed to"
-	line "ECRUTEAK."
+	line "TEAK."
 
 	para "I'll be seeing"
 	line "you, <PLAYER>!"

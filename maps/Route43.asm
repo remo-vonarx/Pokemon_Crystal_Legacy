@@ -499,14 +499,14 @@ Route43Sign1Text:
 	text "ROUTE 43"
 
 	para "LAKE OF RAGE -"
-	line "MAHOGANY TOWN"
+	line "MAHAGONIA CITY"
 	done
 
 Route43Sign2Text:
 	text "ROUTE 43"
 
 	para "LAKE OF RAGE -"
-	line "MAHOGANY TOWN"
+	line "MAHAGONIA CITY"
 	done
 
 Route43TrainerTipsText:

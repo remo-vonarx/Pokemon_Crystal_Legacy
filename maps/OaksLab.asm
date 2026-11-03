@@ -288,8 +288,8 @@ OaksLabPCText:
 	para "I'm delighted to"
 	line "hear that."
 
-	para "ELM in NEW BARK"
-	line "TOWN 8-)"
+	para "LIND in NEUBORKIA"
+	line "8-)"
 	done
 
 OaksLab_MapEvents:

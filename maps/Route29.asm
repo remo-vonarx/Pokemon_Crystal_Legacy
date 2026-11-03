@@ -281,7 +281,7 @@ CatchingTutorialDebriefText:
 	para "If you want to"
 	line "learn more, go"
 	cont "to the ACADEMY"
-	cont "in VIOLET CITY!"
+	cont "in VIOLA CITY!"
 
 	para "The students there"
 	line "know a lot about"
@@ -303,7 +303,7 @@ CatchingTutorialDeclinedText:
 	line "learn more, go"
 
 	para "to the ACADEMY"
-	line "in VIOLET CITY!"
+	line "in VIOLA CITY!"
 	
 	para "The students"
 	line "know a lot about"
@@ -333,7 +333,7 @@ Route29TeacherText:
 	cont "off them."
 
 	para "But you can go to"
-	line "NEW BARK without"
+	line "NEUBORKIA without"
 
 	para "walking through"
 	line "the grass."
@@ -426,15 +426,15 @@ TuscanyNotTuesdayText:
 Route29Sign1Text:
 	text "ROUTE 29"
 
-	para "CHERRYGROVE CITY -"
-	line "NEW BARK TOWN"
+	para "ROSALIA CITY -"
+	line "NEUBORKIA"
 	done
 
 Route29Sign2Text:
 	text "ROUTE 29"
 
-	para "CHERRYGROVE CITY -"
-	line "NEW BARK TOWN"
+	para "ROSALIA CITY -"
+	line "NEUBORKIA"
 	done
 
 Route29_MapEvents:

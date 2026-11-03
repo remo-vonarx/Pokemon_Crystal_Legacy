@@ -484,7 +484,7 @@ CooltrainermAllenAfterBattleText:
 	line "so tough."
 
 	para "I wonder if"
-	line "ECRUTEAK GYM's"
+	line "TEAK GYM's"
 
 	para "JENS is still in"
 	line "training?"
@@ -524,8 +524,8 @@ Route44Sign1Text:
 Route44Sign2Text:
 	text "ROUTE 44"
 
-	para "MAHOGANY TOWN -"
-	line "BLACKTHORN CITY"
+	para "MAHAGONIA CITY -"
+	line "EBENHOLZ CITY"
 	done
 
 Route44_MapEvents:

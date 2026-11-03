@@ -270,7 +270,7 @@ BurnedTower1FEusineText:
 	done
 
 BurnedTower1FMortyText:
-	text "MORTY: ECRUTEAK's"
+	text "JENS: TEAK's"
 	line "GYM LEADER has to"
 
 	para "study what are"

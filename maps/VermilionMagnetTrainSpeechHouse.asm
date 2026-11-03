@@ -21,13 +21,13 @@ VermilionMagnetTrainSpeechHousePokefanFText:
 	line "the MAGNET TRAIN?"
 
 	para "It's a railway"
-	line "that goes to GOL-"
-	cont "DENROD in JOHTO."
+	line "that goes to"
+	cont "DUKATIA in JOHTO."
 	done
 
 VermilionMagnetTrainSpeechHouseYoungsterText:
 	text "I want to go to"
-	line "SAFFRON to see"
+	line "SAFFRONIA to see"
 	cont "the MAGNET TRAIN."
 	done
 

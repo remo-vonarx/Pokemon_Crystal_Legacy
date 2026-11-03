@@ -91,7 +91,7 @@ SaffronPokecenter1FFisherReturnedMachinePartText:
 
 	para "past few years,"
 	line "like the one out-"
-	cont "side CERULEAN."
+	cont "side AZURIA."
 
 	para "As a pro HIKER,"
 	line "that's common"
@@ -106,7 +106,7 @@ SaffronPokecenter1FYoungsterText:
 	line "TION--they're the"
 
 	para "places to see in"
-	line "SAFFRON."
+	line "SAFFRONIA."
 	done
 
 SaffronPokecenter1F_MapEvents:

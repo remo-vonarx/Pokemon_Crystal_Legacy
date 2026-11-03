@@ -271,19 +271,19 @@ OlivineCitySailor2Text:
 	done
 
 OlivineCitySignText:
-	text "OLIVINE CITY"
+	text "OLIVIANA CITY"
 
 	para "The Port Closest"
 	line "to Foreign Lands"
 	done
 
 OlivineCityPortSignText:
-	text "OLIVINE PORT"
+	text "OLIVIANA PORT"
 	line "FAST SHIP PIER"
 	done
 
 OlivineGymSignText:
-	text "OLIVINE CITY"
+	text "OLIVIANA CITY"
 	line "#MON GYM"
 	cont "LEADER: JASMIN"
 
@@ -292,9 +292,11 @@ OlivineGymSignText:
 	done
 
 OlivineLighthouseSignText:
-	text "OLIVINE LIGHTHOUSE"
-	line "Also known as the"
-	cont "GLITTER LIGHTHOUSE"
+	text "OLIVIANA"
+	line "LIGHTHOUSE"
+
+	para "Also known as the"
+	line "GLITTER LIGHTHOUSE"
 	done
 
 OlivineCityBattleTowerSignText:

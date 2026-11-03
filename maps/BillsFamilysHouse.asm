@@ -183,7 +183,7 @@ BillsMomText_BeforeEcruteak:
 	para "He just got called"
 	line "to the #MON"
 
-	para "CENTER in ECRUTEAK"
+	para "CENTER in TEAK"
 	line "CITY."
 
 	para "My husband went"

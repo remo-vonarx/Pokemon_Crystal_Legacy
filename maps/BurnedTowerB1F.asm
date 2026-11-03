@@ -218,7 +218,7 @@ BurnedTowerB1FEusineText:
 	para "I heard that the"
 	line "legendary #MON"
 
-	para "of ECRUTEAK test"
+	para "of TEAK test"
 	line "chosen humans by"
 
 	para "allowing them to"

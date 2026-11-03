@@ -307,8 +307,8 @@ PokemaniacShaneAfterBattleText:
 Route42Sign1Text:
 	text "ROUTE 42"
 
-	para "ECRUTEAK CITY -"
-	line "MAHOGANY TOWN"
+	para "TEAK CITY -"
+	line "MAHAGONIA CITY"
 	done
 
 MtMortarSign1Text:
@@ -328,8 +328,8 @@ MtMortarSign2Text:
 Route42Sign2Text:
 	text "ROUTE 42"
 
-	para "ECRUTEAK CITY -"
-	line "MAHOGANY TOWN"
+	para "TEAK CITY -"
+	line "MAHAGONIA CITY"
 	done
 
 Route42_MapEvents:

@@ -99,7 +99,7 @@ LeaderBlueBeforeText:
 	line "got here, huh?"
 
 	para "I wasn't in the"
-	line "mood at CINNABAR,"
+	line "mood at ZINNOBER,"
 
 	para "but now I'm ready"
 	line "to battle you."

@@ -92,8 +92,8 @@ CelebiEvent_Str:
 	next "Offer to SHRINE.@"
 LugiaEvent_Str:
 	db 	 "SILVER WING, dull"
-	next "PEWTER sheen. Mis-"
-	next "placed as memento.@"
+	next "MARMORIA sheen."
+	next "Misplaced memento.@"
 HoOhEvent_Str:
 	db 	 "RAINBOW WING best-"
 	next "owed to Trainers"
@@ -111,8 +111,8 @@ MoltresEvent_Str:
 	next "long dark of"
 	next "VICTORY. LVL 60.@"
 MewtwoEvent_Str:
-	db 	 "Not CERULEAN, but"
-	next "RED and SILVER"
+	db 	 "Not AZURIA, but"
+	next "ROT and SILVER"
 	next "ice. LVL 75.@"
 MewEvent_Str:
 	db 	 "Meet at nugget"
