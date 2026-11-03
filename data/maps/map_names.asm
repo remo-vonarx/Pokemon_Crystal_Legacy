@@ -807,7 +807,7 @@ Blackthorn_Map_Name2: ; map_const BLACKTHORN_GYM_2F ;  2
 Blackthorn_Map_Name3: ; map_const BLACKTHORN_DRAGON_SPEECH_HOUSE ;  3
 	db "DRAGON HOUSE@"
 Blackthorn_Map_Name4: ; map_const BLACKTHORN_EMYS_HOUSE ;  4
-	db "EMY'S HOUSE@"
+	db "CARMEN'S HOUSE@"
 Blackthorn_Map_Name5: ; map_const BLACKTHORN_MART ;  5
 	db "BLACKTHORN <POKE>MART@"
 Blackthorn_Map_Name6: ; map_const BLACKTHORN_POKECENTER_1F ;  6
@@ -922,7 +922,7 @@ Violet_Map_Name9: ; map_const VIOLET_NICKNAME_SPEECH_HOUSE ;  9
 Violet_Map_Name10: ; map_const VIOLET_POKECENTER_1F ; 10
 	db "VIOLET <PKMN> CENTER@"
 Violet_Map_Name11: ; map_const VIOLET_KYLES_HOUSE ; 11
-	db "KYLE'S HOUSE@"
+	db "TOBI'S HOUSE@"
 Violet_Map_Name12: ; map_const ROUTE_32_RUINS_OF_ALPH_GATE ; 12
 	db "ROUTE 32-R. GATE@"
 Violet_Map_Name13: ; map_const ROUTE_32_POKECENTER_1F ; 13
