@@ -5700,7 +5700,7 @@ Function1027eb:
 	ret
 
 .Stats_Trade:
-	db "STATS     TRADE@"
+	db "STATUS    TAUSCH@"
 
 Function102814:
 	ld a, [wMenuCursorY]
@@ -6002,8 +6002,8 @@ Function1029fe:
 	ret
 
 String_102a26:
-	db   "TRADE"
-	next "CANCEL"
+	db   "TAUSCH"
+	next "ABBRECHEN"
 	db   "@"
 
 MenuData3_102a33:
@@ -6510,7 +6510,7 @@ Function102e07:
 	ret
 
 .waiting
-	db "Waiting...!@"
+	db "BITTE WARTEN…!@"
 
 Function102e3e:
 	ld de, .CancelString
@@ -6519,7 +6519,7 @@ Function102e3e:
 	ret
 
 .CancelString:
-	db "CANCEL@"
+	db "ABBRECHEN@"
 
 Function102e4f:
 	farcall LoadMobileTradeBorderTilemap
@@ -6607,8 +6607,8 @@ Function102ee7:
 	ret
 
 String_102ef4:
-	db   "Too bad! The trade"
-	next "was canceled!"
+	db   "Schade! Der Tausch"
+	next "wurde abgebrochen!"
 	db   "@"
 
 Function102f15:
@@ -6629,7 +6629,7 @@ Function102f32:
 	ret
 
 .TradeCompleted:
-	db "Trade completed!@"
+	db "TAUSCH VOLLZOGEN!@"
 
 Function102f50:
 	call Function102dc3
