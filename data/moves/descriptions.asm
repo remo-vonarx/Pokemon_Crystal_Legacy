@@ -324,8 +324,8 @@ SwordsDanceDescription:
 	next "ANGR-Wert.@"
 
 CutDescription:
-	db   "Has a high criti-"
-	next "cal hit ratio.@"
+	db   "Hohe Volltreffer-"
+	next "quote.@"
 
 GustDescription:
 	db   "Erzeugt starke"
@@ -621,7 +621,7 @@ RockThrowDescription:
 
 EarthquakeDescription:
 	db   "Stark! Nutzlos"
-	next "bei Flug-#MON.@"
+	next "bei FLUG-#MON.@"
 
 FissureDescription:
 	db   "K.O. durch"
@@ -834,8 +834,8 @@ LovelyKissDescription:
 	next "evtl. ein.@"
 
 SkyAttackDescription:
-	db   "A powerful flying"
-	next "attack.@"
+	db   "Starke Flug-"
+	next "Attacke.@"
 
 TransformDescription:
 	db   "Angreifer erkennt"
@@ -905,7 +905,7 @@ ConversionDescription:
 
 TriAttackDescription:
 	db   "Drei Strahlen mit"
-	next "einem Schuss.@"
+	next "einem Schuß.@"
 
 SuperFangDescription:
 	db   "Halbiert KP"
@@ -957,7 +957,7 @@ SnoreDescription:
 
 CurseDescription:
 	db   "Bes. Funktion bei"
-	next "Geist-#MON.@"
+	next "GEIST-#MON.@"
 
 FlailDescription:
 	db   "Effektiver, wenn "

@@ -276,7 +276,7 @@ GreatBallDesc:
 	next "Erfolgsquote.@"
 
 PokeBallDesc:
-	db   "Damit fängst du"
+	db   "Damit fängst Du"
 	next "#MON.@"
 
 TeruSama1Desc:
@@ -483,7 +483,7 @@ ExpShareDesc:
 	next "(TRAGEN)@"
 
 OldRodDesc:
-	db   "Damit kannst du"
+	db   "Damit kannst Du"
 	next "#MON angeln."
 	next "@"
 
@@ -830,13 +830,13 @@ LeftoversDesc:
 	next "auf. (TRAGEN)@"
 
 OldAmberDesc:
-	db   "Fossilized resin"
-	next "containing DNA.@"
+	db   "Versteinertes Harz"
+	next "mit DNS.@"
 
 DomeFossilDesc:
 HelixFossilDesc:
-	db   "A fossilized"
-	next "#mon shell.@"
+	db   "Versteinerte"
+	next "#MON-Schale.@"
 
 MysteryBerryDesc:
 	db   "Auto-Auffüllung"
@@ -864,7 +864,7 @@ SacredAshDesc:
 	next "siegten #MON.@"
 
 HeavyBallDesc:
-	db   "Damit fängst du"
+	db   "Damit fängst Du"
 	next "schwere #MON.@"
 
 FlowerMailDesc:
