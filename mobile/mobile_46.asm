@@ -5460,7 +5460,7 @@ Text_BattleRoomVisitLimit: ; unreferenced
 
 Text_PartyMonTopsThisLevel:
 	text "Eines oder mehrere"
-	line "#MON in deinem"
+	line "#MON in Deinem"
 	cont "Team übersteigen"
 	cont "den Level."
 	done
