@@ -948,10 +948,10 @@ StatsScreen_PrintDVs:
 	ret
 
 .DVstring1:
-	db "DVS: ATK    DEF   @"
+	db "DV:  ANGR   VER   @"
 .DVstring2:	
 	; db "ATK    DEF@"
-	db "HP   SPC    SPE   @"
+	db "KP   SPEZ   INIT  @"
 ; .DVstring3:
 ; 	db "SPC    SPE    HP@"
 
@@ -979,9 +979,9 @@ StatsScreen_placeCaughtLocation:
 	call PlaceString
 	ret
 .MetAtMapString:
-	db "MET: @"
+	db "FUNDORT: @"
 .MetUnknownMapString:
-	db "UNKNOWN LOCATION@"
+	db "UNBEKANNTER ORT@"
 
 StatsScreen_placeCaughtTime:
 	ld a, [wTempMonCaughtTime]
@@ -996,7 +996,7 @@ StatsScreen_placeCaughtTime:
 	ld e, l
 	call CopyName1
 	ld de, wStringBuffer2
-	hlcoord 6, 9
+	hlcoord 10, 9
 	call PlaceString
 	ret
 .unknown_time
@@ -1007,15 +1007,15 @@ StatsScreen_placeCaughtTime:
 	ld e, l
 	call CopyName1
 	ld de, wStringBuffer2
-	hlcoord 6, 9
+	hlcoord 10, 9
 	call PlaceString
 	ret
 .times
-	db "MORN@"
-	db "DAY@"
-	db "NITE@"
+	db "VORM.@"
+	db "TAG@"
+	db "NACHT@"
 .unknown_time_text
-	db "TRADE@"
+	db "TAUSCH@"
 
 StatsScreen_placeCaughtLevel:
 	; caught level
@@ -1029,11 +1029,11 @@ StatsScreen_placeCaughtLevel:
 
 .print
 	ld [wTextDecimalByte], a
-	hlcoord 12, 9
+	hlcoord 17, 9
 	ld de, wTextDecimalByte
 	lb bc, PRINTNUM_LEFTALIGN | 1, 3
 	call PrintNum
-	hlcoord 11, 9
+	hlcoord 16, 9
 	ld [hl], "<LV>"
 	ret
 
@@ -1179,10 +1179,7 @@ StatsScreen_Print_HiddenPow_Info:
 	sub 30
 .print1
 	hlcoord 2, 17
-	push af
-	call PlaceString_UnownFont
-	pop af
-
+	push de ; tens are printed after the units
 	cp 9
 	jr c, .not9
 	ld de, .hp_9_text
@@ -1224,42 +1221,44 @@ StatsScreen_Print_HiddenPow_Info:
 	jr .print2
 .not2
 	cp 1
-	ret c
+	jr c, .print_tens
 	ld de, .hp_1_text
 .print2
 	; hlcoord 13, 16
-	call PlaceString_UnownFont	
-	ret
+	call PlaceString_UnownFont
+.print_tens
+	pop de
+	jp PlaceString_UnownFont
 .hidden_pow_text:
-	db "HIDDEN POWER@"
+	db "KRAFTRESERVE@"
 .hp_70_text:
-	db "SEVENTY@"
+	db "SIEBZIG@"
 .hp_60_text:
-	db "SIXTY@"
+	db "SECHZIG@"
 .hp_50_text:
-	db "FIFTY@"
+	db "FUENFZIG@"
 .hp_40_text:
-	db "FORTY@"
+	db "VIERZIG@"
 .hp_30_text:
-	db "THIRTY@"
+	db "DREISSIG@"
 .hp_1_text:
-	db "-ONE@"
+	db "EINUND@"
 .hp_2_text:
-	db "-TWO@"
+	db "ZWEIUND@"
 .hp_3_text:
-	db "-THREE@"
+	db "DREIUND@"
 .hp_4_text:
-	db "-FOUR@"
+	db "VIERUND@"
 .hp_5_text:
-	db "-FIVE@"
+	db "FUENFUND@"
 .hp_6_text:
-	db "-SIX@"
+	db "SECHSUND@"
 .hp_7_text:
-	db "-SEVEN@"
+	db "SIEBENUND@"
 .hp_8_text:
-	db "-EIGHT@"
+	db "ACHTUND@"
 .hp_9_text:
-	db "-NINE@"
+	db "NEUNUND@"
 
 PlaceString_UnownFont_Type:
 	push hl
@@ -1274,6 +1273,12 @@ PlaceString_UnownFont_Type:
 	cp "@"
 	ret z
 	inc de
+	cp "Ä"
+	jr nz, .not_umlaut
+	ld [hl], "A" - "A" + $BA ; FIRST_UNOWN_CHAR
+	inc hl
+	ld a, "E"
+.not_umlaut
 	sub "A"
 	add $BA ; FIRST_UNOWN_CHAR
 	ld [hli], a
