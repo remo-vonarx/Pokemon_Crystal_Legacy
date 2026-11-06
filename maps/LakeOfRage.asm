@@ -273,13 +273,15 @@ LakeOfRageLanceTeleportIntoSkyMovement:
 	step_end
 
 LakeOfRageLanceForcedToEvolveText:
-	text "This lake is full"
-	line "of GARADOS but"
-	cont "nothing else…"
+	text "Dieser See ist"
+	line "voller GARADOS."
+	cont "Aber sonst gibt es"
+	cont "hier nichts…"
 
-	para "So the KARPADOR"
-	line "are being forced"
-	cont "to evolve…"
+	para "Die KARPADOR wer-"
+	line "den also gezwun-"
+	cont "gen, sich zu ent-"
+	cont "wickeln…"
 	done
 
 LakeOfRageLanceIntroText1:
@@ -354,181 +356,189 @@ LakeOfRageGyaradosCryText:
 	done
 
 LakeOfRageGotRedScaleText:
-	text "<PLAYER> obtained a"
-	line "RED SCALE."
+	text "<PLAYER> erhält"
+	line "ROTE HAUT."
 	done
 
 LakeOfRageGrampsText:
-	text "The GARADOS are"
-	line "angry!"
+	text "Die GARADOS sind"
+	line "wütend!"
 
-	para "It's a bad omen!"
+	para "Das ist ein böses"
+	line "Omen!"
 	done
 
 LakeOfRageGrampsText_ClearedRocketHideout:
-	text "Hahah! The"
-	line "KARPADOR are"
-	cont "biting!"
+	text "Haha! Die KARPA-"
+	line "DOR beißen!"
 	done
 
 LakeOfRageSuperNerdText:
-	text "I heard this lake"
-	line "was made by ram-"
-	cont "paging GARADOS."
+	text "Ich habe gehört,"
+	line "dieser See ent-"
+	cont "stand durch wüten-"
+	cont "de GARADOS."
 
-	para "I wonder if there"
-	line "is any connection"
+	para "Ich frage mich, ob"
+	line "da eine Verbindung"
 
-	para "to their mass out-"
-	line "break now?"
+	para "zu der momentanen"
+	line "Situation besteht!"
 	done
 
 LakeOfRageCooltrainerFText:
-	text "Did my eyes de-"
-	line "ceive me? I saw a"
+	text "Täuschen mich mei-"
+	line "ne Augen? Ich sah"
 
-	para "red GARADOS in"
-	line "the LAKE…"
+	para "ein rotes GARADOS"
+	line "im SEE…"
 
-	para "But I thought"
-	line "GARADOS were"
-	cont "usually blue?"
+	para "Aber ich dachte,"
+	line "GARADOS sind blau!"
 	done
 
 FisherAndreSeenText:
-	text "Let me battle with"
-	line "the #MON I just"
-	cont "caught!"
+	text "Lass die #MON,"
+	line "die ich gerade ge-"
+	cont "fangen habe,"
+	cont "kämpfen!"
 	done
 
 FisherAndreBeatenText:
-	text "I might be an ex-"
-	line "pert angler, but"
+	text "Ich mag zwar ein"
+	line "guter Angler sein,"
 
-	para "I stink as a #-"
-	line "MON trainer…"
+	para "aber als Trainer"
+	line "habe ich versagt…"
 	done
 
 FisherAndreAfterBattleText:
-	text "I won't lose as an"
-	line "angler! I catch"
-	cont "#MON all day."
+	text "Ich werde mich als"
+	line "Angler beweisen."
+	cont "Ich werde tagein,"
+	cont "tagaus #MON"
+	cont "fangen."
 	done
 
 FisherRaymondSeenText:
-	text "No matter what I"
-	line "do, all I catch"
-
-	para "are the same #-"
-	line "MON…"
+	text "Ich kann tun, was"
+	line "ich will. Ich fan-"
+	cont "ge immer nur die"
+	cont "gleichen #MON…"
 	done
 
 FisherRaymondBeatenText:
-	text "My line's all"
-	line "tangled up…"
+	text "Meine Schnur hat"
+	line "sich verheddert…"
 	done
 
 FisherRaymondAfterBattleText:
-	text "Why can't I catch"
-	line "any good #MON?"
+	text "Warum kann ich"
+	line "keine guten #-"
+	cont "MON fangen?"
 	done
 
 CooltrainermAaronSeenText:
-	text "If a trainer spots"
-	line "another trainer,"
+	text "Trifft ein Trainer"
+	line "auf einen anderen,"
 
-	para "he has to make a"
-	line "challenge."
+	para "so muss er ihn he-"
+	line "rausfordern."
 
-	para "That is our"
-	line "destiny."
+	para "Das ist unsere Be-"
+	line "stimmung."
 	done
 
 CooltrainermAaronBeatenText:
-	text "Whew…"
-	line "Good battle."
+	text "Wow…"
+	line "Toller Kampf!"
 	done
 
 CooltrainermAaronAfterBattleText:
-	text "#MON and their"
-	line "trainer become"
-
-	para "powerful through"
-	line "constant battling."
+	text "#MON und"
+	line "ihre Trainer wer-"
+	cont "den durch ständi-"
+	cont "ges Kämpfen immer"
+	cont "stärker."
 	done
 
 CooltrainerfLoisSeenText:
-	text "What happened to"
-	line "the red GARADOS?"
+	text "Was geschah mit"
+	line "dem roten GARADOS?"
 
-	para "It's gone?"
+	para "Es ist fort?"
 
-	para "Oh, darn. I came"
-	line "here for nothing?"
+	para "Oh, dann bin ich"
+	line "umsonst hergekom-"
+	cont "men."
 
-	para "I know--let's"
-	line "battle!"
+	para "Ich weiß was! Lass"
+	line "uns kämpfen!"
 	done
 
 CooltrainerfLoisBeatenText:
-	text "Good going!"
+	text "Der war gut!"
 	done
 
 CooltrainerfLoisAfterBattleText:
-	text "Come to think of"
-	line "it, I've seen a"
-	cont "pink SMETTBO."
+	text "Stell dir vor, ich"
+	line "habe ein rosa"
+	cont "SMETTBO gesehen!"
 	done
 
 MeetWesleyText:
-	text "MITKO: Well, how"
-	line "do you do?"
+	text "MITKO: Na, wie"
+	line "geht es dir?"
 
-	para "Seeing as how it's"
-	line "Wednesday today,"
+	para "Ich bin MITKO von"
+	line "Mittwoch. Soll"
 
-	para "I'm MITKO of"
-	line "Wednesday."
+	para "heißen, heute ist"
+	line "Mittwoch."
 	done
 
 WesleyGivesGiftText:
-	text "Pleased to meet"
-	line "you. Please take a"
-	cont "souvenir."
+	text "Freut mich, dich"
+	line "kennen zu lernen."
+	cont "Nimm dir bitte ein"
+	cont "Souvenir."
 	done
 
 WesleyGaveGiftText:
-	text "MITKO: BLACKBELT"
-	line "beefs up the power"
-	cont "of fighting moves."
+	text "MITKO: SCHWARZGURT"
+	line "verstärkt die"
+	cont "Kraft von Kampf-"
+	cont "Attacken."
 	done
 
 WesleyWednesdayText:
-	text "MITKO: Since you"
-	line "found me, you must"
+	text "MITKO: Da du mich"
+	line "gefunden hast,"
 
-	para "have met my broth-"
-	line "ers and sisters."
+	para "musst du meine"
+	line "Brüder und Schwes-"
+	cont "tern getroffen"
+	cont "haben."
 
-	para "Or did you just"
-	line "get lucky?"
+	para "Oder hattest du"
+	line "einfach nur Glück?"
 	done
 
 WesleyNotWednesdayText:
-	text "MITKO: Today's"
-	line "not Wednesday."
-	cont "That's too bad."
+	text "MITKO: Heute ist"
+	line "nicht Mittwoch."
+	cont "Wie schade."
 	done
 
 LakeOfRageSignText:
-	text "LAKE OF RAGE,"
-	line "also known as"
-	cont "GARADOS LAKE."
+	text "SEE DES ZORNS,"
+	line "auch bekannt als"
+	cont "GARADOS-SEE"
 	done
 
 FishingGurusHouseSignText:
-	text "FISHING GURU'S"
-	line "HOUSE"
+	text "HAUS DES PROFI-"
+	line "ANGLERs"
 	done
 
 LakeOfRage_MapEvents:
