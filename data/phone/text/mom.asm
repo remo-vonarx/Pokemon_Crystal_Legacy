@@ -36,7 +36,7 @@ MomPhoneNewBarkText:
 	text_ram wStringBuffer3
 	text "?"
 
-	para "Come see your MOM"
+	para "Come see your MAMA"
 	line "sometime!"
 	done
 
@@ -124,7 +124,7 @@ MomPhoneNoPokemonText:
 	text "Hello?"
 
 	para "Oh, hi, <PLAYER>!"
-	line "Wasn't PROF.ELM"
+	line "Wasn't PROF LIND"
 	cont "waiting for you?"
 	done
 
@@ -134,8 +134,8 @@ MomPhoneNoPokedexText:
 	para "Oh, hi, <PLAYER>!"
 	line "You're on a big"
 
-	para "mission for PROF."
-	line "ELM? Be good!"
+	para "mission for PROF"
+	line "LIND? Be good!"
 	done
 
 MomPhoneNoGymQuestText:
@@ -154,7 +154,7 @@ MomPhoneLectureText:
 	para "…… <PLAYER>?"
 	line "I heard from PROF."
 
-	para "ELM that you went"
+	para "LIND that you went"
 	line "on a long trip."
 
 	para "I wish you would"

@@ -86,7 +86,7 @@ CooltrainermCodySeenText:
 
 CooltrainermCodyBeatenText:
 	text "Rats! If only I"
-	line "had a DRAGONITE!"
+	line "had a DRAGORAN!"
 	done
 
 CooltrainermCodyAfterBattleText:
@@ -105,7 +105,7 @@ CooltrainerfFranSeenText:
 	line "nameless trainer"
 	cont "past me!"
 
-	para "CLAIR would be"
+	para "SANDRA would be"
 	line "livid if I did!"
 	done
 
@@ -114,7 +114,7 @@ CooltrainerfFranBeatenText:
 	done
 
 CooltrainerfFranAfterBattleText:
-	text "Uh-oh… CLAIR is"
+	text "Uh-oh… SANDRA is"
 	line "going to be mad…"
 	done
 

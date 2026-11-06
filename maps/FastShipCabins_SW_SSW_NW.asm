@@ -171,7 +171,7 @@ GuitaristClydeSeenText:
 	text "I'm going to audi-"
 	line "tion my songs at"
 
-	para "GOLDENROD's RADIO"
+	para "DUKATIA's RADIO"
 	line "STATION."
 	done
 
@@ -186,7 +186,7 @@ GuitaristClydeAfterBattleMobileText:
 	cont "the BATTLE TOWER…"
 
 	para "I should go back"
-	line "to VERMILION and"
+	line "to ORANIA and"
 	cont "redo my training…"
 	done
 
@@ -211,13 +211,13 @@ FastShipBedText2:
 FastShipArrivedOlivineText:
 	text "FAST SHIP S.S.AQUA"
 	line "has arrived in"
-	cont "OLIVINE CITY."
+	cont "OLIVIANA CITY."
 	done
 
 FastShipArrivedVermilionText:
 	text "FAST SHIP S.S.AQUA"
 	line "has arrived in"
-	cont "VERMILION CITY."
+	cont "ORANIA CITY."
 	done
 
 FastShipCabins_SW_SSW_NW_MapEvents:

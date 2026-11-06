@@ -136,12 +136,12 @@ BugCatcherDougAfterBattleText:
 Route2SignText:
 	text "ROUTE 2"
 
-	para "VIRIDIAN CITY -"
-	line "PEWTER CITY"
+	para "VERTANIA CITY -"
+	line "MARMORIA CITY"
 	done
 
 Route2DiglettsCaveSignText:
-	text "DIGLETT'S CAVE"
+	text "DIGDA'S CAVE"
 	done
 
 Route2_MapEvents:

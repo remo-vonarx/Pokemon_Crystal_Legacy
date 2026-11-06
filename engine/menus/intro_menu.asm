@@ -297,7 +297,7 @@ InitializeMagikarpHouse:
 	ret
 
 .Ralph:
-	db "RALPH@"
+	db "ANGELO@"
 
 InitializeNPCNames:
 	ld hl, .Rival
@@ -321,9 +321,9 @@ InitializeNPCNames:
 	ret
 
 .Rival:  db "???@"
-.Red:    db "RED@"
-.Green:  db "GREEN@"
-.Mom:    db "MOM@"
+.Red:    db "ROT@"
+.Green:  db "GRÜN@"
+.Mom:    db "MAMA@"
 
 InitializeWorld:
 	call ShrinkPlayer
@@ -805,9 +805,9 @@ NamePlayer:
 	ret
 
 .Chris:
-	db "CHRIS@@@@@@"
+	db "GOLD@@@@@@@"
 .Kris:
-	db "KRIS@@@@@@@"
+	db "KRISTA@@@@@"
 
 GSShowPlayerNamingChoices: ; unreferenced
 	call LoadMenuHeader

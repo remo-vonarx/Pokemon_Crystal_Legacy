@@ -560,7 +560,7 @@ MysticWaterGuyTextAfter:
 	done
 
 CherrygroveCitySignText:
-	text "CHERRYGROVE CITY"
+	text "ROSALIA CITY"
 
 	para "The City of Cute,"
 	line "Fragrant Flowers"

@@ -245,7 +245,7 @@ GruntM7AfterBattleText:
 	text "I failed in my"
 	line "duties…"
 
-	para "ARCHER will"
+	para "ATLAS will"
 	line "be so upset..."
 	done
 

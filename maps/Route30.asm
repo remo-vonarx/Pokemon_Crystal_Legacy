@@ -281,7 +281,7 @@ Route30_MikeysRattataAttacksMovement:
 	step_end
 
 Text_UseTackle:
-	text "Go, RATTATA!"
+	text "Go, RATTFRATZ!"
 
 	para "TACKLE!"
 	done
@@ -385,8 +385,8 @@ Route30CooltrainerFText:
 Route30SignText:
 	text "ROUTE 30"
 
-	para "VIOLET CITY -"
-	line "CHERRYGROVE CITY"
+	para "VIOLA CITY -"
+	line "ROSALIA CITY"
 	done
 
 MrPokemonsHouseDirectionsSignText:

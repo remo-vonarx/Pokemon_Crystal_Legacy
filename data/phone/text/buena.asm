@@ -147,7 +147,7 @@ BuenaPhoneLuckyNumberShowText:
 	para "a prize on the"
 	line "LUCKY NUMBER SHOW?"
 
-	para "REED moans that"
+	para "BASTIAN moans that"
 	line "he's never won, so"
 
 	para "he vows to keep"
@@ -167,7 +167,7 @@ BuenaPhoneStressedFromWorkText:
 	para "ate a ton of junk"
 	line "food!"
 
-	para "MARY and I have"
+	para "MARGIT and I have"
 	line "this deal about"
 	cont "losing weight…"
 
@@ -179,17 +179,17 @@ BuenaPhoneStressedFromWorkText:
 	para "This has to be a"
 	line "total secret!"
 
-	para "MARY weighs…"
+	para "MARGIT weighs…"
 
-	para "Aiyee! M-MARY!"
+	para "Aiyee! M-MARGIT!"
 
 	para "Uh… Um… I… Sorry,"
 	line "wrong number!"
 	done
 
 BuenaPhoneProfessorOakText:
-	text "Yesterday, PROF."
-	line "OAK was in the"
+	text "Yesterday, PROF"
+	line "EICH was in the"
 
 	para "studio to tape his"
 	line "show."
@@ -201,7 +201,7 @@ BuenaPhoneProfessorOakText:
 	line "in to my program!"
 
 	para "Oh! Here comes"
-	line "PROF.OAK again!"
+	line "PROF EICH again!"
 
 	para "I'm going to chat"
 	line "him up again!"
@@ -366,20 +366,21 @@ BuenaPhoneStarterPokemonText:
 	para "Did you know that"
 	line "the first #MON"
 
-	para "MARY caught was a"
-	line "DROWZEE?"
+	para "MARGIT caught was"
+	line "a TRAUMATO?"
 
 	para "Isn't that so out"
 	line "of character?"
 
-	para "But MARY's DROWZEE"
-	line "kept making her"
+	para "But MARGIT's"
+	line "TRAUMATO kept"
+	cont "making her"
 
 	para "fall asleep on the"
 	line "job, so she traded"
 
 	para "with a fan for a"
-	line "MEOWTH."
+	line "MAUZI."
 
 	para "Let's chat about"
 	line "#MON again!"
@@ -395,7 +396,7 @@ BuenaPhoneCompanyVacationText:
 	line "a company vacation"
 
 	para "to the RADIO TOWER"
-	line "in LAVENDER."
+	line "in LAVANDIA."
 
 	para "We're wasting our"
 	line "vacation on a trip"
@@ -418,17 +419,17 @@ BuenaPhoneCompanyVacationText:
 BuenaPhoneBenAndFernText:
 	text "Did you know…?"
 
-	para "BEN and FERN talk"
-	line "on the phone for"
+	para "BEN and FABIAN"
+	line "talk on the phone"
 
-	para "hours about what"
-	line "#MON music they"
+	para "for hours about"
+	line "what #MON music"
 
-	para "should play on"
-	line "different days of"
-	cont "the week."
+	para "they should play"
+	line "on different days"
+	cont "of the week."
 
-	para "One time, FERN's"
+	para "One time, FABIAN's"
 	line "rapping style kind"
 
 	para "of rubbed off on"
@@ -447,11 +448,11 @@ BuenaPhoneBenAndFernText:
 
 BuenaPhoneGoingShoppingText:
 	text "I'm going shopping"
-	line "with MARY and LILY"
-	cont "soon."
+	line "with MARGIT and"
+	cont "LILLY soon."
 
 	para "It'll be great if"
-	line "GOLDENROD DEPT."
+	line "DUKATIA DEPT."
 
 	para "STORE has a sale"
 	line "on when we go…"

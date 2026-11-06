@@ -71,9 +71,10 @@ HallOfFame_SlowlyApproachMachine:
 	step_end
 
 HallOfFame_LanceText:
-	text "LANCE: It's been a"
-	line "long time since I"
-	cont "last came here."
+	text "SIEGFRIED: It's"
+	line "been a long time"
+	cont "since I last came"
+	cont "here."
 
 	para "This is where we"
 	line "honor the LEAGUE"
@@ -117,8 +118,9 @@ HallOfFame_LanceText:
 	done
 
 HallOfFame_Rematch_LanceText:
-	text "LANCE: I remember,"
-    line "it wasn't long ago"
+	text "SIEGFRIED:"
+	line "I remember,"
+	cont "it wasn't long ago"
     cont "I stood here,"
 
     para "welcoming you as"

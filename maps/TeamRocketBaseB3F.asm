@@ -321,8 +321,9 @@ RocketBaseRivalShovesPlayerMovement:
 	step_end
 
 LanceGetPasswordText:
-	text "LANCE: It takes"
-	line "two passwords to"
+	text "SIEGFRIED:"
+	line "It takes two"
+	cont "passwords to"
 
 	para "get into the"
 	line "boss's quarters."
@@ -432,7 +433,7 @@ ExecutiveM4AfterText:
 	done
 
 RocketBaseMurkrowText:
-	text "MURKROW: The"
+	text "KRAMURX: The"
 	line "password is…"
 
 	para "HAIL GIOVANNI."
@@ -498,7 +499,7 @@ GruntM28AfterBattleText:
 	line "the boss's room…"
 
 	para "Uh…, I think it is"
-	line "RATICATE TAIL."
+	line "RATTIKARL TAIL."
 	done
 
 ScientistRossSeenText:

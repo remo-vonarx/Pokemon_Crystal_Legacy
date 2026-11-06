@@ -185,12 +185,12 @@ Route39HiddenNugget:
 	hiddenitem NUGGET, EVENT_ROUTE_39_HIDDEN_NUGGET
 
 Route39MiltankText:
-	text "MILTANK: Mooo!"
+	text "MILTANK: Muh!"
 	done
 
 SailorEugeneSeenText:
 	text "I just got back to"
-	line "OLIVINE."
+	line "OLIVIANA."
 
 	para "So how about a"
 	line "#MON battle?"
@@ -299,7 +299,7 @@ PokefanfJaimeBeatenText:
 	done
 
 PokefanfJaimeAfterBattleText:
-	text "I met UMBREON at"
+	text "I met NACHTARA at"
 	line "night right here"
 	cont "on ROUTE 39."
 
@@ -319,8 +319,8 @@ PokefanfJaimeAfterBattleText:
 Route39SignText:
 	text "ROUTE 39"
 
-	para "OLIVINE CITY -"
-	line "ECRUTEAK CITY"
+	para "OLIVIANA CITY -"
+	line "TEAK CITY"
 	done
 
 MoomooFarmSignText:

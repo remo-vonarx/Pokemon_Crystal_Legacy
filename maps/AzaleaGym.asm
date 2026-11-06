@@ -176,7 +176,7 @@ AzaleaGymStatue:
 	jumpstd GymStatue2Script
 
 BugsyText_INeverLose:
-	text "I'm BUGSY!"
+	text "I'm KAI!"
 	line "I never lose when"
 
 	para "it comes to bug"
@@ -337,7 +337,7 @@ BugCatcherAlAfterBattleText:
 
 BugCatcherJoshSeenText:
 	text "You saved all the"
-	line "SLOWPOKE? Whew,"
+	line "FLEGMON? Whew,"
 	cont "you're mighty!"
 
 	para "But my grown-up"
@@ -356,55 +356,55 @@ BugCatcherJoshAfterBattleText:
 	done
 
 TwinsAmyandmay1SeenText:
-	text "AMY: Hi! Are you"
+	text "EVA: Hi! Are you"
 	line "challenging the"
 	cont "LEADER? No way!"
 	done
 
 TwinsAmyandmay1BeatenText:
-	text "AMY & MAY: Oh,"
+	text "EVA & UTE: Oh,"
 	line "double goodness!"
 	done
 
 TwinsAmyandmay1AfterBattleText:
-	text "AMY: You're"
+	text "EVA: You're"
 	line "really strong!"
 
-	para "But BUGSY's even"
+	para "But KAI's even"
 	line "stronger! His"
 
-	para "SCYTHER's CUT al-"
+	para "SICHLOR's CUT al-"
 	line "most always makes"
 	cont "critical hits!"
 	done
 
 TwinsAmyandmay2SeenText:
-	text "MAY: You want to"
+	text "UTE: You want to"
 	line "see the LEADER?"
 	cont "Good luck!"
 	
-	para "BUGSY is so"
+	para "KAI is so"
 	line "strong! His"
-	cont "SCYTHER's CUT"
+	cont "SICHLOR's CUT"
 	
 	para "always seems to"
 	line "crit!"
 	done
 
 TwinsAmyandmay2BeatenText:
-	text "AMY & MAY: Oh,"
+	text "EVA & UTE: Oh,"
 	line "double goodness!"
 	done
 
 TwinsAmyandmay2AfterBattleText:
-	text "MAY: Our bug #-"
+	text "UTE: Our bug #-"
 	line "MON lost! Oh, what"
 	cont "a shame."
 
-	para "BUGSY's won't"
+	para "KAI's won't"
 	line "lose though!"
 
-	para "His PINECO makes"
+	para "His TANNZA makes"
 	line "short work of"
 	cont "ROCK-type #MON!"
 	done
@@ -412,7 +412,7 @@ TwinsAmyandmay2AfterBattleText:
 AzaleaGymGuideText:
 	text "Yo, challenger!"
 
-	para "BUGSY's young, but"
+	para "KAI's young, but"
 	line "his knowledge of"
 
 	para "bug #MON is for"
@@ -423,7 +423,7 @@ AzaleaGymGuideText:
 	cont "advice."
 
 	para "Let's see…"
-	line "BUGSY's bagworm"
+	line "KAI's bagworm"
 	cont "#MON knows a"
 	
 	para "move that covers"

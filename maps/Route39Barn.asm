@@ -138,7 +138,7 @@ Route39BarnTwinWereFeedingMoomooText:
 	done
 
 MoomooWeakMooText:
-	text "MILTANK: …Moo…"
+	text "MILTANK: …Muh…"
 	done
 
 Route39BarnItsCryIsWeakText:
@@ -146,7 +146,7 @@ Route39BarnItsCryIsWeakText:
 	done
 
 MoomooHappyMooText:
-	text "MILTANK: Mooo!"
+	text "MILTANK: MUH!"
 	done
 
 Route39BarnAskGiveBerryText:

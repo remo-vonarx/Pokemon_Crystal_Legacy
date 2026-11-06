@@ -15,7 +15,7 @@ ChadObservingWildText:
 	line "become a #MON"
 
 	para "researcher like"
-	line "PROF.OAK soon."
+	line "PROF EICH soon."
 	done
 
 ChadDefeatedMonText:
@@ -70,9 +70,9 @@ ChadHangUpText:
 	done
 
 ChadBlueGossipText:
-	text "Do you know BLUE?"
+	text "Do you know BLAU?"
 
-	para "He's PROF.OAK's"
+	para "He's PROF EICH's"
 	line "grandson and a"
 
 	para "former #MON"
@@ -83,9 +83,9 @@ ChadBlueGossipText:
 	done
 
 ChadDaisyGossipText:
-	text "PROF.OAK has a"
+	text "PROF EICH has a"
 	line "granddaughter"
-	cont "named DAISY."
+	cont "named SARAH."
 
 	para "When she's around,"
 	line "even the most"
@@ -96,18 +96,18 @@ ChadDaisyGossipText:
 
 ChadProfElmGossipText:
 	text "Everyone's talking"
-	line "about PROF.ELM."
+	line "about PROF LIND."
 
 	para "He used to be an"
 	line "assistant to the"
-	cont "great PROF.OAK!"
+	cont "great PROF EICH!"
 
 	para "That is so cool!"
 	line "I envy him!"
 	done
 
 ChadProfOaksDreamGossipText:
-	text "PROF.OAK's dream"
+	text "PROF EICH's dream"
 	line "is to compile a"
 
 	para "comprehensive"
@@ -122,8 +122,9 @@ ChadKurtGossipText:
 	text "Do you know KURT,"
 	line "the BALL creator?"
 
-	para "He and PROF.OAK go"
-	line "back a long way."
+	para "He and PROF EICH"
+	line "go back a long"
+	cont "way."
 
 	para "I guess great"
 	line "people attract one"
@@ -138,7 +139,7 @@ ChadLeagueGossipText:
 	para "trainers who wish"
 	line "to become CHAMP."
 
-	para "PROF.OAK acts as"
+	para "PROF EICH acts as"
 	line "an advisor to the"
 
 	para "#MON LEAGUE's"
@@ -149,7 +150,7 @@ ChadLeagueGossipText:
 	done
 
 ChadPokemonTalkGossipText:
-	text "PROF.OAK'S #MON"
+	text "PROF EICH's #MON"
 	line "TALK is a popular"
 	cont "radio show, right?"
 
@@ -159,16 +160,16 @@ ChadPokemonTalkGossipText:
 	para "turn down the show"
 	line "at first?"
 
-	para "But MARY's energy"
+	para "But MARGIT's energy"
 	line "and persistence"
 	cont "wore him down."
 
-	para "So we have MARY to"
-	line "thank for it!"
+	para "So we have MARGIT"
+	line "to thank for it!"
 	done
 
 ChadProfOakTrainerGossipText:
-	text "PROF.OAK used to"
+	text "PROF EICH used to"
 	line "be a trainer a"
 	cont "long time ago."
 
@@ -186,9 +187,9 @@ ChadProfOakTrainerGossipText:
 	done
 
 ChadDaisyTeaGossipText:
-	text "PROF.OAK has a"
+	text "PROF EICH has a"
 	line "granddaughter"
-	cont "named DAISY."
+	cont "named SARAH."
 
 	para "She has tea every"
 	line "day for an hour"
@@ -200,12 +201,12 @@ ChadDaisyTeaGossipText:
 	line "join her for tea"
 
 	para "and chat about"
-	line "PROF.OAK."
+	line "PROF EICH."
 	done
 
 ChadProfOakTravelingGossipText:
 	text "Did you know?"
-	line "PROF.OAK traveled"
+	line "PROF EICH traveled"
 
 	para "all over the world"
 	line "when he was young."
@@ -225,7 +226,7 @@ ChadProfOakTravelingGossipText:
 
 ChadGoingToStudyHardText:
 	text "I'm going to study"
-	line "hard so PROF.OAK"
+	line "hard so PROF EICH"
 
 	para "will make me his"
 	line "assistant!"

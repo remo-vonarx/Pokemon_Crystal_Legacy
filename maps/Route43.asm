@@ -374,8 +374,9 @@ PokemaniacBenAfterBattleText:
 	line "like besides"
 	cont "#MON?"
 
-	para "MARY on the radio."
-	line "I bet she's cute!"
+	para "MARGIT on the"
+	line "radio. I bet she's"
+	cont "cute!"
 	done
 
 PokemaniacBrentSeenText:
@@ -489,7 +490,7 @@ PicnickerTiffanyWantsPicnicText:
 	done
 
 PicnickerTiffanyClefairyText:
-	text "Isn't my CLEFABLE"
+	text "Isn't my PIXI"
 	line "just the most"
 	cont "adorable thing?"
 	done
@@ -498,14 +499,14 @@ Route43Sign1Text:
 	text "ROUTE 43"
 
 	para "LAKE OF RAGE -"
-	line "MAHOGANY TOWN"
+	line "MAHAGONIA CITY"
 	done
 
 Route43Sign2Text:
 	text "ROUTE 43"
 
 	para "LAKE OF RAGE -"
-	line "MAHOGANY TOWN"
+	line "MAHAGONIA CITY"
 	done
 
 Route43TrainerTipsText:

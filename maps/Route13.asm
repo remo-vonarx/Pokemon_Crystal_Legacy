@@ -182,10 +182,9 @@ Route13SignText:
 	done
 
 Route13DirectionsSignText:
-	text "NORTH TO LAVENDER"
-	line "TOWN"
+	text "NORTH TO LAVANDIA"
 
-	para "WEST TO FUCHSIA"
+	para "WEST TO FUCHSANIA"
 	line "CITY"
 	done
 

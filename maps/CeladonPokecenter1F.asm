@@ -91,7 +91,7 @@ CeladonPokecenter1FPharmacistText:
 	done
 
 CeladonEusineText1:
-	text "EUSINE: Hi!"
+	text "EUSIN: Hi!"
 
 	para "I'm back visiting"
 	line "my hometown."
@@ -115,7 +115,7 @@ EusineLeavesCeladonText:
 	line "party healed, so"
 
 	para "now I'm headed to"
-	line "ECRUTEAK."
+	line "TEAK."
 
 	para "I'll be seeing"
 	line "you, <PLAYER>!"

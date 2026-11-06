@@ -218,10 +218,10 @@ MahoganyMart1FBlackBeltText:
 	line "ment worked like a"
 	cont "charm."
 
-	para "MAGIKARP are just"
+	para "KARPADOR are just"
 	line "worthless, but"
 
-	para "GYARADOS are big"
+	para "GARADOS are big"
 	line "moneymakers."
 	done
 
@@ -255,8 +255,9 @@ MahoganyMart1FLanceStairsText:
 	done
 
 MahoganyMart1FLanceSplitUpText:
-	text "LANCE: <PLAY_G>, we"
-	line "should split up to"
+	text "SIEGFRIED:"
+	line "<PLAY_G>, we"
+	cont "should split up to"
 
 	para "check this place."
 	line "I'll go first."

@@ -113,15 +113,16 @@ RadioTower4FFisherText:
 	done
 
 RadioTower4FDJMaryText:
-	text "MARY: Why? Why do"
-	line "I have to suffer"
-	cont "through this?"
+	text "MARGIT: Why?"
+	line "Why do I have to"
+	cont "suffer through"
+	cont "this?"
 
-	para "MEOWTH, help me!"
+	para "MAUZI, help me!"
 	done
 
 RadioTower4FDJMaryText_ClearedRockets:
-	text "MARY: Oh! You're"
+	text "MARGIT: Oh! You're"
 	line "my little savior!"
 
 	para "Will you take this"
@@ -129,7 +130,7 @@ RadioTower4FDJMaryText_ClearedRockets:
 	done
 
 RadioTower4FDJMaryText_GivePinkBow:
-	text "MARY: It's just"
+	text "MARGIT: It's just"
 	line "right for #MON"
 
 	para "that know normal-"
@@ -137,15 +138,15 @@ RadioTower4FDJMaryText_GivePinkBow:
 	done
 
 RadioTower4FDJMaryText_After:
-	text "MARY: Please tune"
-	line "into me on PROF."
+	text "MARGIT: Please"
+	line "tune into me on"
 
-	para "OAK'S #MON TALK"
-	line "show."
+	para "PROF EICH's #MON"
+	line "TALK show."
 	done
 
 RadioTowerMeowthText:
-	text "MEOWTH: Meowth…"
+	text "MAUZI: Mauzi…"
 	done
 
 GruntM10SeenText:

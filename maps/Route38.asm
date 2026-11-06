@@ -373,7 +373,7 @@ BirdKeeperTobyBeatenText:
 
 BirdKeeperTobyAfterBattleText:
 	text "I plan to train in"
-	line "CIANWOOD CITY to"
+	line "ANEMONIA CITY to"
 
 	para "teach my #MON"
 	line "how to FLY."
@@ -490,8 +490,8 @@ BeautyOliviaAfterBattleText:
 Route38SignText:
 	text "ROUTE 38"
 
-	para "OLIVINE CITY -"
-	line "ECRUTEAK CITY"
+	para "OLIVIANA CITY -"
+	line "TEAK CITY"
 	done
 
 Route38TrainerTipsText:

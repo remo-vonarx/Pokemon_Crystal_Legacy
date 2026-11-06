@@ -68,10 +68,10 @@ GiftSpearowMail:
 	next "to another road@"
 
 GiftSpearowName:
-	db "KENYA@"
+	db "HABSI@"
 
 GiftSpearowOTName:
-	db "RANDY@"
+	db "HARALD@"
 
 	db 0 ; unused
 
@@ -189,10 +189,11 @@ Route35GoldenrodGateFisherText:
 	line "world."
 
 	para "Three years ago,"
-	line "PROF.OAK said that"
+	line "PROF EICH said"
 
-	para "there were 150"
-	line "different kinds."
+	para "that there were"
+	line "150 different"
+	cont "kinds."
 	done
 
 Route35GoldenrodGate_MapEvents:

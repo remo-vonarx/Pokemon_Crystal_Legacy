@@ -207,7 +207,7 @@ ClairText_Wait:
 	done
 
 ClairText_GiveDragonbreathDragonDen:
-	text "CLAIR: I'm sorry"
+	text "SANDRA: I'm sorry"
 	line "about this."
 
 	para "Here, take this as"
@@ -244,7 +244,7 @@ ClairText_NoRoom:
 	done
 
 ClairText_WhatsTheMatterDragonDen:
-	text "CLAIR: What's the"
+	text "SANDRA: What's the"
 	line "matter? Aren't you"
 
 	para "going on to the"
@@ -263,7 +263,7 @@ ClairText_WhatsTheMatterDragonDen:
 	line "get there?"
 
 	para "From here, go to"
-	line "NEW BARK TOWN."
+	line "NEUBORKIA."
 
 	para "Then SURF east to"
 	line "#MON LEAGUE."
@@ -381,7 +381,8 @@ TwinsLeaandpia1BeatenText:
 
 TwinsLeaandpia1AfterBattleText:
 	text "It was like having"
-	line "to battle LANCE."
+	line "to battle"
+	cont "SIEGFRIED."
 	done
 
 TwinsLeaandpia2SeenText:

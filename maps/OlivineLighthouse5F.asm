@@ -46,7 +46,7 @@ OlivineLighthouse5FHiddenHyperPotion:
 
 SailorErnestSeenText:
 	text "I wanted to battle"
-	line "JASMINE, but she's"
+	line "JASMIN, but she's"
 
 	para "not up to it now."
 	line "So, how about you?"
@@ -81,7 +81,7 @@ BirdKeeperDenisBeatenText:
 BirdKeeperDenisAfterBattleText:
 	text "My #MON learned"
 	line "how to use FLY in"
-	cont "CIANWOOD."
+	cont "ANEMONIA."
 
 	para "Well, since I'm a"
 	line "loser, I'll FLY"

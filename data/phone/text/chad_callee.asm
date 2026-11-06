@@ -62,8 +62,9 @@ ChadGenericText:
 	text "How are your"
 	line "#MON doing?"
 
-	para "You know PROF.OAK,"
-	line "so of course your"
+	para "You know"
+	line "PROF EICH, so of"
+	cont "course your"
 	cont "#MON are fine!"
 
 	para "My #MON are"

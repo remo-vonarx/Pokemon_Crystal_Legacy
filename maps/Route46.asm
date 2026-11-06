@@ -233,7 +233,7 @@ PicnickerErinAfterBattleText:
 	text "I've been to many"
 	line "GYMS, but the GYM"
 
-	para "in GOLDENROD is my"
+	para "in DUKATIA is my"
 	line "favorite."
 
 	para "It's filled with"

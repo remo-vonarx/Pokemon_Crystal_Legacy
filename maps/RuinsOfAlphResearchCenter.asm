@@ -452,7 +452,7 @@ RuinsOfAlphResearchCenterModifiedDexText:
 	para "I added an"
 	line "optional #DEX"
 
-	para "to store UNOWN"
+	para "to store ICOGNITO"
 	line "data."
 
 	para "It records them in"
@@ -466,7 +466,7 @@ RuinsOfAlphResearchCenterDexUpgradedText:
 	done
 
 RuinsOfAlphResearchCenterScientist3Text:
-	text "The UNOWN you"
+	text "The ICOGNITO you"
 	line "catch will all be"
 	cont "recorded."
 
@@ -475,15 +475,16 @@ RuinsOfAlphResearchCenterScientist3Text:
 	done
 
 RuinsOfAlphResearchCenterScientist3_PrinterAvailable:
-	text "You caught all the"
-	line "UNOWN variations?"
+	text "You caught all"
+	line "the ICOGNITO"
+	cont "variations?"
 
 	para "That's a great"
 	line "achievement!"
 
 	para "I've set up the"
 	line "printer here for"
-	cont "handling UNOWN."
+	cont "handling ICOGNITO."
 
 	para "Feel free to use"
 	line "it anytime."
@@ -609,7 +610,7 @@ RuinsOfAlphResearchCenterComputerText:
 
 RuinsOfAlphResearchCenterComputerText_GotAllUnown:
 	text "Mystery #MON"
-	line "Name: UNOWN"
+	line "Name: ICOGNITO"
 
 	para "A total of {d:NUM_UNOWN}"
 	line "kinds found."
@@ -621,7 +622,7 @@ RuinsOfAlphResearchCenterPrinterText_DoesntWork:
 	done
 
 RuinsOfAlphResearchCenterUnownPrinterText:
-	text "UNOWN may be"
+	text "ICOGNITO may be"
 	line "printed out."
 	done
 

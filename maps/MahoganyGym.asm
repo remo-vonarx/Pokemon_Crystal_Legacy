@@ -232,7 +232,7 @@ PryceText_Intro:
 	para "I do not lose"
 	line "easily."
 
-	para "I, PRYCE--the"
+	para "I, NORBERT--the"
 	line "winter trainer--"
 
 	para "shall demonstrate"
@@ -314,7 +314,7 @@ PryceRematchText:
     cont "to learn from"
     cont "each other."
 
-    para "I, PRYCE--the"
+    para "I, NORBERT--the"
     line "winter trainer--"
 
     para "still have a"
@@ -379,18 +379,18 @@ BoarderBradAfterBattleText:
 	done
 
 BoarderDouglasSeenText:
-	text "I know PRYCE's"
+	text "I know NORBERT's"
 	line "secret."
 	done
 
 BoarderDouglasBeatenText:
 	text "OK. I'll tell you"
-	line "PRYCE's secret."
+	line "NORBERT's secret."
 	done
 
 BoarderDouglasAfterBattleText:
 	text "The secret behind"
-	line "PRYCE's power…"
+	line "NORBERT's power…"
 
 	para "He meditates under"
 	line "a waterfall daily"
@@ -400,7 +400,7 @@ BoarderDouglasAfterBattleText:
 	done
 
 SkierRoxanneSeenText:
-	text "To get to PRYCE,"
+	text "To get to NORBERT,"
 	line "our GYM LEADER,"
 
 	para "you need to think"
@@ -437,8 +437,9 @@ SkierClarissaAfterBattleText:
 	done
 
 MahoganyGymGuideText:
-	text "PRYCE is a veteran"
-	line "who has trained"
+	text "NORBERT is a"
+	line "veteran who has"
+	cont "trained"
 
 	para "#MON for some"
 	line "50 years."
@@ -457,7 +458,7 @@ MahoganyGymGuideText:
 	done
 
 MahoganyGymGuideWinText:
-	text "PRYCE is some-"
+	text "NORBERT is some-"
 	line "thing, but you're"
 	cont "something else!"
 

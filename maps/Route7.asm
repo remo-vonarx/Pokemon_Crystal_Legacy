@@ -25,7 +25,7 @@ Route7UndergroundPathSignText:
 	cont "has been sealed"
 	cont "indefinitely."
 
-	para "CELADON POLICE"
+	para "PRISMANIA POLICE"
 	done
 
 Route7LockedDoorText:

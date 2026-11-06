@@ -138,8 +138,8 @@ VioletGymStatue:
 	jumpstd GymStatue2Script
 
 FalknerIntroText:
-	text "I'm FALKNER, the"
-	line "VIOLET #MON GYM"
+	text "I'm FALK, the"
+	line "VIOLA #MON GYM"
 	cont "leader!"
 
 	para "People say you can"
@@ -278,7 +278,7 @@ BirdKeeperRodBeatenText:
 	done
 
 BirdKeeperRodAfterBattleText:
-	text "FALKNER's skills"
+	text "FALK's skills"
 	line "are for real!"
 
 	para "Don't get cocky"
@@ -289,7 +289,7 @@ BirdKeeperRodAfterBattleText:
 BirdKeeperAbeSeenText:
 	text "Let me see if you"
 	line "are good enough to"
-	cont "face FALKNER!"
+	cont "face FALK!"
 	done
 
 BirdKeeperAbeBeatenText:
@@ -319,7 +319,7 @@ VioletGymGuideText:
 	para "You believe?"
 	line "Then listen."
 	
-	para "FALKNER's ace"
+	para "FALK's ace"
 	line "is a bulky owl"
 	
 	para "that loves to"

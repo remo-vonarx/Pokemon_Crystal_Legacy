@@ -211,7 +211,7 @@ ChucksWifeBeatChuckText:
 	done
 
 ChucksWifeGiveHMText:
-	text "That's CIANWOOD's"
+	text "That's ANEMONIA's"
 	line "GYM BADGE!"
 
 	para "Then you should"
@@ -243,7 +243,7 @@ CianwoodCityYoungsterText:
 	text "If you use FLY,"
 	line "you can get back"
 
-	para "to OLIVINE in-"
+	para "to OLIVIANA in-"
 	line "stantly."
 	done
 
@@ -261,7 +261,7 @@ CianwoodCityPokefanMText:
 	done
 
 CianwoodCityLassText:
-	text "CHUCK, the GYM"
+	text "HARTWIG, the GYM"
 	line "LEADER, spars with"
 
 	para "his fighting #-"
@@ -271,7 +271,7 @@ CianwoodCityLassText:
 CianwoodCityUnusedText:
 	text "There are several"
 	line "islands between"
-	cont "here and OLIVINE."
+	cont "here and OLIVIANA."
 
 	para "A mythical sea"
 	line "creature supposed-"
@@ -279,7 +279,7 @@ CianwoodCityUnusedText:
 	done
 
 EusineSuicuneText:
-	text "EUSINE: Yo,"
+	text "EUSIN: Yo,"
 	line "<PLAYER>."
 
 	para "Wasn't that"
@@ -341,17 +341,17 @@ EusineAfterText:
 	done
 
 CianwoodCitySignText:
-	text "CIANWOOD CITY"
+	text "ANEMONIA CITY"
 
 	para "A Port Surrounded"
 	line "by Rough Seas"
 	done
 
 CianwoodGymSignText:
-	text "CIANWOOD CITY"
+	text "ANEMONIA CITY"
 	line "#MON GYM"
 
-	para "LEADER: CHUCK"
+	para "LEADER: HARTWIG"
 
 	para "His Roaring Fists"
 	line "Do the Talking"
@@ -361,7 +361,7 @@ CianwoodPharmacySignText:
 	text "500 Years of"
 	line "Tradition"
 
-	para "CIANWOOD CITY"
+	para "ANEMONIA CITY"
 	line "PHARMACY"
 
 	para "We Await Your"
@@ -369,7 +369,7 @@ CianwoodPharmacySignText:
 	done
 
 CianwoodPhotoStudioSignText:
-	text "CIANWOOD CITY"
+	text "ANEMONIA CITY"
 	line "PHOTO STUDIO"
 
 	para "Take a Snapshot as"

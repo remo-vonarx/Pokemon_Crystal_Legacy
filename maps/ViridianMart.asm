@@ -28,7 +28,7 @@ ViridianMartLassText:
 
 ViridianMartCooltrainerMText:
 	text "Have you been to"
-	line "CINNABAR?"
+	line "ZINNOBER?"
 
 	para "It's an island way"
 	line "south of here."

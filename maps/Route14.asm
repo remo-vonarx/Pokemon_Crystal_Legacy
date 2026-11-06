@@ -63,8 +63,8 @@ PokefanmCarterBeatenText:
 	done
 
 PokefanmCarterAfterBattleText:
-	text "TOTODILE, CYNDA-"
-	line "QUIL, CHIKORITA…"
+	text "KARNIMANI,"
+	line "FEURIGEL, ENDIVIE…"
 
 	para "I think that's a"
 	line "well-balanced mix."
@@ -102,7 +102,7 @@ PokefanmTrevorSeenText:
 
 PokefanmTrevorBeatenText:
 	text "Where did I meet"
-	line "this SCIZOR?"
+	line "this SCHEROX?"
 	done
 
 PokefanmTrevorAfterBattleText:

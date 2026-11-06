@@ -181,17 +181,17 @@ CeruleanCitySuperNerdText:
 	done
 
 CeruleanCitySlowbroText:
-	text "SLOWBRO: Yarah?"
+	text "LAHMUS: Jarah?"
 	done
 
 CeruleanCityCooltrainerFText1:
-	text "My SLOWBRO and I"
+	text "My LAHMUS and I"
 	line "make an awesome"
 	cont "combination!"
 	done
 
 CeruleanCityCooltrainerFText2:
-	text "SLOWBRO, show me"
+	text "LAHMUS, show me"
 	line "your CONFUSION!"
 	done
 
@@ -201,14 +201,14 @@ CeruleanCityCooltrainerFText3:
 
 CeruleanCityFisherText:
 	text "I'm a huge fan of"
-	line "CERULEAN GYM's"
+	line "AZURIA GYM's"
 	cont "MISTY."
 	done
 
 CeruleanCityFisherRocketTipText:
 	text "I saw this shady"
 	line "guy go off toward"
-	cont "CERULEAN's CAPE."
+	cont "AZURIA's CAPE."
 	done
 
 CeruleanCityYoungsterText1:
@@ -227,14 +227,14 @@ CeruleanCityYoungsterText2:
 	done
 
 CeruleanCitySignText:
-	text "CERULEAN CITY"
+	text "AZURIA CITY"
 
 	para "A Mysterious Blue"
 	line "Aura Surrounds It"
 	done
 
 CeruleanGymSignText:
-	text "CERULEAN CITY"
+	text "AZURIA CITY"
 	line "#MON GYM"
 	cont "LEADER: MISTY"
 
@@ -247,7 +247,7 @@ CeruleanBikeShopSignText:
 	line "here…"
 
 	para "The BIKE SHOP has"
-	line "moved to GOLDENROD"
+	line "moved to DUKATIA"
 	cont "CITY in JOHTO…"
 	done
 
@@ -261,11 +261,11 @@ CeruleanPoliceSignText:
 	para "a friendlier, more"
 	line "cheerful place!"
 
-	para "CERULEAN POLICE"
+	para "AZURIA POLICE"
 	done
 
 CeruleanCapeSignText:
-	text "CERULEAN CAPE"
+	text "AZURIA CAPE"
 	line "AHEAD"
 	done
 

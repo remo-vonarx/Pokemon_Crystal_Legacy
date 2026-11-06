@@ -292,13 +292,13 @@ SurfGuyElegantKimonoGirlsText:
 	done
 
 RhydonText:
-	text "RHYDON: Gugooh"
+	text "RIZEROS: Gugooh"
 	line "gugogooh!"
 	done
 
 DanceTheatreCooltrainerMText:
 	text "That man's always"
-	line "with his RHYDON."
+	line "with his RIZEROS."
 
 	para "Says he wants a"
 	line "#MON that can"

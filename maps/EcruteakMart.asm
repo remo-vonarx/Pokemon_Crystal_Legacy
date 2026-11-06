@@ -21,17 +21,17 @@ EcruteakMartGrannyScript:
 	jumptextfaceplayer EcruteakMartGrannyText
 
 EcruteakMartSuperNerdText:
-	text "My EEVEE evolved"
-	line "into an ESPEON."
+	text "My EVOLI evolved"
+	line "into a PSIANA."
 
 	para "But my friend's"
-	line "EEVEE turned into"
-	cont "an UMBREON."
+	line "EVOLI turned into"
+	cont "a NACHTARA."
 
 	para "I wonder why? We"
 	line "both were raising"
 
-	para "our EEVEE in the"
+	para "our EVOLI in the"
 	line "same way…"
 	done
 

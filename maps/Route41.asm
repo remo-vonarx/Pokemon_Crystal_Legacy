@@ -163,11 +163,11 @@ SwimmermGeorgeBeatenText:
 
 SwimmermGeorgeAfterBattleText:
 	text "It's so far to"
-	line "CIANWOOD."
+	line "ANEMONIA."
 
 	para "But it's no easy"
 	line "return trip to"
-	cont "OLIVINE either."
+	cont "OLIVIANA either."
 
 	para "What should I do?"
 	done
@@ -320,7 +320,7 @@ SwimmerfKaraAfterBattleText:
 	done
 
 SwimmerfWendySeenText:
-	text "At night, STARYU"
+	text "At night, STERNDU"
 	line "gather near the"
 	cont "water's surface."
 	done
@@ -331,7 +331,7 @@ SwimmerfWendyBeatenText:
 
 SwimmerfWendyAfterBattleText:
 	text "The clusters of"
-	line "STARYU light up"
+	line "STERNDU light up"
 	cont "at the same time."
 
 	para "It's so beautiful,"

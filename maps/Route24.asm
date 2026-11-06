@@ -104,7 +104,7 @@ Route24RocketAfterBattleText:
 	line "by me, hide it I"
 
 	para "did in GYM of the"
-	line "CERULEAN."
+	line "AZURIA."
 
 	para "Inside water put"
 	line "it I did. Look for"

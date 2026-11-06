@@ -181,7 +181,7 @@ OlivineCityRivalText:
 	line "said by some to be"
 	
 	para "stronger than"
-	line "PRYCE, yet is"
+	line "NORBERT, yet is"
 
 	para "supposedly taking"
 	line "care of a sick"
@@ -208,8 +208,8 @@ OlivineCityRivalText:
 	para "Maybe then you"
 	line "could at least"
 	
-	para "take on CHUCK"
-	line "or PRYCE!"
+	para "take on HARTWIG"
+	line "or NORBERT!"
 	done
 
 OlivineCitySailor1Text:
@@ -247,7 +247,7 @@ OlivineCityStandingYoungsterPokedexText:
 
 OlivineCitySailor2Text:
 	text "The league has"
-	line "JASMINE pegged"
+	line "JASMIN pegged"
 
 	para "as the sixth"
 	line "strongest GYM"
@@ -257,9 +257,9 @@ OlivineCitySailor2Text:
 	line "a load of crud."
 	
 	para "There's no way"
-	line "PRYCE could hurt"
+	line "NORBERT could hurt"
 	
-	para "JASMINE's Steel"
+	para "JASMIN's Steel"
 	line "type #MON!"
 	
 	para "Bureaucracy if"
@@ -271,30 +271,32 @@ OlivineCitySailor2Text:
 	done
 
 OlivineCitySignText:
-	text "OLIVINE CITY"
+	text "OLIVIANA CITY"
 
 	para "The Port Closest"
 	line "to Foreign Lands"
 	done
 
 OlivineCityPortSignText:
-	text "OLIVINE PORT"
+	text "OLIVIANA PORT"
 	line "FAST SHIP PIER"
 	done
 
 OlivineGymSignText:
-	text "OLIVINE CITY"
+	text "OLIVIANA CITY"
 	line "#MON GYM"
-	cont "LEADER: JASMINE"
+	cont "LEADER: JASMIN"
 
 	para "The Steel-Clad"
 	line "Defense Girl"
 	done
 
 OlivineLighthouseSignText:
-	text "OLIVINE LIGHTHOUSE"
-	line "Also known as the"
-	cont "GLITTER LIGHTHOUSE"
+	text "OLIVIANA"
+	line "LIGHTHOUSE"
+
+	para "Also known as the"
+	line "GLITTER LIGHTHOUSE"
 	done
 
 OlivineCityBattleTowerSignText:

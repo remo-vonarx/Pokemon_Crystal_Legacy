@@ -418,17 +418,17 @@ Route31YoungsterText:
 
 	para "I'm going to raise"
 	line "it to take on"
-	cont "FALKNER."
+	cont "FALK."
 
 	para "He's the leader of"
-	line "VIOLET CITY's GYM."
+	line "VIOLA CITY's GYM."
 	done
 
 Route31SignText:
 	text "ROUTE 31"
 
-	para "VIOLET CITY -"
-	line "CHERRYGROVE CITY"
+	para "VIOLA CITY -"
+	line "ROSALIA CITY"
 	done
 
 DarkCaveSignText:

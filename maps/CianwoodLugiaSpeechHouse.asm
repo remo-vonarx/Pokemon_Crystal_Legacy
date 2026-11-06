@@ -22,7 +22,7 @@ CianwoodLugiaSpeechHouseBookshelf:
 
 CianwoodLugiaSpeechHouseTeacherText:
 	text "You came from"
-	line "OLIVINE?"
+	line "OLIVIANA?"
 
 	para "Do you remember"
 	line "the four islands"

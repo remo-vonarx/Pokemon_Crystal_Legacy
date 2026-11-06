@@ -46,7 +46,7 @@ CinnabarIslandBlueText:
 	line "to see that you're"
 	cont "a trainer…"
 
-	para "My name's BLUE."
+	para "My name's BLAU."
 
 	para "I was once the"
 	line "CHAMPION, although"
@@ -54,7 +54,7 @@ CinnabarIslandBlueText:
 	para "it was for only a"
 	line "short time…"
 
-	para "That meddling RED"
+	para "That meddling ROT"
 	line "did me in…"
 
 	para "Anyway, what do"
@@ -101,10 +101,10 @@ CinnabarIslandBlueText:
 
 	para "If you want to"
 	line "battle me, come to"
-	cont "the VIRIDIAN GYM."
+	cont "the VERTANIA GYM."
 
 	para "I'm looking"
-	line "after one of RED's"
+	line "after one of ROT's"
 
 	para "legendary birds,"
 	line "so you better"
@@ -113,7 +113,7 @@ CinnabarIslandBlueText:
 	line "a real fight."
 
 	para "Come visit me"
-	line "in VIRIDIAN."
+	line "in VERTANIA."
 
 	para "I'll take you on"
 	line "then."
@@ -123,15 +123,15 @@ CinnabarIslandGymSignText:
 	text "There's a notice"
 	line "here…"
 
-	para "CINNABAR GYM has"
+	para "ZINNOBER GYM has"
 	line "relocated to SEA-"
 	cont "FOAM ISLANDS."
 
-	para "BLAINE"
+	para "PYRO"
 	done
 
 CinnabarIslandSignText:
-	text "CINNABAR ISLAND"
+	text "ZINNOBER ISLAND"
 
 	para "The Fiery Town of"
 	line "Burning Desire"

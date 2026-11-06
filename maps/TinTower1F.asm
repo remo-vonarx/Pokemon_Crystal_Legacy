@@ -312,7 +312,7 @@ TinTower1FSage3EntersMovement:
 	step_end
 
 TinTower1FEusineSuicuneText:
-	text "EUSINE: Awesome!"
+	text "EUSIN: Awesome!"
 	line "Too awesome, even!"
 
 	para "I've never seen a"
@@ -515,10 +515,11 @@ TinTower1FSage6Text2:
 	line "also be a link to"
 
 	para "#MON known as"
-	line "UNOWN."
+	line "ICOGNITO."
 
-	para "The #MON UNOWN"
-	line "must be sharing a"
+	para "The #MON"
+	line "ICOGNITO must be"
+	cont "sharing a"
 
 	para "cooperative bond"
 	line "with SUICUNE."

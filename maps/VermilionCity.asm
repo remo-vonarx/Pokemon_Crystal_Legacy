@@ -124,7 +124,7 @@ VermilionCityHiddenFullHeal:
 	hiddenitem FULL_HEAL, EVENT_VERMILION_CITY_HIDDEN_FULL_HEAL
 
 VermilionCityTeacherText:
-	text "VERMILION PORT is"
+	text "ORANIA PORT is"
 	line "KANTO's seaside"
 	cont "gateway."
 
@@ -144,14 +144,15 @@ VermilionMachopOwnerText:
 	done
 
 VermilionMachopText1:
-	text "MACHOP: Guooh"
+	text "MACHOLLO: Guooh"
 	line "gogogoh!"
 	done
 
 VermilionMachopText2:
-	text "A MACHOP is growl-"
-	line "ing while stomping"
-	cont "the ground flat."
+	text "A MACHOLLO is"
+	line "growling while"
+	cont "stomping the"
+	cont "ground flat."
 	done
 
 VermilionCitySuperNerdText:
@@ -159,23 +160,23 @@ VermilionCitySuperNerdText:
 	line "GYMS in KANTO."
 
 	para "That big building"
-	line "is VERMILION's"
+	line "is ORANIA's"
 	cont "#MON GYM."
 	done
 
 VermilionCitySnorlaxSleepingText:
-	text "SNORLAX is snoring"
+	text "RELAXO is snoring"
 	line "peacefully…"
 	done
 
 VermilionCityRadioNearSnorlaxText:
 	text "The #GEAR was"
 	line "placed near the"
-	cont "sleeping SNORLAX…"
+	cont "sleeping RELAXO…"
 
 	para "…"
 
-	para "SNORLAX woke up!"
+	para "RELAXO woke up!"
 	done
 
 VermilionCityBadgeGuyTrainerText:
@@ -234,16 +235,16 @@ VermilionCityBadgeGuyBattleEdgeText:
 	done
 
 VermilionCitySignText:
-	text "VERMILION CITY"
+	text "ORANIA CITY"
 
 	para "The Port of"
 	line "Exquisite Sunsets"
 	done
 
 VermilionGymSignText:
-	text "VERMILION CITY"
+	text "ORANIA CITY"
 	line "#MON GYM"
-	cont "LEADER: LT.SURGE"
+	cont "LEADER: MAJOR BOB"
 
 	para "The Lightning"
 	line "American"
@@ -257,11 +258,11 @@ PokemonFanClubSignText:
 	done
 
 VermilionCityDiglettsCaveSignText:
-	text "DIGLETT'S CAVE"
+	text "DIGDA'S CAVE"
 	done
 
 VermilionCityPortSignText:
-	text "VERMILION PORT"
+	text "ORANIA PORT"
 	line "ENTRANCE"
 	done
 

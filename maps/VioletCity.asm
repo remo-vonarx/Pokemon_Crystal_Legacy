@@ -205,7 +205,7 @@ Text_HereTeacherIAm:
 VioletCityLassText:
 	text "Ghosts are rumored"
 	line "to appear in"
-	cont "SPROUT TOWER."
+	cont "KNOFENSA-TURM."
 
 	para "They say that"
 	line "GHOST-type moves"
@@ -214,7 +214,8 @@ VioletCityLassText:
 	line "defenses of"
 	
 	para "tough #MON like"
-	line "ONIX and GEODUDE."
+	line "ONIX and"
+	cont "KLEINSTEIN."
 	done
 
 VioletCitySuperNerdText:
@@ -229,8 +230,8 @@ VioletCitySuperNerdText:
 	done
 
 VioletCityGrampsText:
-	text "FALKNER, from the"
-	line "VIOLET #MON"
+	text "FALK, from the"
+	line "VIOLA #MON"
 
 	para "GYM, is a fine"
 	line "trainer!"
@@ -252,23 +253,23 @@ VioletCityYoungsterText:
 	done
 
 VioletCitySignText:
-	text "VIOLET CITY"
+	text "VIOLA CITY"
 
 	para "The City of"
 	line "Nostalgic Scents"
 	done
 
 VioletGymSignText:
-	text "VIOLET CITY"
+	text "VIOLA CITY"
 	line "#MON GYM"
-	cont "LEADER: FALKNER"
+	cont "LEADER: FALK"
 
 	para "The Elegant Master"
 	line "of Flying #MON"
 	done
 
 SproutTowerSignText:
-	text "SPROUT TOWER"
+	text "KNOFENSA-TURM"
 
 	para "Experience the"
 	line "Way of #MON"

@@ -220,8 +220,9 @@ MomWalksBackMovement:
 	step_end
 
 ElmsLookingForYouText:
-	text "Oh, <PLAYER>…! Our"
-	line "neighbor, PROF.ELM"
+	text "Oh, <PLAYER>…!"
+	line "Our neighbor,"
+	cont "PROF LIND"
 
 	para "was looking for"
 	line "you. Also, your"
@@ -280,15 +281,15 @@ CanRunText:
 	done
 
 HurryUpElmIsWaitingText:
-	text "PROF.ELM is wait-"
+	text "PROF LIND is wait-"
 	line "ing for you."
 
 	para "Hurry up, baby!"
 	done
 
 SoWhatWasProfElmsErrandText:
-	text "So, what was PROF."
-	line "ELM's errand?"
+	text "So, what was PROF"
+	line "LIND's errand?"
 
 	para "…"
 
@@ -333,8 +334,8 @@ NeighborText:
 	para "My daughter is"
 	line "adamant about"
 
-	para "becoming PROF."
-	line "ELM's assistant."
+	para "becoming PROF"
+	line "LIND's assistant."
 
 	para "She really loves"
 	line "#MON!"
@@ -343,7 +344,7 @@ NeighborText:
 PlayersHouse1FStoveText:
 	text "Mom's specialty!"
 
-	para "CINNABAR VOLCANO"
+	para "ZINNOBER VOLCANO"
 	line "BURGER!"
 	done
 

@@ -55,7 +55,7 @@ FuchsiaCityYoungsterText:
 	line "FOUR used to be"
 
 	para "the LEADER of"
-	line "FUCHSIA's GYM."
+	line "FUCHSANIA's GYM."
 	done
 
 FuchsiaCityPokefanMText:
@@ -72,21 +72,21 @@ FuchsiaCityTeacherText:
 	line "closed… It's sad,"
 
 	para "considering it's"
-	line "FUCHSIA's main"
+	line "FUCHSANIA's main"
 	cont "attraction."
 	done
 
 FuchsiaCitySignText:
-	text "FUCHSIA CITY"
+	text "FUCHSANIA CITY"
 
 	para "Behold! It's"
 	line "Passion Pink!"
 	done
 
 FuchsiaGymSignText:
-	text "FUCHSIA CITY"
+	text "FUCHSANIA CITY"
 	line "#MON GYM"
-	cont "LEADER: JANINE"
+	cont "LEADER: JANINA"
 
 	para "The Poisonous"
 	line "Ninja Master"

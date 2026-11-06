@@ -423,7 +423,7 @@ BugCatcherArnieBeatenText:
 	done
 
 BugCatcherArnieAfterBattleText:
-	text "My VENONAT won me"
+	text "My BLUZUK won me"
 	line "the Bug-Catching"
 
 	para "Contest at the"

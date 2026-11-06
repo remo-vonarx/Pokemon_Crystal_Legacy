@@ -314,7 +314,7 @@ GoldenrodCityCooltrainerF1Text_ClearedRadioTower:
 
 GoldenrodCityCooltrainerF2Text:
 	text "The RADIO TOWER in"
-	line "GOLDENROD CITY is"
+	line "DUKATIA CITY is"
 	cont "a landmark."
 
 	para "They're running a"
@@ -412,12 +412,12 @@ GoldenrodCityRocket6Text:
 	done
 
 GoldenrodCityStationSignText:
-	text "GOLDENROD CITY"
+	text "DUKATIA CITY"
 	line "STATION"
 	done
 
 GoldenrodCityRadioTowerSignText:
-	text "GOLDENROD CITY"
+	text "DUKATIA CITY"
 	line "RADIO TOWER"
 	done
 
@@ -425,21 +425,21 @@ GoldenrodDeptStoreSignText:
 	text "Full Selection of"
 	line "#MON Goods!"
 
-	para "GOLDENROD CITY"
+	para "DUKATIA CITY"
 	line "DEPT.STORE"
 	done
 
 GoldenrodGymSignText:
-	text "GOLDENROD CITY"
+	text "DUKATIA CITY"
 	line "#MON GYM"
-	cont "LEADER: WHITNEY"
+	cont "LEADER: BIANKA"
 
 	para "The Incredibly"
 	line "Pretty Girl!"
 	done
 
 GoldenrodCitySignText:
-	text "GOLDENROD CITY"
+	text "DUKATIA CITY"
 
 	para "The Festive City"
 	line "of Opulent Charm"
@@ -454,7 +454,7 @@ GoldenrodCityBikeShopSignText:
 GoldenrodCityGameCornerSignText:
 	text "Your Playground!"
 
-	para "GOLDENROD CITY"
+	para "DUKATIA CITY"
 	line "GAME CORNER"
 	done
 

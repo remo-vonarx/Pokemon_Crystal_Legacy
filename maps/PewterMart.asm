@@ -22,10 +22,10 @@ PewterMartSuperNerdScript:
 
 PewterMartYoungsterText:
 	text "Hi! Check out my"
-	line "GYARADOS!"
+	line "GARADOS!"
 
 	para "I raised it from a"
-	line "MAGIKARP. I can't"
+	line "KARPADOR. I can't"
 
 	para "believe how strong"
 	line "it has become."
@@ -34,10 +34,10 @@ PewterMartYoungsterText:
 PewterMartSuperNerdText:
 	text "There once was a"
 	line "weird old man who"
-	cont "sold MAGIKARP."
+	cont "sold KARPADOR."
 
 	para "He was saying the"
-	line "MAGIKARP from the"
+	line "KARPADOR from the"
 
 	para "LAKE OF RAGE were"
 	line "excellent."

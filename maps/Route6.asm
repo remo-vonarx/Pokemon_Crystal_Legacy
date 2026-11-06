@@ -47,23 +47,24 @@ Route6PokefanMText:
 Route6UndergroundPathSignText:
 	text "UNDERGROUND PATH"
 
-	para "CERULEAN CITY -"
-	line "VERMILION CITY"
+	para "AZURIA CITY -"
+	line "ORANIA CITY"
 	done
 
 PokefanmRexSeenText:
-	text "My STANTLER is"
+	text "My DAMHIRPLEX is"
 	line "the cutest in"
 	cont "the world."
 	done
 
 PokefanmRexBeatenText:
-	text "My STANTLER!"
+	text "My DAMHIRPLEX!"
 	done
 
 PokefanmRexAfterBattleText:
 	text "Look how adorable"
-	line "my STANTLER acts!"
+	line "my DAMHIRPLEX"
+	cont "acts!"
 
 	para "Isn't it cute"
 	line "enough to make"

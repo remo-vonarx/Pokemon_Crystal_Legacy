@@ -133,6 +133,8 @@
 	charmap "└",         $c5
 	charmap "┘",         $c6
 
+	charmap "Ä",         $cd ; German umlauts for trainer names
+
 	charmap "′",         $ce
 	charmap "″",         $cf
 
@@ -147,8 +149,8 @@
 	charmap "■",         $d7
 	charmap "▲",         $d8
 	charmap "☎",         $d9
-	charmap "<BOLD_A>",  $da
-	charmap "<BOLD_B>",  $db
+	charmap "Ö",         $da ; was the unused bold A
+	charmap "Ü",         $db ; was the unused bold B
 	charmap "<COLON>",   $dc ; colon with tinier dots than ":"
 	charmap "“",         $dd ; opening quote
 	charmap "”",         $de ; closing quote

@@ -45,7 +45,7 @@ MountMortar2FInsideHiddenFullRestore:
 	hiddenitem FULL_RESTORE, EVENT_MOUNT_MORTAR_2F_INSIDE_HIDDEN_FULL_RESTORE
 
 SupernerdHughSeenText:
-	text "Yo! MARKUS!"
+	text "Yo! URBAN!"
 	done
 
 SupernerdHughBeatenText:
@@ -60,7 +60,7 @@ SupernerdHughAfterBattleText:
 	para "Have you seen a"
 	line "trainer who has a"
 
-	para "SLOWPOKE that can"
+	para "FLEGMON that can"
 	line "use STRENGTH?"
 	done
 

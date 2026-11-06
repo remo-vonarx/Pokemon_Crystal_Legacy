@@ -27,8 +27,9 @@ Route6SaffronGuardScript:
 	end
 
 Route6SaffronGuardWelcomeText:
-	text "Welcome to SAFFRON"
-	line "CITY, home of the"
+	text "Welcome to"
+	line "SAFFRONIA CITY,"
+	cont "home of the"
 	cont "MAGNET TRAIN!"
 
 	para "…That's what I'd"
@@ -51,8 +52,8 @@ Route6SaffronGuardMagnetTrainText:
 	text "The MAGNET TRAIN"
 	line "is the most famous"
 
-	para "thing about SAF-"
-	line "FRON."
+	para "thing about"
+	line "SAFFRONIA."
 	done
 
 Route6SaffronGate_MapEvents:

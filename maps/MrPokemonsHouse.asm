@@ -181,13 +181,14 @@ MrPokemonIntroText1:
 	text "Hello, hello! You"
 	line "must be <PLAY_G>."
 
-	para "PROF.ELM said that"
-	line "you would visit."
+	para "PROF LIND said"
+	line "that you would"
+	cont "visit."
 	done
 
 MrPokemonIntroText2:
 	text "This is what I"
-	line "want PROF.ELM to"
+	line "want PROF LIND to"
 	cont "examine."
 	done
 
@@ -206,10 +207,10 @@ MrPokemonIntroText3:
 
 	para "I was intrigued,"
 	line "so I sent mail to"
-	cont "PROF.ELM."
+	cont "PROF LIND."
 
 	para "For #MON evolu-"
-	line "tion, PROF.ELM is"
+	line "tion, PROF LIND is"
 	cont "the authority."
 	done
 
@@ -220,19 +221,20 @@ MrPokemonExpShareText:
 	done
 
 MrPokemonIntroText4:
-	text "Even PROF.OAK here"
-	line "recognizes that."
+	text "Even PROF EICH"
+	line "here recognizes"
+	cont "that."
 	done
 
 MrPokemonIntroText5:
 	text "If my assumption"
-	line "is correct, PROF."
-	cont "ELM will know it."
+	line "is correct, PROF"
+	cont "LIND will know it."
 	done
 
 MrPokemonsHouse_MrPokemonHealText:
 	text "You are returning"
-	line "to PROF.ELM?"
+	line "to PROF LIND?"
 
 	para "Here. Your #MON"
 	line "should have some"
@@ -253,10 +255,10 @@ MrPokemonText_AlwaysNewDiscoveries:
 	done
 
 MrPokemonsHouse_OakText1:
-	text "OAK: Aha! So"
+	text "EICH: Aha! So"
 	line "you're <PLAY_G>!"
 
-	para "I'm OAK! A #MON"
+	para "I'm EICH! A #MON"
 	line "researcher."
 
 	para "I was just visit-"
@@ -266,8 +268,8 @@ MrPokemonsHouse_OakText1:
 	para "I heard you were"
 	line "running an errand"
 
-	para "for PROF.ELM, so I"
-	line "waited here."
+	para "for PROF LIND,"
+	line "so I waited here."
 
 	para "Oh! What's this?"
 	line "A rare #MON!"
@@ -277,13 +279,13 @@ MrPokemonsHouse_OakText1:
 	para "Hm, I see!"
 
 	para "I understand why"
-	line "PROF.ELM gave you"
+	line "PROF LIND gave you"
 
 	para "a #MON for this"
 	line "errand."
 
 	para "To researchers"
-	line "like PROF.ELM and"
+	line "like PROF LIND and"
 
 	para "I, #MON are our"
 	line "friends."
@@ -337,7 +339,7 @@ MrPokemonsHouse_OakText2:
 	line "too long."
 
 	para "I have to get to"
-	line "GOLDENROD for my"
+	line "DUKATIA for my"
 	cont "usual radio show."
 
 	para "<PLAY_G>, I'm"
@@ -347,7 +349,7 @@ MrPokemonsHouse_OakText2:
 MrPokemonText_GimmeTheScale:
 	text "Hm? That SCALE!"
 	line "What's that?"
-	cont "A red GYARADOS?"
+	cont "A red GARADOS?"
 
 	para "That's rare! "
 	line "I, I want it…"
@@ -357,7 +359,7 @@ MrPokemonText_GimmeTheScale:
 
 	para "I can offer this"
 	line "EXP.SHARE I got"
-	cont "from PROF.OAK."
+	cont "from PROF EICH."
 	done
 
 MrPokemonText_Disappointed:

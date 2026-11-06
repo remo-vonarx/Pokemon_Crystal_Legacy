@@ -132,7 +132,7 @@ SaffronMagnetTrainStationOfficerTrainIsntOperatingText:
 
 SaffronMagnetTrainStationOfficerAreYouComingOnBoardText:
 	text "We'll soon depart"
-	line "for GOLDENROD."
+	line "for DUKATIA."
 
 	para "Are you coming on"
 	line "board?"
@@ -158,7 +158,7 @@ SaffronMagnetTrainStationOfficerHopeToSeeYouAgainText:
 
 SaffronMagnetTrainStationOfficerArrivedInSaffronText:
 	text "We have arrived in"
-	line "SAFFRON."
+	line "SAFFRONIA."
 
 	para "We hope to see you"
 	line "again."
@@ -206,8 +206,9 @@ SaffronMagnetTrainStationLassText:
 	text "Hi. Do you have a"
 	line "rail PASS? I have"
 
-	para "one. All the peo-"
-	line "ple in SAFFRON who"
+	para "one. All the"
+	line "people in"
+	cont "SAFFRONIA who"
 
 	para "ride the MAGNET"
 	line "TRAIN have PASSES."

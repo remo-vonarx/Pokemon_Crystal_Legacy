@@ -362,8 +362,8 @@ RadioTower2FTeacherText_Rockets:
 	done
 
 RadioTowerJigglypuffText:
-	text "JIGGLYPUFF:"
-	line "Jiggly…"
+	text "PUMMELUFF:"
+	line "Pummel…"
 	done
 
 RadioTower2FBlackBelt1Text:
@@ -698,7 +698,7 @@ RadioTower2FSalesSignText:
 	done
 
 RadioTower2FOaksPKMNTalkSignText:
-	text "PROF.OAK'S #MON"
+	text "PROF EICH's #MON"
 	line "TALK"
 
 	para "The Hottest Show"

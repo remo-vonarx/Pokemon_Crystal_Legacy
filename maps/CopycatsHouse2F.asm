@@ -233,7 +233,7 @@ CopycatText_Male_2:
 
 	para "You think you lost"
 	line "it when you went"
-	cont "to VERMILION CITY?"
+	cont "to ORANIA CITY?"
 	done
 
 CopycatText_Worried:
@@ -250,7 +250,7 @@ CopycatText_Worried:
 
 CopycatText_GiveDoll:
 	text "COPYCAT: Yay!"
-	line "That's my CLEFAIRY"
+	line "That's my PIEPI"
 	cont "# DOLL!"
 
 	para "See the tear where"
@@ -323,7 +323,7 @@ CopycatText_Female_2:
 
 	para "You think you lost"
 	line "it when you were"
-	cont "in VERMILION?"
+	cont "in ORANIA?"
 	done
 
 CopycatText_Female_3:
@@ -340,7 +340,7 @@ CopycatText_Female_3:
 	done
 
 CopycatsDodrioText1:
-	text "DODRIO: Gii giii!"
+	text "DODRI: Gii giii!"
 	done
 
 CopycatsDodrioText2:

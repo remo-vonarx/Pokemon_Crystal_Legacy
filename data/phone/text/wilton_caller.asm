@@ -98,6 +98,6 @@ WiltonWantThisText:
 	text "…"
 	line "Just head from"
 
-	para "MAHOGANY toward"
-	line "BLACKTHORN!"
+	para "MAHAGONIA toward"
+	line "EBENHOLZ!"
 	done

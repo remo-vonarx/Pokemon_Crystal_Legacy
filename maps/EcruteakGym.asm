@@ -208,7 +208,7 @@ MortyIntroText:
 	text "Good of you to"
 	line "have come."
 
-	para "Here in ECRUTEAK,"
+	para "Here in TEAK,"
 	line "#MON have been"
 	cont "revered."
 
@@ -428,7 +428,7 @@ EcruteakGymGuideText:
 	line "use GHOST and"
 	cont "DARK-type #MON."
 
-	para "While MORTY is a"
+	para "While JENS is a"
 	line "GHOST-type expert,"
 	
 	para "be wary of his"
@@ -448,7 +448,7 @@ EcruteakGymGuideWinText:
 	done
 
 EcruteakGymClosedText:
-	text "MORTY, the GYM"
+	text "JENS, the GYM"
 	line "LEADER, is absent."
 
 	para "Sorry, but you'll"

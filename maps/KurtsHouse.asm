@@ -501,7 +501,7 @@ KurtsHouseKurtMakingBallsMustWaitText:
 	line "go give them a"
 	cont "lesson in pain!"
 
-	para "Hang on, SLOWPOKE!"
+	para "Hang on, FLEGMON!"
 	line "Old KURT is on his"
 	cont "way!"
 	done
@@ -615,7 +615,7 @@ KurtsHouseKurtThisBallStartedToShakeText:
 	done
 
 KurtsGranddaughterSlowpokeGoneText:
-	text "The SLOWPOKE are"
+	text "The FLEGMON are"
 	line "gone… Were they"
 
 	para "taken away by bad"
@@ -628,7 +628,7 @@ KurtsGranddaughterLonelyText:
 	done
 
 KurtsGranddaughterSlowpokeBackText:
-	text "The SLOWPOKE my"
+	text "The FLEGMON my"
 	line "dad gave me came"
 
 	para "back! Its TAIL is"
@@ -642,7 +642,7 @@ KurtsGranddaughterDadText:
 
 	para "I have to stay"
 	line "home with Grandpa"
-	cont "and SLOWPOKE."
+	cont "and FLEGMON."
 	done
 
 KurtsGranddaughterHelpText:
@@ -668,13 +668,13 @@ KurtsGranddaughterGSBallText:
 	done
 
 KurtsHouseSlowpokeText:
-	text "SLOWPOKE: …"
+	text "FLEGMON: …"
 	line "Yawn?"
 	done
 
 KurtsHouseOakPhotoText:
-	text "…A young PROF."
-	line "OAK?"
+	text "…A young PROF"
+	line "EICH?"
 	done
 
 KurtsHouseCelebiStatueText:

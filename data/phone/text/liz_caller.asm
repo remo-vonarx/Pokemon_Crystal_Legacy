@@ -62,8 +62,9 @@ LizBattleRematchText:
 	done
 
 LizWrongNumberText:
-	text "Hi, TANIA. How are"
-	line "you? This is LIZ."
+	text "Hi, TANJA. How are"
+	line "you? This is"
+	cont "ANETTE."
 
 	para "I'm fine, but I'm"
 	line "bored silly!"
@@ -97,7 +98,7 @@ LizFalknerGossipText:
 	text "Listen, listen!"
 
 	para "Don't you think"
-	line "FALKNER of VIOLET"
+	line "FALK of VIOLA"
 
 	para "GYM is cool and"
 	line "handsome?"
@@ -109,7 +110,7 @@ LizFalknerGossipText:
 	line "road, is even more"
 
 	para "cool and handsome"
-	line "than FALKNER."
+	line "than FALK."
 
 	para "I wish I could"
 	line "meet him!"
@@ -122,7 +123,7 @@ LizEarlGossipText:
 	line "the teacher who"
 
 	para "runs the #MON"
-	line "ACADEMY in VIOLET?"
+	line "ACADEMY in VIOLA?"
 
 	para "I saw him doing"
 	line "pirouettes while"
@@ -174,7 +175,7 @@ LizSalonGossipText:
 	text "Listen, listen!"
 
 	para "There's a #MON"
-	line "SALON in GOLDENROD"
+	line "SALON in DUKATIA"
 
 	para "that's run by two"
 	line "brothers."
@@ -201,8 +202,8 @@ LizSalonGossipText:
 LizWhitneyGossipText:
 	text "Listen, listen!"
 
-	para "GOLDENROD GYM's"
-	line "WHITNEY began"
+	para "DUKATIA GYM's"
+	line "BIANKA began"
 
 	para "battling only a"
 	line "little while ago!"
@@ -227,12 +228,12 @@ LizBugCatchingContestGossipText:
 
 	para "I did once, but"
 	line "all I could catch"
-	cont "was a CATERPIE."
+	cont "was a RAUPY."
 
 	para "But guess what!"
 
 	para "I won with that"
-	line "CATERPIE. Isn't"
+	line "RAUPY. Isn't"
 	cont "that great?"
 	done
 

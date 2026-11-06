@@ -144,7 +144,7 @@ RageCandyBarMerchantTryOneText:
 	text "Hiya, kid!"
 
 	para "I see you're new"
-	line "in MAHOGANY TOWN."
+	line "in MAHAGONIA CITY."
 
 	para "Since you're new,"
 	line "you should try a"
@@ -186,12 +186,12 @@ RageCandyBarMerchantSoldOutText:
 
 MahoganyTownGrampsText:
 	text "Are you off to see"
-	line "the GYARADOS ram-"
+	line "the GARADOS ram-"
 	cont "page at the LAKE?"
 	done
 
 MahoganyTownGrampsText_ClearedRocketHideout:
-	text "MAGIKARP have"
+	text "KARPADOR have"
 	line "returned to LAKE"
 	cont "OF RAGE."
 
@@ -223,7 +223,7 @@ MahoganyTownLassText:
 	done
 
 MahoganyTownSignText:
-	text "MAHOGANY TOWN"
+	text "MAHAGONIA CITY"
 
 	para "Welcome to the"
 	line "Home of the Ninja"
@@ -231,14 +231,15 @@ MahoganyTownSignText:
 
 MahoganyTownRagecandybarSignText:
 	text "While visiting"
-	line "MAHOGANY TOWN, try"
-	cont "a RAGECANDYBAR!"
+	line "MAHAGONIA CITY,"
+	cont "try a"
+	cont "RAGECANDYBAR!"
 	done
 
 MahoganyGymSignText:
-	text "MAHOGANY TOWN"
+	text "MAHAGONIA CITY"
 	line "#MON GYM"
-	cont "LEADER: PRYCE"
+	cont "LEADER: NORBERT"
 
 	para "The Teacher of"
 	line "Winter's Harshness"

@@ -48,23 +48,23 @@ PalletTownFisherText:
 	done
 
 PalletTownSignText:
-	text "PALLET TOWN"
+	text "ALABASTIA"
 
 	para "A Tranquil Setting"
 	line "of Peace & Purity"
 	done
 
 RedsHouseSignText:
-	text "RED'S HOUSE"
+	text "ROT'S HOUSE"
 	done
 
 OaksLabSignText:
-	text "OAK #MON"
+	text "EICHs #MON"
 	line "RESEARCH LAB"
 	done
 
 BluesHouseSignText:
-	text "BLUE'S HOUSE"
+	text "BLAU'S HOUSE"
 	done
 
 PalletTown_MapEvents:

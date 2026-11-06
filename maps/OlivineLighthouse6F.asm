@@ -160,7 +160,7 @@ OlivineLighthouseJasmineLeavesRightMovement:
 	step_end
 
 JasmineCianwoodPharmacyText:
-	text "JASMINE: … This"
+	text "JASMIN: … This"
 	line "#MON always"
 
 	para "kept the sea lit"
@@ -174,13 +174,13 @@ JasmineCianwoodPharmacyText:
 	line "that there is a"
 
 	para "wonderful PHARMACY"
-	line "in CIANWOOD…"
+	line "in ANEMONIA…"
 
 	para "But that's across"
 	line "the sea…"
 
 	para "And I can't leave"
-	line "AMPHY unattended…"
+	line "AMPHI unattended…"
 	done
 
 JasmineGetSomeMedicineText:
@@ -190,36 +190,36 @@ JasmineGetSomeMedicineText:
 	done
 
 JasmineCureAmphyText:
-	text "JASMINE: …Will"
+	text "JASMIN: …Will"
 	line "that medicine cure"
-	cont "AMPHY?"
+	cont "AMPHI?"
 	done
 
 PlayerHandedSecretpotionText:
 	text "<PLAYER> handed the"
 	line "SECRETPOTION to"
-	cont "JASMINE."
+	cont "JASMIN."
 	done
 
 JasmineDontBeOffendedText:
-	text "JASMINE: …Um,"
+	text "JASMIN: …Um,"
 	line "please don't be"
 	cont "offended…"
 
-	para "…AMPHY will not"
+	para "…AMPHI will not"
 	line "take anything from"
 	cont "anyone but me…"
 	done
 
 JasmineAmphyHowAreYouFeelingText:
-	text "JASMINE: …"
+	text "JASMIN: …"
 
-	para "AMPHY, how are you"
+	para "AMPHI, how are you"
 	line "feeling?"
 	done
 
 JasmineThankYouText:
-	text "JASMINE: …Oh, I'm"
+	text "JASMIN: …Oh, I'm"
 	line "so relieved…"
 
 	para "This is just so"
@@ -237,16 +237,16 @@ JasmineThankYouText:
 	done
 
 JasmineISeeText:
-	text "JASMINE: …I see…"
+	text "JASMIN: …I see…"
 	done
 
 JasmineAmphyHangOnText:
-	text "…AMPHY, hang on!"
+	text "…AMPHI, hang on!"
 	done
 
 AmphyPalPalooText:
-	text "AMPHY: …"
-	line "…Pa… paloo…"
+	text "AMPHI: …"
+	line "…Pa…Paluu…"
 	done
 
 AmphyBreathingLaboredText:
@@ -255,7 +255,7 @@ AmphyBreathingLaboredText:
 	done
 
 AmphyPaluPaluluText:
-	text "AMPHY: Palu!"
+	text "AMPHI: Palu!"
 	line "Palulu!"
 	done
 

@@ -109,7 +109,7 @@ UnusedMissingDaughterText: ; unreferenced
 	done
 
 EcruteakCityGramps1Text:
-	text "ECRUTEAK used to"
+	text "TEAK used to"
 	line "have two towers:"
 
 	para "one each in the"
@@ -160,7 +160,7 @@ EcruteakCityLass2Text_ReleasedBeasts:
 
 EcruteakCityFisherText:
 	text "I heard a rumor"
-	line "about OLIVINE"
+	line "about OLIVIANA"
 	cont "LIGHTHOUSE."
 
 	para "The #MON that"
@@ -173,8 +173,9 @@ EcruteakCityFisherText:
 
 EcruteakCityFisherText_JasmineReturned:
 	text "The #MON at"
-	line "OLIVINE LIGHTHOUSE"
-	cont "has been cured."
+	line "OLIVIANA"
+	cont "LIGHTHOUSE has"
+	cont "been cured."
 
 	para "Boats can safely"
 	line "sail out to sea at"
@@ -208,7 +209,7 @@ EcruteakCityGramps3Text:
 	para "It's a legend that"
 	line "has been passed"
 
-	para "down by ECRUTEAK"
+	para "down by TEAK"
 	line "GYM LEADERS."
 
 	para "Me?"
@@ -219,7 +220,7 @@ EcruteakCityGramps3Text:
 	done
 
 EcruteakCitySignText:
-	text "ECRUTEAK CITY"
+	text "TEAK CITY"
 	line "A Historical City"
 
 	para "Where the Past"
@@ -235,16 +236,16 @@ TinTowerSignText:
 	done
 
 EcruteakGymSignText:
-	text "ECRUTEAK CITY"
+	text "TEAK CITY"
 	line "#MON GYM"
-	cont "LEADER: MORTY"
+	cont "LEADER: JENS"
 
 	para "The Mystic Seer of"
 	line "the Future"
 	done
 
 EcruteakDanceTheaterSignText:
-	text "ECRUTEAK DANCE"
+	text "TEAK DANCE"
 	line "THEATER"
 	done
 

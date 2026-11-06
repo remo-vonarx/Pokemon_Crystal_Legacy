@@ -95,7 +95,7 @@ KarensRoom_EnterMovement:
 	step_end
 
 KarenScript_KarenRematchBeforeText:
-	text "KAREN: Ah,"
+	text "MELANIE: Ah,"
 	line "it's you again."
 
     para "I trust you"
@@ -124,8 +124,8 @@ KarenScript_KarenRematchBeforeText:
 	done
 
 KarenScript_KarenBeforeText:
-	text "I am KAREN of the"
-	line "ELITE FOUR."
+	text "I am MELANIE of"
+	line "the ELITE FOUR."
 
 	para "You're <PLAYER>?"
 	line "How amusing."

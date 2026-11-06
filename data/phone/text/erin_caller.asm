@@ -31,7 +31,7 @@ ErinLostAMonText:
 	done
 
 ErinBattleRematchText:
-	text "I'm ERIN. Want to"
+	text "I'm LOTTE. Want to"
 	line "battle me again?"
 
 	para "I won't lose this"
@@ -58,7 +58,7 @@ ErinWorkingHardText:
 
 ErinComeBattleText:
 	text "Oh, <PLAY_G>!"
-	line "Come battle ERIN!"
+	line "Come battle LOTTE!"
 
 	para "I'll be waiting on"
 	line "@"

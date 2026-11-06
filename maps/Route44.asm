@@ -344,7 +344,7 @@ Route44HiddenElixer:
 
 FisherWilton1SeenText:
 	text "Aack! You made me"
-	line "lose a POLIWAG!"
+	line "lose a QUAPSEL!"
 
 	para "What are you going"
 	line "to do about it?"
@@ -356,7 +356,7 @@ FisherWilton1BeatenText:
 	done
 
 FisherWiltonHugePoliwagText:
-	text "That POLIWAG that"
+	text "That QUAPSEL that"
 	line "got away…"
 	cont "It was huge."
 
@@ -401,8 +401,8 @@ BirdKeeperVance1BeatenText:
 	done
 
 BirdKeeperVanceLegendaryBirdsText:
-	text "ARTICUNO, ZAPDOS"
-	line "and MOLTRES are"
+	text "ARKTOS, ZAPDOS"
+	line "and LAVADOS are"
 
 	para "the three legend-"
 	line "ary bird #MON."
@@ -484,9 +484,9 @@ CooltrainermAllenAfterBattleText:
 	line "so tough."
 
 	para "I wonder if"
-	line "ECRUTEAK GYM's"
+	line "TEAK GYM's"
 
-	para "MORTY is still in"
+	para "JENS is still in"
 	line "training?"
 
 	para "He really hammered"
@@ -524,8 +524,8 @@ Route44Sign1Text:
 Route44Sign2Text:
 	text "ROUTE 44"
 
-	para "MAHOGANY TOWN -"
-	line "BLACKTHORN CITY"
+	para "MAHAGONIA CITY -"
+	line "EBENHOLZ CITY"
 	done
 
 Route44_MapEvents:

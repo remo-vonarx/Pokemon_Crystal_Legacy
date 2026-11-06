@@ -80,7 +80,7 @@ GoldenrodDeptStore2FGentlemanText:
 	text "This DEPT.STORE"
 	line "makes me realize"
 
-	para "that GOLDENROD is"
+	para "that DUKATIA is"
 	line "a big city."
 
 	para "The selection here"

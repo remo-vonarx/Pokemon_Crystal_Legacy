@@ -30,7 +30,7 @@ BlackthornDragonSpeechHouseGrannyText:
 
 	para "command dragons"
 	line "live right here in"
-	cont "BLACKTHORN."
+	cont "EBENHOLZ."
 
 	para "As a result, there"
 	line "are many legends"

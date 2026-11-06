@@ -207,14 +207,15 @@ CeladonGameCornerPrizeRoomPokemonVendor:
 	db STATICMENU_CURSOR ; flags
 	db 4 ; items
 	db "PIKACHU    {d:CELADONGAMECORNERPRIZEROOM_PIKACHU_COINS}@"
-	db "WOBBUFFET  {d:CELADONGAMECORNERPRIZEROOM_PORYGON_COINS}@"
+	db "WOINGENAU  {d:CELADONGAMECORNERPRIZEROOM_PORYGON_COINS}@"
 	db "LARVITAR   {d:CELADONGAMECORNERPRIZEROOM_LARVITAR_COINS}@"
 	db "CANCEL@"
 
 CeladonGameCornerPrizeRoomGentlemanText:
-	text "I wanted WOBBUFFET,"
-	line "but I was short by"
-	cont "100 coins…"
+	text "I wanted"
+	line "WOINGENAU, but I"
+	cont "was short by 100"
+	cont "coins…"
 	done
 
 CeladonGameCornerPrizeRoomPharmacistText:

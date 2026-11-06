@@ -501,7 +501,7 @@ PokemaniacDonaldAfterBattleText:
 	cont "hot tip."
 
 	para "The HIKER on ROUTE"
-	line "33, ANTHONY, is a"
+	line "33, TOM, is a"
 	cont "good guy."
 
 	para "He'll phone you if"

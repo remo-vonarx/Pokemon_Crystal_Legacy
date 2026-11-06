@@ -5,6 +5,6 @@
 	next "its throat to"
 	next "croak out a tune,"
 
-	page "nearby POLIWAG and"
-	next "POLIWHIRL gather"
+	page "nearby QUAPSEL and"
+	next "QUAPUTZI gather"
 	next "immediately.@"

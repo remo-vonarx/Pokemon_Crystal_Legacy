@@ -329,12 +329,12 @@ _LookPikachuPosterText::
 
 _LookClefairyPosterText::
 	text "It's a poster of a"
-	line "cute CLEFAIRY."
+	line "cute PIEPI."
 	done
 
 _LookJigglypuffPosterText::
 	text "It's a poster of a"
-	line "cute JIGGLYPUFF."
+	line "cute PUMMELUFF."
 	done
 
 _LookAdorableDecoText::
@@ -503,7 +503,7 @@ _MobileTradeCameBackText::
 
 _OPT_IntroText1::
 	text_start
-	line "MARY: PROF.OAK'S"
+	line "MARGIT: PROF EICH's"
 	done
 
 _OPT_IntroText2::
@@ -513,12 +513,12 @@ _OPT_IntroText2::
 
 _OPT_IntroText3::
 	text_start
-	line "With me, MARY!"
+	line "With me, MARGIT!"
 	done
 
 _OPT_OakText1::
 	text_start
-	line "OAK: @"
+	line "EICH: @"
 	text_ram wMonOrItemNameBuffer
 	text_end
 
@@ -538,7 +538,7 @@ _OPT_OakText3::
 
 _OPT_MaryText1::
 	text_start
-	line "MARY: @"
+	line "MARGIT: @"
 	text_ram wStringBuffer1
 	text "'s"
 	done
@@ -734,12 +734,12 @@ _BenIntroText3::
 
 _FernIntroText1::
 	text_start
-	line "FERN: #MUSIC!"
+	line "FABIAN: #MUSIC!"
 	done
 
 _FernIntroText2::
 	text_start
-	line "With DJ FERN!"
+	line "With DJ FABIAN!"
 	done
 
 _BenFernText1::
@@ -773,12 +773,12 @@ _BenFernText3B::
 
 _LC_Text1::
 	text_start
-	line "REED: Yeehaw! How"
+	line "BASTIAN: Yeehaw!"
 	done
 
 _LC_Text2::
 	text_start
-	line "y'all doin' now?"
+	line "How y'all doin'?"
 	done
 
 _LC_Text3::
@@ -853,7 +853,7 @@ _PnP_Text2::
 
 _PnP_Text3::
 	text_start
-	line "me, DJ LILY!"
+	line "me, DJ LILLY!"
 	done
 
 _PnP_Text4::
@@ -1041,7 +1041,7 @@ _BuenaRadioText5::
 
 _BuenaRadioText6::
 	text_start
-	line "I'm in GOLDENROD's"
+	line "I'm in DUKATIA's"
 	done
 
 _BuenaRadioText7::

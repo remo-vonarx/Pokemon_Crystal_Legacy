@@ -100,12 +100,12 @@ CianwoodPokecenter1FUnusedText1: ; unreferenced
 	line "show the #MON I"
 
 	para "raised to my pal"
-	line "in VIOLET."
+	line "in VIOLA."
 	done
 
 CianwoodPokecenter1FUnusedText2: ; unreferenced
 	text "I've been battling"
-	line "my pal in VIOLET"
+	line "my pal in VIOLA"
 
 	para "using a MOBILE"
 	line "ADAPTER link."

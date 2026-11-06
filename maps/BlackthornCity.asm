@@ -145,7 +145,7 @@ BlackthornCityMartSign:
 Text_ClairIsOut:
 	text "I am sorry."
 
-	para "CLAIR, our GYM"
+	para "SANDRA, our GYM"
 	line "LEADER, entered"
 
 	para "the DRAGON'S DEN"
@@ -157,7 +157,7 @@ Text_ClairIsOut:
 	done
 
 Text_ClairIsIn:
-	text "CLAIR, our GYM"
+	text "SANDRA, our GYM"
 	line "LEADER, is waiting"
 	cont "for you."
 
@@ -170,7 +170,7 @@ Text_ClairIsIn:
 
 Text_ClairIsBeaten:
 	text "You defeated"
-	line "CLAIR?"
+	line "SANDRA?"
 
 	para "That's amazing!"
 
@@ -178,7 +178,7 @@ Text_ClairIsBeaten:
 	line "of her losing to"
 
 	para "anyone other than"
-	line "LANCE."
+	line "SIEGFRIED."
 	done
 
 BlackthornGrampsRefusesEntryText:
@@ -190,7 +190,7 @@ BlackthornGrampsRefusesEntryText:
 	done
 
 BlackthornGrampsGrantsEntryText:
-	text "If CLAIR allows"
+	text "If SANDRA allows"
 	line "it, her grand-"
 	cont "father--our MASTER"
 	cont "--will also."
@@ -222,15 +222,15 @@ BlackthornCooltrainerF1Text:
 BlackthornYoungsterText:
 	text "Dragon masters all"
 	line "come from the city"
-	cont "of BLACKTHORN."
+	cont "of EBENHOLZ."
 	done
 
 MeetSantosText:
-	text "SANTOS: …"
+	text "SAMSON: …"
 
 	para "It's Saturday…"
 
-	para "I'm SANTOS of"
+	para "I'm SAMSON of"
 	line "Saturday…"
 	done
 
@@ -239,7 +239,7 @@ SantosGivesGiftText:
 	done
 
 SantosGaveGiftText:
-	text "SANTOS: …"
+	text "SAMSON: …"
 
 	para "SPELL TAG…"
 
@@ -251,7 +251,7 @@ SantosGaveGiftText:
 	done
 
 SantosSaturdayText:
-	text "SANTOS: …"
+	text "SAMSON: …"
 
 	para "See you again on"
 	line "another Saturday…"
@@ -261,7 +261,7 @@ SantosSaturdayText:
 	done
 
 SantosNotSaturdayText:
-	text "SANTOS: Today's"
+	text "SAMSON: Today's"
 	line "not Saturday…"
 	done
 
@@ -275,16 +275,16 @@ BlackthornCooltrainerF2Text:
 	done
 
 BlackthornCitySignText:
-	text "BLACKTHORN CITY"
+	text "EBENHOLZ CITY"
 
 	para "A Quiet Mountain"
 	line "Retreat"
 	done
 
 BlackthornGymSignText:
-	text "BLACKTHORN CITY"
+	text "EBENHOLZ CITY"
 	line "#MON GYM"
-	cont "LEADER: CLAIR"
+	cont "LEADER: SANDRA"
 
 	para "The Blessed User"
 	line "of Dragon #MON"

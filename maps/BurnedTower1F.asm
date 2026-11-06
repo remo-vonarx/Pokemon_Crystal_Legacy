@@ -236,8 +236,8 @@ BurnedTowerSilver_AfterText2:
 	done
 
 BurnedTower1FEusineIntroText:
-	text "EUSINE: My name's"
-	line "EUSINE."
+	text "EUSIN: My name's"
+	line "EUSIN."
 
 	para "I'm on the trail"
 	line "of a #MON named"
@@ -259,7 +259,7 @@ BurnedTower1FEusineIntroText:
 	done
 
 BurnedTower1FEusineText:
-	text "EUSINE: I heard"
+	text "EUSIN: I heard"
 	line "that SUICUNE is in"
 
 	para "this BURNED TOWER,"
@@ -270,7 +270,7 @@ BurnedTower1FEusineText:
 	done
 
 BurnedTower1FMortyText:
-	text "MORTY: ECRUTEAK's"
+	text "JENS: TEAK's"
 	line "GYM LEADER has to"
 
 	para "study what are"
@@ -280,7 +280,7 @@ BurnedTower1FMortyText:
 	line "--SUICUNE, ENTEI"
 	cont "and RAIKOU."
 
-	para "EUSINE is here, so"
+	para "EUSIN is here, so"
 	line "I've decided to"
 
 	para "investigate the"

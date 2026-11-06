@@ -250,10 +250,10 @@ VictoryRoadRivalBeforeText:
 	line "Your PUPITAR"
 
 	para "evolved into"
-	line "TYRANITAR?"
+	line "DESPOTAR?"
 	
 	para ".....What?"
-	line "TYRANITAR?"
+	line "DESPOTAR?"
 	
 	para "But......."
 	line "level....."

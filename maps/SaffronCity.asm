@@ -125,7 +125,7 @@ SaffronCityLass1Text_ReturnedMachinePart:
 
 	para "She said she lost"
 	line "her favorite #"
-	cont "DOLL--CLEFAIRY."
+	cont "DOLL--PIEPI."
 	done
 
 SaffronCityPokefanMText:
@@ -206,7 +206,7 @@ SaffronCityYoungster2Text:
 	text "There's a place"
 	line "called TRAINER"
 
-	para "HOUSE in VIRIDIAN"
+	para "HOUSE in VERTANIA"
 	line "where trainers"
 
 	para "gather from all"
@@ -227,14 +227,14 @@ SaffronCityLass2Text:
 	done
 
 SaffronCitySignText:
-	text "SAFFRON CITY"
+	text "SAFFRONIA CITY"
 
 	para "Shining, Golden"
 	line "Land of Commerce"
 	done
 
 SaffronGymSignText:
-	text "SAFFRON CITY"
+	text "SAFFRONIA CITY"
 	line "#MON GYM"
 	cont "LEADER: SABRINA"
 
@@ -253,12 +253,12 @@ SilphCoSignText:
 	done
 
 MrPsychicsHouseSignText:
-	text "MR.PSYCHIC'S"
+	text "MR.PSYCHO'S"
 	line "HOUSE"
 	done
 
 SaffronCityMagnetTrainStationSignText:
-	text "SAFFRON CITY"
+	text "SAFFRONIA CITY"
 	line "MAGNET TRAIN"
 	cont "STATION"
 	done

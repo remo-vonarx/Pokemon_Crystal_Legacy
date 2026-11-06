@@ -168,7 +168,7 @@ CooltrainerfCarolAfterBattleText:
 	done
 
 PokemaniacEthanSeenText:
-	text "Do you know LILY?"
+	text "Do you know LILLY?"
 	line "She's a hot DJ in"
 	cont "KANTO."
 	done
@@ -178,8 +178,8 @@ PokemaniacEthanBeatenText:
 	done
 
 PokemaniacEthanAfterBattleText:
-	text "LILY's nice, but"
-	line "MARY's the best!"
+	text "LILLY's nice, but"
+	line "MARGIT's the best!"
 
 	para "I want to check"
 	line "out JOHTO's radio"
