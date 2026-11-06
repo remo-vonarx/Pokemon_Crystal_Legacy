@@ -263,7 +263,7 @@ _IsThisOKText:: ; unreferenced
 
 _EnterTheIDNoText:: ; unreferenced
 	text "Gib die"
-	line "ID-Nummer ein.."
+	line "ID-Nummer ein."
 	done
 
 _EnterTheAmountText:: ; unreferenced

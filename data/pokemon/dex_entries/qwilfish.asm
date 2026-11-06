@@ -2,7 +2,7 @@
 	dw 5, 39 ; height, weight
 
 	db   "Sieht es sich ei-"
-	next "nem größerem Feind"
+	next "nem größeren Feind"
 	next "gegenüber, trinkt"
 
 	page "es möglichst viel"

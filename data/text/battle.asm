@@ -844,7 +844,7 @@ EnemyHitTimesText:
 	prompt
 
 MistText:
-	text "<USER>s"
+	text "<USER>"
 	line "ist von"
 	cont "WEISSNEBEL"
 	cont "umgeben!"

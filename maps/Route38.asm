@@ -491,7 +491,7 @@ BeautyOliviaBeatenText:
 	done
 
 BeautyOliviaAfterBattleText:
-	text "KUHMUH-MLCH ist"
+	text "KUHMUH-MILCH ist"
 	line "gut für Schönheit"
 
 	para "und Gesundheit,"

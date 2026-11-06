@@ -259,7 +259,7 @@ PicnickerErin2BeatenText:
 	para "gegen mich"
 	line "kämpfst. Hier ist"
 	cont "das Geschenk vom"
-	cont "letzen Mal."
+	cont "letzten Mal."
 	done
 
 Route46SignText:

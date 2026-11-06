@@ -61,7 +61,7 @@ ToddRematchText:
 	line "Dich! Ich war"
 
 	para "nicht mehr so"
-	line "oft Einkaufen, um"
+	line "oft einkaufen, um"
 
 	para "mein #MON bes-"
 	line "ser zu trainieren!"

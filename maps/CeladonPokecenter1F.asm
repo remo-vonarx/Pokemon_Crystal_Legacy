@@ -109,7 +109,7 @@ EusineLeavesCeladonText:
 	line "rüchte über ein"
 
 	para "regenbogenfarbenes"
-	line "#MON, daß"
+	line "#MON, das"
 
 	para "sich am ZINNTURM"
 	line "zeigt."

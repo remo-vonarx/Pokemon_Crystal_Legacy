@@ -180,7 +180,7 @@ Jasmine_BetterTrainer:
 	line "serer Trainer als"
 
 	para "ich. Das betrifft"
-	line "sowohl Geschick,"
+	line "sowohl Geschick"
 
 	para "als auch Fein-"
 	line "gefühl."
@@ -249,7 +249,7 @@ Jasmine_RematchDefeatText:
 	cont "als ich."
 
 	para "Das betrifft so-"
-	line "wohl Geschick, als"
+	line "wohl Geschick als"
 	cont "auch Feingefühl."
 	done
 

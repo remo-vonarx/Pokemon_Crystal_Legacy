@@ -241,7 +241,7 @@ if DEF(_CRYSTAL_AU)
 	done
 else
 	text "Der Spielplatz"
-	line "Für Jedermann --"
+	line "für Jedermann --"
 
 	para "SPIELHALLE von"
 	line "PRISMANIA"

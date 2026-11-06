@@ -80,7 +80,7 @@ SproutTower1FSage2Text:
 
 SproutTower1FGrannyText:
 	text "Ein über 30 m"
-	line "grosses KNOFENSA…"
+	line "großes KNOFENSA…"
 
 	para "Man sagt, es wurde"
 	line "die Trägersäule"

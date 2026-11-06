@@ -237,7 +237,7 @@ MortyIntroText:
 
 	para "Noch ein wenig…"
 
-	para "Mit ein wenig Mehr"
+	para "Mit ein wenig mehr"
 	line "könnte ich eine"
 
 	para "Zukunft sehen, in"

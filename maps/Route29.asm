@@ -409,7 +409,7 @@ TuscanyGaveGiftText:
 
 	para "Attacken der"
 	line "Elementklasse"
-	cont "Normal, werden"
+	cont "Normal werden"
 	cont "dadurch stärker."
 
 	para "Ich bin sicher,"

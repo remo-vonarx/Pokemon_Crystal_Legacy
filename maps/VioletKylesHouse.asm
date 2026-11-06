@@ -29,8 +29,8 @@ VioletKylesHousePokefanMText:
 	line "im Besitz des pas-"
 	cont "senden ORDENs"
 
-	para "bist, gehorchen"
-	line "sie Dir vielleicht"
+	para "bist, gehorcht"
+	line "es Dir vielleicht"
 	cont "nicht."
 	done
 

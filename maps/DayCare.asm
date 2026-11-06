@@ -89,7 +89,7 @@ Text_DayCareManTalksAboutEggTicket: ; unreferenced
 	line "TAUSCHECKE nennt."
 
 	para "Ich erhielt ein"
-	line "EI-TICKET, daß"
+	line "EI-TICKET, das"
 
 	para "man gegen ein"
 	line "KURIOS-EI eintau-"

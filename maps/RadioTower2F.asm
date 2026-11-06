@@ -687,7 +687,7 @@ RadioTower2FBuenaSadRejectedText:
 
 RadioTower2FBuenaYourPhoneIsFullText:
 	text "BUENA: <PLAY_G>,"
-	line "In Deinem Nummern-"
+	line "in Deinem Nummern-"
 	cont "speicher ist kein"
 	cont "Platz für mich…"
 	done

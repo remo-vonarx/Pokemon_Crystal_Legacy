@@ -57,7 +57,7 @@ IrwinRocketHideoutGossipText:
 	line "hörte, ich hörte!"
 
 	para "Du hast TEAM"
-	line "ROCKETs-Versteck"
+	line "ROCKETs Versteck"
 	cont "ausgehoben!"
 
 	para "Du bist ein Film-"

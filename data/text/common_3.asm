@@ -164,7 +164,7 @@ _PleaseTryAgainTomorrowText::
 	text "Weniger, als 1"
 	line "min für heute!"
 
-	para "Kommme morgen"
+	para "Komme morgen"
 	line "wieder."
 	done
 
@@ -877,7 +877,7 @@ _MobileCardFolderIntro1Text::
 	para "die KARTEN Deiner"
 	line "Freunde ab."
 
-	para "Eine KARTE enhält"
+	para "Eine KARTE enthält"
 	line "Informationen wie"
 
 	para "den Namen, die"

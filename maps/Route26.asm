@@ -415,7 +415,7 @@ PsychicRichardAfterBattleText:
 
 FisherScottSeenText:
 	text "Heute fühle ich"
-	line "mich grossartig!"
+	line "mich großartig!"
 
 	para "Ich fühle mich so"
 	line "stark, daß ich"

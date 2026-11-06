@@ -189,7 +189,7 @@ GuitaristClydeBeatenText:
 
 GuitaristClydeAfterBattleMobileText:
 	text "Ich wollte mein"
-	line "Debut im DUELLTURM"
+	line "Debüt im DUELLTURM"
 	cont "geben…"
 
 	para "Ich sollte nach"
