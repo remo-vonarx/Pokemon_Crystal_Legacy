@@ -227,66 +227,70 @@ Jasmine_GoodLuck:
 	done
 
 JasmineRematchText:
-	text "…Congratulations,"
-    line "JOHTO CHAMPION."
+	text "…Glückwunsch,"
+	line "JOHTO-CHAMP."
 
-    para "You have become"
-    line "so strong…"
+	para "Du bist so stark"
+	line "geworden…"
 
-    para "I wonder if I"
-    line "have improved."
+	para "Ob ich mich auch"
+	line "verbessert habe?"
 
-    para "Would you like"
-    line "to test that?"
+	para "Möchtest Du das"
+	line "testen?"
 
-    para "Want to have a"
-    line "rematch with me?"
+	para "Willst Du eine"
+	line "Revanche?"
 	done
 
 Jasmine_RematchDefeatText:
-	text "…You are a better"
-	line "trainer than me,"
+	text "…Du bist ein"
+	line "besserer Trainer"
+	cont "als ich."
 
-	para "in both skill and"
-	line "kindness."
+	para "Das betrifft so-"
+	line "wohl Geschick, als"
+	cont "auch Feingefühl."
 	done
 
 OlivineGymGuideText:
-	text "JASMIN uses the"
-	line "newly discovered"
-	cont "STEEL-type."
+	text "JASMIN setzt den"
+	line "neu entdeckten Typ"
+	cont "Stahl ein."
 
-	para "She's known for"
-	line "having not one,"
-	cont "but two aces."
-	
-	para "The first is a"
-	line "metal bug that can"
-	
-	para "use a technique to"
-	line "boost its ATTACK."
-	
-	para "While fire will"
-	line "hurt it, it can"
+	para "Sie ist für gleich"
+	line "zwei Trümpfe"
+	cont "bekannt."
 
-	para "sometimes endure"
-	line "powerful blows."
-	
-	para "The second is a"
-	line "giant iron snake"
-	
-	para "with lots of"
-	line "powerful moves."
-	
-	para "Approach it with"
-	line "caution."
-	
-	para "It may look slow,"
-	line "but I've seen it"
+	para "Der erste ist ein"
+	line "Metallkäfer, der"
 
-	para "strike first with"
-	line "shocking displays"
-	cont "of SPEED."
+	para "mit einer Technik"
+	line "seinen ANGRIFF"
+	cont "erhöhen kann."
+
+	para "Feuer schadet ihm,"
+	line "aber manchmal"
+
+	para "übersteht er"
+	line "starke Treffer."
+
+	para "Der zweite ist"
+	line "eine riesige"
+	cont "Eisenschlange"
+
+	para "mit vielen starken"
+	line "Attacken."
+
+	para "Nähere Dich ihr"
+	line "vorsichtig."
+
+	para "Sie sieht langsam"
+	line "aus, aber ich habe"
+
+	para "sie schon blitz-"
+	line "schnell zuerst"
+	cont "angreifen sehen."
 	done
 
 OlivineGymGuideWinText:

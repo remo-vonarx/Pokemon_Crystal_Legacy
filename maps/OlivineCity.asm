@@ -166,50 +166,50 @@ OlivineCityPlayerStepsAsideBottomMovement:
 OlivineCityRivalText:
 	text "…"
 
-	para "You again?"
+	para "Du schon wieder?"
 
-	para "There's no need to"
-	line "panic. I don't"
+	para "Kein Grund zur Pa-"
+	line "nik. Mit Verlie-"
+	cont "rern wie Dir gebe"
+	cont "ich mich nicht ab."
 
-	para "bother with wimps"
-	line "like you."
+	para "Apropos Verlierer:"
+	line "die ARENALEITERIN"
 
-	para "Speaking of weak-"
-	line "lings, the city's"
+	para "dieser Stadt soll"
+	line "laut einigen"
 
-	para "GYM LEADER is"
-	line "said by some to be"
-	
-	para "stronger than"
-	line "NORBERT, yet is"
+	para "stärker als"
+	line "NORBERT sein,"
 
-	para "supposedly taking"
-	line "care of a sick"
+	para "kümmert sich aber"
+	line "wohl gerade um ein"
 
-	para "#MON at the"
-	line "LIGHTHOUSE."
+	para "krankes #MON im"
+	line "LEUCHTTURM."
 
-	para "Humph! Boo-hoo!"
-	line "Just let sick"
-	cont "#MON go!"
+	para "Hmpf! Bu-Huu!"
+	line "Laß kranke #MON"
+	cont "doch gehen!"
 
-	para "A #MON that"
-	line "can't battle is"
-	cont "worthless!"
-	
-	para "Why don't you go"
-	line "train at the"
-	cont "LIGHTHOUSE?"
-	
-	para "Who knows. It may"
-	line "make you a bit"
-	cont "less weak!"
-	
-	para "Maybe then you"
-	line "could at least"
-	
-	para "take on HARTWIG"
-	line "or NORBERT!"
+	para "Ein #MON, das"
+	line "nicht kämpfen"
+	cont "kann, ist wertlos!"
+
+	para "Warum trainierst"
+	line "Du nicht im"
+	cont "LEUCHTTURM?"
+
+	para "Wer weiß, viel-"
+	line "leicht wirst Du"
+	cont "dadurch ein wenig"
+	cont "stärker!"
+
+	para "Vielleicht kannst"
+	line "Du dann wenigstens"
+
+	para "gegen HARTWIG oder"
+	line "NORBERT antreten!"
 	done
 
 OlivineCitySailor1Text:
@@ -245,28 +245,26 @@ OlivineCityStandingYoungsterPokedexText:
 	done
 
 OlivineCitySailor2Text:
-	text "The league has"
-	line "JASMIN pegged"
+	text "Die LIGA hält"
+	line "JASMIN für die"
 
-	para "as the sixth"
-	line "strongest GYM"
-	cont "LEADER!"
-	
-	para "Hah! That's"
-	line "a load of crud."
-	
-	para "There's no way"
-	line "NORBERT could hurt"
-	
-	para "JASMIN's Steel"
-	line "type #MON!"
-	
-	para "Bureaucracy if"
-	line "you ask me."
-	
-	para "She's something"
-	line "to be feared,"
-	cont "That's for sure!"
+	para "sechststärkste"
+	line "ARENALEITERIN!"
+
+	para "Ha! So ein Unsinn."
+
+	para "NORBERT könnte"
+	line "JASMINs STAHL-"
+	cont "#MON nie etwas"
+	cont "anhaben!"
+
+	para "Reine Bürokratie,"
+	line "wenn Du mich"
+	cont "fragst."
+
+	para "Vor ihr sollte man"
+	line "sich fürchten,"
+	cont "so viel ist klar!"
 	done
 
 OlivineCitySignText:
