@@ -482,16 +482,16 @@ MenuData_17d272:
 
 MenuHeader_ChallengeExplanationCancel:
 	db MENU_BACKUP_TILES ; flags
-	menu_coords 0, 0, 14, 7
+	menu_coords 0, 0, 18, 7
 	dw MenuData_ChallengeExplanationCancel
 	db 1 ; default option
 
 MenuData_ChallengeExplanationCancel:
 	db STATICMENU_CURSOR | STATICMENU_WRAP ; flags
 	db 3
-	db "Challenge@"
-	db "Explanation@"
-	db "Cancel@"
+	db "Herausforderung@"
+	db "Erklärung@"
+	db "Abbrechen@"
 
 Function17d2b6:
 	call Function17d2c0
