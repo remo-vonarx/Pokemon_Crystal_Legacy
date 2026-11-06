@@ -236,6 +236,8 @@ ENDM
 	dict "<PKMN>",    PlacePKMN
 	dict "<POKE>",    PlacePOKE
 	dict "%",         NextChar
+	dict "<SHY>",     NextChar
+	dict "<SHY_LF>",  HyphenLineFeedChar
 	dict "¯",         " "
 	dict "<DEXEND>",  PlaceDexEnd
 	dict "<TARGET>",  PlaceMoveTargetsName
@@ -379,6 +381,10 @@ NextLineChar::
 	add hl, bc
 	push hl
 	jp NextChar
+
+HyphenLineFeedChar::
+	ld [hl], "-"
+	; fallthrough
 
 LineFeedChar::
 	pop hl
