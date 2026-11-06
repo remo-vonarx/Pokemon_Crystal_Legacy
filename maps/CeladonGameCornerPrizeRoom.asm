@@ -212,16 +212,17 @@ CeladonGameCornerPrizeRoomPokemonVendor:
 	db "CANCEL@"
 
 CeladonGameCornerPrizeRoomGentlemanText:
-	text "I wanted"
-	line "WOINGENAU, but I"
-	cont "was short by 100"
-	cont "coins…"
+	text "Ich wollte ein"
+	line "WOINGENAU, aber"
+	cont "mir fehlten 100"
+	cont "Münzen…"
 	done
 
 CeladonGameCornerPrizeRoomPharmacistText:
 if DEF(_CRYSTAL_AU)
-	text "I don't want to"
-	line "lose my coins."
+	text "Ich möchte meine"
+	line "Münzen nicht"
+	cont "verlieren."
 	done
 else
 	text "Puh…"

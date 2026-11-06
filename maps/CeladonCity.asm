@@ -91,8 +91,9 @@ CeladonCityPoliwrathText:
 
 CeladonCityTeacher1Text:
 if DEF(_CRYSTAL_AU)
-	text "I lost at the"
-	line "machines."
+	text "Ich habe an den"
+	line "Automaten ver-"
+	cont "loren."
 	done
 else
 	text "Ich habe schon"
@@ -232,10 +233,11 @@ CeladonCityMansionSignText:
 
 CeladonCityGameCornerSignText:
 if DEF(_CRYSTAL_AU)
-	text "The Game Area for"
-	line "Grown-ups--"
-	cont "PRISMANIA"
-	cont "GAME CORNER"
+	text "Der Spielplatz"
+	line "für Erwachsene --"
+
+	para "SPIELHALLE von"
+	line "PRISMANIA"
 	done
 else
 	text "Der Spielplatz"

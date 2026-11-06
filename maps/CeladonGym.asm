@@ -230,35 +230,39 @@ ErikaAfterBattleText:
 	done
 
 ErikaRematchText:
-	text "ERIKA: Oh, hello."
+	text "ERIKA: Oh, hallo."
 
-	para "What a surprise,"
-	line "KANTO CHAMPION!"
+	para "Was für eine"
+	line "Überraschung,"
+	cont "KANTO-CHAMP!"
 
-	para "It's so lovely"
-	line "to see you again."
+	para "Wie schön, Dich"
+	line "wiederzusehen."
 
-	para "Your journey"
-	line "must have been"
-	cont "so exciting."
+	para "Deine Reise muß"
+	line "sehr aufregend"
+	cont "gewesen sein."
 
-	para "Even champions"
-	line "enjoy a challenge."
+	para "Auch CHAMPS mögen"
+	line "Herausforderungen."
 
-	para "Want to have a"
-	line "rematch with me?"
+	para "Willst Du eine"
+	line "Revanche?"
 	done
 
 Erika_RematchDefeatText:
-	text "ERIKA: Losing"
-	line "still leaves a"
-	cont "bitter aftertaste…"
+	text "ERIKA: Eine"
+	line "Niederlage ist"
+	cont "immer noch nicht"
+	cont "sehr angenehm…"
 
-	para "But knowing that"
-	line "there are strong"
+	para "Aber es ist ein"
+	line "Ansporn, sich mehr"
+	cont "anzustrengen, wenn"
 
-	para "trainers spurs me"
-	line "to do better…"
+	para "man weiß, daß es"
+	line "starke Trainer"
+	cont "gibt…"
 	done
 
 LassMichelleSeenText:

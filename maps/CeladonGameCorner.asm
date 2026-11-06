@@ -165,9 +165,9 @@ CeladonGameCornerPokefanMText:
 
 CeladonGameCornerTeacherText:
 if DEF(_CRYSTAL_AU)
-	text "The weather"
-	line "outside is very"
-	cont "nice."
+	text "Das Wetter"
+	line "draußen ist sehr"
+	cont "schön."
 	done
 else
 	text "An diesem Automa-"
@@ -185,9 +185,9 @@ endc
 
 CeladonGameCornerFishingGuruText:
 if DEF(_CRYSTAL_AU)
-	text "This machine looks"
-	line "the same as the"
-	cont "others."
+	text "Dieser Automat"
+	line "sieht genauso aus"
+	cont "wie die anderen."
 	done
 else
 	text "Ich glaube, an"
@@ -205,11 +205,12 @@ CeladonGameCornerFisherText1:
 if DEF(_CRYSTAL_AU)
 	text "Whoa!"
 
-	para "What? You want to"
-	line "play this machine?"
+	para "Was? Du willst an"
+	line "diesem Automaten"
+	cont "spielen?"
 
-	para "Here, take my"
-	line "coins."
+	para "Hier, nimm meine"
+	line "Münzen."
 	done
 else
 	text "Guahahaha!"
@@ -246,8 +247,8 @@ CeladonGameCornerFisherNoCoinCaseText:
 
 CeladonGameCornerFisherFullCoinCaseText:
 if DEF(_CRYSTAL_AU)
-	text "Your COIN CASE is"
-	line "full."
+	text "Dein MÜNZKORB ist"
+	line "voll."
 	done
 else
 	text "Heh, dein MÜNZKORB"
@@ -264,8 +265,7 @@ CeladonGymGuideText:
 	line "in spe!"
 
 if DEF(_CRYSTAL_AU)
-	para "Are you playing"
-	line "too?"
+	para "Spielst Du auch?"
 else
 	para "Spielst du auch an"
 	line "den Automaten?"
@@ -283,9 +283,10 @@ endc
 
 CeladonGameCornerGrampsText:
 if DEF(_CRYSTAL_AU)
-	text "Is there any"
-	line "difference between"
-	cont "these lines?"
+	text "Gibt es einen"
+	line "Unterschied"
+	cont "zwischen diesen"
+	cont "Reihen?"
 	done
 else
 	text "Hm… Die Chancen,"
