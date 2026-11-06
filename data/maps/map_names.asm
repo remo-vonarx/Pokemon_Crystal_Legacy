@@ -655,13 +655,13 @@ Dungeons_Map_Name27: ; map_const RUINS_OF_ALPH_INNER_CHAMBE ; 27
 Dungeons_Map_Name28: ; map_const RUINS_OF_ALPH_RESEARCH_CENTER ; 28
 	db "RUINEN-LABOR@"
 Dungeons_Map_Name29: ; map_const RUINS_OF_ALPH_HO_OH_ITEM_ROOM ; 29
-	db "HO-OH-SCHATZRAUM@"
+	db "HO-OH-SCHATZKAMMER@"
 Dungeons_Map_Name30: ; map_const RUINS_OF_ALPH_KABUTO_ITEM_ROOM ; 30
-	db "KABUTO-SCHATZRAUM@"
+	db "KABUTO-SCHATZKAM.@"
 Dungeons_Map_Name31: ; map_const RUINS_OF_ALPH_OMANYTE_ITEM_ROOM ; 31
-	db "AMONITAS-SCHATZR.@"
+	db "AMONITAS-SCHATZK.@"
 Dungeons_Map_Name32: ; map_const RUINS_OF_ALPH_AERODACTYL_ITEM_ROOM ; 32
-	db "AERO-SCHATZRAUM@"
+	db "AERO-SCHATZKAMMER@"
 Dungeons_Map_Name33: ; map_const RUINS_OF_ALPH_HO_OH_WORD_ROOM,; 33
 	db "HO-OH-WORTRAUM@"
 Dungeons_Map_Name34: ; map_const RUINS_OF_ALPH_KABUTO_WORD_ROOM,; 34
