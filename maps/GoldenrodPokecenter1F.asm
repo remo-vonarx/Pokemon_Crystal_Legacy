@@ -320,9 +320,9 @@ GoldenrodPokecomCenterPerson1Text: ; unreferenced
 
 GoldenrodPokecomCenterPerson2Text: ; unreferenced
 	text "Ich habe mir etwas"
-	line "lustiges für die"
+	line "Lustiges für die"
 	cont "TAUSCHECKE aus-"
-	cont "/LINE ADDEDgedacht"
+	cont "gedacht"
 
 	para "Ich gebe TAUBSI"
 	line "einen BRIEF und"

@@ -92,7 +92,7 @@ _MobileBattleMustPickThreeMonText::
 	para "mußt Du drei"
 	line "#MON auswählen."
 
-	para "In Odnung?"
+	para "In Ordnung?"
 	done
 
 _MobileBattleMoreInfoText::
