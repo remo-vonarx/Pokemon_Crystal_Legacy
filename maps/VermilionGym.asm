@@ -196,23 +196,23 @@ LtSurgeFightDoneText:
 	done
 
 SurgeRematchText:
-	text "BOB: So, "
-	line "you're now"
-	cont "KANTO CHAMPION!"
+	text "MAJOR BOB: So, Du"
+	line "bist jetzt"
+	cont "KANTO-CHAMP!"
 
-	para "Impressive work,"
-	line "kid! But don't"
-	cont "think I'm done!"
+	para "Beeindruckend,"
+	line "Wicht! Aber glaub"
+	cont "nicht, daß ich"
+	cont "fertig bin!"
 
-	para "How about we"
-	line "have a go"
-	cont "again?"
+	para "Wie wär's mit"
+	line "einer neuen Runde?"
 	done
 
 Surge_RematchDefeatText:
-	text "BOB: Arrrgh!"
-	line "You're still just"
-	cont "as strong!"
+	text "MAJOR BOB: Arrrgh!"
+	line "Du bist immer"
+	cont "noch so stark!"
 	done
 
 GentlemanGregorySeenText:
