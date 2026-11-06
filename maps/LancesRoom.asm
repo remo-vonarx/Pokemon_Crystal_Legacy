@@ -375,48 +375,50 @@ LanceBattleIntroText:
 	done
 
 LanceBattleWinText:
-	text "…It's over."
+	text "Das ist ein"
+	line "seltsames Gefühl."
 
-	para "But it's an odd"
-	line "feeling."
+	para "Ich bin nicht"
+	line "wütend, dass ich"
+	cont "verloren habe. Ich"
+	cont "bin glücklich."
 
-	para "I'm not angry that"
-	line "I lost. In fact, I"
-	cont "feel happy."
+	para "Glücklich, dass"
+	line "ich den Aufstieg"
 
-	para "Happy that I"
-	line "witnessed the rise"
-
-	para "of a great new"
-	line "CHAMPION!"
+	para "eines neuen"
+	line "CHAMPs miterleben"
+	cont "durfte."
 	done
 
 LanceBattleAfterText:
-	text "…Whew."
+	text "…Woa."
 
-	para "You have become"
-	line "truly powerful,"
+	para "Du bist sehr"
+	line "stark geworden,"
 	cont "<PLAY_G>."
 
-	para "Your #MON have"
-	line "responded to your"
+	para "Deine #MON"
+	line "haben deine starke"
 
-	para "strong and up-"
-	line "standing nature."
+	para "und aufrechte"
+	line "Persönlichkeit"
+	cont "akzeptiert."
 
-	para "As a trainer, you"
-	line "will continue to"
+	para "Auch du wirst"
+	line "zusammen mit"
 
-	para "grow strong with"
-	line "your #MON."
+	para "deinen #MON"
+	line "stärker werden."
 	done
 
 LancesRoomMaryOhNoOakText:
-	text "MARGIT: Oh, no!"
-	line "It's all over!"
+	text "MARGIT: Oh, nein!"
+	line "Alles ist vorbei!"
 
-	para "PROF EICH, if you"
-	line "weren't so slow…"
+	para "PROF. EICH, wenn"
+	line "du nicht so lang-"
+	cont "sam wärest…"
 	done
 
 LancesRoomOakCongratulationsText:
@@ -516,18 +518,19 @@ LancesRoomRematchMaryInterviewText:
 	done
 
 LancesRoomNoisyText:
-	text "SIEGFRIED: This is"
-	line "getting to be a"
-	cont "bit too noisy…"
+	text "SIEGFRIED: Das"
+	line "wird mir alles"
+	cont "ein wenig zu laut…"
 
-	para "<PLAY_G>, could you"
-	line "come with me?"
+	para "<PLAY_G>, kommst"
+	line "du mit mir?"
 	done
 
 LancesRoomMaryNoInterviewText:
-	text "MARGIT: Oh, wait!"
-	line "We haven't done"
-	cont "the interview!"
+	text "MARGIT: Moment!"
+	line "Wir haben das"
+	cont "Interview fast"
+	cont "vergessen!"
 	done
 
 LancesRoomRematchMaryNoInterviewText:
