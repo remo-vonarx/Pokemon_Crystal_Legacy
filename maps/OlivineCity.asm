@@ -174,7 +174,7 @@ OlivineCityRivalText:
 	cont "ich mich nicht ab."
 
 	para "Apropos Verlierer:"
-	line "die ARENALEITERIN"
+	line "Die ARENALEITERIN"
 
 	para "dieser Stadt soll"
 	line "laut einigen"

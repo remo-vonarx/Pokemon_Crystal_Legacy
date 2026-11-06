@@ -704,7 +704,7 @@ RadioTower5FRocketBossDisbandText5:
 	cont "nach allem."
 
 	para "Erwartest Du, daß"
-	line "ich einfach gehe,"
+	line "ich einfach gehe"
 
 	para "und unsere Sache"
 	line "aufgebe?"
