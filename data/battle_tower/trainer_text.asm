@@ -1,5 +1,5 @@
 _BTGreetingM1Text:
-	text "Hallo, schön dich"
+	text "Hallo, schön Dich"
 	line "zu treffen!"
 
 	para "Ich hoffe, unser"
@@ -35,7 +35,7 @@ _BTWinM2Text:
 	done
 
 _BTGreetingM3Text:
-	text "Mach dich bereit"
+	text "Mach Dich bereit"
 	line "für meinen"
 	cont "Rundumschlag!"
 	done
@@ -53,7 +53,7 @@ _BTWinM3Text:
 	done
 
 _BTGreetingM4Text:
-	text "He, deine #MON"
+	text "He, Deine #MON"
 	line "sehen cool aus."
 	done
 
@@ -64,7 +64,7 @@ _BTLossM4Text:
 	done
 
 _BTWinM4Text:
-	text "Bist du sicher?"
+	text "Bist Du sicher?"
 	line "Wie brutal!"
 	done
 
@@ -75,13 +75,13 @@ _BTGreetingM5Text:
 
 _BTLossM5Text:
 	text "Ich bin ganz oben"
-	line "und du nicht!"
+	line "und Du nicht!"
 	done
 
 _BTWinM5Text:
 	text "Mir doch egal! Ich"
 	line "habe verloren, was"
-	cont "du nicht sagst!"
+	cont "Du nicht sagst!"
 	done
 
 _BTGreetingM6Text:
@@ -90,19 +90,19 @@ _BTGreetingM6Text:
 	done
 
 _BTLossM6Text:
-	text "Ups, sorry, dass"
-	line "ich dich"
+	text "Ups, sorry, daß"
+	line "ich Dich"
 	cont "vernichtet habe!"
 	done
 
 _BTWinM6Text:
 	text "Ups! Komm schon,"
-	line "lass mich doch"
+	line "laß mich doch"
 	cont "ein Mal gewinnen!"
 	done
 
 _BTGreetingM7Text:
-	text "Möchtest du mein"
+	text "Möchtest Du mein"
 	line "Kampfgeschick"
 	cont "kennenlernen?"
 	done
@@ -110,7 +110,7 @@ _BTGreetingM7Text:
 _BTLossM7Text:
 	text "Hehehe, ich weiß"
 	line "jetzt, wie"
-	cont "geschickt du bist!"
+	cont "geschickt Du bist!"
 	done
 
 _BTWinM7Text:
@@ -120,12 +120,12 @@ _BTWinM7Text:
 
 _BTGreetingM8Text:
 	text "Auf in den Kampf!"
-	line "Ich bin dein"
+	line "Ich bin Dein"
 	cont "Gegner."
 	done
 
 _BTLossM8Text:
-	text "Wow, du nimmst die"
+	text "Wow, Du nimmst die"
 	line "Sache nicht ernst!"
 	done
 
@@ -135,10 +135,10 @@ _BTWinM8Text:
 	done
 
 _BTGreetingM9Text:
-	text "Ich bin dein"
+	text "Ich bin Dein"
 	line "Gegner."
 
-	para "Jetzt wirst du"
+	para "Jetzt wirst Du"
 	line "vernichtet."
 	done
 
@@ -148,14 +148,14 @@ _BTLossM9Text:
 	done
 
 _BTWinM9Text:
-	text "Unmöglich! Da muss"
+	text "Unmöglich! Da muß"
 	line "ein Fehler"
 	cont "vorliegen!"
 	done
 
 _BTGreetingM10Text:
 	text "Hah!"
-	line "Lass uns kämpfen!"
+	line "Laß uns kämpfen!"
 	done
 
 _BTLossM10Text:
@@ -166,7 +166,7 @@ _BTLossM10Text:
 
 _BTWinM10Text:
 	text "Ich bin kein"
-	line "Gegner für dich!"
+	line "Gegner für Dich!"
 	done
 
 _BTGreetingM11Text:
@@ -188,12 +188,12 @@ _BTGreetingM12Text:
 	text "Du willst also"
 	line "eine PKMN-ARENA"
 
-	para "leiten? Dann lass"
+	para "leiten? Dann laß"
 	line "uns kämpfen!"
 	done
 
 _BTLossM12Text:
-	text "Du musst noch"
+	text "Du mußt noch"
 	line "weitere 10 Jahre"
 
 	para "trainieren, um"
@@ -210,11 +210,11 @@ _BTWinM12Text:
 
 _BTGreetingM13Text:
 	text "Heute mache ich"
-	line "dich platt."
+	line "Dich platt."
 	done
 
 _BTLossM13Text:
-	text "Ich wusste, ich"
+	text "Ich wußte, ich"
 	line "würde gewinnen!"
 	cont "Ich bin großartig!"
 	done
@@ -225,7 +225,7 @@ _BTWinM13Text:
 	done
 
 _BTGreetingM14Text:
-	text "Ich wette, du"
+	text "Ich wette, Du"
 	line "kannst mich"
 	cont "nicht besiegen!"
 	done
@@ -236,12 +236,12 @@ _BTLossM14Text:
 	done
 
 _BTWinM14Text:
-	text "Ich will deine"
+	text "Ich will Deine"
 	line "#MON. Bitte?"
 	done
 
 _BTGreetingM15Text:
-	text "Ich zeige dir"
+	text "Ich zeige Dir"
 	line "den wahren"
 	cont "Kampf!"
 	done
@@ -283,20 +283,20 @@ _BTLossM17Text:
 	text "Du hast noch einen"
 	line "langen Weg vor"
 
-	para "dir. Nun, mach"
+	para "Dir. Nun, mach"
 	line "weiter so! Viel"
 	cont "Glück!"
 	done
 
 _BTWinM17Text:
 	text "Arg… Verliere"
-	line "nicht, nachdem du"
+	line "nicht, nachdem Du"
 	cont "mich besiegt hast."
 	done
 
 _BTGreetingM18Text:
-	text "Wer bist du?"
-	line "Ich kenne dich"
+	text "Wer bist Du?"
+	line "Ich kenne Dich"
 	cont "nicht…"
 	done
 
@@ -314,7 +314,7 @@ _BTWinM18Text:
 	done
 
 _BTGreetingM19Text:
-	text "Ähm…Bist du diese…"
+	text "Ähm…Bist Du diese…"
 	line "Äh… Person?"
 	done
 
@@ -324,13 +324,13 @@ _BTLossM19Text:
 	done
 
 _BTWinM19Text:
-	text "Dann bist du wirk-"
+	text "Dann bist Du wirk-"
 	line "lich legendär…"
 	done
 
 _BTGreetingM20Text:
-	text "Ich hörte, dass"
-	line "du stark bist!"
+	text "Ich hörte, daß"
+	line "Du stark bist!"
 	done
 
 _BTLossM20Text:
@@ -342,7 +342,7 @@ _BTLossM20Text:
 
 _BTWinM20Text:
 	text "Eh, so besonders"
-	line "bist du nicht."
+	line "bist Du nicht."
 	done
 
 _BTGreetingM21Text:
@@ -354,7 +354,7 @@ _BTGreetingM21Text:
 	done
 
 _BTLossM21Text:
-	text "Siehst du? Meine"
+	text "Siehst Du? Meine"
 	line "#MON waren"
 	cont "zu stark."
 	done
@@ -366,13 +366,13 @@ _BTWinM21Text:
 	done
 
 _BTGreetingM22Text:
-	text "Heh, du da!"
+	text "Heh, Du da!"
 	line "Ich nehme es mit"
-	cont "dir auf!"
+	cont "Dir auf!"
 	done
 
 _BTLossM22Text:
-	text "Hast du keine"
+	text "Hast Du keine"
 	line "bessere Strategie?"
 	done
 
@@ -407,7 +407,7 @@ _BTGreetingM24Text:
 	done
 
 _BTLossM24Text:
-	text "Wooar! Ich wusste,"
+	text "Wooar! Ich wußte,"
 	line "ich bin genial!"
 	done
 
@@ -468,12 +468,12 @@ _BTGreetingF3Text:
 	done
 
 _BTLossF3Text:
-	text "War ich dir zu"
+	text "War ich Dir zu"
 	line "stark?"
 	done
 
 _BTWinF3Text:
-	text "Oh, du spielst in"
+	text "Oh, Du spielst in"
 	line "einer anderen"
 	cont "Liga."
 	done
@@ -484,41 +484,41 @@ _BTGreetingF4Text:
 	done
 
 _BTLossF4Text:
-	text "Oh, du bist zu"
+	text "Oh, Du bist zu"
 	line "schwach. Streue"
-	cont "Asche über dein"
+	cont "Asche über Dein"
 	cont "Haupt."
 	done
 
 _BTWinF4Text:
-	text "Wow! Bist du nun"
+	text "Wow! Bist Du nun"
 	line "zufrieden?!"
 	done
 
 _BTGreetingF5Text:
-	text "Oh, du hast einige"
+	text "Oh, Du hast einige"
 	line "seltene #MON."
 	done
 
 _BTLossF5Text:
 	text "Darf ich eines"
-	line "deiner #MON"
+	line "Deiner #MON"
 	cont "haben?"
 	done
 
 _BTWinF5Text:
 	text "…Ich möchte eines"
-	line "deiner #MON."
+	line "Deiner #MON."
 	done
 
 _BTGreetingF6Text:
-	text "Möchtest du etwas"
+	text "Möchtest Du etwas"
 	line "von meinen süßen"
 	cont "#MON wissen?"
 	done
 
 _BTLossF6Text:
-	text "Was hältst du"
+	text "Was hältst Du"
 	line "von meinen"
 	cont "Schätzchen?"
 	done
@@ -530,7 +530,7 @@ _BTWinF6Text:
 	done
 
 _BTGreetingF7Text:
-	text "Kämpfen? Gewiss!"
+	text "Kämpfen? Gewiß!"
 	line "Sofort!"
 	done
 
@@ -546,7 +546,7 @@ _BTWinF7Text:
 	done
 
 _BTGreetingF8Text:
-	text "Bitte lass mich"
+	text "Bitte laß mich"
 	line "gewinnen! Bitte?"
 	done
 
@@ -568,7 +568,7 @@ _BTGreetingF9Text:
 
 _BTLossF9Text:
 	text "Nun, was hast"
-	line "du gesagt…"
+	line "Du gesagt…"
 	done
 
 _BTWinF9Text:
@@ -594,7 +594,7 @@ _BTWinF10Text:
 	done
 
 _BTGreetingF11Text:
-	text "Behandelst du die"
+	text "Behandelst Du die"
 	line "Angelegenheit"
 	cont "ernsthaft?"
 	done
@@ -626,7 +626,7 @@ _BTLossF12Text:
 _BTWinF12Text:
 	text "Oh, oh, ich habe"
 	line "verloren! Danke."
-	cont "Tschüss!"
+	cont "Tschüß!"
 	done
 
 _BTGreetingF13Text:
@@ -641,12 +641,12 @@ _BTLossF13Text:
 	done
 
 _BTWinF13Text:
-	text "Oh, du könntest"
+	text "Oh, Du könntest"
 	line "einen Lauf haben!"
 	done
 
 _BTGreetingF14Text:
-	text "Ich möchte dich in"
+	text "Ich möchte Dich in"
 	line "Aktion sehen!"
 	done
 
@@ -656,7 +656,7 @@ _BTLossF14Text:
 	done
 
 _BTWinF14Text:
-	text "Oh… Willst du"
+	text "Oh… Willst Du"
 	line "etwas tauschen?"
 	done
 
@@ -666,7 +666,7 @@ _BTGreetingF15Text:
 	done
 
 _BTLossF15Text:
-	text "Ha, ich habe dich"
+	text "Ha, ich habe Dich"
 	line "platt gemacht!"
 	done
 
