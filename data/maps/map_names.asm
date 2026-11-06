@@ -627,7 +627,7 @@ Dungeons_Map_Name13: ; map_const BURNED_TOWER_1F, ; 13
 Dungeons_Map_Name14: ; map_const BURNED_TOWER_B1F, ; 14
 	db "TURMRUINE U1S@"
 Dungeons_Map_Name15: ; map_const NATIONAL_PARK, ; 15
-	db "NATIONAL PARK@"
+	db "NATIONALPARK@"
 Dungeons_Map_Name16: ; map_const NATIONAL_PARK_BUG_CONTEST,; 16
 	db "KÄFERTURNIER@"
 Dungeons_Map_Name17: ; map_const RADIO_TOWER_1F ; 17

@@ -245,7 +245,7 @@ SavedTheGame:
 	jp WaitSFX
 
 .saving_text
-	text "SAVING…"
+	text "SPEICHERN…"
 	done
 
 SaveGameData:
