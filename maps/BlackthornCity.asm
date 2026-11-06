@@ -222,10 +222,10 @@ BlackBeltText_VoicesInMyHead:
 	done
 
 BlackthornCooltrainerF1Text:
-	text "Are you going to"
-	line "make your #MON"
-	cont "remember some"
-	cont "moves?"
+	text "Willst Du, daß"
+	line "sich Deine #MON"
+	cont "an einige Atta-"
+	cont "cken erinnern?"
 	done
 
 BlackthornYoungsterText:
@@ -306,8 +306,8 @@ BlackthornGymSignText:
 	done
 
 MoveDeletersHouseSignText:
-	text "MOVE BROS'"
-	line "HOUSE"
+	text "HAUS DER"
+	line "ATTACKEN-BRÜDER"
 	done
 
 DragonDensSignText:

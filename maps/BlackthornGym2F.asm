@@ -79,14 +79,15 @@ TrainerCooltrainerfFran:
 	end
 
 CooltrainermCodySeenText:
-	text "I just got access"
-	line "to use DRAGON-"
-	cont "type #MON!"
+	text "Ich darf jetzt"
+	line "endlich DRACHEN-"
+	cont "#MON einsetzen!"
 	done
 
 CooltrainermCodyBeatenText:
-	text "Rats! If only I"
-	line "had a DRAGORAN!"
+	text "Mist! Wenn ich"
+	line "doch nur ein"
+	cont "DRAGORAN hätte!"
 	done
 
 CooltrainermCodyAfterBattleText:

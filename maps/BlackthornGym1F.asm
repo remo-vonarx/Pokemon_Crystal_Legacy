@@ -260,8 +260,8 @@ BlackthornGymClairText_YouKeptMeWaiting:
 	done
 
 BlackthornGymText_ReceivedTM24:
-	text "<PLAYER> received"
-	line "TM24 DRAGONBREATH."
+	text "<PLAYER> erhält"
+	line "TM24 FEUERODEM."
 	done
 
 BlackthornGymClairText_DescribeTM24:
@@ -315,35 +315,38 @@ BlackthornGymClairText_League:
 	done
 
 ClairRematchText:
-	text "You did it, huh?"
+	text "Du hast es also"
+	line "geschafft?"
 
-	para "You are now the"
-	line "JOHTO CHAMP."
+	para "Du bist jetzt"
+	line "JOHTO-CHAMP."
 
-	para "You've proven"
-	line "your strength"
+	para "Du hast Deine"
+	line "Stärke bewiesen,"
 
-	para "but can you"
-	line "handle me again?"
+	para "aber kannst Du es"
+	line "noch einmal mit"
+	cont "mir aufnehmen?"
 
-	para "As a Dragon"
-	line "Master, I won't"
-	cont "hold back."
+	para "Als Drachen-"
+	line "meisterin halte"
+	cont "ich mich nicht"
+	cont "zurück."
 
-	para "Not this time."
+	para "Diesmal nicht."
 
-	para "Want to have a"
-	line "rematch with me?"
+	para "Willst Du eine"
+	line "Revanche?"
 	done
 
 Clair_RematchDefeatText:
-	text "I lost?"
+	text "Ich habe verloren?"
 
-	para "Again?"
+	para "Schon wieder?"
 
-	para "I don't believe"
-	line "it. There must be"
-	cont "some mistake…"
+	para "Ich kann es nicht"
+	line "glauben. Das muß"
+	cont "ein Irrtum sein…"
 	done
 
 CooltrainermPaulSeenText:
@@ -413,41 +416,39 @@ CooltrainerfLolaAfterBattleText:
 	done
 
 BlackthornGymGuideText:
-	text "Yo! CHAMP in"
-	line "making!"
+	text "Yo! CHAMP in spe!"
 
-	para "It's been a long"
-	line "journey, but we"
+	para "Es war eine lange"
+	line "Reise, aber bald"
 
-	para "are almost done!"
-	line "Count on me!"
-	
-	para "While SANDRA looks"
-	line "up to the Dragon"
-	cont "Master, SIEGFRIED,"
-	
-	para "she's managed to"
-	line "create her own"
-	cont "identity with a"
+	para "sind wir da! Zähle"
+	line "auf mich!"
 
-	para "team consisting"
-	line "of dragons from"
-	cont "the sea."
+	para "SANDRA eifert dem"
+	line "Drachenmeister"
+	cont "SIEGFRIED nach,"
 
-	para "Dragons are"
-	line "supposed to be"
+	para "hat aber mit ihrem"
+	line "Team aus Drachen"
+	cont "des Meeres"
 
-	para "weak against"
-	line "ICE-type moves,"
-	
-	para "but you'll need"
-	line "some DRAGON-type"
-	
-	para "moves of your own"
-	line "if you want to"
-	cont "win."
-	
-	para "You got this!"
+	para "ihren eigenen Weg"
+	line "gefunden."
+
+	para "Angeblich sind"
+	line "Drachen anfällig"
+
+	para "gegen Eis-"
+	line "Attacken,"
+
+	para "aber Du brauchst"
+	line "auch eigene"
+
+	para "Drachen-Attacken,"
+	line "wenn Du gewinnen"
+	cont "willst."
+
+	para "Du schaffst das!"
 	done
 
 BlackthornGymGuideWinText:
