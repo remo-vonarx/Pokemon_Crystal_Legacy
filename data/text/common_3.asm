@@ -491,67 +491,67 @@ _EvolvingText::
 	done
 
 _EggMoveReminderIntro::
-    text "Hiya, I'm the"
-    line "EGG-MOVE TUTOR!"
+	text "Hallo! Ich bin der"
+	line "EI-ATTACKEN-LEHRER"
 
-    para "I can teach your"
-    line "#MON moves they"
+	para "und kann Deinen"
+	line "#MON Attacken"
 
-    para "can normally only"
-    line "learn as an EGG."
+	para "beibringen, die"
+	line "sie sonst nur"
+	cont "als EI lernen."
 
-	para "Are you"
-    line "interested?"
-    done
+	para "Interessiert?"
+	done
 
 _MoveReminderIntro::
-    text "Hiya, I'm the"
-    line "MOVE REMINDER!"
+	text "Hallo! Ich bin der"
+	line "ATTACKEN-ERINNERER"
 
-    para "I can make #MON"
-    line "rememember moves"
+	para "und bringe #MON"
+	line "Attacken wieder"
+	cont "bei, die sie beim"
+	cont "Wachsen gelernt"
+	cont "haben."
 
-    para "that they learned"
-    line "while growing up."
-
-	para "Shall I make a"
-	line "#MON remember?"
-    done
+	para "Soll sich ein"
+	line "#MON erinnern?"
+	done
 
 _MoveReminderWhichMon::
-    text "Which #MON"
-    next "would you like"
-
-    para "to make remember"
-    line "a move?"
-    done
+	text "Welches #MON"
+	line "soll sich an eine"
+	cont "Attacke erinnern?"
+	done
 
 _MoveReminderWhichMove::
-    text "Which move should"
-    line "it learn?"
-    done
+	text "Welche Attacke"
+	line "soll es lernen?"
+	done
 
 _MoveReminderCancel::
-    text "Come back anytime."
-    done
+	text "Komm jederzeit"
+	line "wieder."
+	done
 
 _MoveReminderEgg::
-    text "Hey! What am I"
-    line "supposed to teach"
-    cont "an EGG?"
-    done
+	text "Hey! Was soll ich"
+	line "denn einem EI"
+	cont "beibringen?"
+	done
 
 _MoveReminderNoMon::
-    text "You don't have a"
-    line "#MON that can"
-    cont "remember a move."
-    done
+	text "Keines Deiner"
+	line "#MON kann sich"
+	cont "an eine Attacke"
+	cont "erinnern."
+	done
 
 _MoveReminderNoMoves::
-    text "There are no moves"
-    line "for this #MON"
-    cont "to learn."
-    done
+	text "Dieses #MON"
+	line "kann keine"
+	cont "Attacken lernen."
+	done
 
 
 _MartHowManyText::
@@ -572,16 +572,17 @@ _MartFinalPriceText::
 	done
 
 _HerbShopLadyIntroText::
-	text "Hello, dear."
+	text "Hallo,"
 
-	para "I sell rare and"
-	line "valuable stones."
+	para "ich verkaufe"
+	line "seltene, wertvolle"
+	cont "Steine."
 
-	para "They've been known"
-	line "to make #MON"
-	cont "change forms."
+	para "Sie sollen die"
+	line "Form von #MON"
+	cont "verändern können."
 
-	para "Hehehehe…"
+	para "Hihihihi…"
 	done
 
 _HerbalLadyHowManyText::
@@ -997,8 +998,9 @@ _SpaceSpaceColonText:: ; unreferenced
 	done
 
 _PasswordAskResetText::
-	text "Select CONTINUE &"
-	line "reset settings."
+	text "Wähle Fortfahren"
+	line "& verwirf die"
+	cont "Einstellungen."
 	prompt
 
 _PasswordAskResetClockText::
