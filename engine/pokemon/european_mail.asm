@@ -54,7 +54,7 @@ ConvertFrenchGermanMailToEnglish:
 .check_intermediate_chars
 	sub "'s"
 	jr c, .dont_replace
-	cp "'v" - "'s" + 1
+	cp $d6 - "'s" + 1 ; was the English 'v tile
 	jr nc, .dont_replace
 	add $cd
 
@@ -83,7 +83,7 @@ ConvertEnglishMailToFrenchGerman:
 .check_intermediate_chars
 	sub $cd
 	jr c, .dont_replace
-	cp "'v" - "'s" + 1
+	cp $d6 - "'s" + 1 ; was the English 'v tile
 	jr nc, .dont_replace
 	add "'s"
 

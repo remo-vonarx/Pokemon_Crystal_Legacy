@@ -305,10 +305,16 @@ ROMX $77
 ROMX $78
 	"Debug Room"
 	"Tileset Data 8"
+ROMX $79
+	"Map Scripts 26"
+ROMX $7a
+	"Map Scripts 27"
 ROMX $7b
 	"Battle Tower Text"
+	"Map Scripts 29"
 ROMX $7c
 	"Battle Tower Trainer Data"
+	"Map Scripts 28"
 ROMX $7d
 	"Mobile News Data"
 ROMX $7e

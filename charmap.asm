@@ -138,13 +138,11 @@
 	charmap "′",         $ce
 	charmap "″",         $cf
 
-	charmap "'d",        $d0
-	charmap "'l",        $d1
-	charmap "'m",        $d2
-	charmap "'r",        $d3
+	charmap "ä",         $d0 ; was "'d"
+	charmap "ö",         $d1 ; was "'l"
+	charmap "ü",         $d2 ; was "'m"
+	charmap "ß",         $d3 ; was "'r"
 	charmap "'s",        $d4
-	charmap "'t",        $d5
-	charmap "'v",        $d6
 
 	charmap "■",         $d7
 	charmap "▲",         $d8
