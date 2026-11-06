@@ -647,10 +647,10 @@ RuinsOfAlphResearchCenterUnownPrinterText:
 	done
 
 RuinsOfAlphResearchCenterProfSilktreePhotoText:
-	text "It's a photo of"
-	line "the RESEARCH"
+	text "Das Foto zeigt den"
+	line "Gründer des"
 
-	para "CENTER'S founder,"
+	para "FORSCHUNGSZENTRUMS"
 	line "PROF SILKTREE."
 	done
 
