@@ -61,7 +61,7 @@ DisplayDexMonEvos:
 	call GetFarByte ; if zero, no evos
 	and a
 	jr nz, .does_evo
-	hlcoord 3, 6
+	hlcoord 2, 6
 	ld de, .doesnt_evo_text
 	call PlaceString
 	hlcoord 5, 2
