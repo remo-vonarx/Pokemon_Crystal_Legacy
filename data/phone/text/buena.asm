@@ -499,8 +499,8 @@ BuenaPhoneFavoriteSlotMachineAnswerText:
 	cont "lange nicht dort."
 
 if DEF(_CRYSTAL_AU)
-	para "Some machines pays"
-	line "out a lot."
+	para "Manche Automaten"
+	line "zahlen viel aus."
 else
 	para "Weißt Du, ich"
 	line "habe meinen Lieb-"
