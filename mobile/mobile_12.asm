@@ -539,7 +539,7 @@ Mobile12_Bin2Dec:
 	db "8@"
 	db "9@"
 
-MobileProfileString:         db "  Mobile Profile@"
+MobileProfileString:         db "  Mobil-Profil@"
 MobileString_Gender:         db "Geschlecht@"
 MobileString_Age:            db "Alter@"
 MobileString_Address:        db "Wohnort@"
