@@ -228,7 +228,7 @@ PlaceMapNameFrame:
 
 .FillMiddle:
 	ld c, SCREEN_WIDTH - 2
-	ld a, MAP_NAME_SIGN_START + 13
+	ld a, " " ; the sign's own blank tile holds "Ä" now
 .loop
 	ld [hli], a
 	dec c
