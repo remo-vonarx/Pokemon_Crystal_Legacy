@@ -94,48 +94,51 @@ SeafoamGymGuideScript:
 	end
 
 BlaineIntroText:
-	text "PYRO: Waaah!"
+	text "PYRO: Wuah!"
 
-	para "My GYM in ZINNOBER"
-	line "burned down."
-	
-	para "But I'm back in"
-	line "business as a GYM"
+	para "Meine PKMN-ARENA"
+	line "auf der ZINNOBER-"
+	cont "INSEL ist abge-"
+	cont "brannt."
 
-	para "LEADER here in"
-	line "this cave."
+	para "Aber ich führe"
+	line "meine Tätigkeit"
 
-	para "It's fine though,"
-	line "I have faced"
+	para "als ARENALEITER in"
+	line "dieser Höhle"
+	cont "weiter aus."
 
-	para "hardship like"
-	line "this before."
+	para "Das macht nichts,"
+	line "ich habe schon"
 
-	para "Long ago I was"
-	line "lost in the"
-	
-	para "mountains until"
-	line "a fiery bird"
-	
-	para "#MON appeared"
-	line "to lead me down."
-	
-	para "All these years"
-	line "later and now"
-	
-	para "ROT has entrusted"
-	line "me to look over"
+	para "Schlimmeres"
+	line "durchgemacht."
 
-	para "that same"
-	line "legendary bird,"
+	para "Vor langer Zeit"
+	line "verirrte ich mich"
+
+	para "in den Bergen, bis"
+	line "ein feuriges"
+
+	para "Vogel-#MON auf-"
+	line "tauchte und mich"
+	cont "hinabführte."
+
+	para "All die Jahre"
+	line "später hat ROT"
+
+	para "mir eben diesen"
+	line "legendären Vogel"
+	cont "anvertraut,"
 
 	para "LAVADOS."
-	
-	para "Ha! You'd better"
-	line "have BURN HEAL,"
-	
-	para "It's even hotter"
-	line "than your mom!"
+
+	para "Ha! Hoffentlich"
+	line "hast Du"
+	cont "FEUERHEILER!"
+
+	para "Er ist heißer als"
+	line "Deine Mutter!"
 	done
 
 BlaineWinLossText:
@@ -182,30 +185,31 @@ BlaineFightDoneText:
 BlaineRematchText:
 	text "PYRO: Whoa!"
 
-	para "I see you've"
-	line "become the"
-	cont "KANTO CHAMPION!"
+	para "Du bist also"
+	line "KANTO-CHAMP"
+	cont "geworden!"
 
-	para "That's blazing!"
+	para "Das ist heiß!"
 
-	para "Your skills are"
-	line "top-notch."
+	para "Dein Können ist"
+	line "erstklassig."
 
-	para "I'm always"
-	line "up for a battle."
+	para "Für einen Kampf"
+	line "bin ich immer zu"
+	cont "haben."
 
-	para "Want to have a"
-	line "rematch with me?"
+	para "Willst Du eine"
+	line "Revanche?"
 	done
 
 Blaine_RematchDefeatText:
-	text "PYRO: Your"
-	line "skills are truly"
-	cont "fiery!"
+	text "PYRO: Dein Können"
+	line "ist wirklich"
+	cont "feurig!"
 
-	para "You've burned"
-	line "right through"
-	cont "my defenses."
+	para "Du hast meine"
+	line "Verteidigung"
+	cont "verbrannt."
 	done
 
 SeafoamGymGuideWinText:
