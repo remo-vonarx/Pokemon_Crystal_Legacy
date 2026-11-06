@@ -179,27 +179,30 @@ BrockFightDoneText:
 	done
 
 BrockRematchText:
-	text "ROCKO: Hey there,"
+	text "ROCKO: Hallo,"
 	line "<PLAYER>!"
 
-	para "I heard you are"
-	line "now the KANTO"
-	cont "CHAMPION."
+	para "Ich habe gehört,"
+	line "Du bist jetzt"
+	cont "KANTO-CHAMP."
 
-	para "That's incredible!"
+	para "Das ist unglaub-"
+	line "lich!"
 
-	para "You must be even"
-	line "stronger now."
+	para "Du mußt noch"
+	line "stärker geworden"
+	cont "sein."
 
-	para "Want to have a"
-	line "rematch with me?"
+	para "Willst Du eine"
+	line "Revanche?"
 	done
 
 Brock_RematchDefeatText:
-	text "ROCKO: Your #-"
-	line "#MON once again"
-	cont "overcame my rock-"
-	cont "hard defense…"
+	text "ROCKO: Deine"
+	line "#MON haben"
+	cont "meine felsenfeste"
+	cont "Verteidigung"
+	cont "erneut überwunden…"
 	done
 
 CamperJerrySeenText:
