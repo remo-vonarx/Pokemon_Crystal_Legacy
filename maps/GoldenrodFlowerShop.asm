@@ -153,11 +153,11 @@ GoldenrodFlowerShopTeacherHeresTheSquirtbottleText:
 	done
 
 GoldenrodFlowerShopTeacherHeresTheGoldBerryText:
-	text "Oh, you"
-	line "found FLORA…"
+	text "Oh, Du hast FLORA"
+	line "gefunden…"
 
-	para "Here's a GOLD"
-	line "BERRY as thanks!"
+	para "Hier, eine GOLD-"
+	line "BEERE zum Dank!"
 	done
 
 GoldenrodFlowerShopTeacherDontDoAnythingDangerousText:

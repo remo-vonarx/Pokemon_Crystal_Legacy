@@ -54,35 +54,32 @@ GoldenrodDeptStore4FBugCatcherText:
 	done
 
 GoldenrodDeptStore4FGameboyKidText:
-	text "There were"
-	line "rumours that"
+	text "Es gab Gerüchte,"
+	line "manche #MON"
 
-	para "some #MON"
-	line "evolve only by"
+	para "entwickeln sich"
+	line "nur durch Tausch."
 
-	para "being traded via a"
-	line "Game Link cable."
+	para "Pah…"
 
-	para "Pfft..."
+	para "So ein Unsinn."
 
-	para "Such"
-	line "misinformation."
-
-	para "I know some"
-	line "of the rumoured"
-	cont "#MON:"
+	para "Ich kenne einige"
+	line "dieser #MON:"
 
 	para "MASCHOCK, KADABRA,"
-	line "ALPOLLO and, um,"
+	line "ALPOLLO und, äh,"
 	cont "GEOROK,"
 
-	para "but they all"
-	line "evolve through"
-	cont "level up."
+	para "aber die ent-"
+	line "wickeln sich alle"
+	cont "durch Level-"
+	cont "aufstieg."
 
-	para "Your #DEX shows"
-	line "how #MON really"
-	cont "evolve!"
+	para "Dein #DEX"
+	line "zeigt, wie sich"
+	cont "#MON wirklich"
+	cont "entwickeln!"
 	done
 
 GoldenrodDeptStore4FDirectoryText:

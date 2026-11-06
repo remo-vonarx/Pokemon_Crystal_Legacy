@@ -295,25 +295,24 @@ WhitneyAttractText:
 	done
 
 WhitneyGoodCryText:
-	text "Ah, that was a"
-	line "good cry!"
+	text "Ah, die Flennerei"
+	line "hat gut getan!"
 	done
 
 WhitneyRematchText:
-	text "Hi! It's you!"
+	text "Hi! Du bist es!"
 
-    para "Wow, JOHTO"
-    line "CHAMPION now?"
+	para "Wow, jetzt"
+	line "JOHTO-CHAMP?"
 
-    para "You really are"
-    line "amazing!"
+	para "Du bist wirklich"
+	line "toll!"
 
-    para "I want to see"
-    line "how strong you"
-    cont "are."
+	para "Ich will sehen,"
+	line "wie stark Du bist."
 
-	para "Want to have a"
-	line "rematch with me?"
+	para "Willst Du eine"
+	line "Revanche?"
 	done
 
 Whitney_RematchDefeatText:
@@ -430,27 +429,28 @@ BeautySamanthaAfterBattleText:
 	done
 
 GoldenrodGymGuideText:
-	text "Yo! CHAMP in"
-	line "making!"
+	text "Yo! CHAMP in spe!"
 
-	para "This GYM is home"
-	line "to BIANKA, the"
-	cont "master of NORMAL-"
-	cont "type #MON."
+	para "Dies ist die PKMN-"
+	line "ARENA von BIANKA,"
 
-	para "Be cautious of"
-	line "her cute team."
+	para "der Meisterin der"
+	line "NORMAL-#MON."
 
-	para "That little teddy"
-	line "bear of hers might"
-	cont "be adorable,"
-	
-	para "but I've seen it"
-	line "shatter rocks."
-	
-	para "Check ROUTE 34"
-	line "if you need a"
-	cont "FIGHTING-type."
+	para "Sei vorsichtig mit"
+	line "ihrem süßen Team."
+
+	para "Ihr kleiner Teddy"
+	line "mag niedlich sein,"
+
+	para "aber ich habe"
+	line "gesehen, wie er"
+	cont "Felsen zerschlug."
+
+	para "Schau auf ROUTE 34"
+	line "vorbei, wenn Du"
+	cont "ein KAMPF-#MON"
+	cont "brauchst."
 	done
 
 GoldenrodGymGuideWinText:

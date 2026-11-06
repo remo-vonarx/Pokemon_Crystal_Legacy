@@ -370,9 +370,9 @@ GoldenrodGameCornerPrizeVendorNoCoinCaseText:
 
 GoldenrodGameCornerPharmacistText:
 if DEF(_CRYSTAL_AU)
-	text "This machine looks"
-	line "the same as the"
-	cont "others."
+	text "Dieser Automat"
+	line "sieht genauso aus"
+	cont "wie die anderen."
 	done
 else
 	text "Ich spiele nur an"
@@ -387,10 +387,10 @@ endc
 
 GoldenrodGameCornerPokefanM1Text:
 if DEF(_CRYSTAL_AU)
-	text "These machines"
-	line "seem different"
+	text "Diese Automaten"
+	line "sehen anders aus"
 
-	para "from the ones at"
+	para "als die in"
 	line "PRISMANIA CITY!"
 	done
 else
@@ -407,8 +407,8 @@ endc
 
 GoldenrodGameCornerCooltrainerMText:
 if DEF(_CRYSTAL_AU)
-	text "Nothing is certain"
-	line "in this area."
+	text "Nichts ist sicher"
+	line "in dieser Gegend."
 	done
 else
 	text "Das Leben ist ein"
@@ -422,8 +422,8 @@ GoldenrodGameCornerPokefanFText:
 	text "Karten…"
 
 if DEF(_CRYSTAL_AU)
-	para "Different from the"
-	line "other machines."
+	para "Anders als die"
+	line "anderen Automaten."
 	done
 else
 	para "Ich ziehe sie den"
@@ -458,9 +458,9 @@ GoldenrodGameCornerGentlemanText:
 
 GoldenrodGameCornerPokefanM2Text:
 if DEF(_CRYSTAL_AU)
-	text "COIN CASE? I threw"
-	line "it away in the"
-	cont "UNDERGROUND."
+	text "MÜNZKORB? Den habe"
+	line "ich im UNTERGRUND"
+	cont "weggeworfen."
 	done
 else
 	text "Ich hatte an den"

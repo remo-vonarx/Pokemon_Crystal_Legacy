@@ -105,34 +105,35 @@ Text_DayCareManTalksAboutEggTicket: ; unreferenced
 	done
 
 DayCareManText_GiveOddEgg:
-	text "I'm the DAY-CARE"
-	line "MAN."
+	text "Ich bin der"
+	line "PENSIONSLEITER."
 
-	para "Do you know about"
-	line "EGGS?"
+	para "Kennst Du Dich"
+	line "mit EIERN aus?"
 
-	para "I was raising"
-	line "#MON with my"
-	cont "wife, you see."
+	para "Ich habe #MON"
+	line "mit meiner"
+	cont "Frau aufgezogen."
 
-	para "We were shocked to"
-	line "find an EGG!"
+	para "Wir waren ent-"
+	line "setzt, als wir ein"
+	cont "EI fanden!"
 
-	para "How incredible is"
-	line "that?"
+	para "Das ist doch"
+	line "unglaublich, oder?"
 
-	para "You know, your"
-	line "#DEX shows EGG"
-	cont "groups, and how"
-	
-	para "long they take to"
-	line "hatch!"
+	para "Dein #DEX zeigt"
+	line "übrigens die Ei-"
+	cont "Gruppen und wie"
 
-	para "Well, wouldn't you"
-	line "like this EGG?"
+	para "lange es bis zum"
+	line "Schlüpfen dauert!"
 
-	para "Then fine, this is"
-	line "yours to keep!"
+	para "Nun, möchtest Du"
+	line "das EI? Gut, nimm"
+
+	para "es, Du darfst es"
+	line "behalten!"
 	done
 
 DayCareText_ComeAgain: ; unreferenced

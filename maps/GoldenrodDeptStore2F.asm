@@ -59,13 +59,14 @@ GoldenrodDeptStore2FUnusedText2: ; unreferenced
 	done
 
 GoldenrodDeptStore2FYoungsterText:
-	text "#GEAR can store"
-	line "up to 25 phone"
-	cont "numbers."
+	text "Der #COM kann"
+	line "bis zu 25 Num-"
+	cont "mern speichern."
 
-	para "It's hard to de-"
-	line "cide which numbers"
-	cont "to keep."
+	para "Es ist schwer zu"
+	line "entscheiden, wel-"
+	cont "che Nummer man be-"
+	cont "halten soll."
 	done
 
 GoldenrodDeptStore2FCooltrainerFText:
