@@ -288,9 +288,9 @@ SetDefaultBoxNames:
 
 InitializeMagikarpHouse:
 	ld hl, wBestMagikarpLengthFeet
-	ld a, $3
+	ld a, HIGH(1053)
 	ld [hli], a
-	ld a, $6
+	ld a, LOW(1053)
 	ld [hli], a
 	ld de, .Ralph
 	call CopyName2
