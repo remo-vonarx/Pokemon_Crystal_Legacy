@@ -324,47 +324,48 @@ GoldenrodGameCornerCardFlipMachineScript:
 	end
 
 GoldenrodGameCornerPrizeVendorIntroText:
-	text "Welcome!"
+	text "Willkommen!"
 
-	para "We exchange your"
-	line "game coins for"
-	cont "fabulous prizes!"
+	para "Wir tauschen deine"
+	line "Spielmünzen gegen"
+	cont "tolle Preise!"
 	done
 
 GoldenrodGameCornerPrizeVendorWhichPrizeText:
-	text "Which prize would"
-	line "you like?"
+	text "Welchen Preis"
+	line "möchtest du?"
 	done
 
 GoldenrodGameCornerPrizeVendorConfirmPrizeText:
 	text_ram wStringBuffer3
 	text "."
-	line "Is that right?"
+	line "Ist das O.K.?"
 	done
 
 GoldenrodGameCornerPrizeVendorHereYouGoText:
-	text "Here you go!"
+	text "Hier, bitte!"
 	done
 
 GoldenrodGameCornerPrizeVendorNeedMoreCoinsText:
-	text "Sorry! You need"
-	line "more coins."
+	text "Tut mir Leid, aber"
+	line "du brauchst mehr"
+	cont "Münzen."
 	done
 
 GoldenrodGameCornerPrizeVendorNoMoreRoomText:
-	text "Sorry. You can't"
-	line "carry any more."
+	text "Du kannst nichts"
+	line "mehr tragen."
 	done
 
 GoldenrodGameCornerPrizeVendorQuitText:
-	text "OK. Please save"
-	line "your coins and"
-	cont "come again!"
+	text "Sammle ein paar"
+	line "Münzen und komm"
+	cont "dann wieder!"
 	done
 
 GoldenrodGameCornerPrizeVendorNoCoinCaseText:
-	text "Oh? You don't have"
-	line "a COIN CASE."
+	text "Oh? Du hast keinen"
+	line "MÜNZKORB."
 	done
 
 GoldenrodGameCornerPharmacistText:
@@ -374,11 +375,13 @@ if DEF(_CRYSTAL_AU)
 	cont "others."
 	done
 else
-	text "I always play this"
-	line "slot machine. It"
+	text "Ich spiele nur an"
+	line "diesem Automaten."
 
-	para "pays out more than"
-	line "others, I think."
+	para "Ich glaube, er"
+	line "spuckt mehr aus"
+
+	para "als die anderen."
 	done
 endc
 
@@ -391,12 +394,14 @@ if DEF(_CRYSTAL_AU)
 	line "PRISMANIA CITY!"
 	done
 else
-	text "I just love this"
-	line "new slot machine."
+	text "Ich liebe diesen"
+	line "neuen Automaten."
 
-	para "It's more of a"
-	line "challenge than the"
-	cont "ones in PRISMANIA."
+	para "Er stellt eine"
+	line "größere Herausfor-"
+	cont "derung dar als"
+	cont "jene in PRISMANIA"
+	cont "CITY."
 	done
 endc
 
@@ -406,45 +411,49 @@ if DEF(_CRYSTAL_AU)
 	line "in this area."
 	done
 else
-	text "Life is a gamble."
-	line "I'm going to flip"
-	cont "cards till I drop!"
+	text "Das Leben ist ein"
+	line "Spiel. Ich werde"
+	cont "Karten spielen,"
+	cont "bis ich umfalle!"
 	done
 endc
 
 GoldenrodGameCornerPokefanFText:
-	text "Card flip…"
+	text "Karten…"
 
 if DEF(_CRYSTAL_AU)
 	para "Different from the"
 	line "other machines."
 	done
 else
-	para "I prefer it over"
-	line "the slots because"
+	para "Ich ziehe sie den"
+	line "Automaten vor,"
 
-	para "it's easier to"
-	line "figure the odds."
+	para "weil man seine"
+	line "Chancen besser ab-"
+	cont "schätzen kann."
 
-	para "But the payout is"
-	line "much lower."
+	para "Aber der Gewinn"
+	line "ist viel geringer."
 	done
 endc
 
 GoldenrodGameCornerCooltrainerFText:
-	text "I won't quit until"
-	line "I win!"
+	text "Ich höre erst auf,"
+	line "wenn ich gewinne!"
 	done
 
 GoldenrodGameCornerGentlemanText:
-	text "I taught BLIZZARD"
-	line "to my #MON."
+	text "Ich habe meinen"
+	line "#MON BLIZZARD"
+	cont "beigebracht."
 
-	para "It was hard to get"
-	line "enough coins for"
+	para "Es hat zwar gedau-"
+	line "ert, bis ich genug"
 
-	para "it, but it was"
-	line "worth it."
+	para "Münzen hatte, aber"
+	line "es hat sich ge-"
+	cont "lohnt."
 	done
 
 GoldenrodGameCornerPokefanM2Text:
@@ -454,30 +463,35 @@ if DEF(_CRYSTAL_AU)
 	cont "UNDERGROUND."
 	done
 else
-	text "I couldn't win at"
-	line "the slots, and I"
+	text "Ich hatte an den"
+	line "Automaten kein"
 
-	para "blew it on card"
-	line "flipping…"
+	para "Glück. Bei den"
+	line "Karten sieht es"
 
-	para "I got so furious,"
-	line "I tossed out my"
+	para "auch nicht anders"
+	line "aus…"
 
-	para "COIN CASE in the"
-	line "UNDERGROUND."
+	para "Ich war so zornig,"
+	line "dass ich meinen"
+
+	para "MÜNZKORB in den"
+	line "UNTERGRUND gewor-"
+	cont "fen habe."
 	done
 endc
 
 MoveTutorInsideText:
-	text "Wahahah! The coins"
-	line "keep rolling in!"
+	text "Wahaha! Die Münzen"
+	line "fallen weiter!"
 	done
 
 GoldenrodGameCornerLeftTheirDrinkText:
-	text "Someone left their"
-	line "drink."
+	text "Jemand hat sein"
+	line "Getränk stehen"
 
-	para "It smells sweet."
+	para "lassen. Es riecht"
+	line "süß!"
 	done
 
 GoldenrodGameCorner_MapEvents:
