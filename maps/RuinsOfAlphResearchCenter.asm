@@ -356,84 +356,92 @@ RuinsOfAlphResearchCenterPC:
 	end
 
 FossilScientistIntroText:
-	text "Hiya!"
+	text "Hallo!"
 
-	para "I am important"
-	line "doctor!"
+	para "Ich leite hier"
+	line "die Forschungen!"
 
-	para "I study here rare"
-	line "#MON fossils!"
+	para "Wir erforschen"
+	line "Fossilien von"
+	cont "URZEIT-#MON!"
 
-	para "You! Have you a"
-	line "fossil for me?"
+	para "Hast Du ein"
+	line "Fossil für mich?"
 	done
 
 MightTakeAWhileText:
-	text "But this one"
-	line "could take a"
-	cont "long time."
+	text "Aber das hier"
+	line "könnte sehr lange"
+	cont "dauern."
 
-	para "Are you sure"
-	line "you don't want"
-	cont "any other fossils"
-	cont "revived first?"
+	para "Soll ich vorher"
+	line "wirklich keine"
+	cont "anderen Fossilien"
+	cont "wiederbeleben?"
 	done
 
 FossilScientistNoText:
-	text "No! Is too bad!"
+	text "Nein? Zu schade!"
 
-	para "You come again!"
+	para "Komm einfach"
+	line "später wieder"
+	cont "vorbei!"
 	done
 
 FossilScientistPartyFullText:
-	text "No! Is too bad!"
+	text "Nein? Zu schade!"
 
-	para "Your party is"
-	line "already full!"
+	para "Dein Team ist"
+	line "schon voll!"
 	done
 
 FossilScientistTimeText:
-	text "Wow this one is"
-	line "quite complex..."
+	text "Wow, das hier ist"
+	line "ziemlich komplex…"
 
-	para "I take a little"
-	line "time!"
+	para "Es wird einige"
+	line "Zeit dauern!"
 
-	para "You go for walk a"
-	line "little while!"
+	para "Komm einfach"
+	line "später wieder"
+	cont "vorbei!"
 	done
 
 FossilScientistDoneText:
-	text "Where were you?"
+	text "Wo warst Du?"
 
-	para "Your fossil is"
-	line "back to life!"
+	para "Wir haben"
+	line "Dein Fossil"
+	cont "wiederbelebt!"
 	done
 
 FossilScientistMonText:
-	text "Oh! That is"
-	line "a fossil!"
+	text "Oh! Das ist ein"
+	line "Fossil!"
 
-	para "It is fossil of"
-	line "@"
+	para "Es ist ein Fossil"
+	line "von @"
 	text_ram wStringBuffer3
-	text ", a"
+	text ","
 
-	para "#MON that is"
-	line "already extinct!"
+	para "einem schon lange"
+	line "ausgestorbenen"
+	cont "#MON!"
 
-	para "My Resurrection"
-	line "Machine will make"
-	cont "that #MON live"
-	cont "again!"
+	para "Dank modernster"
+	line "Technik können"
+	cont "wir #MON"
+	cont "aus Fossilien"
+	cont "wiederbeleben!"
 	done
 
 FossilScientistGiveText:
-	text "So! You hurry and"
-	line "give me that!"
+	text "Gib es schnell"
+	line "her, damit ich"
+	cont "fortfahren kann!"
 
-	para "<PLAYER> handed"
-	line "over the fossil."
+	para "<PLAYER> übergibt"
+	line "das Fossil."
 	done
 
 FossilScientistReceiveText:
@@ -629,8 +637,8 @@ RuinsOfAlphResearchCenterComputerText_GotAllUnown:
 	done
 
 RuinsOfAlphResearchCenterPrinterText_DoesntWork:
-	text "I wonder what"
-	line "this machine does."
+	text "Was diese Maschine"
+	line "wohl macht?"
 	done
 
 RuinsOfAlphResearchCenterUnownPrinterText:

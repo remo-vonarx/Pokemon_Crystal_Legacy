@@ -439,41 +439,48 @@ FakeDirectorWinText:
 	done
 
 FakeDirectorTextAfter:
-	text "The boss stashed"
-	line "the DIRECTOR in"
+	text "Der Boss hat den"
+	line "echten INTENDANTEN"
 
-	para "the UNDERGROUND"
-	line "WAREHOUSE."
+	para "in das UNTERGRUND-"
+	line "LAGERHAUS"
+	cont "verschleppt."
 
-	para "It's at the far"
-	line "end of the UNDER-"
-	cont "GROUND."
+	para "Es ist am Ende"
+	line "des UNTERGRUNDs."
 
-	para "But I doubt you'll"
-	line "get that far."
+	para "Ich bezweifle"
+	line "aber, daß Du"
+	cont "so weit kommst."
 	done
 
 Executivef1SeenText:
-	text "Remember me from"
-	line "the HIDEOUT in"
+	text "Kennst Du mich"
+	line "noch aus dem"
+	cont "VERSTECK in"
 	cont "MAHAGONIA CITY?"
 
-	para "My boss scolded me"
-	line "but I'm stronger."
+	para "Mein Boss hat mich"
+	line "getadelt, aber"
+	cont "ich bin stärker."
 
-	para "I lost then, but I"
-	line "won't this time."
+	para "Damals habe ich"
+	line "verloren, aber das"
+
+	para "wird heute nicht"
+	line "passieren."
 	done
 
 Executivef1BeatenText:
-	text "This can't be"
-	line "happening!"
+	text "Das darf nicht"
+	line "wahr sein!"
 
-	para "I fought hard, but"
-	line "I still lost…"
-	
-	para "I'm so sorry"
-	line "GIOVANNI…"
+	para "Ich habe mich so"
+	line "angestrengt und"
+	cont "dennoch verloren…"
+
+	para "Es tut mir so"
+	line "leid, GIOVANNI…"
 	done
 
 Executivef1AfterBattleText:
@@ -529,178 +536,194 @@ RadioTower5FRocketBossWinText:
 	done
 
 RadioTower5FRocketBossAfterText:
-	text "How could this be?"
+	text "Wie kann das sein?"
 
-	para "TEAM ROCKET was"
-	line "destined to rise"
-	cont "again..."
+	para "TEAM ROCKET war"
+	line "dazu bestimmt,"
+	cont "wieder aufzu-"
+	cont "steigen…"
 
-	para "For GIOVANNI, for"
-	line "our legacy. We"
-	cont "cannot fall now!"
+	para "Für GIOVANNI, für"
+	line "unser Vermächtnis!"
+	cont "Wir dürfen nicht"
+	cont "fallen!"
 
-	para "You may have won"
-	line "this battle,"
+	para "Du hast diesen"
+	line "Kampf gewonnen,"
 
-	para "but the war?"
-	line "It's far from over."
-	cont "You'll see."
-	
-	para "Our ambition, our"
-	line "dream will not"
-	cont "fade."
+	para "aber den Krieg?"
+	line "Der ist noch lange"
+	cont "nicht vorbei."
+	cont "Du wirst sehen."
 
-	para "The world will "
-	line "fear TEAM ROCKET"
-	cont "once again." 
-	
-	para "This is only"
-	line "a setback!"
+	para "Unser Ehrgeiz,"
+	line "unser Traum wird"
+	cont "nicht vergehen."
+
+	para "Die Welt wird"
+	line "TEAM ROCKET wieder"
+	cont "fürchten."
+
+	para "Das ist nur ein"
+	line "Rückschlag!"
 	done
 
 RadioTower5FGiovanniText1:
 	text "???:"
-	line "Such conviction."
+	line "So viel Über-"
+	cont "zeugung."
 
-	para "Reminds me of a"
-	line "time when I, too,"
-	cont "was so sure."
+	para "Das erinnert mich"
+	line "an eine Zeit, in"
+	cont "der auch ich mir"
+	cont "so sicher war."
 	done
 
 RadioTower5FGiovanniText2:
-	text "You speak of"
-	line "legacy,"
+	text "Du sprichst von"
+	line "Vermächtnis,"
 
-	para "of taking"
-	line "over..."
+	para "von Machtüber-"
+	line "nahme…"
 
-	para "But recall,"
-	line "ATLAS."
+	para "Aber erinnere"
+	line "Dich, ATLAS."
 
-	para "Why did I choose"
-	line "to disband it?"
+	para "Warum habe ich es"
+	line "aufgelöst?"
 	done
 
 RadioTower5FGiovanniText3:
 	text "GIOVANNI:"
-	line "It wasn't mere"
-	cont "defeat or whim,"
+	line "Es war nicht nur"
+	cont "Niederlage oder"
+	cont "Laune."
 
-	para "It was an"
-	line "awakening."
-	
-	para "See the state of"
-	line "this group now."
+	para "Es war ein"
+	line "Erwachen."
 
-	para "Desperate acts,"
-	line "hiding."
+	para "Sieh Dir an, was"
+	line "aus dieser Gruppe"
+	cont "geworden ist."
 
-	para "A far cry from"
-	line "where we once"
-	cont "stood."
+	para "Verzweifelte"
+	line "Taten, Verstecke."
+
+	para "Weit entfernt von"
+	line "dem, was wir"
+	cont "einst waren."
 	done
 
 RadioTower5FGiovanniText4:
-	text "Power isn't just"
-	line "about domination."
+	text "Macht bedeutet"
+	line "nicht nur"
+	cont "Herrschaft."
 
-	para "It's understanding"
-	line "and respect."
-	
-	para "Is this the legacy"
-	line "you imagined?"
+	para "Sie bedeutet Ver-"
+	line "ständnis und"
+	cont "Respekt."
 
-	para "Reduced to"
-	line "skulking in the"
-	cont "shadows?"
+	para "Ist das das Ver-"
+	line "mächtnis, das Du"
+	cont "Dir vorgestellt"
+	cont "hast?"
+
+	para "Im Schatten herum-"
+	line "zuschleichen?"
 	done
 
 RadioTower5FGiovanniText5:
-	text "Rethink this path."
+	text "Überdenke diesen"
+	line "Weg."
 
-	para "Do you truly see a"
-	line "future for this"
-	cont "TEAM ROCKET?"
+	para "Siehst Du wirklich"
+	line "eine Zukunft für"
+	cont "dieses TEAM"
+	cont "ROCKET?"
 	done
 
 RadioTower5FRocketBossDisbandText1:
 	text "ATLAS:"
-	line "I..."
+	line "Ich…"
 
-	para "I did this for"
-	line "you. For the glory"
-	cont "of TEAM ROCKET."
+	para "Ich habe das für"
+	line "Dich getan. Für"
+	cont "den Ruhm von TEAM"
+	cont "ROCKET."
 
-	para "All my efforts,"
-	line "all these"
-	cont "sacrifices."
+	para "All meine Mühen,"
+	line "all diese Opfer."
 
-	para "And you just..."
+	para "Und Du…"
 
-	para "Was it all in"
-	line "vain?"
+	para "War das alles"
+	line "umsonst?"
 
-	para "Did I"
-	line "misunderstand"
-	cont "our purpose?"
+	para "Habe ich unsere"
+	line "Bestimmung falsch"
+	cont "verstanden?"
 	done
 
 RadioTower5FRocketBossDisbandText2:
-	text "You left."
+	text "Du bist gegangen."
 
-	para "You vanished"
-	line "without a word."
+	para "Du bist wortlos"
+	line "verschwunden."
 
-	para "We were lost."
-	line "I tried to carry"
-	cont "your legacy."
+	para "Wir waren"
+	line "verloren. Ich"
+	cont "wollte Dein"
+	cont "Vermächtnis"
+	cont "weitertragen."
 	done
 
 RadioTower5FRocketBossDisbandText3:
-	text "You were the"
-	line "leader,"
+	text "Du warst der"
+	line "Anführer,"
 
-	para "the visionary."
+	para "der Visionär."
 
-	para "And I..."
+	para "Und ich…"
 
-	para "I'm just..."
+	para "Ich bin nur…"
 	done
 
 RadioTower5FRocketBossDisbandText4:
-	text "Was I a mere"
-	line "puppet?"
+	text "War ich nur eine"
+	line "Marionette?"
 
-	para "Chasing a dream"
-	line "you never shared?"
+	para "Die einem Traum"
+	line "nachjagte, den Du"
+	cont "nie geteilt hast?"
 	done
 
 RadioTower5FRocketBossDisbandText5:
-	text "But... but I can't"
-	line "just let go. Not"
-	cont "after everything."
+	text "Aber… aber ich"
+	line "kann nicht einfach"
+	cont "loslassen. Nicht"
+	cont "nach allem."
 
-	para "Do you expect me"
-	line "to just walk away,"
+	para "Erwartest Du, daß"
+	line "ich einfach gehe,"
 
-	para "to abandon our"
-	line "cause?"
+	para "und unsere Sache"
+	line "aufgebe?"
 	done
 
 RadioTower5FRocketBossDisbandText6:
-	text "I... I need time."
-	line "I need to get out"
-	cont "of here."
+	text "Ich… ich brauche"
+	line "Zeit. Ich muß hier"
+	cont "weg."
 	done
 
 RadioTower5FRocketBossDisbandText7:
-	text "But know this,"
-	line "GIOVANNI. Even if"
-	cont "the path was"
-	cont "wrong..."
+	text "Aber merke Dir,"
+	line "GIOVANNI. Auch"
+	cont "wenn der Weg"
+	cont "falsch war…"
 
-	para "My intentions were"
-	line "true!"
+	para "Meine Absichten"
+	line "waren aufrichtig!"
 	done
 
 RadioTower5FDirectorThankYouText:

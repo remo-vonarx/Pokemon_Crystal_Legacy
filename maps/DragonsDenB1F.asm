@@ -215,8 +215,8 @@ ClairText_GiveDragonbreathDragonDen:
 	done
 
 Text_ReceivedTM24:
-	text "<PLAYER> received"
-	line "TM24 DRAGONBREATH."
+	text "<PLAYER> erhält"
+	line "TM24 FEUERODEM."
 	done
 
 ClairText_DescribeDragonbreathDragonDen:
@@ -243,45 +243,46 @@ ClairText_NoRoom:
 	done
 
 ClairText_WhatsTheMatterDragonDen:
-	text "SANDRA: What's the"
-	line "matter? Aren't you"
+	text "SANDRA: Was ist"
+	line "los? Willst Du"
 
-	para "going on to the"
-	line "#MON LEAGUE?"
+	para "nicht zur"
+	line "#MON LIGA?"
 
-	para "After you become"
-	line "CHAMPION, you can"
+	para "Wenn Du CHAMP"
+	line "bist, kannst Du"
 
-	para "rematch any GYM"
-	line "LEADER you want."
-	
-	para "Go to the"
-	line "#MON LEAGUE."
+	para "jeden ARENALEITER"
+	line "erneut heraus-"
+	cont "fordern."
 
-	para "Do you know how to"
-	line "get there?"
+	para "Geh zur #MON"
+	line "LIGA."
 
-	para "From here, go to"
+	para "Weißt Du, wie Du"
+	line "dorthin gelangst?"
+
+	para "Gehe von hier nach"
 	line "NEUBORKIA."
 
-	para "Then SURF east to"
-	line "#MON LEAGUE."
+	para "SURFE dann gen"
+	line "Osten zur"
+	cont "#MON LIGA."
 
-	para "The route there is"
-	line "very tough."
+	para "Die Route ist"
+	line "schwierig."
 
-	para "Don't you dare"
-	line "lose at the #-"
-	cont "MON LEAGUE!"
+	para "Wage es nicht,"
+	line "in der #MON"
+	cont "LIGA zu verlieren!"
 
-	para "If you do, I'll"
-	line "feel even worse"
+	para "Wenn Du verlierst,"
+	line "macht das meine"
 
-	para "about having lost"
-	line "to you!"
+	para "Niederlage gegen"
+	line "Dich noch härter!"
 
-	para "Give it everything"
-	line "you've got."
+	para "Gib Dein Bestes!"
 	done
 
 DragonShrineSignpostText:

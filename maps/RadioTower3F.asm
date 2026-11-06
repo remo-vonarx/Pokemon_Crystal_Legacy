@@ -246,11 +246,12 @@ GruntM7BeatenText:
 	done
 
 GruntM7AfterBattleText:
-	text "I failed in my"
-	line "duties…"
+	text "Ich bin meinen"
+	line "Pflichten nicht"
+	cont "nachgekommen…"
 
-	para "ATLAS will"
-	line "be so upset..."
+	para "ATLAS wird so"
+	line "wütend sein…"
 	done
 
 GruntM8SeenText:

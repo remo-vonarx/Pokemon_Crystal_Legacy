@@ -351,71 +351,80 @@ TeamRocketBaseB3FRocketText:
 RocketBaseRivalText:
 	text "…"
 
-	para "Didn't I tell you"
-	line "that I was going"
+	para "Habe ich Dir nicht"
+	line "gesagt, daß ich"
 
-	para "to destroy TEAM"
-	line "ROCKET?"
+	para "TEAM ROCKET"
+	line "zerschlage?"
 
-	para "…Tell me, who was"
-	line "the guy in the"
+	para "…Sag mir, wer war"
+	line "der Typ mit dem"
 
-	para "cape who used"
-	line "dragon #MON?"
+	para "Umhang, der die"
+	line "DRACHEN-#MON"
+	cont "einsetzte?"
 
-	para "My #MON were no"
-	line "match at all."
+	para "Meine #MON"
+	line "waren keine Gegner"
+	cont "für ihn."
 
-	para "It's what he said"
-	line "that bothers me…"
+	para "Was mich wurmt"
+	line "ist, was er zu"
+	cont "mir gesagt hat…"
 
-	para "He told me that"
-	line "I don't love and"
+	para "Er sagte, daß ich"
+	line "meine #MON"
 
-	para "trust my #MON"
-	line "enough."
-	
-	para "It's not my fault"
-	line "my team is so"
-	cont "useless."
+	para "nicht ausreichend"
+	line "liebe und ihnen"
+	cont "nicht vertraue."
 
-	para "I'm furious that I"
-	line "lost to a bleeding"
-	cont "heart like him."
-	
-	para "But it makes me"
-	line "question myself."
-	
-	para "Is there something"
-	line "I'm doing wrong?"
+	para "Es ist nicht meine"
+	line "Schuld, daß mein"
+	cont "Team so nutzlos"
+	cont "ist."
 
-	para "Could it be that"
-	line "love made his"
-	cont "team so powerful?"
+	para "Ich bin wütend,"
+	line "daß ich gegen so"
+	cont "ein Weichei"
+	cont "verloren habe."
+
+	para "Aber es läßt mich"
+	line "an mir zweifeln."
+
+	para "Mache ich etwas"
+	line "falsch?"
+
+	para "Hat etwa die Liebe"
+	line "sein Team so stark"
+	cont "gemacht?"
 	done
 
 ExecutiveM4BeforeText:
-	text "What? Who are you?"
-	line "This is the office"
+	text "Was? Wer bist Du?"
+	line "Dies ist das Büro"
 
-	para "of our leader,"
+	para "unseres Anführers"
 	line "GIOVANNI."
 
-	para "Since disbanding"
-	line "TEAM ROCKET three"
+	para "Er hält sich ver-"
+	line "steckt, seit das"
+	cont "TEAM ROCKET vor"
 
-	para "years ago, he has"
-	line "been in hiding."
+	para "drei Jahren auf-"
+	line "gelöst wurde."
 
-	para "But we're certain"
-	line "he will be back"
+	para "Wir sind sicher,"
+	line "daß er eines"
 
-	para "some day to assume"
-	line "command again."
+	para "Tages zurückkehren"
+	line "wird, um das"
+	cont "Kommando wieder"
+	cont "zu übernehmen."
 
-	para "I won't let you"
-	line "interfere with"
-	cont "our plans!"
+	para "Ich lasse nicht"
+	line "zu, daß Du unsere"
+	cont "Pläne störst!"
 	done
 
 ExecutiveM4BeatenText:
@@ -472,25 +481,28 @@ GruntF5AfterBattleText:
 	done
 
 GruntM28SeenText:
-	text "Hyuck-hyuck-hyuck!"
+	text "Hiuck-hiuck-hiuck!"
 
-	para "I remember you"
-	line "from the well!"
+	para "Ich kenne Dich"
+	line "vom BRUNNEN!"
 
-	para "You're challenging"
-	line "me again?"
+	para "Du forderst mich"
+	line "schon wieder"
+	cont "heraus?"
 
-	para "Hah! You're nuts,"
-	line "but you have guts!"
+	para "Pah! Du bist dumm,"
+	line "aber Du hast Mumm!"
 
-	para "I'll warn you,"
-	line "I got better!"
+	para "Ich warne Dich,"
+	line "ich bin besser"
+	cont "geworden!"
 
-	para "If you can beat"
-	line "me, I'll tell you"
+	para "Falls Du mich"
+	line "besiegst, verrate"
 
-	para "a password to the"
-	line "boss's room!"
+	para "ich Dir ein"
+	line "Paßwort für das"
+	cont "Büro vom Boss!"
 	done
 
 GruntM28BeatenText:

@@ -697,8 +697,8 @@ ScientistJedAfterBattleText:
 	done
 
 GruntM16SeenText:
-	text "Heheh. Feeling"
-	line "lucky, punk?"
+	text "Hehe. Bist Du"
+	line "glücklich, Punk?"
 	done
 
 GruntM16BeatenText:

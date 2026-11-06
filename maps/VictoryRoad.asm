@@ -192,144 +192,150 @@ MoltresBattleText:
 	done
 
 VictoryRoadRivalBeforeText:
-	text "Hold it."
+	text "Moment."
 
-	para "…Are you going to"
-	line "take the #MON"
-	cont "LEAGUE challenge?"
+	para "…Wirst Du das"
+	line "#MON LIGA-"
+	cont "Abenteuer"
+	cont "bestreiten?"
 
-	para "…Don't make me"
-	line "laugh."
+	para "…Bring mich nicht"
+	line "zum Lachen."
 
-	para "You're so much"
-	line "weaker than I am."
-	
-	para "Even so, I've"
-	line "realized there"
+	para "Du bist viel"
+	line "schwächer als ich."
 
-	para "is more to it"
-	line "than power."
-	
-	para "I've begun to"
-	line "understand what"
+	para "Trotzdem habe ich"
+	line "erkannt, daß es"
 
-	para "that dragon master"
-	line "said to me…"
+	para "um mehr geht"
+	line "als um Stärke."
 
-	para "Love, friendship.."
-	line "it's what the"
-	cont "elders in the"
-	
-	para "DRAGON'S DEN"
-	line "said too."
-	
-	para "I need to care"
-	line "for my team."
-	
-	para "They've been with"
-	line "me through it all"
-	
-	para "and I have treated"
-	line "them like pawns."
-	
-	para "But I promise!"
-	line "I will care for"
-	cont "all of you."
-	
-	para "Together, we"
-	line "will become"
-	cont "unstoppable."
-	
-	para "What? PUPITAR"
-	line "is evolving!"
-	
-	para "............"
-	line "............"
-	
-	para "Congratulations!"
-	line "Your PUPITAR"
+	para "Langsam begreife"
+	line "ich, was der"
 
-	para "evolved into"
+	para "Drachenmeister zu"
+	line "mir sagte…"
+
+	para "Liebe, Freund-"
+	line "schaft… Das sagten"
+	cont "auch die Ältesten"
+
+	para "in der DRACHEN-"
+	line "HÖHLE."
+
+	para "Ich muß mich um"
+	line "mein Team kümmern."
+
+	para "Sie waren immer an"
+	line "meiner Seite"
+
+	para "und ich habe sie"
+	line "wie Schachfiguren"
+	cont "behandelt."
+
+	para "Aber ich verspre-"
+	line "che es! Ich werde"
+	cont "mich um Euch alle"
+	cont "kümmern."
+
+	para "Zusammen werden"
+	line "wir unaufhaltsam."
+
+	para "Was? PUPITAR"
+	line "entwickelt sich!"
+
+	para "……………"
+	line "……………"
+
+	para "Glückwunsch!"
+	line "Dein PUPITAR hat"
+
+	para "sich zu DESPOTAR"
+	line "entwickelt?"
+
+	para "………Was?"
 	line "DESPOTAR?"
-	
-	para ".....What?"
-	line "DESPOTAR?"
-	
-	para "But......."
-	line "level....."
-	
-	para "Ah no, I see."
-	line "I've heard of"
-	
-	para "rare instances"
-	line "of early evol-"
-	cont "ution."
-	
-	para "Some say that"
-	line "through love,"
-	
-	para "the dragon"
-	line "master was able"
-	
-	para "to do such a"
-	line "thing too."
-	
-	para "Perhaps it was"
-	line "the ROCKETs"
-	cont "radio signal."
-	
-	para "It matters not."
-	line "Let's battle."
-	
-	para "My friends will"
-	line "beat you and then"
-	cont "the ELITE FOUR."
 
-	para "<PLAYER>!"
-	line "I challenge you!"
+	para "Aber………"
+	line "Level………"
+
+	para "Ah, ich verstehe."
+	line "Ich habe von"
+
+	para "seltenen Fällen"
+	line "früher Entwicklung"
+	cont "gehört."
+
+	para "Manche sagen,"
+	line "durch Liebe"
+
+	para "habe auch der"
+	line "Drachenmeister"
+
+	para "so etwas"
+	line "geschafft."
+
+	para "Vielleicht lag es"
+	line "am Radiosignal"
+	cont "von TEAM ROCKET."
+
+	para "Das ist egal."
+	line "Laß uns kämpfen."
+
+	para "Meine Freunde"
+	line "besiegen Dich und"
+	cont "dann die TOP VIER."
+
+	para "<PLAYER>! Ich for-"
+	line "dere Dich heraus!"
 	done
 
 VictoryRoadRivalDefeatText:
-	text "…I couldn't win…"
+	text "…Ich konnte nicht"
+	line "gewinnen…"
 
-	para "I gave it every-"
-	line "thing I had…"
+	para "Ich habe"
+	line "alles gegeben…"
 
-	para "What you possess,"
-	line "and what I lack…"
+	para "Was Du besitzt"
+	line "und was mir fehlt…"
 	done
 
 VictoryRoadRivalAfterText:
-	text "…I haven't given up"
-	line "on becoming the"
-	cont "greatest trainer…"
+	text "…Ich habe nicht"
+	line "aufgegeben, der"
+	cont "weltbeste Trainer"
+	cont "zu werden…"
 
-	para "But that's okay,"
-	line "I will one day"
+	para "Aber das macht"
+	line "nichts. Eines"
 
-	para "return and"
-	line "become stronger."
+	para "Tages komme ich"
+	line "stärker zurück."
 
-	para "When I do, I will"
-	line "challenge you."
+	para "Wenn ich soweit"
+	line "bin, fordere ich"
+	cont "Dich heraus."
 
-	para "And I'll beat you"
-	line "down with all my"
-	cont "power."
+	para "Und dann besiege"
+	line "ich Dich mit all"
+	cont "meiner Kraft."
 
-	para "Come on guys!"
-	line "let's go!"
+	para "Kommt, Leute!"
+	line "Gehen wir!"
 	done
 
 VictoryRoadRivalVictoryText:
-	text "What power!"
+	text "Welche Kraft!"
 
-	para "When it comes down"
-	line "to it, nothing can"
-	cont "beat friendhship."
+	para "Wenn es darauf"
+	line "ankommt, kann"
+	cont "nichts Freund-"
+	cont "schaft besiegen."
 
-	para "I don't need any-"
-	line "thing else."
+	para "Mehr brauche ich"
+	line "nicht."
 	done
 
 VictoryRoad_MapEvents:

@@ -142,28 +142,31 @@ GruntM14AfterBattleText:
 	done
 
 GruntM15SeenText:
-	text "Hyuck-hyuck-hyuck!"
-	line "Look who it is!"
+	text "Hiuck-hiuck-hiuck!"
+	line "Sieh mal einer an!"
 
-	para "Ready? I'm "
-	line "really tough now!"
+	para "Bereit? Ich bin"
+	line "jetzt richtig"
+	cont "stark!"
 	done
 
 GruntM15BeatenText:
-	text "Hyuck-hyuck-hyuck!"
-	line "You're so good!"
-	
-	para "This TEAM ROCKET"
-	line "thing is just"
-	
-	para "a job, but I can"
-	line "see it hurts"
-	
-	para "others. That's it, "
-	line "I'm leaving."
-	
-	para "Thank you so much."
-	line "Sorry GIOVANNI!"
+	text "Hiuck-hiuck-hiuck!"
+	line "Du bist so gut!"
+
+	para "Dieses TEAM ROCKET"
+	line "ist nur ein Job,"
+
+	para "aber ich sehe,"
+	line "daß es anderen"
+	cont "schadet."
+
+	para "Das war's, ich"
+	line "höre auf."
+
+	para "Vielen Dank."
+	line "Tut mir leid,"
+	cont "GIOVANNI!"
 	done
 
 GruntM15AfterBattleText:

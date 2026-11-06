@@ -105,17 +105,19 @@ MountMortarB1FReceiveMonText:
 	done
 
 MountMortarB1FKiyoGotTyrogueText:
-	text "RABAUZ is a"
-	line "FIGHTING-type."
+	text "RABAUZ ist ein"
+	line "KAMPF-#MON."
 
-	para "It evolves into a"
-	line "tougher #MON."
+	para "Es entwickelt sich"
+	line "zu einem stärkeren"
+	cont "#MON."
 
-	para "Keep up the hard"
-	line "work. I'll keep"
-	cont "training too."
+	para "Arbeite so hart"
+	line "weiter. Ich werde"
+	cont "auch weiterhin"
+	cont "trainieren."
 
-	para "Farewell!"
+	para "Lebe wohl!"
 	done
 
 MountMortarB1FKiyoFullPartyText:

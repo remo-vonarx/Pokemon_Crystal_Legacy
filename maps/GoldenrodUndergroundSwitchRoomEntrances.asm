@@ -678,29 +678,29 @@ UndergroundSilverRetreatMovement2:
 	step_end
 
 UndergroundSilverBeforeText:
-	text "Hold it!"
+	text "Stehen bleiben!"
 
-	para "I saw you, so I"
-	line "tailed you."
+	para "Ich sah Dich und"
+	line "bin Dir gefolgt."
 
-	para "I don't need you"
-	line "underfoot while I"
+	para "Hör auf, mir"
+	line "nachzustellen, ich"
 
-	para "take care of TEAM"
-	line "ROCKET."
+	para "muß mich um TEAM"
+	line "ROCKET kümmern."
 
-	para "…Wait a second."
-	line "You beat me be-"
-	cont "fore, didn't you?"
+	para "…Moment."
+	line "Du hast mich schon"
+	cont "besiegt, oder?"
 
-	para "That was just a"
-	line "fluke."
-	
-	para "I've been training"
-	line "my team and now"
+	para "Das war nur"
+	line "Dusel."
 
-	para "I will repay my"
-	line "debts!"
+	para "Ich habe mein Team"
+	line "trainiert und nun"
+
+	para "begleiche ich"
+	line "meine Rechnungen!"
 	done
 
 UndergroundSilverWinText:

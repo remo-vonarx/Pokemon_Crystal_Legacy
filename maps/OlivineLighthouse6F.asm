@@ -223,21 +223,21 @@ JasmineAmphyHowAreYouFeelingText:
 	done
 
 JasmineThankYouText:
-	text "JASMIN: …Oh, I'm"
-	line "so relieved…"
+	text "JASMIN: …Oh, ich"
+	line "bin erleichtert…"
 
-	para "This is just so"
-	line "wonderful…"
+	para "Das ist einfach"
+	line "wundervoll…"
 
-	para "Thank you so very,"
-	line "very much."
+	para "Ich danke Dir"
+	line "vielmals."
 
-	para "…I will return to"
-	line "the GYM…"
-	
-	para "I'll also warn "
-	line "you, steel types"
-	cont "are powerful."
+	para "…Ich kehre in die"
+	line "PKMN-ARENA zurück."
+
+	para "Ich warne Dich"
+	line "aber: STAHL-"
+	cont "#MON sind stark."
 	done
 
 JasmineISeeText:

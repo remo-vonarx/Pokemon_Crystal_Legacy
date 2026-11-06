@@ -245,33 +245,36 @@ GruntM1BeatenText:
 
 TrainerGruntM1WhenTalkText:
 	text "Yeah, TEAM ROCKET"
-	line "was broken up"
-	cont "three years ago."
+	line "wurde vor drei"
+	cont "Jahren zer-"
+	cont "schlagen."
 
-	para "The boss went "
-	line "into hiding."
-	
-	para "But we continued"
-	line "our activities"
-	cont "underground!"
+	para "Der Boss ist"
+	line "untergetaucht."
 
+	para "Aber wir haben"
+	line "unsere Arbeit im"
+	cont "Untergrund"
+	cont "fortgesetzt!"
 	done
 
 GruntM2SeenText:
-	text "Hyuck-hyuck-hyuck!"
-	line "Quit taking SLOW-"
-	cont "POKETAILS?"
-	
-	para "You're nuts!"
-	line "If we obeyed you,"
-	
-	para "TEAM ROCKET's rep"
-	line "would be ruined!"
+	text "Hiuck-hiuck-hiuck!"
+	line "Wir sollen auf-"
+	cont "hören, FLEGMON-"
+	cont "RUTEN zu nehmen?"
+
+	para "Du spinnst! Wenn"
+	line "wir auf Dich"
+	cont "hörten, wäre der"
+
+	para "Ruf von TEAM"
+	line "ROCKET ruiniert!"
 	done
 
 GruntM2BeatenText:
-	text "Hyuck…"
-	line "Too strong…"
+	text "Hiuck…"
+	line "Zu stark…"
 	done
 
 GruntM2AfterBattleText:

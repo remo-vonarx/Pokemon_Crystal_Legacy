@@ -194,13 +194,14 @@ BurnedTowerSilver_BeforeText:
 	done
 
 BurnedTowerSilver_WinText:
-	text "…Humph!"
+	text "…Humpf!"
 
-	para "I only lost be-"
-	line "cause my #MON"
-	cont "are so weak."
+	para "Ich habe nur ver-"
+	line "loren, weil meine"
+	cont "#MON so schwach"
+	cont "sind."
 
-	para "How pathetic."
+	para "Wie erbärmlich."
 	done
 
 BurnedTowerSilver_AfterText1:

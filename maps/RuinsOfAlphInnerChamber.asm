@@ -133,7 +133,9 @@ RuinsOfAlphInnerChamberStatueText:
 	done
 
 NoRoomText:
-	text "No room in bag"
+	text "Kein Platz im"
+	line "BEUTEL."
+	done
 
 RuinsOfAlphInnerChamber_MapEvents:
 	db 0, 0 ; filler

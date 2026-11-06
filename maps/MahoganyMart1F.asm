@@ -136,12 +136,10 @@ GiovanniLeavesMovement:
 	step_end
 
 MahoganyMart1FGioLeavesText:
-	text "I have to" 
-	line "leave..."
-	
-	para "You two can"
-	line "handle this,"
-	cont "right?"
+	text "Ich muß gehen…"
+
+	para "Ihr beide schafft"
+	line "das schon, oder?"
 	done
 
 MahoganyMart1FGrannyScript:
@@ -198,13 +196,13 @@ MahoganyMart1FLanceGoDownStairsMovement:
 	step_end
 
 MahoganyMart1FRageCandyBarText: ; unreferenced
-	text "Hello, kiddo!"
+	text "Hallo, Wicht!"
 
-	para "You wouldn't"
-	line "all the things"
+	para "Du glaubst nicht,"
+	line "was ich alles im"
 
-	para "I found in the"
-	line "basement!"
+	para "Keller gefunden"
+	line "habe!"
 	done
 
 MahoganyMart1FPharmacistText_LanceEntered:
@@ -228,25 +226,27 @@ MahoganyMart1FBlackBeltText:
 MahoganyMart1FBlackBeltText_LanceEntered:
 	text "Urrgh…"
 
-	para "That guy's"
-	line "#MON are tough…"
+	para "Die #MON dieses"
+	line "Typen sind stark…"
 	done
 
 MahoganyMart1FLanceDragoniteHyperBeamText:
-	text "???: NIDOQUEEN,"
-	line "HYPER BEAM."
+	text "???:"
+	line "NIDOQUEEN,"
+
+	para "HYPERSTRAHL!"
 	done
 
 MahoganyMart1FLanceRadioText:
-	text "What took you,"
+	text "Wo bleibst Du,"
 	line "<PLAY_G>?"
 
-	para "Just as we"
-	line "thought,"
+	para "Das haben wir uns"
+	line "gleich gedacht."
 
-	para "that strange radio"
-	line "signal is coming"
-	cont "from here."
+	para "Die merkwürdigen"
+	line "Radiowellen kommen"
+	cont "von hier."
 	done
 
 MahoganyMart1FLanceStairsText:
