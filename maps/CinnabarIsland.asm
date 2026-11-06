@@ -120,21 +120,25 @@ CinnabarIslandBlueText:
 	done
 
 CinnabarIslandGymSignText:
-	text "There's a notice"
-	line "here…"
+	text "Hier ist eine"
+	line "Nachricht…"
 
-	para "ZINNOBER GYM has"
-	line "relocated to SEA-"
-	cont "FOAM ISLANDS."
+	para "Die PKMN-ARENA der"
+	line "ZINNOBERINSEL"
+
+	para "wurde auf die"
+	line "SEESCHAUMINSELN"
+	cont "verlegt."
 
 	para "PYRO"
 	done
 
 CinnabarIslandSignText:
-	text "ZINNOBER ISLAND"
+	text "ZINNOBERINSEL"
 
-	para "The Fiery Town of"
-	line "Burning Desire"
+	para "Die Feurige Stadt"
+	line "Brennender"
+	cont "Begierde"
 	done
 
 CinnabarIsland_MapEvents:

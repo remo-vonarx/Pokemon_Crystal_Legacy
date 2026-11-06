@@ -139,38 +139,44 @@ BlaineIntroText:
 	done
 
 BlaineWinLossText:
-	text "PYRO: Awesome."
-	line "I've burned out…"
+	text "PYRO: Gut gemacht."
+	line "Ich bin"
+	cont "ausgebrannt…"
 
-	para "You've earned"
-	line "VOLCANOBADGE!"
+	para "Hier nimm den"
+	line "VULKANORDEN!"
 	done
 
 ReceivedVolcanoBadgeText:
-	text "<PLAYER> received"
-	line "VOLCANOBADGE."
+	text "<PLAYER> erhält"
+	line "VULKANORDEN."
 	done
 
 BlaineAfterBattleText:
-	text "PYRO: I did lose"
-	line "this time, but I'm"
+	text "PYRO: Diesmal habe"
+	line "ich verloren, aber"
 
-	para "going to win the"
-	line "next time."
+	para "beim nächsten Mal"
+	line "werde ich"
+	cont "gewinnen."
 
-	para "When I rebuild my"
-	line "ZINNOBER GYM,"
+	para "Ich werde meine"
+	line "PKMN-ARENA auf der"
 
-	para "we'll have to have"
-	line "a rematch."
+	para "ZINNOBERINSEL"
+	line "wieder aufbauen"
+	cont "und dann wirst du"
+	cont "erneut gegen mich"
+	cont "antreten."
 	done
 
 BlaineFightDoneText:
-	text "PYRO: My fire"
-	line "#MON will be"
+	text "PYRO: Meine Feuer-"
+	line "#MON werden"
 
-	para "even stronger."
-	line "Just you watch!"
+	para "noch stärker sein."
+	line "Du wirst schon"
+	cont "sehen!"
 	done
 
 BlaineRematchText:
@@ -203,35 +209,39 @@ Blaine_RematchDefeatText:
 	done
 
 SeafoamGymGuideWinText:
-	text "Yo!"
+	text "Jawohl!"
 
-	para "… Huh? It's over"
-	line "already?"
+	para "…Huh? Es ist"
+	line "schon vorüber?"
 
-	para "Sorry, sorry!"
+	para "Sorry, Kumpel!"
 
-	para "ZINNOBER GYM was"
-	line "gone, so I didn't"
+	para "Die PKMN-ARENA auf"
+	line "der ZINNOBERINSEL"
 
-	para "know where to find"
-	line "you."
+	para "existiert nicht"
+	line "mehr und ich"
+	cont "wusste nicht, wo"
+	cont "du steckst."
 
-	para "But, hey, you're"
-	line "plenty strong even"
+	para "Aber egal! Du"
+	line "bist auch ohne"
 
-	para "without my advice."
-	line "I knew you'd win!"
+	para "meinen Ratschlag"
+	line "zurechtgekommen."
+	cont "Ich wusste, du"
+	cont "würdest gewinnen."
 	done
 
 SeafoamGymGuideWinText2:
-	text "A #MON GYM can"
-	line "be anywhere as"
+	text "Eine PKMN-ARENA"
+	line "kann überall sein,"
 
-	para "long as the GYM"
-	line "LEADER is there."
+	para "solange der ARENA-"
+	line "LEITER dort ist."
 
-	para "There's no need"
-	line "for a building."
+	para "Man braucht dafür"
+	line "kein Gebäude."
 	done
 
 SeafoamGym_MapEvents:
