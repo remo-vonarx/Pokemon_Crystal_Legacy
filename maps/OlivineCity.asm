@@ -213,36 +213,35 @@ OlivineCityRivalText:
 	done
 
 OlivineCitySailor1Text:
-	text "Dark roads are"
-	line "dangerous at"
-	cont "night."
+	text "Nachts sind dunkle"
+	line "Straßen gefähr-"
+	cont "lich."
 
-	para "But in the pitch-"
-	line "black of night,"
+	para "Auch das Meer"
+	line "wirkt viel bedroh-"
+	cont "licher in der"
 
-	para "the sea is even"
-	line "more treacherous!"
+	para "pechschwarzen"
+	line "Finsternis!"
 
-	para "Without the beacon"
-	line "of the LIGHTHOUSE"
+	para "Ohne das Licht des"
+	line "LEUCHTTURMs könnte"
 
-	para "to guide it, no"
-	line "ship can sail."
+	para "kein Schiff das"
+	line "Meer bereisen."
 	done
 
 OlivineCityStandingYoungsterPokegearText:
-	text "That thing you"
-	line "have--it's a #-"
-	cont "GEAR, right? Wow,"
-	cont "that's cool."
+	text "Dieses Ding da ist"
+	line "doch ein #COM."
+	cont "Wow, das ist cool!"
 	done
 
 OlivineCityStandingYoungsterPokedexText:
-	text "Wow, you have a"
+	text "Wow, du hast einen"
 	line "#DEX!"
 
-	para "That is just so"
-	line "awesome."
+	para "Das ist so toll!"
 	done
 
 OlivineCitySailor2Text:
@@ -273,40 +272,40 @@ OlivineCitySailor2Text:
 OlivineCitySignText:
 	text "OLIVIANA CITY"
 
-	para "The Port Closest"
-	line "to Foreign Lands"
+	para "Das Tor zu einer"
+	line "neuen Welt"
 	done
 
 OlivineCityPortSignText:
-	text "OLIVIANA PORT"
-	line "FAST SHIP PIER"
+	text "HAFEN von OLIVIANA"
+	line "CITY"
+	cont "SCHNELLBOOT-PIER"
 	done
 
 OlivineGymSignText:
-	text "OLIVIANA CITY"
-	line "#MON GYM"
-	cont "LEADER: JASMIN"
+	text "PKMN-ARENA von"
+	line "OLIVIANA CITY"
+	cont "LEITUNG: JASMIN"
 
-	para "The Steel-Clad"
-	line "Defense Girl"
+	para "Ein stahlhartes"
+	line "Mädchen!"
 	done
 
 OlivineLighthouseSignText:
-	text "OLIVIANA"
-	line "LIGHTHOUSE"
-
-	para "Also known as the"
-	line "GLITTER LIGHTHOUSE"
+	text "LEUCHTTURM von"
+	line "OLIVIANA CITY,"
+	cont "auch bekannt als"
+	cont "GLITZER-LEUCHTTURM"
 	done
 
 OlivineCityBattleTowerSignText:
-	text "BATTLE TOWER AHEAD"
-	line "Opening Now!"
+	text "DUELLTURM VORAUS"
+	line "Geöffnet!"
 	done
 
 OlivineCityBattleTowerSignText_NotYetOpen: ; unreferenced
 ; originally shown when the Battle Tower was closed
-	text "BATTLE TOWER AHEAD"
+	text "DUELLTURM VORAUS"
 	done
 
 OlivineCity_MapEvents:

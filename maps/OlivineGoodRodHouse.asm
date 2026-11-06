@@ -39,25 +39,27 @@ GoodRodHouseBookshelf: ; unreferenced
 	jumpstd PictureBookshelfScript
 
 OfferGoodRodText:
-	text "OLIVIANA is on the"
-	line "sea!"
+	text "OLIVIANA CITY"
+	line "liegt am Meer!"
 
-	para "And if it's on the"
-	line "sea, there are"
-	cont "bound to be fish!"
+	para "Daher sollte man"
+	line "dort auch jede"
+	cont "Menge Fische fin-"
+	cont "den!"
 
-	para "I've fished here"
-	line "for 30 years."
+	para "Ich fische hier"
+	line "seit 30 Jahren."
 
-	para "Would you like to"
-	line "face the sea and"
-	cont "fish?"
+	para "Willst du das Meer"
+	line "und die Fische"
+	cont "sehen?"
 	done
 
 GiveGoodRodText:
 	text "Ah, hahah!"
-	line "We have ourselves"
-	cont "a new angler!"
+	line "Und da haben wir"
+	cont "einen neuen"
+	cont "Angler!"
 	done
 
 GaveGoodRodText:
@@ -86,14 +88,15 @@ GaveGoodRodText:
 	done
 
 DontWantGoodRodText:
-	text "Whaaat? You don't"
-	line "like to fish!?"
-	cont "Incomprehensible!"
+	text "Waaas? Du willst"
+	line "nicht fischen!?"
+	cont "Unfassbar!"
 	done
 
 HaveGoodRodText:
-	text "How are things?"
-	line "Land the big one?"
+	text "Wie steht's? Den"
+	line "großen Fang ge-"
+	cont "macht?"
 	done
 
 OlivineGoodRodHouse_MapEvents:
