@@ -1,10 +1,10 @@
-	db "SCOUT@" ; species name
+	db "SPÄHER@" ; species name
 	dw 207, 130 ; height, weight
 
-	db   "When acting as a"
-	next "lookout, it warns"
-	next "others of danger"
+	db   "Wenn es Wache hat,"
+	next "warnt es seine"
+	next "Artgenossen, indem"
 
-	page "by screeching and"
-	next "hitting the ground"
-	next "with its tail.@"
+	page "es schreit und mit"
+	next "dem Schwanz auf"
+	next "den Boden schlägt.@"

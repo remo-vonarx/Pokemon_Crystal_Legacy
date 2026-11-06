@@ -1,10 +1,10 @@
-	db "CLEAR WING@" ; species name
+	db "LIBELLE@" ; species name
 	dw 311, 840 ; height, weight
 
-	db   "It can see in all"
-	next "directions without"
-	next "moving its big"
+	db   "Es kann in alle"
+	next "Richtungen sehen,"
+	next "ohne seine großen"
 
-	page "eyes, helping it"
-	next "spot attackers and"
-	next "food right away.@"
+	page "Augen zu bewegen."
+	next "So nimmt es Feinde"
+	next "und Beute wahr.@"

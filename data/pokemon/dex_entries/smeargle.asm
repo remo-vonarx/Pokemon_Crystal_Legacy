@@ -1,10 +1,10 @@
-	db "PAINTER@" ; species name
+	db "MALER@" ; species name
 	dw 311, 1280 ; height, weight
 
-	db   "The color of the"
-	next "mysterious fluid"
-	next "secreted from its"
+	db   "Die Farbe des"
+	next "mysteriösen"
+	next "Sekrets seines"
 
-	page "tail is predeter-"
-	next "mined for each"
-	next "FARBEAGLE.@"
+	page "Schwanzes ist für"
+	next "jedes FARBEAGLE"
+	next "vorgegeben.@"

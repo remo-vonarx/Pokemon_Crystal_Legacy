@@ -1,10 +1,10 @@
-	db "TRIPLEBIRD@" ; species name
+	db "TRIVOGEL@" ; species name
 	dw 511, 1880 ; height, weight
 
-	db   "An enemy that"
-	next "takes its eyes off"
-	next "any of the three"
+	db   "Lässt ein Feind"
+	next "auch nur einen der"
+	next "drei Köpfe für nur"
 
-	page "heads--even for a"
-	next "second--will get"
-	next "pecked severely.@"
+	page "eine Sekunde aus"
+	next "den Augen, wird"
+	next "er sofort gepickt.@"

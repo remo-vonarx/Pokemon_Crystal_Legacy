@@ -1,10 +1,10 @@
-	db "LONG LEG@" ; species name
+	db "LANGBEIN@" ; species name
 	dw 307, 740 ; height, weight
 
-	db   "Rather than mak-"
-	next "ing a nest in one"
-	next "specific spot, it"
+	db   "Es spinnt kein"
+	next "Netz, um Beute zu"
+	next "fangen, sondern"
 
-	page "wanders in search"
-	next "of food after"
-	next "darkness falls.@"
+	page "geht mit Einbruch"
+	next "der Nacht auf"
+	next "Beutejagd.@"

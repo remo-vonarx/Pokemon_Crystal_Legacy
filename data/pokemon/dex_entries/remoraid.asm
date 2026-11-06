@@ -1,10 +1,10 @@
-	db "JET@" ; species name
+	db "HOCHDRUCK@" ; species name
 	dw 200, 260 ; height, weight
 
-	db   "To escape from an"
-	next "attacker, it may"
-	next "shoot water out of"
+	db   "Um zu entkommen,"
+	next "schießt es Wasser"
+	next "aus seinem Maul"
 
-	page "its mouth, then"
-	next "use that force to"
-	next "swim backward.@"
+	page "und nutzt den"
+	next "Rückstoß für seine"
+	next "Flucht.@"

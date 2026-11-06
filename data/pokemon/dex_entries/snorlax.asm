@@ -1,10 +1,10 @@
-	db "SLEEPING@" ; species name
+	db "TAGTRÄUMER@" ; species name
 	dw 611, 10140 ; height, weight
 
-	db   "This #MON's"
-	next "stomach is so"
-	next "strong, even"
+	db   "Der Magen dieses"
+	next "#MON ist so"
+	next "resistent, dass es"
 
-	page "eating moldy or"
-	next "rotten food will"
-	next "not affect it.@"
+	page "sogar Verschimmel-"
+	next "tes oder Verdor-"
+	next "benes essen kann.@"

@@ -1,10 +1,10 @@
-	db "FROG@" ; species name
+	db "FROSCH@" ; species name
 	dw 307, 750 ; height, weight
 
-	db   "When it expands"
-	next "its throat to"
-	next "croak out a tune,"
+	db   "Bläht es seinen"
+	next "Hals auf, um zu"
+	next "quaken, versammeln"
 
-	page "nearby QUAPSEL and"
-	next "QUAPUTZI gather"
-	next "immediately.@"
+	page "sich QUAPSEL und"
+	next "QUAPUTZI von Nah"
+	next "und Fern.@"

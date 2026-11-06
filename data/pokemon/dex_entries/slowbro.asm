@@ -1,10 +1,10 @@
-	db "HERMITCRAB@" ; species name
+	db "SYMBIOSE@" ; species name
 	dw 503, 1730 ; height, weight
 
-	db   "An attached"
-	next "MUSCHAS won't let"
-	next "go because of the"
+	db   "Das MUSCHAS an"
+	next "seiner Rute lässt"
+	next "nicht locker, da"
 
-	page "tasty flavor that"
-	next "oozes out of its"
-	next "tail.@"
+	page "ein leckerer Ge-"
+	next "schmack aus seiner"
+	next "Rute strömt.@"

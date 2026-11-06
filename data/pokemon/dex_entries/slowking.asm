@@ -1,10 +1,10 @@
-	db "ROYAL@" ; species name
+	db "MONARCH@" ; species name
 	dw 607, 1750 ; height, weight
 
-	db   "Every time it ya-"
-	next "wns, MUSCHAS"
-	next "injects more poi-"
+	db   "Immer wenn es"
+	next "gähnt, injiziert"
+	next "MUSCHAS mehr Gift."
 
-	page "son into it. The"
-	next "poison makes it"
-	next "more intelligent.@"
+	page "Durch das Gift"
+	next "wird es immer"
+	next "intelligenter.@"

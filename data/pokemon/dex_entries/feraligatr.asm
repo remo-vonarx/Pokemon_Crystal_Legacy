@@ -1,10 +1,10 @@
-	db "BIG JAW@" ; species name
+	db "GROSSMAUL@" ; species name
 	dw 707, 1960 ; height, weight
 
-	db   "Although it has a"
-	next "massive body, its"
-	next "powerful hind legs"
+	db   "Obwohl es statt-"
+	next "lich ist, kann"
+	next "es mit seinen"
 
-	page "enable it to move"
-	next "quickly, even on"
-	next "the ground.@"
+	page "kräftigen Beinen"
+	next "auch an Land sehr"
+	next "schnell laufen.@"

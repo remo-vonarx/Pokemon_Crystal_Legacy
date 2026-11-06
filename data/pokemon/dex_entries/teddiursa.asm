@@ -1,10 +1,10 @@
-	db "LITTLE BEAR@" ; species name
+	db "KLEINBÄR@" ; species name
 	dw 200, 190 ; height, weight
 
-	db   "It always licks"
-	next "honey. Its palm"
-	next "tastes sweet"
+	db   "Es frisst ständig"
+	next "Honig. Seine"
+	next "Pfoten schmecken"
 
-	page "because of all the"
-	next "honey it has"
-	next "absorbed.@"
+	page "immer süß, da es"
+	next "ständig nach Honig"
+	next "sucht.@"

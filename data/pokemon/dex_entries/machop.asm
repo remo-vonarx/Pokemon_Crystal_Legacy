@@ -1,10 +1,10 @@
-	db "SUPERPOWER@" ; species name
+	db "KRAFTPROTZ@" ; species name
 	dw 207, 430 ; height, weight
 
-	db   "It trains by"
-	next "lifting rocks in"
-	next "the mountains. It"
+	db   "Es trainiert,"
+	next "indem es in den"
+	next "Bergen Felsen"
 
-	page "can even pick up a"
-	next "GEOROK with"
-	next "ease.@"
+	page "stemmt. Selbst ein"
+	next "GEOROK ist für ihn"
+	next "ein Leichtgewicht.@"

@@ -1,10 +1,10 @@
-	db "BAGWORM@" ; species name
+	db "BEUTELWURM@" ; species name
 	dw 200, 160 ; height, weight
 
-	db   "It spits out a"
-	next "fluid that it uses"
-	next "to glue tree bark"
+	db   "Es setzt eine"
+	next "klebrige, luft-"
+	next "trocknende Flüs-"
 
-	page "to its body. The"
-	next "fluid hardens when"
-	next "it touches air.@"
+	page "sigkeit ein, um"
+	next "seinem Körper Rin-"
+	next "de hinzuzufügen.@"

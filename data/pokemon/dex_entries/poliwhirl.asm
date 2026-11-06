@@ -1,10 +1,10 @@
-	db "TADPOLE@" ; species name
+	db "KAULQUAPPE@" ; species name
 	dw 303, 440 ; height, weight
 
-	db   "Though it is"
-	next "skilled at walk-"
-	next "ing, it prefers to"
+	db   "Obwohl es ein ge-"
+	next "schickter Läufer"
+	next "ist, zieht es das"
 
-	page "live underwater"
-	next "where there is"
-	next "less danger.@"
+	page "Leben unter Wasser"
+	next "vor, weil dort"
+	next "kaum Gefahr droht.@"

@@ -1,10 +1,10 @@
-	db "WEED@" ; species name
+	db "UNKRAUT@" ; species name
 	dw 207, 190 ; height, weight
 
-	db   "The smell from its"
-	next "drool-like syrup"
-	next "and the pollen on"
+	db   "Der Gestank seines"
+	next "Speichels und der"
+	next "Pollen ist so eke-"
 
-	page "its petals is so"
-	next "bad, it may make"
-	next "opponents faint.@"
+	page "lig, dass mancher"
+	next "Feind dadurch"
+	next "ohnmächtig wird.@"

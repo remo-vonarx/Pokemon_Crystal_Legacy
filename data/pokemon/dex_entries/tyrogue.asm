@@ -1,10 +1,10 @@
-	db "SCUFFLE@" ; species name
+	db "RACKER@" ; species name
 	dw 204, 460 ; height, weight
 
-	db   "To brush up on its"
-	next "fighting skills,"
-	next "it will challenge"
+	db   "Um seine Kampf-"
+	next "fähigkeiten zu"
+	next "verbessern, tritt"
 
-	page "anyone. It has a"
-	next "very strong com-"
-	next "petitive spirit.@"
+	page "es gegen jeden an."
+	next "Es besitzt"
+	next "großen Kampfgeist.@"

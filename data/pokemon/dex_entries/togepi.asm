@@ -1,10 +1,10 @@
-	db "SPIKE BALL@" ; species name
+	db "ZACKENBALL@" ; species name
 	dw 100, 30 ; height, weight
 
-	db   "It is considered"
-	next "to be a symbol of"
-	next "good luck. Its"
+	db   "Es gilt als"
+	next "Glücksbringer."
+	next "Man sagt, seine"
 
-	page "shell is said to"
-	next "be filled with"
-	next "happiness.@"
+	page "Schale ist voll"
+	next "von purer Freude."
+	next "@"

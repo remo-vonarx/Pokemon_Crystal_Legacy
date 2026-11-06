@@ -1,10 +1,10 @@
-	db "HARD SHELL@" ; species name
+	db "HARTSCHALE@" ; species name
 	dw 311, 3350 ; height, weight
 
-	db   "It will not stay"
-	next "still, even while"
-	next "it's a pupa. It"
+	db   "Auch als Puppe"
+	next "bewegt es sich."
+	next "Es hat schon Arme"
 
-	page "already has arms"
-	next "and legs under its"
-	next "solid shell.@"
+	page "und Beine unter"
+	next "seinem harten"
+	next "Panzer.@"

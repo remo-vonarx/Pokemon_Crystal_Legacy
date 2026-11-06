@@ -1,10 +1,10 @@
-	db "SEED@" ; species name
+	db "SAMEN@" ; species name
 	dw 204, 150 ; height, weight
 
-	db   "While it is young,"
-	next "it uses the"
-	next "nutrients that are"
+	db   "Da es noch klein"
+	next "ist, frisst es die"
+	next "Samen auf seinem"
 
-	page "stored in the"
-	next "seeds on its back"
-	next "in order to grow.@"
+	page "Rücken, um durch"
+	next "deren Nährstoffe"
+	next "rasch zu wachsen.@"

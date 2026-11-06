@@ -1,10 +1,10 @@
-	db "TINYTURTLE@" ; species name
+	db "MINIKRÖTE@" ; species name
 	dw 108, 200 ; height, weight
 
-	db   "When it feels"
-	next "threatened, it"
-	next "draws its legs"
+	db   "Fühlt es sich be-"
+	next "droht, verkriecht"
+	next "es sich in seinen"
 
-	page "inside its shell"
-	next "and sprays water"
-	next "from its mouth.@"
+	page "Panzer und spuckt"
+	next "Wasser aus seinem"
+	next "Maul.@"

@@ -1,10 +1,10 @@
-	db "AQUARABBIT@" ; species name
+	db "AQUAHASE@" ; species name
 	dw 207, 630 ; height, weight
 
-	db   "The bubble-like"
-	next "pattern on its"
-	next "stomach helps it"
+	db   "Das blasenähnliche"
+	next "Muster auf seinem"
+	next "Bauch hilft ihm,"
 
-	page "camouflage itself"
-	next "when it's in the"
-	next "water.@"
+	page "sich perfekt zu"
+	next "tarnen, wenn es"
+	next "im Wasser ist.@"

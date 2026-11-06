@@ -1,10 +1,10 @@
-	db "FAIRY@" ; species name
+	db "FEE@" ; species name
 	dw 200, 170 ; height, weight
 
-	db   "Though rarely"
-	next "seen, it becomes"
-	next "easier to spot,"
+	db   "Obwohl man es nur"
+	next "selten sieht,"
+	next "trifft man es"
 
-	page "for some reason,"
-	next "on the night of a "
-	next "full moon.@"
+	page "häufiger, wenn"
+	next "des Nachts der"
+	next "Vollmond scheint.@"

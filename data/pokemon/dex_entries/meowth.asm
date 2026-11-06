@@ -1,10 +1,10 @@
-	db "SCRATCHCAT@" ; species name
+	db "KATZE@" ; species name
 	dw 104, 90 ; height, weight
 
-	db   "It loves things"
-	next "that sparkle. When"
-	next "it sees a shiny"
+	db   "Schimmernde Dinge"
+	next "faszinieren es."
+	next "Findet es etwas"
 
-	page "object, the gold"
-	next "coin on its head"
-	next "shines too.@"
+	page "Schimmerndes, "
+	next "leuchtet die Münze"
+	next "an seinem Kopf.@"

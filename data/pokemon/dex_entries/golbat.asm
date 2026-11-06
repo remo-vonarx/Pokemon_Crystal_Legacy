@@ -1,10 +1,10 @@
-	db "BAT@" ; species name
+	db "FLEDERMAUS@" ; species name
 	dw 503, 1210 ; height, weight
 
-	db   "When it plunges"
-	next "its fangs into its"
-	next "prey, it instantly"
+	db   "Wenn seine spitzen"
+	next "Zähne die Beute"
+	next "durchbohren, saugt"
 
-	page "draws and gulps"
-	next "down more than ten"
-	next "ounces of blood.@"
+	page "es ihr sofort mehr"
+	next "als 300 ml Blut"
+	next "aus.@"

@@ -1,10 +1,10 @@
-	db "FAIRY@" ; species name
+	db "FEE@" ; species name
 	dw 407, 1070 ; height, weight
 
-	db   "It can make most"
-	next "any #MON run"
-	next "away simply by"
+	db   "Es kann fast jedes"
+	next "#MON vertrei-"
+	next "ben, indem es sein"
 
-	page "opening its mouth"
-	next "wide to reveal its"
-	next "big fangs.@"
+	page "Maul weit öffnet"
+	next "und seine scharfen"
+	next "Reißzähne zeigt.@"

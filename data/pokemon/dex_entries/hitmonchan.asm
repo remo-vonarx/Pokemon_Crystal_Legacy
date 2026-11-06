@@ -1,10 +1,10 @@
-	db "PUNCHING@" ; species name
+	db "PUNCHER@" ; species name
 	dw 407, 1110 ; height, weight
 
-	db   "To increase the"
-	next "strength of all"
-	next "its punch moves,"
+	db   "Um seine Schlag-"
+	next "kraft noch zu er-"
+	next "höhen, wirbelt es"
 
-	page "it spins its arms"
-	next "just before making"
-	next "contact.@"
+	page "kurz, bevor es"
+	next "zuschlägt, mit"
+	next "seinen Armen.@"
