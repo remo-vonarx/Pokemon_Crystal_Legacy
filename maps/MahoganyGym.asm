@@ -310,40 +310,42 @@ PryceText_CherishYourPokemon:
 	done
 
 PryceRematchText:
-	text "Ah, JOHTO"
-    line "CHAMPION!"
+	text "Ah, JOHTO-CHAMP!"
 
-    para "Your skills"
-    line "are indeed"
-    cont "remarkable."
+	para "Dein Können ist"
+	line "wahrlich"
+	cont "bemerkenswert."
 
-    para "I am impressed."
+	para "Ich bin beein-"
+	line "druckt."
 
-    para "But even now,"
-    line "there is much"
-    cont "to learn from"
-    cont "each other."
+	para "Aber auch jetzt"
+	line "können wir noch"
+	cont "viel voneinander"
+	cont "lernen."
 
-    para "I, NORBERT--the"
-    line "winter trainer--"
+	para "Ich, NORBERT,"
+	line "der Lehrer der"
+	cont "Härte des Winters,"
 
-    para "still have a"
-    line "few tricks left."
+	para "kenne noch ein"
+	line "paar Tricks."
 
-    para "Want to have a"
-    line "rematch with me?"
+	para "Willst Du eine"
+	line "Revanche?"
 	done
 
 Pryce_RematchDefeatText:
-	text "Ah, yet again I'm"
-	line "impressed by your"
-	cont "prowess."
+	text "Ich bin erneut von"
+	line "Deinem Können"
+	cont "beeindruckt."
 
-	para "With your strong"
-	line "will, I know you"
+	para "Mit Deinem starken"
+	line "Willen wirst Du"
 
-	para "will overcome all"
-	line "life's obstacles."
+	para "alle Widrigkeiten"
+	line "in Deinem Leben"
+	cont "überstehen."
 	done
 
 BoarderRonaldSeenText:
@@ -462,24 +464,27 @@ SkierClarissaAfterBattleText:
 	done
 
 MahoganyGymGuideText:
-	text "NORBERT is a"
-	line "veteran who has"
-	cont "trained"
+	text "NORBERT ist ein"
+	line "Veteran, der seine"
 
-	para "#MON for some"
-	line "50 years."
+	para "#MON schon"
+	line "seit fast 50 Jah-"
+	cont "ren trainiert."
 
-	para "He's got a solid"
-	line "lineup of #MON"
+	para "Er hat ein solides"
+	line "Team aus #MON,"
 
-	para "to cover whatever"
-	line "you bring his way."
+	para "die gegen alles"
+	line "bestehen, was Du"
+	cont "ihm entgegen-"
+	cont "stellst."
 
-	para "Fire is a good"
-	line "place to start,"
+	para "Feuer ist ein"
+	line "guter Anfang,"
 
-	para "but watch out"
-	line "for the rain!"
+	para "aber nimm Dich"
+	line "vor dem Regen"
+	cont "in acht!"
 	done
 
 MahoganyGymGuideWinText:
