@@ -102,32 +102,32 @@ PrintPage2:
 
 GBPrinterStrings: ; used only for BANK(GBPrinterStrings)
 GBPrinterString_Null: db "@"
-GBPrinterString_CheckingLink: next " CHECKING LINK...@"
-GBPrinterString_Transmitting: next "  TRANSMITTING...@"
-GBPrinterString_Printing: next "    PRINTING...@"
+GBPrinterString_CheckingLink: next "   PRÜFE LINK...@"
+GBPrinterString_Transmitting: next "   ÜBERTRAGUNG@"
+GBPrinterString_Printing: next "     DRUCKEN@"
 GBPrinterString_PrinterError1:
-	db   " Printer Error 1"
+	db   " Druckerfehler 1"
 	next ""
-	next "Check the Game Boy"
-	next "Printer Manual."
+	next " Lies das GAME BOY"
+	next " PRINTER-Handbuch."
 	db   "@"
 GBPrinterString_PrinterError2:
-	db   " Printer Error 2"
+	db   " Druckerfehler 2"
 	next ""
-	next "Check the Game Boy"
-	next "Printer Manual."
+	next " Lies das GAME BOY"
+	next " PRINTER-Handbuch."
 	db   "@"
 GBPrinterString_PrinterError3:
-	db   " Printer Error 3"
+	db   " Druckerfehler 3"
 	next ""
-	next "Check the Game Boy"
-	next "Printer Manual."
+	next " Lies das GAME BOY"
+	next " PRINTER-Handbuch."
 	db   "@"
 GBPrinterString_PrinterError4:
-	db   " Printer Error 4"
+	db   " Druckerfehler 4"
 	next ""
-	next "Check the Game Boy"
-	next "Printer Manual."
+	next " Lies das GAME BOY"
+	next " PRINTER-Handbuch."
 	db   "@"
 
 PrintPartyMonPage1:
@@ -203,7 +203,7 @@ PrintPartyMonPage1:
 	ld de, wTempMonID
 	lb bc, PRINTNUM_LEADINGZEROS | 2, 5
 	call PrintNum
-	hlcoord 1, 14
+	hlcoord 1, 13
 	ld de, PrintParty_MoveString
 	call PlaceString
 	hlcoord 7, 14
@@ -329,17 +329,17 @@ PrintParty_OTString:
 	db "OT/@"
 
 PrintParty_MoveString:
-	db "MOVE@"
+	db "ATTACKE/@"
 
 PrintParty_IDNoString:
 	db "<ID>№.@"
 
 PrintParty_StatsString:
-	db   "ATTACK"
-	next "DEFENSE"
-	next "SPCL.ATK"
-	next "SPCL.DEF"
-	next "SPEED"
+	db   "ANGR"
+	next "VER"
+	next "SPEZ.ANG"
+	next "SPEZ.VER"
+	next "INIT"
 	db   "@"
 
 PrintParty_NoMoveString:
