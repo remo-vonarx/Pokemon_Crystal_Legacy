@@ -104,9 +104,9 @@ DisplayMoneyAndCoinBalance:
 	ret
 
 MoneyString:
-	db "MONEY@"
+	db "GELD@"
 CoinString:
-	db "COIN@"
+	db "MÜNZEN@"
 ShowMoney_TerminatorString:
 	db "@"
 
@@ -145,7 +145,7 @@ StartMenu_PrintSafariGameStatus: ; unreferenced
 StartMenu_DrawBugContestStatusBox:
 	hlcoord 0, 0
 	ld b, 5
-	ld c, 17
+	ld c, 18
 	call Textbox
 	ret
 
@@ -173,7 +173,7 @@ StartMenu_PrintBugContestStatus:
 	call GetPokemonName
 
 .no_contest_mon
-	hlcoord 8, 1
+	hlcoord 9, 1
 	call PlaceString
 	ld a, [wContestMon]
 	and a
@@ -196,11 +196,11 @@ StartMenu_PrintBugContestStatus:
 .BallsJPString: ; unreferenced
 	db "ボール　　　こ@"
 .CaughtString:
-	db "CAUGHT@"
+	db "BESITZ:@"
 .BallsString:
-	db "BALLS:@"
+	db "BÄLLE:@"
 .NoneString:
-	db "None@"
+	db "KEINE@"
 .LevelString:
 	db "LEVEL@"
 
