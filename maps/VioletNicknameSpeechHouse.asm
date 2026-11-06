@@ -24,18 +24,18 @@ VioletNicknameSpeechHouseBirdScript:
 	end
 
 VioletNicknameSpeechHouseTeacherText:
-	text "She uses the names"
-	line "of her favorite"
-	cont "things to eat."
+	text "Sie verwendet die"
+	line "Namen ihrer Lieb-"
+	cont "lingsspeisen,"
 
-	para "For the nicknames"
-	line "she gives to her"
-	cont "#MON, I mean."
+	para "als Spitznamen für"
+	line "ihre #MON,"
+	cont "meine ich."
 	done
 
 VioletNicknameSpeechHouseLassText:
-	text "I call my TAUBSI"
-	line "ERDBEERE!"
+	text "Ich nenne mein"
+	line "TAUBSI ERDBEERE!"
 	done
 
 VioletNicknameSpeechHouseBirdText:
