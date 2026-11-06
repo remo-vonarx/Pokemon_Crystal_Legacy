@@ -340,27 +340,28 @@ JanineText_ApplyMyself:
 JanineRematchText:
 	text "Fufufufu…"
 
-	para "Wow, you did it!"
+	para "Wow, Du hast es"
+	line "geschafft!"
 
-	para "You're the KANTO"
-	line "CHAMPION now!"
+	para "Du bist jetzt"
+	line "KANTO-CHAMP!"
 
-	para "I'm so proud of"
-	line "you! But don't"
-	cont "think I'll go easy"
-	cont "on you."
+	para "Ich bin so stolz"
+	line "auf Dich! Aber"
+	cont "glaube nicht, daß"
+	cont "ich Dich schone."
 
-	para "Want to have a"
-	line "rematch with me?"
+	para "Willst Du eine"
+	line "Revanche?"
 	done
 
 Janine_RematchDefeatText:
-	text "JANINA: You're"
-	line "still just as"
-	cont "tough!"
+	text "JANINA: Du bist"
+	line "immer noch recht"
+	cont "stark!"
 
-	para "You definitely"
-	line "won…"
+	para "Ein klarer Sieg"
+	line "für Dich…"
 	done
 
 LassAliceBeforeText:
