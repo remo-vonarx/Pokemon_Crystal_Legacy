@@ -1375,9 +1375,9 @@ PokegearPhoneContactSubmenu:
 .CallDeleteCancelStrings:
 	dwcoord 10, 6
 	db 3
-	db   "CALL"
-	next "DELETE"
-	next "CANCEL"
+	db   "ANRUF"
+	next "LÖSCHEN"
+	next "ZURÜCK"
 	db   "@"
 
 .CallDeleteCancelJumptable:
@@ -1388,8 +1388,8 @@ PokegearPhoneContactSubmenu:
 .CallCancelStrings:
 	dwcoord 10, 8
 	db 2
-	db   "CALL"
-	next "CANCEL"
+	db   "ANRUF"
+	next "ZURÜCK"
 	db   "@"
 
 .CallCancelJumptable:
@@ -1737,7 +1737,7 @@ LoadStation_BuenasPassword:
 	ld de, BuenasPasswordName
 	ret
 
-BuenasPasswordName:    db "BUENA'S PASSWORD@"
+BuenasPasswordName:    db "BUENAs PASSWORT@"
 NotBuenasPasswordName: db "@"
 
 LoadStation_UnownRadio:
@@ -2304,7 +2304,7 @@ TownMapBubble:
 	ret
 
 .Where:
-	db "Where?@"
+	db "WO?@"
 
 .Name:
 ; We need the map location of the default flypoint
@@ -2592,7 +2592,7 @@ Pokedex_GetArea:
 	call ByteFill
 	ld [hl], $17
 	call GetPokemonName
-	hlcoord 2, 0
+	hlcoord 1, 0
 	call PlaceString
 	ld h, b
 	ld l, c
@@ -2616,7 +2616,7 @@ Pokedex_GetArea:
 	ret
 
 .String_SNest:
-	db "'S NEST@"
+	db " FUNDORT@"
 
 .GetAndPlaceNest:
 	ld [wTownMapCursorLandmark], a

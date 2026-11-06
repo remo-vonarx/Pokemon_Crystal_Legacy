@@ -13,5 +13,5 @@ NonTrainerCallerNames:
 .mom:      db "MAMA:@"
 .bill:     db "BILL:@"
 .elm:      db "PROF LIND:@"
-.bikeshop: db "BIKE SHOP:@"
+.bikeshop: db "FAHRRADLADEN:@"
 .buena:    db "BUENA:<LF>   DISC JOCKEY@"
