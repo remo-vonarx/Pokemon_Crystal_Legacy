@@ -207,30 +207,29 @@ Text_HereTeacherIAm:
 	done
 
 VioletCityLassText:
-	text "Ghosts are rumored"
-	line "to appear in"
-	cont "KNOFENSA-TURM."
+	text "Man sagt, daß im"
+	line "KNOFENSA-TURM"
+	cont "Geister umgehen."
 
-	para "They say that"
-	line "GHOST-type moves"
+	para "Geist-Attacken"
+	line "sollen die Vertei-"
+	cont "digung zäher"
 
-	para "can bypass the"
-	line "defenses of"
-	
-	para "tough #MON like"
-	line "ONIX and"
-	cont "KLEINSTEIN."
+	para "#MON wie ONIX"
+	line "und KLEINSTEIN"
+	cont "umgehen können."
 	done
 
 VioletCitySuperNerdText:
-	text "Hey, you're a"
-	line "#MON trainer?"
+	text "Hey, bist Du ein"
+	line "#MON-Trainer?"
 
-	para "If you head to"
-	line "the ACADEMY,"
+	para "Wenn Du zur"
+	line "AKADEMIE gehst,"
 
-	para "you might learn"
-	line "something new!"
+	para "lernst Du"
+	line "vielleicht etwas"
+	cont "Neues!"
 	done
 
 VioletCityGrampsText:

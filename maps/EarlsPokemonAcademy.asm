@@ -230,145 +230,149 @@ AcademyEarlTeachHowToRaiseWellText:
 	done
 
 AcademyEarlNoMoreToTeachText:
-	text "Oh! Smart student"
-	line "you are! Nothing"
-	cont "more do I teach!"
+	text "Oh! Du bist eine"
+	line "schlaue Schüler!"
+	cont "Isch kann Dir nun"
+	cont "nischts mehr bei-"
+	cont "bringen."
 
-	para "If you want more"
-	line "talk to pupils!"
+	para "Willst Du mehr,"
+	line "frag die Schüler!"
 	done
 
 EarlsPokemonAcademyYoungster1Text:
-	text "#MON previously"
-	line "thought to only"
-	cont "evolve through"
+	text "Manche #MON,"
+	line "die sich angeb-"
+	cont "lich nur durch"
+	cont "Tausch entwickeln,"
 
-	para "trade can evolve"
-	line "through leveling."
+	para "entwickeln sich"
+	line "auch durch Level-"
+	cont "aufstieg."
 
-	para "MASCHOCK and"
-	line "GEOROK evolve"
-	cont "at LVL 38, while"
-	
-	para "KADABRA and"
-	line "ALPOLLO evolve"
-	cont "at LVL 42."
+	para "MASCHOCK und"
+	line "GEOROK ent-"
+	cont "wickeln sich mit"
+	cont "Level 38,"
 
-	para "Some items, like"
-	line "the METAL COAT,"
-	
-	para "have also been"
-	line "found to evolve"
-	cont "certain #MON"
-	
-	para "similarly to"
-	line "evolution stones."
-	
-	para "A BRICK PIECE"
-	line "given to a"
-	cont "RABAUZ has led"
-	
-	para "to a new #MON"
-	line "discovery."
+	para "KADABRA und"
+	line "ALPOLLO mit"
+	cont "Level 42."
+
+	para "Auch Items wie"
+	line "METALLMANTEL"
+
+	para "entwickeln be-"
+	line "stimmte #MON,"
+
+	para "ähnlich wie"
+	line "Entwicklungs-"
+	cont "steine."
+
+	para "Ein ZIEGELSTEIN,"
+	line "den ein RABAUZ"
+	cont "trug, führte"
+
+	para "zur Entdeckung"
+	line "eines neuen"
+	cont "#MON."
 	done
 
 EarlsPokemonAcademyGameboyKid1Text:
-	text "The newly discov-"
-    line "ered DARK-type"
-    cont "deals physical"
-    cont "damage."
+	text "Der neu entdeckte"
+	line "Typ Unlicht macht"
+	cont "physischen"
+	cont "Schaden."
 
-    para "The GHOST-type"
-    line "deals special"
-    cont "damage."
+	para "Der Typ Geist"
+	line "macht Spezial-"
+	cont "Schaden."
 
-    para "The move SPIKE"
-    line "CANNON, once"
-    cont "thought to be a"
+	para "DORNKANONE galt"
+	line "einst als Normal-"
+	cont "Attacke,"
 
-    para "NORMAL-type move,"
-    line "is actually a"
-    cont "STEEL-type move."
-    done
+	para "ist aber in Wahr-"
+	line "heit eine Stahl-"
+	cont "Attacke."
+	done
 
 EarlsPokemonAcademyGameboyKid2Text:
-	text "As trainers ex-"
-	line "pand their skills,"
+	text "Trainer erweitern"
+	line "ihre Fähigkeiten,"
 
-	para "Many moves are now"
-    line "more accurate than"
-    cont "previously known,"
+	para "und viele Atta-"
+	line "cken sind jetzt"
+	cont "genauer, als man"
+	cont "früher dachte."
 
-	para "and some that were"
-    line "once thought to be"
-	cont "underpowered have"
+	para "Andere, die als"
+	line "zu schwach galten,"
 
-    para "seen increases"
-    line "to their power."
-	
-	para "Most notably, the"
-    line "BUG-type is now"
-    cont "far more viable in"
-    cont "battle."
+	para "haben an Stärke"
+	line "gewonnen."
 
-    para "The FIGHTING-type"
-    line "has also improved"
-    cont "dramatically over"
+	para "Vor allem der Typ"
+	line "Käfer ist im Kampf"
+	cont "viel brauchbarer"
+	cont "geworden."
 
-    para "the last three"
-    line "years."
-    done
+	para "Auch der Typ Kampf"
+	line "hat sich in den"
+
+	para "letzten drei"
+	line "Jahren stark"
+	cont "verbessert."
+	done
 
 EarlsPokemonAcademyYoungster2Text:
-	text "As #MON"
-	line "continue to grow,"
-	cont "as do their stats."
-	
-	para "While still rec-"
-    line "ognizable, some"
-    cont "#MON once"
-	
-	para "thought to be"
-    line "nonviable have"
-    cont "seen small stat"
-	
-	para "increases of"
-    line "5-20 base points."
+	text "Wenn #MON"
+	line "wachsen, wachsen"
+	cont "auch ihre Werte."
 
-	para "ARIADOS in par-"
-    line "ticular has become"
-	cont "much faster, with"
+	para "Manche #MON,"
+	line "die als schwach"
+	cont "galten,"
 
-	para "a new base SPEED"
-    line "stat of 80."
+	para "sind noch zu er-"
+	line "kennen, haben aber"
+	cont "5-20 Basispunkte"
+	cont "dazugewonnen."
 
-    para "Many #MON can"
-    line "learn moves they"
-    cont "couldn't before."
+	para "Besonders ARIADOS"
+	line "ist viel schneller"
+	cont "geworden: Sein"
 
-	para "Now, nearly all"
-	line "#MON learn"
-	cont "multiple moves of"
+	para "neuer Basiswert"
+	line "für INIT ist 80."
 
-	para "its own type via"
-    line "level-up."
-	
-	para "Many also seem"
-	line "to be learning"
-	cont "moves sooner"
-	
-	para "than they once"
-	line "did."
-	
-	para "Be aware that your"
-    line "opponents now use"
-    cont "teams with better"
-    cont "type coverage,"
+	para "Viele #MON"
+	line "lernen Attacken,"
+	cont "die sie früher"
+	cont "nicht konnten."
 
-    para "so expect a much"
-    line "more challenging"
-    cont "journey ahead."
-    done
+	para "Fast alle #MON"
+	line "lernen nun durch"
+	cont "Levelaufstieg"
+
+	para "mehrere Attacken"
+	line "ihres eigenen"
+	cont "Typs."
+
+	para "Viele scheinen sie"
+	line "auch früher zu"
+	cont "lernen."
+
+	para "Deine Gegner haben"
+	line "jetzt Teams mit"
+	cont "besserer Typen-"
+	cont "abdeckung,"
+
+	para "also stelle Dich"
+	line "auf eine deutlich"
+	cont "schwerere Reise"
+	cont "ein."
+	done
 
 AcademyBlackboardText:
 	text "Auf der Tafel wer-"

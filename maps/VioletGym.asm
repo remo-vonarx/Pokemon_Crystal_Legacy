@@ -242,29 +242,32 @@ FalknerFightDoneText:
 	done
 
 FalknerRematchText:
-	text "Congratulations"
-	line "on defeating the"
-	cont "ELITE 4!"
+	text "Glückwunsch zum"
+	line "Sieg über die"
+	cont "TOP VIER!"
 
-	para "I've been training"
-	line "my FLYING-type"
-	cont "#MON even"
-	cont "harder."
+	para "Ich habe meine"
+	line "FLUG-#MON noch"
+	cont "härter trainiert."
 
-	para "Think you can take"
-	line "on the power of"
-	cont "the skies again?"
+	para "Kannst Du es noch"
+	line "einmal mit der"
+
+	para "Macht des Himmels"
+	line "aufnehmen?"
 	done
 
 Falkner_RematchDefeatText:
-	text "Wow…"
-	line "You beat me again."
+	text "Wow… Du hast mich"
+	line "wieder besiegt."
 
-	para "I'm going to train"
-	line "harder to become"
+	para "Ich werde noch"
+	line "härter trainieren,"
 
-	para "the greatest bird"
-	line "master!"
+	para "um der größte"
+	line "Vogel-Experte"
+	cont "aller Zeiten zu"
+	cont "werden!"
 	done
 
 BirdKeeperRodSeenText:
@@ -316,47 +319,50 @@ BirdKeeperAbeAfterBattleText:
 	done
 
 VioletGymGuideText:
-	text "Hey! What's up?"
-	line "I'm no trainer,"
-	
-	para "but I can give"
-	line "some advice!"
+	text "Hey! Zwar bin ich"
+	line "kein Trainer, aber"
+	cont "ich kann Dir gute"
+	cont "Tipps geben!"
 
-	para "Believe me!"
-	line "If you believe, a"
+	para "Glaube mir!"
+	line "Wenn Du es tust,"
 
-	para "championship dream"
-	line "can come true."
+	para "kann Dein Traum"
+	line "von der Meister-"
+	cont "schaft in Erfül-"
+	cont "lung gehen."
 
-	para "You believe?"
-	line "Then listen."
-	
-	para "FALK's ace"
-	line "is a bulky owl"
-	
-	para "that loves to"
-	line "eat BERRIES."
-	
-	para "While it's not"
-	line "the strongest,"
-	
-	para "it can take a"
-	line "lot of hits."
-	
-	para "You can hurt it"
-	line "with ELECTRIC- and"
-	cont "ROCK-type moves,"
-	
-	para "but watch out for"
-	line "MUD-SLAP!"
-	
-	para "If you want more"
-	line "help, go visit the"
-	cont "#MON ACADEMY."
-	
-	para "The students there"
-	line "really know their"
-	cont "stuff!"
+	para "Du glaubst mir?"
+	line "Dann paß auf!"
+
+	para "FALKs Trumpf ist"
+	line "eine stämmige"
+	cont "Eule,"
+
+	para "die gerne BEEREN"
+	line "frißt."
+
+	para "Sie ist nicht die"
+	line "Stärkste,"
+
+	para "aber sie steckt"
+	line "viel ein."
+
+	para "Elektro- und"
+	line "Gestein-Attacken"
+	cont "schaden ihr,"
+
+	para "aber paß auf"
+	line "LEHMSCHELLE auf!"
+
+	para "Wenn Du mehr Hilfe"
+	line "brauchst, besuche"
+	cont "die #MON-"
+	cont "AKADEMIE."
+
+	para "Die Schüler dort"
+	line "kennen sich"
+	cont "wirklich aus!"
 	done
 
 VioletGymGuideWinText:
