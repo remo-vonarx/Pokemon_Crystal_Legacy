@@ -159,7 +159,7 @@ GoldenrodGameCornerTMVendorMenuHeader:
 	db "TM25    5500@"
 	db "TM14    5500@"
 	db "TM38    5500@"
-	db "CANCEL@"
+	db "ZURÜCK@"
 
 GoldenrodGameCornerPrizeMonVendorScript:
 	faceplayer
@@ -245,7 +245,7 @@ GoldenrodGameCornerPrizeMonVendorScript:
 	db "ABRA       100@"
 	db "PORYGON    800@"
 	db "DRATINI    1500@"
-	db "CANCEL@"
+	db "ZURÜCK@"
 
 GoldenrodGameCornerPharmacistScript:
 	faceplayer
