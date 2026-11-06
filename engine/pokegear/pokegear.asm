@@ -1870,15 +1870,15 @@ NoRadioName:
 	call Textbox
 	ret
 
-OaksPKMNTalkName:     db "EICH's <PK><MN> Talk@"
+OaksPKMNTalkName:     db "EICHs <PK><MN>-Talk@"
 PokedexShowName:      db "#DEX Show@"
-PokemonMusicName:     db "#MON Music@"
-LuckyChannelName:     db "Lucky Channel@"
+PokemonMusicName:     db "#MON-Musik@"
+LuckyChannelName:     db "Glückskanal@"
 UnownStationName:     db "?????@"
 
-PlacesAndPeopleName:  db "Places & People@"
-LetsAllSingName:      db "Let's All Sing!@"
-PokeFluteStationName: db "# FLUTE@"
+PlacesAndPeopleName:  db "Orte & Personen@"
+LetsAllSingName:      db "Laßt uns singen@"
+PokeFluteStationName: db "#MON-FLÖTE@"
 
 _TownMap:
 	ld hl, wOptions
