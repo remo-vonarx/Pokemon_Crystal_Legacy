@@ -461,8 +461,8 @@ KurtsHouseKurtGoAroundPlayerThenExitHouseMovement:
 	step_end
 
 KurtsHouseKurtGetStartedText:
-	text "Kurt: I'll get"
-	line "started right now!"
+	text "KURT: Ich fange"
+	line "sofort an!"
 	done
 
 KurtsHouseKurtMakingBallsMustWaitText:
@@ -706,15 +706,13 @@ KurtsHouseCelebiStatueText:
 	done
 
 KurtsHouseGSBallNoText:
-	text "This one"
-	line "could take a"
-	cont "long time."
+	text "Das hier könnte"
+	line "sehr lange dauern."
 
-	para "Are you sure"
-	line "you don't want"
-	cont "me to make"
-	cont "any more balls"
-	cont "first?"
+	para "Soll ich Dir"
+	line "vorher wirklich"
+	cont "keine BÄLLE mehr"
+	cont "machen?"
 	done
 
 KurtsHouse_MapEvents:

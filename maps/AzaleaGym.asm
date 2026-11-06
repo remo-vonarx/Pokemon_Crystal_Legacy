@@ -176,28 +176,28 @@ AzaleaGymStatue:
 	jumpstd GymStatue2Script
 
 BugsyText_INeverLose:
-	text "I'm KAI!"
-	line "I never lose when"
+	text "Ich bin KAI!"
+	line "Ich verliere nie,"
 
-	para "it comes to bug"
-	line "#MON."
+	para "wenn es um Käfer-"
+	line "#MON geht."
 
-	para "My research is"
-	line "going to make me"
+	para "Meine Forschungen"
+	line "machen mich zu ei-"
+	cont "ner Autorität auf"
+	cont "diesem Gebiet!"
 
-	para "the authority on"
-	line "bug #MON!"
-	
-	para "For example, did"
-	line "you know that"
-	
-	para "the move CUT is"
-	line "actually a BUG-"
-	cont "type move?"
-	
-	para "Let me demonstrate"
-	line "all I've learned"
-	cont "from my studies."
+	para "Wußtest Du zum"
+	line "Beispiel, daß"
+
+	para "ZERSCHNEIDER in"
+	line "Wahrheit eine"
+	cont "Käfer-Attacke ist?"
+
+	para "Laß mich demonst-"
+	line "rieren, was ich"
+	cont "alles gelernt"
+	cont "habe!"
 	done
 
 BugsyText_ResearchIncomplete:
@@ -272,31 +272,33 @@ BugsyText_BugMonsAreDeep:
 	done
 
 BugsyRematchText:
-	text "Wow, you're the"
-	line "JOHTO CHAMPION"
-	cont "now!"
+	text "Wow, Du bist jetzt"
+	line "JOHTO-CHAMP!"
 
-	para "Your skills are"
-	line "truly impressive!"
+	para "Deine Fähigkeiten"
+	line "sind wirklich"
+	cont "beeindruckend!"
 
-	para "I've been busy"
-	line "with my research."
+	para "Ich war mit meinen"
+	line "Forschungen sehr"
+	cont "beschäftigt."
 
-	para "I'm ready to"
-	line "show you my new"
-	cont "findings."
+	para "Ich zeige Dir gern"
+	line "meine neuesten"
+	cont "Erkenntnisse."
 
-	para "Want to have a"
-	line "rematch with me?"
+	para "Willst Du eine"
+	line "Revanche?"
 	done
 
 Bugsy_RematchDefeatText:
-	text "Wow, you must"
-	line "be an expert"
-	cont "trainer."
+	text "Wow, Du mußt"
+	line "ein erfahrener"
+	cont "Trainer sein."
 
-	para "My research must"
-	line "not be complete…"
+	para "Meine Forschungen"
+	line "sind wohl noch"
+	cont "nicht vollendet…"
 	done
 
 BugCatcherBennySeenText:
@@ -380,28 +382,30 @@ TwinsAmyandmay1BeatenText:
 	done
 
 TwinsAmyandmay1AfterBattleText:
-	text "EVA: You're"
-	line "really strong!"
+	text "EVA: Du bist"
+	line "wirklich stark!"
 
-	para "But KAI's even"
-	line "stronger! His"
+	para "Aber KAI ist noch"
+	line "stärker! Der ZER-"
+	cont "SCHNEIDER seines"
 
-	para "SICHLOR's CUT al-"
-	line "most always makes"
-	cont "critical hits!"
+	para "SICHLOR landet"
+	line "fast immer"
+	cont "Volltreffer!"
 	done
 
 TwinsAmyandmay2SeenText:
-	text "UTE: You want to"
-	line "see the LEADER?"
-	cont "Good luck!"
-	
-	para "KAI is so"
-	line "strong! His"
-	cont "SICHLOR's CUT"
-	
-	para "always seems to"
-	line "crit!"
+	text "UTE: Du möchtest"
+	line "zum LEITER?"
+	cont "Viel Glück!"
+
+	para "KAI ist so stark!"
+	line "Der ZERSCHNEIDER"
+	cont "seines SICHLOR"
+
+	para "scheint immer"
+	line "Volltreffer zu"
+	cont "landen!"
 	done
 
 TwinsAmyandmay2BeatenText:
@@ -410,52 +414,55 @@ TwinsAmyandmay2BeatenText:
 	done
 
 TwinsAmyandmay2AfterBattleText:
-	text "UTE: Our bug #-"
-	line "MON lost! Oh, what"
-	cont "a shame."
+	text "UTE: Unsere Käfer-"
+	line "#MON haben ver-"
+	cont "loren! Was für ei-"
+	cont "ne Schande!"
 
-	para "KAI's won't"
-	line "lose though!"
+	para "Aber die von KAI"
+	line "verlieren nicht!"
 
-	para "His TANNZA makes"
-	line "short work of"
-	cont "ROCK-type #MON!"
+	para "Sein TANNZA macht"
+	line "kurzen Prozeß mit"
+	cont "GESTEIN-#MON!"
 	done
 
 AzaleaGymGuideText:
-	text "Yo, challenger!"
+	text "Yo, Herausfor-"
+	line "derer!"
 
-	para "KAI's young, but"
-	line "his knowledge of"
+	para "KAI ist zwar jung,"
+	line "aber sein Wissen"
 
-	para "bug #MON is for"
-	line "real."
+	para "über Käfer-#-"
+	line "MON ist unüber-"
+	cont "trefflich."
 
-	para "It's going to be"
-	line "tough without my"
-	cont "advice."
+	para "Ohne meine Tipps"
+	line "wird der Kampf für"
+	cont "Dich sehr hart."
 
-	para "Let's see…"
-	line "KAI's bagworm"
-	cont "#MON knows a"
-	
-	para "move that covers"
-	line "its ROCK-type"
-	cont "weakness."
+	para "Mal sehen…"
+	line "KAIs Beutelwurm-"
+	cont "#MON kennt eine"
 
-	para "He's also devel-"
-	line "oped a new"
-	
-	para "version of CUT"
-	line "that is BUG-type."
+	para "Attacke, die seine"
+	line "Gestein-Schwäche"
+	cont "ausgleicht."
 
-	para "Oh, and don't"
-	line "forget about"
+	para "Außerdem hat er"
+	line "eine Käfer-Form"
 
-	para "those nasty"
-	line "critical hits!"
+	para "von ZERSCHNEIDER"
+	line "entwickelt!"
 
-	para "Good luck!"
+	para "Ach ja, und ver-"
+	line "giß nicht diese"
+
+	para "fiesen Voll-"
+	line "treffer!"
+
+	para "Viel Glück!"
 	done
 
 AzaleaGymGuideWinText:
