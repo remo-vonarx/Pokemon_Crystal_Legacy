@@ -8,7 +8,7 @@ ChrisNameMenuHeader:
 .MaleNames:
 	db STATICMENU_CURSOR | STATICMENU_PLACE_TITLE | STATICMENU_DISABLE_B ; flags
 	db 5 ; items
-	db "NEW NAME@"
+	db "NAME@"
 MalePlayerNameArray:
 	db "GOLD@"
 	db "ARNOLD@"
@@ -27,7 +27,7 @@ KrisNameMenuHeader:
 .FemaleNames:
 	db STATICMENU_CURSOR | STATICMENU_PLACE_TITLE | STATICMENU_DISABLE_B ; flags
 	db 5 ; items
-	db "NEW NAME@"
+	db "NAME@"
 FemalePlayerNameArray:
 	db "KRISTA@"
 	db "SINA@"
