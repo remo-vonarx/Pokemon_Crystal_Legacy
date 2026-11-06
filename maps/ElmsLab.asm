@@ -735,19 +735,20 @@ AfterChikoritaMovement:
 
 ElmText_Intro:
 	text "LIND: <PLAY_G>!"
-	line "There you are!"
+	line "Da bist Du ja!"
 
-	para "I needed to ask"
-	line "you a favor."
+	para "Ich muß Dich um"
+	line "etwas bitten."
 
-	para "I'm conducting new"
-	line "#MON research"
+	para "Ich führe gerade"
+	line "neue #MON-"
+	cont "Forschungen durch."
 
-	para "right now. I was"
-	line "wondering if you"
+	para "Ich habe mich ge-"
+	line "fragt, ob Du mir"
 
-	para "could help me with"
-	line "it, <PLAY_G>."
+	para "dabei hilfst,"
+	line "<PLAY_G>."
 	done
 
 ElmText_Accepted:
@@ -787,30 +788,37 @@ ElmText_GotAnEmail:
 	done
 
 ElmText_MissionFromMrPokemon:
-	text "Hey, listen."
+	text "Hör gut zu!"
 
-	para "I have an acquain-"
-	line "tance called MR."
+	para "Ich habe einen Be-"
+	line "kannten namens MR."
 	cont "#MON."
 
-	para "Anyway, I just got"
-	line "an e-mail from him"
+	para "Er hat mir eine"
+	line "E-Mail geschickt,"
 
-	para "saying that this"
-	line "time it's real."
+	para "in der steht, daß"
+	line "es sich diesmal"
 
-	para "It is intriguing,"
-	line "but we're busy"
+	para "um etwas Großes"
+	line "handeln muß."
 
-	para "with our #MON"
-	line "research…"
+	para "Das klingt zwar"
+	line "faszinierend, aber"
 
-	para "Wait!"
+	para "wir sind derzeit"
+	line "mitten in unseren"
 
-	para "I know!"
+	para "eigenen #MON-"
+	line "Forschungen."
 
-	para "<PLAY_G>, can you"
-	line "go in our place?"
+	para "Moment!"
+
+	para "Ich hab's!"
+
+	para "<PLAY_G>, könntest"
+	line "Du der Sache"
+	cont "nachgehen?"
 	done
 
 ElmText_ChooseAPokemon:
@@ -905,11 +913,12 @@ ElmDirectionsText1:
 	done
 
 ElmDirectionsText2:
-	text "If your #MON is"
-	line "hurt, you should"
+	text "Ist Dein #MON"
+	line "verletzt, solltest"
 
-	para "heal it with this"
-	line "machine."
+	para "Du es mit Hilfe"
+	line "dieser Maschine"
+	cont "heilen."
 	done
 
 ElmDirectionsText3:
@@ -978,41 +987,53 @@ ElmAfterTheftText4:
 	done
 
 ElmAfterTheftText5:
-	text "LIND: What?!?"
+	text "LIND: Wie?!?"
 
-	para "PROF EICH gave you"
-	line "a #DEX?"
+	para "PROF EICH hat Dir"
+	line "einen #DEX"
+	cont "gegeben?"
 
-	para "<PLAY_G>, is that"
-	line "true? Th-that's"
-	cont "incredible!"
+	para "<PLAY_G>, ist das"
+	line "wahr? D-Das ist ja"
+	cont "unglaublich!"
 
-	para "The #DEX shows"
-	line "how #MON evolve"
-	cont "and learn moves."
+	para "Der #DEX zeigt,"
+	line "wie sich #MON"
+	cont "entwickeln und"
+	cont "Attacken lernen."
 
-	para "He is superb at"
-	line "seeing the poten-"
-	cont "tial of people as"
-	cont "trainers."
+	para "Kein anderer ist"
+	line "wie er in der"
 
-	para "Wow, <PLAY_G>. You"
-	line "may have what it"
+	para "Lage, das wahre"
+	line "Potenzial eines"
 
-	para "takes to become"
-	line "the CHAMPION."
+	para "Trainers zu er-"
+	line "kennen."
 
-	para "You seem to be"
-	line "getting on great"
-	cont "with #MON too."
+	para "Wow, <PLAY_G>. Es"
+	line "ist vielleicht"
 
-	para "You should take"
-	line "the #MON GYM"
-	cont "challenge."
+	para "Deine Bestimmung,"
+	line "der CHAMP zu"
+	cont "werden."
 
-	para "The closest GYM"
-	line "would be the one"
-	cont "in VIOLA CITY."
+	para "Es sieht auch so"
+	line "aus, als könntest"
+
+	para "Du hervorragend"
+	line "mit #MON um-"
+	cont "gehen."
+
+	para "Du solltest die"
+	line "Herausforderung"
+
+	para "der PKMN-ARENEN"
+	line "annehmen."
+
+	para "Die nächste PKMN-"
+	line "ARENA befindet"
+	cont "sich in VIOLA."
 	done
 
 ElmAfterTheftText6:
@@ -1111,22 +1132,26 @@ ElmGiveEverstoneText1:
 	done
 
 ElmGiveEverstoneText2:
-	text "That's an"
-	line "EVERSTONE."
+	text "Das ist ein"
+	line "EWIGSTEIN."
 
-	para "Some species of"
-	line "#MON evolve"
+	para "Einige #MON"
+	line "entwickeln sich"
 
-	para "when they grow to"
-	line "certain levels."
+	para "weiter, wenn sie"
+	line "einen bestimmten"
+	cont "Level erreichen."
 
-	para "A #MON holding"
-	line "the EVERSTONE"
-	cont "won't evolve."
+	para "Ein #MON,"
+	line "das den EWIGSTEIN"
+	cont "trägt, wird sich"
+	cont "aber nicht ent-"
+	cont "wickeln."
 
-	para "Give it to a #-"
-	line "MON you don't want"
-	cont "to evolve yet."
+	para "Gib ihn einem"
+	line "#MON, das sich"
+	cont "noch nicht"
+	cont "entwickeln soll!"
 	done
 
 ElmText_CallYou:
@@ -1207,30 +1232,33 @@ ElmGiveTicketText1:
 	done
 
 ElmGiveTicketText2:
-	text "The ship departs"
-	line "from OLIVIANA"
-	cont "CITY."
+	text "Das Schiff legt in"
+	line "OLIVIANA CITY ab."
 
-	para "But you knew that"
-	line "already, <PLAY_G>."
+	para "Aber das weißt Du"
+	line "ja schon, <PLAY_G>."
 
-	para "After all, you've"
-	line "traveled all over"
-	cont "with your #MON."
+	para "Schließlich bist"
+	line "Du mit Deinen"
 
-	para "Before you go,"
-	line "feel free to"
-	cont "challenge the"
+	para "#MON schon"
+	line "viel herumge-"
+	cont "kommen."
 
-	para "GYM LEADERS of"
-	line "JOHTO again!"
+	para "Bevor Du gehst,"
+	line "kannst Du die"
 
-	para "This time they"
-	line "won't hold back."
+	para "ARENALEITER von"
+	line "JOHTO erneut"
+	cont "herausfordern!"
 
-	para "Give my regards to"
+	para "Diesmal halten"
+	line "sie sich nicht"
+	cont "zurück."
+
+	para "Überbringe"
 	line "PROF EICH in"
-	cont "KANTO!"
+	cont "KANTO meine Grüße!"
 	done
 
 ElmsLabMonEggText: ; unreferenced

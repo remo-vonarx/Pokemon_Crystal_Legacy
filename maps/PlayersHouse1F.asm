@@ -221,24 +221,26 @@ MomWalksBackMovement:
 
 ElmsLookingForYouText:
 	text "Oh, <PLAYER>…!"
-	line "Our neighbor,"
-	cont "PROF LIND"
+	line "Unser Nachbar,"
+	cont "PROF LIND,"
 
-	para "was looking for"
-	line "you. Also, your"
+	para "hat nach Dir ge-"
+	line "sucht. Übrigens,"
 
-	para "#GEAR is back"
-	line "from the shop."
+	para "Dein #COM ist"
+	line "von der Reparatur"
+	cont "zurück."
 
-	para "Here you go!"
+	para "Da hast Du ihn!"
 	done
 
 MomGivesPokegearText:
-	text "Oh, the day of the"
-	line "week isn't set."
+	text "Oh, der Wochentag"
+	line "ist noch nicht"
+	cont "eingestellt."
 
-	para "You mustn't forget"
-	line "that!"
+	para "Das darfst Du"
+	line "nicht vergessen!"
 	done
 
 IsItDSTText:
@@ -247,14 +249,16 @@ IsItDSTText:
 	done
 
 ComeHomeForDSTText:
-	text "By the way, do you"
-	line "know how to use"
-	cont "the PHONE?"
+	text "Übrigens, weißt Du"
+	line "über den Umgang"
+	cont "mit dem TELEFON"
+	cont "Bescheid?"
 	done
 
 KnowTheInstructionsText:
-	text "Great! No need to"
-	line "explain it then."
+	text "Prima! Dann muß"
+	line "ich es Dir ja"
+	cont "nicht erklären."
 	done
 
 DontKnowTheInstructionsText:
@@ -268,17 +272,20 @@ DontKnowTheInstructionsText:
 	done
 
 InstructionsNextText:
-	text "Phone numbers are"
-	line "stored in memory."
+	text "Telefonnummern"
+	line "werden gespei-"
+	cont "chert. Wähle ein-"
+	cont "fach den Namen der"
 
-	para "Just choose a name"
-	line "you want to call."
+	para "Person, die Du an-"
+	line "rufen möchtest."
 	done
 
 CanRunText:
-	text "Oh, and remember,"
-    line "you can get there"
-    cont "faster if you run!"
+	text "Oh, und denk"
+	line "daran: Du kommst"
+	cont "schneller voran,"
+	cont "wenn Du rennst!"
 	done
 
 HurryUpElmIsWaitingText:
