@@ -535,6 +535,11 @@ _OPT_IntroText3::
 	line "#MON-TALK!"
 	done
 
+_OPT_IntroText4::
+	text_start
+	line "Mit MARGIT!"
+	done
+
 _OPT_OakText1::
 	text_start
 	line "Mit MARGIT!"
