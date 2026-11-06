@@ -18,11 +18,10 @@ PlaceDiplomaOnScreen:
 	ld de, .Player
 	hlcoord 2, 5
 	call PlaceString
-	ld de, .EmptyString
-	hlcoord 15, 5
-	call PlaceString
 	ld de, wPlayerName
-	hlcoord 9, 5
+	ld h, b
+	ld l, c
+	inc hl
 	call PlaceString
 	ld de, .Certification
 	hlcoord 2, 8
@@ -36,17 +35,16 @@ PlaceDiplomaOnScreen:
 	ret
 
 .Player:
-	db "PLAYER@"
+	db "TRAINER@"
 
 .EmptyString:
 	db "@"
 
 .Certification:
-	db   "This certifies"
-	next "that you have"
-	next "completed the"
-	next "new #DEX."
-	next "Congratulations!"
+	db   "Bestätigung über"
+	next "einen kompletten"
+	next "neuen #DEX."
+	next "Gratulation!"
 	db   "@"
 
 PrintDiplomaPage2:
@@ -75,7 +73,7 @@ PrintDiplomaPage2:
 	call PrintNum
 	ret
 
-.PlayTime: db "PLAY TIME@"
+.PlayTime: db "SPIELZEIT@"
 .GameFreak: db "GAME FREAK@"
 
 DiplomaGFX:
