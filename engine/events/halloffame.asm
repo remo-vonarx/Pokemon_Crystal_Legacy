@@ -129,7 +129,7 @@ AnimateHallOfFame:
 	ret
 
 .String_NewHallOfFamer:
-	db "New Hall of Famer!@"
+	db "RH-Einsteiger@"
 
 GetHallOfFameParty:
 	ld hl, wHallOfFamePokemonList
@@ -373,7 +373,7 @@ _HallOfFamePC:
 	ld de, .TimeFamer
 	hlcoord 1, 2
 	call PlaceString
-	hlcoord 2, 2
+	hlcoord 1, 2
 	ld de, wHallOfFameTempWinCount
 	lb bc, 1, 3
 	call PrintNum
@@ -396,10 +396,10 @@ _HallOfFamePC:
 	db "@"
 
 .HOFMaster:
-	db "    HOF Master!@"
+	db "RH-Meister@"
 
 .TimeFamer:
-	db "    -Time Famer@"
+	db "   .RH-Eintrag@"
 
 LoadHOFTeam:
 	ld a, [wJumptableIndex]
@@ -565,8 +565,8 @@ HOF_AnimatePlayerPic:
 	lb bc, 4, 18
 	call Textbox
 
-	hlcoord 31, 0
-	lb bc, 2, 7
+	hlcoord 7, 0
+	lb bc, 2, 11
 	call Textbox
 
 	ld de, ENGINE_HARDCORE_MODE
@@ -584,29 +584,29 @@ HOF_AnimatePlayerPic:
 	jr .NormalMode
 
 .NormalMode:
-	hlcoord 32, 1
+	hlcoord 8, 1
 	ld de, .crystal_legacy_1
 	call PlaceString
 
-	hlcoord 32, 2
+	hlcoord 8, 2
 	ld de, .crystal_legacy_2
 	call PlaceString
 	jr .EndMode
 .HardMode:
-	hlcoord 32, 1
+	hlcoord 8, 1
 	ld de, .crystal_legacy_2
 	call PlaceString
 
-	hlcoord 32, 2
+	hlcoord 8, 2
 	ld de, .crystal_legacy_3
 	call PlaceString
 	jr .EndMode
 .HardcoreMode:
-	hlcoord 32, 1
+	hlcoord 8, 1
 	ld de, .crystal_legacy_2
 	call PlaceString
 
-	hlcoord 32, 2
+	hlcoord 8, 2
 	ld de, .crystal_legacy_4
 	call PlaceString
 .EndMode:
@@ -640,16 +640,16 @@ HOF_AnimatePlayerPic:
 	ret
 
 .PlayTime:
-	db "PLAY TIME@"
+	db "SPIELZEIT@"
 
 .crystal_legacy_1:
-	db "Crystal@"
+	db "Kristall-@"
 
 .crystal_legacy_2:
-	db "Legacy@"
+	db "Vermächtnis@"
 
 .crystal_legacy_3:
-	db "Hard@"
+	db "Schwer@"
 
 .crystal_legacy_4:
-	db "HC@"
+	db "Extrem@"
