@@ -403,13 +403,13 @@ _CGB_Pokedex_EvoPage:
 	ld a, 2 | VRAM_BANK_1 ; VRAM 1
 	call FillBoxCGB
 ; mon slot 3 types
-	hlcoord 16, 8, wAttrmap
-	lb bc, 3, 4
+	hlcoord 16, 9, wAttrmap
+	lb bc, 2, 4
 	ld a, 3 | VRAM_BANK_1 ; VRAM 1
 	call FillBoxCGB
 ; mon slot 4 types
-	hlcoord 16, 12, wAttrmap
-	lb bc, 3, 4
+	hlcoord 16, 13, wAttrmap
+	lb bc, 2, 4
 	ld a, 4 | VRAM_BANK_1 ; VRAM 1
 	call FillBoxCGB
 ; flip bottom row of sprite icon borders

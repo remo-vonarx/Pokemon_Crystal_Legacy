@@ -86,24 +86,17 @@ DisplayDexMonEvos:
 	ld a, [wCurDamage + 1] ; stage 2
 	and a
 	jr z, .normal_line
-	hlcoord 6, 4
-	ld de, .stage3_text
-	call PlaceString
 	ld b, 1 ; stage 3
 	jr .cont
 .normal_line
-	hlcoord 6, 4
-	ld de, .stage2_text
-	call PlaceString
 	ld b, 0 ; stage 2
 .cont	
-	hlcoord 6, 5
-	call EVO_sethlcoord
+	ld c, 0 ; count
+	call EVO_PlaceHeading
 	pop af ; manner of evo
 	pop hl ; manner of EVO byte
 	inc hl ; hl points to manner byte +1  
 	
-	ld c, 0 ; count
 ; get num of stage 2 evos
 ; MAIN LOOP START
 .main_loop
@@ -186,6 +179,7 @@ DisplayDexMonEvos:
 	cp 3
 	jp z, .exit_early_print_cont
 	pop af
+	call EVO_PlaceHeading
 	jr .main_loop
 .done_stage
 	xor a
@@ -235,14 +229,9 @@ DisplayDexMonEvos:
 	push hl ; manner of evo byte
 	push af ; manner of evo
 	; print Stage 3:
-	call EVO_gethlcoord
-	ld de, .stage3_text
 	inc b
-	push bc
-	call PlaceString
+	call EVO_PlaceHeading
 	call DelayFrame
-	call EVO_inchlcoord
-	pop bc
 	pop af ; manner of evo
 	pop hl ; manner of evo byte
 	inc hl ; manner of evo byte +1
@@ -269,15 +258,11 @@ DisplayDexMonEvos:
 	ld [wCurDamage + 1], a
 
 	ld de, .cont_page_text
-	hlcoord 12, 16
+	hlcoord 12, 1
 	call PlaceString
 	ret
 .stage1_text:
 	db $6b, $6c, $6d, "1@"
-.stage2_text:
-	db $6b, $6c, $6d, "2@"
-.stage3_text:
-	db $6b, $6c, $6d, "3@"
 .cont_page_text:
 	db $63, $64, $65, $66, "@"
 .doesnt_evo_text:
@@ -289,9 +274,40 @@ DisplayDexMonEvos:
 	ld [wCurDamage + 1], a
 
 	ld de, .cont_page_text
-	hlcoord 12, 16
+	hlcoord 12, 1
 	call PlaceString
 	ret
+
+EVO_PlaceHeading:
+; Each evolution has its heading on the top row of its sprite box, slot c, and
+; its name on the row below, next to the sprite. b: 0 = stage 2, 1 = stage 3.
+	push af
+	push bc
+	push de
+	push hl
+	ld de, .stage2_text
+	ld a, b
+	and a
+	jr z, .got_text
+	ld de, .stage3_text
+.got_text
+	hlcoord 6, 5
+	ld a, c
+	ld bc, 4 * SCREEN_WIDTH
+	call AddNTimes
+	call PlaceString
+	ld bc, SCREEN_WIDTH
+	add hl, bc
+	call EVO_sethlcoord
+	pop hl
+	pop de
+	pop bc
+	pop af
+	ret
+.stage2_text:
+	db $6b, $6c, $6d, "2@"
+.stage3_text:
+	db $6b, $6c, $6d, "3@"
 
 EVO_sethlcoord:
 	push af
@@ -620,6 +636,17 @@ EVO_type_gethlcoord:
 	push bc
 	push af
 	call EVO_gethlcoord
+	ld a, [wStatsScreenFlags]
+	inc a ; stage 1?
+	jr z, .got_row
+	ld a, [wBaseType1]
+	ld b, a
+	ld a, [wBaseType2]
+	cp b
+	jr z, .got_row
+	ld bc, -SCREEN_WIDTH ; two types take the heading's row and the name's
+	add hl, bc
+.got_row
 	ld b, 0
 	ld c, 11
 	add hl, bc
@@ -636,9 +663,13 @@ EVO_type2_gethlcoord:
 	ld b, 0
 	ld c, 11
 	add hl, bc
+	ld a, [wStatsScreenFlags]
+	inc a ; stage 1?
+	jr nz, .got_row
 	ld b, 0
 	ld c, SCREEN_WIDTH
 	add hl, bc
+.got_row
 	dec hl
 	pop af
 	pop bc
@@ -844,26 +875,9 @@ EVO_place_CaughtIcon:
 	call CheckCaughtMon
 	and a
 	jr z, .done
-	call EVO_gethlcoord
-	ld a, [wStatsScreenFlags]
-	cp -1
-	jr z, .stage1
-	cp 1
-	jr z, .slot3
-	cp 2
-	jr z, .slot4
-; slot 1
-	hlcoord 5, 4 ; 5, 5
-	jr .start
-.slot3
-	hlcoord 5, 8 ; 5, 9
-	jr .start
-.slot4
-	hlcoord 5, 12 ; 5, 13
-	jr .start
-.stage1
-	hlcoord 5, 1 ; 5, 2
-.start
+	call EVO_gethlcoord ; the name's row
+	ld bc, -SCREEN_WIDTH - 1 ; left of the heading above it
+	add hl, bc
 	ld [hl], $70 ; pokeball icon
 .done
 	pop af
@@ -934,7 +948,7 @@ EVO_Draw_border:
 	call GetSGBLayout
 	
 	; print b > back
-	hlcoord 16, 16
+	hlcoord 16, 1
 	ld de, .back_page_text
 	call PlaceString
 
