@@ -575,12 +575,15 @@ _HerbShopLadyIntroText::
 	text "Hallo,"
 
 	para "ich verkaufe"
-	line "seltene, wertvolle"
-	cont "Steine."
+	line "preiswerte"
+	cont "Kräutermedizin."
 
-	para "Sie sollen die"
-	line "Form von #MON"
-	cont "verändern können."
+	para "Sie wirkt, ist"
+	line "aber bitter."
+
+	para "Deine #MON"
+	line "werden sie nicht"
+	cont "mögen."
 
 	para "Hihihihi…"
 	done
