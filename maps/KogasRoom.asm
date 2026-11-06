@@ -108,23 +108,26 @@ KogaScript_KogaRematchBeforeText:
 	text "KOGA:"
 	line "Fwahahahaha!"
 
-    para "You return, brave"
-    line "challenger."
+	para "Du kehrst zurück,"
+	line "tapferer Heraus-"
+	cont "forderer."
 
-	para "My ninja skills"
-    line "have sharpened."
+	para "Meine Ninja-Künste"
+	line "sind schärfer"
+	cont "geworden."
 
-    para "New sinister traps"
-    line "await you."
+	para "Neue finstere"
+	line "Fallen warten auf"
+	cont "Dich."
 
-    para "Poison, sleep, and"
-    line "more... Be ready!"
+	para "Gift, Schlaf und"
+	line "mehr… Sei bereit!"
 
-    para "Fwahahahaha!"
+	para "Fwahahahaha!"
 
-    para "Show me how"
-    line "you've grown!"
-    done
+	para "Zeig mir, wie Du"
+	line "gewachsen bist!"
+	done
 
 KogaScript_KogaBeforeText:
 	text "Fwahahahaha!"

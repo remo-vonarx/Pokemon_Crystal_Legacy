@@ -96,31 +96,33 @@ KarensRoom_EnterMovement:
 
 KarenScript_KarenRematchBeforeText:
 	text "MELANIE: Ah,"
-	line "it's you again."
+	line "Du schon wieder."
 
-    para "I trust you"
-    line "haven't forgotten"
-	cont "my belief:"
+	para "Du hast hoffent-"
+	line "lich nicht meinen"
+	cont "Glauben vergessen:"
 
-    para "True strength"
-    line "arises from trust"
-    cont "in one's #MON."
+	para "Wahre Stärke"
+	line "entsteht aus dem"
+	cont "Vertrauen in die"
+	cont "eigenen #MON."
 
-    para "Since our last"
-    line "encounter, my"
+	para "Seit unserer"
+	line "letzten Begegnung"
 
-	para "bond with my"
-	line "#MON has"
-    cont "deepened further."
+	para "ist das Band zu"
+	line "meinen #MON"
+	cont "noch stärker"
+	cont "geworden."
 
-    para "Are you ready"
-    line "to face a team"
-    cont "united by an"
-    cont "unbreakable bond?"
+	para "Bist Du bereit für"
+	line "ein Team, das ein"
+	cont "unzerbrechliches"
+	cont "Band vereint?"
 
-    para "Show me the power"
-    line "of the bond with"
-    cont "your #MON."
+	para "Zeige mir die"
+	line "Kraft des Bandes"
+	cont "zu Deinen #MON."
 	done
 
 KarenScript_KarenBeforeText:

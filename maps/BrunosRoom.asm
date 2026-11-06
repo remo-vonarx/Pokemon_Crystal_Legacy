@@ -105,27 +105,28 @@ BrunosRoom_EnterMovement:
 	step_end
 
 BrunoScript_BrunoRematchBeforeText:
-	text "BRUNO: Welcome"
-	line "back, young"
-    cont "warrior."
+	text "BRUNO: Willkommen"
+	line "zurück, Heraus-"
+	cont "forderer."
 
-    para "Through rigorous"
-    line "training, we have"
-    cont "grown stronger."
+	para "Durch hartes"
+	line "Training sind wir"
+	cont "stärker geworden."
 
-    para "My rock-hard will"
-    line "is even more firm"
-    cont "and unyielding."
+	para "Mein eiserner"
+	line "Wille ist noch"
+	cont "unbeugsamer."
 
-    para "Are you prepared"
-    line "to face an even"
-    cont "greater challenge?"
+	para "Bist Du bereit"
+	line "für eine noch"
+	cont "größere Heraus-"
+	cont "forderung?"
 
-    para "Show me the"
-    line "results of your"
-	cont "training."
+	para "Zeige mir, was"
+	line "Dein Training"
+	cont "gebracht hat."
 
-	para "Hoo hah!"
+	para "Uh Ah!"
 	done
 
 BrunoScript_BrunoBeforeText:

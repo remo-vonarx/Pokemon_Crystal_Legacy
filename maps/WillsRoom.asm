@@ -106,26 +106,30 @@ WillsRoom_EnterMovement:
 
 WillScript_WillRematchBeforeText:
 	text "WILLI:"
-	line "Ah, welcome back."
+	line "Ah, willkommen"
+	cont "zurück."
 
-    para "I have foreseen"
-    line "this encounter."
+	para "Ich habe diese"
+	line "Begegnung voraus-"
+	cont "gesehen."
 
-    para "My psychic #MON"
-    line "and I have"
-	cont "evolved,"
+	para "Meine PSYCHO-"
+	line "#MON und ich"
+	cont "haben uns weiter-"
+	cont "entwickelt"
 
-    para "developing new"
-	line "tactics."
+	para "und neue Taktiken"
+	line "erlernt."
 
-    para "Prepare yourself"
-    line "for a battle of"
-    cont "enhanced strategy"
-	cont "and might."
+	para "Bereite Dich auf"
+	line "einen Kampf voller"
+	cont "Strategie und"
+	cont "Kraft vor."
 
-    para "Let us see if"
-    line "your foresight"
-    cont "matches mine."
+	para "Mal sehen, ob"
+	line "Deine Voraussicht"
+	cont "der meinen"
+	cont "entspricht."
 	done
 
 WillScript_WillBeforeText:
