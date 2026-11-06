@@ -32,7 +32,7 @@ BeverlyLostAMonText:
 	para "Bei näherem Hin-"
 	line "sehen, stellte ich"
 
-	para "fest, dass es ein"
+	para "fest, daß es ein"
 	line "@"
 	text_ram wStringBuffer4
 	text " war."
@@ -48,10 +48,10 @@ BeverlyFoundItemText:
 	text "Mein Mann hat"
 	line "einige NUGGETS."
 
-	para "Wenn du möchtest,"
-	line "gebe ich dir einen"
+	para "Wenn Du möchtest,"
+	line "gebe ich Dir einen"
 
-	para "dafür, dass du"
+	para "dafür, daß Du"
 	line "mir geholfen hast."
 
 	para "Ich bin hier:"
@@ -60,14 +60,14 @@ BeverlyFoundItemText:
 	text "."
 
 	para "Komm vorbei, wenn"
-	line "du möchtest."
+	line "Du möchtest."
 	done
 
 BeverlyLetsChatAboutMonAgainText:
-	text "Sind deine #-"
+	text "Sind Deine #-"
 	line "MON in Top-Form?"
 
-	para "Lass uns mal wie-"
+	para "Laß uns mal wie-"
 	line "der über #MON"
 	cont "plaudern."
 	done

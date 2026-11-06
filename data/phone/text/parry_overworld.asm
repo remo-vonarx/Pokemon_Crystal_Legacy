@@ -1,5 +1,5 @@
 ParryAskNumber1Text:
-	text "Yeah! Wie du mich"
+	text "Yeah! Wie Du mich"
 	line "angegriffen hast,"
 
 	para "das war gut! Wir"
@@ -7,7 +7,7 @@ ParryAskNumber1Text:
 	cont "sehen!"
 
 	para "Gib mir doch bitte"
-	line "deine Nummer!"
+	line "Deine Nummer!"
 	done
 
 ParryAskNumber2Text:
@@ -32,7 +32,7 @@ ParryNumberDeclinedText:
 	cont "verkraften!"
 
 	para "Ich bin hier, wenn"
-	line "du erneut kämpfen"
+	line "Du erneut kämpfen"
 	cont "möchtest."
 	done
 
@@ -46,13 +46,13 @@ ParryRematchText:
 	text "Platz, jetzt komme"
 	line "ich! Und los!"
 
-	para "Mach dich bereit"
+	para "Mach Dich bereit"
 	line "für meine Hals"
 	cont "über Kopf-Attacke!"
 	done
 
 ParryPackFullText:
-	text "Es scheint, dein"
+	text "Es scheint, Dein"
 	line "BEUTEL ist voll!"
 
 	para "Du kannst das"
@@ -60,15 +60,15 @@ ParryPackFullText:
 	done
 
 ParryRematchGiftText:
-	text "Gut, du bist an-"
+	text "Gut, Du bist an-"
 	line "ders, in Ordnung."
 
 	para "Hätte ich mich"
 	line "doch früher mit"
-	cont "#MON befasst…"
+	cont "#MON befaßt…"
 
-	para "Ich möchte, dass"
-	line "du in unser beider"
+	para "Ich möchte, daß"
+	line "Du in unser beider"
 
 	para "Namen arbei-"
 	line "test und erfolg-"

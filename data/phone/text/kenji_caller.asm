@@ -4,7 +4,7 @@ KenjiHangUpText:
 	done
 
 KenjiRemainDedicatedText:
-	text "Bist du noch auf"
+	text "Bist Du noch auf"
 	line "Reisen?"
 
 	para "Ich bin meinem"
@@ -33,7 +33,7 @@ KenjiIllHaveTimeToChatTomorrowText:
 	line "trainiere!"
 
 	para "Morgen habe ich"
-	line "Zeit für dich!"
+	line "Zeit für Dich!"
 
 	para "Yiiihah!"
 	done
@@ -51,14 +51,14 @@ KenjiTakingABreakText:
 	line "ROUTE 45 Pause!"
 
 	para "Komm vorbei, wenn"
-	line "du Zeit hast!"
+	line "Du Zeit hast!"
 	done
 
 KenjiHangUpNightText:
 	text "Genug Pause für"
 	line "heute."
 
-	para "Jetzt muss ich das"
+	para "Jetzt muß ich das"
 	line "Training"
 	cont "fortsetzen!"
 

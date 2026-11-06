@@ -15,7 +15,7 @@ GinaAnswerPhoneDayText:
 	text "…"
 
 	para "Oh, <PLAY_G>!"
-	line "Wie geht es dir?"
+	line "Wie geht es Dir?"
 	done
 
 GinaAnswerPhoneNiteText:
@@ -43,7 +43,7 @@ GinaGreetDayText:
 	para "Ich, @"
 	text_ram wStringBuffer3
 	text "."
-	line "Hast du Zeit?"
+	line "Hast Du Zeit?"
 	done
 
 GinaGreetNiteText:
@@ -56,7 +56,7 @@ GinaGreetNiteText:
 	done
 
 GinaGenericText:
-	text "Sind deine #MON"
+	text "Sind Deine #MON"
 	line "noch immer stark?"
 
 	para "Ich trainiere mein"

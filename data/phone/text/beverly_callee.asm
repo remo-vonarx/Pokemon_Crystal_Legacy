@@ -35,7 +35,7 @@ BeverlyGreetText:
 	para "@"
 	text_ram wStringBuffer3
 	text ", hallo."
-	line "Hast du"
+	line "Hast Du"
 	cont "geschlafen?"
 	done
 
@@ -45,7 +45,7 @@ BeverlyGreetDayText:
 	text_ram wStringBuffer3
 	text ", hallo."
 
-	para "Wie geht es dir?"
+	para "Wie geht es Dir?"
 	done
 
 BeverlyGreetNiteText:
@@ -54,16 +54,16 @@ BeverlyGreetNiteText:
 	text_ram wStringBuffer3
 	text ", hallo!"
 
-	para "Bist du wach?"
+	para "Bist Du wach?"
 	done
 
 BeverlyGenericText:
-	text "Sorgst du gut für"
-	line "deine #MON?"
+	text "Sorgst Du gut für"
+	line "Deine #MON?"
 
 	para "Meinem @"
 	text_ram wStringBuffer4
 	text_start
 	line "geht es gut. Es"
-	cont "frisst viel."
+	cont "frißt viel."
 	done

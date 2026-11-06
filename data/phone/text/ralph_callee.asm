@@ -4,8 +4,8 @@ RalphAnswerPhoneText:
 	para "Du bist wenigstens"
 	line "so höflich und"
 
-	para "meldest dich mit"
-	line "deinem Namen."
+	para "meldest Dich mit"
+	line "Deinem Namen."
 	done
 
 RalphAnswerPhoneDayText:
@@ -14,8 +14,8 @@ RalphAnswerPhoneDayText:
 	para "Du bist wenigstens"
 	line "so höflich und"
 
-	para "meldest dich mit"
-	line "deinem Namen."
+	para "meldest Dich mit"
+	line "Deinem Namen."
 	done
 
 RalphAnswerPhoneNiteText:
@@ -24,8 +24,8 @@ RalphAnswerPhoneNiteText:
 	para "Du bist wenigstens"
 	line "so höflich und"
 
-	para "meldest dich mit"
-	line "deinem Namen."
+	para "meldest Dich mit"
+	line "Deinem Namen."
 	done
 
 RalphGreetText:
@@ -50,10 +50,10 @@ RalphGreetNiteText:
 	done
 
 RalphGenericText:
-	text "Versorgst du deine"
+	text "Versorgst Du Deine"
 	line "#MON auch gut?"
 
 	para "Behandle sie gut,"
-	line "sie sind deine"
+	line "sie sind Deine"
 	cont "Kameraden!"
 	done

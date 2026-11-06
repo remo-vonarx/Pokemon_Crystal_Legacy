@@ -47,11 +47,11 @@ AlanGreetNiteText:
 
 AlanGenericText:
 	text "<PLAY_G>, trai-"
-	line "nierst du deine"
+	line "nierst Du Deine"
 	cont "#MON richtig?"
 
 	para "Ich habe gelesen,"
-	line "dass man die #-"
+	line "daß man die #-"
 	cont "MON, die man fängt"
 	cont "mit Liebe und"
 

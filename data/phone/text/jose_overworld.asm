@@ -7,40 +7,40 @@ JoseAskNumber1Text:
 	para "geht es los und"
 	line "holt es."
 
-	para "Magst du schöne"
+	para "Magst Du schöne"
 	line "Dinge?"
 
-	para "Wenn du magst,"
-	line "teile ich mit dir."
+	para "Wenn Du magst,"
+	line "teile ich mit Dir."
 
-	para "Wie lautet deine"
+	para "Wie lautet Deine"
 	line "Telefonnummer?"
 
 	para "Aber erwarte nicht"
-	line "zu viel, hörst du?"
+	line "zu viel, hörst Du?"
 	done
 
 JoseAskNumber2Text:
-	text "Magst du schöne"
+	text "Magst Du schöne"
 	line "Dinge?"
 
-	para "Ich teile mit dir,"
+	para "Ich teile mit Dir,"
 	line "wenn PORENTA noch"
 	cont "mehr bringt."
 
-	para "Wie lautet deine"
+	para "Wie lautet Deine"
 	line "Telefonnummer?"
 	done
 
 JoseNumberAcceptedText:
 	text "Ich melde mich,"
 	line "sobald ich etwas"
-	cont "für dich habe."
+	cont "für Dich habe."
 	done
 
 JoseNumberDeclinedText:
 	text "Oh? Gib Bescheid,"
-	line "wenn du deine"
+	line "wenn Du Deine"
 	cont "Meinung änderst."
 	done
 
@@ -52,7 +52,7 @@ JosePhoneFullText:
 JoseRematchText:
 	text "Kwak! Kwak! Kwak!"
 
-	para "Lass mich nicht"
+	para "Laß mich nicht"
 	line "warten!"
 	cont "Los, PORENTA!"
 	done
@@ -70,6 +70,6 @@ JosePackFullText:
 	text "Häh? Du kannst das"
 	line "nicht verstauen."
 
-	para "Hole es dir später"
+	para "Hole es Dir später"
 	line "ab."
 	done

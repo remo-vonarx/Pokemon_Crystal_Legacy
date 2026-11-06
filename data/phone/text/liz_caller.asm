@@ -1,5 +1,5 @@
 LizMonAlwaysWantsToNuzzleText:
-	text "Oh, das musst du"
+	text "Oh, das mußt Du"
 	line "hören."
 
 	para "Mein @"
@@ -45,11 +45,11 @@ LizLostAMonText:
 	done
 
 LizBattleRematchText:
-	text "Hi! Hast du etwas"
+	text "Hi! Hast Du etwas"
 	line "Zeit?"
 
 	para "Ich habe sehr viel"
-	line "Zeit. Wenn auch du"
+	line "Zeit. Wenn auch Du"
 
 	para "Zeit hast, dann"
 	line "komme zum Kämpfen?"
@@ -59,13 +59,13 @@ LizBattleRematchText:
 	text_ram wStringBuffer5
 	text "."
 
-	para "Ruf an, wenn du"
+	para "Ruf an, wenn Du"
 	line "vorbeikommst!"
 	done
 
 LizWrongNumberText:
 	text "Hi, TANJA. Wie"
-	line "geht es dir? Hier"
+	line "geht es Dir? Hier"
 
 	para "ist ANETTE. Mir"
 	line "geht es gut, aber"
@@ -101,8 +101,8 @@ LizRuinsOfAlphGossipText:
 LizFalknerGossipText:
 	text "Hör zu!"
 
-	para "Denkst du nicht"
-	line "auch, dass FALK,"
+	para "Denkst Du nicht"
+	line "auch, daß FALK,"
 
 	para "der ARENALEITER"
 	line "von VIOLA CITY,"
@@ -111,7 +111,7 @@ LizFalknerGossipText:
 	line "ist?"
 
 	para "Aber, man sagt,"
-	line "dass sein Vater,"
+	line "daß sein Vater,"
 
 	para "der im Freien"
 	line "trainiert, noch"
@@ -126,7 +126,7 @@ LizFalknerGossipText:
 LizEarlGossipText:
 	text "Hör zu!"
 
-	para "Kennst du EARL,"
+	para "Kennst Du EARL,"
 	line "den Lehrer von der"
 
 	para "#MON-AKADEMIE"
@@ -158,14 +158,14 @@ LizSurfPikachuGossipText:
 
 	para "Du könntest wirk-"
 	line "lich damit ange-"
-	cont "ben, wenn du eine"
+	cont "ben, wenn Du eine"
 	cont "hättest!"
 	done
 
 LizMooMooMilkGossipText:
 	text "Hör zu!"
 
-	para "Weißt du Bescheid"
+	para "Weißt Du Bescheid"
 	line "über die KUHMUH-"
 	cont "MILCH? Du kannst"
 
@@ -236,7 +236,7 @@ LizWhitneyGossipText:
 LizBugCatchingContestGossipText:
 	text "Hör zu!"
 
-	para "Hast du je am"
+	para "Hast Du je am"
 	line "Käferturnier im"
 
 	para "NATIONALPARK teil-"
@@ -308,9 +308,9 @@ LizFawningOverMonText:
 	cont "zu lang!"
 
 	para "Entschuldigung,"
-	line "dass ich so viel"
+	line "daß ich so viel"
 
-	para "deiner Zeit in"
+	para "Deiner Zeit in"
 	line "Anspruch nahm!"
 
 	para "Ich liebe es zu"
@@ -319,7 +319,7 @@ LizFawningOverMonText:
 
 LizReminderText:
 	text "Ich habe zu viel"
-	line "Zeit! Lass uns"
+	line "Zeit! Laß uns"
 	cont "sofort kämpfen!"
 
 	para "Hier warte ich:"

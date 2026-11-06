@@ -10,7 +10,7 @@ ToddAskNumber1Text:
 	cont "gebote auf dem"
 	cont "Dach."
 
-	para "Gibst du mir deine"
+	para "Gibst Du mir Deine"
 	line "Telefonnummer?"
 
 	para "Ich melde mich,"
@@ -19,7 +19,7 @@ ToddAskNumber1Text:
 	done
 
 ToddAskNumber2Text:
-	text "Wenn du mir deine"
+	text "Wenn Du mir Deine"
 	line "Nummer gibst, rufe"
 
 	para "ich an, wenn sie"
@@ -40,11 +40,11 @@ ToddNumberAcceptedText:
 ToddNumberDeclinedText:
 	text "Egal…"
 
-	para "Bist du knapp bei"
+	para "Bist Du knapp bei"
 	line "Kasse, notiere"
 	cont "meine Nummer."
 
-	para "Ich rufe dich an,"
+	para "Ich rufe Dich an,"
 	line "wenn sie Angebote"
 	cont "haben."
 	done
@@ -58,7 +58,7 @@ ToddPhoneFullText:
 
 ToddRematchText:
 	text "Ich erwartete"
-	line "dich! Ich war"
+	line "Dich! Ich war"
 
 	para "nicht mehr so"
 	line "oft Einkaufen, um"

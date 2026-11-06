@@ -26,7 +26,7 @@ DerekGreetText:
 	para "@"
 	text_ram wStringBuffer3
 	text " hier,"
-	line "wie pika bist du?"
+	line "wie pika bist Du?"
 	done
 
 DerekGreetDayText:
@@ -36,7 +36,7 @@ DerekGreetDayText:
 	para "@"
 	text_ram wStringBuffer3
 	text " hier,"
-	line "wie pika bist du?"
+	line "wie pika bist Du?"
 	done
 
 DerekGreetNiteText:
@@ -46,11 +46,11 @@ DerekGreetNiteText:
 	para "@"
 	text_ram wStringBuffer3
 	text " hier."
-	line "Warst du wach?"
+	line "Warst Du wach?"
 	done
 
 DerekGenericText:
-	text "Das musst du"
+	text "Das mußt Du"
 	line "hören! Mein lie-"
 	cont "benswürdiges"
 
@@ -60,7 +60,7 @@ DerekGenericText:
 	line "mich an und"
 	cont "lachte!"
 
-	para "Es muss daran lie-"
+	para "Es muß daran lie-"
 	line "gen, weil unsere"
 	cont "Herzen im Einklang"
 	cont "schlagen!"

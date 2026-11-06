@@ -6,10 +6,10 @@ JoeyMonLookingSharperText:
 	cont "sener aus!"
 
 	para "Ich bezweifle,"
-	line "dass du auch so"
+	line "daß Du auch so"
 
 	para "ein cooles #MON"
-	line "in deinem Team"
+	line "in Deinem Team"
 	cont "hast!"
 	done
 
@@ -41,7 +41,7 @@ JoeyLostAMonText:
 	para "ich besann mich"
 	line "eines Besseren und"
 
-	para "beschloss, mit"
+	para "beschloß, mit"
 	line "meinem Ein und"
 	cont "Alles zu arbeiten."
 	done
@@ -58,7 +58,7 @@ JoeyBattleRematchText:
 	text_ram wStringBuffer5
 	text "."
 
-	para "Ruf an, wenn du in"
+	para "Ruf an, wenn Du in"
 	line "der Nähe bist."
 	done
 
@@ -84,10 +84,10 @@ JoeyDevisingStrategiesText:
 	done
 
 JoeyReminderText:
-	text "Was hält dich auf,"
+	text "Was hält Dich auf,"
 	line "<PLAYER>!"
 
-	para "Lass uns endlich"
+	para "Laß uns endlich"
 	line "anfangen!"
 
 	para "Ich warte hier:"

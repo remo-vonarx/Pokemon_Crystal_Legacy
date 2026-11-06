@@ -12,13 +12,13 @@ RalphAskNumber1Text:
 	para "Tauschen wir"
 	line "Telefonnummern?"
 
-	para "Ich lasse es dich"
+	para "Ich lasse es Dich"
 	line "wissen, wenn ich"
 	cont "etwas entdecke."
 	done
 
 RalphAskNumber2Text:
-	text "Ich soll dich also"
+	text "Ich soll Dich also"
 	line "anrufen, wenn ich"
 
 	para "seltene #MON"

@@ -3,11 +3,11 @@ HueyAskNumber1Text:
 	line "schon lange nicht"
 	cont "mehr verloren!"
 
-	para "Heh, gib mir deine"
+	para "Heh, gib mir Deine"
 	line "Telefonnummer."
 
 	para "Es macht Spaß,"
-	line "dich herauszufor-"
+	line "Dich herauszufor-"
 	cont "dern. Ich rufe an,"
 
 	para "wenn ich stärker"
@@ -15,11 +15,11 @@ HueyAskNumber1Text:
 	done
 
 HueyAskNumber2Text:
-	text "Heh, gib mir deine"
+	text "Heh, gib mir Deine"
 	line "Telefonnummer."
 
 	para "Es macht Spaß,"
-	line "dich herauszufor-"
+	line "Dich herauszufor-"
 
 	para "dern. Ich rufe an,"
 	line "wenn ich stärker"
@@ -27,7 +27,7 @@ HueyAskNumber2Text:
 	done
 
 HueyNumberAcceptedText:
-	text "Lass uns wieder"
+	text "Laß uns wieder"
 	line "kämpfen!"
 	done
 
@@ -37,19 +37,19 @@ HueyNumberDeclinedText:
 	done
 
 HueyPhoneFullText:
-	text "Oh, dein Nummern-"
+	text "Oh, Dein Nummern-"
 	line "speicher ist voll!"
 	done
 
 HueyRematchText:
-	text "Ich habe dich"
+	text "Ich habe Dich"
 	line "bereits erwartet!"
 	done
 
 HueyPackFullText:
 	text "Oh… Dein BEUTEL"
 	line "ist voll. Ich gebe"
-	cont "es dir später."
+	cont "es Dir später."
 	done
 
 HueyRematchGiftText:
@@ -57,7 +57,7 @@ HueyRematchGiftText:
 	line "wie noch nie!"
 
 	para "Ich habe immer"
-	line "wieder gegen dich"
+	line "wieder gegen Dich"
 
 	para "gekämpft, <PLAYER>,"
 	line "doch nie gewonnen."
@@ -73,7 +73,7 @@ HueyRematchGiftText:
 	line "nicht der Schlüs-"
 	cont "sel zum Erfolg."
 
-	para "Das muss es wohl"
+	para "Das muß es wohl"
 	line "sein…"
 
 	para "Bitte nimm das,"

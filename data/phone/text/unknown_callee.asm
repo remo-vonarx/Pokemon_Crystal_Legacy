@@ -1,5 +1,5 @@
 UnknownGenericText:
-	text "Wie geht es deinen"
+	text "Wie geht es Deinen"
 	line "#MON?"
 
 	para "Meine #MON sind"

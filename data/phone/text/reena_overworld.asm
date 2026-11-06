@@ -6,8 +6,8 @@ ReenaAskNumber1Text:
 	line "was, auch wenn es"
 	cont "nur Dusel war…"
 
-	para "Ich mag dich! Kann"
-	line "ich deine Nummer"
+	para "Ich mag Dich! Kann"
+	line "ich Deine Nummer"
 	cont "haben?"
 
 	para "Du wirst mein"
@@ -15,7 +15,7 @@ ReenaAskNumber1Text:
 	done
 
 ReenaAskNumber2Text:
-	text "Gib mir deine"
+	text "Gib mir Deine"
 	line "Telefonnummer!"
 
 	para "Du wirst mein"
@@ -25,14 +25,14 @@ ReenaAskNumber2Text:
 
 ReenaNumberAcceptedText:
 	text "Sei nicht zu stolz"
-	line "auf deinen Sieg!"
+	line "auf Deinen Sieg!"
 
 	para "Das war nur Dusel!"
 	done
 
 ReenaNumberDeclinedText:
 	text "Das kann nicht"
-	line "sein! Das wirst du"
+	line "sein! Das wirst Du"
 	cont "noch bereuen!"
 	done
 
@@ -42,6 +42,6 @@ ReenaPhoneFullText:
 	done
 
 ReenaRematchText:
-	text "Was hat dich auf-"
+	text "Was hat Dich auf-"
 	line "gehalten? Los!"
 	done

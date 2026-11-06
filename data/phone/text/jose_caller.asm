@@ -26,7 +26,7 @@ JoseDefeatedMonText:
 
 	para "PORENTA mit seiner"
 	line "Stange umgeht!"
-	cont "Einfach unfassbar!"
+	cont "Einfach unfaßbar!"
 	done
 
 JoseLostAMonText:
@@ -46,7 +46,7 @@ JoseLostAMonText:
 	done
 
 JoseBattleRematchText:
-	text "Willst du erneut"
+	text "Willst Du erneut"
 	line "kämpfen?"
 
 	para "Aus irgendeinem"
@@ -74,38 +74,38 @@ JoseFoundItemText:
 	cont "im Schnabel."
 
 	para "Wie versprochen,"
-	line "gehört es dir."
+	line "gehört es Dir."
 
 	para "Besuche mich hier:"
 	line "@"
 	text_ram wStringBuffer5
 	text ","
 
-	para "und hole es dir"
+	para "und hole es Dir"
 	line "bei mir ab."
 	done
 
 JoseHaventGottenItemYetText:
 	text "Ich habe noch"
 	line "nicht, was ich"
-	cont "dir versprach."
+	cont "Dir versprach."
 
 	para "Ich melde mich,"
 	line "alsbald ich es"
 
-	para "habe. Kannst du"
+	para "habe. Kannst Du"
 	line "noch ein wenig"
 	cont "warten?"
 	done
 
 JoseReminderText:
 	text "<PLAY_G>, kommst"
-	line "du schnell zu mir?"
+	line "Du schnell zu mir?"
 
 	para "PORENTA ist"
 	line "aufgeregt."
 
-	para "Wenn du nicht bald"
+	para "Wenn Du nicht bald"
 	line "kommst, schlägt es"
 
 	para "mich noch mit"
@@ -116,13 +116,13 @@ JoseReminderText:
 	text "!"
 
 	para "Bitte, komm so"
-	line "schnell du kannst!"
+	line "schnell Du kannst!"
 	done
 
 JoseComePickUpText:
 	text "Was ist los?"
 
-	para "Willst du das"
+	para "Willst Du das"
 	line "Geschenk nicht?"
 
 	para "Ich bin hier:"
@@ -131,5 +131,5 @@ JoseComePickUpText:
 	text "."
 
 	para "Komm vorbei und"
-	line "hole es dir ab."
+	line "hole es Dir ab."
 	done

@@ -1,5 +1,5 @@
 BethExhilaratingRideText:
-	text "Erinnerst du dich"
+	text "Erinnerst Du Dich"
 	line "an mein süßes"
 	cont "@"
 	text_ram wStringBuffer4
@@ -18,7 +18,7 @@ BethExhilaratingRideText:
 	done
 
 BethDefeatedMonText:
-	text "Oh, hast du schon"
+	text "Oh, hast Du schon"
 	line "je ein @"
 	text_ram wStringBuffer4
 	text_start
@@ -50,28 +50,28 @@ BethLostAMonText:
 	para "Ich wollte es"
 	line "fangen, aber ich"
 
-	para "musste feststel-"
-	line "len, dass ich"
+	para "mußte feststel-"
+	line "len, daß ich"
 
 	para "keine #BÄLLE"
 	line "mehr hatte."
 
-	para "Wenn du deinen"
+	para "Wenn Du Deinen"
 	line "Item-Bestand nicht"
 
 	para "kennst, kann es"
-	line "dir ähnlich erge-"
+	line "Dir ähnlich erge-"
 	cont "hen! Lerne aus"
 	cont "meinem Fehler."
 	done
 
 BethBattleRematchText:
-	text "Willst du kämpfen?"
+	text "Willst Du kämpfen?"
 	line "Dieses Mal gewinne"
 	cont "ich!"
 
 	para "Hier erwarte ich"
-	line "dich:"
+	line "Dich:"
 
 	para "@"
 	text_ram wStringBuffer5
@@ -84,7 +84,7 @@ BethHangUpText:
 	done
 
 BethLetsBattleAgainSometimeText:
-	text "Lass uns wieder"
+	text "Laß uns wieder"
 	line "mal kämpfen!"
 	done
 
@@ -92,7 +92,7 @@ BethReminderText:
 	text "Ähm… <PLAY_G>?"
 	line "Was ist los?"
 
-	para "Hast du unsere Ab-"
+	para "Hast Du unsere Ab-"
 	line "machung vergessen?"
 
 	para "@"
@@ -100,5 +100,5 @@ BethReminderText:
 	text "."
 
 	para "Genau dort warte"
-	line "ich auf dich."
+	line "ich auf Dich."
 	done

@@ -53,7 +53,7 @@ RalphLostAMonText:
 	done
 
 RalphBattleRematchText:
-	text "Würdest du gegen"
+	text "Würdest Du gegen"
 	line "mich kämpfen?"
 
 	para "Gut, so soll es"
@@ -69,15 +69,15 @@ RalphBattleRematchText:
 	done
 
 RalphHangUpText:
-	text "Rufst du auch"
-	line "manchmal deine"
+	text "Rufst Du auch"
+	line "manchmal Deine"
 	cont "Mama an?"
 	done
 
 RalphItemText:
 	text "Hör mal, ich…Aua!"
 
-	para "Sorry! Pass auf,"
+	para "Sorry! Paß auf,"
 	line "@"
 	text_ram wStringBuffer4
 	text " beißen,"
@@ -91,15 +91,15 @@ RalphItemText:
 	text "!"
 
 	para "Autsch! Oje!"
-	line "Eines biss mich!"
+	line "Eines biß mich!"
 
 	para "Heh, sie sind sehr"
 	line "lebhaft!"
 
-	para "<PLAY_G>, das musst"
-	line "du dir ansehen!"
+	para "<PLAY_G>, das mußt"
+	line "Du Dir ansehen!"
 
-	para "Mach deine Angel"
+	para "Mach Deine Angel"
 	line "fertig!"
 	done
 
@@ -115,28 +115,28 @@ RalphNoItemText:
 	done
 
 RalphReminderText:
-	text "Wo bist du?"
-	line "Ich warte, dass du"
+	text "Wo bist Du?"
+	line "Ich warte, daß Du"
 
 	para "hier auftauchst:"
 	line "@"
 	text_ram wStringBuffer5
 	text "."
 
-	para "Lass die Älteren"
+	para "Laß die Älteren"
 	line "nicht warten!"
 	done
 
 RalphHurryText:
 	text "Heh, was ist los"
-	line "mit dir?"
+	line "mit Dir?"
 
-	para "Bist du nicht ge-"
+	para "Bist Du nicht ge-"
 	line "kommen, um"
 	cont "BALDORFISH zu"
 	cont "angeln?"
 
 	para "Ich warte auf"
 	line "ROUTE 32, also"
-	cont "beeil dich!"
+	cont "beeil Dich!"
 	done

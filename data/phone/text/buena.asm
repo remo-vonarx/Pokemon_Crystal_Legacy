@@ -13,7 +13,7 @@ BuenaPhoneDayAnswerText:
 	text "Hier ist BUENA…"
 	line "Oh! Hi, <PLAY_G>!"
 
-	para "Hörst du die"
+	para "Hörst Du die"
 	line "BUENA-Show?"
 	done
 
@@ -23,14 +23,14 @@ BuenaPhoneMidnightAnswerText:
 
 	para "nicht ans Telefon."
 
-	para "Wenn du plaudern"
+	para "Wenn Du plaudern"
 	line "möchtest, dann"
 
-	para "hör dir BUENAs"
+	para "hör Dir BUENAs"
 	line "PASSWORTSENDUNG"
 
 	para "im Radio an und"
-	line "melde dich nach"
+	line "melde Dich nach"
 	cont "Mitternacht!"
 	done
 
@@ -53,14 +53,14 @@ BuenaPhoneMorningText:
 	line "gestanden und"
 
 	para "dachte, ich rufe"
-	line "dich an."
+	line "Dich an."
 	done
 
 BuenaPhoneDayText:
 	text "<PLAY_G>!"
 	line "Hier ist BUENA!"
 
-	para "Ich musste mit"
+	para "Ich mußte mit"
 	line "jemandem reden!"
 	done
 
@@ -84,7 +84,7 @@ BuenaPhoneNiteText:
 BuenaPhoneRocketText:
 	text "Oh. Hi, <PLAY_G>!"
 
-	para "Wie geht es dir?"
+	para "Wie geht es Dir?"
 
 	para "Hey! Das ist"
 	line "nicht die Zeit für"
@@ -95,7 +95,7 @@ BuenaPhoneRocketText:
 	para "Der RADIOTURM ist"
 	line "in Gefahr!"
 
-	para "<PLAY_G>, du bist"
+	para "<PLAY_G>, Du bist"
 	line "besser vorsichtig!"
 	done
 
@@ -107,7 +107,7 @@ BuenaPhoneWentOutWithBenText:
 	line "nicht großartig?"
 
 	para "Nicht nur das, er"
-	line "sagte auch, dass"
+	line "sagte auch, daß"
 
 	para "meine Sendung cool"
 	line "ist!"
@@ -115,14 +115,14 @@ BuenaPhoneWentOutWithBenText:
 	para "Oh, wow! Was soll"
 	line "ich jetzt tun?"
 
-	para "…Ups, ich muss"
+	para "…Ups, ich muß"
 	line "mich auf die Sen-"
 	cont "dung vorbereiten."
 	cont "Bis später!"
 	done
 
 BuenaPhoneReceptionistText:
-	text "Kennst du die"
+	text "Kennst Du die"
 	line "Rezeptionistin"
 	cont "im RADIOTURM?"
 
@@ -136,7 +136,7 @@ BuenaPhoneReceptionistText:
 	para "Plaudertasche im"
 	line "RADIOTURM."
 
-	para "Sie muss sich"
+	para "Sie muß sich"
 	line "zurückhalten."
 
 	para "Ist das nicht"
@@ -148,14 +148,14 @@ BuenaPhoneReceptionistText:
 
 BuenaPhoneLuckyNumberShowText:
 	text "Sag mal, <PLAY_G>."
-	line "Hast du je einen"
+	line "Hast Du je einen"
 
 	para "Preis bei der"
 	line "GLÜCKSZAHLSHOW"
 	cont "gewonnen?"
 
 	para "BASTIAN beschwert"
-	line "sich, dass er nie"
+	line "sich, daß er nie"
 
 	para "gewonnen hat, also"
 	line "hört er so lange"
@@ -187,7 +187,7 @@ BuenaPhoneStressedFromWorkText:
 	para "Hä? Wie hoch ist"
 	line "das Gewicht?"
 
-	para "Das muss geheim"
+	para "Das muß geheim"
 	line "bleiben!"
 
 	para "MARIA wiegt…"
@@ -209,14 +209,14 @@ BuenaPhoneProfessorOakText:
 	line "und stellte mich"
 	cont "vor."
 
-	para "Stell dir vor, er"
+	para "Stell Dir vor, er"
 	line "hört sich meine"
 	cont "Show an!"
 
 	para "Oh! Da kommt"
-	line "PROF. EICH!"
+	line "PROF EICH!"
 
-	para "Ich muss wieder"
+	para "Ich muß wieder"
 	line "mit ihm reden!"
 
 	para "Bis später!"
@@ -229,7 +229,7 @@ BuenaPhoneGotAColdText:
 	line "uh bin erkältet."
 
 	para "Aba ich bin ein"
-	line "Profi und muss uh"
+	line "Profi und muß uh"
 
 	para "verheimlichen, da-"
 	line "mit niemand merkt."
@@ -237,7 +237,7 @@ BuenaPhoneGotAColdText:
 	para "Uh meine uh hust"
 	line "Stimme."
 
-	para "Ich rufe dich von"
+	para "Ich rufe Dich von"
 	line "unterwegs an. Das"
 	cont "war BUENA!"
 	done
@@ -247,7 +247,7 @@ BuenaPhoneRadioCardQuestionsText:
 	line "Du hast die RADIO-"
 	cont "KARTE gewonnen, da"
 
-	para "du das Quiz an der"
+	para "Du das Quiz an der"
 	line "Rezeption gewonnen"
 	cont "hast, nicht wahr?"
 
@@ -255,23 +255,23 @@ BuenaPhoneRadioCardQuestionsText:
 	line "die Fragen"
 	cont "ausgedacht!"
 
-	para "…Waren sie dir"
+	para "…Waren sie Dir"
 	line "zu leicht?"
 
-	para "Nun, lass uns spä-"
+	para "Nun, laß uns spä-"
 	line "ter weiterreden!"
 	done
 
 BuenaPhonePikachuFanClubText:
 	text "Ich bin entzückt,"
-	line "dass immer mehr"
+	line "daß immer mehr"
 
 	para "Menschen an meiner"
 	line "PASSWORTSENDUNG"
 	cont "teilnehmen."
 
 	para "Aber als “PIKACHU”"
-	line "das Passwort war,"
+	line "das Paßwort war,"
 
 	para "war es einfach…"
 	line "überwältigend…"
@@ -288,7 +288,7 @@ BuenaPhonePikachuFanClubText:
 	para "Jeder, der die"
 	line "Show gehört hat,"
 
-	para "muss von dem Krach"
+	para "muß von dem Krach"
 	line "schockiert gewesen"
 	cont "sein!"
 
@@ -299,7 +299,7 @@ BuenaPhonePikachuFanClubText:
 	done
 
 BuenaPhoneRadioTowerDirectorText:
-	text "Weißt du was?"
+	text "Weißt Du was?"
 	line "Der INTENDANT vom"
 
 	para "RADIOTURM ist ein"
@@ -309,7 +309,7 @@ BuenaPhoneRadioTowerDirectorText:
 	line "sagte man in einer"
 
 	para "Modenschau im TV,"
-	line "dass schwarze"
+	line "daß schwarze"
 	cont "Anzüge in wären."
 
 	para "Seitdem trägt er"
@@ -317,12 +317,12 @@ BuenaPhoneRadioTowerDirectorText:
 	cont "Anzüge."
 
 	para "Es ist aber ein"
-	line "Geheimnis, dass"
+	line "Geheimnis, daß"
 
 	para "unser INTENDANT"
 	line "ein TV-Fan ist."
 
-	para "Wenn du ihm begeg-"
+	para "Wenn Du ihm begeg-"
 	line "nest, erwähne es"
 	cont "bitte nicht!"
 
@@ -330,14 +330,14 @@ BuenaPhoneRadioTowerDirectorText:
 	line "bald hier sein!"
 
 	para "Bis später! Hör"
-	line "dir meine Show an!"
+	line "Dir meine Show an!"
 	done
 
 BuenaPhoneWhenDoYouRelaxText:
 	text "<PLAY_G>, sag mir:"
 
-	para "Wann entspannst du"
-	line "dich am besten?"
+	para "Wann entspannst Du"
+	line "Dich am besten?"
 
 	para "Bei mir hilft es,"
 	line "wenn ich nach der"
@@ -347,7 +347,7 @@ BuenaPhoneWhenDoYouRelaxText:
 
 	para "Tasse Tee trinke."
 	line "Es ist so ange-"
-	cont "nehm, dass ich"
+	cont "nehm, daß ich"
 
 	para "davon manchmal"
 	line "schläfrig werde…"
@@ -362,13 +362,13 @@ BuenaPhoneWhenDoYouRelaxText:
 	para "ich daran dachte!"
 	line "Wie… äh, peinlich!"
 
-	para "Bitte vergiss das!"
+	para "Bitte vergiß das!"
 	line "Bis später!"
 	done
 
 BuenaPhoneStarterPokemonText:
 	text "<PLAY_G>, welches"
-	line "#MON hast du"
+	line "#MON hast Du"
 
 	para "als Erstes"
 	line "gefangen?"
@@ -384,13 +384,13 @@ BuenaPhoneStarterPokemonText:
 	para "Manchmal sollte"
 	line "ich es probieren."
 
-	para "Wusstest du, dass"
+	para "Wußtest Du, daß"
 	line "TRAUMATO MARIAs"
 
 	para "erstes #MON"
 	line "war?"
 
-	para "Das passt nicht"
+	para "Das paßt nicht"
 	line "zu ihr, oder?"
 
 	para "MARIAs TRAUMATO"
@@ -403,15 +403,15 @@ BuenaPhoneStarterPokemonText:
 	line "mit einem Fan"
 	cont "gegen ein MAUZI."
 
-	para "Lass uns bald"
+	para "Laß uns bald"
 	line "wieder über #-"
 	cont "MON plaudern!"
 
-	para "Tschüss!"
+	para "Tschüß!"
 	done
 
 BuenaPhoneCompanyVacationText:
-	text "Weißt du? Jeder"
+	text "Weißt Du? Jeder"
 	line "Angestellte vom"
 
 	para "RADIOTURM ist beim"
@@ -430,15 +430,15 @@ BuenaPhoneCompanyVacationText:
 	line "ber am Strand!"
 
 	para "<PLAY_G>, ich"
-	line "hoffe, du hast ge-"
+	line "hoffe, Du hast ge-"
 	cont "nügend Spaß für"
 	cont "uns beide!"
 
-	para "Tschüss!"
+	para "Tschüß!"
 	done
 
 BuenaPhoneBenAndFernText:
-	text "Wusstest du…?"
+	text "Wußtest Du…?"
 
 	para "BEN und FABIAN"
 	line "telefonieren stun-"
@@ -459,7 +459,7 @@ BuenaPhoneBenAndFernText:
 	line "auf BEN"
 	cont "übergegangen."
 
-	para "Wir mussten einige"
+	para "Wir mußten einige"
 	line "Zeit lang BENs"
 
 	para "locker-flockiges,"
@@ -502,7 +502,7 @@ if DEF(_CRYSTAL_AU)
 	para "Some machines pays"
 	line "out a lot."
 else
-	para "Weißt du, ich"
+	para "Weißt Du, ich"
 	line "habe meinen Lieb-"
 	cont "lingsautomaten…"
 
@@ -513,7 +513,7 @@ endc
 	para "Hu? Nanu, es ist"
 	line "mein Geheimnis!"
 
-	para "Das musst du"
+	para "Das mußt Du"
 	line "selbst"
 	cont "herausfinden!"
 
@@ -522,12 +522,12 @@ endc
 
 BuenaPhonePokegearAnswerText:
 	text "Heh, <PLAY_G>. Du"
-	line "hörst mit deinem"
+	line "hörst mit Deinem"
 
 	para "#COM RADIO,"
 	line "nicht wahr?"
 
-	para "Ich hörte, dass"
+	para "Ich hörte, daß"
 	line "man sich sogar"
 
 	para "Karten mit dem"
@@ -541,21 +541,21 @@ BuenaPhonePokegearAnswerText:
 	cont "praktisch…"
 
 	para "Danke für den"
-	line "Anruf! Tschüss!"
+	line "Anruf! Tschüß!"
 	done
 
 BuenaPhoneCoopedUpInRadioTowerAnswerText:
 	text "Scheint heute die"
 	line "Sonne?"
 
-	para "Wenn du im RADIO-"
+	para "Wenn Du im RADIO-"
 	line "TURM so beschäf-"
 	cont "tigt bist wie ich,"
-	cont "dann verlierst du"
+	cont "dann verlierst Du"
 
 	para "den Kontakt nach"
 	line "Außen. Das kann"
-	cont "dich langweilen."
+	cont "Dich langweilen."
 
 	para "Bis später!"
 	done

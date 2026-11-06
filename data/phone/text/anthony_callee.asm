@@ -47,7 +47,7 @@ AnthonyGreetDayText:
 	done
 
 AnthonyGreetNiteText:
-	text "<PLAYER>, bist du"
+	text "<PLAYER>, bist Du"
 	line "noch wach?"
 
 	para "Ich, @"
@@ -57,7 +57,7 @@ AnthonyGreetNiteText:
 	done
 
 AnthonyGenericText:
-	text "Sind deine #MON"
+	text "Sind Deine #MON"
 	line "immer noch wild?"
 
 	para "Mein @"

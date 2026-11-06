@@ -6,7 +6,7 @@ VanceAnswerPhoneText:
 
 	para "Moin, <PLAY_G>!"
 
-	para "Setzt du Vogel-"
+	para "Setzt Du Vogel-"
 	line "#MON ein?"
 	done
 
@@ -18,7 +18,7 @@ VanceAnswerPhoneDayText:
 
 	para "Moin, <PLAY_G>!"
 
-	para "Fliegen deine"
+	para "Fliegen Deine"
 	line "Vogel-#MON?"
 	done
 
@@ -29,7 +29,7 @@ VanceAnswerPhoneNiteText:
 	text "!"
 
 	para "N'Abend, <PLAY_G>!"
-	line "Dürfen sich deine"
+	line "Dürfen sich Deine"
 
 	para "Vogel-#MON wil-"
 	line "de Sachen ansehen?"
@@ -51,7 +51,7 @@ VanceGreetDayText:
 	para "@"
 	text_ram wStringBuffer3
 	text " hier!"
-	line "Erinnerst du dich?"
+	line "Erinnerst Du Dich?"
 	done
 
 VanceGreetNiteText:
@@ -61,12 +61,12 @@ VanceGreetNiteText:
 	para "@"
 	text_ram wStringBuffer3
 	text " hier!"
-	line "Hast du Zeit?"
+	line "Hast Du Zeit?"
 	done
 
 VanceGenericText:
-	text "Geht es dir und"
-	line "deinen #MON"
+	text "Geht es Dir und"
+	line "Deinen #MON"
 	cont "gut?"
 
 	para "Mein @"
@@ -75,7 +75,7 @@ VanceGenericText:
 	line "scheint so stark"
 
 	para "werden zu wollen,"
-	line "dass es das legen-"
+	line "daß es das legen-"
 	cont "däre VOGEL-#MON"
 
 	para "herausfordern und"

@@ -8,29 +8,29 @@ AnthonyAskNumber1Text:
 	para "Manchmal sehe ich"
 	line "seltene #MON."
 
-	para "Ich könnte dich"
+	para "Ich könnte Dich"
 	line "anrufen, wenn mir"
 	cont "eines begegnet."
 
-	para "Gibst du mir deine"
+	para "Gibst Du mir Deine"
 	line "Telefonnummer?"
 	done
 
 AnthonyAskNumber2Text:
-	text "Ich könnte dich"
+	text "Ich könnte Dich"
 	line "anrufen, wenn ich"
 
 	para "ein seltenes"
 	line "#MON sehe."
 
-	para "Gibst du mir deine"
+	para "Gibst Du mir Deine"
 	line "Telefonnummer?"
 	done
 
 AnthonyNumberAcceptedText:
 	text "Geduld! Ich finde"
 	line "seltene #MON"
-	cont "für dich!"
+	cont "für Dich!"
 	done
 
 AnthonyNumberDeclinedText:

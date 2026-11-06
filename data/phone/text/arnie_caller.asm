@@ -21,7 +21,7 @@ ArnieDefeatedMonText:
 
 ArnieLostAMonText:
 	text "Ich fragte mich,"
-	line "ob du zufällig ein"
+	line "ob Du zufällig ein"
 	cont "@"
 	text_ram wStringBuffer4
 	text " hast?"
@@ -34,14 +34,14 @@ ArnieLostAMonText:
 	done
 
 ArnieBattleRematchText:
-	text "Heh, lass unsere"
+	text "Heh, laß unsere"
 	line "#MON kämpfen!"
 
 	para "Ich verliere weder"
 	line "im Kampf noch im"
 
 	para "Käferturnier"
-	line "gegen dich!"
+	line "gegen Dich!"
 
 	para "Ich bin hier:"
 	line "@"
@@ -50,13 +50,13 @@ ArnieBattleRematchText:
 	done
 
 ArnieHangUpText:
-	text "Lass uns erneut"
+	text "Laß uns erneut"
 	line "plaudern?"
 	done
 
 ArnieSwarmText:
-	text "Bin ich froh, dass"
-	line "ich dich noch"
+	text "Bin ich froh, daß"
+	line "ich Dich noch"
 	cont "erwische!"
 
 	para "Ein ganzer Schwarm"
@@ -69,7 +69,7 @@ ArnieSwarmText:
 	text_ram wStringBuffer5
 	text "!"
 
-	para "Das musst du dir"
+	para "Das mußt Du Dir"
 	line "ansehen!"
 	done
 
@@ -81,14 +81,14 @@ ArnieHaventSeenRareMonText:
 	line "#MON zu sehen…"
 
 	para "Aber ich weiß,"
-	line "dass sie da sind!"
+	line "daß sie da sind!"
 	done
 
 ArnieReminderText:
-	text "Heh, wo bist du"
+	text "Heh, wo bist Du"
 	line "jetzt?"
 
-	para "Lass uns kämpfen."
+	para "Laß uns kämpfen."
 	line "Ich warte hier:"
 	cont "@"
 	text_ram wStringBuffer5
@@ -96,10 +96,10 @@ ArnieReminderText:
 	done
 
 ArnieHurryText:
-	text "Hallo? Kommst du"
+	text "Hallo? Kommst Du"
 	line "oder nicht?"
 
-	para "Du verpasst YANMA"
+	para "Du verpaßt YANMA"
 	line "zu sehen!"
 
 	para "Komm sofort zu"

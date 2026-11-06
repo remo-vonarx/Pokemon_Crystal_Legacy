@@ -39,7 +39,7 @@ BillPhoneGenericText:
 	done
 
 BillPhoneNotFullText:
-	text "Danke, dass du"
+	text "Danke, daß Du"
 	line "gewartet hast!"
 
 	para "<PLAY_G>, in der"
@@ -53,7 +53,7 @@ BillPhoneNotFullText:
 	done
 
 BillPhoneNearlyFullText:
-	text "Danke, dass du"
+	text "Danke, daß Du"
 	line "gewartet hast!"
 
 	para "<PLAY_G>, in der"
@@ -67,15 +67,15 @@ BillPhoneNearlyFullText:
 	done
 
 BillPhoneFullText:
-	text "Danke, dass du"
+	text "Danke, daß Du"
 	line "gewartet hast!"
 
-	para "<PLAY_G>, deine"
+	para "<PLAY_G>, Deine"
 	line "BOX ist voll!"
 
-	para "Wenn du mehr #-"
+	para "Wenn Du mehr #-"
 	line "MON fangen möch-"
-	cont "test, musst du die"
+	cont "test, mußt Du die"
 	cont "BOX wechseln."
 	done
 
@@ -83,7 +83,7 @@ BillPhoneNewlyFullText:
 	text "Hi, <PLAY_G>?"
 	line "Ich bin's, BILL!"
 
-	para "Danke, dass du das"
+	para "Danke, daß Du das"
 	line "LAGERUNGS-SYSTEM"
 	cont "benutzt."
 
@@ -93,8 +93,8 @@ BillPhoneNewlyFullText:
 	para "keine #MON"
 	line "mehr aufnehmen."
 
-	para "Du musst die BOX"
-	line "wechseln, wenn du"
+	para "Du mußt die BOX"
+	line "wechseln, wenn Du"
 
 	para "mehr #MON fan-"
 	line "gen willst."

@@ -54,12 +54,12 @@ TullyBattleRematchText:
 	text "."
 
 	para "Schau mal vorbei,"
-	line "wenn du Zeit hast."
+	line "wenn Du Zeit hast."
 	done
 
 TullyHangUpText:
 	text "Nun, ich werde"
-	line "dich treffen."
+	line "Dich treffen."
 	done
 
 TullyFoundItemText:
@@ -67,7 +67,7 @@ TullyFoundItemText:
 	line "Kleines am Ufer."
 
 	para "Wie versprochen,"
-	line "es gehört dir."
+	line "es gehört Dir."
 
 	para "Ich warte hier:"
 	line "@"
@@ -82,7 +82,7 @@ TullyNoItemText:
 	para "Nö, noch nicht."
 
 	para "Es ist wie beim"
-	line "Angeln, du"
+	line "Angeln, Du"
 	cont "brauchst Geduld."
 	done
 
@@ -90,7 +90,7 @@ TullyForwardText:
 	text "Yo, AMADEUS hier…"
 
 	para "<PLAY_G>? Was?"
-	line "Du hast dich"
+	line "Du hast Dich"
 	cont "verirrt?"
 
 	para "Wir kämpfen hier:"
@@ -101,7 +101,7 @@ TullyForwardText:
 
 TullyHurryText:
 	text "Ich habe etwas"
-	line "Tolles für dich."
+	line "Tolles für Dich."
 
 	para "Ich bin hier:"
 	line "@"

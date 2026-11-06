@@ -22,7 +22,7 @@ GinaDefeatedMonText:
 	done
 
 GinaLostAMonText:
-	text "Aber, weißt du?"
+	text "Aber, weißt Du?"
 
 	para "Ich habe immer"
 	line "noch kein"
@@ -37,7 +37,7 @@ GinaLostAMonText:
 	done
 
 GinaBattleRematchText:
-	text "Möchtest du mein"
+	text "Möchtest Du mein"
 	line "Trainings-Kamerad"
 	cont "sein?"
 
@@ -46,7 +46,7 @@ GinaBattleRematchText:
 	text_ram wStringBuffer5
 	text "."
 
-	para "…Kannst du mich"
+	para "…Kannst Du mich"
 	line "das nächste Mal"
 
 	para "etwas schonender"
@@ -54,12 +54,12 @@ GinaBattleRematchText:
 	done
 
 GinaHangUpText:
-	text "Tschüss! Wir"
+	text "Tschüß! Wir"
 	line "plaudern wieder!"
 	done
 
 GinaRocketTakeoverRumorText:
-	text "Hast du von TEAM"
+	text "Hast Du von TEAM"
 	line "ROCKET gehört?"
 
 	para "Sie annektierten"
@@ -76,11 +76,11 @@ GinaFoundItemText:
 	line "was Tolles"
 	cont "gefunden."
 
-	para "Ich möchte es dir"
+	para "Ich möchte es Dir"
 	line "geben, darum rufe"
 	cont "ich an!"
 
-	para "Du holst es dir"
+	para "Du holst es Dir"
 	line "doch, oder?"
 
 	para "Ich bin hier:"
@@ -95,7 +95,7 @@ GinaHaventFoundAnythingYetText:
 
 	para "Brauchbares gefun-"
 	line "den… ich ver-"
-	cont "spreche, dass du"
+	cont "spreche, daß Du"
 
 	para "es haben kannst,"
 	line "wenn ich etwas"
@@ -106,10 +106,10 @@ GinaReminderText:
 	text "Oh, <PLAY_G>!"
 	line "Wann kann ich mit"
 
-	para "dir und unserem"
+	para "Dir und unserem"
 	line "Kampf rechnen?"
 
-	para "Vergiss es nicht,"
+	para "Vergiß es nicht,"
 	line "@"
 	text_ram wStringBuffer5
 	text "!"
@@ -119,8 +119,8 @@ GinaComePickUpText:
 	text "Ich werde wirklich"
 	line "ungeduldig, ich"
 
-	para "möchte dir endlich"
-	line "dein Geschenk"
+	para "möchte Dir endlich"
+	line "Dein Geschenk"
 	cont "geben!"
 
 	para "Ich bin hier:"

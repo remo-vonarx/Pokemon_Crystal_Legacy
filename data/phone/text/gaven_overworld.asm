@@ -1,14 +1,14 @@
 GavenAskNumber1Text:
-	text "Oh, du bist stark."
+	text "Oh, Du bist stark."
 	line "So einen harten"
 
 	para "Kampf hatte ich"
 	line "lange nicht."
 
-	para "Gibst du mir deine"
+	para "Gibst Du mir Deine"
 	line "Telefonnummer?"
 
-	para "Ich fordere dich"
+	para "Ich fordere Dich"
 	line "erneut heraus,"
 
 	para "wenn @"
@@ -19,10 +19,10 @@ GavenAskNumber1Text:
 	done
 
 GavenAskNumber2Text:
-	text "Gibst du mir deine"
+	text "Gibst Du mir Deine"
 	line "Telefonnummer?"
 
-	para "Ich fordere dich"
+	para "Ich fordere Dich"
 	line "erneut heraus,"
 
 	para "wenn @"
@@ -33,7 +33,7 @@ GavenAskNumber2Text:
 	done
 
 GavenNumberAcceptedText:
-	text "Wie kann ich dich"
+	text "Wie kann ich Dich"
 	line "besiegen? Allein"
 
 	para "dieser Gedanke"
@@ -42,7 +42,7 @@ GavenNumberAcceptedText:
 
 GavenNumberDeclinedText:
 	text "Aha… ich verstehe…"
-	line "Aber wenn du deine"
+	line "Aber wenn Du Deine"
 
 	para "Meinung änderst,"
 	line "gib mir Bescheid."
@@ -59,7 +59,7 @@ GavenPhoneFullText:
 
 GavenRematchText:
 	text "Hallo! Ich habe"
-	line "dich erwartet!"
+	line "Dich erwartet!"
 
 	para "Dieses Mal ist"
 	line "der Sieg mein!"

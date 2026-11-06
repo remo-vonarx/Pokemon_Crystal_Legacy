@@ -3,13 +3,13 @@ KenjiAskNumber1Text:
 	line "großartig!"
 
 	para "Ich möchte ein"
-	line "Andenken an dich!"
+	line "Andenken an Dich!"
 
 	para "Deine Telefonnum-"
 	line "mer würde genügen!"
 
 	para "Mein intensives"
-	line "Training lässt mir"
+	line "Training läßt mir"
 	cont "nur wenig Zeit zum"
 	cont "Plaudern, aber…"
 	done
@@ -23,14 +23,14 @@ KenjiAskNumber2Text:
 	done
 
 KenjiNumberAcceptedText:
-	text "Ich muss härter"
+	text "Ich muß härter"
 	line "trainieren, um"
 	cont "der Beste zu"
 	cont "werden!"
 	done
 
 KenjiNumberDeclinedText:
-	text "Wenn du meine"
+	text "Wenn Du meine"
 	line "Nummer möchtest,"
 	cont "komm wieder."
 	done
@@ -44,16 +44,16 @@ KenjiPhoneFullText:
 	done
 
 KenjiGiftText:
-	text "Ich möchte dir"
+	text "Ich möchte Dir"
 	line "danken, <PLAYER>!"
 
 	para "Ich habe stets"
 	line "alleine trainiert…"
 
-	para "Ich war froh, dass"
-	line "du angerufen hast…"
+	para "Ich war froh, daß"
+	line "Du angerufen hast…"
 
-	para "Ich möchte dir das"
+	para "Ich möchte Dir das"
 	line "überreichen!"
 	done
 
@@ -64,6 +64,6 @@ KenjiPackFullText:
 	para "mehr zu tragen!"
 	line "Ich bewahre das"
 
-	para "auf, bis dein"
+	para "auf, bis Dein"
 	line "BEUTEL leerer ist!"
 	done

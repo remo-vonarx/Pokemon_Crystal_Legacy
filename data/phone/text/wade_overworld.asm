@@ -1,5 +1,5 @@
 WadeAskNumber1Text:
-	text "Eh, du bist gut!"
+	text "Eh, Du bist gut!"
 	line "Das mag ich!"
 
 	para "Ich such hier täg-"
@@ -9,10 +9,10 @@ WadeAskNumber1Text:
 	line "alle Arten von"
 	cont "BEEREN."
 
-	para "Wenn du möchtest,"
-	line "teile ich mit dir."
+	para "Wenn Du möchtest,"
+	line "teile ich mit Dir."
 
-	para "Gibst du mir deine"
+	para "Gibst Du mir Deine"
 	line "Telefonnummer?"
 	done
 
@@ -21,10 +21,10 @@ WadeAskNumber2Text:
 	line "alle Arten von"
 	cont "BEEREN."
 
-	para "Wenn du möchtest,"
-	line "teile ich mit dir."
+	para "Wenn Du möchtest,"
+	line "teile ich mit Dir."
 
-	para "Gibst du mir deine"
+	para "Gibst Du mir Deine"
 	line "Telefonnummer?"
 	done
 
@@ -32,7 +32,7 @@ WadeNumberAcceptedText:
 	text "Ich melde mich,"
 	line "sobald ich etwas"
 
-	para "finde, das dir ge-"
+	para "finde, das Dir ge-"
 	line "fallen könnte."
 	done
 
@@ -43,19 +43,19 @@ WadeNumberDeclinedText:
 	done
 
 WadePhoneFullText:
-	text "In deinem Nummern-"
+	text "In Deinem Nummern-"
 	line "speicher ist kein"
 	cont "Platz mehr."
 	done
 
 WadeRematchText:
 	text "Ich habe schon auf"
-	line "dich gewartet."
+	line "Dich gewartet."
 	cont "Los geht's!"
 	done
 
 WadeGiftText:
-	text "Schön dich zu se-"
+	text "Schön Dich zu se-"
 	line "hen! Hier, das"
 
 	para "habe ich gefunden."
@@ -66,6 +66,6 @@ WadePackFullText:
 	text "Dein BEUTEL ist"
 	line "voll. Schade!"
 
-	para "Hole es dir"
+	para "Hole es Dir"
 	line "später ab."
 	done

@@ -63,6 +63,6 @@ DanaGenericText:
 	cont "gie, das macht mir"
 	cont "ein wenig Angst."
 
-	para "Wie geht es deinen"
+	para "Wie geht es Deinen"
 	line "#MON?"
 	done

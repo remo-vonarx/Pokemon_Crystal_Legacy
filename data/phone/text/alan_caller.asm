@@ -55,8 +55,8 @@ AlanFoundItemText:
 	text "Hehehe, ich fand"
 	line "etwas Schönes!"
 
-	para "Es gehört dir!"
-	line "Hole es dir hier:"
+	para "Es gehört Dir!"
+	line "Hole es Dir hier:"
 	cont "@"
 	text_ram wStringBuffer5
 	text_end
@@ -82,10 +82,10 @@ AlanReminderText:
 	done
 
 AlanComePickUpGiftText:
-	text "Ich muss meine"
+	text "Ich muß meine"
 	line "Hausaufgaben"
 
-	para "machen, kannst du"
+	para "machen, kannst Du"
 	line "gleich herkommen?"
 
 	para "Ich warte hier:"

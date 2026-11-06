@@ -8,7 +8,7 @@ ArnieAnswerPhoneText:
 	done
 
 ArnieAnswerPhoneDayText:
-	text "Yo, hallo, du hast"
+	text "Yo, hallo, Du hast"
 	line "@"
 	text_ram wStringBuffer3
 	text "."
@@ -17,7 +17,7 @@ ArnieAnswerPhoneDayText:
 	done
 
 ArnieAnswerPhoneNiteText:
-	text "Yo, hallo, du hast"
+	text "Yo, hallo, Du hast"
 	line "@"
 	text_ram wStringBuffer3
 	text "."
@@ -31,7 +31,7 @@ ArnieGreetText:
 	text_ram wStringBuffer3
 	text " hier."
 
-	para "Was läuft bei dir,"
+	para "Was läuft bei Dir,"
 	line "<PLAY_G>?"
 	done
 
@@ -41,7 +41,7 @@ ArnieGreetDayText:
 	text_ram wStringBuffer3
 	text " hier."
 
-	para "Wo bist du,"
+	para "Wo bist Du,"
 	line "<PLAY_G>?"
 	done
 
@@ -51,12 +51,12 @@ ArnieGreetNiteText:
 	text_ram wStringBuffer3
 	text " hier."
 
-	para "Bist du wach,"
+	para "Bist Du wach,"
 	line "<PLAY_G>?"
 	done
 
 ArnieGenericText:
-	text "Ich wette, deine"
+	text "Ich wette, Deine"
 	line "#MON sind viel"
 	cont "stärker als zuvor."
 	done

@@ -48,13 +48,13 @@ AnthonyLostAMonText:
 
 	para "Lerne von meinem"
 	line "Fehler - konzen-"
-	cont "triere dich immer"
+	cont "triere Dich immer"
 	cont "auf die Aufgabe"
-	cont "vor dir!"
+	cont "vor Dir!"
 	done
 
 AnthonyBattleRematchText:
-	text "Komm schon, lass"
+	text "Komm schon, laß"
 	line "uns jetzt kämpfen!"
 
 	para "Ich warte hier:"
@@ -63,7 +63,7 @@ AnthonyBattleRematchText:
 	text "."
 
 	para "Schau vorbei, wenn"
-	line "du Lust hast!"
+	line "Du Lust hast!"
 	done
 
 AnthonyHangUpText:
@@ -86,11 +86,11 @@ AnthonySwarmText:
 	text_ram wStringBuffer4
 	text "!"
 
-	para "Das musst du"
+	para "Das mußt Du"
 	line "sehen!"
 
 	para "Ich habe das Ge-"
-	line "fühl, dass"
+	line "fühl, daß"
 
 	para "@"
 	text_ram wStringBuffer4

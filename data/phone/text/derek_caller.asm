@@ -29,10 +29,10 @@ DerekDefeatedMonText:
 	line "@"
 	text_ram wStringBuffer4
 	text ", wenn"
-	cont "ich es dir sage!"
+	cont "ich es Dir sage!"
 
-	para "Denkst du nicht"
-	line "auch, dass das"
+	para "Denkst Du nicht"
+	line "auch, daß das"
 	cont "erstaunlich ist?"
 
 	para "Mein PIKACHU ist"
@@ -65,7 +65,7 @@ DerekHangUpText:
 	done
 
 DerekBugCatchingContestText:
-	text "Erinnerst du dich?"
+	text "Erinnerst Du Dich?"
 	line "Das Käferturnier"
 	cont "ist heute."
 
@@ -81,23 +81,23 @@ DerekBugCatchingContestText:
 	done
 
 DerekFoundItemText:
-	text "Ich möchte, dass"
-	line "du dieses NUGGET"
+	text "Ich möchte, daß"
+	line "Du dieses NUGGET"
 	cont "bekommst."
 
 	para "Mein PIKACHU liebt"
 	line "es einfach."
 
 	para "Ich bin sicher,"
-	line "dein PIKACHU wird"
+	line "Dein PIKACHU wird"
 	cont "es auch lieben!"
 	done
 
 DerekLetsGetTogetherText:
-	text "Wie geht es deinem"
+	text "Wie geht es Deinem"
 	line "PIKACHU?"
 
-	para "Lass uns zusammen-"
+	para "Laß uns zusammen-"
 	line "kommen und mit"
 	cont "unseren PIKACHU"
 	cont "angeben!"
@@ -111,6 +111,6 @@ DerekComePickUpText:
 	text_ram wStringBuffer5
 	text "."
 
-	para "Hol dir das jeder-"
+	para "Hol Dir das jeder-"
 	line "zeit ab."
 	done

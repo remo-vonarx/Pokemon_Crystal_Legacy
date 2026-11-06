@@ -35,7 +35,7 @@ JackGreetText:
 	para "Ich, @"
 	text_ram wStringBuffer3
 	text "."
-	line "Wie geht es dir?"
+	line "Wie geht es Dir?"
 	done
 
 JackGreetDayText:
@@ -55,11 +55,11 @@ JackGreetNiteText:
 	para "Ich, @"
 	text_ram wStringBuffer3
 	text "."
-	line "Hast du Zeit?"
+	line "Hast Du Zeit?"
 	done
 
 JackGenericText:
-	text "Wie geht es deinen"
+	text "Wie geht es Deinen"
 	line "#MON?"
 
 	para "Mein @"

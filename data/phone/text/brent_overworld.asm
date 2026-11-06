@@ -3,31 +3,31 @@ BrentAskNumber1Text:
 	line "#MANIAC…"
 
 	para "Ich spüre das."
-	line "Ja, du bist einer."
+	line "Ja, Du bist einer."
 
-	para "Aber dein Wissen"
+	para "Aber Dein Wissen"
 	line "ist noch klein!"
 
-	para "Kennst du BILL? Er"
+	para "Kennst Du BILL? Er"
 	line "ist ein wahrer"
 
 	para "#MANIAC. Ich"
 	line "verehre ihn."
 
-	para "Ich gebe dir mein"
+	para "Ich gebe Dir mein"
 	line "Wissen über BILL"
 
-	para "weiter, wenn du"
-	line "mir deine Nummer"
+	para "weiter, wenn Du"
+	line "mir Deine Nummer"
 	cont "gibst."
 	done
 
 BrentAskNumber2Text:
-	text "Ich gebe dir mein"
+	text "Ich gebe Dir mein"
 	line "Wissen über BILL"
 
-	para "weiter, wenn du"
-	line "mir deine Nummer"
+	para "weiter, wenn Du"
+	line "mir Deine Nummer"
 	cont "gibst."
 	done
 
@@ -42,7 +42,7 @@ BrentNumberAcceptedText:
 	done
 
 BrentNumberDeclinedText:
-	text "Das wirst du noch"
+	text "Das wirst Du noch"
 	line "bereuen…"
 
 	para "Aber, das ist mir"
@@ -54,7 +54,7 @@ BrentPhoneFullText:
 	line "speicher ist voll."
 
 	para "Ein #MANIAC"
-	line "muss ordentlicher"
+	line "muß ordentlicher"
 	cont "sein!"
 	done
 

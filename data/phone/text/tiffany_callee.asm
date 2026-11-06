@@ -58,10 +58,10 @@ TiffanyGreetNiteText:
 	done
 
 TiffanyGenericText:
-	text "Sind deine #MON"
+	text "Sind Deine #MON"
 	line "in Ordnung?"
 
-	para "Ich hoffe, du"
+	para "Ich hoffe, Du"
 	line "bringst sie täg-"
 	cont "lich in ein"
 	cont "#MON-CENTER."

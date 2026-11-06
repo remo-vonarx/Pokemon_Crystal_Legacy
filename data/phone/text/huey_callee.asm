@@ -30,17 +30,17 @@ HueyAnswerPhoneNiteText:
 
 HueyGreetText:
 	text "Yo, <PLAYER>!"
-	line "Bist du wach?"
+	line "Bist Du wach?"
 
 	para "Ich, @"
 	text_ram wStringBuffer3
 	text "!"
-	line "Wie geht es dir?"
+	line "Wie geht es Dir?"
 	done
 
 HueyGreetDayText:
 	text "Yo, <PLAYER>! Hast"
-	line "du heute Zeit?"
+	line "Du heute Zeit?"
 
 	para "Ich, @"
 	text_ram wStringBuffer3
@@ -50,7 +50,7 @@ HueyGreetDayText:
 
 HueyGreetNiteText:
 	text "Yo, <PLAYER>!"
-	line "Bist du wach?"
+	line "Bist Du wach?"
 
 	para "Ich, @"
 	text_ram wStringBuffer3

@@ -16,7 +16,7 @@ WiltonDefeatedMonText:
 	text_ram wStringBuffer4
 	text "…"
 
-	para "Du weißt, dass mir"
+	para "Du weißt, daß mir"
 	line "Angeln mehr Spaß"
 
 	para "macht, als wilde"
@@ -34,7 +34,7 @@ WiltonLostAMonText:
 	text_start
 	cont "gefangen."
 
-	para "Ich sage dir, es"
+	para "Ich sage Dir, es"
 	line "war riesig. Oja!"
 	done
 
@@ -72,7 +72,7 @@ WiltonHaventFoundAnythingText:
 	line "nichts Brauch-"
 	cont "bares gefunden."
 
-	para "Du musst Geduld"
+	para "Du mußt Geduld"
 	line "haben."
 	done
 
@@ -90,7 +90,7 @@ WiltonNotBitingText:
 	done
 
 WiltonWantThisText:
-	text "Möchtest du das"
+	text "Möchtest Du das"
 	line "Item nicht? Ha!"
 
 	para "Du weißt nicht,"

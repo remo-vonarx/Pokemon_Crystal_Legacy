@@ -34,7 +34,7 @@ BethGreetText:
 	para "Ich, @"
 	text_ram wStringBuffer3
 	text "."
-	line "Bist du wach?"
+	line "Bist Du wach?"
 	done
 
 BethGreetDayText:
@@ -43,7 +43,7 @@ BethGreetDayText:
 	text_ram wStringBuffer3
 	text "."
 
-	para "Hast du Zeit zum"
+	para "Hast Du Zeit zum"
 	line "Reden?"
 	done
 
@@ -55,12 +55,12 @@ BethGreetNiteText:
 	text_ram wStringBuffer3
 	text "."
 
-	para "Ich hoffe, du"
+	para "Ich hoffe, Du"
 	line "warst noch wach."
 	done
 
 BethGenericText:
-	text "Gehörst du zu den"
+	text "Gehörst Du zu den"
 	line "Menschen, die oft"
 
 	para "in #MON-CENTER"

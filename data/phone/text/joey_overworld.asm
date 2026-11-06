@@ -1,5 +1,5 @@
 JoeyAskNumber1Text:
-	text "Gibst du mir deine"
+	text "Gibst Du mir Deine"
 	line "Telefonnummer?"
 
 	para "Ich melde mich,"
@@ -14,11 +14,11 @@ JoeyAskNumber1Text:
 	done
 
 JoeyAskNumber2Text:
-	text "Bekomme ich deine"
+	text "Bekomme ich Deine"
 	line "Telefonnummer?"
 
 	para "Ich möchte nicht"
-	line "gegen dich"
+	line "gegen Dich"
 	cont "verlieren!"
 
 	para "Wir müssen noch"
@@ -26,7 +26,7 @@ JoeyAskNumber2Text:
 	done
 
 JoeyNumberAcceptedText:
-	text "Ich rufe dich an,"
+	text "Ich rufe Dich an,"
 	line "wenn ich unbedingt"
 	cont "kämpfen möchte!"
 	done
@@ -52,7 +52,7 @@ JoeyPackFullText:
 	text "Halt! Dein BEUTEL"
 	line "ist randvoll!"
 
-	para "Hole es dir beim"
+	para "Hole es Dir beim"
 	line "nächsten Mal."
 	done
 

@@ -5,14 +5,14 @@ BikeShopPhoneCallerText:
 	cont "alle Rekorde!"
 
 	para "Das verdanken wir"
-	line "nur dir, weil du"
+	line "nur Dir, weil Du"
 
 	para "mit unserem FAHR-"
 	line "RAD herumgefahren"
 	cont "bist."
 
 	para "Als Dankeschön"
-	line "darfst du das"
+	line "darfst Du das"
 
 	para "FAHRRAD behalten."
 	line "Herzlichen Dank!"

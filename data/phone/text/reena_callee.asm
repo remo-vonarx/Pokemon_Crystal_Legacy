@@ -57,7 +57,7 @@ ReenaGreetNiteText:
 
 ReenaGenericText:
 	text "Heh, wie geht es"
-	line "deinen #MON?"
+	line "Deinen #MON?"
 
 	para "Was? Gut?"
 	line "Verstehe…"
@@ -67,6 +67,6 @@ ReenaGenericText:
 	para "Es geht ihnen sehr"
 	line "gut! Was stellst"
 
-	para "du denn für"
+	para "Du denn für"
 	line "Fragen?"
 	done

@@ -12,7 +12,7 @@ TiffanyMonIsAdorableText:
 	done
 
 TiffanyDefeatedMonText:
-	text "Oh, wir mussten"
+	text "Oh, wir mußten"
 	line "vor kurzem gegen"
 
 	para "ein wildes"
@@ -33,7 +33,7 @@ TiffanyDefeatedMonText:
 	done
 
 TiffanyLostAMonText:
-	text "Oh, wir mussten"
+	text "Oh, wir mußten"
 	line "vor kurzem gegen"
 
 	para "ein wildes"
@@ -49,14 +49,14 @@ TiffanyLostAMonText:
 	line "schnell wie wir"
 	cont "konnten!"
 
-	para "Ich muss mein"
+	para "Ich muß mein"
 	line "PIEPI einfach"
 	cont "beschützen."
 	done
 
 TiffanyBattleRematchText:
 	text "Ich weiß, das"
-	line "überrascht dich,"
+	line "überrascht Dich,"
 
 	para "aber ich möchte"
 	line "kämpfen!"
@@ -80,7 +80,7 @@ TiffanyItsAwfulText:
 	para "Oh, sorry! Ich war"
 	line "in Eile und ich…"
 
-	para "Ich muss weg!"
+	para "Ich muß weg!"
 	line "Und tschüß!"
 	done
 
@@ -97,10 +97,10 @@ TiffanyFoundItemText:
 	cont "für PIEPI."
 
 	para "Ich habe zu viele,"
-	line "darum gebe ich dir"
+	line "darum gebe ich Dir"
 	cont "eines."
 
-	para "Hole es dir hier:"
+	para "Hole es Dir hier:"
 	line "@"
 	text_ram wStringBuffer5
 	text "."
@@ -113,7 +113,7 @@ TiffanyNoItemText:
 
 TiffanyAsleepText:
 	text "Was ist los?"
-	line "Kannst du nicht"
+	line "Kannst Du nicht"
 	cont "kommen?"
 
 	para "PIEPI wurde müde"
@@ -131,12 +131,12 @@ TiffanyAsleepText:
 
 TiffanyHurryText:
 	text "Was ist los?"
-	line "Kommst du nicht"
+	line "Kommst Du nicht"
 	cont "vorbei?"
 
 	para "Ich bin sicher,"
 	line "es sieht gut an"
-	cont "deinem PIEPI aus."
+	cont "Deinem PIEPI aus."
 
 	para "Komme hierher:"
 	line "@"

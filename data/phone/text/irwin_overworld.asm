@@ -8,25 +8,25 @@ IrwinAskNumber1Text:
 	para "Darum konnte ich"
 	line "nicht siegen!"
 
-	para "Könnte ich deine"
+	para "Könnte ich Deine"
 	line "Nummer bekommen?"
 
 	para "Ich möchte über"
-	line "alles, was dir"
+	line "alles, was Dir"
 	cont "widerfährt,"
 	cont "informiert sein!"
 	done
 
 IrwinAskNumber2Text:
-	text "Verrätst du mir"
-	line "deine Nummer?"
+	text "Verrätst Du mir"
+	line "Deine Nummer?"
 	done
 
 IrwinNumberAcceptedText:
 	text "Wow! Yo! Danke!"
 	line "Jetzt kann ich"
 
-	para "dich jederzeit an-"
+	para "Dich jederzeit an-"
 	line "rufen, egal, ob es"
 
 	para "wichtig ist oder"
@@ -38,7 +38,7 @@ IrwinNumberDeclinedText:
 	line "nicht gefährlich!"
 
 	para "Ich möchte nur mit"
-	line "dir am Telefon"
+	line "Dir am Telefon"
 
 	para "über dies und"
 	line "jenes schwatzen!"
@@ -48,6 +48,6 @@ IrwinPhoneFullText:
 	text "Dein Nummern-"
 	line "speicher ist voll…"
 
-	para "Du musst sehr"
+	para "Du mußt sehr"
 	line "beliebt sein…"
 	done

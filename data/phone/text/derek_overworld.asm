@@ -4,23 +4,23 @@ DerekAskNumber1Text:
 	cont "und flauschig! Wie"
 	cont "niedlich!"
 
-	para "Lass uns Freunde"
+	para "Laß uns Freunde"
 	line "sein! PIKACHU-Fans"
 	cont "sind gute"
 	cont "Menschen!"
 
-	para "Lass uns über"
+	para "Laß uns über"
 	line "PIKACHU plaudern!"
 
-	para "Gibst du mir deine"
+	para "Gibst Du mir Deine"
 	line "Telefonnummer?"
 	done
 
 DerekAskNumber2Text:
-	text "Lass uns über"
+	text "Laß uns über"
 	line "PIKACHU plaudern!"
 
-	para "Gibst du mir deine"
+	para "Gibst Du mir Deine"
 	line "Telefonnummer?"
 	done
 
@@ -36,7 +36,7 @@ DerekNumberDeclinedText:
 	text "Du…"
 
 	para "Ich könnte wetten,"
-	line "du magst PIKACHU"
+	line "Du magst PIKACHU"
 	cont "nicht einmal…"
 	done
 
@@ -46,12 +46,12 @@ DerekPhoneFullText:
 	done
 
 DerekGiftText:
-	text "Ich habe dich"
+	text "Ich habe Dich"
 	line "gesucht! Hier,"
-	cont "das ist für dich!"
+	cont "das ist für Dich!"
 
 	para "Sicherlich mag"
-	line "dein PIKACHU das"
+	line "Dein PIKACHU das"
 	cont "Geschenk auch!"
 	done
 
@@ -59,6 +59,6 @@ DerekPackFullText:
 	text "Hmm, schade. Du"
 	line "hast keinen Platz."
 
-	para "Hol es dir später"
+	para "Hol es Dir später"
 	line "ab."
 	done

@@ -11,7 +11,7 @@ JackAskNumber1Text:
 	line "ich etwas"
 	cont "herausfinde."
 
-	para "Gibst du mir deine"
+	para "Gibst Du mir Deine"
 	line "Telefonnummer?"
 	done
 
@@ -23,7 +23,7 @@ JackAskNumber2Text:
 	line "ich etwas"
 	cont "herausfinde."
 
-	para "Gibst du mir deine"
+	para "Gibst Du mir Deine"
 	line "Telefonnummer?"
 	done
 
@@ -35,7 +35,7 @@ JackNumberAcceptedText:
 JackNumberDeclinedText:
 	text "O.K. Dann nicht…"
 
-	para "Wenn du meine"
+	para "Wenn Du meine"
 	line "Nummer möchtest,"
 	cont "komm vorbei!"
 	done
@@ -51,8 +51,8 @@ JackPhoneFullText:
 
 JackRematchText:
 	text "Ich habe schon auf"
-	line "dich gewartet!"
+	line "Dich gewartet!"
 
 	para "Also, worauf war-"
-	line "test du noch?"
+	line "test Du noch?"
 	done

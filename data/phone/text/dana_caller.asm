@@ -17,14 +17,14 @@ DanaDefeatedMonText:
 	text " K.O."
 
 	para "Das kommt bestimmt"
-	line "davon, dass du mir"
+	line "davon, daß Du mir"
 
 	para "Kampftipps gegeben"
 	line "hast."
 	done
 
 DanaLostAMonText:
-	text "Weißt du? Ein"
+	text "Weißt Du? Ein"
 	line "wildes @"
 	text_ram wStringBuffer4
 	text_start
@@ -35,7 +35,7 @@ DanaLostAMonText:
 	para "Es war so knapp!"
 	line "Wirklich, noch ein"
 
-	para "bisschen mehr und"
+	para "bißchen mehr und"
 	line "ich hätte…"
 	done
 
@@ -45,11 +45,11 @@ DanaBattleRematchText:
 	text_ram wStringBuffer5
 	text "."
 
-	para "Bist du in der"
-	line "Nähe, dann lass"
+	para "Bist Du in der"
+	line "Nähe, dann laß"
 
 	para "uns kämpfen! Ich"
-	line "erwarte dich!"
+	line "erwarte Dich!"
 	done
 
 DanaHangUpText:
@@ -57,17 +57,17 @@ DanaHangUpText:
 	done
 
 DanaFoundItemText:
-	text "Weißt du?"
+	text "Weißt Du?"
 	line "Ich habe ein gutes"
-	cont "Geschenk für dich!"
+	cont "Geschenk für Dich!"
 
 	para "Wie versprochen,"
-	line "es gehört dir!"
+	line "es gehört Dir!"
 
 	para "Ich bin sicher,"
-	line "du wirst es mögen."
+	line "Du wirst es mögen."
 
-	para "Hole es dir hier:"
+	para "Hole es Dir hier:"
 	line "@"
 	text_ram wStringBuffer5
 	text "!"
@@ -81,12 +81,12 @@ DanaCanYouWaitABitLongerText:
 	line "aber ich will es"
 	cont "behalten."
 
-	para "Gedulde dich noch"
+	para "Gedulde Dich noch"
 	line "ein wenig!"
 	done
 
 DanaReminderText:
-	text "Hi! Du hast dein"
+	text "Hi! Du hast Dein"
 	line "Versprechen, gegen"
 
 	para "mich zu kämpfen"
@@ -102,10 +102,10 @@ DanaReminderText:
 DanaComePickUpText:
 	text "Hallo?"
 
-	para "Wenn du nicht bald"
+	para "Wenn Du nicht bald"
 	line "hier auftauchst"
 
-	para "und dein Geschenk"
+	para "und Dein Geschenk"
 	line "abholst, gebe ich"
 	cont "es jemand anderem."
 

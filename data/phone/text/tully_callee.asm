@@ -24,7 +24,7 @@ TullyAnswerPhoneNiteText:
 	text_ram wStringBuffer3
 	text "…"
 
-	para "Das muss"
+	para "Das muß"
 	line "<PLAY_G> sein!"
 	done
 
@@ -60,7 +60,7 @@ TullyGreetNiteText:
 
 TullyGenericText:
 	text "Wie läuft es mit"
-	line "deinem Abenteuer?"
+	line "Deinem Abenteuer?"
 
 	para "Ich kann mich über"
 	line "das Angeln nicht"

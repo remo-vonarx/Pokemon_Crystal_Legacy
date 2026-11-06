@@ -14,7 +14,7 @@ ChadObservingWildText:
 	para "Ich wünschte, ich"
 	line "könnte ein #-"
 	cont "MON-Forscher wie"
-	cont "PROF. EICH werden."
+	cont "PROF EICH werden."
 	done
 
 ChadDefeatedMonText:
@@ -54,8 +54,8 @@ ChadLostAMonText:
 	done
 
 ChadBattleRematchText:
-	text "Willst du kämpfen?"
-	line "Ich muss hin und"
+	text "Willst Du kämpfen?"
+	line "Ich muß hin und"
 
 	para "wieder kämpfen,"
 	line "sonst roste ich"
@@ -72,10 +72,10 @@ ChadHangUpText:
 	done
 
 ChadBlueGossipText:
-	text "Kennst du BLAU?"
+	text "Kennst Du BLAU?"
 
 	para "Er ist der Enkel"
-	line "von PROF. EICH und"
+	line "von PROF EICH und"
 
 	para "ein ehemaliger"
 	line "#MON LIGA-"
@@ -86,7 +86,7 @@ ChadBlueGossipText:
 	done
 
 ChadDaisyGossipText:
-	text "PROF. EICH hat"
+	text "PROF EICH hat"
 	line "eine Enkelin"
 	cont "namens SARAH."
 
@@ -100,12 +100,12 @@ ChadDaisyGossipText:
 
 ChadProfElmGossipText:
 	text "Jeder spricht"
-	line "über PROF. LIND."
+	line "über PROF LIND."
 
 	para "Er war früher ein"
 	line "Assistent des"
 	cont "großartigen"
-	cont "PROF. EICH!"
+	cont "PROF EICH!"
 
 	para "Das ist cool!"
 	line "Ich beneide ihn!"
@@ -113,23 +113,23 @@ ChadProfElmGossipText:
 
 ChadProfOaksDreamGossipText:
 	text "Der Traum von"
-	line "PROF. EICH ist"
+	line "PROF EICH ist"
 
 	para "die Erstellung"
 	line "eines verständ-"
 	cont "lichen #DEX."
 
-	para "Ich beneide dich,"
-	line "weil du an diesem"
+	para "Ich beneide Dich,"
+	line "weil Du an diesem"
 	cont "Projekt teil-"
 	cont "nimmst…"
 	done
 
 ChadKurtGossipText:
-	text "Kennst du KURT,"
+	text "Kennst Du KURT,"
 	line "den BALL-Schmied?"
 
-	para "Er und PROF. EICH"
+	para "Er und PROF EICH"
 	line "kennen sich schon"
 	cont "eine Ewigkeit."
 
@@ -147,7 +147,7 @@ ChadLeagueGossipText:
 	para "die CHAMP werden"
 	line "wollen, treffen."
 
-	para "PROF. EICH ist ein"
+	para "PROF EICH ist ein"
 	line "Berater des"
 
 	para "#MON LIGA-"
@@ -158,12 +158,12 @@ ChadLeagueGossipText:
 	done
 
 ChadPokemonTalkGossipText:
-	text "PROF. EICHs #-"
+	text "PROF EICHs #-"
 	line "MON-TALK ist eine"
 	cont "beliebte Radio-"
 	cont "Show, richtig?"
 
-	para "Wusstest du, dass"
+	para "Wußtest Du, daß"
 	line "er anfangs die"
 
 	para "Show nicht"
@@ -179,7 +179,7 @@ ChadPokemonTalkGossipText:
 	done
 
 ChadProfOakTrainerGossipText:
-	text "PROF. EICH war"
+	text "PROF EICH war"
 	line "vor langer Zeit"
 	cont "ein Trainer."
 
@@ -197,7 +197,7 @@ ChadProfOakTrainerGossipText:
 	done
 
 ChadDaisyTeaGossipText:
-	text "PROF. EICH hat"
+	text "PROF EICH hat"
 	line "eine Enkelin"
 	cont "namens SARAH."
 
@@ -211,19 +211,19 @@ ChadDaisyTeaGossipText:
 	line "könnte bei ihr"
 
 	para "sein und mit ihr"
-	line "über PROF. EICH"
+	line "über PROF EICH"
 	cont "plaudern."
 	done
 
 ChadProfOakTravelingGossipText:
-	text "Wusstest du? PROF."
+	text "Wußtest Du? PROF."
 	line "EICH bereiste die"
 
 	para "ganze Welt, als er"
 	line "noch jung war."
 
 	para "Auf seinen Reisen"
-	line "muss er sehr viel"
+	line "muß er sehr viel"
 
 	para "über #MON"
 	line "gelernt haben."
@@ -240,12 +240,12 @@ ChadGoingToStudyHardText:
 	line "arbeiten, um"
 
 	para "ein Assistent von"
-	line "PROF. EICH zu"
+	line "PROF EICH zu"
 	cont "werden!"
 	done
 
 ChadReminderText:
-	text "Erinnerst du dich"
+	text "Erinnerst Du Dich"
 	line "an unseren Kampf?"
 
 	para "Hier bin ich:"

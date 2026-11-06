@@ -13,23 +13,23 @@ AlanAskNumber1Text:
 
 	para "Das nächste Item,"
 	line "das ich finde,"
-	cont "gehört dir."
+	cont "gehört Dir."
 
-	para "Gibst du mir deine"
+	para "Gibst Du mir Deine"
 	line "Telefonnummer?"
 	done
 
 AlanAskNumber2Text:
 	text "Finde ich etwas,"
-	line "gehört es dir."
+	line "gehört es Dir."
 
-	para "Gibst du mir deine"
+	para "Gibst Du mir Deine"
 	line "Telefonnummer?"
 	done
 
 AlanNumberAcceptedText:
 	text "Ich rufe an, wenn"
-	line "ich etwas für dich"
+	line "ich etwas für Dich"
 
 	para "habe. Du kannst"
 	line "auf mich zählen!"
@@ -51,7 +51,7 @@ AlanPhoneFullText:
 
 AlanRematchText:
 	text "Ich habe bereits"
-	line "auf dich gewartet!"
+	line "auf Dich gewartet!"
 
 	para "Ich habe mich"
 	line "heute gründlich"
@@ -59,7 +59,7 @@ AlanRematchText:
 	done
 
 AlanGiftText:
-	text "Dies ist für dich!"
+	text "Dies ist für Dich!"
 	line "Nimm es! Ta-da!"
 	done
 
@@ -70,5 +70,5 @@ AlanPackFullText:
 	line "Items mehr tragen!"
 
 	para "Ich bewahre es für"
-	line "dich auf."
+	line "Dich auf."
 	done

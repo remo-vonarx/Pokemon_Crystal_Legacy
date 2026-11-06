@@ -1,5 +1,5 @@
 ArnieAskNumber1Text:
-	text "Spürst du die"
+	text "Spürst Du die"
 	line "Gegenwart von"
 
 	para "weiteren seltenen"
@@ -16,8 +16,8 @@ ArnieAskNumber1Text:
 	para "Information mit"
 	line "allen Bekannten."
 
-	para "Gib du mir doch"
-	line "auch deine Nummer."
+	para "Gib Du mir doch"
+	line "auch Deine Nummer."
 	done
 
 ArnieAskNumber2Text:
@@ -27,7 +27,7 @@ ArnieAskNumber2Text:
 	cont "#MON sehe."
 
 	para "Gib mir bitte"
-	line "deine Nummer!"
+	line "Deine Nummer!"
 	done
 
 ArnieNumberAcceptedText:
@@ -49,9 +49,9 @@ ArniePhoneFullText:
 	line "Platz für meine"
 	cont "Nummer."
 
-	para "Wenn du Platz"
+	para "Wenn Du Platz"
 	line "schaffst, kannst"
-	cont "du mich eintragen!"
+	cont "Du mich eintragen!"
 	done
 
 ArnieRematchText:

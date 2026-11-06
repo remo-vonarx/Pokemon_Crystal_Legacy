@@ -5,7 +5,7 @@ BrentAnswerPhoneText:
 
 	para "Ah, <PLAYER>. Was"
 	line "kann ich für"
-	cont "dich tun?"
+	cont "Dich tun?"
 	done
 
 BrentAnswerPhoneDayText:
@@ -15,7 +15,7 @@ BrentAnswerPhoneDayText:
 
 	para "Ah, <PLAYER>. Was"
 	line "kann ich für"
-	cont "dich tun?"
+	cont "Dich tun?"
 	done
 
 BrentAnswerPhoneNiteText:
@@ -25,12 +25,12 @@ BrentAnswerPhoneNiteText:
 
 	para "Ah, <PLAYER>. Was"
 	line "kann ich für"
-	cont "dich tun?"
+	cont "Dich tun?"
 	done
 
 BrentGreetText:
 	text "Hiya, <PLAYER>."
-	line "Wie geht es dir?"
+	line "Wie geht es Dir?"
 
 	para "Heh! Ich bin's,"
 	line "@"
@@ -40,7 +40,7 @@ BrentGreetText:
 
 BrentGreetDayText:
 	text "Hiya, <PLAYER>,"
-	line "wie geht es dir?"
+	line "wie geht es Dir?"
 
 	para "Heh, ich bin's,"
 	line "@"
@@ -50,7 +50,7 @@ BrentGreetDayText:
 
 BrentGreetNiteText:
 	text "Hiya, <PLAYER>,"
-	line "wie geht es dir?"
+	line "wie geht es Dir?"
 
 	para "Heh, ich bin's,"
 	line "@"
@@ -60,12 +60,12 @@ BrentGreetNiteText:
 
 BrentGenericText:
 	text "Oh ja, ich sah"
-	line "dich neulich aus"
+	line "Dich neulich aus"
 
 	para "einem #MON-"
 	line "CENTER kommen."
 
-	para "Du lässt deine"
+	para "Du läßt Deine"
 	line "#MON regelmäßig"
 
 	para "heilen, oder? Ich"
@@ -74,9 +74,9 @@ BrentGenericText:
 	para "Mein @"
 	text_ram wStringBuffer4
 	text_start
-	line "ist so stark, dass"
+	line "ist so stark, daß"
 
 	para "es nicht oft in"
 	line "ein #MON-CENTER"
-	cont "muss. Heheh!"
+	cont "muß. Heheh!"
 	done

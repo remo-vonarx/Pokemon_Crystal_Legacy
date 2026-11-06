@@ -1,6 +1,6 @@
 HueyBattleRematchText:
 	text "Heh, ich fordere"
-	line "dich zu einem"
+	line "Dich zu einem"
 
 	para "Kampf heraus. Es"
 	line "wird nicht so, wie"
@@ -24,16 +24,16 @@ HueyWeHaveToBattleAgainSometimeText:
 	line "wann wieder"
 	cont "kämpfen."
 
-	para "Ich werde dich"
+	para "Ich werde Dich"
 	line "herausfordern, bis"
 
 	para "ich gewinne, da-"
-	line "rauf kannst du"
+	line "rauf kannst Du"
 	cont "wetten."
 	done
 
 HueyReminderText:
-	text "Heh, ich hoffe, du"
+	text "Heh, ich hoffe, Du"
 	line "hast unseren Kampf"
 	cont "nicht vergessen!"
 

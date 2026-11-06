@@ -55,7 +55,7 @@ JoseGreetNiteText:
 	done
 
 JoseGenericText:
-	text "Geht es deinen"
+	text "Geht es Deinen"
 	line "#MON gut?"
 
 	para "Mein @"

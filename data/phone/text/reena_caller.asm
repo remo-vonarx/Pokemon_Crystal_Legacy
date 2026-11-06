@@ -1,7 +1,7 @@
 ReenaMonsIsAPerfectMatchText:
 	text "Hör zu…"
 
-	para "Erinnerst du dich"
+	para "Erinnerst Du Dich"
 	line "an mein"
 	cont "@"
 	text_ram wStringBuffer4
@@ -12,9 +12,9 @@ ReenaMonsIsAPerfectMatchText:
 	text_ram wStringBuffer4
 	text "."
 
-	para "Meinst du nicht"
-	line "auch, dass es per-"
-	cont "fekt zu mir passt?"
+	para "Meinst Du nicht"
+	line "auch, daß es per-"
+	cont "fekt zu mir paßt?"
 	done
 
 ReenaDefeatedMonText:
@@ -59,7 +59,7 @@ ReenaBattleRematchText:
 	text_ram wStringBuffer5
 	text "!"
 
-	para "Lass mich nicht"
+	para "Laß mich nicht"
 	line "warten! O.K.?"
 	done
 
@@ -69,7 +69,7 @@ ReenaHangUpText:
 
 ReenaForwardText:
 	text "Sei nicht zu"
-	line "stolz, dass du"
+	line "stolz, daß Du"
 
 	para "mich zufällig ge-"
 	line "schlagen hast…"
@@ -78,7 +78,7 @@ ReenaForwardText:
 	done
 
 ReenaHurryText:
-	text "Was machst du"
+	text "Was machst Du"
 	line "gerade?"
 
 	para "Ich sagte doch,"

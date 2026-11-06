@@ -15,7 +15,7 @@ LizAnswerPhoneDayText:
 	line "ist dran."
 
 	para "Oh, <PLAY_G>."
-	line "Wie geht es dir?"
+	line "Wie geht es Dir?"
 	done
 
 LizAnswerPhoneNiteText:
@@ -35,7 +35,7 @@ LizGreetText:
 	para "@"
 	text_ram wStringBuffer3
 	text ", hallo!"
-	line "Bist du wach?"
+	line "Bist Du wach?"
 	done
 
 LizGreetDayText:
@@ -44,7 +44,7 @@ LizGreetDayText:
 	text_ram wStringBuffer3
 	text ", hallo!"
 
-	para "Wie ist es dir"
+	para "Wie ist es Dir"
 	line "ergangen?"
 	done
 
@@ -55,14 +55,14 @@ LizGreetNiteText:
 	para "@"
 	text_ram wStringBuffer3
 	text ", hallo!"
-	line "Bist du wach?"
+	line "Bist Du wach?"
 	done
 
 LizGenericText:
 	text "Ich hatte Zeit,"
 	line "daher rufe ich an."
 
-	para "Wie geht es deinen"
+	para "Wie geht es Deinen"
 	line "#MON?"
 
 	para "Ich bringe mein"

@@ -4,7 +4,7 @@ ElmPhoneHealYourMonText:
 	para "Übertreib es"
 	line "nicht."
 
-	para "Heile deine #-"
+	para "Heile Deine #-"
 	line "MON, falls sie"
 	cont "verletzt sind."
 	done
@@ -12,7 +12,7 @@ ElmPhoneHealYourMonText:
 ElmPhoneSawMrPokemonText:
 	text "Hallo, <PLAY_G>?"
 
-	para "Hast du MR. #-"
+	para "Hast Du MR. #-"
 	line "MON getroffen? "
 	cont "Komm heil wieder!"
 	done
@@ -41,7 +41,7 @@ ElmPhoneCheckingTheEggText:
 ElmPhoneAssistantText:
 	text "Hallo, <PLAY_G>?"
 
-	para "Hast du meinen"
+	para "Hast Du meinen"
 	line "Assistenten"
 
 	para "getroffen? Er ist"
@@ -183,7 +183,7 @@ ElmPhoneRadioTowerRocketTakeoverText:
 	line "TEAM ROCKET."
 
 	para "<PLAY_G>, weißt"
-	line "du etwas darüber?"
+	line "Du etwas darüber?"
 
 	para "Vielleicht feiert"
 	line "TEAM ROCKET ein"
@@ -193,17 +193,17 @@ ElmPhoneRadioTowerRocketTakeoverText:
 	cont "wahr."
 
 	para "Sorry für die"
-	line "Belästigung. Pass"
-	cont "auf dich auf!"
+	line "Belästigung. Paß"
+	cont "auf Dich auf!"
 	done
 
 ElmPhoneGiftText:
 	text "Hallo, <PLAY_G>?"
 
 	para "Ich habe hier"
-	line "etwas für dich."
+	line "etwas für Dich."
 
-	para "Schaust du mal in"
+	para "Schaust Du mal in"
 	line "meinem LABOR"
 	cont "vorbei?"
 
@@ -215,9 +215,9 @@ ElmPhoneGotAholdOfSomethingNeatText:
 	line "Wie steht's?"
 
 	para "Ich habe etwas"
-	line "Tolles für dich."
+	line "Tolles für Dich."
 
-	para "Hol es dir im"
+	para "Hol es Dir im"
 	line "LABOR ab!"
 
 	para "Bis die Tage!"

@@ -1,5 +1,5 @@
 DanaAskNumber1Text:
-	text "Du kennst dich gut"
+	text "Du kennst Dich gut"
 	line "mit #MON aus!"
 
 	para "Nach den Kämpfen"
@@ -8,18 +8,18 @@ DanaAskNumber1Text:
 	para "Und manchmal sind"
 	line "es viel zu viele."
 
-	para "Wenn du möchtest,"
-	line "kann ich mit dir"
+	para "Wenn Du möchtest,"
+	line "kann ich mit Dir"
 
 	para "teilen. Gib mir"
-	line "deine Nummer."
+	line "Deine Nummer."
 	done
 
 DanaAskNumber2Text:
 	text "Ich teile meine"
-	line "Geschenke mit dir."
+	line "Geschenke mit Dir."
 
-	para "Verrate mir deine"
+	para "Verrate mir Deine"
 	line "Telefonnummer."
 	done
 
@@ -29,14 +29,14 @@ DanaNumberAcceptedText:
 
 	para "nach einem Kampf"
 	line "bekomme, teile ich"
-	cont "mit dir!"
+	cont "mit Dir!"
 
 	para "Bin ich ein"
 	line "schlechter Mensch?"
 	done
 
 DanaNumberDeclinedText:
-	text "Argh, du möchtest"
+	text "Argh, Du möchtest"
 	line "es nicht?"
 
 	para "Aber es ist"
@@ -58,17 +58,17 @@ DanaRematchText:
 	done
 
 DanaGiftText:
-	text "Hi! Kommst du we-"
+	text "Hi! Kommst Du we-"
 	line "gen dem Geschenk?"
 
-	para "Es wird deinen Tag"
+	para "Es wird Deinen Tag"
 	line "retten!"
 	done
 
 DanaPackFullText:
-	text "Wo möchtest du"
+	text "Wo möchtest Du"
 	line "es verstauen?"
 
-	para "Du kannst es dir"
+	para "Du kannst es Dir"
 	line "später abholen."
 	done

@@ -20,7 +20,7 @@ VanceDefeatedMonText:
 	done
 
 VanceLostAMonText:
-	text "Aber, stell dir"
+	text "Aber, stell Dir"
 	line "vor, ein wildes"
 
 	para "@"
@@ -42,7 +42,7 @@ VanceBattleRematchText:
 	line "uns zum ersten Mal"
 	cont "sahen?"
 
-	para "Willst du kämpfen?"
+	para "Willst Du kämpfen?"
 	line "Ich warte dort."
 	done
 

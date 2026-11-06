@@ -9,7 +9,7 @@ ToddLooksCuteLikeMeText:
 	done
 
 ToddDefeatedMonText:
-	text "Und, weißt du?"
+	text "Und, weißt Du?"
 
 	para "Jetzt können wir"
 	line "@"
@@ -25,7 +25,7 @@ ToddDefeatedMonText:
 	done
 
 ToddLostAMonText:
-	text "Und, pass auf!"
+	text "Und, paß auf!"
 	line "Wir haben nur"
 
 	para "knapp gegen"
@@ -42,11 +42,11 @@ ToddLostAMonText:
 	done
 
 ToddBattleRematchText:
-	text "Du musst jetzt"
+	text "Du mußt jetzt"
 	line "viel besser sein?"
 
-	para "Warum zeigst du"
-	line "mir nicht deine"
+	para "Warum zeigst Du"
+	line "mir nicht Deine"
 
 	para "Technik in einem"
 	line "wahren Kampf?"
@@ -73,7 +73,7 @@ ToddDepartmentStoreBargainSaleText:
 	para "Niedrige Preise?"
 	line "Große Auswahl?"
 
-	para "Verpass nicht die"
+	para "Verpaß nicht die"
 	line "Chance in DUKATIA!"
 
 	para "Ich klinge wie ein"
@@ -82,7 +82,7 @@ ToddDepartmentStoreBargainSaleText:
 	para "Nun, ja. Ich habe"
 	line "sie imitiert…"
 
-	para "Egal, du musst"
+	para "Egal, Du mußt"
 	line "so schnell wie"
 	cont "möglich dorthin!"
 	done
@@ -96,9 +96,9 @@ ToddSavingUpForBargainSaleText:
 	done
 
 ToddLookingForwardToBattleText:
-	text "Wo bist du?"
+	text "Wo bist Du?"
 
-	para "Lass uns bald"
+	para "Laß uns bald"
 	line "kämpfen!"
 
 	para "Ich warte hier:"
@@ -108,7 +108,7 @@ ToddLookingForwardToBattleText:
 	done
 
 ToddHaveYouGoneToDepartmentStoreText:
-	text "Warst du schon im"
+	text "Warst Du schon im"
 	line "KAUFHAUS von"
 
 	para "DUKATIA CITY? Ich"
@@ -117,6 +117,6 @@ ToddHaveYouGoneToDepartmentStoreText:
 	para "habe Schnäppchen"
 	line "gemacht."
 
-	para "Du musst dich"
+	para "Du mußt Dich"
 	line "beeilen."
 	done

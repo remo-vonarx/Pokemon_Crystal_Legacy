@@ -1,7 +1,7 @@
 ChadAskNumber1Text:
 	text "Oh? Ist dieses Ge-"
 	line "rät ein #DEX?"
-	cont "Hast du PROF. EICH"
+	cont "Hast Du PROF EICH"
 	cont "kennengelernt?"
 
 	para "Was? Wirklich? "
@@ -13,29 +13,29 @@ ChadAskNumber1Text:
 	para "Forscher wie PROF."
 	line "EICH zu werden."
 
-	para "Gibst du mir bitte"
-	line "deine Nummer?"
+	para "Gibst Du mir bitte"
+	line "Deine Nummer?"
 
 	para "Wir können über"
-	line "PROF. EICH reden."
+	line "PROF EICH reden."
 
 	para "Das macht sicher"
 	line "eine Menge Spaß!"
 	done
 
 ChadAskNumber2Text:
-	text "Gibst du mir bitte"
-	line "deine Nummer?"
+	text "Gibst Du mir bitte"
+	line "Deine Nummer?"
 
 	para "Wir können über"
-	line "PROF. EICH reden."
+	line "PROF EICH reden."
 
 	para "Das macht sicher"
 	line "eine Menge Spaß!"
 	done
 
 ChadNumberAcceptedText:
-	text "Du musst PROF."
+	text "Du mußt PROF."
 	line "EICHs #MON-"
 	cont "TALK einschalten,"
 	cont "nicht wahr?"
@@ -54,5 +54,5 @@ ChadPhoneFullText:
 
 ChadRematchText:
 	text "Ich warte schon!"
-	line "Ich zermalme dich!"
+	line "Ich zermalme Dich!"
 	done

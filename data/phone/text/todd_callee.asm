@@ -42,7 +42,7 @@ ToddGreetDayText:
 	text "."
 
 	para "<PLAY_G>, was"
-	line "machst du gerade?"
+	line "machst Du gerade?"
 	done
 
 ToddGreetNiteText:
@@ -57,8 +57,8 @@ ToddGreetNiteText:
 	done
 
 ToddGenericText:
-	text "Wie trainierst du"
-	line "deine #MON?"
+	text "Wie trainierst Du"
+	line "Deine #MON?"
 
 	para "Ich probiere alles"
 	line "Mögliche aus. Ich"

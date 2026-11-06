@@ -8,8 +8,8 @@ WiltonAskNumber1Text:
 	para "einfach weg-"
 	line "geworfen wurden."
 
-	para "Möchtest du sie?"
-	line "Gib mir deine"
+	para "Möchtest Du sie?"
+	line "Gib mir Deine"
 	cont "Nummer."
 	done
 
@@ -17,8 +17,8 @@ WiltonAskNumber2Text:
 	text "Finde ich beim"
 	line "Angeln ein Item,"
 
-	para "gehört es dir. Gib"
-	line "mir deine Nummer?"
+	para "gehört es Dir. Gib"
+	line "mir Deine Nummer?"
 	done
 
 WiltonNumberAcceptedText:
@@ -29,7 +29,7 @@ WiltonNumberAcceptedText:
 
 WiltonNumberDeclinedText:
 	text "Gut… Komme wieder,"
-	line "wenn du anders"
+	line "wenn Du anders"
 	cont "darüber denkst."
 	done
 
@@ -39,25 +39,25 @@ WiltonPhoneFullText:
 	done
 
 WiltonRematchText:
-	text "Uah! Wegen dir ist"
+	text "Uah! Wegen Dir ist"
 	line "QUAPSEL schon"
 	cont "wieder geflohen!"
 	done
 
 WiltonGiftText:
-	text "Ah, da bist du ja."
+	text "Ah, da bist Du ja."
 
-	para "Siehst du das?"
+	para "Siehst Du das?"
 	line "Ich habe es vor"
 
 	para "kurzem geangelt."
-	line "Es gehört dir."
+	line "Es gehört Dir."
 	done
 
 WiltonPackFullText:
 	text "Dein BEUTEL ist"
 	line "voll?"
 
-	para "Ich gebe es dir"
+	para "Ich gebe es Dir"
 	line "später."
 	done

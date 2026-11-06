@@ -11,9 +11,9 @@ GinaAskNumber1Text:
 	cont "Spaziergang."
 
 	para "Finde ich etwas,"
-	line "bekommst du es."
+	line "bekommst Du es."
 
-	para "Gibst du mir deine"
+	para "Gibst Du mir Deine"
 	line "Telefonnummer?"
 
 	para "Ich rufe an, wenn"
@@ -23,9 +23,9 @@ GinaAskNumber1Text:
 GinaAskNumber2Text:
 	text "Falls ich ein Item"
 	line "finde, gebe ich"
-	cont "es dir!"
+	cont "es Dir!"
 
-	para "Gibst du mir deine"
+	para "Gibst Du mir Deine"
 	line "Telefonnummer?"
 	done
 
@@ -36,7 +36,7 @@ GinaNumberAcceptedText:
 
 GinaNumberDeclinedText:
 	text "Stimmt das? Nun,"
-	line "ich jubele dir"
+	line "ich jubele Dir"
 	cont "noch immer zu!"
 	done
 
@@ -53,17 +53,17 @@ GinaRematchText:
 	done
 
 GinaGiftText:
-	text "Endlich bist du"
+	text "Endlich bist Du"
 	line "gekommen!"
 
 	para "Ich denke, das"
-	line "wird dir gefallen."
+	line "wird Dir gefallen."
 	done
 
 GinaPackFullText:
 	text "Dein BEUTEL ist"
 	line "randvoll."
 
-	para "Das muss ich wohl"
+	para "Das muß ich wohl"
 	line "behalten."
 	done

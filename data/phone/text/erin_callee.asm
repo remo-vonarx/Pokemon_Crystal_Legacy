@@ -51,12 +51,12 @@ ErinGreetNiteText:
 	para "@"
 	text_ram wStringBuffer3
 	text " hier!"
-	line "Bist du wach?"
+	line "Bist Du wach?"
 	done
 
 ErinGenericText:
-	text "Trainierst du"
-	line "deine #MON?"
+	text "Trainierst Du"
+	line "Deine #MON?"
 
 	para "Das @"
 	text_ram wStringBuffer4

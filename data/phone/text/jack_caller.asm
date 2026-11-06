@@ -8,7 +8,7 @@ JackIntelligenceKeepsRisingText:
 	line "und steigt. Es"
 
 	para "könnte intelligen-"
-	line "ter als deines"
+	line "ter als Deines"
 	cont "sein!"
 	done
 
@@ -30,7 +30,7 @@ JackLostAMonText:
 	text "Oh, und hör zu."
 	line "Ich habe es nur"
 
-	para "knapp verpasst,"
+	para "knapp verpaßt,"
 	line "ein @"
 	text_ram wStringBuffer4
 	text_start
@@ -43,8 +43,8 @@ JackLostAMonText:
 	done
 
 JackBattleRematchText:
-	text "Willst du kämpfen?"
-	line "Ich zeige dir, wie"
+	text "Willst Du kämpfen?"
+	line "Ich zeige Dir, wie"
 
 	para "man logisch"
 	line "kämpft."
@@ -54,8 +54,8 @@ JackBattleRematchText:
 	text_ram wStringBuffer5
 	text "."
 
-	para "Melde dich, wenn"
-	line "du in der Nähe"
+	para "Melde Dich, wenn"
+	line "Du in der Nähe"
 	cont "bist."
 	done
 
@@ -64,7 +64,7 @@ JackHangUpText:
 	done
 
 JackThunderTriviaText:
-	text "Hast du gewusst?"
+	text "Hast Du gewußt?"
 
 	para "Wenn es regnet,"
 	line "gibt es bestimmt"
@@ -72,9 +72,9 @@ JackThunderTriviaText:
 	done
 
 JackRolloutTriviaText:
-	text "Hast du gewusst…?"
+	text "Hast Du gewußt…?"
 
-	para "Wenn du EINIGLER"
+	para "Wenn Du EINIGLER"
 	line "einsetzt, steigt"
 
 	para "die Stärke von"
@@ -83,18 +83,18 @@ JackRolloutTriviaText:
 	done
 
 JackSolarbeamTriviaText:
-	text "Hast du gewusst…?"
+	text "Hast Du gewußt…?"
 
 	para "Wenn das Sonnen-"
 	line "licht stark ist,"
 
-	para "muss SOLARSTRAHL"
+	para "muß SOLARSTRAHL"
 	line "nicht aufgeladen"
 	cont "werden."
 	done
 
 JackStompTriviaText:
-	text "Hast du gewusst…?"
+	text "Hast Du gewußt…?"
 
 	para "Setzt der Gegner"
 	line "KOMPRIMATOR ein,"
@@ -104,9 +104,9 @@ JackStompTriviaText:
 	done
 
 JackGustTriviaText:
-	text "Hast du gewusst…?"
+	text "Hast Du gewußt…?"
 
-	para "Setzt dein Gegner"
+	para "Setzt Dein Gegner"
 	line "FLIEGEN ein, wird"
 
 	para "WINDSTOSS viel"
@@ -114,9 +114,9 @@ JackGustTriviaText:
 	done
 
 JackTwisterTriviaText:
-	text "Hast du gewusst…?"
+	text "Hast Du gewußt…?"
 
-	para "Setzt dein Gegner"
+	para "Setzt Dein Gegner"
 	line "FLIEGEN ein, wird"
 
 	para "WINDHOSE viel"
@@ -124,9 +124,9 @@ JackTwisterTriviaText:
 	done
 
 JackEarthquakeTriviaText:
-	text "Hast du gewusst…?"
+	text "Hast Du gewußt…?"
 
-	para "Setzt dein Gegner"
+	para "Setzt Dein Gegner"
 	line "SCHAUFLER ein,"
 
 	para "wird ERDBEBEN"
@@ -134,9 +134,9 @@ JackEarthquakeTriviaText:
 	done
 
 JackMagnitudeTriviaText:
-	text "Hast du gewusst…?"
+	text "Hast Du gewußt…?"
 
-	para "Setzt dein Gegner"
+	para "Setzt Dein Gegner"
 	line "SCHAUFLER ein,"
 
 	para "wird INTENSITÄT"
@@ -144,7 +144,7 @@ JackMagnitudeTriviaText:
 	done
 
 JackSandstormTriviaText:
-	text "Hast du gewusst…?"
+	text "Hast Du gewußt…?"
 
 	para "#MON der Ele-"
 	line "mentklassen Boden,"
@@ -157,7 +157,7 @@ JackSandstormTriviaText:
 	done
 
 JackSunnyDayTriviaText:
-	text "Hast du gewusst…?"
+	text "Hast Du gewußt…?"
 
 	para "Wenn das Sonnen-"
 	line "licht stark ist,"
@@ -169,7 +169,7 @@ JackSunnyDayTriviaText:
 	done
 
 JackRainDanceTriviaText:
-	text "Hast du gewusst…?"
+	text "Hast Du gewußt…?"
 
 	para "Bei Regen sind"
 	line "Feuer-Attacken"
@@ -188,14 +188,14 @@ JackHeardSomeGreatTipsText:
 
 	para "Wenn er sie mir"
 	line "sagt, rufe ich"
-	cont "dich sofort an."
+	cont "Dich sofort an."
 	done
 
 JackReminderText:
 	text "Heh, <PLAY_G>!"
 
-	para "Erinnerst du dich"
-	line "an dein Ver-"
+	para "Erinnerst Du Dich"
+	line "an Dein Ver-"
 	cont "sprechen? Wir"
 
 	para "müssen bald"

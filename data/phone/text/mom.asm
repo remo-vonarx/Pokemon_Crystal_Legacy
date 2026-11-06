@@ -6,7 +6,7 @@ MomPhoneGreetingText:
 	done
 
 MomPhoneLandmarkText:
-	text "Oh, du bist in"
+	text "Oh, Du bist in"
 	line "@"
 	text_ram wStringBuffer3
 	text "…"
@@ -16,7 +16,7 @@ MomPhoneLandmarkText:
 	text_ram wStringBuffer4
 	text "?"
 
-	para "Hast du das schon"
+	para "Hast Du das schon"
 	line "angesehen?"
 	done
 
@@ -39,7 +39,7 @@ MomPhoneNewBarkText:
 	text "?"
 
 	para "Besuch doch mal"
-	line "deine MAMA!"
+	line "Deine MAMA!"
 	done
 
 MomPhoneCherrygroveText:
@@ -53,13 +53,13 @@ MomPhoneCherrygroveText:
 	done
 
 MomOtherAreaText:
-	text "Wow, du besuchst"
+	text "Wow, Du besuchst"
 	line "@"
 	text_ram wStringBuffer3
 	text "?"
 
 	para "Viel Glück bei"
-	line "deiner Suche nach"
+	line "Deiner Suche nach"
 	cont "#MON!"
 	done
 
@@ -68,7 +68,7 @@ MomDeterminedText:
 	line "lich hart."
 
 	para "Aber, <PLAYER>,"
-	line "ich weiß, dass du"
+	line "ich weiß, daß Du"
 
 	para "sehr ausdauernd"
 	line "bist. Du schaffst"
@@ -76,12 +76,12 @@ MomDeterminedText:
 	done
 
 MomCheckBalanceText:
-	text "Nebenbei, du hast"
+	text "Nebenbei, Du hast"
 	line "¥@"
 	text_ram wStringBuffer3
 	text_start
 
-	para "gespart. Willst du"
+	para "gespart. Willst Du"
 	line "weitersparen?"
 	done
 
@@ -92,19 +92,19 @@ MomImportantToSaveText:
 
 MomYoureNotSavingText:
 	text "Oh, <PLAYER>,"
-	line "du sparst ja gar"
+	line "Du sparst ja gar"
 
-	para "nicht. Möchtest du"
+	para "nicht. Möchtest Du"
 	line "sparen?"
 	done
 
 MomYouveSavedText:
-	text "Nebenbei, du hast"
+	text "Nebenbei, Du hast"
 	line "¥@"
 	text_ram wStringBuffer3
 	text_start
 
-	para "gespart. Willst du"
+	para "gespart. Willst Du"
 	line "wieder mit dem"
 
 	para "Sparen anfangen?"
@@ -112,19 +112,19 @@ MomYouveSavedText:
 
 MomOKIllSaveText:
 	text "O.K. Ich werde"
-	line "dein Geld sparen."
+	line "Dein Geld sparen."
 	done
 
 MomPhoneWontSaveMoneyText:
 	text "O.K. Ich höre auf,"
-	line "dein Geld zu spa-"
+	line "Dein Geld zu spa-"
 	cont "ren."
 	done
 
 MomPhoneHangUpText:
 	text "<PLAYER>, mach"
 	line "weiter so! Ich"
-	cont "drück dir die"
+	cont "drück Dir die"
 	cont "Daumen!"
 	done
 
@@ -132,9 +132,9 @@ MomPhoneNoPokemonText:
 	text "Hallo?"
 
 	para "Oh, hi, <PLAYER>!"
-	line "Hat PROF. LIND"
+	line "Hat PROF LIND"
 
-	para "nicht auf dich"
+	para "nicht auf Dich"
 	line "gewartet?"
 	done
 
@@ -152,7 +152,7 @@ MomPhoneNoGymQuestText:
 	text "Hallo?"
 
 	para "Hi, <PLAYER>!"
-	line "Ist deine Mission"
+	line "Ist Deine Mission"
 
 	para "erfüllt? Dann komm"
 	line "nach Hause."
@@ -162,17 +162,17 @@ MomPhoneLectureText:
 	text "Hallo?"
 
 	para "……<PLAYER>?"
-	line "PROF. LIND sagte"
+	line "PROF LIND sagte"
 
-	para "mir, dass du auf"
+	para "mir, daß Du auf"
 	line "eine lange Reise"
 	cont "gehst."
 
-	para "Ich wünschte, du"
+	para "Ich wünschte, Du"
 	line "hättest es mir"
 	cont "gesagt…"
 
 	para "Was ist mit Geld?"
-	line "Soll ich für dich"
+	line "Soll ich für Dich"
 	cont "sparen?"
 	done

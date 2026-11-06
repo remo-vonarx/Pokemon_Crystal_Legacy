@@ -2,22 +2,22 @@ ErinAskNumber1Text:
 	text "Diese Niederlage"
 	line "war schmerzhaft."
 
-	para "Ich muss härter"
+	para "Ich muß härter"
 	line "trainieren…"
 
 	para "Das ist meine"
 	line "Nummer. Ich bin"
 
-	para "LOTTE, vergiss das"
+	para "LOTTE, vergiß das"
 	line "nicht! Wollen wir"
 	cont "erneut kämpfen?"
 	done
 
 ErinAskNumber2Text:
-	text "Ich fordere dich"
+	text "Ich fordere Dich"
 	line "erneut heraus."
 
-	para "Gibst du mir deine"
+	para "Gibst Du mir Deine"
 	line "Telefonnummer?"
 	done
 
@@ -29,14 +29,14 @@ ErinNumberAcceptedText:
 
 ErinNumberDeclinedText:
 	text "Oh… Wie schade…"
-	line "Möchtest du doch"
+	line "Möchtest Du doch"
 
 	para "kämpfen, dann"
 	line "suche nach LOTTE!"
 	done
 
 ErinPhoneFullText:
-	text "Oh, dein Nummern-"
+	text "Oh, Dein Nummern-"
 	line "speicher ist voll."
 	done
 
@@ -46,10 +46,10 @@ ErinRematchText:
 	done
 
 ErinPackFullText:
-	text "Pech für dich! Du"
+	text "Pech für Dich! Du"
 	line "hast keinen Platz…"
 
-	para "Ich händige es dir"
+	para "Ich händige es Dir"
 	line "später aus."
 	done
 
@@ -61,6 +61,6 @@ ErinRematchGiftText:
 	line "Mal war das…"
 
 	para "Danke, für alles!"
-	line "Hier ist dein"
+	line "Hier ist Dein"
 	cont "Geschenk!"
 	done

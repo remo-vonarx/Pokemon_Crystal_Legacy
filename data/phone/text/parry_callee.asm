@@ -34,7 +34,7 @@ ParryGreetText:
 	text_ram wStringBuffer3
 	text "!"
 
-	para "Hattest du ein"
+	para "Hattest Du ein"
 	line "großes Frühstück?"
 	done
 
@@ -44,7 +44,7 @@ ParryGreetDayText:
 	text_ram wStringBuffer3
 	text "!"
 
-	para "Hattest du ein"
+	para "Hattest Du ein"
 	line "gutes Mittagessen?"
 	done
 
@@ -54,12 +54,12 @@ ParryGreetNiteText:
 	text_ram wStringBuffer3
 	text "!"
 
-	para "Hattest du ein"
+	para "Hattest Du ein"
 	line "großes Abendessen?"
 	done
 
 ParryGenericText:
-	text "Sehen deine #-"
+	text "Sehen Deine #-"
 	line "MON gut aus?"
 
 	para "Mein @"

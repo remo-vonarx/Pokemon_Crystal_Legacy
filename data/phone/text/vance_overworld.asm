@@ -1,12 +1,12 @@
 VanceAskNumber1Text:
-	text "Du weißt, dass"
-	line "du stark bist."
+	text "Du weißt, daß"
+	line "Du stark bist."
 
 	para "Ich wollte mich"
 	line "nicht verdrücken…"
 
 	para "Ich weiß! Gibst"
-	line "du mir deine Num-"
+	line "Du mir Deine Num-"
 	cont "mer? Wir werden"
 	cont "uns wiedersehen!"
 	done
@@ -16,7 +16,7 @@ VanceAskNumber2Text:
 	line "geht gegen starke"
 	cont "Trainer antreten!"
 
-	para "Gibst du mir deine"
+	para "Gibst Du mir Deine"
 	line "Telefonnummer?"
 
 	para "Dann können wir"
@@ -24,9 +24,9 @@ VanceAskNumber2Text:
 	done
 
 VanceNumberAcceptedText:
-	text "Vergiss nicht mich"
+	text "Vergiß nicht mich"
 	line "aufzusuchen, wenn"
-	cont "ich dich"
+	cont "ich Dich"
 	cont "herausfordere!"
 	done
 
@@ -36,7 +36,7 @@ VanceNumberDeclinedText:
 	cont "kämpft, ist nicht"
 	cont "übel, denke ich…"
 
-	para "Wie denkst du"
+	para "Wie denkst Du"
 	line "darüber?"
 	done
 
@@ -49,7 +49,7 @@ VancePhoneFullText:
 
 VanceRematchText:
 	text "Ich freue mich,"
-	line "dich zu sehen. Ich"
+	line "Dich zu sehen. Ich"
 	cont "werde siegen!"
 	done
 
@@ -57,7 +57,7 @@ VancePackFullText:
 	text "Schade. Du hast"
 	line "keinen Platz mehr."
 
-	para "Ich gebe es dir"
+	para "Ich gebe es Dir"
 	line "beim nächsten Mal!"
 	done
 
@@ -65,11 +65,11 @@ VanceRematchGiftText:
 	text "Du bist wirklich"
 	line "sehr stark!"
 
-	para "Danke, dass du so"
+	para "Danke, daß Du so"
 	line "oft mit mir ge-"
 	cont "kämpft hast. Ich"
 
-	para "habe viel von dir"
+	para "habe viel von Dir"
 	line "gelernt."
 
 	para "Nimm dies als"

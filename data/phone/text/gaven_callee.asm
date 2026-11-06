@@ -34,7 +34,7 @@ GavenGreetText:
 	para "Ich, @"
 	text_ram wStringBuffer3
 	text "."
-	line "Wie geht es dir?"
+	line "Wie geht es Dir?"
 	done
 
 GavenGreetDayText:
@@ -57,7 +57,7 @@ GavenGreetNiteText:
 	done
 
 GavenGenericText:
-	text "Wie geht es deinen"
+	text "Wie geht es Deinen"
 	line "#MON?"
 
 	para "Meinem @"
@@ -66,7 +66,7 @@ GavenGenericText:
 	line "geht es wie immer"
 	cont "hervorragend."
 
-	para "Lass uns am Ball"
+	para "Laß uns am Ball"
 	line "bleiben und #-"
 	cont "MON-CHAMPS werden!"
 	done

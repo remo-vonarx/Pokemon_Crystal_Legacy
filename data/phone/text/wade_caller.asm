@@ -1,5 +1,5 @@
 WadeAreYourMonGrowingText:
-	text "Wachsen deine"
+	text "Wachsen Deine"
 	line "#MON?"
 
 	para "Meine #MON"
@@ -27,7 +27,7 @@ WadeDefeatedMonText:
 	line "Schlag besiegt."
 
 	para "Es ging so hart"
-	line "zu Boden, dass"
+	line "zu Boden, daß"
 
 	para "ich fast schon"
 	line "Mitleid hatte."
@@ -42,12 +42,12 @@ WadeLostAMonText:
 	para "entkam mir nur"
 	line "ganz knapp."
 
-	para "Ich weiß, dass es"
+	para "Ich weiß, daß es"
 	line "kein seltenes"
 	cont "#MON ist…"
 
 	para "Aber es ärgert"
-	line "mich, dass es ent-"
+	line "mich, daß es ent-"
 	cont "kam, obwohl ich es"
 	cont "schon fast hatte."
 	done
@@ -64,7 +64,7 @@ WadeBattleRematchText:
 	text_ram wStringBuffer5
 	text "."
 
-	para "Ruf an, wenn du"
+	para "Ruf an, wenn Du"
 	line "da bist."
 	done
 
@@ -79,7 +79,7 @@ WadeBugCatchingContestText:
 	para "NATIONALPARK"
 	line "statt."
 
-	para "Gehst du hin,"
+	para "Gehst Du hin,"
 	line "<PLAY_G>?"
 
 	para "Ich weiß es noch"
@@ -89,10 +89,10 @@ WadeBugCatchingContestText:
 WadeFoundItemText:
 	text "Ich habe alle mög-"
 	line "lichen BEEREN ge-"
-	cont "funden. Wenn du"
+	cont "funden. Wenn Du"
 
 	para "willst, teile"
-	line "ich mit dir."
+	line "ich mit Dir."
 
 	para "Ich warte hier:"
 	line "@"
@@ -113,7 +113,7 @@ WadeNoBerriesText:
 	done
 
 WadeQuickBattleText:
-	text "Lass uns endlich"
+	text "Laß uns endlich"
 	line "kämpfen!"
 
 	para "Ich warte hier:"
@@ -126,7 +126,7 @@ WadeQuickBattleText:
 	done
 
 WadeComeQuickText:
-	text "Wieso bist du noch"
+	text "Wieso bist Du noch"
 	line "nicht hier?"
 
 	para "Ich bin hier:"

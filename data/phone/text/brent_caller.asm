@@ -6,11 +6,11 @@ BrentRareTradeText:
 	line "#MON in einem"
 	cont "Tausch erhalten."
 
-	para "Möchtest du wissen"
+	para "Möchtest Du wissen"
 	line "welches?"
 
 	para "Hehe, das verrate"
-	line "ich dir nicht!"
+	line "ich Dir nicht!"
 	done
 
 BrentDefeatedMonText:
@@ -46,7 +46,7 @@ BrentBattleRematchText:
 	text "Du hast Zeit, wie"
 	line "immer, oder?"
 
-	para "Hast du Lust zu"
+	para "Hast Du Lust zu"
 	line "kämpfen?"
 
 	para "Es wäre eine"
@@ -66,7 +66,7 @@ BrentHangUpText:
 	done
 
 BrentFatherGossipText:
-	text "Wusstest du…?"
+	text "Wußtest Du…?"
 	line "BILLs Vater soll"
 
 	para "ein wahrer"
@@ -74,7 +74,7 @@ BrentFatherGossipText:
 	done
 
 BrentGrandpaGossipText:
-	text "Wusstest du…?"
+	text "Wußtest Du…?"
 	line "Offensichtlich ist"
 
 	para "BILLs Opa kein"
@@ -82,7 +82,7 @@ BrentGrandpaGossipText:
 	done
 
 BrentGoldenrodGossipText:
-	text "Wusstest du…?"
+	text "Wußtest Du…?"
 	line "BILL kommt"
 
 	para "ursprünglich aus"
@@ -90,14 +90,14 @@ BrentGoldenrodGossipText:
 	done
 
 BrentRoute25GossipText:
-	text "Wusstest du…?"
+	text "Wußtest Du…?"
 	line "BILL lebt wahr-"
 	cont "scheinlich auf"
 	cont "ROUTE 25 in KANTO."
 	done
 
 BrentAbraGossipText:
-	text "Wusstest du…?"
+	text "Wußtest Du…?"
 	line "ABRA war angeblich"
 
 	para "BILLs erstes"
@@ -105,7 +105,7 @@ BrentAbraGossipText:
 	done
 
 BrentSisterGossipText:
-	text "Wusstest du…?"
+	text "Wußtest Du…?"
 	line "BILLs jüngere"
 
 	para "Schwester kann of-"
@@ -114,8 +114,8 @@ BrentSisterGossipText:
 	done
 
 BrentMilkGossipText:
-	text "Wusstest du…?"
-	line "BILL hasst angeb-"
+	text "Wußtest Du…?"
+	line "BILL haßt angeb-"
 	cont "lich Milch und"
 
 	para "kann sie nicht"
@@ -123,7 +123,7 @@ BrentMilkGossipText:
 	done
 
 BrentBattlingGossipText:
-	text "Wusstest du…?"
+	text "Wußtest Du…?"
 	line "Offenbar ist BILL"
 
 	para "kein wirklich"
@@ -131,7 +131,7 @@ BrentBattlingGossipText:
 	done
 
 BrentFlowerShopGossipText:
-	text "Wusstest du…?"
+	text "Wußtest Du…?"
 	line "BILL scheint die"
 
 	para "Frau vom BLUMEN-"
@@ -139,7 +139,7 @@ BrentFlowerShopGossipText:
 	done
 
 BrentKimonoGirlGossipText:
-	text "Wusstest du…?"
+	text "Wußtest Du…?"
 	line "BILLs Mutter soll"
 
 	para "ein KIMONO-GIRL"

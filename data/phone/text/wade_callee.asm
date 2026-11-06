@@ -54,11 +54,11 @@ WadeGreetNiteText:
 	para "Ich, @"
 	text_ram wStringBuffer3
 	text "."
-	line "Bist du wach?"
+	line "Bist Du wach?"
 	done
 
 WadeGenericText:
-	text "Wie geht es deinen"
+	text "Wie geht es Deinen"
 	line "#MON?"
 
 	para "Meine #MON"

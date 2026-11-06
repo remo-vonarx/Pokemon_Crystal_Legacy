@@ -8,7 +8,7 @@ TiffanyAskNumber1Text:
 	para "Ich denke wir wer-"
 	line "den gute Freunde!"
 
-	para "Gib mir doch deine"
+	para "Gib mir doch Deine"
 	line "Telefonnummer!"
 
 	para "Wir können über"
@@ -16,7 +16,7 @@ TiffanyAskNumber1Text:
 	done
 
 TiffanyAskNumber2Text:
-	text "Gib mir doch deine"
+	text "Gib mir doch Deine"
 	line "Telefonnummer!"
 
 	para "Wir können über"
@@ -30,9 +30,9 @@ TiffanyNumberAcceptedText:
 
 TiffanyNumberDeclinedText:
 	text "Argh… Oh, nun."
-	line "Melde dich, wenn"
+	line "Melde Dich, wenn"
 
-	para "du über PIEPI"
+	para "Du über PIEPI"
 	line "reden möchtest."
 	done
 
@@ -44,7 +44,7 @@ TiffanyPhoneFullText:
 TiffanyRematchText:
 	text "Bitte schön!"
 
-	para "PIEPI, gib dein"
+	para "PIEPI, gib Dein"
 	line "Bestes!"
 	done
 

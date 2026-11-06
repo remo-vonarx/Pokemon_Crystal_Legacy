@@ -1,6 +1,6 @@
 IrwinHangUpText:
 	text "Ich hasse es,"
-	line "bei dir auflegen"
+	line "bei Dir auflegen"
 	cont "zu müssen!"
 
 	para "Bis später!"
@@ -8,7 +8,7 @@ IrwinHangUpText:
 
 IrwinRocketTakeoverRumorText:
 	text "<PLAY_G>, hast"
-	line "du gehört?"
+	line "Du gehört?"
 
 	para "Der RADIOTURM von"
 	line "DUKATIA CITY wurde"
@@ -28,13 +28,13 @@ IrwinPlainBadgeGossipText:
 	line "besiegt?"
 
 	para "Ich bin stolz,"
-	line "dein Freund zu"
+	line "Dein Freund zu"
 	cont "sein!"
 	done
 
 IrwinJasmineReturnedGossipText:
 	text "Heh, ich hörte von"
-	line "dir!"
+	line "Dir!"
 
 	para "Du hast das #-"
 	line "MON im LEUCHTTURM"
@@ -43,7 +43,7 @@ IrwinJasmineReturnedGossipText:
 	line "wahr?"
 
 	para "<PLAY_G>, ich"
-	line "wünschte du wür-"
+	line "wünschte Du wür-"
 	cont "dest mich be-"
 	cont "suchen, wenn ich"
 
@@ -71,7 +71,7 @@ IrwinRadioTowerGossipText:
 	text "Ich hörte, ich"
 	line "hörte, ich hörte!"
 
-	para "Von deiner helden-"
+	para "Von Deiner helden-"
 	line "haften Befreiung"
 
 	para "des RADIOTURMs! Du"
@@ -81,11 +81,11 @@ IrwinRadioTowerGossipText:
 IrwinRisingBadgeGossipText:
 	text "Ich sah, ich sah…"
 
-	para "Ich sah, wie du in"
+	para "Ich sah, wie Du in"
 	line "die DRACHENHÖHLE"
 	cont "gingst!"
 
-	para "Ich bin sicher, du"
+	para "Ich bin sicher, Du"
 	line "hast bestanden!"
 
 	para "Nur keine falsche"
@@ -100,27 +100,27 @@ IrwinEliteFourGossipText:
 	line "nach NEUBORKIA."
 
 	para "Ich sah eine Dame,"
-	line "die dir sehr ähn-"
+	line "die Dir sehr ähn-"
 	cont "lich sah,"
 	cont "<PLAY_G>."
 
 	para "Was? Die Dame war"
-	line "deine Mama?"
+	line "Deine Mama?"
 
 	para "Ah, ich hätte mich"
 	line "vorstellen sollen!"
 
-	para "Ich wette, deine"
+	para "Ich wette, Deine"
 	line "Mama ist sehr"
 
-	para "stolz auf dich,"
-	line "nachdem, was du"
+	para "stolz auf Dich,"
+	line "nachdem, was Du"
 	cont "erreicht hast."
 
 	para "Anders gesagt,"
 	line "ich wäre stolz,"
 
-	para "wenn ich deine"
+	para "wenn ich Deine"
 	line "Mama wäre!"
 	done
 
@@ -133,7 +133,7 @@ IrwinVermilionCityGossipText:
 	cont "gangen, <PLAY_G>!"
 
 	para "Ich kann nicht"
-	line "genug von deinem"
+	line "genug von Deinem"
 
 	para "Anblick mit dem"
 	line "Meer im Hinter-"
@@ -148,19 +148,19 @@ IrwinTrainPassGossipText:
 	line "FAHRSCHEIN für"
 	cont "den MAGNETZUG!"
 
-	para "Als ich dich an"
+	para "Als ich Dich an"
 	line "Bord gehen sah,"
 
 	para "war ich traurig,"
-	line "dass ich dich eine"
+	line "daß ich Dich eine"
 
 	para "Weile nicht sehen"
 	line "würde."
 
-	para "Aber da du den"
+	para "Aber da Du den"
 	line "FAHRSCHEIN hast,"
 
-	para "kannst du jeder-"
+	para "kannst Du jeder-"
 	line "zeit zurückkommen!"
 	cont "Ein tolles Gefühl!"
 
@@ -168,7 +168,7 @@ IrwinTrainPassGossipText:
 	line "jederzeit zurück-"
 	cont "FLIEGEN?"
 
-	para "Was meinst du mit"
+	para "Was meinst Du mit"
 	line "FLIEGEN?"
 	done
 
@@ -178,36 +178,36 @@ IrwinSnorlaxGossipText:
 	para "Du hast RELAXO"
 	line "geweckt!"
 
-	para "Ich habe dich aus"
+	para "Ich habe Dich aus"
 	line "der Ferne beo-"
 	cont "bachtet, daher"
 	cont "weiß ich nicht,"
-	cont "was du getan hast."
+	cont "was Du getan hast."
 
-	para "Hast du eine Flöte"
+	para "Hast Du eine Flöte"
 	line "gespielt, um es"
 	cont "aufzuwecken?"
 
-	para "Wow! Das muss"
+	para "Wow! Das muß"
 	line "Magie sein!"
 	done
 
 IrwinMtSilverGossipText:
 	text "Ich hörte überall"
 	line "Gerüchte über"
-	cont "dich."
+	cont "Dich."
 
 	para "Sie entlockten mir"
 	line "ein Seufzen, "
 	cont "<PLAY_G>."
 
-	para "Wie wurdest du so"
+	para "Wie wurdest Du so"
 	line "stark?"
 
 	para "Greife nach der"
 	line "Weltmeisterschaft!"
 
-	para "Ich werde dich"
+	para "Ich werde Dich"
 	line "immer anfeuern!"
 	done
 
@@ -227,13 +227,13 @@ IrwinFogBadgeGossipText:
 	line "ARENALEITER von"
 
 	para "TEAK CITY besiegt!"
-	line "Das ist unfassbar!"
+	line "Das ist unfaßbar!"
 
 	para "Ich bin zur PKMN-"
 	line "ARENA gegangen, um"
 
-	para "dich anzufeuern."
-	line "Wusstest du das?"
+	para "Dich anzufeuern."
+	line "Wußtest Du das?"
 
 	para "Aber alle schweb-"
 	line "ten und überall"
@@ -259,7 +259,7 @@ IrwinMarshBadgeGossipText:
 	done
 
 IrwinYourEscapadesRockText:
-	text "Als ich deine"
+	text "Als ich Deine"
 	line "Geschichten hörte,"
 
 	para "weinte meine"
@@ -267,33 +267,33 @@ IrwinYourEscapadesRockText:
 	done
 
 IrwinGoodMatchText:
-	text "Ich bin froh, dass"
-	line "du anrufst!"
+	text "Ich bin froh, daß"
+	line "Du anrufst!"
 
-	para "Ich wollte dich"
+	para "Ich wollte Dich"
 	line "auch gerade an-"
 	cont "rufen! Wir passen"
 	cont "gut zusammen!"
 	done
 
 IrwinSoMuchToChatAboutText:
-	text "Wie geht es dir?"
+	text "Wie geht es Dir?"
 
-	para "Was machst du"
+	para "Was machst Du"
 	line "gerade?"
 
-	para "Wo bist du?"
+	para "Wo bist Du?"
 
 	para "Wie viele ORDEN"
-	line "hast du jetzt?"
+	line "hast Du jetzt?"
 
 	para "Wie viel Geld hast"
-	line "du gespart?"
+	line "Du gespart?"
 
-	para "Wie geht es deiner"
+	para "Wie geht es Deiner"
 	line "Mama?"
 
-	para "Hast du viele"
+	para "Hast Du viele"
 	line "#MON?"
 
 	para "Scheint morgen die"

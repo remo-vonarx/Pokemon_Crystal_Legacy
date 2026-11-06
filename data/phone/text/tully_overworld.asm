@@ -1,18 +1,18 @@
 TullyAskNumber1Text:
-	text "Heh, du möchtest"
+	text "Heh, Du möchtest"
 	line "auch der beste"
 
 	para "Trainer sein? Dann"
-	line "bist du mein"
+	line "bist Du mein"
 	cont "Kamerad!"
 
 	para "Wenn ich am Wasser"
 	line "noch mehr Items"
 
 	para "finde, gebe ich"
-	line "dir welche ab."
+	line "Dir welche ab."
 
-	para "Gib mir doch deine"
+	para "Gib mir doch Deine"
 	line "Telefonnummer."
 	done
 
@@ -21,14 +21,14 @@ TullyAskNumber2Text:
 	line "noch mehr Items"
 
 	para "finde, gebe ich"
-	line "dir welche ab."
+	line "Dir welche ab."
 
-	para "Gib mir doch deine"
+	para "Gib mir doch Deine"
 	line "Telefonnummer."
 	done
 
 TullyNumberAcceptedText:
-	text "Ich rufe dich an,"
+	text "Ich rufe Dich an,"
 	line "wenn ich etwas"
 	cont "Nützliches finde."
 	done
@@ -54,16 +54,16 @@ TullyRematchText:
 	para "habe ich nicht"
 	line "nur geangelt."
 
-	para "Überzeuge dich"
+	para "Überzeuge Dich"
 	line "selbst!"
 	done
 
 TullyGiftText:
-	text "Ah! Da bist du"
+	text "Ah! Da bist Du"
 	line "endlich!"
 
 	para "Wie versprochen,"
-	line "dein Geschenk!"
+	line "Dein Geschenk!"
 	done
 
 TullyPackFullText:

@@ -5,7 +5,7 @@ BeverlyAskNumber1Text:
 	para "Du liebst #MON,"
 	line "genau wie ich!"
 
-	para "Gibst du mir deine"
+	para "Gibst Du mir Deine"
 	line "Telefonnummer?"
 
 	para "Dann können wir"
@@ -21,7 +21,7 @@ BeverlyAskNumber2Text:
 	line "miteinander reden,"
 	cont "das wäre toll!"
 
-	para "Gibst du mir deine"
+	para "Gibst Du mir Deine"
 	line "Telefonnummer?"
 	done
 
@@ -30,7 +30,7 @@ BeverlyNumberAcceptedText:
 	line "hätte ich gerne"
 	cont "ein MARILL."
 
-	para "Aber ich muss mit"
+	para "Aber ich muß mit"
 	line "meinem niedlichen"
 
 	para "SNUBBULL"
@@ -51,8 +51,8 @@ BeverlyPhoneFullText:
 
 BeverlyGiftText:
 	text "Oh? <PLAYER>?"
-	line "Ich habe dich er-"
-	cont "wartet und dir"
+	line "Ich habe Dich er-"
+	cont "wartet und Dir"
 	cont "etwas mitgebracht."
 	done
 

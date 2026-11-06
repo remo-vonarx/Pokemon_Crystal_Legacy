@@ -35,7 +35,7 @@ ChadGreetText:
 	para "@"
 	text_ram wStringBuffer3
 	text " hier."
-	line "Wie geht es dir?"
+	line "Wie geht es Dir?"
 	done
 
 ChadGreetDayText:
@@ -45,7 +45,7 @@ ChadGreetDayText:
 	para "@"
 	text_ram wStringBuffer3
 	text " hier."
-	line "Wie geht es dir?"
+	line "Wie geht es Dir?"
 	done
 
 ChadGreetNiteText:
@@ -55,16 +55,16 @@ ChadGreetNiteText:
 	para "@"
 	text_ram wStringBuffer3
 	text " hier."
-	line "Wie geht es dir?"
+	line "Wie geht es Dir?"
 	done
 
 ChadGenericText:
-	text "Wie geht es deinen"
+	text "Wie geht es Deinen"
 	line "#MON?"
 
 	para "Du kennst PROF."
 	line "EICH, also geht es"
-	cont "deinen #MON"
+	cont "Deinen #MON"
 	cont "gut!"
 
 	para "Meinen #MON"

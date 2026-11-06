@@ -1,5 +1,5 @@
 WiltonAnswerPhoneText:
-	text "Hallo, du sprichst"
+	text "Hallo, Du sprichst"
 	line "mit @"
 	text_ram wStringBuffer3
 	text "…"
@@ -8,7 +8,7 @@ WiltonAnswerPhoneText:
 	done
 
 WiltonAnswerPhoneDayText:
-	text "Hallo, du sprichst"
+	text "Hallo, Du sprichst"
 	line "mit @"
 	text_ram wStringBuffer3
 	text "…"
@@ -18,7 +18,7 @@ WiltonAnswerPhoneDayText:
 	done
 
 WiltonAnswerPhoneNiteText:
-	text "Hallo, du sprichst"
+	text "Hallo, Du sprichst"
 	line "mit @"
 	text_ram wStringBuffer3
 	text "…"
@@ -31,7 +31,7 @@ WiltonGreetText:
 	text_ram wStringBuffer3
 	text " hier…"
 
-	para "Hast du einen Mo-"
+	para "Hast Du einen Mo-"
 	line "ment Zeit?"
 	done
 
@@ -39,7 +39,7 @@ WiltonGreetDayText:
 	text_ram wStringBuffer3
 	text " hier…"
 
-	para "Kannst du jetzt"
+	para "Kannst Du jetzt"
 	line "reden?"
 	done
 
@@ -52,12 +52,12 @@ WiltonGreetNiteText:
 	done
 
 WiltonGenericText:
-	text "Sind deine #MON"
+	text "Sind Deine #MON"
 	line "gewachsen?"
 
 	para "Mein @"
 	text_ram wStringBuffer4
 	text_start
-	line "ist ein bisschen"
+	line "ist ein bißchen"
 	cont "gewachsen."
 	done

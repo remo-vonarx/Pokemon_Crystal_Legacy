@@ -7,7 +7,7 @@ GavenMonGreaterThanImaginedText:
 	cont "dachte."
 
 	para "Ich bezweifle,"
-	line "dass ich ein"
+	line "daß ich ein"
 
 	para "@"
 	text_ram wStringBuffer4
@@ -34,11 +34,11 @@ GavenDefeatedMonText:
 	text_start
 	line "gesehen…"
 
-	para "Du solltest deine"
+	para "Du solltest Deine"
 	line "Verteidigung nicht"
 
 	para "vernachlässigen,"
-	line "auch wenn du die-"
+	line "auch wenn Du die-"
 	cont "ses #MON öfter"
 	cont "siehst."
 	done
@@ -62,7 +62,7 @@ GavenLostAMonText:
 	line "oder Niederlage"
 
 	para "entscheiden…"
-	line "Auch du solltest"
+	line "Auch Du solltest"
 
 	para "vorsichtig sein!"
 	done
@@ -75,7 +75,7 @@ GavenBattleRematchText:
 	text_ram wStringBuffer5
 	text "."
 
-	para "Ruf an, wenn du in"
+	para "Ruf an, wenn Du in"
 	line "der Nähe bist."
 	done
 
@@ -86,15 +86,15 @@ GavenHangUpText:
 
 GavenHangUpNotThursdayText:
 	text "Ich bin davon"
-	line "besessen, dich"
+	line "besessen, Dich"
 	cont "zu besiegen."
 	done
 
 GavenReminderText:
 	text "<PLAY_G>, wo"
-	line "bist du?"
+	line "bist Du?"
 
-	para "Ich mache dich auf"
+	para "Ich mache Dich auf"
 	line "@"
 	text_ram wStringBuffer5
 	text " fertig!"

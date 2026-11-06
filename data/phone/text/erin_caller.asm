@@ -33,7 +33,7 @@ ErinLostAMonText:
 
 ErinBattleRematchText:
 	text "Ich bin LOTTE."
-	line "Willst du erneut"
+	line "Willst Du erneut"
 
 	para "gegen mich"
 	line "kämpfen?"
@@ -48,7 +48,7 @@ ErinBattleRematchText:
 	done
 
 ErinHangUpText:
-	text "Bis denn. Tschüss!"
+	text "Bis denn. Tschüß!"
 	done
 
 ErinWorkingHardText:
