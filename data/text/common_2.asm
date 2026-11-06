@@ -701,33 +701,38 @@ _AreYouABoyOrAreYouAGirlText::
 	done
 
 _SelectDifficultyText::
-	text "Select difficulty."
+	text "Wähle die"
+	line "Schwierigkeit."
 	done
 
 _SelectDifficultyNormalText::
-	text "Are you sure?"
+	text "Bist Du sicher?"
 
-	para "Classic #MON"
-	line "rules."
+	para "Klassische"
+	line "#MON-Regeln."
 	done
 
 _SelectDifficultyHardText::
-	text "Are you sure?"
+	text "Bist Du sicher?"
 
-	para "SET mode, no"
-	line "items in battle,"
-	cont "GYM LVL caps."
+	para "Modus FOLGEND,"
+	line "keine Items im"
+	cont "Kampf, Level-"
+	cont "grenzen der"
+	cont "ARENEN."
 	done
 
 _SelectDifficultyHardcoreText::
-	text "Are you sure?"
+	text "Bist Du sicher?"
 
-	para "Hard mode, but"
-	line "#MON can't be"
-	cont "revived."
+	para "Wie Schwer, aber"
+	line "man kann #MON"
+	cont "nicht beleben."
 
-	para "Wipeouts reset to"
-	line "previous save."
+	para "Verlierst Du alle,"
+	line "geht es beim"
+	cont "letzten Spiel-"
+	cont "stand weiter."
 	done
 
 Text_BattleEffectActivate::
@@ -1227,8 +1232,10 @@ _PlayersPCNoRoomDepositText::
 	prompt
 
 _TooImportantToDepositText::
-	text "That's too impor-"
-	line "tant to deposit!"
+	text "Dieses Item ist"
+	line "zu wichtig! Du"
+	cont "kannst es nicht"
+	cont "ablegen!"
 	prompt
 
 _PokecenterPCTurnOnText::
