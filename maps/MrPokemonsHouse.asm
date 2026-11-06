@@ -219,9 +219,9 @@ MrPokemonIntroText3:
 	done
 
 MrPokemonExpShareText:
-	text "I also have a"
-	line "special item for"
-	cont "you."
+	text "Ich habe auch noch"
+	line "ein besonderes"
+	cont "Item für Dich."
 	done
 
 MrPokemonIntroText4:
@@ -261,72 +261,78 @@ MrPokemonText_AlwaysNewDiscoveries:
 	done
 
 MrPokemonsHouse_OakText1:
-	text "EICH: Aha! So"
-	line "you're <PLAY_G>!"
+	text "EICH: Aha! Du bist"
+	line "also <PLAY_G>!"
 
-	para "I'm EICH! A #MON"
-	line "researcher."
+	para "Mein Name"
+	line "ist PROF EICH!"
+	cont "Ich bin von Beruf"
+	cont "#MON-Forscher."
 
-	para "I was just visit-"
-	line "ing my old friend"
-	cont "MR.#MON."
+	para "Ich besuche gerade"
+	line "meinen alten"
+	cont "Freund MR. #-"
+	cont "MON."
 
-	para "I heard you were"
-	line "running an errand"
+	para "Ich hörte, Du hast"
+	line "etwas für PROF"
 
-	para "for PROF LIND,"
-	line "so I waited here."
+	para "LIND besorgt, also"
+	line "habe ich gewartet."
 
-	para "Oh! What's this?"
-	line "A rare #MON!"
+	para "Oh! Was ist das?"
+	line "Ein seltenes"
+	cont "#MON!"
 
-	para "Let's see…"
+	para "Mal sehen…"
 
-	para "Hm, I see!"
+	para "Hm, ich verstehe!"
 
-	para "I understand why"
-	line "PROF LIND gave you"
+	para "Ich weiß, warum"
+	line "PROF LIND Dir ein"
 
-	para "a #MON for this"
-	line "errand."
+	para "#MON für die"
+	line "Besorgung gab."
 
-	para "To researchers"
-	line "like PROF LIND and"
+	para "Für Forscher wie"
+	line "PROF LIND und"
 
-	para "I, #MON are our"
-	line "friends."
+	para "mich sind #MON"
+	line "unsere Freunde."
 
-	para "He saw that you"
-	line "would treat your"
+	para "Er erkannte, daß"
+	line "Du Deine #MON"
 
-	para "#MON with love"
-	line "and care."
+	para "liebevoll und"
+	line "umsichtig"
+	cont "umsorgst."
 
 	para "…Ah!"
 
-	para "You seem to be"
-	line "dependable."
+	para "Du scheinst zuver-"
+	line "lässig zu sein."
 
-	para "How would you like"
-	line "to help me out?"
+	para "Möchtest Du mir"
+	line "auch helfen?"
 
-	para "See? This is the"
-	line "latest version of"
-	cont "the #DEX."
+	para "Dies ist die"
+	line "neueste Version"
+	cont "des #DEX."
 
-	para "It automatically"
-	line "records data on"
+	para "Er erfaßt"
+	line "automatisch Daten"
 
-	para "#MON you've"
-	line "seen or caught."
+	para "über #MON,"
+	line "die man gefangen"
+	cont "oder gesehen hat!"
 
-	para "It's a hi-tech"
-	line "encyclopedia!"
+	para "Er ist eine Art"
+	line "Hi-Tech-Lexikon!"
 
-	para "It shows their"
-	line "habitats, how they"
-	cont "evolve, and their"
-	cont "moves."
+	para "Er zeigt ihre"
+	line "Lebensräume, ihre"
+	cont "Entwicklung und"
+	cont "ihre Attacken."
 	done
 
 MrPokemonsHouse_GetDexText:
