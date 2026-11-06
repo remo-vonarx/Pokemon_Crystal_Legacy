@@ -182,29 +182,30 @@ LeaderBlueEpilogueText:
 	done
 
 BlueRematchText:
-	text "BLAU: Well, well."
-	line "KANTO CHAMPION!"
+	text "BLAU: Sieh mal an."
+	line "KANTO-CHAMP!"
 
-	para "Looks like you've"
-	line "come a long way."
+	para "Du bist weit ge-"
+	line "kommen."
 
-	para "I used to have"
-	line "that title too,"
-	cont "you know. But I"
-	cont "won't go easy."
+	para "Ich hatte diesen"
+	line "Titel auch mal,"
+	cont "weißt Du. Aber ich"
+	cont "schone Dich nicht."
 
-	para "Let's see if you"
-	line "can keep it up."
+	para "Mal sehen, ob Du"
+	line "mithalten kannst."
 
-	para "Want to have a"
-	line "rematch with me?"
+	para "Willst Du eine"
+	line "Revanche?"
 	done
 
 Blue_RematchDefeatText:
-	text "BLAU: What?"
+	text "BLAU: Was?"
 
-	para "How the heck did I"
-	line "lose again?"
+	para "Wie zum Teufel"
+	line "konnte ich wieder"
+	cont "verlieren?"
 	done
 
 ViridianGymGuideText:
