@@ -55,10 +55,11 @@ LakeOfRageGioScript:
 	end
 
 GioBeforeText:
-	text "Nothin' but"
+	text "Nichts als"
 	line "GARADOS…"
 
-	para "I know it's them."
+	para "Ich weiß, daß sie"
+	line "es sind."
 	done
 
 LakeOfRageLanceScript:
@@ -285,70 +286,75 @@ LakeOfRageLanceForcedToEvolveText:
 	done
 
 LakeOfRageLanceIntroText1:
-	text "Did you come here"
-	line "because of the"
-	cont "rumors?"
+	text "Bist Du wegen der"
+	line "Gerüchte hier?"
 
-	para "You're <PLAYER>?"
-	line "I'm SIEGFRIED, a"
-	cont "trainer like you."
+	para "Du bist <PLAYER>?"
+	line "Ich bin SIEGFRIED,"
+
+	para "ein Trainer wie"
+	line "Du."
 	done
 
 LakeOfRageLanceIntroText2:
-	text "This man here"
-	line "informed me of"
-	cont "some rumors."
+	text "Dieser Mann hier"
+	line "erzählte mir von"
+	cont "einigen Gerüchten."
 
-	para "So we came to"
-	line "investigate…"
+	para "Also kamen wir"
+	line "hierher, um Nach-"
+	cont "forschungen anzu-"
+	cont "stellen…"
 	done
 
 LakeOfRageLanceIntroText3:
-	text "I saw the way you"
-	line "battled earlier,"
+	text "Ich habe gesehen,"
+	line "wie Du kämpfst,"
 	cont "<PLAY_G>."
 
-	para "I can tell that"
-	line "you're a trainer"
+	para "Man kann sagen,"
+	line "daß Du ein Trai-"
+	cont "ner von bemerkens-"
+	cont "wertem Format"
+	cont "bist."
 
-	para "with considerable"
-	line "skill."
-
-	para "If you don't mind,"
-	line "could you help us"
-	cont "investigate?"
+	para "Würdest Du uns bei"
+	line "unseren Nachfor-"
+	cont "schungen helfen?"
 	done
 
 LakeOfRageLanceRadioSignalText:
-	text "SIEGFRIED:"
-	line "Excellent!"
+	text "SIEGFRIED: Exzel-"
+	line "lent!"
 
-	para "It seems that the"
-	line "LAKE's KARPADOR"
+	para "Es sieht so aus,"
+	line "als würde jemand"
 
-	para "are being forced"
-	line "to evolve."
+	para "die KARPADOR im"
+	line "SEE zwingen, sich"
+	cont "zu entwickeln."
 
-	para "A mysterious radio"
-	line "broadcast coming"
+	para "Die Ursache ist"
+	line "das mysteriöse"
 
-	para "from MAHAGONIA is"
-	line "the cause."
+	para "Radiosignal aus"
+	line "MAHAGONIA CITY."
 
-	para "We'll be waiting"
-	line "for you, <PLAY_G>."
+	para "Wir warten auf"
+	line "Dich, <PLAY_G>."
 	done
 
 LakeOfRageLanceRefusedText:
-	text "Oh… Well, if you"
-	line "change your mind,"
-	cont "please help us."
+	text "Oh… Solltest Du"
+	line "Deine Meinung än-"
+	cont "dern, dann hilf"
+	cont "uns bitte."
 	done
 
 LakeOfRageLanceAskHelpText:
-	text "SIEGFRIED: Hm?"
-	line "Are you going to"
-	cont "help us?"
+	text "SIEGFRIED: Na?"
+	line "Wirst Du uns hel-"
+	cont "fen?"
 	done
 
 LakeOfRageGyaradosCryText:
