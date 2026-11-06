@@ -42,7 +42,7 @@ BattleMenuHeader:
 	dbw BANK(@), NULL
 
 .Text:
-	db "KMPF@"
+	db "KAMPF@"
 	db "<PKMN>@"
 	db "BEUTEL@"
 	db "FLUCHT@"
@@ -87,7 +87,7 @@ ContestBattleMenuHeader:
 	dba .PrintParkBallsRemaining
 
 .Text:
-	db "KMPF@"
+	db "KAMPF@"
 	db "<PKMN>@"
 	db "BALL×  @"
 	db "FLUCHT@"
