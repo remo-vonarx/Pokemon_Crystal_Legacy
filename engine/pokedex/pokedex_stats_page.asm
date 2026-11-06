@@ -651,9 +651,9 @@ Pokedex_HeightWeight:
 	push de
 ; height string
 IF !DEF(wBaseHPAtkDefSpdEVs) ; vanilla
-	hlcoord 2, 15
+	hlcoord 1, 15
 ELSE ; using EVs
-	hlcoord 2, 14
+	hlcoord 1, 14
 ENDC
 	ld de, .String_HeightWeight_blank
 	call PlaceString
@@ -687,14 +687,8 @@ IF !DEF(wBaseHPAtkDefSpdEVs) ; vanilla
 ELSE ; using EVs
 	hlcoord 4, 14
 ENDC
-	lb bc, 2, (2 << 4) | 4
+	lb bc, 2, (2 << 4) | 3
 	call PrintNum
-IF !DEF(wBaseHPAtkDefSpdEVs) ; vanilla
-	hlcoord 6, 15
-ELSE ; using EVs
-	hlcoord 6, 14
-ENDC
-	ld [hl], "′"
 ; get weight
 	pop af ; bank
 	pop hl ; ptr
@@ -741,13 +735,13 @@ IF !DEF(wBaseHPAtkDefSpdEVs) ; vanilla
 ELSE ; using EVs
 	hlcoord 13, 14
 ENDC
-	lb bc, 2, (3 << 4) | 4
+	lb bc, 2, (2 << 4) | 3
 	call PrintNum
 IF !DEF(wBaseHPAtkDefSpdEVs) ; vanilla
-	hlcoord 16, 15
+	hlcoord 17, 15
 ELSE ; using EVs
-	hlcoord 16, 14
-ENDC	
+	hlcoord 17, 14
+ENDC
 	ld de, .String_pounds
 	call PlaceString
 .done	
@@ -756,9 +750,9 @@ ENDC
 	pop hl	
 	ret
 .String_HeightWeight_blank:
-	db "HT     ″ WT       @" ; HT  ?'??"
+	db "GR.    m GEW@"
 .String_pounds:
-	db "lbs@"
+	db "kg@"
 
 BS_HP_text:
 	db " HP@"

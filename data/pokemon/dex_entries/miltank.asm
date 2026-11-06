@@ -1,5 +1,5 @@
 	db "MILCHKUH@" ; species name
-	dw 311, 1660 ; height, weight
+	dw 12, 755 ; height, weight
 
 	db   "Um MILTANK zu"
 	next "melken, muß man"

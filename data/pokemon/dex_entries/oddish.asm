@@ -1,5 +1,5 @@
 	db "UNKRAUT@" ; species name
-	dw 108, 120 ; height, weight
+	dw 5, 54 ; height, weight
 
 	db   "Tagsüber versteckt"
 	next "es sich in der"

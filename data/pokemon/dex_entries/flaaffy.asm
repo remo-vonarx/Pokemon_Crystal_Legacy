@@ -1,5 +1,5 @@
 	db "WOLLE@" ; species name
-	dw 207, 290 ; height, weight
+	dw 8, 133 ; height, weight
 
 	db   "Aufgrund seiner"
 	next "elektrizitätsab-"

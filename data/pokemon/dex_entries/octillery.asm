@@ -1,5 +1,5 @@
 	db "HOCHDRUCK@" ; species name
-	dw 211, 630 ; height, weight
+	dw 9, 285 ; height, weight
 
 	db   "Es schläft ins-"
 	next "tinktiv in"

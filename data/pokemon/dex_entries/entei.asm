@@ -1,5 +1,5 @@
 	db "VULKAN@" ; species name
-	dw 607, 4370 ; height, weight
+	dw 21, 1980 ; height, weight
 
 	db   "Dieses muskulöse"
 	next "#MON durch-"

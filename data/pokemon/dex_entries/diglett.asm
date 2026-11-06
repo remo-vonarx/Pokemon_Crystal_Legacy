@@ -1,5 +1,5 @@
 	db "MAULWURF@" ; species name
-	dw 8, 20 ; height, weight
+	dw 2, 8 ; height, weight
 
 	db   "Es gräbt in der"
 	next "Erde und nagt an"

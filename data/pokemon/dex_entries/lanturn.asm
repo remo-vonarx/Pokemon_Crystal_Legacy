@@ -1,5 +1,5 @@
 	db "LEUCHTE@" ; species name
-	dw 311, 500 ; height, weight
+	dw 12, 225 ; height, weight
 
 	db   "Dieses #MON"
 	next "nutzt das helle"

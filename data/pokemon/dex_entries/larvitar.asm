@@ -1,5 +1,5 @@
 	db "FELSHAUT@" ; species name
-	dw 200, 1590 ; height, weight
+	dw 6, 720 ; height, weight
 
 	db   "Es wurde tief im"
 	next "Erdreich geboren."

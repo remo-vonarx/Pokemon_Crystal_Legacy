@@ -1,5 +1,5 @@
 	db "KREISCHER@" ; species name
-	dw 204, 20 ; height, weight
+	dw 7, 10 ; height, weight
 
 	db   "Es liebt die Men-"
 	next "schen zu beobach-"

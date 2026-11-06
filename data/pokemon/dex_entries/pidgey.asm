@@ -1,5 +1,5 @@
 	db "KLEINVOGEL@" ; species name
-	dw 100, 40 ; height, weight
+	dw 3, 18 ; height, weight
 
 	db   "Es schlägt mit den"
 	next "Flügeln, um eine"

@@ -1,5 +1,5 @@
 	db "FLUGSTAHL@" ; species name
-	dw 507, 1110 ; height, weight
+	dw 17, 505 ; height, weight
 
 	db   "Seine Federn sind"
 	next "sehr scharf. Man"

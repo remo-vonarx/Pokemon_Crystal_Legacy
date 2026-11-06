@@ -1,5 +1,5 @@
 	db "LANGBEIN@" ; species name
-	dw 307, 740 ; height, weight
+	dw 11, 335 ; height, weight
 
 	db   "Es spinnt kein"
 	next "Netz, um Beute zu"

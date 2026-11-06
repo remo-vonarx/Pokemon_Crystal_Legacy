@@ -1,5 +1,5 @@
 	db "MAUS@" ; species name
-	dw 303, 650 ; height, weight
+	dw 10, 295 ; height, weight
 
 	db   "Es hält sich in"
 	next "Bäumen auf und"

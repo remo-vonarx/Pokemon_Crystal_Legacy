@@ -1,5 +1,5 @@
 	db "RAUPE@" ; species name
-	dw 100, 70 ; height, weight
+	dw 3, 32 ; height, weight
 
 	db   "Der Stachel auf"
 	next "seinem Kopf ent-"

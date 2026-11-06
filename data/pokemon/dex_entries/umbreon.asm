@@ -1,5 +1,5 @@
 	db "MONDSCHEIN@" ; species name
-	dw 303, 600 ; height, weight
+	dw 10, 270 ; height, weight
 
 	db   "Bei Vollmond oder"
 	next "bei Aufregung"

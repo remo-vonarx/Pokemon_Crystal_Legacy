@@ -1,5 +1,5 @@
 	db "MUTTERTIER@" ; species name
-	dw 703, 1760 ; height, weight
+	dw 22, 800 ; height, weight
 
 	db   "Da es sein Baby,"
 	next "das in seinem"

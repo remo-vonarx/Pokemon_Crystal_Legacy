@@ -1,5 +1,5 @@
 	db "INSEKT@" ; species name
-	dw 303, 660 ; height, weight
+	dw 10, 300 ; height, weight
 
 	db   "Die kleinen Käfer,"
 	next "die es frißt,"

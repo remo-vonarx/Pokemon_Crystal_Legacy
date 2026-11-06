@@ -1,5 +1,5 @@
 	db "GIFTWOLKE@" ; species name
-	dw 311, 210 ; height, weight
+	dw 12, 95 ; height, weight
 
 	db   "Atmet es Giftgase"
 	next "von Abfällen ein,"

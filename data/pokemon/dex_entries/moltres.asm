@@ -1,5 +1,5 @@
 	db "FEUER@" ; species name
-	dw 607, 1320 ; height, weight
+	dw 20, 600 ; height, weight
 
 	db   "Ein legendäres"
 	next "Vogel-#MON."

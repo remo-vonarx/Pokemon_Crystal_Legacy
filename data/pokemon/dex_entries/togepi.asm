@@ -1,5 +1,5 @@
 	db "ZACKENBALL@" ; species name
-	dw 100, 30 ; height, weight
+	dw 3, 15 ; height, weight
 
 	db   "Es gilt als"
 	next "Glücksbringer."

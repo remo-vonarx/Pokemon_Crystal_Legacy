@@ -1,5 +1,5 @@
 	db "ENTE@" ; species name
-	dw 207, 430 ; height, weight
+	dw 8, 196 ; height, weight
 
 	db   "Es kann seine"
 	next "Psychokräfte nur"

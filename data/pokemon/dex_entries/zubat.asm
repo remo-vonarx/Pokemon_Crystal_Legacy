@@ -1,5 +1,5 @@
 	db "FLEDERMAUS@" ; species name
-	dw 207, 170 ; height, weight
+	dw 8, 75 ; height, weight
 
 	db   "Am Tag versammelt"
 	next "es sich mit"

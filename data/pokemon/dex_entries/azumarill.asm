@@ -1,5 +1,5 @@
 	db "AQUAHASE@" ; species name
-	dw 207, 630 ; height, weight
+	dw 8, 285 ; height, weight
 
 	db   "Das blasenähnliche"
 	next "Muster auf seinem"

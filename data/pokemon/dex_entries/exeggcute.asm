@@ -1,5 +1,5 @@
 	db "EI@" ; species name
-	dw 104, 60 ; height, weight
+	dw 4, 25 ; height, weight
 
 	db   "Selbst wenn sie"
 	next "getrennt werden,"

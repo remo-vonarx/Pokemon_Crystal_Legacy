@@ -1,5 +1,5 @@
 	db "TAGTRÄUMER@" ; species name
-	dw 611, 10140 ; height, weight
+	dw 21, 4600 ; height, weight
 
 	db   "Der Magen dieses"
 	next "#MON ist so"

@@ -1,5 +1,5 @@
 	db "VIELENDER@" ; species name
-	dw 407, 1570 ; height, weight
+	dw 14, 712 ; height, weight
 
 	db   "Die Kugeln, die"
 	next "an abgefallenem"

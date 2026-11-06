@@ -1,5 +1,5 @@
 	db "SCHALTIER@" ; species name
-	dw 403, 890 ; height, weight
+	dw 13, 405 ; height, weight
 
 	db   "Es konnte sehr"
 	next "schnell schwimmen,"

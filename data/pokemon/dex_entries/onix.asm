@@ -1,5 +1,5 @@
 	db "FELSNATTER@" ; species name
-	dw 2810, 4630 ; height, weight
+	dw 88, 2100 ; height, weight
 
 	db   "Wenn es sich durch"
 	next "die Erde gräbt,"

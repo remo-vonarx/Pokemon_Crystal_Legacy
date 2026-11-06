@@ -1,5 +1,5 @@
 	db "SCHLÄFER@" ; species name
-	dw 511, 2770 ; height, weight
+	dw 18, 1258 ; height, weight
 
 	db   "Trotz seines"
 	next "riesigen Körpers"

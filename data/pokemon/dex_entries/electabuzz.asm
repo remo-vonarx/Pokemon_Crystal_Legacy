@@ -1,5 +1,5 @@
 	db "ELEKTRO@" ; species name
-	dw 307, 660 ; height, weight
+	dw 11, 300 ; height, weight
 
 	db   "Berühren sich zwei"
 	next "ELEKTEK, tauschen"

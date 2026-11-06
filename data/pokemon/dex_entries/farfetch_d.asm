@@ -1,5 +1,5 @@
 	db "WILDENTE@" ; species name
-	dw 207, 330 ; height, weight
+	dw 8, 150 ; height, weight
 
 	db   "Um sie vor dem"
 	next "Aussterben zu be-"

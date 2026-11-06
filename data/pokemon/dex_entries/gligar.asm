@@ -1,5 +1,5 @@
 	db "FLUGSKORPI@" ; species name
-	dw 307, 1430 ; height, weight
+	dw 11, 648 ; height, weight
 
 	db   "Sein Nest liegt an"
 	next "einer steilen"

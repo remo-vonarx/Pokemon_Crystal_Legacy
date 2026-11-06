@@ -1,5 +1,5 @@
 	db "FLEDERMAUS@" ; species name
-	dw 503, 1210 ; height, weight
+	dw 16, 550 ; height, weight
 
 	db   "Wenn seine spitzen"
 	next "Zähne die Beute"

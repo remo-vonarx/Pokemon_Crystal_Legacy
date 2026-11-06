@@ -1,5 +1,5 @@
 	db "FEUERPFERD@" ; species name
-	dw 507, 2090 ; height, weight
+	dw 17, 950 ; height, weight
 
 	db   "Es liebt zu ga-"
 	next "loppieren. Je"

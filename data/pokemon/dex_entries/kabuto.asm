@@ -1,5 +1,5 @@
 	db "SCHALTIER@" ; species name
-	dw 108, 250 ; height, weight
+	dw 5, 115 ; height, weight
 
 	db   "Vor 300 Mio."
 	next "Jahren versteckte"

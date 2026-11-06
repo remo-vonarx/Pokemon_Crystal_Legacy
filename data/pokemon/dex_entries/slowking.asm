@@ -1,5 +1,5 @@
 	db "MONARCH@" ; species name
-	dw 607, 1750 ; height, weight
+	dw 20, 795 ; height, weight
 
 	db   "Immer wenn es"
 	next "gähnt, injiziert"

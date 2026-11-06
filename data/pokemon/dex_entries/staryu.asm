@@ -1,5 +1,5 @@
 	db "STERNFORM@" ; species name
-	dw 207, 760 ; height, weight
+	dw 8, 345 ; height, weight
 
 	db   "Leuchten die Ster-"
 	next "ne in der Nacht,"

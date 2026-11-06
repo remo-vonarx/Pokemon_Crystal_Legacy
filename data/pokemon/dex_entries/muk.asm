@@ -1,5 +1,5 @@
 	db "SCHLAMM@" ; species name
-	dw 311, 660 ; height, weight
+	dw 12, 300 ; height, weight
 
 	db   "Bei jeder Bewegung"
 	next "tropft Gift aus"

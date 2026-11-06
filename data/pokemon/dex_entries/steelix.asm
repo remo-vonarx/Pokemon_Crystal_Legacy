@@ -1,5 +1,5 @@
 	db "STAHLBOA@" ; species name
-	dw 3002, 8820 ; height, weight
+	dw 92, 4000 ; height, weight
 
 	db   "Die vielen Metall-"
 	next "teilchen, die den"

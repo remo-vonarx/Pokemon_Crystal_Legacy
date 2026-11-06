@@ -1,5 +1,5 @@
 	db "KNOCHENFAN@" ; species name
-	dw 303, 990 ; height, weight
+	dw 10, 450 ; height, weight
 
 	db   "Irgendwo gibt es"
 	next "einen Friedhof nur"

@@ -1,5 +1,5 @@
 	db "KUSS@" ; species name
-	dw 104, 130 ; height, weight
+	dw 4, 60 ; height, weight
 
 	db   "Die Empfindsamkeit"
 	next "seiner Lippen"

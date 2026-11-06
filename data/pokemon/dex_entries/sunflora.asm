@@ -1,5 +1,5 @@
 	db "SONNE@" ; species name
-	dw 207, 190 ; height, weight
+	dw 8, 85 ; height, weight
 
 	db   "Steht der Sommer"
 	next "bevor, werden die"

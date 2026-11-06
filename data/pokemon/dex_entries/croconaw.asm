@@ -1,5 +1,5 @@
 	db "GROSSMAUL@" ; species name
-	dw 307, 550 ; height, weight
+	dw 11, 250 ; height, weight
 
 	db   "Seine Zähne sind"
 	next "nach hinten ge-"

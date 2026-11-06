@@ -1,5 +1,5 @@
 	db "BALL@" ; species name
-	dw 311, 1470 ; height, weight
+	dw 12, 666 ; height, weight
 
 	db   "Je länger es sich"
 	next "auflädt, desto"

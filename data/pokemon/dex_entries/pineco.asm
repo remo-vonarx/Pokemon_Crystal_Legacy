@@ -1,5 +1,5 @@
 	db "BEUTELWURM@" ; species name
-	dw 200, 160 ; height, weight
+	dw 6, 72 ; height, weight
 
 	db   "Es setzt eine"
 	next "klebrige, luft-"

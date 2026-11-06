@@ -1,5 +1,5 @@
 	db "TAUCHER@" ; species name
-	dw 1701, 4760 ; height, weight
+	dw 52, 2160 ; height, weight
 
 	db   "Es verfügt über"
 	next "die Fähigkeit"

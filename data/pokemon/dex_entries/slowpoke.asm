@@ -1,5 +1,5 @@
 	db "SCHNARCHER@" ; species name
-	dw 311, 790 ; height, weight
+	dw 12, 360 ; height, weight
 
 	db   "Es ist stets geis-"
 	next "tig abwesend. Da-"

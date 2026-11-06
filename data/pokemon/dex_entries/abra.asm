@@ -1,5 +1,5 @@
 	db "PSI@" ; species name
-	dw 211, 430 ; height, weight
+	dw 9, 195 ; height, weight
 
 	db   "Es hypnotisiert"
 	next "sich, um mittels"

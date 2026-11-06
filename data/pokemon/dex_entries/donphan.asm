@@ -1,5 +1,5 @@
 	db "PANZERTIER@" ; species name
-	dw 307, 2650 ; height, weight
+	dw 11, 1200 ; height, weight
 
 	db   "Die Haut dieses"
 	next "#MON ist so"

@@ -1,5 +1,5 @@
 	db "PANZER@" ; species name
-	dw 607, 4450 ; height, weight
+	dw 20, 2020 ; height, weight
 
 	db   "Es besitzt so viel"
 	next "Kraft, daß es mit"

@@ -1,5 +1,5 @@
 	db "PUNCHER@" ; species name
-	dw 407, 1110 ; height, weight
+	dw 14, 502 ; height, weight
 
 	db   "Um seine Schlag-"
 	next "kraft noch zu er-"

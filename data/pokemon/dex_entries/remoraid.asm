@@ -1,5 +1,5 @@
 	db "HOCHDRUCK@" ; species name
-	dw 200, 260 ; height, weight
+	dw 6, 120 ; height, weight
 
 	db   "Um zu entkommen,"
 	next "schießt es Wasser"

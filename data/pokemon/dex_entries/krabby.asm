@@ -1,5 +1,5 @@
 	db "KRABBE@" ; species name
-	dw 104, 140 ; height, weight
+	dw 4, 65 ; height, weight
 
 	db   "Findet es keine"
 	next "Nahrung, ver-"

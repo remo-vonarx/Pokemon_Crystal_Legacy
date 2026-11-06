@@ -1,5 +1,5 @@
 	db "HYPNOSE@" ; species name
-	dw 503, 1670 ; height, weight
+	dw 16, 756 ; height, weight
 
 	db   "Je länger es sein"
 	next "Pendel schwingt,"

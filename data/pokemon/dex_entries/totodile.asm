@@ -1,5 +1,5 @@
 	db "GROSSMAUL@" ; species name
-	dw 200, 210 ; height, weight
+	dw 6, 95 ; height, weight
 
 	db   "Dieser kleine"
 	next "Schnapper beißt"

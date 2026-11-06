@@ -1,5 +1,5 @@
 	db "GLUTHERD@" ; species name
-	dw 204, 470 ; height, weight
+	dw 7, 214 ; height, weight
 
 	db   "Die Flamme, die es"
 	next "spuckt, hat 600"

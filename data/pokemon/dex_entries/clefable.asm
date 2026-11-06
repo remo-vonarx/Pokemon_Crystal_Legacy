@@ -1,5 +1,5 @@
 	db "FEE@" ; species name
-	dw 403, 880 ; height, weight
+	dw 13, 400 ; height, weight
 
 	db   "Man sagt, es lebe"
 	next "in ruhigen, ab-"

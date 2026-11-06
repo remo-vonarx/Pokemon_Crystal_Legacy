@@ -1,5 +1,5 @@
 	db "SCHLECKER@" ; species name
-	dw 311, 1440 ; height, weight
+	dw 12, 655 ; height, weight
 
 	db   "Seine Zunge ist"
 	next "über 2 m lang."

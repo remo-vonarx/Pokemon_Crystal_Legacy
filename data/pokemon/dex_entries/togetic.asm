@@ -1,5 +1,5 @@
 	db "FREUDE@" ; species name
-	dw 200, 70 ; height, weight
+	dw 6, 32 ; height, weight
 
 	db   "Obwohl es nicht"
 	next "viel mit den Flü-"

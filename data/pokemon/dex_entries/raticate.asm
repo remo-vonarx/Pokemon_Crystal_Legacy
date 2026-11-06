@@ -1,5 +1,5 @@
 	db "RATTE@" ; species name
-	dw 204, 410 ; height, weight
+	dw 7, 185 ; height, weight
 
 	db   "Auf der Suche nach"
 	next "Nahrung kann es"

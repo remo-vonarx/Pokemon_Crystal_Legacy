@@ -1,5 +1,5 @@
 	db "SCHLAMM@" ; species name
-	dw 211, 660 ; height, weight
+	dw 9, 300 ; height, weight
 
 	db   "Kombiniert man"
 	next "zwei dieser"

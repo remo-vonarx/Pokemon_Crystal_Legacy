@@ -1,5 +1,5 @@
 	db "SAMEN@" ; species name
-	dw 100, 40 ; height, weight
+	dw 3, 18 ; height, weight
 
 	db   "Es ist sehr"
 	next "schwach. Es kann"

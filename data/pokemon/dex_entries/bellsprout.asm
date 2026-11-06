@@ -1,5 +1,5 @@
 	db "BLUME@" ; species name
-	dw 204, 90 ; height, weight
+	dw 7, 40 ; height, weight
 
 	db   "Bemerkt es etwas,"
 	next "das sich bewegt,"

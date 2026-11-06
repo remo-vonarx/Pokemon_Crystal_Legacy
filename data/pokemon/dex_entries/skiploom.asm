@@ -1,5 +1,5 @@
 	db "LÖWENZAHN@" ; species name
-	dw 200, 20 ; height, weight
+	dw 6, 10 ; height, weight
 
 	db   "Es schließt bei"
 	next "Regen die Blüte"

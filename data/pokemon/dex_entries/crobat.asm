@@ -1,5 +1,5 @@
 	db "FLEDERMAUS@" ; species name
-	dw 511, 1650 ; height, weight
+	dw 18, 750 ; height, weight
 
 	db   "Aufgrund seines"
 	next "Strebens noch"

@@ -1,5 +1,5 @@
 	db "BLITZ@" ; species name
-	dw 207, 540 ; height, weight
+	dw 8, 245 ; height, weight
 
 	db   "Die negative La-"
 	next "dung der Ionen in"

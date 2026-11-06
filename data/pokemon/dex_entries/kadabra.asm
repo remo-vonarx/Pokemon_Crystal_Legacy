@@ -1,5 +1,5 @@
 	db "PSI@" ; species name
-	dw 403, 1250 ; height, weight
+	dw 13, 565 ; height, weight
 
 	db   "Schließt es seine"
 	next "Augen, entstehen"

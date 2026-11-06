@@ -1,5 +1,5 @@
 	db "BALLON@" ; species name
-	dw 100, 20 ; height, weight
+	dw 3, 10 ; height, weight
 
 	db   "Anstatt mit seinen"
 	next "kurzen Beinen zu"

@@ -1,5 +1,5 @@
 	db "DRACHE@" ; species name
-	dw 703, 4630 ; height, weight
+	dw 22, 2100 ; height, weight
 
 	db   "Man sagt, daß es"
 	next "irgendwo im Meer"

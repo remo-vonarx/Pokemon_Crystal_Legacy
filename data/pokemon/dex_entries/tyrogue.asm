@@ -1,5 +1,5 @@
 	db "RACKER@" ; species name
-	dw 204, 460 ; height, weight
+	dw 7, 210 ; height, weight
 
 	db   "Um seine Kampf-"
 	next "fähigkeiten zu"

@@ -1,5 +1,5 @@
 	db "SEEHUND@" ; species name
-	dw 507, 2650 ; height, weight
+	dw 17, 1200 ; height, weight
 
 	db   "Tagsüber schläft"
 	next "es in niedrigen"

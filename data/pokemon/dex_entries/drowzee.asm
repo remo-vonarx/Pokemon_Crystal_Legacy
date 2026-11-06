@@ -1,5 +1,5 @@
 	db "HYPNOSE@" ; species name
-	dw 303, 710 ; height, weight
+	dw 10, 324 ; height, weight
 
 	db   "Wenn es mit der"
 	next "Nase zuckt, kann"

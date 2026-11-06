@@ -1,5 +1,5 @@
 	db "KRÖTE@" ; species name
-	dw 303, 500 ; height, weight
+	dw 10, 225 ; height, weight
 
 	db   "Sein langer und"
 	next "buschiger Schwanz"

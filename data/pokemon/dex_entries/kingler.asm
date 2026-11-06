@@ -1,5 +1,5 @@
 	db "KNEIFER@" ; species name
-	dw 403, 1320 ; height, weight
+	dw 13, 600 ; height, weight
 
 	db   "Seine Riesenschere"
 	next "ist sehr stark,"

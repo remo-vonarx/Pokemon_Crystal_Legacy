@@ -1,5 +1,5 @@
 	db "EINZELHORN@" ; species name
-	dw 411, 1190 ; height, weight
+	dw 15, 540 ; height, weight
 
 	db   "Mit seiner herku-"
 	next "lischen Kraft kann"

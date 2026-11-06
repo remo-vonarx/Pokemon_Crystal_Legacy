@@ -1,5 +1,5 @@
 	db "SPIRALE@" ; species name
-	dw 104, 170 ; height, weight
+	dw 4, 75 ; height, weight
 
 	db   "In der Vorzeit"
 	next "schwamm es am"

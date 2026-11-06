@@ -1,5 +1,5 @@
 	db "FALTER@" ; species name
-	dw 307, 710 ; height, weight
+	dw 11, 320 ; height, weight
 
 	db   "Es eilt von Blume"
 	next "zu Blume, ständig"

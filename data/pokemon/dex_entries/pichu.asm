@@ -1,5 +1,5 @@
 	db "BABYMAUS@" ; species name
-	dw 100, 40 ; height, weight
+	dw 3, 20 ; height, weight
 
 	db   "Es ist noch nicht"
 	next "erfahren im Umgang"

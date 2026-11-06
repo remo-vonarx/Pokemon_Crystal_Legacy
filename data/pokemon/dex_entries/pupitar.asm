@@ -1,5 +1,5 @@
 	db "HARTSCHALE@" ; species name
-	dw 311, 3350 ; height, weight
+	dw 12, 1520 ; height, weight
 
 	db   "Auch als Puppe"
 	next "bewegt es sich."

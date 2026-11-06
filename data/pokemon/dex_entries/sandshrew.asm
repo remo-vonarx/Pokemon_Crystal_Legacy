@@ -1,5 +1,5 @@
 	db "MAUS@" ; species name
-	dw 200, 260 ; height, weight
+	dw 6, 120 ; height, weight
 
 	db   "Es lebt bevorzugt"
 	next "in sandigen Ge-"

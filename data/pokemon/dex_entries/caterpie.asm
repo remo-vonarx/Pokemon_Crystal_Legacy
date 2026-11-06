@@ -1,5 +1,5 @@
 	db "WURM@" ; species name
-	dw 100, 60 ; height, weight
+	dw 3, 29 ; height, weight
 
 	db   "Es sucht im Laub"
 	next "Schutz und tarnt"

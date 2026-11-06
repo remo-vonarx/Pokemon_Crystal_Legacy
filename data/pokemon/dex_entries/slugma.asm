@@ -1,5 +1,5 @@
 	db "LAVA@" ; species name
-	dw 204, 770 ; height, weight
+	dw 7, 350 ; height, weight
 
 	db   "Sie versammeln"
 	next "sich in heißen"

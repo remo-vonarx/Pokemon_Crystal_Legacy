@@ -1,5 +1,5 @@
 	db "NEUE ART@" ; species name
-	dw 104, 90 ; height, weight
+	dw 4, 40 ; height, weight
 
 	db   "Da es jede Attacke"
 	next "erlernen kann,"

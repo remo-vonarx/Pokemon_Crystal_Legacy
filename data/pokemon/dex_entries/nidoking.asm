@@ -1,5 +1,5 @@
 	db "BOHRER@" ; species name
-	dw 407, 1370 ; height, weight
+	dw 14, 620 ; height, weight
 
 	db   "Es greift mit"
 	next "seinen kräftigen"

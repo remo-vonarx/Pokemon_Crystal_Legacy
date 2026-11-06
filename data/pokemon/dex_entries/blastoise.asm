@@ -1,5 +1,5 @@
 	db "PANZERTIER@" ; species name
-	dw 503, 1890 ; height, weight
+	dw 16, 855 ; height, weight
 
 	db   "Ehe es seinen"
 	next "kräftigen Wasser-"

@@ -1,5 +1,5 @@
 	db "SPÄHER@" ; species name
-	dw 207, 130 ; height, weight
+	dw 8, 60 ; height, weight
 
 	db   "Wenn es Wache hat,"
 	next "warnt es seine"
