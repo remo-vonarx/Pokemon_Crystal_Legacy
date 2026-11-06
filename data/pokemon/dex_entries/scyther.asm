@@ -5,6 +5,6 @@
 	next "auf seine Schnel-"
 	next "ligkeit. Es ist so"
 
-	page "schnell, dass der"
+	page "schnell, daß der"
 	next "Feind nicht sieht,"
 	next "wer ihn trifft.@"

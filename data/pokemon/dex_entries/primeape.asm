@@ -7,4 +7,4 @@
 
 	page "es ihn bis ans"
 	next "Ende der Welt"
-	next "verfolgen muss.@"
+	next "verfolgen muß.@"

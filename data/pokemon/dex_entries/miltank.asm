@@ -2,7 +2,7 @@
 	dw 311, 1660 ; height, weight
 
 	db   "Um MILTANK zu"
-	next "melken, muss man"
+	next "melken, muß man"
 	next "ein Gespür dafür"
 
 	page "haben, wie man das"

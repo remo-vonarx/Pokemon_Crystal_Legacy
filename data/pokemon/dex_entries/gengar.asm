@@ -6,5 +6,5 @@
 	next "Menschen und"
 
 	page "absorbiert deren"
-	next "Wärme, so dass die"
+	next "Wärme, so daß die"
 	next "Menschen frieren.@"

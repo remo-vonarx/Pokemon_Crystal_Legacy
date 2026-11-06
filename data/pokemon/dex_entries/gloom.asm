@@ -5,6 +5,6 @@
 	next "Speichels und der"
 	next "Pollen ist so eke-"
 
-	page "lig, dass mancher"
+	page "lig, daß mancher"
 	next "Feind dadurch"
 	next "ohnmächtig wird.@"

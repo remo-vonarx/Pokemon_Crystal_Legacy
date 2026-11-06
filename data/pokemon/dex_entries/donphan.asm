@@ -3,8 +3,8 @@
 
 	db   "Die Haut dieses"
 	next "#MON ist so"
-	next "dick, dass eine"
+	next "dick, daß eine"
 
 	page "normale Attacke"
 	next "bei ihm keine Spu-"
-	next "ren hinterlässt.@"
+	next "ren hinterläßt.@"

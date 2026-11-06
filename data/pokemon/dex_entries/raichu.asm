@@ -1,7 +1,7 @@
 	db "MAUS@" ; species name
 	dw 207, 660 ; height, weight
 
-	db   "Lässt die Elektri-"
+	db   "Läßt die Elektri-"
 	next "zität in den Ba-"
 	next "ckentaschen nach,"
 

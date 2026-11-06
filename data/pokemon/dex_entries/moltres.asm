@@ -3,7 +3,7 @@
 
 	db   "Ein legendäres"
 	next "Vogel-#MON."
-	next "Man sagt, dass es"
+	next "Man sagt, daß es"
 
 	page "vom Süden kommt"
 	next "und mit dem"

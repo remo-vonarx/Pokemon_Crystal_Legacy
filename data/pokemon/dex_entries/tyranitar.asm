@@ -2,7 +2,7 @@
 	dw 607, 4450 ; height, weight
 
 	db   "Es besitzt so viel"
-	next "Kraft, dass es mit"
+	next "Kraft, daß es mit"
 	next "nur einer Hand die"
 
 	page "Erde beben lassen"

@@ -3,7 +3,7 @@
 
 	db   "Seine Federn sind"
 	next "sehr scharf. Man"
-	next "sagt, dass die"
+	next "sagt, daß die"
 
 	page "Menschen die Fe-"
 	next "dern als Schwerter"

@@ -5,6 +5,6 @@
 	next "weichen Federn"
 	next "fliegt es so lei-"
 
-	page "se, dass es sich"
+	page "se, daß es sich"
 	next "unbemerkt seiner"
 	next "Beute nähern kann.@"

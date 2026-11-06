@@ -6,5 +6,5 @@
 	next "strahlen so viel"
 
 	page "Elektrizität ab,"
-	next "dass es ein star-"
+	next "daß es ein star-"
 	next "ker Magnet wird.@"

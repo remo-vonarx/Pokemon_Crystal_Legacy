@@ -5,6 +5,6 @@
 	next "erlernen kann,"
 	next "glauben manche"
 
-	page "Menschen, dass es"
+	page "Menschen, daß es"
 	next "der Urvater aller"
 	next "#MON ist.@"

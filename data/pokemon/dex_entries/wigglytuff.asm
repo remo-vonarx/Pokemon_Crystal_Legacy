@@ -5,6 +5,6 @@
 	next "flauschiges Fell "
 	next "fühlt sich so toll"
 
-	page "an, dass man nicht"
+	page "an, daß man nicht"
 	next "aufhören kann, es"
 	next "anzufassen.@"

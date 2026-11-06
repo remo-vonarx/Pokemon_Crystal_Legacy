@@ -3,7 +3,7 @@
 
 	db   "Der Magen dieses"
 	next "#MON ist so"
-	next "resistent, dass es"
+	next "resistent, daß es"
 
 	page "sogar Verschimmel-"
 	next "tes oder Verdor-"

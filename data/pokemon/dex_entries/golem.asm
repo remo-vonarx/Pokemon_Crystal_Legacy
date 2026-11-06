@@ -3,8 +3,8 @@
 
 	db   "Sein felsartiger"
 	next "Körper ist so"
-	next "hart, dass selbst"
+	next "hart, daß selbst"
 
 	page "Dynamit keine"
 	next "Kratzer in seiner"
-	next "Haut hinterlässt.@"
+	next "Haut hinterläßt.@"

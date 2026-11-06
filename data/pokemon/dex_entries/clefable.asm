@@ -6,5 +6,5 @@
 	next "gelegenen Berg-"
 
 	page "regionen. Diese"
-	next "Feenart hasst es,"
+	next "Feenart haßt es,"
 	next "gesehen zu werden.@"

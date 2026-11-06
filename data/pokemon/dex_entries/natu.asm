@@ -6,5 +6,5 @@
 	next "Es klettert gerne"
 
 	page "auf Bäume und"
-	next "frisst die jungen"
+	next "frißt die jungen"
 	next "Triebe.@"

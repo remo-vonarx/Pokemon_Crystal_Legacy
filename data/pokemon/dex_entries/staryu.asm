@@ -3,7 +3,7 @@
 
 	db   "Leuchten die Ster-"
 	next "ne in der Nacht,"
-	next "verlässt es den"
+	next "verläßt es den"
 
 	page "Meeresgrund und"
 	next "der Kern in seinem"

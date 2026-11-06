@@ -5,6 +5,6 @@
 	next "#MON er-"
 	next "forschte, fand man"
 
-	page "heraus, dass seine"
+	page "heraus, daß seine"
 	next "Teile nicht"
 	next "natürlich sind.@"

@@ -5,6 +5,6 @@
 	next "die Fähigkeit"
 	next "Stürme zu zügeln."
 
-	page "Man sagt, dass"
+	page "Man sagt, daß"
 	next "LUGIA auftaucht,"
 	next "wenn es stürmt.@"

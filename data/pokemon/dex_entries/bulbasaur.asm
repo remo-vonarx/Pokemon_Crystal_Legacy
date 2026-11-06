@@ -2,7 +2,7 @@
 	dw 204, 150 ; height, weight
 
 	db   "Da es noch klein"
-	next "ist, frisst es die"
+	next "ist, frißt es die"
 	next "Samen auf seinem"
 
 	page "Rücken, um durch"

@@ -3,7 +3,7 @@
 
 	db   "Berühren sich zwei"
 	next "ELEKTEK, tauschen"
-	next "sie über den Fluss"
+	next "sie über den Fluß"
 
 	page "der Elektrizität"
 	next "ihre Gefühls-"

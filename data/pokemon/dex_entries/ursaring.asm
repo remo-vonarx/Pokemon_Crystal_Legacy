@@ -6,5 +6,5 @@
 	next "ist es ein guter"
 
 	page "Kletterer. Es"
-	next "frisst und schläft"
+	next "frißt und schläft"
 	next "in Baumkronen.@"

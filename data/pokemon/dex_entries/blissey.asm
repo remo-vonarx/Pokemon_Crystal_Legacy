@@ -1,7 +1,7 @@
 	db "FREUDE@" ; species name
 	dw 411, 1030 ; height, weight
 
-	db   "Beisst man in"
+	db   "Beißt man in"
 	next "eines der leckeren"
 	next "Eier von HEITEIRA,"
 

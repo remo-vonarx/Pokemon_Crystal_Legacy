@@ -1,7 +1,7 @@
 	db "TRIVOGEL@" ; species name
 	dw 511, 1880 ; height, weight
 
-	db   "Lässt ein Feind"
+	db   "Läßt ein Feind"
 	next "auch nur einen der"
 	next "drei Köpfe für nur"
 

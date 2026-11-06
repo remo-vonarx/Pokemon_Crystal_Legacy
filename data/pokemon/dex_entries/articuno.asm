@@ -6,5 +6,5 @@
 	next "Es kühlt die Luft"
 
 	page "beim Fliegen so"
-	next "stark ab, dass es"
+	next "stark ab, daß es"
 	next "schneit.@"

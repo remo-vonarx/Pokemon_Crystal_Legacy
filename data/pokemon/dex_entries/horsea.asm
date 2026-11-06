@@ -5,6 +5,6 @@
 	next "sicheren Ort, kann"
 	next "man beobachten,"
 
-	page "dass sie ihre"
+	page "daß sie ihre"
 	next "Schwanzflossen"
 	next "verheddern.@"

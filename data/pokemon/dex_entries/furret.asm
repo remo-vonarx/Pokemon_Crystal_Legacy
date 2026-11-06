@@ -3,7 +3,7 @@
 
 	db   "Sein Bau ist sei-"
 	next "nem schlanken Kör-"
-	next "per angepasst. Je"
+	next "per angepaßt. Je"
 
 	page "tiefer sein Bau"
 	next "ist, desto ver-"

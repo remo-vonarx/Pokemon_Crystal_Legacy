@@ -5,6 +5,6 @@
 	next "allein in einer"
 	next "unentdeckten Höhle"
 
-	page "und dass es nur"
+	page "und daß es nur"
 	next "für den Kampf"
 	next "geschaffen wurde.@"

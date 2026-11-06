@@ -5,6 +5,6 @@
 	next "schiedliche Rufe"
 	next "aus. Es scheint,"
 
-	page "dass jeder Ruf"
+	page "daß jeder Ruf"
 	next "eine andere"
 	next "Bedeutung hat.@"

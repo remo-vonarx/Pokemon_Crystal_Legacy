@@ -7,4 +7,4 @@
 
 	page "und versteckt"
 	next "sich, um nicht"
-	next "nass zu werden.@"
+	next "naß zu werden.@"

@@ -2,7 +2,7 @@
 	dw 611, 4850 ; height, weight
 
 	db   "Es schwimmt frei"
-	next "umher und frisst"
+	next "umher und frißt"
 	next "alles, was ihm ins"
 
 	page "Maul schwimmt."

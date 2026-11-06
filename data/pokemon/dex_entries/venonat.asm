@@ -2,7 +2,7 @@
 	dw 303, 660 ; height, weight
 
 	db   "Die kleinen Käfer,"
-	next "die es frisst,"
+	next "die es frißt,"
 	next "sind nachtaktiv."
 
 	page "Daher schläft es"

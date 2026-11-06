@@ -5,6 +5,6 @@
 	next "und lethargische"
 	next "#MON wird"
 
-	page "leicht von Fluss-"
+	page "leicht von Fluß-"
 	next "strömungen mit-"
 	next "gerissen.@"

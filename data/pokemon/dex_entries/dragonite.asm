@@ -1,7 +1,7 @@
 	db "DRACHE@" ; species name
 	dw 703, 4630 ; height, weight
 
-	db   "Man sagt, dass es"
+	db   "Man sagt, daß es"
 	next "irgendwo im Meer"
 	next "eine Insel gibt,"
 

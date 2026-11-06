@@ -7,4 +7,4 @@
 
 	page "spitze leuchtend"
 	next "hell, auch wenn"
-	next "sie nass wird.@"
+	next "sie naß wird.@"

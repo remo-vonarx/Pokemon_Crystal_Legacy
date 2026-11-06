@@ -5,6 +5,6 @@
 	next "stets schleimig."
 	next "Es stößt sich den"
 
-	page "Kopf am Fluss-"
+	page "Kopf am Fluß-"
 	next "grund, aber das"
 	next "ist ihm egal.@"

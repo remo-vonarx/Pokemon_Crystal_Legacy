@@ -6,5 +6,5 @@
 	next "sein Körper eine"
 
 	page "derartige Hitze"
-	next "aus, dass die Luft"
+	next "aus, daß die Luft"
 	next "um ihn flimmert.@"
