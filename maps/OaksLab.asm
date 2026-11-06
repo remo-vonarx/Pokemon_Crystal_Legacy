@@ -116,75 +116,80 @@ OakLabGoodbyeText:
 	done
 
 OakOpenMtSilverText:
-	text "EICH: Wow! That's"
-	line "excellent!"
+	text "EICH: Wow! Das ist"
+	line "hervorragend!"
 
-	para "You collected the"
-	line "BADGES of GYMS in"
-	cont "KANTO,"
+	para "Du hast die ORDEN"
+	line "der ARENALEITER in"
+	cont "KANTO erkämpft"
 
-	para "and become"
-	line "CHAMPION of both"
-	cont "the KANTO and"
-	cont "JOHTO LEAGUES."
-	
-	para "Well done!"
+	para "und bist CHAMP der"
+	line "KANTO-LIGA und"
+	cont "der JOHTO-LIGA."
 
-	para "I was right in my"
-	line "assessment of you."
+	para "Gut gemacht!"
 
-	para "Tell you what,"
-	line "<PLAY_G>. I'll make"
+	para "Ich habe Dich"
+	line "richtig"
+	cont "eingeschätzt."
 
-	para "arrangements so"
-	line "that you can go to"
-	cont "MT.SILVER."
+	para "Weißt Du was,"
+	line "<PLAY_G>? Ich"
 
-	para "MT.SILVER is a big"
-	line "mountain that is"
+	para "werde es so ein-"
+	line "richten, daß Du"
+	cont "zum SILBERBERG"
+	cont "gehen kannst."
 
-	para "home to many wild"
+	para "Der SILBERBERG ist"
+	line "ein großes Habitat"
+
+	para "für viele wilde"
 	line "#MON."
 
-	para "It's too dangerous"
-	line "for your average"
+	para "Es ist zu"
+	line "gefährlich für"
 
-	para "trainer, so it's"
-	line "off limits. But"
+	para "einen Durch-"
+	line "schnittstrainer."
 
-	para "we can make an"
-	line "exception in your"
-	cont "case, <PLAY_G>."
+	para "Deshalb ist es"
+	line "verboten. Aber für"
+	cont "Dich, <PLAY_G>,"
+	cont "können wir eine"
+	cont "Ausnahme machen."
 
-	para "Go up to INDIGO"
-	line "PLATEAU. You can"
+	para "Steige auf das"
+	line "INDIGO PLATEAU."
 
-	para "reach MT.SILVER"
-	line "from there."
+	para "Von dort kannst"
+	line "Du den SILBERBERG"
+	cont "erreichen."
 	done
 
 OakBattleKantoE4Text:
-	text "EICH: Wow! That's"
-	line "excellent!"
+	text "EICH: Wow! Das ist"
+	line "hervorragend!"
 
-	para "You collected the"
-	line "BADGES of GYMS in"
-	cont "KANTO,"
+	para "Du hast die ORDEN"
+	line "der ARENALEITER in"
+	cont "KANTO erkämpft,"
 
-	para "but I still don't"
-	line "think you are"
-	cont "ready."
+	para "aber ich glaube,"
+	line "Du bist noch"
+	cont "nicht soweit."
 
-	para "You must return"
-	line "to the ELITE"
-	cont "FOUR..."
+	para "Du mußt zu den"
+	line "TOP VIER zurück-"
+	cont "kehren…"
 
-	para "and battle in"
-	line "the KANTO LEAGUE!"
+	para "und in der"
+	line "KANTO-LIGA"
+	cont "kämpfen!"
 
-	para "Only then will"
-	line "you truly have"
-	cont "what it takes."
+	para "Erst dann hast Du"
+	line "wirklich das"
+	cont "Zeug dazu."
 	done
 
 OakNoKantoBadgesText:
