@@ -2581,7 +2581,7 @@ Pokedex_DisplayModeDescription:
 	dw .UnownMode
 
 .NayDexInfo:	
-	db   $41, $42, $43, " GEBIETSKARTE ", $37, $36, \
+	db   $41, $42, $43, " GEBIETSKARTE  ", $37, $36, \
 		 "                  ", $37, $36, \
 		 $48, $49, $4a, " SCHILLERND ", -1	
 
