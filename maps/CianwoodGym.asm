@@ -308,24 +308,25 @@ ChuckAfterText:
 	done
 
 ChuckRematchText:
-	text "WAHAHAH!"
-	line "JOHTO CHAMPION!"
+	text "Wahahah!"
+	line "JOHTO-CHAMP!"
 
-	para "You've come"
-	line "back for more!"
+	para "Du willst also"
+	line "noch mehr!"
 
-	para "I see your"
-	line "skills have"
-	cont "improved!"
+	para "Ich sehe, Deine"
+	line "Fähigkeiten haben"
+	cont "sich verbessert!"
 
-	para "Ready to see"
-	line "who's stronger?"
+	para "Bereit, um zu"
+	line "sehen, wer von"
+	cont "uns stärker ist?"
 	done
 
 Chuck_RematchDefeatText:
-	text "Wha? Huh?"
-	line "I lost?"
-	cont "Again?"
+	text "Was? Hä? Ich habe"
+	line "verloren?"
+	cont "Schon wieder?"
 	done
 
 BlackbeltYoshiSeenText:

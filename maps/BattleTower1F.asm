@@ -531,7 +531,7 @@ Text_AskRegisterRecord_Mobile: ; unreferenced
 	done
 
 Text_PlayerGot:
-	text "<PLAYER> got"
+	text "<PLAYER> erhält"
 	line "@"
 	text_ram wStringBuffer4
 	text "!@"
@@ -540,15 +540,16 @@ Text_PlayerGot:
 	text_end
 
 Text_PlayerGotDeco:
-	text "<PLAYER> got"
-	line "a decoration.@"
+	text "<PLAYER> erhält"
+	line "eine Dekoration.@"
 	sound_item
 	text_start
 
 	para "@"
 	text_ram wPlayerName
-	text " sent the"
-	line "decoration home."
+	text " schickt"
+	line "die Dekoration"
+	cont "nach Hause."
 	done
 
 Text_YourPackIsStuffedFull:
