@@ -231,28 +231,30 @@ SabrinaFightDoneText:
 	done
 
 SabrinaRematchText:
-	text "SABRINA: Ah, the"
-	line "KANTO CHAMPION."
+	text "SABRINA: Ah, der"
+	line "KANTO-CHAMP."
 
-	para "I sensed your"
-	line "return."
+	para "Ich habe Deine"
+	line "Rückkehr gespürt."
 
-	para "Your power has"
-	line "grown immensely."
+	para "Deine Kraft ist"
+	line "enorm gewachsen."
 
-	para "Even now, I feel"
-	line "your aura."
+	para "Selbst jetzt spüre"
+	line "ich Deine Aura."
 
-	para "Want to have a"
-	line "rematch with me?"
+	para "Willst Du eine"
+	line "Revanche?"
 	done
 
 Sabrina_RematchDefeatText:
-	text "SABRINA: Your love"
-	line "for your #MON"
+	text "SABRINA: Deine"
+	line "Liebe zu Deinen"
+	cont "#MON"
 
-	para "again overwhelmed"
-	line "my psychic power…"
+	para "hat erneut meine"
+	line "Psycho-Kräfte"
+	cont "überwältigt…"
 	done
 
 MediumRebeccaSeenText:
