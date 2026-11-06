@@ -68,8 +68,8 @@ NurseReturnPokemonText:
 	done
 
 NurseReturnPokemonShortText:
-	text "Your #MON are"
-	line "fully healed."
+	text "Deine #MON sind"
+	line "wieder topfit!"
 	done
 
 NurseGoodbyeText:
