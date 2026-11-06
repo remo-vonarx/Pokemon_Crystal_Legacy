@@ -556,27 +556,27 @@ Cherrygrove_Map_Names:
 
 ; MAX LENGTH: 17
 Olivine_Map_Name1: ; map_const OLIVINE_POKECENTER_1F ;  1
-	db "OLIVIANA <PKMN> CEN.@"
+	db "OLIVIANA <PKMN>-CENTER@"
 Olivine_Map_Name2: ; map_const OLIVINE_GYM ;  2
-	db "OLIVIANA GYM@"
+	db "OLIVIANA ARENA@"
 Olivine_Map_Name3: ; map_const OLIVINE_TIMS_HOUSE ;  3
-	db "TIM'S HOUSE@"
+	db "TIMs HAUS@"
 Olivine_Map_Name4: ; map_const OLIVINE_HOUSE_BETA ;  4
-	db "OLIVIANA HOUSE@"
+	db "OLIVIANA HAUS@"
 Olivine_Map_Name5: ; map_const OLIVINE_PUNISHMENT_SPEECH_HOUSE ;  5
-	db "OLIVIANA HOUSE 1@"
+	db "OLIVIANA HAUS 1@"
 Olivine_Map_Name6: ; map_const OLIVINE_GOOD_ROD_HOUSE ;  6
-	db "OLIVIANA HOUSE 2@"
+	db "OLIVIANA HAUS 2@"
 Olivine_Map_Name7: ; map_const OLIVINE_CAFE ;  7
 	db "OLIVIANA CAFE@"
 Olivine_Map_Name8: ; map_const OLIVINE_MART ;  8
-	db "OLIVIANA <POKE>MART@"
+	db "OLIVIANA MARKT@"
 Olivine_Map_Name9: ; map_const ROUTE_38_ECRUTEAK_GATE ;  9
-	db "ROUTE 38 GATE@"
+	db "ROUTE 38 TOR@"
 Olivine_Map_Name10: ; map_const ROUTE_39_BARN ; 10
-	db "ROUTE 39 BARN@"
+	db "ROUTE 39 STALL@"
 Olivine_Map_Name11: ; map_const ROUTE_39_FARMHOUSE ; 11
-	db "ROUTE 39 HOUSE@"
+	db "ROUTE 39 HAUS@"
 Olivine_Map_Name12: ; map_const ROUTE_38, ; 12
 	db "ROUTE 38@"
 Olivine_Map_Name13: ; map_const ROUTE_39, ; 13
@@ -585,13 +585,13 @@ Olivine_Map_Name14: ; map_const OLIVINE_CITY ; 14
 	db "OLIVIANA CITY@"
 
 Mahogany_Map_Name1: ; map_const MAHOGANY_RED_GYARADOS_SPEECH_HOUSE ;  1
-	db "MAHAGONIA HOUSE@"
+	db "MAHAGONIA HAUS@"
 Mahogany_Map_Name2: ; map_const MAHOGANY_GYM ;  2
-	db "MAHAGONIA GYM@"
+	db "MAHAGONIA ARENA@"
 Mahogany_Map_Name3: ; map_const MAHOGANY_POKECENTER_1F ;  3
-	db "MAHAGONIA <PKMN> CEN.@"
+	db "MAHAGONIA <PKMN>-CEN.@"
 Mahogany_Map_Name4: ; map_const ROUTE_42_ECRUTEAK_GATE ;  4
-	db "ROUTE 42 GATE@"
+	db "ROUTE 42 TOR@"
 Mahogany_Map_Name5: ; map_const ROUTE_42,  ;  5
 	db "ROUTE 42@"
 Mahogany_Map_Name6: ; map_const ROUTE_44, ;  6
@@ -599,221 +599,221 @@ Mahogany_Map_Name6: ; map_const ROUTE_44, ;  6
 Mahogany_Map_Name7: ; map_const MAHOGANY_TOWN,  ;  7
 	db "MAHAGONIA CITY@"                                           ;  3
 Dungeons_Map_Name1: ; map_const SPROUT_TOWER_1F, ;  1
-	db "KNOFENSA-TURM 1F@"
+	db "KNOFENSA-TURM EG@"
 Dungeons_Map_Name2: ; map_const SPROUT_TOWER_2F, ;  2
-	db "KNOFENSA-TURM 2F@"
+	db "KNOFENSA-TURM 1S@"
 Dungeons_Map_Name3: ; map_const SPROUT_TOWER_3F, ;  3
-	db "KNOFENSA-TURM 3F@"
+	db "KNOFENSA-TURM 2S@"
 Dungeons_Map_Name4: ; map_const TIN_TOWER_1F,  ;  4
-	db "TIN TOWER 1F@"
+	db "ZINNTURM EG@"
 Dungeons_Map_Name5: ; map_const TIN_TOWER_2F,;  5
-	db "TIN TOWER 2F@"
+	db "ZINNTURM 1S@"
 Dungeons_Map_Name6: ; map_const TIN_TOWER_3F,;  6
-	db "TIN TOWER 3F@"
+	db "ZINNTURM 2S@"
 Dungeons_Map_Name7: ; map_const TIN_TOWER_4F,;  7
-	db "TIN TOWER 4F@"
+	db "ZINNTURM 3S@"
 Dungeons_Map_Name8: ; map_const TIN_TOWER_5F, ;  8
-	db "TIN TOWER 5F@"
+	db "ZINNTURM 4S@"
 Dungeons_Map_Name9: ; map_const TIN_TOWER_6F, ;  9
-	db "TIN TOWER 6F@"
+	db "ZINNTURM 5S@"
 Dungeons_Map_Name10: ; map_const TIN_TOWER_7F, ; 10
-	db "TIN TOWER 7F@"
+	db "ZINNTURM 6S@"
 Dungeons_Map_Name11: ; map_const TIN_TOWER_8F,; 11
-	db "TIN TOWER 8F@"
+	db "ZINNTURM 7S@"
 Dungeons_Map_Name12: ; map_const TIN_TOWER_9F,  ; 12
-	db "TIN TOWER 9F@"
+	db "ZINNTURM 8S@"
 Dungeons_Map_Name13: ; map_const BURNED_TOWER_1F, ; 13
-	db "BURNED TOWER 1F@"
+	db "TURMRUINE EG@"
 Dungeons_Map_Name14: ; map_const BURNED_TOWER_B1F, ; 14
-	db "BURNED TOWER B1F@"
+	db "TURMRUINE U1S@"
 Dungeons_Map_Name15: ; map_const NATIONAL_PARK, ; 15
 	db "NATIONAL PARK@"
 Dungeons_Map_Name16: ; map_const NATIONAL_PARK_BUG_CONTEST,; 16
-	db "BUG CONTEST@"
+	db "KÄFERTURNIER@"
 Dungeons_Map_Name17: ; map_const RADIO_TOWER_1F ; 17
-	db "RADIO TOWER 1F@"
+	db "RADIOTURM EG@"
 Dungeons_Map_Name18: ; map_const RADIO_TOWER_2F ; 18
-	db "RADIO TOWER 2F@"
+	db "RADIOTURM 1S@"
 Dungeons_Map_Name19: ; map_const RADIO_TOWER_3F ; 19
-	db "RADIO TOWER 3F@"
+	db "RADIOTURM 2S@"
 Dungeons_Map_Name20: ; map_const RADIO_TOWER_4F ; 20
-	db "RADIO TOWER 4F@"
+	db "RADIOTURM 3S@"
 Dungeons_Map_Name21: ; map_const RADIO_TOWER_5F ; 21
-	db "RADIO TOWER 5F@"
+	db "RADIOTURM 4S@"
 Dungeons_Map_Name22: ; map_const RUINS_OF_ALPH_OUTSIDE, ; 22
-	db "RUINS OF ALPH@"
+	db "ALPH-RUINEN@"
 Dungeons_Map_Name23: ; map_const RUINS_OF_ALPH_HO_OH_CHAMBER ; 23
-	db "HO-OH CHAMBER@"
+	db "HO-OH-KAMMER@"
 Dungeons_Map_Name24: ; map_const RUINS_OF_ALPH_KABUTO_CHAMBER ; 24
-	db "KABUTO CHAMBER@"
+	db "KABUTO-KAMMER@"
 Dungeons_Map_Name25: ; map_const RUINS_OF_ALPH_OMANYTE_CHAMBER ; 25
-	db "AMONITAS CHAMBER@"
+	db "AMONITAS-KAMMER@"
 Dungeons_Map_Name26: ; map_const RUINS_OF_ALPH_AERODACTYL_CHAMBER ; 26
-	db "AERO CHAMBER@"
+	db "AERO-KAMMER@"
 Dungeons_Map_Name27: ; map_const RUINS_OF_ALPH_INNER_CHAMBE ; 27
-	db "RUINS CHAMBER@"
+	db "RUINEN-KAMMER@"
 Dungeons_Map_Name28: ; map_const RUINS_OF_ALPH_RESEARCH_CENTER ; 28
-	db "RUINS LAB@"
+	db "RUINEN-LABOR@"
 Dungeons_Map_Name29: ; map_const RUINS_OF_ALPH_HO_OH_ITEM_ROOM ; 29
-	db "HO-OH PRIZE ROOM@"
+	db "HO-OH-SCHATZRAUM@"
 Dungeons_Map_Name30: ; map_const RUINS_OF_ALPH_KABUTO_ITEM_ROOM ; 30
-	db "KABUTO PRIZE ROOM@"
+	db "KABUTO-SCHATZRAUM@"
 Dungeons_Map_Name31: ; map_const RUINS_OF_ALPH_OMANYTE_ITEM_ROOM ; 31
-	db "AMONITAS PRIZE RM@"
+	db "AMONITAS-SCHATZR.@"
 Dungeons_Map_Name32: ; map_const RUINS_OF_ALPH_AERODACTYL_ITEM_ROOM ; 32
-	db "AERO PRIZE ROOM@"
+	db "AERO-SCHATZRAUM@"
 Dungeons_Map_Name33: ; map_const RUINS_OF_ALPH_HO_OH_WORD_ROOM,; 33
-	db "HO-OH WORD ROOM@"
+	db "HO-OH-WORTRAUM@"
 Dungeons_Map_Name34: ; map_const RUINS_OF_ALPH_KABUTO_WORD_ROOM,; 34
-	db "KABUTO WORD ROOM@"
+	db "KABUTO-WORTRAUM@"
 Dungeons_Map_Name35: ; map_const RUINS_OF_ALPH_OMANYTE_WORD_ROOM,; 35
-	db "AMONITAS WORDROOM@"
+	db "AMONITAS-WORTRAUM@"
 Dungeons_Map_Name36: ; map_const RUINS_OF_ALPH_AERODACTYL_WORD_ROOM,; 36
-	db "AERO WORD ROOM@"
+	db "AERO-WORTRAUM@"
 Dungeons_Map_Name37: ; map_const UNION_CAVE_1F,; 37
-	db "UNION CAVE 1F@"
+	db "EINHEITSTUNNEL EG@"
 Dungeons_Map_Name38: ; map_const UNION_CAVE_B1F,; 38
-	db "UNION CAVE B1F@"
+	db "EINHEITSTUNNEL U1S@"
 Dungeons_Map_Name39: ; map_const UNION_CAVE_B2F,; 39
-	db "UNION CAVE B2F@"
+	db "EINHEITSTUNNEL U2S@"
 Dungeons_Map_Name40: ; map_const SLOWPOKE_WELL_B1F,; 40
-	db "FLEGMON WELL B1@"
+	db "FLEGMON-BRUNNEN U1@"
 Dungeons_Map_Name41: ; map_const SLOWPOKE_WELL_B2F,; 41
-	db "FLEGMON WELL B2@"
+	db "FLEGMON-BRUNNEN U2@"
 Dungeons_Map_Name42: ; map_const OLIVINE_LIGHTHOUSE_1F,; 42
-	db "LIGHTHOUSE 1F@"
+	db "LEUCHTTURM EG@"
 Dungeons_Map_Name43: ; map_const OLIVINE_LIGHTHOUSE_2F,; 43
-	db "LIGHTHOUSE 2F@"
+	db "LEUCHTTURM 1S@"
 Dungeons_Map_Name44: ; map_const OLIVINE_LIGHTHOUSE_3F,; 44
-	db "LIGHTHOUSE 3F@"
+	db "LEUCHTTURM 2S@"
 Dungeons_Map_Name45: ; map_const OLIVINE_LIGHTHOUSE_4F,; 45
-	db "LIGHTHOUSE 4F@"
+	db "LEUCHTTURM 3S@"
 Dungeons_Map_Name46: ; map_const OLIVINE_LIGHTHOUSE_5F,; 46
-	db "LIGHTHOUSE 5F@"
+	db "LEUCHTTURM 4S@"
 Dungeons_Map_Name47: ; map_const OLIVINE_LIGHTHOUSE_6F,; 47
-	db "LIGHTHOUSE 6F@"
+	db "LEUCHTTURM 5S@"
 Dungeons_Map_Name48: ; map_const MAHOGANY_MART_1F ; 48
-	db "MAHAGONIA <POKE>MART@"
+	db "MAHAGONIA MARKT@"
 Dungeons_Map_Name49: ; map_const TEAM_ROCKET_BASE_B1F,; 49
-	db "ROCKET BASE B1F@"
+	db "ROCKET-BASIS U1S@"
 Dungeons_Map_Name50: ; map_const TEAM_ROCKET_BASE_B2F,; 50
-	db "ROCKET BASE B2F@"
+	db "ROCKET-BASIS U2S@"
 Dungeons_Map_Name51: ; map_const TEAM_ROCKET_BASE_B3F,; 51
-	db "ROCKET BASE B3F@"
+	db "ROCKET-BASIS U3S@"
 Dungeons_Map_Name52: ; map_const ILEX_FOREST,; 52
-	db "ILEX FOREST@"
+	db "STEINEICHENWALD@"
 Dungeons_Map_Name53: ; map_const GOLDENROD_UNDERGROUND,; 53
-	db "DUK. UNDERGROUND@"
+	db "DUK. UNTERGRUND@"
 Dungeons_Map_Name54: ; map_const GOLDENROD_UNDERGROUND_SWITCH_ROOM_ENTRANCES,; 54
-	db "DUK. SWITCH ROOM@"
+	db "DUK. SCHALTRAUM@"
 Dungeons_Map_Name55: ; map_const GOLDENROD_DEPT_STORE_B1F,; 55
-	db "DUKATIA DEPT B1F@"
+	db "DUKATIA KAUFH. U1S@"
 Dungeons_Map_Name56: ; map_const GOLDENROD_UNDERGROUND_WAREHOUSE,; 56
-	db "DUKATIA DEPT B1F@"
+	db "DUKATIA KAUFH. U1S@"
 Dungeons_Map_Name57: ; map_const MOUNT_MORTAR_1F_OUTSIDE,; 57
-	db "MT. MORTAR@"
+	db "KESSELBERG@"
 Dungeons_Map_Name58: ; map_const MOUNT_MORTAR_1F_INSIDE,; 58
-	db "MT. MORTAR 1F@"
+	db "KESSELBERG EG@"
 Dungeons_Map_Name59: ; map_const MOUNT_MORTAR_2F_INSIDE,; 59
-	db "MT. MORTAR 2F@"
+	db "KESSELBERG 1S@"
 Dungeons_Map_Name60: ; map_const MOUNT_MORTAR_B1F,; 60
-	db "MT. MORTAR B1F@"
+	db "KESSELBERG U1S@"
 Dungeons_Map_Name61: ; map_const ICE_PATH_1F,; 61
-	db "ICE PATH 1F@"
+	db "EISPFAD EG@"
 Dungeons_Map_Name62: ; map_const ICE_PATH_B1F,; 62
-	db "ICE PATH B1F@"
+	db "EISPFAD U1S@"
 Dungeons_Map_Name63: ; map_const ICE_PATH_B2F_MAHOGANY_SIDE,; 63
-	db "ICE PATH B2F W@"
+	db "EISPFAD U2S WEST@"
 Dungeons_Map_Name64: ; map_const ICE_PATH_B2F_BLACKTHORN_SIDE ; 64
-	db "ICE PATH B2F E@"
+	db "EISPFAD U2S OST@"
 Dungeons_Map_Name65: ; map_const ICE_PATH_B3F,; 65
-	db "ICE PATH B3F@"
+	db "EISPFAD U3S@"
 Dungeons_Map_Name66: ; map_const WHIRL_ISLAND_NW ; 66
-	db "WHIRL ISLANDS NW@"
+	db "STRUDELINSELN NW@"
 Dungeons_Map_Name67: ; map_const WHIRL_ISLAND_NE,; 67
-	db "WHIRL ISLANDS NE@"
+	db "STRUDELINSELN NO@"
 Dungeons_Map_Name68: ; map_const WHIRL_ISLAND_SW,; 68
-	db "WHIRL ISLANDS SW@"
+	db "STRUDELINSELN SW@"
 Dungeons_Map_Name69: ; map_const WHIRL_ISLAND_CAVE ; 69
-	db "WHIRL CAVE@"
+	db "STRUDELHÖHLE@"
 Dungeons_Map_Name70: ; map_const WHIRL_ISLAND_SE ; 70
-	db "WHIRL ISLANDS SE@"
+	db "STRUDELINSELN SO@"
 Dungeons_Map_Name71: ; map_const WHIRL_ISLAND_B1F,; 71
-	db "WHIRL ISLANDS B1F@"
+	db "STRUDELINSELN U1S@"
 Dungeons_Map_Name72: ; map_const WHIRL_ISLAND_B2F,; 72
-	db "WHIRL ISLANDS B2F@"
+	db "STRUDELINSELN U2S@"
 Dungeons_Map_Name73: ; map_const WHIRL_ISLAND_LUGIA_CHAMBER,; 73
-	db "WHIRL CHAMBER@"
+	db "STRUDELKAMMER@"
 Dungeons_Map_Name74: ; map_const SILVER_CAVE_ROOM_1,; 74
-	db "SILVER CAVE ROOM1@"
+	db "SILBERHÖHLE RAUM 1@"
 Dungeons_Map_Name75: ; map_const SILVER_CAVE_ROOM_2,; 75
-	db "SILVER CAVE ROOM2@"
+	db "SILBERHÖHLE RAUM 2@"
 Dungeons_Map_Name76: ; map_const SILVER_CAVE_ROOM_3,; 76
-	db "SILVER CAVE ROOM3@"
+	db "SILBERHÖHLE RAUM 3@"
 Dungeons_Map_Name77: ; map_const SILVER_CAVE_ITEM_ROOMS,; 77
-	db "SILVER CAVE ROOM4@"	
+	db "SILBERHÖHLE RAUM 4@"	
 Dungeons_Map_Name78: ; map_const DARK_CAVE_VIOLET_ENTRANCE,; 78
-	db "DARK CAVE, WEST@"
+	db "DUNKELHÖHLE WEST@"
 Dungeons_Map_Name79: ; map_const DARK_CAVE_BLACKTHORN_ENTRANCE,; 79
-	db "DARK CAVE, EAST@"
+	db "DUNKELHÖHLE OST@"
 Dungeons_Map_Name80: ; map_const DRAGONS_DEN_1F ; 80
-	db "DRAGONS DEN 1F@"
+	db "DRACHENHÖHLE EG@"
 Dungeons_Map_Name81: ; map_const DRAGONS_DEN_B1F,; 81
-	db "DRAGONS DEN B1@"
+	db "DRACHENHÖHLE U1S@"
 Dungeons_Map_Name82: ; map_const DRAGON_SHRINE ; 82
-	db "DRAGON SHRINE@"
+	db "DRACHENSCHREIN@"
 Dungeons_Map_Name83: ; map_const TOHJO_FALLS,; 83
-	db "TOHJO FALLS@"
+	db "TOHJO-FÄLLE@"
 Dungeons_Map_Name84: ; map_const DIGLETTS_CAVE,; 84
-	db "DIGDA'S CAVE@"
+	db "DIGDAs HÖHLE@"
 Dungeons_Map_Name85: ; map_const MOUNT_MOON,; 85
-	db "MT. MOON@"
+	db "MONDBERG@"
 Dungeons_Map_Name86: ; map_const UNDERGROUND_PATH,; 86
-	db "UNDERGROUND PATH@"
+	db "UNTERGRUNDPFAD@"
 Dungeons_Map_Name87: ; map_const ROCK_TUNNEL_1F,; 87
-	db "ROCK TUNNEL 1F@"
+	db "FELSTUNNEL EG@"
 Dungeons_Map_Name88: ; map_const ROCK_TUNNEL_B1F,; 88
-	db "ROCK TUNNEL B1F@"
+	db "FELSTUNNEL U1S@"
 Dungeons_Map_Name89: ; map_const SAFARI_ZONE_FUCHSIA_GATE_BETA ; 89
-	db "SAFARI GATE@"
+	db "SAFARI-TOR@"
 Dungeons_Map_Name90: ; map_const SAFARI_ZONE_BETA,; 90
-	db "SAFARI ZONE@"
+	db "SAFARI-ZONE@"
 Dungeons_Map_Name91: ; map_const VICTORY_ROAD,;  4
-	db "VICTORY ROAD@"
+	db "SIEGESSTRASSE@"
 
 Ecruteak_Map_Name1: ; map_const ECRUTEAK_TIN_TOWER_ENTRANCE,;  1
-	db "TIN TOWER PATH@"
+	db "ZINNTURM PFAD@"
 Ecruteak_Map_Name2: ; map_const WISE_TRIOS_ROOM ;  2
-	db "WISE TRIO ROOM@"
+	db "ZIMMER DER WEISEN@"
 Ecruteak_Map_Name3: ; map_const ECRUTEAK_POKECENTER_1F ;  3
-	db "TEAK <PKMN> CEN.@"
+	db "TEAK <PKMN>-CENTER@"
 Ecruteak_Map_Name4: ; map_const ECRUTEAK_LUGIA_SPEECH_HOUSE ;  4
-	db "TEAK HOUSE 1@"
+	db "TEAK HAUS 1@"
 Ecruteak_Map_Name5: ; map_const DANCE_THEATRE ;  5
-	db "DANCE THEATER@"
+	db "TANZTHEATER@"
 Ecruteak_Map_Name6: ; map_const ECRUTEAK_MART ;  6
-	db "TEAK <POKE>MART@"
+	db "TEAK MARKT@"
 Ecruteak_Map_Name7: ; map_const ECRUTEAK_GYM ;  7
-	db "TEAK GYM@"
+	db "TEAK ARENA@"
 Ecruteak_Map_Name8: ; map_const ECRUTEAK_ITEMFINDER_HOUSE ;  8
-	db "ITEMFINDER HOUSE@"
+	db "DETEKTOR-HAUS@"
 Ecruteak_Map_Name9: ; map_const ECRUTEAK_CITY,;  5
 	db "TEAK CITY@"
 
 Blackthorn_Map_Name1: ; map_const BLACKTHORN_GYM_1F ;  1
-	db "EBENHOLZ GYM@"
+	db "EBENHOLZ ARENA@"
 Blackthorn_Map_Name2: ; map_const BLACKTHORN_GYM_2F ;  2
-	db "EBENHOLZ GYM B1@"
+	db "EBENHOLZ ARENA U1S@"
 Blackthorn_Map_Name3: ; map_const BLACKTHORN_DRAGON_SPEECH_HOUSE ;  3
-	db "DRAGON HOUSE@"
+	db "DRACHEN-HAUS@"
 Blackthorn_Map_Name4: ; map_const BLACKTHORN_EMYS_HOUSE ;  4
-	db "CARMEN'S HOUSE@"
+	db "CARMENs HAUS@"
 Blackthorn_Map_Name5: ; map_const BLACKTHORN_MART ;  5
-	db "EBENHOLZ <POKE>MART@"
+	db "EBENHOLZ MARKT@"
 Blackthorn_Map_Name6: ; map_const BLACKTHORN_POKECENTER_1F ;  6
-	db "EBENHOLZ <PKMN> CEN.@"
+	db "EBENHOLZ <PKMN>-CENTER@"
 Blackthorn_Map_Name7: ; map_const MOVE_DELETERS_HOUSE ;  7
-	db "MOVE DELETER@"
+	db "ATTACKEN-VERLERNER@"
 Blackthorn_Map_Name8: ; map_const ROUTE_45,;  8
 	db "ROUTE 45@"
 Blackthorn_Map_Name9: ; map_const ROUTE_46,;  9
@@ -822,13 +822,13 @@ Blackthorn_Map_Name10: ; map_const BLACKTHORN_CITY,;  6
 	db "EBENHOLZ CITY@"
 
 Cinnabar_Map_Name1: ; map_const CINNABAR_POKECENTER_1F ;  1
-	db "ZINNOBER <PKMN> CEN.@"
+	db "ZINNOBER <PKMN>-CENTER@"
 Cinnabar_Map_Name2: ; map_const CINNABAR_POKECENTER_2F_BETA ;  2
 	db "ZINNOBER PC BETA@"
 Cinnabar_Map_Name3: ; map_const ROUTE_19_FUCHSIA_GATE ;  3
-	db "ROUTE 19 GATE@"
+	db "ROUTE 19 TOR@"
 Cinnabar_Map_Name4: ; map_const SEAFOAM_GYM ;  4
-	db "SEAFOAM GYM@"
+	db "SEESCHAUM-ARENA@"
 Cinnabar_Map_Name5: ; map_const ROUTE_19, ;  5
 	db "ROUTE 19@"
 Cinnabar_Map_Name6: ; map_const ROUTE_20,;  6
@@ -836,36 +836,36 @@ Cinnabar_Map_Name6: ; map_const ROUTE_20,;  6
 Cinnabar_Map_Name7: ; map_const ROUTE_21,;  7
 	db "ROUTE 21@"
 Cinnabar_Map_Name8: ; map_const CINNABAR_ISLAND,;  7
-	db "ZINNOBER ISLAND@"
+	db "ZINNOBERINSEL@"
 
 Cerulean_Map_Name1: ; map_const CERULEAN_GYM_BADGE_SPEECH_HOUSE ;  1
-	db "AZURIA HOUSE 1@"
+	db "AZURIA HAUS 1@"
 Cerulean_Map_Name2: ; map_const CERULEAN_POLICE_STATION ;  2
-	db "POLICE STATION@"
+	db "POLIZEIWACHE@"
 Cerulean_Map_Name3: ; map_const CERULEAN_TRADE_SPEECH_HOUSE ;  3
-	db "AZURIA HOUSE 2@"
+	db "AZURIA HAUS 2@"
 Cerulean_Map_Name4: ; map_const CERULEAN_POKECENTER_1F ;  4
-	db "AZURIA <PKMN> CEN.@"
+	db "AZURIA <PKMN>-CENTER@"
 Cerulean_Map_Name5: ; map_const CERULEAN_POKECENTER_2F_BETA ;  5
 	db "AZURIA PC BETA@"
 Cerulean_Map_Name6: ; map_const CERULEAN_GYM ;  6
-	db "AZURIA GYM@"
+	db "AZURIA ARENA@"
 Cerulean_Map_Name7: ; map_const CERULEAN_MART ;  7
-	db "AZURIA <POKE>MART@"
+	db "AZURIA MARKT@"
 Cerulean_Map_Name8: ; map_const ROUTE_10_POKECENTER_1F ;  8
-	db "ROUTE 10 <PKMN> CEN.@"
+	db "ROUTE 10 <PKMN>-CENTER@"
 Cerulean_Map_Name9: ; map_const ROUTE_10_POKECENTER_2F_BETA ;  9
 	db "ROUTE 10 PC BETA@"
 Cerulean_Map_Name10: ; map_const POWER_PLANT,; 10
-	db "POWER PLANT@"
+	db "KRAFTWERK@"
 Cerulean_Map_Name11: ; map_const BILLS_HOUSE ; 11
-	db "BILL'S HOUSE@"
+	db "BILLs HAUS@"
 Cerulean_Map_Name12: ; map_const ROUTE_4,; 12
 	db "ROUTE 4@"
 Cerulean_Map_Name13: ; map_const ROUTE_9,; 13
 	db "ROUTE 9@"
 Cerulean_Map_Name14: ; map_const ROUTE_10_NORTH,; 14
-	db "ROUTE 10, NORTH@"
+	db "ROUTE 10 NORD@"
 Cerulean_Map_Name15: ; map_const ROUTE_24,; 15
 	db "ROUTE 24@"
 Cerulean_Map_Name16: ; map_const ROUTE_25,; 16
@@ -874,32 +874,32 @@ Cerulean_Map_Name17: ; map_const CERULEAN_CITY,;  8
 	db "AZURIA CITY@"
 
 Azalea_Map_Name1: ; map_const AZALEA_POKECENTER_1F ;  1
-	db "AZALEA <PKMN> CENTER@"
+	db "AZALEA <PKMN>-CENTER@"
 Azalea_Map_Name2: ; map_const CHARCOAL_KILN ;  2
-	db "CHARCOAL KILN@"
+	db "KÖHLEREI@"
 Azalea_Map_Name3: ; map_const AZALEA_MART ;  3
-	db "AZALEA <POKE>MART@"
+	db "AZALEA MARKT@"
 Azalea_Map_Name4: ; map_const KURTS_HOUSE ;  4
-	db "KURT'S HOUSE@"
+	db "KURTs HAUS@"
 Azalea_Map_Name5: ; map_const AZALEA_GYM ;  5
-	db "AZALEA GYM@"
+	db "AZALEA ARENA@"
 Azalea_Map_Name6: ; map_const ROUTE_33, ;  6
 	db "ROUTE 33@"
 Azalea_Map_Name7: ; map_const AZALEA_TOWN, ; 7
 	db "AZALEA CITY@"
 
 Lake_of_Rage_Map_Name1: ; map_const LAKE_OF_RAGE_HIDDEN_POWER_HOUSE ;  1
-	db "HIDDEN POWER HS@"
+	db "KRAFTRESERVE-HAUS@"
 Lake_of_Rage_Map_Name2: ; map_const LAKE_OF_RAGE_MAGIKARP_HOUSE ;  2
-	db "KARPADOR HOUSE@"
+	db "KARPADOR-HAUS@"
 Lake_of_Rage_Map_Name3: ; map_const ROUTE_43_MAHOGANY_GATE ;  3
-	db "ROUTE 43 GATE 1@"
+	db "ROUTE 43 TOR 1@"
 Lake_of_Rage_Map_Name4: ; map_const ROUTE_43_GATE ;  4
-	db "ROUTE 43 GATE 2@"
+	db "ROUTE 43 TOR 2@"
 Lake_of_Rage_Map_Name5: ; map_const ROUTE_43 ;  5
 	db "ROUTE 43@"
 Lake_of_Rage_Map_Name6: ; map_const LAKE_OF_RAGE ; 6
-	db "LAKE OF RAGE@"                                             ; 10
+	db "SEE DES ZORNS@"                                             ; 10
 
 Violet_Map_Name1: ; map_const ROUTE_32,;  1
 	db "ROUTE 32@"
@@ -912,78 +912,78 @@ Violet_Map_Name4: ; map_const ROUTE_37,;  4
 Violet_Map_Name5: ; map_const VIOLET_CITY,;  5
 	db "VIOLA CITY@"
 Violet_Map_Name6: ; map_const VIOLET_MART ;  6
-	db "VIOLA <POKE>MART@"
+	db "VIOLA MARKT@"
 Violet_Map_Name7: ; map_const VIOLET_GYM ;  7
-	db "VIOLA GYM@"
+	db "VIOLA ARENA@"
 Violet_Map_Name8: ; map_const EARLS_POKEMON_ACADEMY ;  8
-	db "EARL'S ACADEMY@"
+	db "EARLs AKADEMIE@"
 Violet_Map_Name9: ; map_const VIOLET_NICKNAME_SPEECH_HOUSE ;  9
-	db "VIOLA HOUSE 1@"
+	db "VIOLA HAUS 1@"
 Violet_Map_Name10: ; map_const VIOLET_POKECENTER_1F ; 10
-	db "VIOLA <PKMN> CENTER@"
+	db "VIOLA <PKMN>-CENTER@"
 Violet_Map_Name11: ; map_const VIOLET_KYLES_HOUSE ; 11
-	db "TOBI'S HOUSE@"
+	db "TOBIs HAUS@"
 Violet_Map_Name12: ; map_const ROUTE_32_RUINS_OF_ALPH_GATE ; 12
-	db "ROUTE 32-R. GATE@"
+	db "ROUTE 32-R. TOR@"
 Violet_Map_Name13: ; map_const ROUTE_32_POKECENTER_1F ; 13
-	db "ROUTE 32 <PKMN> CEN.@"
+	db "ROUTE 32 <PKMN>-CENTER@"
 Violet_Map_Name14: ; map_const ROUTE_35_GOLDENROD_GATE ; 14
-	db "ROUTE 35-G. GATE@"
+	db "ROUTE 35-G. TOR@"
 Violet_Map_Name15: ; map_const ROUTE_35_NATIONAL_PARK_GATE ; 15
-	db "ROUTE 35-P. GATE@"
+	db "ROUTE 35-P. TOR@"
 Violet_Map_Name16: ; map_const ROUTE_36_RUINS_OF_ALPH_GATE ; 16
-	db "ROUTE 36-R. GATE@"
+	db "ROUTE 36-R. TOR@"
 Violet_Map_Name17: ; map_const ROUTE_36_NATIONAL_PARK_GATE ; 17                                        ; 11
-	db "ROUTE 36-P. GATE@"
+	db "ROUTE 36-P. TOR@"
 
 Goldenrod_Map_Name1: ; map_const ROUTE_34,;  1
 	db "ROUTE 34@"
 Goldenrod_Map_Name2: ; map_const GOLDENROD_CITY;  2
 	db "DUKATIA CITY@"
 Goldenrod_Map_Name3: ; map_const GOLDENROD_GYM,;  3
-	db "DUKATIA GYM@"
+	db "DUKATIA ARENA@"
 Goldenrod_Map_Name4: ; map_const GOLDENROD_BIKE_SHOP ;  4
-	db "DUKATIA BIKE SHOP@"
+	db "DUK. FAHRRADLADEN@"
 Goldenrod_Map_Name5: ; map_const GOLDENROD_HAPPINESS_RATER ;  5
-	db "HAPPINESS RATER@"
+	db "GLÜCKSBEWERTER@"
 Goldenrod_Map_Name6: ; map_const BILLS_FAMILYS_HOUSE ;  6
-	db "BILL'S FAM. HOUSE@"
+	db "BILLs FAMILIE@"
 Goldenrod_Map_Name7: ; map_const GOLDENROD_MAGNET_TRAIN_STATION,;  7
-	db "TRAIN STATION 1@"
+	db "BAHNHOF@"
 Goldenrod_Map_Name8: ; map_const GOLDENROD_FLOWER_SHOP ;  8
-	db "FLOWER SHOP@"
+	db "BLUMENLADEN@"
 Goldenrod_Map_Name9: ; map_const GOLDENROD_PP_SPEECH_HOUSE ;  9
-	db "DUKATIA HOUSE 1@"
+	db "DUKATIA HAUS 1@"
 Goldenrod_Map_Name10: ; map_const GOLDENROD_NAME_RATER ; 10
-	db "DUK. NAME RATER@"
+	db "DUK. NAMENSBEWERT.@"
 Goldenrod_Map_Name11: ; map_const GOLDENROD_DEPT_STORE_1F ; 11
-	db "DUKATIA DEPT 1F@"
+	db "DUKATIA KAUFH. EG@"
 Goldenrod_Map_Name12: ; map_const GOLDENROD_DEPT_STORE_2F ; 12
-	db "DUKATIA DEPT 2F@"
+	db "DUKATIA KAUFH. 1S@"
 Goldenrod_Map_Name13: ; map_const GOLDENROD_DEPT_STORE_3F ; 13
-	db "DUKATIA DEPT 3F@"
+	db "DUKATIA KAUFH. 2S@"
 Goldenrod_Map_Name14: ; map_const GOLDENROD_DEPT_STORE_4F ; 14
-	db "DUKATIA DEPT 4F@"
+	db "DUKATIA KAUFH. 3S@"
 Goldenrod_Map_Name15: ; map_const GOLDENROD_DEPT_STORE_5F ; 15
-	db "DUKATIA DEPT 5F@"
+	db "DUKATIA KAUFH. 4S@"
 Goldenrod_Map_Name16: ; map_const GOLDENROD_DEPT_STORE_6F ; 16
-	db "DUKATIA DEPT 6F@"
+	db "DUKATIA KAUFH. 5S@"
 Goldenrod_Map_Name17: ; map_const GOLDENROD_DEPT_STORE_ELEVATOR ; 17
-	db "DUKATIA DEPT LIFT@"
+	db "DUKATIA AUFZUG@"
 Goldenrod_Map_Name18: ; map_const GOLDENROD_DEPT_STORE_ROOF ; 18
-	db "DUKATIA DEPT ROOF@"
+	db "DUKATIA DACH@"
 Goldenrod_Map_Name19: ; map_const GOLDENROD_GAME_CORNER,; 19
-	db "DUK. GAME CORNER@"
+	db "DUK. SPIELHALLE@"
 Goldenrod_Map_Name20: ; map_const GOLDENROD_POKECENTER_1F ; 20
-	db "DUKATIA <PKMN> CEN.@"
+	db "DUKATIA <PKMN>-CENTER@"
 Goldenrod_Map_Name21: ; map_const POKECOM_CENTER_ADMIN_OFFICE_MOBILE,; 21
-	db "PC COMM OFFICE@"
+	db "#COM-BÜRO@"
 Goldenrod_Map_Name22: ; map_const ILEX_FOREST_AZALEA_GATE ; 22
-	db "AZALEA GATE@"
+	db "AZALEA TOR@"
 Goldenrod_Map_Name23: ; map_const ROUTE_34_ILEX_FOREST_GATE ; 23
-	db "ILEX GATE@"
+	db "STEINEICHEN-TOR@"
 Goldenrod_Map_Name24: ; map_const DAY_CARE ; 24 ; 12
-	db "JOHTO DAYCARE@"
+	db "JOHTO-PENSION@"
 
 Vermilion_Map_Name1: ; map_const ROUTE_6,;  1
 	db "ROUTE 6@"
@@ -992,97 +992,97 @@ Vermilion_Map_Name2: ; map_const ROUTE_11,;  2
 Vermilion_Map_Name3: ; map_const VERMILION_CITY, ;  3
 	db "ORANIA CITY@"
 Vermilion_Map_Name4: ; map_const VERMILION_FISHING_SPEECH_HOUSE ;  4
-	db "ORANIA HOUSE 1@"
+	db "ORANIA HAUS 1@"
 Vermilion_Map_Name5: ; map_const VERMILION_POKECENTER_1F ;  5
-	db "ORANIA <PKMN> CEN.@"
+	db "ORANIA <PKMN>-CENTER@"
 Vermilion_Map_Name6: ; map_const VERMILION_POKECENTER_2F_BETA ;  6
 	db "ORANIA PC BETA@"
 Vermilion_Map_Name7: ; map_const POKEMON_FAN_CLUB ;  7
 	db "ORANIA FANCLUB@"
 Vermilion_Map_Name8: ; map_const VERMILION_MAGNET_TRAIN_SPEECH_HOUSE ;  8
-	db "ORANIA HOUSE 2@"
+	db "ORANIA HAUS 2@"
 Vermilion_Map_Name9: ; map_const VERMILION_MART ;  9
-	db "ORANIA <POKE>MART@"
+	db "ORANIA MARKT@"
 Vermilion_Map_Name10: ; map_const VERMILION_DIGLETTS_CAVE_SPEECH_HOUSE ; 10
-	db "ORANIA HOUSE 3@"
+	db "ORANIA HAUS 3@"
 Vermilion_Map_Name11: ; map_const VERMILION_GYM ; 11
-	db "ORANIA GYM@"
+	db "ORANIA ARENA@"
 Vermilion_Map_Name12: ; map_const ROUTE_6_SAFFRON_GATE ; 12
-	db "ROUTE 6 GATE@"
+	db "ROUTE 6 TOR@"
 Vermilion_Map_Name13: ; map_const ROUTE_6_UNDERGROUND_PATH_ENTRANCE ; 13
-	db "ROUTE 6 UNDER.@"                                           ; 13
+	db "ROUTE 6 UNTERGRUND@"                                           ; 13
 
 Pallet_Map_Name1: ; map_const ROUTE_1,;  1
 	db "ROUTE 1@"
 Pallet_Map_Name2: ; map_const PALLET_TOWN,;  2
 	db "ALABASTIA@"
 Pallet_Map_Name3: ; map_const REDS_HOUSE_1F ;  3
-	db "ROT'S HOUSE 1F@"
+	db "ROTs HAUS EG@"
 Pallet_Map_Name4: ; map_const REDS_HOUSE_2F ;  4
-	db "ROT'S HOUSE 2F@"
+	db "ROTs HAUS 1S@"
 Pallet_Map_Name5: ; map_const BLUES_HOUSE ;  5
-	db "BLAU'S HOUSE@"
+	db "BLAUs HAUS@"
 Pallet_Map_Name6: ; map_const OAKS_LAB ;  6  ; 14
-	db "EICH'S LAB@"
+	db "EICHs LABOR@"
 
 Pewter_Map_Name1: ; map_const ROUTE_3,;  1
 	db "ROUTE 3@"
 Pewter_Map_Name2: ; map_const PEWTER_CITY,;  2
 	db "MARMORIA CITY@"
 Pewter_Map_Name3: ; map_const PEWTER_NIDORAN_SPEECH_HOUSE ;  3
-	db "MARMORIA HOUSE 1@"
+	db "MARMORIA HAUS 1@"
 Pewter_Map_Name4: ; map_const PEWTER_GYM ;  4
-	db "MARMORIA GYM@"
+	db "MARMORIA ARENA@"
 Pewter_Map_Name5: ; map_const PEWTER_MART ;  5
-	db "MARMORIA <POKE>MART@"
+	db "MARMORIA MARKT@"
 Pewter_Map_Name6: ; map_const PEWTER_POKECENTER_1F ;  6
-	db "MARMORIA <PKMN> CEN.@"
+	db "MARMORIA <PKMN>-CENTER@"
 Pewter_Map_Name7: ; map_const PEWTER_POKECENTER_2F_BETA ;  7
 	db "MARMORIA PC BETA@"
 Pewter_Map_Name8: ; map_const PEWTER_SNOOZE_SPEECH_HOUSE ;  8
-	db "MARMORIA HOUSE 2@"                                          ; 15
+	db "MARMORIA HAUS 2@"                                          ; 15
 
 Fast_Ship_Map_Name1: ; map_const OLIVINE_PORT,;  1
-	db "OLIVIANA MARINA@"
+	db "OLIVIANA HAFEN@"
 Fast_Ship_Map_Name2: ; map_const VERMILION_PORT,;  2
-	db "ORANIA MARINA@"
+	db "ORANIA HAFEN@"
 Fast_Ship_Map_Name3: ; map_const FAST_SHIP_1F,;  3
-	db "S.S. AQUA@"
+	db "M.S. AQUA@"
 Fast_Ship_Map_Name4: ; map_const FAST_SHIP_CABINS_NNW_NNE_NE,;  4
-	db "S.S. AQUA CABIN 1@"
+	db "M.S. AQUA KABINE 1@"
 Fast_Ship_Map_Name5: ; map_const FAST_SHIP_CABINS_SW_SSW_NW,;  5
-	db "S.S. AQUA CABIN 1@"
+	db "M.S. AQUA KABINE 1@"
 Fast_Ship_Map_Name6: ; map_const FAST_SHIP_CABINS_SE_SSE_CAPTAINS_CABIN,;  6
-	db "S.S. AQUA CPTQTRS@"
+	db "M.S. AQUA KAPITÄN@"
 Fast_Ship_Map_Name7: ; map_const FAST_SHIP_B1F,;  7
-	db "S.S. AQUA GALLEY@"
+	db "M.S. AQUA KOMBÜSE@"
 Fast_Ship_Map_Name8: ; map_const OLIVINE_PORT_PASSAGE,;  8
-	db "JOHTO PORTPASSAGE@"
+	db "JOHTO HAFENGANG@"
 Fast_Ship_Map_Name9: ; map_const VERMILION_PORT_PASSAGE,;  9
-	db "KANTO PORTPASSAGE@"
+	db "KANTO HAFENGANG@"
 Fast_Ship_Map_Name10: ; map_const MOUNT_MOON_SQUARE,; 10
-	db "MT. MOON SQUARE@"
+	db "MONDBERG-PLATZ@"
 Fast_Ship_Map_Name11: ; map_const MOUNT_MOON_GIFT_SHOP ; 11
-	db "MT. MOON SHOP@"
+	db "MONDBERG-LADEN@"
 Fast_Ship_Map_Name12: ; map_const TIN_TOWER_ROOF, 12
-	db "TIN TOWER ROOF@"                                             ; 16
+	db "ZINNTURM DACH@"                                             ; 16
 
 Indigo_Map_Name1: ; map_const ROUTE_23,;  1
 	db "ROUTE 23@"
 Indigo_Map_Name2: ; map_const INDIGO_PLATEAU_POKECENTER_1F ;  2
 	db "INDIGO PLATEAU@"
 Indigo_Map_Name3: ; map_const WILLS_ROOM ;  3
-	db "E4 WILLI'S ROOM@"
+	db "TOP VIER WILLI@"
 Indigo_Map_Name4: ; map_const KOGAS_ROOM ;  4
-	db "E4 KOGA'S ROOM@"
+	db "TOP VIER KOGA@"
 Indigo_Map_Name5: ; map_const BRUNOS_ROOM ;  5
-	db "E4 BRUNO'S ROOM@"
+	db "TOP VIER BRUNO@"
 Indigo_Map_Name6: ; map_const KARENS_ROOM ;  6
-	db "E4 MELANIE'S ROOM@"
+	db "TOP VIER MELANIE@"
 Indigo_Map_Name7: ; map_const LANCES_ROOM,;  7
-	db "SIEGFRIED'S ROOM@"
+	db "SIEGFRIEDs ZIMMER@"
 Indigo_Map_Name8: ; map_const HALL_OF_FAME ;  8
-	db "E4 HALL OF FAME@"                                           ; 17
+	db "RUHMESHALLE@"                                           ; 17
 
 Fuchsia_Map_Name1: ; map_const ROUTE_13,;  1
 	db "ROUTE 13@"
@@ -1095,72 +1095,72 @@ Fuchsia_Map_Name4: ; map_const ROUTE_18,;  4
 Fuchsia_Map_Name5: ; map_const FUCHSIA_CITY,;  5
 	db "FUCHSANIA CITY@"
 Fuchsia_Map_Name6: ; map_const FUCHSIA_MART ;  6
-	db "FUCHSANIA <POKE>MART@"
+	db "FUCHSANIA MARKT@"
 Fuchsia_Map_Name7: ; map_const SAFARI_ZONE_MAIN_OFFICE ;  7
-	db "SAFARI ZONE HQ@"
+	db "SAFARI-ZONE BÜRO@"
 Fuchsia_Map_Name8: ; map_const FUCHSIA_GYM ;  8
-	db "FUCHSANIA GYM@"
+	db "FUCHSANIA ARENA@"
 Fuchsia_Map_Name9: ; map_const BILLS_BROTHERS_HOUSE ;  9
-	db "BILL'S BRO HOUSE@"
+	db "HAUS VON BILLs BR.@"
 Fuchsia_Map_Name10: ; map_const FUCHSIA_POKECENTER_1F ; 10
-	db "FUCHSANIA <PKMN> CEN.@"
+	db "FUCHSANIA <PKMN>-CEN.@"
 Fuchsia_Map_Name11: ; map_const FUCHSIA_POKECENTER_2F_BETA ; 11
 	db "FUCHSANIA PC BETA@"
 Fuchsia_Map_Name12: ; map_const SAFARI_ZONE_WARDENS_HOME ; 12
-	db "WARDEN'S HOUSE@"
+	db "WÄRTERs HAUS@"
 Fuchsia_Map_Name13: ; map_const ROUTE_15_FUCHSIA_GATE ; 13
-	db "FUCHSANIA GATE@"
+	db "FUCHSANIA TOR@"
 
 Lavender_Map_Name1: ; map_const ROUTE_8,;  1
 	db "ROUTE 8@"
 Lavender_Map_Name2: ; map_const ROUTE_12,;  2
 	db "ROUTE 12@"
 Lavender_Map_Name3: ; map_const ROUTE_10_SOUTH,;  3
-	db "ROUTE 10 S.@"
+	db "ROUTE 10 SÜD@"
 Lavender_Map_Name4: ; map_const LAVENDER_TOWN,;  4
 	db "LAVANDIA@"
 Lavender_Map_Name5: ; map_const LAVENDER_POKECENTER_1F ;  5
-	db "LAVANDIA <PKMN> CEN.@"
+	db "LAVANDIA <PKMN>-CENTER@"
 Lavender_Map_Name6: ; map_const LAVENDER_POKECENTER_2F_BETA ;  6
 	db "LAVANDIA PC BETA@"
 Lavender_Map_Name7: ; map_const MR_FUJIS_HOUSE ;  7
-	db "MR.FUJI'S HOUSE@"
+	db "MR. FUJIs HAUS@"
 Lavender_Map_Name8: ; map_const LAVENDER_SPEECH_HOUSE ;  8
-	db "LAVANDIA HOUSE 1@"
+	db "LAVANDIA HAUS 1@"
 Lavender_Map_Name9: ; map_const LAVENDER_NAME_RATER ;  9
-	db "KANTO NAME RATER@"
+	db "NAMENSBEWERTER@"
 Lavender_Map_Name10: ; map_const LAVENDER_MART ; 10
-	db "LAVANDIA <POKE>MART@"
+	db "LAVANDIA MARKT@"
 Lavender_Map_Name11: ; map_const SOUL_HOUSE ; 11
-	db "SOUL HOUSE@"
+	db "SEELENHAUS@"
 Lavender_Map_Name12: ; map_const LAV_RADIO_TOWER_1F,; 12
-	db "KANTO RADIO TOWER@"
+	db "RADIOTURM LAV.@"
 Lavender_Map_Name13: ; map_const ROUTE_8_SAFFRON_GATE ; 13
-	db "ROUTE 8 GATE@"
+	db "ROUTE 8 TOR@"
 Lavender_Map_Name14: ; map_const ROUTE_12_SUPER_ROD_HOUSE ; 14
 	db "ROUTE 12 ANGLER@"                                              ; 19
 
 Silver_Map_Name1: ; map_const ROUTE_28,;  1
 	db "ROUTE 28@"
 Silver_Map_Name2: ; map_const SILVER_CAVE_OUTSIDE,;  2
-	db "MT. SILVER@"	
+	db "SILBERBERG@"	
 Silver_Map_Name3: ; map_const SILVER_CAVE_POKECENTER_1F ;  3
-	db "SILVER <PKMN> CENTER@"
+	db "SILBER <PKMN>-CENTER@"
 Silver_Map_Name4: ; map_const ROUTE_28_STEEL_WING_HOUSE ;  4
-	db "ROUTE 28 CABIN@"                                       ; 20
+	db "ROUTE 28 HÜTTE@"                                       ; 20
 
 Cable_Club_Map_Name1: ; map_const POKECENTER_2F ;  1
-	db "<PKMN> CENTER 2F@"
+	db "<PKMN>-CENTER 1S@"
 Cable_Club_Map_Name2: ; map_const TRADE_CENTER ;  2
-	db "<PKMN> TRADE CENTER@"
+	db "HANDELSCENTER@"
 Cable_Club_Map_Name3: ; map_const COLOSSEUM ;  3
-	db "<PKMN> COLOSSEUM@"
+	db "KOLOSSEUM@"
 Cable_Club_Map_Name4: ; map_const TIME_CAPSULE ;  4
-	db "<PKMN> TIME CAPSULE@"
+	db "ZEITKAPSEL@"
 Cable_Club_Map_Name5: ; map_const MOBILE_TRADE_ROOM ;  5
-	db "MOBILE TRADE@"
+	db "MOBIL-TAUSCH@"
 Cable_Club_Map_Name6: ; map_const MOBILE_BATTLE_ROOM ;  6
-	db "MOBILE BATTLE@"                                          ; 21
+	db "MOBIL-KAMPF@"                                          ; 21
 
 Celadon_Map_Name1: ; map_const ROUTE_7,;  1
 	db "ROUTE 7@"
@@ -1171,49 +1171,49 @@ Celadon_Map_Name3: ; map_const ROUTE_17,  3
 Celadon_Map_Name4: ; map_const CELADON_CITY, 4
 	db "PRISMANIA CITY@"
 Celadon_Map_Name5: ; map_const CELADON_DEPT_STORE_1F ;  5
-	db "PRISMANIA DEPT 1F@"
+	db "PRISM. KAUFHAUS EG@"
 Celadon_Map_Name6: ; map_const CELADON_DEPT_STORE_2F ;  6
-	db "PRISMANIA DEPT 2F@"
+	db "PRISM. KAUFHAUS 1S@"
 Celadon_Map_Name7: ; map_const CELADON_DEPT_STORE_3F ;  7
-	db "PRISMANIA DEPT 3F@"
+	db "PRISM. KAUFHAUS 2S@"
 Celadon_Map_Name8: ; map_const CELADON_DEPT_STORE_4F ;  8
-	db "PRISMANIA DEPT 4F@"
+	db "PRISM. KAUFHAUS 3S@"
 Celadon_Map_Name9: ; map_const CELADON_DEPT_STORE_5F ;  9
-	db "PRISMANIA DEPT 5F@"
+	db "PRISM. KAUFHAUS 4S@"
 Celadon_Map_Name10: ; map_const CELADON_DEPT_STORE_6F ; 10
-	db "PRISMANIA DEPT 6F@"
+	db "PRISM. KAUFHAUS 5S@"
 Celadon_Map_Name11: ; map_const CELADON_DEPT_STORE_ELEVATOR ; 11
-	db "PRISM. DEPT LIFT@"
+	db "PRISM. AUFZUG@"
 Celadon_Map_Name12: ; map_const CELADON_MANSION_1F ; 12
-	db "PRISM. MANSION1F@"
+	db "PRISM. VILLA EG@"
 Celadon_Map_Name13: ; map_const CELADON_MANSION_2F ; 13
-	db "PRISM. MANSION2F@"
+	db "PRISM. VILLA 1S@"
 Celadon_Map_Name14: ; map_const CELADON_MANSION_3F ; 14
-	db "PRISM. MANSION3F@"
+	db "PRISM. VILLA 2S@"
 Celadon_Map_Name15: ; map_const CELADON_MANSION_ROOF ; 15
-	db "PRISM. MANS. ROOF@"
+	db "PRISM. VILLA DACH@"
 Celadon_Map_Name16: ; map_const CELADON_MANSION_ROOF_HOUSE ; 16
-	db "PRISM. MANSION4F@"
+	db "PRISM. VILLA 3S@"
 Celadon_Map_Name17: ; map_const CELADON_POKECENTER_1F ; 17
-	db "PRISMANIA <PKMN> CEN.@"
+	db "PRISMANIA <PKMN>-CEN.@"
 Celadon_Map_Name18: ; map_const CELADON_POKECENTER_2F_BETA ; 18
 	db "PRISMANIA PC BETA@"
 Celadon_Map_Name19: ; map_const CELADON_GAME_CORNER, 19
-	db "PRISM.GAME CORNER@"
+	db "PRISM.SPIELHALLE@"
 Celadon_Map_Name20: ; map_const CELADON_GAME_CORNER_PRIZE_ROOM ; 20
-	db "PRISM. PRIZEROOM@"
+	db "PRISM. PREISRAUM@"
 Celadon_Map_Name21: ; map_const CELADON_GYM ; 21
-	db "PRISMANIA GYM@"
+	db "PRISMANIA ARENA@"
 Celadon_Map_Name22: ; map_const CELADON_CAFE ; 22
 	db "PRISMANIA CAFE@"
 Celadon_Map_Name23: ; map_const ROUTE_16_FUCHSIA_SPEECH_HOUSE ; 23
-	db "ROUTE 16 HOUSE@"
+	db "ROUTE 16 HAUS@"
 Celadon_Map_Name24: ; map_const ROUTE_16_GATE ; 24
-	db "ROUTE 16 GATE@"
+	db "ROUTE 16 TOR@"
 Celadon_Map_Name25: ; map_const ROUTE_7_SAFFRON_GATE ; 25
-	db "ROUTE 7 GATE@"
+	db "ROUTE 7 TOR@"
 Celadon_Map_Name26: ; map_const ROUTE_17_ROUTE_18_GATE ; 26 
-	db "ROUTE 17-18 GATE@"                                        ; 22
+	db "ROUTE 17-18 TOR@"                                        ; 22
 
 Cianwood_Map_Name1: ; map_const ROUTE_40,  1
 	db "ROUTE 40@"
@@ -1222,31 +1222,31 @@ Cianwood_Map_Name2: ; map_const ROUTE_41, ;  2
 Cianwood_Map_Name3: ; map_const CIANWOOD_CITY ;  3
 	db "ANEMONIA CITY@"
 Cianwood_Map_Name4: ; map_const MANIAS_HOUSE ;  4
-	db "GABRIELE'S HOUSE@"
+	db "GABRIELEs HAUS@"
 Cianwood_Map_Name5: ; map_const CIANWOOD_GYM ;  5
-	db "ANEMONIA GYM@"
+	db "ANEMONIA ARENA@"
 Cianwood_Map_Name6: ; map_const CIANWOOD_POKECENTER_1F ;  6
-	db "ANEMONIA <PKMN> CEN.@"
+	db "ANEMONIA <PKMN>-CENTER@"
 Cianwood_Map_Name7: ; map_const CIANWOOD_PHARMACY ;  7
-	db "ANEMONIA PHARMACY@"
+	db "ANEMONIA APOTHEKE@"
 Cianwood_Map_Name8: ; map_const CIANWOOD_PHOTO_STUDIO ;  8
 	db "ANEMONIA STUDIO@"
 Cianwood_Map_Name9: ; map_const CIANWOOD_LUGIA_SPEECH_HOUSE ;  9
-	db "ANEMONIA HOUSE@"
+	db "ANEMONIA HAUS@"
 Cianwood_Map_Name10: ; map_const POKE_SEERS_HOUSE ; 10
-	db "<POKE>SEER HOUSE@"
+	db "SEHER-HAUS@"
 Cianwood_Map_Name11: ; map_const BATTLE_TOWER_1F ; 11
-	db "BATTLE TOWER 1F@"
+	db "DUELLTURM EG@"
 Cianwood_Map_Name12: ; map_const BATTLE_TOWER_BATTLE_ROOM ; 12
-	db "BATTLE TOWER ROOM@"
+	db "DUELLTURM RAUM@"
 Cianwood_Map_Name13: ; map_const BATTLE_TOWER_ELEVATOR ; 13
-	db "BATTLE TOWER LIFT@"
+	db "DUELLTURM AUFZUG@"
 Cianwood_Map_Name14: ; map_const BATTLE_TOWER_HALLWAY, ; 14
-	db "BATTLE TOWER HALL@"
+	db "DUELLTURM HALLE@"
 Cianwood_Map_Name15: ; map_const ROUTE_40_BATTLE_TOWER_GATE ; 15
-	db "ROUTE 40 GATE@"
+	db "ROUTE 40 TOR@"
 Cianwood_Map_Name16: ; map_const BATTLE_TOWER_OUTSIDE ; 16
-	db "BATTLE TOWER@"
+	db "DUELLTURM@"
 
 Viridian_Map_Name1: ; map_const ROUTE_2,;  1
 	db "ROUTE 2@"
@@ -1255,25 +1255,25 @@ Viridian_Map_Name2: ; map_const ROUTE_22,  2
 Viridian_Map_Name3: ; map_const VIRIDIAN_CITY,  3
 	db "VERTANIA CITY@"
 Viridian_Map_Name4: ; map_const VIRIDIAN_GYM ;  4
-	db "VERTANIA GYM@"
+	db "VERTANIA ARENA@"
 Viridian_Map_Name5: ; map_const VIRIDIAN_NICKNAME_SPEECH_HOUSE ;  5
-	db "VERTANIA HOUSE 2@"
+	db "VERTANIA HAUS 2@"
 Viridian_Map_Name6: ; map_const TRAINER_HOUSE_1F ;  6
-	db "VERTANIA HOUSE 1F@"
+	db "VERTANIA HAUS EG@"
 Viridian_Map_Name7: ; map_const TRAINER_HOUSE_B1F ;  7
-	db "VERTANIA HOUSEB1F@"
+	db "VERTANIA HAUS U1S@"
 Viridian_Map_Name8: ; map_const VIRIDIAN_MART ;  8
-	db "VERTANIA <POKE>MART@"
+	db "VERTANIA MARKT@"
 Viridian_Map_Name9: ; map_const VIRIDIAN_POKECENTER_1F ;  9
-	db "VERTANIA <PKMN> CEN.@"
+	db "VERTANIA <PKMN>-CENTER@"
 Viridian_Map_Name10: ; map_const VIRIDIAN_POKECENTER_2F_BETA ; 10
 	db "VERTANIA PC BETA@"
 Viridian_Map_Name11: ; map_const ROUTE_2_NUGGET_HOUSE ; 11
-	db "RT 2 NUGGET HOUSE@"
+	db "NUGGET-HAUS RT. 2@"
 Viridian_Map_Name12: ; map_const ROUTE_2_GATE ; 12
-	db "ROUTE 2 GATE@"
+	db "ROUTE 2 TOR@"
 Viridian_Map_Name13: ; map_const VICTORY_ROAD_GATE, 13
-	db "VICTORY ROAD GATE@"
+	db "SIEGESSTRASSE TOR@"
 
 New_Bark_Map_Name1: ; map_const ROUTE_26,  1
 	db "ROUTE 26@"
@@ -1284,54 +1284,54 @@ New_Bark_Map_Name3: ; map_const ROUTE_29, ;  3
 New_Bark_Map_Name4: ; map_const NEW_BARK_TOWN,;  4
 	db "NEUBORKIA@"
 New_Bark_Map_Name5: ; map_const ELMS_LAB ;  5
-	db "LIND'S LAB@"
+	db "LINDs LABOR@"
 New_Bark_Map_Name6: ; map_const PLAYERS_HOUSE_1F ;  6
-	db "PLAYER'S HOUSE 1F@"
+	db "SPIELERHAUS EG@"
 New_Bark_Map_Name7: ; map_const PLAYERS_HOUSE_2F ;  7
-	db "PLAYER'S HOUSE 2F@"
+	db "SPIELERHAUS 1S@"
 New_Bark_Map_Name8: ; map_const PLAYERS_NEIGHBORS_HOUSE ;  8
-	db "NEUBORKIA HOUSE@"
+	db "NEUBORKIA HAUS@"
 New_Bark_Map_Name9: ; map_const ELMS_HOUSE ;  9
-	db "LIND'S HOUSE@"
+	db "LINDs HAUS@"
 New_Bark_Map_Name10: ; map_const ROUTE_26_HEAL_HOUSE ; 10
-	db "ROUTE 26 HOUSE@"
+	db "ROUTE 26 HAUS@"
 New_Bark_Map_Name11: ; map_const DAY_OF_WEEK_SIBLINGS_HOUSE ; 11
-	db "DAY SIBLINGS' HS.@"
+	db "HAUS DER GESCHW.@"
 New_Bark_Map_Name12: ; map_const ROUTE_27_SANDSTORM_HOUSE ; 12
-	db "ROUTE 27 HOUSE@"
+	db "ROUTE 27 HAUS@"
 New_Bark_Map_Name13: ; map_const ROUTE_29_ROUTE_46_GATE ; 13
-	db "ROUTE 29 GATE@"
+	db "ROUTE 29 TOR@"
 
 Saffron_Map_Name1: ; map_const ROUTE_5,;  1
 	db "ROUTE 5@"
 Saffron_Map_Name2: ; map_const SAFFRON_CITY ;  2
 	db "SAFFRONIA CITY@"
 Saffron_Map_Name3: ; map_const FIGHTING_DOJO ;  3
-	db "FIGHTING DOJO@"
+	db "KARATE DOJO@"
 Saffron_Map_Name4: ; map_const SAFFRON_GYM,  ;  4
-	db "SAFFRONIA GYM@"
+	db "SAFFRONIA ARENA@"
 Saffron_Map_Name5: ; map_const SAFFRON_MART ;  5
-	db "SAFFRONIA <POKE>MART@"
+	db "SAFFRONIA MARKT@"
 Saffron_Map_Name6: ; map_const SAFFRON_POKECENTER_1F ;  6
-	db "SAFFRONIA <PKMN> CEN.@"
+	db "SAFFRONIA <PKMN>-CEN.@"
 Saffron_Map_Name7: ; map_const SAFFRON_POKECENTER_2F_BETA ;  7
 	db "SAFFRONIA PC BETA@"
 Saffron_Map_Name8: ; map_const MR_PSYCHICS_HOUSE ;  8
-	db "MR.PSYCHOS HOUSE@"
+	db "HAUS VON MR.PSYCHO@"
 Saffron_Map_Name9: ; map_const SAFFRON_MAGNET_TRAIN_STATION,;  9
-	db "SAFFRONIA STATION@"
+	db "SAFFRONIA BAHNHOF@"
 Saffron_Map_Name10: ; map_const SILPH_CO_1F ; 10
 	db "SILPH CO.@"
 Saffron_Map_Name11: ; map_const COPYCATS_HOUSE_1F ; 11
-	db "COPYCAT HOUSE 1F@"
+	db "NACHAHMERIN EG@"
 Saffron_Map_Name12: ; map_const COPYCATS_HOUSE_2F ; 12
-	db "COPYCAT HOUSE 2F@"
+	db "NACHAHMERIN 1S@"
 Saffron_Map_Name13: ; map_const ROUTE_5_UNDERGROUND_PATH_ENTRANCE ; 13
-	db "ROUTE 5 UNDERGRND@"
+	db "ROUTE 5 UNTERGRUND@"
 Saffron_Map_Name14: ; map_const ROUTE_5_SAFFRON_GATE ; 14
-	db "ROUTE 5 GATE@"
+	db "ROUTE 5 TOR@"
 Saffron_Map_Name15: ; map_const ROUTE_5_CLEANSE_TAG_HOUSE ; 15
-	db "ROUTE 5 HOUSE@"
+	db "ROUTE 5 HAUS@"
 
 Cherrygrove_Map_Name1: ; map_const ROUTE_30         ;  1
 	db "ROUTE 30@"
@@ -1340,18 +1340,18 @@ Cherrygrove_Map_Name2: ; map_const ROUTE_31         ;  2
 Cherrygrove_Map_Name3: ; map_const CHERRYGROVE_CITY ;  3
 	db "ROSALIA CITY@"
 Cherrygrove_Map_Name4: ; map_const CHERRYGROVE_MART ;  4
-	db "ROSALIA MART@"
+	db "ROSALIA MARKT@"
 Cherrygrove_Map_Name5: ; map_const CHERRYGROVE_POKECENTER_1F ;  5
-	db "ROSALIA <PKMN> CENTER@"
+	db "ROSALIA <PKMN>-CENTER@"
 Cherrygrove_Map_Name6: ; map_const CHERRYGROVE_GYM_SPEECH_HOUSE ;  6
-	db "ROSALIA HOUSE 1@"
+	db "ROSALIA HAUS 1@"
 Cherrygrove_Map_Name7: ; map_const GUIDE_GENTS_HOUSE ;  7
-	db "GUIDE GENT HOUSE@"
+	db "FÜHRER-HAUS@"
 Cherrygrove_Map_Name8: ; map_const CHERRYGROVE_EVOLUTION_SPEECH_HOUSE ;  8
-	db "ROSALIA HOUSE 2@"
+	db "ROSALIA HAUS 2@"
 Cherrygrove_Map_Name9: ; map_const ROUTE_30_BERRY_HOUSE ;  9
-	db "ROUTE 30 HOUSE@"
+	db "ROUTE 30 HAUS@"
 Cherrygrove_Map_Name10: ; map_const MR_POKEMONS_HOUSE ; 10
-	db "MR. #MON HOUSE@"
+	db "MR. #MONs HAUS@"
 Cherrygrove_Map_Name11: ; map_const ROUTE_31_VIOLET_GATE ; 11
-	db "ROUTE 31 GATE@"
+	db "ROUTE 31 TOR@"
