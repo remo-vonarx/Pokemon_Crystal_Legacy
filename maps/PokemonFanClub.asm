@@ -131,7 +131,7 @@ PokemonFanClubChairmanDidYouVisitToHearAboutMyMonText:
 	line "kleinlich, was"
 	cont "#MON betrifft."
 
-	para "Bist du extra"
+	para "Bist Du extra"
 	line "hierher gekommen,"
 	cont "um etwas über"
 	cont "meine #MON zu"
@@ -161,15 +161,15 @@ PokemonFanClubChairmanRapidashText:
 	cont "göttlich…"
 	cont "Ups! Wie die Zeit"
 	cont "vergeht! Ich habe"
-	cont "dich zu lange"
+	cont "Dich zu lange"
 	cont "aufgehalten!"
 	done
 
 PokemonFanClubChairmanIWantYouToHaveThisText:
-	text "Danke, dass du mir"
+	text "Danke, daß Du mir"
 	line "so lange zugehört"
 	cont "hast. Das möchte"
-	cont "ich dir geben!"
+	cont "ich Dir geben!"
 	done
 
 PokemonFanClubChairmanItsARareCandyText:
@@ -188,7 +188,7 @@ PokemonFanClubChairmanItsARareCandyText:
 PokemonFanClubChairmanMoreTalesToTellText:
 	text "Hallo, <PLAY_G>!"
 
-	para "Besuchst du mich"
+	para "Besuchst Du mich"
 	line "wieder wegen"
 	cont "meiner #MON?"
 
@@ -201,7 +201,7 @@ PokemonFanClubChairmanHowDisappointingText:
 	text "Schade…"
 
 	para "Komm wieder, wenn"
-	line "du mehr"
+	line "Du mehr"
 
 	para "Geschichten hören"
 	line "möchtest."
@@ -232,7 +232,7 @@ PokemonFanClubClefairyGuyMakingDoWithADollIFoundText:
 	para "nie eines fangen."
 	line "Die #PUPPE,"
 
-	para "die ich fand, muss"
+	para "die ich fand, muß"
 	line "mir genügen."
 	done
 
@@ -244,7 +244,7 @@ PokemonFanClubClefairyGuyTakeThisDollBackToGirlText:
 	line "PUPPE verloren"
 	cont "hat, ist traurig…"
 
-	para "Könntest du dann"
+	para "Könntest Du dann"
 	line "die #PUPPE"
 
 	para "zu diesem armen,"
@@ -279,7 +279,7 @@ PokemonFanClubClefairyGuyPackIsJammedFullText:
 	done
 
 PokemonFanClubTeacherText:
-	text "Schau dir mein"
+	text "Schau Dir mein"
 	line "süßes LORBLATT an!"
 
 	para "Das Blatt auf"

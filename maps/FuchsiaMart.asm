@@ -33,7 +33,7 @@ FuchsiaMartCooltrainerFText:
 	text "In dieser Stadt"
 	line "lebt auch die"
 	cont "Enkelin des"
-	cont "WÄRTERs der"
+	cont "WÄRTERS der"
 	cont "SAFARI-ZONE."
 	done
 

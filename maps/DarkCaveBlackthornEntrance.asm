@@ -38,20 +38,20 @@ DarkCaveBlackthornEntrancePharmacistText1:
 	para "Da ich mein"
 	line "SCHATTENGLAS trug,"
 
-	para "habe ich dich"
+	para "habe ich Dich"
 	line "nicht bemerkt."
 
 	para "Was ich hier"
 	line "mache?"
 
-	para "Hey, mach dir"
+	para "Hey, mach Dir"
 	line "darüber keine"
 	cont "Gedanken."
 
-	para "Ich gebe dir ein"
+	para "Ich gebe Dir ein"
 	line "SCHATTENGLAS"
-	cont "und du vergisst,"
-	cont "dass du mich"
+	cont "und Du vergißt,"
+	cont "daß Du mich"
 	cont "gesehen hast,"
 	cont "in Ordnung?"
 	done

@@ -92,9 +92,9 @@ MountMortarB1FTyrogueRewardText:
 	cont "gebe ich zu."
 
 	para "Als Beweis für"
-	line "deinen Sieg gebe"
+	line "Deinen Sieg gebe"
 
-	para "ich dir dieses"
+	para "ich Dir dieses"
 	line "seltene Kampf-"
 	cont "#MON."
 	done

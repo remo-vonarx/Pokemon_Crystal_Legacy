@@ -10,17 +10,17 @@ Route2GateScientistScript:
 	jumptextfaceplayer Route2GateScientistText
 
 Route2GateScientistText:
-	text "Bist du <PLAY_G>?"
+	text "Bist Du <PLAY_G>?"
 
 	para "Ich bin der"
 	line "ASSISTENT von"
-	cont "PROF. EICH."
+	cont "PROF EICH."
 
-	para "Ich wusste nicht,"
-	line "dass du hier"
+	para "Ich wußte nicht,"
+	line "daß Du hier"
 	cont "bist."
 
-	para "PROF. EICHs LABOR"
+	para "PROF EICHs LABOR"
 	line "ist gleich hier"
 	cont "in ALABASTIA."
 	done

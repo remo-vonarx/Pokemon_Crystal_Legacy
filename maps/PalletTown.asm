@@ -61,7 +61,7 @@ RedsHouseSignText:
 	done
 
 OaksLabSignText:
-	text "PROF. EICH"
+	text "PROF EICH"
 	line "#MON LABOR"
 	done
 

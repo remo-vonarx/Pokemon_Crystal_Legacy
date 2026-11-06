@@ -225,7 +225,7 @@ CeruleanGymGruntBacksAwayMovement:
 CeruleanGymGruntIntroText:
 	text "Ups! Tut ja so"
 	line "Leid mir! Du nicht"
-	cont "verletzt, du O.K.?"
+	cont "verletzt, Du O.K.?"
 
 	para "Ich schwer"
 	line "beschäftigt. Nicht"
@@ -243,16 +243,16 @@ CeruleanGymGruntBigMistakeText:
 	done
 
 CeruleanGymGruntByeText:
-	text "He, du! Du ver-"
-	line "gessen, dass du"
+	text "He, Du! Du ver-"
+	line "gessen, daß Du"
 
 	para "mich gesehen, ja?"
 	line "Du nichts sehen,"
 
 	para "hören und wissen!"
-	line "Tschüss!"
+	line "Tschüß!"
 
-	para "Und Tschüss!"
+	para "Und Tschüß!"
 	done
 
 CeruleanGymNote1Text:
@@ -271,7 +271,7 @@ CeruleanGymNote2Text:
 
 MistyIntroText:
 	text "MISTY: Ich habe"
-	line "dich erwartet, du"
+	line "Dich erwartet, Du"
 	cont "Nervensäge!"
 
 	para "Du hast zwar"
@@ -289,11 +289,11 @@ MistyWinLossText:
 	text "MISTY: Du bist"
 	line "wirklich gut…"
 
-	para "Ich gebe zu, dass"
-	line "du sehr geschickt"
+	para "Ich gebe zu, daß"
+	line "Du sehr geschickt"
 	cont "bist…"
 
-	para "Hier hast du den"
+	para "Hier hast Du den"
 	line "QUELLORDEN."
 	done
 
@@ -305,7 +305,7 @@ ReceivedCascadeBadgeText:
 MistyFightDoneText:
 	text "MISTY: Gibt es"
 	line "viele starke"
-	cont "Trainer wie dich"
+	cont "Trainer wie Dich"
 	cont "in JOHTO?"
 
 	para "Eines Tages werde"
@@ -339,8 +339,8 @@ Misty_RematchDefeatText:
 
 SwimmerfDianaSeenText:
 	text "Es tut mir Leid,"
-	line "dass ich so lange"
-	cont "weg war. Lass uns"
+	line "daß ich so lange"
+	cont "weg war. Laß uns"
 	cont "anfangen!"
 	done
 
@@ -359,24 +359,24 @@ SwimmerfBrianaSeenText:
 	text "Ich hoffe, meine"
 	line "elegante Art zu"
 	cont "schwimmen zermürbt"
-	cont "dich nicht."
+	cont "Dich nicht."
 	done
 
 SwimmerfBrianaBeatenText:
-	text "Oh, du hast mich"
+	text "Oh, Du hast mich"
 	line "ohne viel Auf-"
 	cont "hebens erledigt…"
 	done
 
 SwimmerfBrianaAfterBattleText:
-	text "Freue dich nicht"
+	text "Freue Dich nicht"
 	line "zu sehr über"
-	cont "deinen Sieg."
+	cont "Deinen Sieg."
 
-	para "MISTY wird dich"
+	para "MISTY wird Dich"
 	line "fertig machen,"
 
-	para "wenn du selbst-"
+	para "wenn Du selbst-"
 	line "gefällig wirst."
 	done
 
@@ -399,7 +399,7 @@ SwimmermParkerAfterBattleText:
 	cont "geworden."
 
 	para "Sei auf der Hut,"
-	line "sonst wirst du"
+	line "sonst wirst Du"
 	cont "platt gemacht!"
 	done
 
@@ -415,7 +415,7 @@ CeruleanGymGuideText:
 	done
 
 CeruleanGymGuideWinText:
-	text "Oje, du bist"
+	text "Oje, Du bist"
 	line "ganz schön hart."
 
 	para "Das war wie immer"

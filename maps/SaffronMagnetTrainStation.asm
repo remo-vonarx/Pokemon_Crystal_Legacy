@@ -136,13 +136,13 @@ SaffronMagnetTrainStationOfficerAreYouComingOnBoardText:
 	line "DUKATIA CITY in"
 	cont "wenigen Minuten."
 
-	para "Steigst du auch"
+	para "Steigst Du auch"
 	line "ein?"
 	done
 
 SaffronMagnetTrainStationOfficerRightThisWayText:
 	text "Darf ich bitte"
-	line "deinen FAHRSCHEIN"
+	line "Deinen FAHRSCHEIN"
 	cont "sehen?"
 
 	para "Danke sehr. Hier"
@@ -151,7 +151,7 @@ SaffronMagnetTrainStationOfficerRightThisWayText:
 
 SaffronMagnetTrainStationOfficerYouDontHaveAPassText:
 	text "Es tut mir Leid,"
-	line "aber du hast"
+	line "aber Du hast"
 	cont "keinen FAHRSCHEIN."
 	done
 
@@ -211,7 +211,7 @@ SaffronMagnetTrainStationTeacherText:
 	done
 
 SaffronMagnetTrainStationLassText:
-	text "Hi. Hast du einen"
+	text "Hi. Hast Du einen"
 	line "FAHRSCHEIN? Ich"
 
 	para "habe einen. Jeder"

@@ -180,7 +180,7 @@ SailorHueyBeatenText:
 
 SailorHueyUnusedText: ; unreferenced
 	text "Du hast Power!"
-	line "Möchtest du"
+	line "Möchtest Du"
 
 	para "mit mir die Meere"
 	line "unsicher machen?"
@@ -192,7 +192,7 @@ GentlemanAlfredSeenText:
 	done
 
 GentlemanAlfredBeatenText:
-	text "Ah! Ich sehe, du"
+	text "Ah! Ich sehe, Du"
 	line "meinst es ernst."
 	done
 
@@ -203,9 +203,9 @@ GentlemanAlfredAfterBattleText:
 	cont "betreibt."
 
 	para "Ich habe gehört,"
-	line "dass es krank ist"
+	line "daß es krank ist"
 
-	para "und dass normale"
+	para "und daß normale"
 	line "Medizin nicht"
 
 	para "hilft."
@@ -216,7 +216,7 @@ SailorHueyGiveProteinText:
 	line "stark, wie immer!"
 
 	para "Egal, hier hast"
-	line "du die Medizin."
+	line "Du die Medizin."
 	done
 
 OlivineLighthouse2F_MapEvents:

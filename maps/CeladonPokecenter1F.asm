@@ -74,11 +74,11 @@ CeladonPokecenter1FCooltrainerFText:
 	text "ERIKA versteht es"
 	line "meisterlich, mit"
 
-	para "Pflanzen-#MON"
+	para "PFLANZEN-#MON"
 	line "umzugehen."
 
 	para "Eine Unachtsamkeit"
-	line "wird dir bei ihr"
+	line "wird Dir bei ihr"
 	cont "übel bekommen."
 	done
 
@@ -102,14 +102,14 @@ CeladonEusineText1:
 	done
 
 EusineLeavesCeladonText:
-	text "<PLAYER>, hast du"
+	text "<PLAYER>, hast Du"
 	line "das gehört?"
 
 	para "Es gibt neue Ge-"
 	line "rüchte über ein"
 
 	para "regenbogenfarbenes"
-	line "#MON, dass"
+	line "#MON, daß"
 
 	para "sich am ZINNTURM"
 	line "zeigt."
@@ -127,7 +127,7 @@ NoBeastsText:
 	text "Oh, übrigens,"
 	line "<PLAYER>."
 
-	para "Hast du die legen-"
+	para "Hast Du die legen-"
 	line "dären #MON"
 
 	para "RAIKOU und ENTEI"
@@ -137,14 +137,14 @@ NoBeastsText:
 
 	para "Okay…"
 
-	para "Falls du auch nur"
+	para "Falls Du auch nur"
 	line "eines von ihnen"
 
-	para "fängst, gibst du"
+	para "fängst, gibst Du"
 	line "mir Bescheid."
 
 	para "Ich zähle auf"
-	line "dich, <PLAYER>!"
+	line "Dich, <PLAYER>!"
 	done
 
 CeladonPokecenter1F_MapEvents:

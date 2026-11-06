@@ -30,7 +30,7 @@ ElmsWifeText:
 	para "Wenn er sich in"
 	line "seine #MON-"
 	cont "Forschungen ver-"
-	cont "tieft, vergisst er"
+	cont "tieft, vergißt er"
 	cont "sogar zu essen."
 	done
 
@@ -46,13 +46,13 @@ ElmsSonText:
 
 ElmsHouseLabFoodText: ; unreferenced
 	text "Hier ist etwas zu"
-	line "essen. Es muss für"
+	line "essen. Es muß für"
 	cont "das LABOR sein."
 	done
 
 ElmsHousePokemonFoodText: ; unreferenced
 	text "Hier ist etwas zu"
-	line "essen. Es muss für"
+	line "essen. Es muß für"
 	cont "die #MON sein."
 	done
 
@@ -78,7 +78,7 @@ ElmsHousePCText:
 	para "…"
 
 	para "Dies ist ein Teil"
-	line "von PROF. LINDs"
+	line "von PROF LINDs"
 	cont "Aufzeichnungen."
 	done
 

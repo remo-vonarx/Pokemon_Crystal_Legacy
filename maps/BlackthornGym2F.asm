@@ -104,7 +104,7 @@ CooltrainermCodyAfterBattleText:
 
 CooltrainerfFranSeenText:
 	text "Ich kann es nicht"
-	line "zulassen, dass ein"
+	line "zulassen, daß ein"
 
 	para "unwichtiger Trai-"
 	line "ner an mir vorbei-"

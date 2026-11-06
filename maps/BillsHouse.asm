@@ -210,7 +210,7 @@ BillsGrandpa:
 	end
 
 BillsGrandpaIntroText:
-	text "Hm? Kennst du"
+	text "Hm? Kennst Du"
 	line "BILL? Er ist mein"
 	cont "Enkel."
 
@@ -223,14 +223,14 @@ BillsGrandpaIntroText:
 	done
 
 BillsGrandpaAskToSeeMonText:
-	text "Hast du dieses"
+	text "Hast Du dieses"
 	line "#MON? Darf ich"
 	cont "es sehen?"
 	done
 
 BillsGrandpaExcitedToSeeText:
 	text "Du zeigst es mir?"
-	line "Wie lieb von dir!"
+	line "Wie lieb von Dir!"
 	done
 
 BillsGrandpaYouDontHaveItTextText:
@@ -247,7 +247,7 @@ BillsGrandpaShownPokemonText:
 	para "Ist das nicht"
 	line "niedlich!"
 	cont "Das ist nett "
-	cont "von dir."
+	cont "von Dir."
 	done
 
 BillsGrandpaTokenOfAppreciationText:
@@ -264,7 +264,7 @@ BillsGrandpaComeAgainText:
 	done
 
 BillsGrandpaShownAllThePokemonText:
-	text "Danke, dass du mir"
+	text "Danke, daß Du mir"
 	line "so viele niedliche"
 	cont "#MON gezeigt"
 	cont "hast."
@@ -272,7 +272,7 @@ BillsGrandpaShownAllThePokemonText:
 	para "Ich habe mich"
 	line "wirklich amüsiert."
 
-	para "Ich bin froh, dass"
+	para "Ich bin froh, daß"
 	line "ich das noch"
 	cont "erleben durfte."
 	done
@@ -305,8 +305,8 @@ BillsGrandpaOddishText:
 	done
 
 BillsGrandpaStaryuText:
-	text "Kennst du ein"
-	line "Wasser-#MON"
+	text "Kennst Du ein"
+	line "WASSER-#MON"
 
 	para "mit einer roten"
 	line "Kugel im Körper?"
@@ -347,7 +347,7 @@ BillsGrandpaVulpixText:
 	done
 
 BillsGrandpaPichuText:
-	text "Kennst du dieses"
+	text "Kennst Du dieses"
 	line "sehr beliebte"
 	cont "#MON?"
 

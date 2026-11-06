@@ -42,7 +42,7 @@ BlackthornPokecenter1FTwinText:
 
 	para "unbedingt meinen"
 	line "#MON beibrin-"
-	cont "gen musste."
+	cont "gen mußte."
 
 	para "Also ging ich zum"
 	line "ATTACKEN-VERLER-"

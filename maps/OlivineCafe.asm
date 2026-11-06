@@ -46,11 +46,11 @@ OlivineCafeStrengthSailorText:
 
 OlivineCafeStrengthSailorText_GotStrength:
 	text "Der Einzige, auf"
-	line "den du dich auf"
+	line "den Du Dich auf"
 
 	para "hoher See verlas-"
 	line "sen kannst, bist"
-	cont "du selbst!"
+	cont "Du selbst!"
 
 	para "Ich bin so stolz"
 	line "auf mich selbst!"

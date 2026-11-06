@@ -100,7 +100,7 @@ FisherStephenBeatenText:
 	done
 
 FisherStephenAfterBattleText:
-	text "Kennst du schon"
+	text "Kennst Du schon"
 	line "die Radiosender"
 
 	para "aus KANTO? Es gibt"
@@ -137,16 +137,16 @@ FisherBarneyAfterBattleText:
 	done
 
 FisherKyleSeenText:
-	text "Erinnerst du dich?"
+	text "Erinnerst Du Dich?"
 	done
 
 FisherKyleBeatenText:
-	text "Du erinnerst dich?"
+	text "Du erinnerst Dich?"
 	done
 
 FisherKyleAfterBattleText:
 	text "Das Reißen an der"
-	line "ANGEL, wenn du"
+	line "ANGEL, wenn Du"
 
 	para "ein #MON"
 	line "fangen möchtest…"

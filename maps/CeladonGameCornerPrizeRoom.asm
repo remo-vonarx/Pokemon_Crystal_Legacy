@@ -227,7 +227,7 @@ if DEF(_CRYSTAL_AU)
 else
 	text "Puh…"
 
-	para "Ich muss ruhig"
+	para "Ich muß ruhig"
 	line "Blut bewahren…"
 
 	para "Wenn ich nervös"
@@ -240,14 +240,14 @@ endc
 CeladonPrizeRoom_PrizeVendorIntroText:
 	text "Willkommen!"
 
-	para "Wir tauschen deine"
+	para "Wir tauschen Deine"
 	line "Münzen ein gegen"
 	cont "fabelhafte Preise!"
 	done
 
 CeladonPrizeRoom_AskWhichPrizeText:
 	text "Welchen Preis"
-	line "hättest du gerne?"
+	line "hättest Du gerne?"
 	done
 
 CeladonPrizeRoom_ConfirmPurchaseText:
@@ -277,7 +277,7 @@ CeladonPrizeRoom_ComeAgainText:
 	done
 
 CeladonPrizeRoom_NoCoinCaseText:
-	text "Ach, du hast"
+	text "Ach, Du hast"
 	line "keinen MÜNZKORB?"
 	done
 

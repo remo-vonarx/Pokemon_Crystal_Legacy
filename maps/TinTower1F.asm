@@ -323,12 +323,12 @@ TinTower1FEusineSuicuneText:
 	line "beeindruckt."
 
 	para "SUICUNE war stark,"
-	line "aber du warst noch"
+	line "aber Du warst noch"
 
 	para "unglaublicher,"
 	line "<PLAYER>."
 
-	para "Ich hörte, dass"
+	para "Ich hörte, daß"
 	line "SUICUNEs mystische"
 
 	para "Kraft ein regen-"
@@ -346,7 +346,7 @@ TinTower1FEusineSuicuneText:
 	line "Legende noch"
 	cont "einmal nachlesen."
 
-	para "Danke, dass ich"
+	para "Danke, daß ich"
 	line "diesem Spitzen-"
 
 	para "kampf beiwohnen"
@@ -370,7 +370,7 @@ TinTower1FSage1Text:
 	line "herab…"
 
 	para "Könnte das bedeu-"
-	line "ten, dass die"
+	line "ten, daß die"
 
 	para "legendären #MON"
 	line "uns Menschen auf"
@@ -436,7 +436,7 @@ TinTower1FSage4Text1:
 	done
 
 TinTower1FSage5Text1:
-	text "Dies wird dich"
+	text "Dies wird Dich"
 	line "schützen. Nimm es!"
 	done
 
@@ -445,21 +445,21 @@ TinTower1FSage5Text2:
 	done
 
 TinTower1FSage6Text1:
-	text "Ich glaube, du"
+	text "Ich glaube, Du"
 	line "wirst geprüft."
 
 	para "Sprenge die Ketten"
 	line "der Unsicherheit"
-	cont "von deinem Ver-"
+	cont "von Deinem Ver-"
 	cont "stand und schreite"
 	cont "voran."
 	done
 
 TinTower1FEusineHoOhText:
-	text "Ich wusste es."
+	text "Ich wußte es."
 
-	para "Ich wusste, dass"
-	line "du das regenbogen-"
+	para "Ich wußte, daß"
+	line "Du das regenbogen-"
 	cont "farbene #MON"
 
 	para "sehen würdest,"
@@ -532,13 +532,13 @@ TinTower1FSage6Text2:
 	cont "zu HO-OH haben."
 
 	para "Ich habe gehört,"
-	line "dass es auch eine"
+	line "daß es auch eine"
 
 	para "Verbindung zu ei-"
 	line "nem #MON namens"
 	cont "ICOGNITO gibt."
 
-	para "ICOGNITO muss"
+	para "ICOGNITO muß"
 	line "einen kooperativen"
 
 	para "Bund mit SUICUNE"

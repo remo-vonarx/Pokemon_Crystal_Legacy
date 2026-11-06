@@ -17,13 +17,13 @@ CherrygroveGymSpeechHouseBookshelf:
 	jumpstd PictureBookshelfScript
 
 CherrygroveGymSpeechHousePokefanMText:
-	text "Möchtest du he-"
+	text "Möchtest Du he-"
 	line "rausfinden, wie"
 
-	para "gut du als #-"
+	para "gut Du als #-"
 	line "MON-Trainer bist?"
 
-	para "Dann solltest du"
+	para "Dann solltest Du"
 	line "alle #MON ARE-"
 	cont "NEN in JOHTO auf-"
 	cont "suchen und ORDEN"

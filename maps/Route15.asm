@@ -85,7 +85,7 @@ Route15PPUp:
 	itemball PP_UP
 
 TeacherColetteSeenText:
-	text "Hast du etwas"
+	text "Hast Du etwas"
 	line "vergessen?"
 	done
 
@@ -126,7 +126,7 @@ TeacherHillaryAfterBattleText:
 	done
 
 SchoolboyKippSeenText:
-	text "Warte! Ich muss"
+	text "Warte! Ich muß"
 	line "meine Mutter"
 	cont "anrufen."
 	done
@@ -142,12 +142,12 @@ SchoolboyKippAfterBattleText:
 	line "sich immer große"
 
 	para "Sorgen um mich."
-	line "Ständig muss ich"
+	line "Ständig muß ich"
 	cont "sie anrufen."
 	done
 
 SchoolboyTommySeenText:
-	text "Lass uns kämpfen."
+	text "Laß uns kämpfen."
 	line "Ich werde nicht"
 	cont "verlieren!"
 	done
@@ -182,7 +182,7 @@ SchoolboyJohnnyBeatenText:
 
 SchoolboyJohnnyAfterBattleText:
 	text "Ich bin müde vom"
-	line "Laufen. Ich muss"
+	line "Laufen. Ich muß"
 	cont "eine Pause machen."
 	done
 

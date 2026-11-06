@@ -119,7 +119,7 @@ BerryMartScript:
 	end
 
 GoldenrodFlowerShopTeacherMySisterWentToSeeWigglyTreeRoute36Text:
-	text "Hast du den wacke-"
+	text "Hast Du den wacke-"
 	line "ligen Baum auf"
 	cont "ROUTE 36 gesehen?"
 
@@ -133,21 +133,21 @@ GoldenrodFlowerShopTeacherMySisterWentToSeeWigglyTreeRoute36Text:
 	done
 
 GoldenrodFlowerShopTeacherAskWantToBorrowWaterBottleText:
-	text "Möchtest du auch"
+	text "Möchtest Du auch"
 	line "die Gießkanne aus-"
 	cont "leihen? Ich werde"
 	cont "nicht zulassen,"
 
-	para "dass du etwas Ge-"
+	para "daß Du etwas Ge-"
 	line "fährliches damit"
 	cont "anstellst."
 	done
 
 GoldenrodFlowerShopTeacherHeresTheSquirtbottleText:
-	text "Oh, du bist besser"
+	text "Oh, Du bist besser"
 	line "als BIANKA…"
 
-	para "Dann bist du in"
+	para "Dann bist Du in"
 	line "Ordnung. Hier, die"
 	cont "SCHIGGYKANNE!"
 	done
@@ -167,7 +167,7 @@ GoldenrodFlowerShopTeacherDontDoAnythingDangerousText:
 
 GoldenrodFlowerShopTeacherLalalaHavePlentyOfWaterText:
 	text "Lalala lalalala."
-	line "Da hast du Wasser,"
+	line "Da hast Du Wasser,"
 	cont "mein Hübsches!"
 	done
 
@@ -178,7 +178,7 @@ GoldenrodFlowerShopFloriaWonderIfSisWillLendWaterBottleText:
 	para "wackeligen Baum"
 	line "erzählte, sagte"
 
-	para "sie mir, dass er"
+	para "sie mir, daß er"
 	line "gefährlich sei."
 
 	para "Ich frage mich, ob"
@@ -189,7 +189,7 @@ GoldenrodFlowerShopFloriaWonderIfSisWillLendWaterBottleText:
 	done
 
 GoldenrodFlowerShopFloriaYouBeatWhitneyText:
-	text "Wow, du hast gegen"
+	text "Wow, Du hast gegen"
 	line "BIANKA gewonnen?"
 	done
 

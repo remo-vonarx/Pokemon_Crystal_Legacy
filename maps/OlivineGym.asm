@@ -150,7 +150,7 @@ OlivineGymStatue:
 	jumpstd GymStatue2Script
 
 Jasmine_SteelTypeIntro:
-	text "…Danke für deine"
+	text "…Danke für Deine"
 	line "Hilfe beim LEUCHT-"
 	cont "TURM…"
 
@@ -163,7 +163,7 @@ Jasmine_SteelTypeIntro:
 	cont "RIN. Ich setze"
 	cont "STAHL-#MON ein."
 
-	para "…Hast du von die-"
+	para "…Hast Du von die-"
 	line "sem Typ schon ge-"
 	cont "hört?"
 
@@ -189,7 +189,7 @@ Jasmine_BetterTrainer:
 	line "mit den Regeln der"
 
 	para "LIGA überreiche"
-	line "ich dir diesen"
+	line "ich Dir diesen"
 	cont "ORDEN."
 	done
 
@@ -201,7 +201,7 @@ Text_ReceivedMineralBadge:
 Jasmine_BadgeSpeech:
 	text "Der STAHLORDEN"
 	line "erhöht die VERT"
-	cont "deiner #MON."
+	cont "Deiner #MON."
 
 	para "…Ähm… Bitte nimm"
 	line "auch das…"
@@ -214,7 +214,7 @@ Text_ReceivedTM09: ; unreferenced
 
 Jasmine_IronTailSpeech:
 	text "…Mit dieser TM"
-	line "kannst du deinen"
+	line "kannst Du Deinen"
 	cont "#MON EISEN-"
 	cont "SCHWEIF lehren."
 	done
@@ -315,7 +315,7 @@ OlivineGymGuidePreText:
 	cont "#MON."
 
 	para "Ein starker Trai-"
-	line "ner muss auch Mit-"
+	line "ner muß auch Mit-"
 	cont "gefühl zeigen."
 	done
 

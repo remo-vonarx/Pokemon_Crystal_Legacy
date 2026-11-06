@@ -35,7 +35,7 @@ Route5CleanseTagHouseGrannyText1:
 
 	para "Ich spüre einen"
 	line "dunklen Schatten,"
-	cont "der über dir"
+	cont "der über Dir"
 	cont "schwebt."
 
 	para "Benutze dies, um"
@@ -45,12 +45,12 @@ Route5CleanseTagHouseGrannyText1:
 Route5CleanseTagHouseGrannyText2:
 	text "Du schwebtest in"
 	line "Lebensgefahr!"
-	cont "Jetzt bist du"
+	cont "Jetzt bist Du"
 	cont "in Sicherheit."
 	done
 
 Route5CleanseTagHouseTeacherText:
-	text "Meine Oma befasst"
+	text "Meine Oma befaßt"
 	line "sich mit dem"
 
 	para "Vertreiben von,"
@@ -58,7 +58,7 @@ Route5CleanseTagHouseTeacherText:
 	cont "bösen Geistern."
 
 	para "Es tut mir Leid,"
-	line "dass sie dich"
+	line "daß sie Dich"
 	cont "erschreckt hat."
 	done
 

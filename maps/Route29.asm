@@ -262,14 +262,14 @@ CatchingTutorialBoxFullText:
 	done
 
 CatchingTutorialIntroText:
-	text "Ich habe dich"
+	text "Ich habe Dich"
 	line "schon mehrmals ge-"
 	cont "sehen. Wie viele"
 
 	para "#MON hast"
-	line "du gefangen?"
+	line "Du gefangen?"
 
-	para "Soll ich dir"
+	para "Soll ich Dir"
 	line "zeigen, wie man"
 	cont "#MON fängt?"
 	done
@@ -313,25 +313,25 @@ CatchingTutorialDeclinedText:
 	done
 
 CatchingTutorialRepeatText:
-	text "Häh? Ich soll dir"
+	text "Häh? Ich soll Dir"
 	line "zeigen, wie man"
 	cont "#MON fängt?"
 	done
 
 Route29YoungsterText:
 	text "Yo. Wie geht es"
-	line "deinen #MON?"
+	line "Deinen #MON?"
 
 	para "Sind sie schwach"
 	line "und nicht bereit"
 
 	para "zu kämpfen, halte"
-	line "dich vom Gras"
+	line "Dich vom Gras"
 	cont "fern."
 	done
 
 Route29TeacherText:
-	text "Siehst du die"
+	text "Siehst Du die"
 	line "Stufen hier?"
 
 	para "Du kannst nicht"
@@ -397,14 +397,14 @@ TuscanyGivesGiftText:
 	text "Da wir uns zum"
 	line "ersten Mal sehen,"
 
-	para "schenke ich dir"
+	para "schenke ich Dir"
 	line "ein ROSA BAND."
 	done
 
 TuscanyGaveGiftText:
 	text "DIETLINDE: Findest"
-	line "du nicht auch,"
-	cont "dass es sehr"
+	line "Du nicht auch,"
+	cont "daß es sehr"
 	cont "schön ist?"
 
 	para "Attacken der"
@@ -413,13 +413,13 @@ TuscanyGaveGiftText:
 	cont "dadurch stärker."
 
 	para "Ich bin sicher,"
-	line "du kannst es"
+	line "Du kannst es"
 	cont "gebrauchen."
 	done
 
 TuscanyTuesdayText:
 	text "DIETLINDE: Bist"
-	line "du MONJA meiner"
+	line "Du MONJA meiner"
 	cont "älteren Schwester"
 	cont "schon begegnet?"
 

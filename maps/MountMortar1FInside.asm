@@ -97,7 +97,7 @@ SupernerdMarkusSeenText:
 	done
 
 SupernerdMarkusBeatenText:
-	text "Ich habe dich"
+	text "Ich habe Dich"
 	line "verwechselt…"
 	done
 
@@ -109,7 +109,7 @@ SupernerdMarkusAfterBattleText:
 	para "meinen Kameraden"
 	line "verloren…"
 
-	para "Bist du einem Geg-"
+	para "Bist Du einem Geg-"
 	line "ner begegnet, der"
 
 	para "ein SEEMON ein-"

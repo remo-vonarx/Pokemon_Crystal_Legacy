@@ -77,7 +77,7 @@ LavRadioTower1FReferenceLibrary: ; unreferenced
 
 LavRadioTower1FReceptionistText:
 	text "Willkommen!"
-	line "Schau dich auf"
+	line "Schau Dich auf"
 
 	para "dieser Etage"
 	line "ruhig um."
@@ -86,7 +86,7 @@ LavRadioTower1FReceptionistText:
 LavRadioTower1FOfficerText:
 	text "Du darfst leider"
 	line "nur das Erd-"
-	cont "geschoss erkunden."
+	cont "geschoß erkunden."
 
 	para "Seit der RADIOTURM"
 	line "in JOHTO von einer"
@@ -94,7 +94,7 @@ LavRadioTower1FOfficerText:
 	para "Verbrechergang"
 	line "besetzt wurde,"
 
-	para "mussten wir unsere"
+	para "mußten wir unsere"
 	line "Sicherheitsmaß-"
 	cont "nahmen erhöhen."
 	done
@@ -130,7 +130,7 @@ LavRadioTower1FGentlemanText:
 	done
 
 LavRadioTower1FGentlemanText_ReturnedMachinePart:
-	text "Ah! Dann bist du"
+	text "Ah! Dann bist Du"
 	line "<PLAY_G>. Du hast"
 
 	para "das Problem mit"
@@ -138,18 +138,18 @@ LavRadioTower1FGentlemanText_ReturnedMachinePart:
 	cont "gelöst?"
 
 	para "Dir habe ich es zu"
-	line "verdanken, dass"
+	line "verdanken, daß"
 
 	para "ich nicht arbeits-"
 	line "los wurde! Du bist"
 	cont "mein Lebensretter!"
 
 	para "Zum Dank gebe ich"
-	line "dir das hier."
+	line "Dir das hier."
 	done
 
 LavRadioTower1FGentlemanText_GotExpnCard:
-	text "Damit kannst du"
+	text "Damit kannst Du"
 	line "die Radioprogramme"
 
 	para "in KANTO"
@@ -172,12 +172,12 @@ LavRadioTower1FSuperNerd2Text:
 	para "empfangen? Wie"
 	line "traurig!"
 
-	para "Wenn du dir ein"
+	para "Wenn Du Dir ein"
 	line "ZUSATZSET be-"
 	cont "sorgst, empfängst"
 
-	para "du meine Send-"
-	line "ungen. Hol es dir"
+	para "Du meine Send-"
+	line "ungen. Hol es Dir"
 	cont "bald!"
 	done
 
@@ -210,7 +210,7 @@ LavRadioTower1FDirectoryText:
 	done
 
 LavRadioTower1FPokeFluteSignText:
-	text "Mach deine #MON"
+	text "Mach Deine #MON"
 	line "mit den Fröhlichen"
 
 	para "Melodien der #-"
@@ -224,7 +224,7 @@ LavRadioTower1FReferenceLibraryText:
 	cont "MON CDs und"
 	cont "Videos."
 
-	para "Das muss die"
+	para "Das muß die"
 	line "Bibliothek sein."
 	done
 

@@ -367,7 +367,7 @@ PokemaniacBenSeenText:
 	done
 
 PokemaniacBenBeatenText:
-	text "Wie konntest du"
+	text "Wie konntest Du"
 	line "mir das antun?"
 	done
 
@@ -382,7 +382,7 @@ PokemaniacBenAfterBattleText:
 	done
 
 PokemaniacBrentSeenText:
-	text "Heh! Hast du"
+	text "Heh! Hast Du"
 	line "seltene #MON?"
 	done
 
@@ -400,7 +400,7 @@ PokemaniacBrentAfterBattleText:
 	done
 
 PokemaniacRonSeenText:
-	text "Stell dir mal vor!"
+	text "Stell Dir mal vor!"
 
 	para "So ein <RIVAL>"
 	line "hat sich über"
@@ -495,11 +495,11 @@ CamperSpencerAfterBattleText:
 	done
 
 PicnickerTiffanySeenText:
-	text "Gehst du auch zum"
+	text "Gehst Du auch zum"
 	line "SEE DES ZORNS?"
 
 	para "Spielen wir ein"
-	line "bisschen!"
+	line "bißchen!"
 	done
 
 PicnickerTiffanyBeatenText:
@@ -512,7 +512,7 @@ PicnickerTiffanyWantsPicnicText:
 	line "Picknick mit"
 	cont "meinen #MON."
 
-	para "Setz dich doch zu"
+	para "Setz Dich doch zu"
 	line "uns."
 	done
 
@@ -561,7 +561,7 @@ Route43TrainerTipsText:
 
 	para "effektiv oder"
 	line "ineffektiv gegen"
-	cont "deine #MON"
+	cont "Deine #MON"
 	cont "sind."
 	done
 

@@ -139,17 +139,17 @@ GoldenrodDeptStore5FElevatorButton:
 	jumpstd ElevatorButtonScript
 
 GoldenrodDeptStore5FReceptionistOhYourMonDotDotDotText:
-	text "Hallo! Oh, dein"
+	text "Hallo! Oh, Dein"
 	line "#MON…"
 	done
 
 GoldenrodDeptStore5FReceptionistThisMoveShouldBePerfectText:
 	text "Es hängt sehr an"
-	line "dir."
+	line "Dir."
 
 	para "Diese Attacke"
-	line "passt genau zu"
-	cont "euch beiden."
+	line "paßt genau zu"
+	cont "Euch beiden."
 	done
 
 GoldenrodDeptStore5FReceptionistItsAdorableText:
@@ -177,7 +177,7 @@ GoldenrodDeptStore5FCarrieMysteryGiftExplanationText:
 
 	para "Mit nur einem"
 	line "kleinen Biep er-"
-	cont "hältst du ein Ge-"
+	cont "hältst Du ein Ge-"
 	cont "schenk."
 	done
 
@@ -199,9 +199,9 @@ GoldenrodDeptStore5FLassText:
 
 GoldenrodDeptStore5FPokefanMText:
 	text "Ein #MON, das"
-	line "du durch Tausch"
+	line "Du durch Tausch"
 	cont "erhalten hast,"
-	cont "kannst du nicht"
+	cont "kannst Du nicht"
 	cont "umbenennen."
 
 	para "Der Name spiegelt"
@@ -212,7 +212,7 @@ GoldenrodDeptStore5FPokefanMText:
 	done
 
 GoldenrodDeptStore5FDirectoryText:
-	text "Rüste deine #-"
+	text "Rüste Deine #-"
 	line "MON auf."
 
 	para "4S TM-ECKE"

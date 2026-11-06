@@ -205,7 +205,7 @@ RocketText_ThankYou:
 
 RocketText_AllYouGot:
 	text "Dann zahle bitte,"
-	line "so viel du hast."
+	line "so viel Du hast."
 	done
 
 RocketText_MakingABundle:
@@ -232,7 +232,7 @@ OfficerText_FoundTM:
 	para "Ich bekomme bei"
 	line "diesem Ding eine"
 	cont "Gänsehaut. Kannst"
-	cont "du es bitte"
+	cont "Du es bitte"
 	cont "mitnehmen?"
 	done
 
@@ -244,7 +244,7 @@ Text_ReceivedTM30: ; unreferenced
 OfficerText_AvoidGrass:
 	text "Gehe durch dieses"
 	line "Tor. Dann meidest"
-	cont "du das Gras."
+	cont "Du das Gras."
 	done
 
 Route43Gate_MapEvents:

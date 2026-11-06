@@ -95,7 +95,7 @@ ViridianGymStatue:
 	jumpstd GymStatue2Script
 
 LeaderBlueBeforeText:
-	text "BLAU: He! Hast du"
+	text "BLAU: He! Hast Du"
 	line "es endlich hierher"
 	cont "geschafft?"
 
@@ -108,8 +108,8 @@ LeaderBlueBeforeText:
 
 	para "…"
 
-	para "Willst du etwa"
-	line "behaupten, du"
+	para "Willst Du etwa"
+	line "behaupten, Du"
 
 	para "hättest alle"
 	line "ARENALEITER in"
@@ -123,10 +123,10 @@ LeaderBlueBeforeText:
 	para "Aber - nur"
 	line "keine Bange."
 
-	para "Ich werde dir"
+	para "Ich werde Dir"
 	line "sofort sagen, ob"
 
-	para "du ein guter"
+	para "Du ein guter"
 	line "Kämpfer bist."
 
 	para "Fertig, JOHTO-"
@@ -138,7 +138,7 @@ LeaderBlueWinText:
 
 	para "Wie zum Teufel"
 	line "konnte ich gegen"
-	cont "dich verlieren?"
+	cont "Dich verlieren?"
 
 	para "…"
 
@@ -164,20 +164,20 @@ LeaderBlueAfterText:
 	cont "guter Trainer."
 
 	para "Aber eines Tages"
-	line "werde ich dich"
+	line "werde ich Dich"
 
 	para "besiegen. Ich"
-	line "vergesse dich"
+	line "vergesse Dich"
 	cont "nicht!"
 	done
 
 LeaderBlueEpilogueText:
 	text "BLAU: Hör gut zu."
 
-	para "Es bekommt dir"
+	para "Es bekommt Dir"
 	line "besser, nicht zu"
 	cont "verlieren, bis ich"
-	cont "dich besiegt habe!"
+	cont "Dich besiegt habe!"
 	cont "Klar?"
 	done
 
@@ -227,7 +227,7 @@ ViridianGymGuideText:
 	line "Kinderspiel!"
 
 	para "Gib alles, was"
-	line "du hast!"
+	line "Du hast!"
 	done
 
 ViridianGymGuideWinText:

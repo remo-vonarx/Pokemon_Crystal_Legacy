@@ -37,7 +37,7 @@ CeruleanPokecenter1FSuperNerdText:
 	done
 
 CeruleanPokecenter1FSuperNerdText_Mobile:
-	text "Kämpfst du via"
+	text "Kämpfst Du via"
 	line "Handy?"
 
 	para "Beendet das Zeit-"

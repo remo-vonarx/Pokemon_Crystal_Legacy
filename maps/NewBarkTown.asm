@@ -187,10 +187,10 @@ NewBarkTown_SilverReturnsToTheShadowsMovement:
 	step_end
 
 Text_GearIsImpressive:
-	text "Wow, dein #COM"
+	text "Wow, Dein #COM"
 	line "ist beeindruckend!"
 
-	para "Hast du den von"
+	para "Hast Du den von"
 	line "Mama bekommen?"
 	done
 
@@ -199,7 +199,7 @@ Text_WaitPlayer:
 	done
 
 Text_WhatDoYouThinkYoureDoing:
-	text "Was hast du vor?"
+	text "Was hast Du vor?"
 	done
 
 Text_ItsDangerousToGoAlone:
@@ -228,24 +228,24 @@ Text_TellMomIfLeaving:
 	text "Hi, <PLAY_G>!"
 	line "Du gehst schon?"
 
-	para "Gib deiner Mama"
-	line "Bescheid, wenn du"
+	para "Gib Deiner Mama"
+	line "Bescheid, wenn Du"
 	cont "gehst."
 	done
 
 Text_CallMomOnGear:
-	text "Ruf deine Mama mit"
+	text "Ruf Deine Mama mit"
 	line "dem #COM an,"
 
 	para "damit sie weiß,"
-	line "was du machst."
+	line "was Du machst."
 	done
 
 Text_ElmDiscoveredNewMon:
 	text "Yo, <PLAYER>!"
 
 	para "Ich habe gehört,"
-	line "PROF. LIND hat"
+	line "PROF LIND hat"
 	cont "neue #MON"
 	cont "entdeckt."
 	done
@@ -259,7 +259,7 @@ NewBarkTownRivalText1:
 	done
 
 NewBarkTownRivalText2:
-	text "…Was starrst du"
+	text "…Was starrst Du"
 	line "so?"
 	done
 
@@ -280,7 +280,7 @@ NewBarkTownElmsLabSignText:
 	done
 
 NewBarkTownElmsHouseSignText:
-	text "PROF. LINDs HAUS"
+	text "PROF LINDs HAUS"
 	done
 
 NewBarkTown_MapEvents:

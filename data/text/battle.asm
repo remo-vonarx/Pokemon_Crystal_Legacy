@@ -115,7 +115,7 @@ BattleText_TargetWasHitByFutureSight:
 	text "<TARGET>"
 	line "wurde von"
 	cont "SEHER"
-	cont "erfasst!"
+	cont "erfaßt!"
 	prompt
 
 BattleText_SafeguardFaded:
@@ -164,7 +164,7 @@ BattleText_TheSunlightFaded:
 
 BattleText_TheSandstormSubsided:
 	text "Der SANDSTURM"
-	line "lässt nach."
+	line "läßt nach."
 	prompt
 
 BattleText_EnemyMonFainted:
@@ -214,7 +214,7 @@ SentAllToMomText:
 
 UnusedRivalLossText: ; unreferenced
 	text "<RIVAL>: Hä? Ich"
-	line "hätte deine"
+	line "hätte Deine"
 	cont "#MON auswählen"
 	cont "sollen!"
 	prompt
@@ -249,7 +249,7 @@ BattleText_EnemyIsAboutToUseWillPlayerChangeMon:
 	text_ram wEnemyMonNickname
 	text " ein."
 
-	para "Möchtest du das"
+	para "Möchtest Du das"
 	line "#MON wechseln?"
 	done
 
@@ -377,7 +377,7 @@ BattleText_WildMonIsEating:
 	text "Wildes @"
 	text_ram wEnemyMonNickname
 	text_start
-	line "frisst!"
+	line "frißt!"
 	prompt
 
 BattleText_WildMonIsAngry:
@@ -409,7 +409,7 @@ FlinchedText:
 
 MustRechargeText:
 	text "<USER>"
-	line "muss sich wieder"
+	line "muß sich wieder"
 	cont "aufladen!"
 	prompt
 
@@ -892,7 +892,7 @@ SubTookDamageText:
 SubFadedText:
 	text "Der DELEGATOR von"
 	line "<TARGET>"
-	cont "lässt nach!"
+	cont "läßt nach!"
 	prompt
 
 MimicLearnedMoveText:

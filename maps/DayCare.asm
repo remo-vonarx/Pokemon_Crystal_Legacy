@@ -74,7 +74,7 @@ DayCareBookshelf:
 	jumpstd DifficultBookshelfScript
 
 Text_GrampsLookingForYou:
-	text "Opa hat nach dir"
+	text "Opa hat nach Dir"
 	line "gesucht."
 	done
 
@@ -89,7 +89,7 @@ Text_DayCareManTalksAboutEggTicket: ; unreferenced
 	line "TAUSCHECKE nennt."
 
 	para "Ich erhielt ein"
-	line "EI-TICKET, dass"
+	line "EI-TICKET, daß"
 
 	para "man gegen ein"
 	line "KURIOS-EI eintau-"

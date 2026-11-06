@@ -58,7 +58,7 @@ SupernerdHughAfterBattleText:
 	cont "mein Kamerad fehlt"
 	cont "unentschuldigt."
 
-	para "Bist du hier einem"
+	para "Bist Du hier einem"
 	line "Trainer begegnet,"
 
 	para "dessen FLEGMON"

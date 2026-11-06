@@ -572,40 +572,40 @@ Route32CooltrainerMText_AideIsWaiting:
 	line "Ein Typ mit einer"
 
 	para "Brille hat nach"
-	line "dir gefragt."
+	line "Dir gefragt."
 
-	para "Kümmere dich um"
+	para "Kümmere Dich um"
 	line "ihn. Er erwartet"
 
-	para "dich im #MON-"
+	para "Dich im #MON-"
 	line "CENTER."
 	done
 
 Route32CooltrainerMText_UnusedSproutTower:
-	text "Warst du im"
+	text "Warst Du im"
 	line "KNOFENSA-TURM?"
 
-	para "Wenn du jemals"
+	para "Wenn Du jemals"
 	line "nach VIOLA CITY"
 
 	para "kommst, erwartet"
-	line "man von dir, dass"
-	cont "du dort trai-"
+	line "man von Dir, daß"
+	cont "Du dort trai-"
 	cont "nierst."
 
-	para "Das ist ein Muss"
+	para "Das ist ein Muß"
 	line "für alle Trainer."
 	cont "Geh zum"
 	cont "KNOFENSA-TURM!"
 	done
 
 Route32CooltrainerMText_VioletGym:
-	text "Warst du schon in"
+	text "Warst Du schon in"
 	line "der PKMN-ARENA?"
 
-	para "Dort kannst du"
-	line "deine #MON und"
-	cont "dich auf die Probe"
+	para "Dort kannst Du"
+	line "Deine #MON und"
+	cont "Dich auf die Probe"
 	cont "stellen."
 
 	para "Es ist eine Art"
@@ -620,7 +620,7 @@ Route32CooltrainerMText_HaveThisSeed:
 	para "Sie sind bestimmt"
 	line "wegen der vielen"
 
-	para "Kämpfe, die du mit"
+	para "Kämpfe, die Du mit"
 	line "ihnen bei VIOLA"
 	cont "CITY absolviert"
 	cont "hast, so gut."
@@ -628,7 +628,7 @@ Route32CooltrainerMText_HaveThisSeed:
 	para "Das Training in"
 	line "der PKMN-ARENA"
 
-	para "muss von großem"
+	para "muß von großem"
 	line "Nutzen gewesen"
 
 	para "sein. Nimm dies"
@@ -644,24 +644,24 @@ Route32CooltrainerMText_ExperiencesShouldBeUseful:
 	text "Die Erfahrungen"
 	line "von VIOLA CITY"
 
-	para "werden dir auf"
-	line "deiner Reise von"
+	para "werden Dir auf"
+	line "Deiner Reise von"
 	cont "großem Nutzen"
 	cont "sein."
 	done
 
 Text_MillionDollarSlowpokeTail:
-	text "Wie möchtest du"
+	text "Wie möchtest Du"
 	line "die schmackhafte,"
 
 	para "gehaltvolle"
 	line "FLEGMONRUTE"
 	cont "zubereitet haben?"
 
-	para "Für dich jetzt nur"
+	para "Für Dich jetzt nur"
 	line "¥1,000,000!"
 
-	para "Möchtest du sie?"
+	para "Möchtest Du sie?"
 	done
 
 Text_ThoughtKidsWereLoaded:
@@ -674,13 +674,13 @@ Text_ThoughtKidsWereLoaded:
 Text_RefusedToBuySlowpokeTail:
 	text "Du möchtest sie"
 	line "nicht? Dann mach"
-	cont "dich vom Acker!"
+	cont "Dich vom Acker!"
 	done
 
 FisherJustinSeenText:
 	text "Wow!"
 
-	para "Wegen dir habe ich"
+	para "Wegen Dir habe ich"
 	line "den Fisch ver-"
 	cont "loren!"
 	done
@@ -731,7 +731,7 @@ FisherRalphSwarmText:
 	line "Ich bin fertig!"
 
 	para "Mach weiter und"
-	line "fange so viel du"
+	line "fange so viel Du"
 	cont "kannst, Kiddie!"
 	done
 
@@ -759,7 +759,7 @@ Route32UnusedFisher1AfterText: ; unreferenced
 Route32UnusedFisher2SeenText: ; unreferenced
 	text "Heh, heute habe"
 	line "ich einen Lauf."
-	cont "Lass uns kämpfen,"
+	cont "Laß uns kämpfen,"
 	cont "Kröte."
 	done
 
@@ -773,7 +773,7 @@ Route32UnusedFisher2AfterText: ; unreferenced
 	text "Du benötigst die"
 	line "PROFIANGEL, wenn"
 
-	para "du gute #MON"
+	para "Du gute #MON"
 	line "fangen möchtest."
 	done
 
@@ -796,11 +796,11 @@ FisherHenryAfterText:
 	done
 
 YoungsterAlbertSeenText:
-	text "Ich habe dich hier"
+	text "Ich habe Dich hier"
 	line "noch nie gesehen."
 
 	para "Du denkst also,"
-	line "du bist stark?"
+	line "Du bist stark?"
 	done
 
 YoungsterAlbertBeatenText:
@@ -835,7 +835,7 @@ YoungsterGordonBeatenText:
 
 YoungsterGordonAfterText:
 	text "Im Gras findest"
-	line "du viele Dinge."
+	line "Du viele Dinge."
 	done
 
 CamperRolandSeenText:
@@ -849,7 +849,7 @@ CamperRolandBeatenText:
 	done
 
 CamperRolandAfterText:
-	text "Wenn du nicht"
+	text "Wenn Du nicht"
 	line "kämpfen möchtest,"
 	cont "vermeide Blick-"
 	cont "kontakt."
@@ -857,7 +857,7 @@ CamperRolandAfterText:
 
 PicnickerLiz1SeenText:
 	text "A-ha. Ja,"
-	line "du weißt…"
+	line "Du weißt…"
 
 	para "Wie bitte? Kampf?"
 	line "Ich telefoniere."
@@ -867,7 +867,7 @@ PicnickerLiz1SeenText:
 	done
 
 PicnickerLiz1BeatenText:
-	text "Ich muss meinem"
+	text "Ich muß meinem"
 	line "Ärger Luft machen!"
 	done
 
@@ -933,13 +933,13 @@ MeetFriedaText:
 	para "Ich bin FRIEDA"
 	line "von Freitag!"
 
-	para "Schön dich"
+	para "Schön Dich"
 	line "kennen zu lernen!"
 	done
 
 FriedaGivesGiftText:
 	text "Hier, GIFTSTICH"
-	line "ist für dich!"
+	line "ist für Dich!"
 	done
 
 FriedaGaveGiftText:
@@ -952,9 +952,9 @@ FriedaGaveGiftText:
 
 	para "Es ist gemein!"
 
-	para "Du wirst dich"
+	para "Du wirst Dich"
 	line "wundern, wie"
-	cont "effektiv deine"
+	cont "effektiv Deine"
 	cont "Gift-Attacken"
 	cont "werden!"
 	done
@@ -962,15 +962,15 @@ FriedaGaveGiftText:
 FriedaFridayText:
 	text "FRIEDA: Hossa!"
 	line "Welchen Wochentag"
-	cont "hast du am"
+	cont "hast Du am"
 	cont "liebsten?"
 
 	para "Ich liebe Freitag."
 	line "Daran gibt es"
 	cont "keinen Zweifel!"
 
-	para "Denkst du nicht"
-	line "auch, dass Freitag"
+	para "Denkst Du nicht"
+	line "auch, daß Freitag"
 	cont "großartig ist?"
 	done
 

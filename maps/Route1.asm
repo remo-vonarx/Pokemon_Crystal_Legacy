@@ -53,14 +53,14 @@ SchoolboyDannyAfterBattleText:
 	text "Es ist ein"
 	line "ungeschriebenes"
 
-	para "Gesetz, dass Trai-"
+	para "Gesetz, daß Trai-"
 	line "ner kämpfen, wenn"
 	cont "sie sich begegnen."
 	done
 
 CooltrainerfQuinnSeenText:
 	text "Du da!"
-	line "Willst du kämpfen?"
+	line "Willst Du kämpfen?"
 	done
 
 CooltrainerfQuinnBeatenText:

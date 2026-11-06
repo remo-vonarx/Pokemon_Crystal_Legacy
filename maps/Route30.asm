@@ -289,7 +289,7 @@ Text_UseTackle:
 Text_ThisIsABigBattle:
 	text "Was? Das ist ein"
 	line "harter Kampf!"
-	cont "Lass mich in Ruhe!"
+	cont "Laß mich in Ruhe!"
 	done
 
 YoungsterJoey1SeenText:
@@ -299,7 +299,7 @@ YoungsterJoey1SeenText:
 
 	para "Halt! Du siehst"
 	line "schwach aus! Los,"
-	cont "lass uns kämpfen!"
+	cont "laß uns kämpfen!"
 	done
 
 YoungsterJoey1BeatenText:
@@ -323,7 +323,7 @@ YoungsterMikeySeenText:
 	text "Du bist ein #-"
 	line "MON-Trainer, oder?"
 
-	para "Dann musst du"
+	para "Dann mußt Du"
 	line "kämpfen!"
 	done
 
@@ -345,7 +345,7 @@ YoungsterMikeyAfterText:
 
 BugCatcherDonSeenText:
 	text "Anstatt eines"
-	line "Käfer-#MON"
+	line "KÄFER-#MON"
 	cont "traf ich auf"
 	cont "einen Trainer!"
 	done
@@ -380,9 +380,9 @@ Route30CooltrainerFText:
 	text "Ich bin kein"
 	line "Trainer."
 
-	para "Wenn du einem in"
+	para "Wenn Du einem in"
 	line "die Augen siehst,"
-	cont "dann bereite dich"
+	cont "dann bereite Dich"
 	cont "auf einen Kampf"
 	cont "vor."
 	done
@@ -419,11 +419,11 @@ Route30TrainerTipsText:
 
 YoungsterJoeyText_GiveHPUpAfterBattle:
 	text "Wieder verloren…"
-	line "Bist du stark!"
+	line "Bist Du stark!"
 
 	para "Oh fast vergaß"
-	line "ich, dass ich dir"
-	cont "das geben muss."
+	line "ich, daß ich Dir"
+	cont "das geben muß."
 
 	para "Werde damit noch"
 	line "stärker, O.K.?"

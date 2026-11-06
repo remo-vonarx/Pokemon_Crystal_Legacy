@@ -205,7 +205,7 @@ RadioTower3FCooltrainerFPleaseSaveDirectorText:
 	done
 
 RadioTower3FCooltrainerFIsDirectorSafeText:
-	text "Hast du den"
+	text "Hast Du den"
 	line "INTENDANTEN"
 	cont "retten können?"
 	done
@@ -262,7 +262,7 @@ GruntM8SeenText:
 	done
 
 GruntM8BeatenText:
-	text "Machst du Witze?"
+	text "Machst Du Witze?"
 	done
 
 GruntM8AfterBattleText:
@@ -276,7 +276,7 @@ GruntM8AfterBattleText:
 GruntM9SeenText:
 	text "Warum hat sich der"
 	line "Rollladen geöff-"
-	cont "net? Hast du etwas"
+	cont "net? Hast Du etwas"
 	cont "damit zu tun?"
 	done
 
@@ -290,7 +290,7 @@ GruntM9AfterBattleText:
 	cont "UNTERGRUND"
 	cont "vorbeigekommen?"
 
-	para "Wie hast du das"
+	para "Wie hast Du das"
 	line "fertiggebracht?"
 	done
 
@@ -298,12 +298,12 @@ ScientistMarcSeenText:
 	text "Was macht ein"
 	line "fremdes Kind hier?"
 
-	para "Wer bist du?"
+	para "Wer bist Du?"
 	done
 
 ScientistMarcBeatenText:
 	text "Ts! Ich habe"
-	line "dich nicht"
+	line "Dich nicht"
 	cont "ernst genommen!"
 	done
 

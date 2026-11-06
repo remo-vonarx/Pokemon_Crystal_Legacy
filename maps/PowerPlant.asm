@@ -235,7 +235,7 @@ PowerPlantOfficer1CeruleanShadyCharacterText:
 
 PowerPlantOfficer1CouldIAskForYourCooperationText:
 	text "Kann ich mit"
-	line "deiner Unter-"
+	line "Deiner Unter-"
 	cont "stützung rechnen?"
 	done
 
@@ -371,7 +371,7 @@ PowerPlantManagerTakeThisTMText:
 	text "Wahah! Danke!"
 
 	para "Als Belohnung gebe"
-	line "ich dir diese TM!"
+	line "ich Dir diese TM!"
 	done
 
 PowerPlantManagerTM07IsZapCannonText:
@@ -382,7 +382,7 @@ PowerPlantManagerTM07IsZapCannonText:
 	para "starke Attacke!"
 	line "Sie ist nicht sehr"
 
-	para "präzise, aber du"
+	para "präzise, aber Du"
 	line "kannst jemanden"
 
 	para "damit ordentlich"

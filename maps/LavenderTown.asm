@@ -72,11 +72,11 @@ LavenderTownGrampsText:
 
 LavenderTownYoungsterText:
 	text "Mit einer #-"
-	line "FLÖTE weckst du"
+	line "FLÖTE weckst Du"
 	cont "schlafende"
 	cont "#MON."
 
-	para "Jeder Trainer muss"
+	para "Jeder Trainer muß"
 	line "das wissen!"
 	done
 

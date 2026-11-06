@@ -139,11 +139,11 @@ SaffronGymStatue:
 
 SabrinaIntroText:
 	text "SABRINA: Ich"
-	line "wusste, dass du"
+	line "wußte, daß Du"
 	cont "kommen würdest…"
 
 	para "Vor drei Jahren"
-	line "sah ich dich in"
+	line "sah ich Dich in"
 	cont "einer Vision."
 
 	para "Du willst meinen"
@@ -162,8 +162,8 @@ SabrinaIntroText:
 	line "als würdig"
 	cont "erwiesen haben."
 
-	para "Da du es wünschst,"
-	line "werde ich dir"
+	para "Da Du es wünschst,"
+	line "werde ich Dir"
 	cont "meine psychischen"
 	cont "Kräfte zeigen!"
 	done
@@ -183,8 +183,8 @@ SabrinaWinLossText:
 	line "sagen, was die"
 	cont "Zukunft bringt…"
 
-	para "Gut, du hast"
-	line "dir den SUMPFORDEN"
+	para "Gut, Du hast"
+	line "Dir den SUMPFORDEN"
 	cont "verdient."
 	done
 
@@ -197,13 +197,13 @@ SabrinaMarshBadgeText:
 	text "SABRINA: Der"
 	line "SUMPFORDEN"
 
-	para "aktiviert deine"
-	line "unterbewussten"
+	para "aktiviert Deine"
+	line "unterbewußten"
 	cont "Kräfte…"
 
 	para "Obwohl ich nicht"
 	line "in der Lage war,"
-	cont "deine Stärke"
+	cont "Deine Stärke"
 	cont "vorauszusehen,"
 	cont "weiß ich das ganz"
 	cont "sicher."
@@ -216,7 +216,7 @@ SabrinaMarshBadgeText:
 
 SabrinaFightDoneText:
 	text "SABRINA: Deine Zu-"
-	line "neigung zu deinen"
+	line "neigung zu Deinen"
 
 	para "#MON hat meine"
 	line "Psychostärke"
@@ -259,7 +259,7 @@ Sabrina_RematchDefeatText:
 
 MediumRebeccaSeenText:
 	text "Die Kraft all"
-	line "derer, die du"
+	line "derer, die Du"
 	cont "besiegt hast,"
 	cont "offenbart sich"
 	cont "mir!"
@@ -271,14 +271,14 @@ MediumRebeccaBeatenText:
 	done
 
 MediumRebeccaAfterBattleText:
-	text "Woher kommt deine"
+	text "Woher kommt Deine"
 	line "Kraft?"
 	done
 
 PsychicFranklinSeenText:
 	text "Psychische Stärke"
 	line "ist die Kraft"
-	cont "deiner Seele."
+	cont "Deiner Seele."
 	done
 
 PsychicFranklinBeatenText:
@@ -287,9 +287,9 @@ PsychicFranklinBeatenText:
 	done
 
 PsychicFranklinAfterBattleText:
-	text "Du hast auch deine"
+	text "Du hast auch Deine"
 	line "Seele gestärkt,"
-	cont "nicht nur deine"
+	cont "nicht nur Deine"
 	cont "Fähigkeiten."
 	done
 
@@ -298,21 +298,21 @@ MediumDorisSeenText:
 	line "Ich habe es"
 	cont "deutlich vor mir."
 
-	para "Ich kann in deine"
+	para "Ich kann in Deine"
 	line "Seele blicken!"
 	done
 
 MediumDorisBeatenText:
-	text "Obwohl ich in dir"
+	text "Obwohl ich in Dir"
 	line "lesen kann, habe"
 	cont "ich verloren…"
 	done
 
 MediumDorisAfterBattleText:
 	text "Mist! Ich habe"
-	line "vergessen, dass"
+	line "vergessen, daß"
 	cont "ich meine Nieder-"
-	cont "lage gegen dich"
+	cont "lage gegen Dich"
 	cont "voraussah."
 	done
 
@@ -343,7 +343,7 @@ SaffronGymGuideText:
 	line "in spe!"
 
 	para "Ein Trainer"
-	line "deines Kalibers"
+	line "Deines Kalibers"
 
 	para "braucht sicher"
 	line "keine Anweisung,"
@@ -353,7 +353,7 @@ SaffronGymGuideText:
 	cont "ist, nicht wahr?"
 
 	para "Ich erwarte"
-	line "Großes von dir!"
+	line "Großes von Dir!"
 
 	para "Viel Glück!"
 	done

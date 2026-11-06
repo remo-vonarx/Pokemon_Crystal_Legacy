@@ -52,9 +52,9 @@ Route32Pokecenter1FFishingGuruText_Question:
 	line "beim Angeln"
 
 	para "gesehen? Wie"
-	line "steht es mit dir?"
+	line "steht es mit Dir?"
 
-	para "Hättest du gerne"
+	para "Hättest Du gerne"
 	line "eine ANGEL"
 	cont "von mir?"
 	done
@@ -63,7 +63,7 @@ Route32Pokecenter1FFishingGuruText_Yes:
 	text "He! Das höre ich"
 	line "wirklich gerne!"
 
-	para "Jetzt bist du"
+	para "Jetzt bist Du"
 	line "auch ein Angler!"
 	done
 
@@ -73,11 +73,11 @@ Route32Pokecenter1FFishingGuruText_GiveOldRod:
 	para "Probiere überall,"
 	line "wo Wasser ist,"
 
-	para "deine ANGEL aus;"
+	para "Deine ANGEL aus;"
 	line "sei es am Meer"
 
 	para "oder an einem"
-	line "Fluss."
+	line "Fluß."
 	done
 
 Route32Pokecenter1FFishingGuruText_No:

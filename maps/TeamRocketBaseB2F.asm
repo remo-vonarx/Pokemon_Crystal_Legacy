@@ -563,28 +563,28 @@ RocketBasePlayerLeavesElectrodesMovement3:
 
 RocketBaseExecutiveFHoldItText:
 	text "Bleib stehen, wo"
-	line "du bist!"
+	line "Du bist!"
 	done
 
 RocketBaseBossFThrashText:
 	text "Wir können es"
 	line "nicht zulassen,"
-	cont "dass ein Balg"
+	cont "daß ein Balg"
 	cont "hier herumläuft."
 
 	para "Das schadet"
 	line "TEAM ROCKETs"
 	cont "Stolz."
 
-	para "Wie stark du auch"
-	line "bist, du kannst"
+	para "Wie stark Du auch"
+	line "bist, Du kannst"
 
 	para "es nicht mit uns"
 	line "beiden aufnehmen."
 
 	para "Tut uns Leid,"
 	line "Winzling! Jetzt"
-	cont "wirst du zermalmt."
+	cont "wirst Du zermalmt."
 	done
 
 RocketBaseLanceShareFunText:
@@ -597,13 +597,13 @@ RocketBaseBossDontMeddleText:
 	text "Wie? Du hattest"
 	line "einen Komplizen?"
 
-	para "Wo ist dein"
+	para "Wo ist Dein"
 	line "Ehrgefühl?"
 
 	para "Ich, GIOVANNIs"
 	line "Stellvertreter,"
 
-	para "werde dir zeigen,"
+	para "werde Dir zeigen,"
 	line "was es bedeutet,"
 
 	para "sich mit TEAM"
@@ -611,16 +611,16 @@ RocketBaseBossDontMeddleText:
 	done
 
 RocketBaseBossWinText:
-	text "Ts, du bist"
+	text "Ts, Du bist"
 	line "wirklich gut."
 
 	para "So ein Mist."
 
-	para "Wenn du bei TEAM"
+	para "Wenn Du bei TEAM"
 	line "ROCKET einsteigen"
 
 	para "würdest, wärest"
-	line "du sofort im"
+	line "Du sofort im"
 	cont "VORSTAND."
 	done
 
@@ -641,13 +641,13 @@ RocketBaseBossRetreatText:
 	line "Ziele."
 
 	para "Schon bald wirst"
-	line "du die wahre Macht"
+	line "Du die wahre Macht"
 
 	para "von TEAM ROCKET"
 	line "würdigen."
 
-	para "Amüsiere dich,"
-	line "so lange du noch"
+	para "Amüsiere Dich,"
+	line "so lange Du noch"
 	cont "kannst…"
 
 	para "Fufufufu…"
@@ -672,7 +672,7 @@ RocketBaseLancePowerOffText:
 	text "Sorry, <PLAY_G>."
 	line "Ich habe beobach-"
 	cont "tet, wie geschickt"
-	cont "du bist. Daher"
+	cont "Du bist. Daher"
 	cont "habe ich mich"
 	cont "zurückgehalten."
 
@@ -732,7 +732,7 @@ RocketBaseLanceElectrodeDoneText:
 	cont "haben."
 
 	para "Du bist ein Held!"
-	line "Ich möchte dir im"
+	line "Ich möchte Dir im"
 
 	para "Namen aller"
 	line "#MON danken."
@@ -759,7 +759,7 @@ RocketBaseLanceWhirlpoolText:
 	line "reißende Strudel"
 	cont "zu durchqueren."
 
-	para "Aber vergiss"
+	para "Aber vergiß"
 	line "nicht:"
 
 	para "Du benötigst den"
@@ -782,7 +782,7 @@ RocketBaseLanceMonMasterText:
 	para "bis zum"
 	line "#MON-MEISTER."
 
-	para "Bist du bereit,"
+	para "Bist Du bereit,"
 	line "diesen Weg"
 	cont "zu beschreiten?"
 
@@ -791,22 +791,22 @@ RocketBaseLanceMonMasterText:
 	para "Ich verstehe. Du"
 	line "hast Recht."
 
-	para "Wenn du die Flinte"
+	para "Wenn Du die Flinte"
 	line "so schnell ins"
 
 	para "Korn wirfst,"
-	line "hattest du nie"
+	line "hattest Du nie"
 
 	para "vor, diesen Traum"
 	line "zu verwirklichen."
 
 	para "Ich freue mich"
-	line "darauf, dich"
+	line "darauf, Dich"
 	cont "wieder zu sehen!"
 	done
 
 LanceHealsText1:
-	text "SIEGFRIED: Bist du"
+	text "SIEGFRIED: Bist Du"
 	line "in Ordnung?"
 
 	para "Deine #MON sind"
@@ -821,7 +821,7 @@ LanceHealsText2:
 	text "SIEGFRIED:"
 	line "<PLAY_G>,"
 
-	para "lass uns für die"
+	para "laß uns für die"
 	line "#MON unser"
 
 	para "Bestes geben."
@@ -832,7 +832,7 @@ GruntM17SeenText:
 	line "sich nicht?"
 
 	para "Nun, oh."
-	line "Sie ist passwort-"
+	line "Sie ist paßwort-"
 	cont "geschützt. Nur"
 
 	para "TEAM ROCKET hat"
@@ -849,7 +849,7 @@ GruntM17AfterBattleText:
 	line "nur ein RÜPEL."
 
 	para "Ich kenne das"
-	line "Passwort nicht."
+	line "Paßwort nicht."
 	cont "Pech gehabt."
 	done
 
@@ -858,12 +858,12 @@ GruntM18SeenText:
 	line "mag das zwar"
 
 	para "nicht, aber ich"
-	line "muss dich aus-"
+	line "muß Dich aus-"
 	cont "schalten."
 	done
 
 GruntM18BeatenText:
-	text "Ich wusste, ich"
+	text "Ich wußte, ich"
 	line "würde verlieren…"
 	done
 
@@ -895,7 +895,7 @@ GruntM19BeatenText:
 
 GruntM19AfterBattleText:
 	text "Heh, nur der Boss"
-	line "kennt das Passwort"
+	line "kennt das Paßwort"
 	cont "für diese Tür."
 
 	para "Wo er ist?"
@@ -907,8 +907,8 @@ RocketBaseDoorNoPasswordText:
 	text "Die Tür ist"
 	line "verschlossen…"
 
-	para "Sie lässt sich nur"
-	line "mit einem Passwort"
+	para "Sie läßt sich nur"
+	line "mit einem Paßwort"
 	cont "öffnen."
 	done
 
@@ -917,7 +917,7 @@ RocketBaseDoorKnowPasswordText:
 	line "verschlossen…"
 
 	para "<PLAYER> gibt das"
-	line "Passwort ein."
+	line "Paßwort ein."
 
 	para "Die Tür ist"
 	line "entriegelt!"

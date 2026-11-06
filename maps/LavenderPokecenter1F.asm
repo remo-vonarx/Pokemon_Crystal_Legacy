@@ -50,10 +50,10 @@ LavenderPokecenter1FTeacherText:
 	cont "dien auf der #-"
 	cont "FLÖTE sendet."
 
-	para "Ach ja? Ah, dein"
+	para "Ach ja? Ah, Dein"
 	line "Radio braucht ein"
 	cont "ZUSATZSET, damit"
-	cont "du das empfangen"
+	cont "Du das empfangen"
 	cont "kannst."
 	done
 
@@ -65,7 +65,7 @@ LavenderPokecenter1FYoungsterText:
 	para "MAGNETZUG auch"
 	line "nicht…"
 
-	para "Das bedeutet, dass"
+	para "Das bedeutet, daß"
 	line "auch die RADIO-"
 	cont "STATION nicht"
 

@@ -192,7 +192,7 @@ ChucksWifeEasierToFlyText:
 	cont "nicht einfach."
 
 	para "Es wäre viel ein-"
-	line "facher, wenn deine"
+	line "facher, wenn Deine"
 
 	para "#MON FLIEGEN"
 	line "einsetzen könnten…"
@@ -203,12 +203,12 @@ ChucksWifeBeatChuckText:
 	line "dieser Stadt ist"
 	cont "FLIEGEN nutzlos."
 
-	para "Wenn du den ARENA-"
+	para "Wenn Du den ARENA-"
 	line "LEITER geschlagen"
 	cont "hast, besuche mich"
 	cont "wieder."
 
-	para "Ich werde dir dann"
+	para "Ich werde Dir dann"
 	line "ein Geschenk über-"
 	cont "reichen."
 	done
@@ -218,26 +218,26 @@ ChucksWifeGiveHMText:
 	line "der PKMN-ARENA von"
 	cont "ANEMONIA CITY!"
 
-	para "Dann soll dir"
+	para "Dann soll Dir"
 	line "diese VM gehören."
 	done
 
 ChucksWifeFlySpeechText:
-	text "Bring deinen #-"
+	text "Bring Deinen #-"
 	line "MON FLIEGEN bei."
 
 	para "Du kannst dann so-"
 	line "fort in jede Stadt"
 
-	para "FLIEGEN, die du"
+	para "FLIEGEN, die Du"
 	line "bereits besucht"
 	cont "hast."
 	done
 
 ChucksWifeChubbyText:
 	text "Mein Mann hat ge-"
-	line "gen dich verloren."
-	cont "Also muss er här-"
+	line "gen Dich verloren."
+	cont "Also muß er här-"
 	cont "ter trainieren."
 
 	para "Das ist auch gut"
@@ -247,8 +247,8 @@ ChucksWifeChubbyText:
 	done
 
 CianwoodCityYoungsterText:
-	text "Setzt du FLIEGEN"
-	line "ein, kannst du di-"
+	text "Setzt Du FLIEGEN"
+	line "ein, kannst Du di-"
 	cont "rekt von hier aus"
 	cont "nach OLIVIANA CITY"
 	cont "reisen."
@@ -261,7 +261,7 @@ CianwoodCityPokefanMText:
 	cont "tert werden."
 
 	para "Vielleicht findest"
-	line "du etwas unter"
+	line "Du etwas unter"
 	cont "ihnen."
 
 	para "Deine #MON"
@@ -286,7 +286,7 @@ CianwoodCityUnusedText:
 	cont "hier und OLIVIANA"
 	cont "CITY."
 
-	para "Man sagt, dass"
+	para "Man sagt, daß"
 	line "dort ein my-"
 	cont "thisches Wesen"
 	cont "leben soll."
@@ -332,12 +332,12 @@ EusineSuicuneText:
 	line "zu verdienen!"
 
 	para "Auf, <PLAYER>."
-	line "Lass uns kämpfen!"
+	line "Laß uns kämpfen!"
 	done
 
 EusineBeatenText:
 	text "Ich hasse es, das"
-	line "zuzugeben, aber du"
+	line "zuzugeben, aber Du"
 	cont "hast gewonnen."
 	done
 
@@ -345,7 +345,7 @@ EusineAfterText:
 	text "Du bist Wahnsinn,"
 	line "<PLAYER>!"
 
-	para "Darum sind dir"
+	para "Darum sind Dir"
 	line "#MON so"
 	cont "zugetan."
 
@@ -356,7 +356,7 @@ EusineAfterText:
 	cont "suchen."
 
 	para "Ich bin sicher,"
-	line "dass ich ihm eines"
+	line "daß ich ihm eines"
 	cont "Tages begegne."
 
 	para "Man sieht sich!"
@@ -397,7 +397,7 @@ CianwoodPhotoStudioSignText:
 	line "ANEMONIA CITY"
 
 	para "Machen Sie einen"
-	line "Schnappschuss zur"
+	line "Schnappschuß zur"
 	cont "Erinnerung!"
 	done
 

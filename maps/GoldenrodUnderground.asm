@@ -433,20 +433,20 @@ SupernerdEricBeatenText:
 	done
 
 SupernerdEricAfterBattleText:
-	text "Ich glaube, dass"
+	text "Ich glaube, daß"
 	line "ich lieber fair"
 	cont "spielen sollte…"
 	done
 
 SupernerdTeruSeenText:
-	text "Beschränkst du"
-	line "dich beim Kämpfen"
+	text "Beschränkst Du"
+	line "Dich beim Kämpfen"
 	cont "nur auf einen Typ?"
 
-	para "Wenn du die Stär-"
-	line "ken deiner Typen"
+	para "Wenn Du die Stär-"
+	line "ken Deiner Typen"
 
-	para "kennst, hast du im"
+	para "kennst, hast Du im"
 	line "Kampf Vorteile."
 	done
 
@@ -470,7 +470,7 @@ PokemaniacIssacSeenText:
 	line "kommen gerade vom"
 	cont "Coiffeur!"
 
-	para "Ich zeige dir, wie"
+	para "Ich zeige Dir, wie"
 	line "stark sie sind!"
 	done
 
@@ -480,14 +480,14 @@ PokemaniacIssacBeatenText:
 
 PokemaniacIssacAfterBattleText:
 	text "Deine #MON"
-	line "mögen dich mehr,"
+	line "mögen Dich mehr,"
 
-	para "wenn du sie zum"
+	para "wenn Du sie zum"
 	line "Coiffeur bringst."
 	done
 
 PokemaniacDonaldSeenText:
-	text "Ich glaube, du"
+	text "Ich glaube, Du"
 	line "besitzt seltene"
 	cont "#MON."
 
@@ -501,16 +501,16 @@ PokemaniacDonaldBeatenText:
 	done
 
 PokemaniacDonaldAfterBattleText:
-	text "Erstellst du einen"
+	text "Erstellst Du einen"
 	line "#DEX? Ich habe"
 	cont "einen heißen"
-	cont "Tipp für dich."
+	cont "Tipp für Dich."
 
 	para "WANDERER TOM auf"
 	line "ROUTE 33 ist sehr"
 	cont "freundlich."
 
-	para "Er ruft dich an,"
+	para "Er ruft Dich an,"
 	line "wenn er seltene"
 	cont "#MON sieht."
 	done
@@ -543,7 +543,7 @@ GoldenrodUndergroundOlderHaircutBrotherOfferHaircutText:
 	cont "BRÜDER."
 
 	para "Ich verleihe"
-	line "deinen #MON ein"
+	line "Deinen #MON ein"
 	cont "schöneres Äußeres"
 	cont "für nur ¥500."
 
@@ -595,7 +595,7 @@ GoldenrodUndergroundYoungerHaircutBrotherOfferHaircutText:
 	cont "BRÜDER."
 
 	para "Ich verschönere"
-	line "deine #MON"
+	line "Deine #MON"
 	cont "für nur ¥300."
 
 	para "Also? Wie wär's?"

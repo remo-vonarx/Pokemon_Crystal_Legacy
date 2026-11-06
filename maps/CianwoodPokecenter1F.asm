@@ -36,7 +36,7 @@ CianwoodPokecenter1FSuperNerdScript:
 	jumptextfaceplayer CianwoodPokecenter1FSuperNerdText
 
 CianwoodPokecenter1FLassText:
-	text "Hast du schon den"
+	text "Hast Du schon den"
 	line "#MANIAC getrof-"
 	cont "fen?"
 
@@ -59,11 +59,11 @@ CianwoodGymGuideText:
 	para "Ein Tipp: Der LEI-"
 	line "TER setzt gerne"
 
-	para "Kampf-#MON"
+	para "KAMPF-#MON"
 	line "ein."
 
 	para "Du solltest ihn"
-	line "mit Psycho-#-"
+	line "mit PSYCHO-#-"
 	cont "MON überraschen."
 
 	para "Besiege seine"
@@ -79,11 +79,11 @@ CianwoodGymGuideText:
 	para "Räume sie aus dem"
 	line "Weg, denn sonst"
 
-	para "wirst du den"
+	para "wirst Du den"
 	line "ARENALEITER nie"
 	cont "erreichen."
 
-	para "Hast du dich ver-"
+	para "Hast Du Dich ver-"
 	line "schoben, verlasse"
 	cont "die PKMN-ARENA."
 	done
@@ -91,16 +91,16 @@ CianwoodGymGuideText:
 CianwoodGymGuideWinText:
 	text "<PLAYER>! Du hast"
 	line "gewonnen! Das habe"
-	cont "ich dir gleich an-"
+	cont "ich Dir gleich an-"
 	cont "gesehen!"
 	done
 
 CianwoodPokecenter1FUnusedText1: ; unreferenced
-	text "Überkommt dich"
+	text "Überkommt Dich"
 	line "manchmal auch das"
 
-	para "Verlangen, deine"
-	line "#MON deinen"
+	para "Verlangen, Deine"
+	line "#MON Deinen"
 
 	para "Freunden zeigen zu"
 	line "müssen?"

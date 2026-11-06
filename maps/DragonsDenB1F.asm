@@ -227,8 +227,8 @@ ClairText_DescribeDragonbreathDragonDen:
 	line "nichts mit meinem"
 	cont "Atem zu tun."
 
-	para "Wenn du sie nicht"
-	line "möchtest, musst du"
+	para "Wenn Du sie nicht"
+	line "möchtest, mußt Du"
 	cont "sie nicht nehmen."
 	done
 
@@ -303,17 +303,17 @@ SilverText_Training1:
 
 	para "…Nein, ich"
 	line "möchte jetzt nicht"
-	cont "mit dir kämpfen…"
+	cont "mit Dir kämpfen…"
 
 	para "Meine #MON sind"
 	line "noch nicht bereit,"
-	cont "dich zu schlagen."
+	cont "Dich zu schlagen."
 
 	para "Ich darf sie nicht"
 	line "zu schroff"
 	cont "behandeln."
 
-	para "Ich muss diszipli-"
+	para "Ich muß diszipli-"
 	line "nierter sein, wenn"
 
 	para "ich der weltbeste"
@@ -326,16 +326,16 @@ SilverText_Training2:
 
 	para "Wow…"
 
-	para "Du musst lernen,"
+	para "Du mußt lernen,"
 	line "mir aus dem Weg"
 	cont "zu gehen…"
 	done
 
 CooltrainermDarinSeenText:
-	text "Du! Wie kannst du"
+	text "Du! Wie kannst Du"
 	line "es wagen! Niemand"
 
-	para "bat dich"
+	para "bat Dich"
 	line "einzutreten!"
 	done
 
@@ -377,7 +377,7 @@ CooltrainerfCaraAfterBattleText:
 	line "und verdiene mir"
 
 	para "die Anerkennung"
-	line "unseres MEISTERs."
+	line "unseres MEISTERS."
 	done
 
 TwinsLeaandpia1SeenText:
@@ -397,7 +397,7 @@ TwinsLeaandpia1AfterBattleText:
 	done
 
 TwinsLeaandpia2SeenText:
-	text "Wer bist du?"
+	text "Wer bist Du?"
 	done
 
 TwinsLeaandpia2BeatenText:
@@ -405,7 +405,7 @@ TwinsLeaandpia2BeatenText:
 	done
 
 TwinsLeaandpia2AfterBattleText:
-	text "Wir verraten dich."
+	text "Wir verraten Dich."
 
 	para "Der MEISTER wird"
 	line "erzürnt sein."

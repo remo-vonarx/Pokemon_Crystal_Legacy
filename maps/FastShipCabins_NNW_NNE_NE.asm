@@ -167,11 +167,11 @@ CooltrainerfCarolBeatenText:
 
 CooltrainerfCarolAfterBattleText:
 	text "Eines Tages werde"
-	line "ich dich besiegen!"
+	line "ich Dich besiegen!"
 	done
 
 PokemaniacEthanSeenText:
-	text "Kennst du LILLY?"
+	text "Kennst Du LILLY?"
 	line "Sie ist ein klasse"
 	cont "DJ in KANTO."
 	done
@@ -191,8 +191,8 @@ PokemaniacEthanAfterBattleText:
 	done
 
 HikerNolandSeenText:
-	text "Bist du allein?"
-	line "Lass uns kämpfen!"
+	text "Bist Du allein?"
+	line "Laß uns kämpfen!"
 	done
 
 HikerNolandBeatenText:
@@ -222,7 +222,7 @@ SailorStanlySeenText:
 	cont "gemacht!"
 
 	para "Was soll's!"
-	line "Lass uns kämpfen!"
+	line "Laß uns kämpfen!"
 	done
 
 SailorStanlyBeatenText:
@@ -231,7 +231,7 @@ SailorStanlyBeatenText:
 	done
 
 SailorStanlyAfterBattleText:
-	text "Als Matrose muss"
+	text "Als Matrose muß"
 	line "man körperlich"
 	cont "arbeiten. Das ist"
 	cont "sehr anstrengend!"
@@ -251,9 +251,9 @@ GentlemanEdwardBeatenText:
 
 GentlemanEdwardAfterBattleText:
 	text "Ich gebe auf. Du"
-	line "musst nicht danach"
+	line "mußt nicht danach"
 
-	para "suchen. Vergiss"
+	para "suchen. Vergiß"
 	line "es einfach!"
 	done
 
@@ -272,7 +272,7 @@ BurglarCoreyAfterBattleText:
 	line "eine tolle Münze"
 
 	para "gefunden. Jemand"
-	line "muss sie verloren"
+	line "muß sie verloren"
 	cont "haben…"
 	done
 

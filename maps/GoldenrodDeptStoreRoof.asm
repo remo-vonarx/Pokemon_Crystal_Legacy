@@ -105,7 +105,7 @@ GoldenrodDeptStoreRoofPokefanFText:
 
 GoldenrodDeptStoreRoofFisherText:
 	text "Bitte? Wer sagt,"
-	line "dass das nichts"
+	line "daß das nichts"
 	cont "für Erwachsene"
 	cont "ist?"
 
@@ -126,7 +126,7 @@ GoldenrodDeptStoreRoofSuperNerdOhWowText:
 	done
 
 GoldenrodDeptStoreRoofSuperNerdQuitBotheringMeText:
-	text "Hörst du auf, mich"
+	text "Hörst Du auf, mich"
 	line "zu belästigen?"
 	done
 
@@ -148,7 +148,7 @@ GoldenrodDeptStoreRoofTeacherText:
 	line "billig!"
 
 	para "Ich habe soviel"
-	line "gekauft, dass mein"
+	line "gekauft, daß mein"
 	cont "BEUTEL voll ist!"
 	done
 
@@ -183,7 +183,7 @@ Binoculars2Text:
 	line "Trainer kämpfen"
 	cont "auf dem Weg!"
 
-	para "Ein #MON schoss"
+	para "Ein #MON schoß"
 	line "mit Blättern!"
 
 	para "Wenn ich das sehe,"

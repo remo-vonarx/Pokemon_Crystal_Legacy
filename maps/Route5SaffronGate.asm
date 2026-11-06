@@ -13,7 +13,7 @@ Route5SaffronGateOfficerText:
 	text "Du kommst aus"
 	line "JOHTO, nicht wahr?"
 
-	para "Wie gefällt dir"
+	para "Wie gefällt Dir"
 	line "KANTO? Schön hier,"
 	cont "oder nicht?"
 	done

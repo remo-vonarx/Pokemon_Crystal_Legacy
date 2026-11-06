@@ -179,9 +179,9 @@ VioletCitySpinningEarl_MovementData:
 
 Text_EarlAsksIfYouBeatFalkner:
 	text "Allo!"
-	line "Bist du eine"
+	line "Bist Du eine"
 
-	para "Trainer? Ast du"
+	para "Trainer? Ast Du"
 	line "gewonnen in dem"
 
 	para "Kampf gegen den"
@@ -195,7 +195,7 @@ Text_VeryNiceIndeed:
 
 Text_FollowEarl:
 	text "Aja? Dann lernen"
-	line "sollst du!"
+	line "sollst Du!"
 	cont "Folge mir!"
 	done
 
@@ -253,7 +253,7 @@ VioletCityYoungsterText:
 	line "wackeligen Baum"
 	cont "gesehen!"
 
-	para "Wenn du ihn be-"
+	para "Wenn Du ihn be-"
 	line "rührst, windet er"
 	cont "sich und tanzt!"
 	cont "Cool!"

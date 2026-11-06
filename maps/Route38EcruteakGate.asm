@@ -10,18 +10,18 @@ Route38EcruteakGateOfficerScript:
 	jumptextfaceplayer Route38EcruteakGateOfficerText
 
 Route38EcruteakGateOfficerText:
-	text "Wo sagtest du,"
-	line "kommst du her?"
+	text "Wo sagtest Du,"
+	line "kommst Du her?"
 
 	para "NEUBORKIA?"
 
-	para "PROF. LIND wohnt"
+	para "PROF LIND wohnt"
 	line "dort,"
 	cont "nicht wahr?"
 
 	para "Du hast einen"
 	line "langen Weg auf"
-	cont "dich genommen, um"
+	cont "Dich genommen, um"
 	cont "hierher zu ge-"
 	cont "langen."
 	done

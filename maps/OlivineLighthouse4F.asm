@@ -30,7 +30,7 @@ TrainerSailorKent:
 	end
 
 SailorKentSeenText:
-	text "JASMIN muss krank"
+	text "JASMIN muß krank"
 	line "vor Sorge um das"
 	cont "#MON hier sein."
 
@@ -49,7 +49,7 @@ SailorKentAfterBattleText:
 	text "Apropos krank: Mir"
 	line "ist zu Ohren"
 
-	para "gekommen, dass es"
+	para "gekommen, daß es"
 	line "in ANEMONIA CITY"
 	cont "eine gute APOTHEKE"
 	cont "geben soll."
@@ -60,7 +60,7 @@ LassConnie1SeenText:
 	line "ARENALEITERIN in"
 	cont "dieser Stadt."
 
-	para "Ich möchte, dass"
+	para "Ich möchte, daß"
 	line "sie mit mir"
 	cont "zurückkommt."
 

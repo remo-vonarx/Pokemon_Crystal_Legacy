@@ -58,7 +58,7 @@ SwimmermSethAfterBattleText:
 
 SwimmerfNikkiSeenText:
 	text "Falls ich gewinne,"
-	line "musst du mich mit"
+	line "mußt Du mich mit"
 	cont "der Sonnencreme"
 	cont "einreiben!"
 	done
@@ -69,14 +69,14 @@ SwimmerfNikkiBeatenText:
 	done
 
 SwimmerfNikkiAfterBattleText:
-	text "Ich muss mich"
+	text "Ich muß mich"
 	line "vor Hautreizungen"
 	cont "in Acht nehmen."
 	done
 
 FisherArnoldSeenText:
 	text "Angeln langweilt"
-	line "mich. Lass uns"
+	line "mich. Laß uns"
 	cont "kämpfen!"
 	done
 

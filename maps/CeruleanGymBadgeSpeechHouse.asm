@@ -10,7 +10,7 @@ CeruleanGymBadgeSpeechHousePokefanMScript:
 	jumptextfaceplayer CeruleanGymBadgeSpeechHousePokefanMText
 
 CeruleanGymBadgeSpeechHousePokefanMText:
-	text "Sammelst du ORDEN"
+	text "Sammelst Du ORDEN"
 	line "der PKMN-ARENEN"
 	cont "von KANTO?"
 	done

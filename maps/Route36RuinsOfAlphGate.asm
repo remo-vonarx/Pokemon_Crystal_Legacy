@@ -14,14 +14,14 @@ Route36RuinsOfAlphGateGrampsScript:
 	jumptextfaceplayer Route36RuinsOfAlphGateGrampsText
 
 Route36RuinsOfAlphGateOfficerText:
-	text "Fragst du dich"
+	text "Fragst Du Dich"
 	line "nicht, wer so"
 	cont "etwas tun sollte"
 	cont "und warum?"
 	done
 
 Route36RuinsOfAlphGateGrampsText:
-	text "Hast du diesen"
+	text "Hast Du diesen"
 	line "merkwürdigen Baum"
 
 	para "auf der Straße"

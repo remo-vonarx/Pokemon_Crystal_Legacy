@@ -227,7 +227,7 @@ PokefanmDerekBeatenText:
 	done
 
 PokefanMDerekText_NotBragging:
-	text "Ich höre mir deine"
+	text "Ich höre mir Deine"
 	line "Prahlerei gar"
 	cont "nicht an!"
 
@@ -256,7 +256,7 @@ PokefanfRuthBeatenText:
 	done
 
 PokefanfRuthAfterBattleText:
-	text "Weißt du über"
+	text "Weißt Du über"
 	line "Baby-#MON"
 	cont "Bescheid?"
 
@@ -265,18 +265,18 @@ PokefanfRuthAfterBattleText:
 	done
 
 PokefanMDerekPikachuIsItText:
-	text "PIKACHU muss sein!"
-	line "Was meinst du?"
+	text "PIKACHU muß sein!"
+	line "Was meinst Du?"
 	done
 
 PsychicNormanSeenText:
 	text "Zeig doch mal, was"
-	line "deine #MON"
+	line "Deine #MON"
 	cont "drauf haben."
 	done
 
 PsychicNormanBeatenText:
-	text "He, deine #MON"
+	text "He, Deine #MON"
 	line "sind sehr fähig!"
 	done
 
@@ -360,7 +360,7 @@ Route39TrainerTipsText:
 
 	para "Benutze KOPFNUSS"
 	line "an jedem Baum, den"
-	cont "du siehst!"
+	cont "Du siehst!"
 	done
 
 Route39_MapEvents:

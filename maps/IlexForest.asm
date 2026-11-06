@@ -802,7 +802,7 @@ Text_CharcoalMasterIntro:
 	para "Danke!"
 
 	para "Wie kann ich"
-	line "dir danken…"
+	line "Dir danken…"
 
 	para "Ah genau! Nimm"
 	line "dies."
@@ -826,13 +826,13 @@ Text_CharcoalMasterOutro:
 	done
 
 Text_CharcoalMasterTalkAfter:
-	text "Soll ich dich"
+	text "Soll ich Dich"
 	line "lehren, wie man"
 
 	para "ein Köhler wird?"
 
 	para "In zehn Jahren"
-	line "wirst du ein"
+	line "wirst Du ein"
 	cont "Meister sein!"
 	done
 
@@ -868,7 +868,7 @@ IlexForestSignpostText:
 	text "Der STEINEICHEN-"
 	line "WALD ist so dicht,"
 
-	para "dass man den"
+	para "daß man den"
 	line "Himmel nicht sehen"
 	cont "kann."
 
@@ -900,7 +900,7 @@ Text_ShrineCelebiEvent:
 	line "scheint, als ob"
 
 	para "der GS-BALL genau"
-	line "hier hinein passt."
+	line "hier hinein paßt."
 
 	para "Den GS-BALL hier"
 	line "hineinlegen?"
@@ -933,7 +933,7 @@ Text_KurtCaughtCelebi:
 	done
 
 BugCatcherWayneSeenText:
-	text "Schleich dich"
+	text "Schleich Dich"
 	line "nicht an!"
 
 	para "Du hast ein"

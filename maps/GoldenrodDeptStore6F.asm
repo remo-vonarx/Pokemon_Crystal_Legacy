@@ -121,10 +121,10 @@ GoldenrodVendingNoSpaceText:
 	done
 
 GoldenrodDeptStore6FLassText:
-	text "Hörst du den"
+	text "Hörst Du den"
 	line "GLÜCKSKANAL?"
 
-	para "Möchtest du gewin-"
+	para "Möchtest Du gewin-"
 	line "nen, tausche #-"
 	cont "MON mit so vielen"
 
@@ -135,12 +135,12 @@ GoldenrodDeptStore6FLassText:
 	done
 
 GoldenrodDeptStore6FSuperNerdText:
-	text "Wenn du müde bist,"
-	line "dann hol dir ein"
+	text "Wenn Du müde bist,"
+	line "dann hol Dir ein"
 	cont "Getränk aus dem"
 	cont "Automaten."
 
-	para "Auch deine #MON"
+	para "Auch Deine #MON"
 	line "werden sie mögen."
 	done
 

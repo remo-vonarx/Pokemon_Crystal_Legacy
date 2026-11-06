@@ -280,7 +280,7 @@ JanineText_DisappointYou:
 	text "Hehehehe…"
 
 	para "Es tut mir Leid,"
-	line "dich enttäuschen"
+	line "Dich enttäuschen"
 	cont "zu müssen…"
 
 	para "Ich mache"
@@ -299,7 +299,7 @@ JanineText_ToughOne:
 	text "JANINA: Du bist"
 	line "recht stark. Ein"
 	cont "klarer Sieg für"
-	cont "dich…"
+	cont "Dich…"
 
 	para "Nimm jetzt den"
 	line "SEELENORDEN."
@@ -314,7 +314,7 @@ JanineText_ToxicSpeech:
 	text "JANINA: Du bist so"
 	line "stark! Ich habe"
 	cont "ein Geschenk für"
-	cont "dich!"
+	cont "Dich!"
 
 	para "Es ist TOXIN, ein"
 	line "sehr starkes Gift,"
@@ -333,7 +333,7 @@ JanineText_ApplyMyself:
 	cont "optimieren."
 
 	para "Ich möchte meinen"
-	line "Vater und dich"
+	line "Vater und Dich"
 	cont "übertreffen!"
 	done
 
@@ -376,12 +376,12 @@ LassAliceBeforeText:
 	done
 
 LassAliceBeatenText:
-	text "Ich habe dich"
+	text "Ich habe Dich"
 	line "reingelegt…"
 	done
 
 LassAliceAfterText:
-	text "Wie erkennst du"
+	text "Wie erkennst Du"
 	line "die Echte"
 	cont "ARENALEITERIN?"
 	done
@@ -406,8 +406,8 @@ LassLindaAfterText:
 PicnickerCindyBeforeText:
 	text "Ich bin JANINA!"
 
-	para "Woher wusstest du,"
-	line "dass ich die Echte"
+	para "Woher wußtest Du,"
+	line "daß ich die Echte"
 	cont "bin?"
 
 	para "Auf in den Kampf!"
@@ -419,7 +419,7 @@ PicnickerCindyBeatenText:
 	done
 
 PicnickerCindyAfterText:
-	text "Du musst langsam"
+	text "Du mußt langsam"
 	line "müde werden."
 	done
 
@@ -428,7 +428,7 @@ CamperBarryBeforeText:
 
 	para "Du kannst Gift"
 	line "darauf nehmen,"
-	cont "dass ich JANINA"
+	cont "daß ich JANINA"
 	cont "bin!"
 	done
 
@@ -447,7 +447,7 @@ FuchsiaGymGuideText:
 	text "He! Ein CHAMP"
 	line "in spe!"
 
-	para "Nanu! Sieh dich"
+	para "Nanu! Sieh Dich"
 	line "mal um. Alle"
 
 	para "Trainer sehen aus"

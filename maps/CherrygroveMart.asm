@@ -75,7 +75,7 @@ CherrygroveMartYoungsterText:
 
 	para "Du solltest stän-"
 	line "dig ein GEGENGIFT"
-	cont "mit dir führen."
+	cont "mit Dir führen."
 	done
 
 CherrygroveMart_MapEvents:

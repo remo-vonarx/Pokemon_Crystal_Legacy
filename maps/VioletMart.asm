@@ -21,7 +21,7 @@ VioletMartCooltrainerMScript:
 	jumptextfaceplayer VioletMartCooltrainerMText
 
 VioletMartGrannyText:
-	text "Fängst du ein"
+	text "Fängst Du ein"
 	line "#MON, ist es"
 	cont "vermutlich sehr"
 	cont "schwach."

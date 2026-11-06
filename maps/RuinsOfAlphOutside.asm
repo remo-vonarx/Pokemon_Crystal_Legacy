@@ -175,14 +175,14 @@ RuinsOfAlphOutsideScientistText:
 	cont "gibt es noch"
 	cont "viel mehr davon."
 
-	para "Ich weiß! Lass"
-	line "mich deinen #-"
+	para "Ich weiß! Laß"
+	line "mich Deinen #-"
 	cont "DEX erweitern."
 	cont "Mir nach!"
 	done
 
 SuperNerdStanSeenText:
-	text "Was willst du?"
+	text "Was willst Du?"
 	line "Ich lerne--"
 	cont "stör mich nicht!"
 	done

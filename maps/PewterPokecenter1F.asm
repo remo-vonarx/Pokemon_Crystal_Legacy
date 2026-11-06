@@ -47,7 +47,7 @@ PewterPokecenter1FTeacherText:
 
 	para "…Ja? Ich"
 	line "telefoniere!"
-	cont "Lass mich in Ruhe!"
+	cont "Laß mich in Ruhe!"
 	done
 
 PewterJigglypuffText:

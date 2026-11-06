@@ -128,14 +128,14 @@ CharcoalKilnApprenticeText1:
 
 CharcoalKilnApprenticeText2:
 	text "Es tut mir Leid."
-	line "Ich habe dir noch"
+	line "Ich habe Dir noch"
 	cont "nicht gedankt."
 
 	para "Das ist HOLZKOHLE,"
 	line "die ich selbst ge-"
 	cont "macht habe."
 
-	para "Feuer-#MON"
+	para "FEUER-#MON"
 	line "wären froh, so et-"
 	cont "was halten zu"
 	cont "dürfen."
@@ -143,7 +143,7 @@ CharcoalKilnApprenticeText2:
 
 CharcoalKilnApprenticeText3:
 	text "Die FLEGMON sind"
-	line "wieder da, und du"
+	line "wieder da, und Du"
 	cont "hast auch PORENTA"
 	cont "gefunden."
 

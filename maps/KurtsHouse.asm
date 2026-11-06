@@ -466,20 +466,20 @@ KurtsHouseKurtGetStartedText:
 	done
 
 KurtsHouseKurtMakingBallsMustWaitText:
-	text "Hm? Wer bist du?"
+	text "Hm? Wer bist Du?"
 
 	para "<PLAYER>, was? Du"
-	line "willst, dass ich"
+	line "willst, daß ich"
 	cont "ein paar BÄLLE"
 	cont "mache?"
 
 	para "Verzeih, aber das"
-	line "muss warten."
+	line "muß warten."
 
-	para "Kennst du TEAM"
+	para "Kennst Du TEAM"
 	line "ROCKET? Egal, ich"
 
-	para "erzähle dir ohne-"
+	para "erzähle Dir ohne-"
 	line "hin darüber."
 
 	para "TEAM ROCKET ist"
@@ -489,7 +489,7 @@ KurtsHouseKurtMakingBallsMustWaitText:
 	line "ihre Zwecke ein-"
 	cont "setzt."
 
-	para "Man sagt, dass sie"
+	para "Man sagt, daß sie"
 	line "sich vor drei Jah-"
 	cont "ren aufgelöst"
 	cont "haben."
@@ -516,18 +516,18 @@ KurtsHouseKurtMakingBallsMustWaitText:
 KurtsHouseKurtHonoredToMakeBallsText:
 	text "KURT: Hi, <PLAYER>!"
 
-	para "Du hast dich am"
+	para "Du hast Dich am"
 	line "BRUNNEN wie"
 	cont "ein wahrer Held"
 	cont "benommen."
 
-	para "Ich mag deinen"
+	para "Ich mag Deinen"
 	line "Stil!"
 
 	para "Es wäre mir eine"
 	line "Ehre, für einen"
 
-	para "Trainer wie dich"
+	para "Trainer wie Dich"
 	line "BÄLLE anzuferti-"
 	cont "gen."
 
@@ -550,7 +550,7 @@ KurtsHouseKurtBallsFromApricornsText:
 	done
 
 KurtsHouseKurtAskYouHaveAnApricornText:
-	text "KURT: Hast du eine"
+	text "KURT: Hast Du eine"
 	line "APRIKOKO für mich?"
 
 	para "Schön! Ich werde"
@@ -560,7 +560,7 @@ KurtsHouseKurtAskYouHaveAnApricornText:
 
 KurtsHouseKurtThatsALetdownText:
 	text "KURT: Oh…"
-	line "Du lässt mich im"
+	line "Du läßt mich im"
 	cont "Stich?"
 	done
 
@@ -573,7 +573,7 @@ KurtsHouseKurtJustFinishedYourBallText:
 	text "KURT: Ah, <PLAYER>!"
 	line "Ich bin gerade"
 	cont "fertig geworden."
-	cont "Hier hast du den"
+	cont "Hier hast Du den"
 	cont "BALL!"
 	done
 
@@ -608,7 +608,7 @@ KurtsHouseKurtWhatIsThatText:
 	cont "sein."
 
 	para "Ich überprüfe das"
-	line "für dich."
+	line "für Dich."
 	done
 
 KurtsHouseKurtImCheckingItNowText:
@@ -663,16 +663,16 @@ KurtsGranddaughterDadText:
 	cont "#BÄLLE analy-"
 	cont "siert."
 
-	para "Ich muss mit Groß-"
+	para "Ich muß mit Groß-"
 	line "vater und FLEGMON"
 	cont "zu Hause bleiben."
 	done
 
 KurtsGranddaughterHelpText:
-	text "Ich muss jetzt Opa"
+	text "Ich muß jetzt Opa"
 	line "helfen!"
 
-	para "Wir machen dir ei-"
+	para "Wir machen Dir ei-"
 	line "nen hervorragenden"
 	cont "BALL, warte mal!"
 	done

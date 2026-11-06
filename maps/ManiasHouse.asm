@@ -102,7 +102,7 @@ ManiaText_AskLookAfterShuckle:
 	text "Ich… ich bin"
 	line "schockiert!"
 
-	para "Ein Junge in dei-"
+	para "Ein Junge in Dei-"
 	line "nem Alter mit"
 
 	para "stechenden Augen"
@@ -121,16 +121,16 @@ ManiaText_AskLookAfterShuckle:
 	cont "kommt?"
 
 	para "Du siehst stark"
-	line "aus. Würdest du"
+	line "aus. Würdest Du"
 
 	para "auf mein #MON"
 	line "aufpassen?"
 	done
 
 ManiaText_TakeCareOfShuckle:
-	text "Oh, ich danke dir!"
+	text "Oh, ich danke Dir!"
 
-	para "Bitte pass gut da-"
+	para "Bitte paß gut da-"
 	line "rauf auf!"
 	done
 
@@ -141,7 +141,7 @@ ManiaText_GotShuckle:
 
 ManiaText_PartyFull:
 	text "Du hast keinen"
-	line "Platz mehr in dei-"
+	line "Platz mehr in Dei-"
 	cont "nem Team."
 	done
 
@@ -166,18 +166,18 @@ ManiaText_ThankYou:
 	done
 
 ManiaText_ShuckleNotThere:
-	text "Hey, du hast mein"
+	text "Hey, Du hast mein"
 	line "#MON gar nicht"
 	cont "dabei!"
 	done
 
 ManiaText_ShuckleLikesYou:
 	text "Mein #MON"
-	line "scheint dich zu"
+	line "scheint Dich zu"
 	cont "mögen."
 
 	para "Na gut, dann"
-	line "sollst du es be-"
+	line "sollst Du es be-"
 	cont "halten. Aber ver-"
 	cont "sprich mir, es gut"
 	cont "zu behandeln."
@@ -204,7 +204,7 @@ ManiaText_ShuckleIsYourLastMon:
 	text "Wenn ich mein"
 	line "#MON zurück-"
 	cont "nehme, wer soll"
-	cont "für dich kämpfen?"
+	cont "für Dich kämpfen?"
 	done
 
 ManiasHouse_MapEvents:

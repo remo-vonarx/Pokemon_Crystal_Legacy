@@ -43,7 +43,7 @@ Route16GateOfficerText:
 	cont "erfrischend."
 
 	para "Dieses Gefühl kann"
-	line "dir kein Schiff"
+	line "Dir kein Schiff"
 
 	para "oder Zug"
 	line "vermitteln."

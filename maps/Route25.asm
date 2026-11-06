@@ -241,14 +241,14 @@ Route25MistyLeavesMovement:
 
 Route25MistyDateText:
 	text "MISTY: Aww! Warum"
-	line "musst du jetzt"
+	line "mußt Du jetzt"
 
 	para "auftauchen und uns"
 	line "stören?"
 
-	para "Weißt du, wie"
+	para "Weißt Du, wie"
 	line "man Menschen wie"
-	cont "dich nennt?"
+	cont "Dich nennt?"
 
 	para "Plage! Du hast"
 	line "richtig gehört,"
@@ -257,19 +257,19 @@ Route25MistyDateText:
 	para "…"
 
 	para "…Oh? Die ORDEN,"
-	line "die du hast… Sind"
+	line "die Du hast… Sind"
 	cont "das ARENA-ORDEN"
 	cont "aus JOHTO?"
 
-	para "Wenn du acht hast,"
-	line "musst du gut sein."
+	para "Wenn Du acht hast,"
+	line "mußt Du gut sein."
 
 	para "O.K. Komm in die"
 	line "PKMN-ARENA von"
 	cont "AZURIA CITY."
 
 	para "Ich freue mich,"
-	line "gegen dich zu"
+	line "gegen Dich zu"
 	cont "kämpfen."
 
 	para "Ich bin MISTY, die"
@@ -279,11 +279,11 @@ Route25MistyDateText:
 
 SchoolboyDudleySeenText:
 	text "Besiege alle sechs"
-	line "Trainer und du"
+	line "Trainer und Du"
 	cont "erhältst einen"
 	cont "wunderbaren Preis!"
 
-	para "Glaubst du, du"
+	para "Glaubst Du, Du"
 	line "hast das Zeug"
 	cont "dazu?"
 	done
@@ -336,7 +336,7 @@ SchoolboyJoeAfterBattleText:
 
 LassLauraSeenText:
 	text "Der Vierte!"
-	line "Bist du müde?"
+	line "Bist Du müde?"
 	done
 
 LassLauraBeatenText:
@@ -353,7 +353,7 @@ LassLauraAfterBattleText:
 
 CamperLloydSeenText:
 	text "O.K.! Nummer 5."
-	line "Ich zermalme dich!"
+	line "Ich zermalme Dich!"
 	done
 
 CamperLloydBeatenText:
@@ -370,8 +370,8 @@ CamperLloydAfterBattleText:
 LassShannonSeenText:
 	text "Ich bin der"
 	line "Letzte, aber ich"
-	cont "sage dir, ich bin"
-	cont "eine harte Nuss!"
+	cont "sage Dir, ich bin"
+	cont "eine harte Nuß!"
 	done
 
 LassShannonBeatenText:
@@ -393,16 +393,16 @@ SupernerdPatSeenText:
 	cont "nichts zu tun."
 
 	para "Ich habe hier auf"
-	line "dich gewartet, um"
+	line "Dich gewartet, um"
 
-	para "dich zu besiegen,"
-	line "da du nach den"
+	para "Dich zu besiegen,"
+	line "da Du nach den"
 	cont "vielen Kämpfen"
-	cont "müde sein musst."
+	cont "müde sein mußt."
 	done
 
 SupernerdPatBeatenText:
-	text "Bist du überhaupt"
+	text "Bist Du überhaupt"
 	line "nicht müde?"
 	done
 
@@ -415,10 +415,10 @@ SupernerdPatAfterBattleText:
 CooltrainermKevinNuggetText:
 	text "Du hast einen"
 	line "Kampf mehr be-"
-	cont "stritten, als du"
+	cont "stritten, als Du"
 
 	para "erwartet hast."
-	line "Dennoch hast du"
+	line "Dennoch hast Du"
 	cont "gewonnen."
 
 	para "Wie versprochen,"
@@ -430,12 +430,12 @@ CooltrainermKevinSeenText:
 	text "Nachdem ich ge-"
 	line "sehen habe, wie"
 
-	para "du kämpfst, möchte"
+	para "Du kämpfst, möchte"
 	line "ich sehen, wie es"
 	cont "mir ergeht."
 
 	para "Wie sieht's aus?"
-	line "Ich fordere dich"
+	line "Ich fordere Dich"
 	cont "heraus."
 	done
 
@@ -449,7 +449,7 @@ CooltrainermKevinAfterBattleText:
 	text "Der Kampf war"
 	line "großartig!"
 
-	para "Du und deine #-"
+	para "Du und Deine #-"
 	line "MON seid ein"
 	cont "perfektes Team!"
 	done

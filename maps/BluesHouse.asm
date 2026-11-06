@@ -70,10 +70,10 @@ DaisyHelloText:
 	para "ARENALEITER in"
 	line "VERTANIA CITY."
 
-	para "Aber er verlässt"
+	para "Aber er verläßt"
 	line "die Stadt so oft,"
 
-	para "dass die Trainer"
+	para "daß die Trainer"
 	line "Schwierigkeiten"
 	cont "bekommen."
 	done
@@ -84,16 +84,16 @@ DaisyOfferGroomingText:
 	cont "gerade dabei, Tee"
 	cont "zu machen."
 
-	para "Hättest du auch"
+	para "Hättest Du auch"
 	line "gern eine"
 	cont "Tasse Tee?"
 
-	para "Oh, deine #MON"
-	line "sehen ein bisschen"
+	para "Oh, Deine #MON"
+	line "sehen ein bißchen"
 	cont "mitgenommen aus."
 
-	para "Möchtest du, dass"
-	line "ich eines für dich"
+	para "Möchtest Du, daß"
+	line "ich eines für Dich"
 	cont "verschönere?"
 	done
 
@@ -120,7 +120,7 @@ DaisyAllDoneText:
 	text "SARAH: Hier bitte."
 	line "Schon fertig."
 
-	para "Siehst du? Ist es"
+	para "Siehst Du? Ist es"
 	line "jetzt nicht"
 	cont "wunderschön?"
 
@@ -133,13 +133,13 @@ DaisyAlreadyGroomedText:
 	line "Zeit trinke ich"
 
 	para "immer meinen Tee."
-	line "Möchtest du auch"
+	line "Möchtest Du auch"
 	cont "eine Tasse Tee?"
 	done
 
 DaisyRefusedText:
-	text "SARAH: Möchtest du"
-	line "keines deiner"
+	text "SARAH: Möchtest Du"
+	line "keines Deiner"
 
 	para "#MON ver-"
 	line "schönern lassen?"

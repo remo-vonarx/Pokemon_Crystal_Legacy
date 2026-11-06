@@ -55,7 +55,7 @@ GoldenrodBikeShopClerkIntroText:
 	para "verkaufen. Warum"
 	line "nur?"
 
-	para "Würdest du ein"
+	para "Würdest Du ein"
 	line "FAHRRAD fahren und"
 	cont "so Werbung machen?"
 	done
@@ -66,7 +66,7 @@ GoldenrodBikeShopClerkAgreedText:
 	para "Gib mir bitte"
 	line "Namen und Nummer."
 
-	para "Dann leihe ich dir"
+	para "Dann leihe ich Dir"
 	line "ein FAHRRAD."
 	done
 

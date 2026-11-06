@@ -86,13 +86,13 @@ OaksLabPC:
 
 OakWelcomeKantoText:
 	text "EICH: <PLAY_G>!"
-	line "Schön, dass du"
+	line "Schön, daß Du"
 
 	para "den weiten Weg"
 	line "nach KANTO gemacht"
 	cont "hast."
 
-	para "Was hältst du von"
+	para "Was hältst Du von"
 	line "den Trainern hier"
 
 	para "draußen?"
@@ -109,7 +109,7 @@ OakLabDexCheckText:
 	done
 
 OakLabGoodbyeText:
-	text "Wenn du mal wieder"
+	text "Wenn Du mal wieder"
 	line "in der Gegend"
 	cont "bist, dann schau"
 	cont "doch wieder rein."
@@ -206,37 +206,37 @@ OakNoKantoBadgesText:
 	line "in JOHTO."
 
 	para "Ich schlage vor,"
-	line "du forderst sie"
+	line "Du forderst sie"
 	cont "heraus."
 	done
 
 OakYesKantoBadgesText:
-	text "EICH: Ah, du"
+	text "EICH: Ah, Du"
 	line "sammelst ORDEN der"
 	cont "ARENALEITER von"
 	cont "KANTO."
 
 	para "Ich kann mir"
-	line "vorstellen, dass"
+	line "vorstellen, daß"
 
-	para "es schwer für dich"
-	line "ist, aber du"
+	para "es schwer für Dich"
+	line "ist, aber Du"
 	cont "sammelst wertvolle"
 	cont "Erfahrungen."
 
 	para "Besuche mich"
-	line "wieder, wenn du"
+	line "wieder, wenn Du"
 
 	para "sie alle hast."
-	line "Ich gebe dir dann"
+	line "Ich gebe Dir dann"
 	cont "ein Geschenk."
 
-	para "Streng dich weiter"
+	para "Streng Dich weiter"
 	line "so an, <PLAYER>!"
 	done
 
 OaksAssistant1Text:
-	text "PROF. EICHs #-"
+	text "PROF EICHs #-"
 	line "MON-TALK wird in"
 
 	para "KANTO nicht im"
@@ -249,8 +249,8 @@ OaksAssistant1Text:
 
 OaksAssistant2Text:
 	text "Die Forschungen"
-	line "des PROFESSORs"
-	cont "kommen dank deiner"
+	line "des PROFESSORS"
+	cont "kommen dank Deiner"
 
 	para "Arbeit am #DEX"
 	line "sehr gut voran."
@@ -258,7 +258,7 @@ OaksAssistant2Text:
 
 OaksAssistant3Text:
 	text "Erzähl es keinem,"
-	line "aber PROF. EICHs"
+	line "aber PROF EICHs"
 
 	para "#MON-TALK wird"
 	line "nicht live"
@@ -272,7 +272,7 @@ OaksLabPoster1Text:
 	done
 
 OaksLabPoster2Text:
-	text "Möchtest du deinen"
+	text "Möchtest Du Deinen"
 	line "Spielstand von"
 
 	para "Zeit zu Zeit"
@@ -295,13 +295,13 @@ OaksLabPCText:
 	para "Wie kommen Sie"
 	line "mit Ihren"
 	cont "Forschungen voran,"
-	cont "PROF. EICH?"
+	cont "PROF EICH?"
 
 	para "Nun, ich ackere"
 	line "weiter."
 
 	para "Ich habe Gerüchte"
-	line "gehört, dass"
+	line "gehört, daß"
 
 	para "sich <PLAY_G>"
 	line "einen Namen macht."
@@ -309,7 +309,7 @@ OaksLabPCText:
 	para "Es freut mich, das"
 	line "zu hören."
 
-	para "PROF. LIND in"
+	para "PROF LIND in"
 	line "NEUBORKIA"
 	done
 

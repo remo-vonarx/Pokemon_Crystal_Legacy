@@ -134,7 +134,7 @@ RuinsOfAlphAerodactylChamberAncientReplicaText:
 	done
 
 RuinsOfAlphAerodactylChamberDescriptionText:
-	text "Dieses Flug-#-"
+	text "Dieses FLUG-#-"
 	line "MON griff seine"
 
 	para "Beute mittels"

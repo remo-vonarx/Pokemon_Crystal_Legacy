@@ -157,7 +157,7 @@ PsychicGregSeenText:
 	cont "wenn sie"
 	cont "schlafen."
 
-	para "Ich werde dir zei-"
+	para "Ich werde Dir zei-"
 	line "gen, wie furcht-"
 	cont "erregend das ist!"
 	done
@@ -189,17 +189,17 @@ MeetSunnyText:
 
 SunnyGivesGiftText1:
 	text "Man hat mir auf-"
-	line "getragen, dir das"
+	line "getragen, Dir das"
 	cont "zu geben, wenn ich"
-	cont "dich treffe!"
+	cont "Dich treffe!"
 	done
 
 SunnyGivesGiftText2:
 	text "Mir wurde aufge-"
-	line "tragen, dir das"
+	line "tragen, Dir das"
 
 	para "zu überreichen,"
-	line "wenn ich dich"
+	line "wenn ich Dich"
 	cont "treffe!"
 	done
 

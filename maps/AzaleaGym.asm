@@ -209,7 +209,7 @@ BugsyText_ResearchIncomplete:
 	line "sind noch nicht"
 	cont "abgeschlossen."
 
-	para "O.K., du gewinnst."
+	para "O.K., Du gewinnst."
 	line "Nimm diesen ORDEN."
 	done
 
@@ -219,12 +219,12 @@ Text_ReceivedHiveBadge:
 	done
 
 BugsyText_HiveBadgeSpeech:
-	text "Kennst du die Vor-"
+	text "Kennst Du die Vor-"
 	line "züge des INSEKT-"
 	cont "ORDENs?"
 
 	para "Durch ihn gehor-"
-	line "chen dir #MON"
+	line "chen Dir #MON"
 	cont "bis zu Level 30."
 
 	para "Deine #MON"
@@ -258,7 +258,7 @@ BugsyText_FuryCutterSpeech:
 	done
 
 BugsyText_BugMonsAreDeep:
-	text "Käfer-#MON"
+	text "KÄFER-#MON"
 	line "sind ein weites"
 
 	para "Gebiet. Es gibt"
@@ -266,7 +266,7 @@ BugsyText_BugMonsAreDeep:
 	cont "nisse zu er-"
 	cont "gründen."
 
-	para "Studiere deine"
+	para "Studiere Deine"
 	line "Lieblinge gründ-"
 	cont "lich!"
 	done
@@ -302,11 +302,11 @@ Bugsy_RematchDefeatText:
 	done
 
 BugCatcherBennySeenText:
-	text "Käfer-#MON"
+	text "KÄFER-#MON"
 	line "entwickeln sich"
 
 	para "sehr früh. Das"
-	line "heißt, dass sie"
+	line "heißt, daß sie"
 
 	para "auch schnell stär-"
 	line "ker werden."
@@ -325,16 +325,16 @@ BugCatcherBennyAfterBattleText:
 	done
 
 BugCatcherAlSeenText:
-	text "Käfer-#MON"
+	text "KÄFER-#MON"
 	line "sind cool und"
 
 	para "tough! Ich beweise"
-	line "es dir!"
+	line "es Dir!"
 	done
 
 BugCatcherAlBeatenText:
 	text "Du hast bewiesen,"
-	line "wie tough du bist…"
+	line "wie tough Du bist…"
 	done
 
 BugCatcherAlAfterBattleText:
@@ -342,7 +342,7 @@ BugCatcherAlAfterBattleText:
 	line "aber die meisten"
 
 	para "Mädchen mögen kei-"
-	line "ne Käfer-#MON."
+	line "ne KÄFER-#MON."
 
 	para "Ich weiß nicht,"
 	line "wieso…"
@@ -351,7 +351,7 @@ BugCatcherAlAfterBattleText:
 BugCatcherJoshSeenText:
 	text "Du hast die FLEG-"
 	line "MON gerettet? Oh"
-	cont "Mann, bist du"
+	cont "Mann, bist Du"
 	cont "stark!"
 
 	para "Aber meine ausge-"
@@ -372,7 +372,7 @@ BugCatcherJoshAfterBattleText:
 
 TwinsAmyandmay1SeenText:
 	text "EVA: Hi! Forderst"
-	line "du den LEITER"
+	line "Du den LEITER"
 	cont "heraus? Unmöglich!"
 	done
 
@@ -472,7 +472,7 @@ AzaleaGymGuideWinText:
 	cont "lentierter, junger"
 	cont "Trainer."
 
-	para "Mit Leuten wie dir"
+	para "Mit Leuten wie Dir"
 	line "sieht die Zukunft"
 	cont "der #MON rosig"
 	cont "aus!"

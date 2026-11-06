@@ -162,7 +162,7 @@ Text_ClairIsOut:
 Text_ClairIsIn:
 	text "SANDRA, unsere"
 	line "ARENALEITERIN,"
-	cont "erwartet dich."
+	cont "erwartet Dich."
 
 	para "Für einen gewöhn-"
 	line "lichen Trainer"
@@ -195,7 +195,7 @@ BlackthornGrampsRefusesEntryText:
 	done
 
 BlackthornGrampsGrantsEntryText:
-	text "Wenn SANDRA es dir"
+	text "Wenn SANDRA es Dir"
 	line "gestattet, dann"
 
 	para "wird auch ihr Opa"
@@ -279,11 +279,11 @@ SantosNotSaturdayText:
 	done
 
 BlackthornCooltrainerF2Text:
-	text "Wow, du bist über"
+	text "Wow, Du bist über"
 	line "den EISPFAD gekom-"
 	cont "men?"
 
-	para "Du musst ein rich-"
+	para "Du mußt ein rich-"
 	line "tiger Heißsporn"
 	cont "sein!"
 	done

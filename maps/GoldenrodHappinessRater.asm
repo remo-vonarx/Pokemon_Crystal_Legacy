@@ -70,13 +70,13 @@ HappinessRatersHouseRadio:
 	jumpstd Radio2Script
 
 GoldenrodHappinessRaterTeacherText:
-	text "Behandelst du"
-	line "deine #MON gut,"
+	text "Behandelst Du"
+	line "Deine #MON gut,"
 
-	para "werden sie dich"
+	para "werden sie Dich"
 	line "regelrecht lieben."
 
-	para "Oh! Lass mich dein"
+	para "Oh! Laß mich Dein"
 	line "@"
 	text_ram wStringBuffer3
 	text " sehen…"
@@ -85,21 +85,21 @@ GoldenrodHappinessRaterTeacherText:
 GoldenrodHappinessRatingText_LovesYouALot:
 	text "Es sieht sehr"
 	line "glücklich aus! Es"
-	cont "muss dich sehr"
+	cont "muß Dich sehr"
 	cont "gern haben."
 	done
 
 GoldenrodHappinessRatingText_ReallyTrustsYou:
 	text "Ich habe den Ein-"
-	line "druck, dass es dir"
+	line "druck, daß es Dir"
 	cont "wirklich vertraut."
 	done
 
 GoldenrodHappinessRatingText_SortOfHappy:
 	text "Es verhält sich"
-	line "dir gegenüber sehr"
+	line "Dir gegenüber sehr"
 	cont "freundlich. Es"
-	cont "muss glücklich"
+	cont "muß glücklich"
 	cont "sein."
 	done
 
@@ -111,12 +111,12 @@ GoldenrodHappinessRatingText_NotUsedToYou:
 	text "Du solltest es"
 	line "besser behandeln."
 	cont "Es hat sich noch"
-	cont "nicht an dich ge-"
+	cont "nicht an Dich ge-"
 	cont "wöhnt."
 	done
 
 GoldenrodHappinessRatingText_LooksMean:
-	text "Es scheint dich"
+	text "Es scheint Dich"
 	line "gar nicht zu mö-"
 	cont "gen. Es sieht ge-"
 	cont "mein aus."

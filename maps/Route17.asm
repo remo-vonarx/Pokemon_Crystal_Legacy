@@ -66,18 +66,18 @@ Route17HiddenMaxElixer:
 	hiddenitem MAX_ELIXER, EVENT_ROUTE_17_HIDDEN_MAX_ELIXER
 
 BikerRileySeenText:
-	text "Heh, du! Bist"
-	line "du aus JOHTO?"
+	text "Heh, Du! Bist"
+	line "Du aus JOHTO?"
 	done
 
 BikerRileyBeatenText:
-	text "Boah, du legst"
+	text "Boah, Du legst"
 	line "aber los!"
 	done
 
 BikerRileyAfterBattleText:
 	text "Werd' nicht frech,"
-	line "du Null aus JOHTO!"
+	line "Du Null aus JOHTO!"
 	done
 
 BikerJoelSeenText:
@@ -86,7 +86,7 @@ BikerJoelSeenText:
 	done
 
 BikerJoelBeatenText:
-	text "Aber du siehst"
+	text "Aber Du siehst"
 	line "nicht nur cool"
 	cont "aus…"
 	done
@@ -98,7 +98,7 @@ BikerJoelAfterBattleText:
 	cont "ich nicht wirklich"
 	cont "cool."
 
-	para "Ich muss härter"
+	para "Ich muß härter"
 	line "trainieren…"
 	done
 

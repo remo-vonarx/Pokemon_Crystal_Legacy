@@ -182,14 +182,14 @@ Route46FruitTree2:
 
 HikerBaileySeenText:
 	text "Also gut! Ich"
-	line "zeige dir die"
+	line "zeige Dir die"
 	cont "Kraft von Berg-"
 	cont "#MON!"
 	done
 
 HikerBaileyBeatenText:
 	text "Gnade! Ich kenne"
-	line "jetzt deine Kraft!"
+	line "jetzt Deine Kraft!"
 	done
 
 HikerBaileyAfterBattleText:
@@ -203,7 +203,7 @@ CamperTedSeenText:
 	text "Ich trainiere auch"
 	line "#MON!"
 
-	para "Möchtest du gegen"
+	para "Möchtest Du gegen"
 	line "mich kämpfen?"
 	done
 
@@ -226,7 +226,7 @@ PicnickerErin1SeenText:
 	text "Ich trainiere auch"
 	line "#MON!"
 
-	para "Trittst du gegen"
+	para "Trittst Du gegen"
 	line "mich an?"
 	done
 
@@ -250,11 +250,11 @@ PicnickerErin2BeatenText:
 	text "Arg… Ständig"
 	line "verliere ich! Ich"
 
-	para "muss es noch"
+	para "muß es noch"
 	line "härter probieren!"
 
-	para "Egal, danke, dass"
-	line "du immer wieder"
+	para "Egal, danke, daß"
+	line "Du immer wieder"
 
 	para "gegen mich"
 	line "kämpfst. Hier ist"

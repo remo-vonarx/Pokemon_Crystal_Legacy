@@ -205,14 +205,14 @@ EcruteakGymGrampsSlowStepDownMovement:
 	step_end
 
 MortyIntroText:
-	text "Gut, dass du ge-"
+	text "Gut, daß Du ge-"
 	line "kommen bist."
 
 	para "Hier in TEAK CITY"
 	line "werden #MON"
 	cont "verehrt."
 
-	para "Man sagt, dass le-"
+	para "Man sagt, daß le-"
 	line "gendäre #MON"
 
 	para "nur wahrlich star-"
@@ -255,7 +255,7 @@ MortyWinLossText:
 	line "gut genug…"
 
 	para "Dieser ORDEN soll"
-	line "dir gehören."
+	line "Dir gehören."
 	done
 
 Text_ReceivedFogBadge:
@@ -267,7 +267,7 @@ MortyText_FogBadgeSpeech:
 	text "Durch den PHANTOM-"
 	line "ORDEN gehorchen"
 
-	para "dir #MON bis zu"
+	para "Dir #MON bis zu"
 	line "LV 50."
 
 	para "Außerdem können"
@@ -291,7 +291,7 @@ MortyText_ShadowBallSpeech:
 	cont "ZIAL-VERT."
 
 	para "Setze ihn ein,"
-	line "wenn er dir ge-"
+	line "wenn er Dir ge-"
 	cont "fällt."
 	done
 
@@ -299,7 +299,7 @@ MortyFightDoneText:
 	text "Ich verstehe…"
 
 	para "Deine Reise hat"
-	line "dich an die ent-"
+	line "Dich an die ent-"
 	cont "legensten Orte ge-"
 	cont "führt."
 
@@ -307,7 +307,7 @@ MortyFightDoneText:
 	line "gesehen als ich."
 
 	para "Dafür beneide ich"
-	line "dich…"
+	line "Dich…"
 	done
 
 MortyRematchText:
@@ -378,7 +378,7 @@ SageJeffreyAfterBattleText:
 	done
 
 SagePingSeenText:
-	text "Hältst du unseren"
+	text "Hältst Du unseren"
 	line "#MON stand?"
 	done
 
@@ -410,12 +410,12 @@ MediumMarthaAfterBattleText:
 	done
 
 MediumGraceSeenText:
-	text "Verwirrt dich un-"
+	text "Verwirrt Dich un-"
 	line "ser unsichtbarer"
 
 	para "Boden? Besiege"
 	line "mich und ich gebe"
-	cont "dir einen Tipp!"
+	cont "Dir einen Tipp!"
 	done
 
 MediumGraceBeatenText:
@@ -424,7 +424,7 @@ MediumGraceBeatenText:
 
 MediumGraceAfterBattleText:
 	text "Gut, ich verrate"
-	line "dir das Geheimnis"
+	line "Dir das Geheimnis"
 
 	para "des unsichtbaren"
 	line "Bodens."
@@ -471,7 +471,7 @@ EcruteakGymClosedText:
 	line "LEITER ist nicht"
 	cont "hier."
 
-	para "Du musst leider"
+	para "Du mußt leider"
 	line "wieder gehen."
 
 	para "Hohohoho."

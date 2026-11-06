@@ -139,15 +139,15 @@ MagikarpLengthRaterText_WorldsLargestMagikarp:
 	cont "größte KARPADOR"
 	cont "der Welt zu sehen!"
 
-	para "Hast du eine"
+	para "Hast Du eine"
 	line "ANGEL? Wenn ja,"
 	cont "dann hilf mir"
 	cont "bitte!"
 	done
 
 MagikarpLengthRaterText_YouHaveAMagikarp:
-	text "Ah, du hast ein"
-	line "KARPADOR! Lass uns"
+	text "Ah, Du hast ein"
+	line "KARPADOR! Laß uns"
 
 	para "sehen, wie groß"
 	line "das Kleine ist."
@@ -158,7 +158,7 @@ MagikarpLengthRaterText_Memento:
 	line "riesig!"
 
 	para "Ich ziehe meinen"
-	line "Hut vor dir!"
+	line "Hut vor Dir!"
 
 	para "Nimm das als An-"
 	line "denken!"

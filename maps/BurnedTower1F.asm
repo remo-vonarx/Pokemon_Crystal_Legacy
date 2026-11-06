@@ -172,7 +172,7 @@ BurnedTower1FEusineMovement:
 BurnedTowerSilver_BeforeText:
 	text "<……> <……> <……>"
 
-	para "…Oh, du bist es."
+	para "…Oh, Du bist es."
 
 	para "Ich suchte nach"
 	line "legendären #-"
@@ -190,7 +190,7 @@ BurnedTowerSilver_BeforeText:
 	cont "nichts."
 
 	para "Das ist alles"
-	line "deine Schuld!"
+	line "Deine Schuld!"
 	done
 
 BurnedTowerSilver_WinText:
@@ -227,14 +227,14 @@ BurnedTowerSilver_LossText:
 BurnedTowerSilver_AfterText2:
 	text "Humpf!"
 
-	para "Was hast du dir"
+	para "Was hast Du Dir"
 	line "dabei gedacht,"
 
 	para "einfach in ein"
 	line "Loch zu fallen?"
 	cont "Du Genie!"
 
-	para "Das geschieht dir"
+	para "Das geschieht Dir"
 	line "recht!"
 	done
 
@@ -247,13 +247,13 @@ BurnedTower1FEusineIntroText:
 	cont "#MON namens"
 	cont "SUICUNE."
 
-	para "Und wer bist du…?"
+	para "Und wer bist Du…?"
 
 	para "<PLAYER>? Schön,"
-	line "dich kennen"
+	line "Dich kennen"
 	cont "zu lernen!"
 
-	para "Ich hörte, dass"
+	para "Ich hörte, daß"
 	line "SUICUNE hier in"
 
 	para "der TURMRUINE ist,"
@@ -265,7 +265,7 @@ BurnedTower1FEusineIntroText:
 	done
 
 BurnedTower1FEusineText:
-	text "Ich hörte, dass"
+	text "Ich hörte, daß"
 	line "SUICUNE hier in"
 
 	para "der TURMRUINE ist,"
@@ -280,7 +280,7 @@ BurnedTower1FMortyText:
 	text "JENS: Der ARENA-"
 	line "LEITER von TEAK"
 
-	para "CITY, muss die"
+	para "CITY, muß die"
 	line "sogenannten"
 
 	para "legendären #MON"

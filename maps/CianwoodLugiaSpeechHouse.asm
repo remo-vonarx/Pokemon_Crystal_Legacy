@@ -24,32 +24,32 @@ CianwoodLugiaSpeechHouseTeacherText:
 	text "Du kommst von"
 	line "OLIVIANA CITY?"
 
-	para "Hast du auf dem"
+	para "Hast Du auf dem"
 	line "Weg hierher die"
 	cont "vier Inseln ge-"
 	cont "sehen?"
 
 	para "Ich habe gehört,"
-	line "dass sich dort ein"
+	line "daß sich dort ein"
 	cont "mythisches Wesen"
 	cont "verstecken soll."
 	done
 
 CianwoodLugiaSpeechHouseLassText:
 	text "Man sagt auch,"
-	line "dass man es nur"
+	line "daß man es nur"
 
 	para "sehen kann, wenn"
 	line "man einen SILBER-"
 	cont "FLÜGEL hat."
 
-	para "Er muss denselben"
+	para "Er muß denselben"
 	line "Geruch wie diese"
 	cont "Kreatur haben."
 	done
 
 CianwoodLugiaSpeechHouseTwinText:
-	text "Ich hörte, dass"
+	text "Ich hörte, daß"
 	line "die Strudel um die"
 
 	para "Inseln von der"

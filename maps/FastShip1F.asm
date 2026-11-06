@@ -226,10 +226,10 @@ FastShip1FSailor1Text_ToOlivine:
 	done
 
 FastShip1FSailor2Text_FirstTime:
-	text "Das ist deine"
+	text "Das ist Deine"
 	line "Kabine."
 
-	para "Wenn deine #MON"
+	para "Wenn Deine #MON"
 	line "verletzt sind,"
 
 	para "dann mach hier"
@@ -240,16 +240,16 @@ FastShip1FSailor2Text_FirstTime:
 	done
 
 FastShip1FSailor2Text:
-	text "Das ist deine"
+	text "Das ist Deine"
 	line "Kabine."
 
-	para "Du kannst deine"
+	para "Du kannst Deine"
 	line "#MON heilen,"
-	cont "indem du ein"
+	cont "indem Du ein"
 	cont "Nickerchen machst."
 
 	para "Das Schiff wird,"
-	line "während du"
+	line "während Du"
 	cont "schläfst, im Ziel-"
 	cont "hafen einlaufen."
 	done
@@ -274,7 +274,7 @@ FastShip1FGrandpaText:
 	line "klein. Sag mir"
 
 	para "bitte Bescheid,"
-	line "wenn du sie"
+	line "wenn Du sie"
 	cont "siehst!"
 	done
 

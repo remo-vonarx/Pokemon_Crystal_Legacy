@@ -161,9 +161,9 @@ Route40_StepUp4Movement: ; unreferenced
 	step_end
 
 SwimmermSimonSeenText:
-	text "Du musst dich erst"
+	text "Du mußt Dich erst"
 	line "aufwärmen, bevor"
-	cont "du schwimmen"
+	cont "Du schwimmen"
 	cont "gehst."
 
 	para "Das ist"
@@ -182,11 +182,11 @@ SwimmermSimonAfterBattleText:
 	done
 
 SwimmermRandallSeenText:
-	text "Heh, du bist jung"
+	text "Heh, Du bist jung"
 	line "und fit!"
 
 	para "Surfe nicht auf"
-	line "deinem #MON!"
+	line "Deinem #MON!"
 	cont "Schwimme!"
 	done
 
@@ -197,13 +197,13 @@ SwimmermRandallBeatenText:
 
 SwimmermRandallAfterBattleText:
 	text "Schwimmen hält"
-	line "deinen ganzen"
+	line "Deinen ganzen"
 	cont "Körper fit und"
 	cont "gesund."
 	done
 
 SwimmerfElaineSeenText:
-	text "Gehst du nach"
+	text "Gehst Du nach"
 	line "ANEMONIA CITY?"
 
 	para "Wie wäre es erst"
@@ -218,8 +218,8 @@ SwimmerfElaineBeatenText:
 
 SwimmerfElaineAfterBattleText:
 	text "Ich behaupte,"
-	line "dass ich besser"
-	cont "schwimme als du!"
+	line "daß ich besser"
+	cont "schwimme als Du!"
 	done
 
 SwimmerfPaulaSeenText:
@@ -288,25 +288,25 @@ Route40Lass2Text:
 	done
 
 Route40StandingYoungsterText:
-	text "Warst du schon am"
+	text "Warst Du schon am"
 	line "DUELLTURM?"
 
-	para "Ich denke, dass"
+	para "Ich denke, daß"
 	line "sich bereits viele"
 
 	para "starke Trainer"
 	line "dort versammeln."
 
-	para "Da du so viele"
+	para "Da Du so viele"
 	line "ORDEN besitzt,"
 
-	para "wirst du dich dort"
+	para "wirst Du Dich dort"
 	line "wacker schlagen."
 	done
 
 MeetMonicaText:
 	text "MONJA: Es freut"
-	line "mich, dich kennen"
+	line "mich, Dich kennen"
 
 	para "zu lernen. Ich bin"
 	line "MONJA von Montag."
@@ -316,7 +316,7 @@ MonicaGivesGiftText:
 	text "Als Zeichen"
 	line "unserer Freund-"
 	cont "schaft schenke ich"
-	cont "dir dies!"
+	cont "Dir dies!"
 	done
 
 MonicaGaveGiftText:
@@ -325,7 +325,7 @@ MonicaGaveGiftText:
 
 	para "Flug-Attacken."
 
-	para "Damit solltest du"
+	para "Damit solltest Du"
 	line "ein Vogel-#MON"
 	cont "ausstatten."
 	done
@@ -334,7 +334,7 @@ MonicaMondayText:
 	text "MONJA: Meine"
 	line "Geschwister"
 
-	para "findest du"
+	para "findest Du"
 	line "überall."
 
 	para "Du solltest sie"

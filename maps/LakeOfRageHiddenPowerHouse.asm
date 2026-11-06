@@ -41,15 +41,15 @@ HiddenPowerGuyText1:
 	line "Kraft zum Leben"
 	cont "erwacht."
 
-	para "Lass mich meine"
-	line "Kraft mit deinen"
+	para "Laß mich meine"
+	line "Kraft mit Deinen"
 
 	para "#MON teilen."
 	line "Nimm dies, Kind."
 	done
 
 HiddenPowerGuyText2:
-	text "Siehst du? Das"
+	text "Siehst Du? Das"
 	line "ist KRAFTRESERVE!"
 
 	para "Sie bringt die"
@@ -57,7 +57,7 @@ HiddenPowerGuyText2:
 	cont "#MON zum"
 	cont "Vorschein."
 
-	para "Vergiss nicht: Typ"
+	para "Vergiß nicht: Typ"
 	line "und Stärke der At-"
 	cont "tacke hängen vom"
 	cont "jeweiligen #MON"

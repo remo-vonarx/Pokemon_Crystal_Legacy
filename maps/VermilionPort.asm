@@ -242,13 +242,13 @@ VermilionPortAskBoardingText:
 	line "dem SCHNELLBOOT"
 	cont "M.S. AQUA."
 
-	para "Trittst du heute"
-	line "deine Reise an?"
+	para "Trittst Du heute"
+	line "Deine Reise an?"
 	done
 
 VermilionPortAskTicketText:
 	text "Zeige mir bitte"
-	line "dein BOOTSTICKET!"
+	line "Dein BOOTSTICKET!"
 	done
 
 VermilionPortComeAgainText:

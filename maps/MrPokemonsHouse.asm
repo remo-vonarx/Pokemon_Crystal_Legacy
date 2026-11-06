@@ -178,16 +178,16 @@ MrPokemonsHouse_OakExits:
 	step_end
 
 MrPokemonIntroText1:
-	text "Hallo! Du musst"
+	text "Hallo! Du mußt"
 	line "<PLAY_G> sein."
 
-	para "PROF. LIND sagte,"
-	line "dass du vorbei-"
+	para "PROF LIND sagte,"
+	line "daß Du vorbei-"
 	cont "kommen würdest."
 	done
 
 MrPokemonIntroText2:
-	text "PROF. LIND soll"
+	text "PROF LIND soll"
 	line "das hier unter-"
 	cont "suchen."
 	done
@@ -207,14 +207,14 @@ MrPokemonIntroText3:
 	line "das EI."
 
 	para "Ich war derart"
-	line "fasziniert, dass"
-	cont "ich PROF. LIND ei-"
+	line "fasziniert, daß"
+	cont "ich PROF LIND ei-"
 	cont "ne E-Mail schrieb."
 
 	para "Was die Entwick-"
 	line "lung von #MON"
 	cont "betrifft, ist"
-	cont "PROF. LIND eine"
+	cont "PROF LIND eine"
 	cont "Kapazität."
 	done
 
@@ -225,19 +225,19 @@ MrPokemonExpShareText:
 	done
 
 MrPokemonIntroText4:
-	text "Sogar PROF. EICH"
+	text "Sogar PROF EICH"
 	line "schätzt ihn sehr."
 	done
 
 MrPokemonIntroText5:
 	text "Ich gehe davon"
-	line "aus, dass PROF."
+	line "aus, daß PROF."
 	cont "LIND mehr darüber"
 	cont "weiß."
 	done
 
 MrPokemonsHouse_MrPokemonHealText:
-	text "Kehrst du zu PROF."
+	text "Kehrst Du zu PROF."
 	line "LIND zurück?"
 
 	para "Dein #MON"
@@ -248,7 +248,7 @@ MrPokemonsHouse_MrPokemonHealText:
 	done
 
 MrPokemonText_ImDependingOnYou:
-	text "Ich bin auf dich"
+	text "Ich bin auf Dich"
 	line "angewiesen!"
 	done
 
@@ -351,12 +351,12 @@ MrPokemonsHouse_OakText2:
 	para "Ich bin schon zu"
 	line "lange hier."
 
-	para "Ich muss nach"
+	para "Ich muß nach"
 	line "DUKATIA CITY zu"
 	cont "meiner Radioshow."
 
 	para "<PLAYER>, ich"
-	line "zähle auf dich!"
+	line "zähle auf Dich!"
 	done
 
 MrPokemonText_GimmeTheScale:
@@ -366,15 +366,15 @@ MrPokemonText_GimmeTheScale:
 	cont "GARADOS?"
 
 	para "Das ist selten!"
-	line "Ich muss es haben…"
+	line "Ich muß es haben…"
 
 	para "<PLAY_G>, möchtest"
-	line "du es tauschen?"
+	line "Du es tauschen?"
 
-	para "Ich kann dir den"
+	para "Ich kann Dir den"
 	line "EP-TEILER, den mir"
 
-	para "PROF. EICH gegeben"
+	para "PROF EICH gegeben"
 	line "hat, anbieten."
 	done
 

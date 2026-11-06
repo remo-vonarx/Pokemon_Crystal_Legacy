@@ -200,21 +200,21 @@ VermilionCityBadgeGuySomeBadgesText:
 	line "der ARENEN in"
 	cont "KANTO?"
 
-	para "Findest du nicht"
-	line "auch, dass die"
+	para "Findest Du nicht"
+	line "auch, daß die"
 	cont "Trainer hier stark"
 	cont "sind?"
 	done
 
 VermilionCityBadgeGuyMostBadgesText:
-	text "Ich schätze, du"
+	text "Ich schätze, Du"
 	line "hast diesen Wett-"
 	cont "kampf der ARENEN"
 	cont "in KANTO bald"
 	cont "beendet."
 
-	para "Lass mich wissen,"
-	line "wenn du alle acht"
+	para "Laß mich wissen,"
+	line "wenn Du alle acht"
 	cont "ORDEN hast."
 	done
 
@@ -227,22 +227,22 @@ VermilionCityBadgeGuyAllBadgesText:
 
 	para "Ich habe hier eine"
 	line "Belohnung für"
-	cont "deine"
+	cont "Deine"
 	cont "Anstrengungen."
 	done
 
 VermilionCityBadgeGuyBattleEdgeText:
 	text "Es ist vorteil-"
-	line "haft, wenn du"
+	line "haft, wenn Du"
 
 	para "#MON verschie-"
 	line "dener Elemente"
-	cont "kämpfen lässt."
+	cont "kämpfen läßt."
 
 	para "Ich bin sicher,"
-	line "dass die ORDEN der"
+	line "daß die ORDEN der"
 	cont "ARENEN in KANTO"
-	cont "dir helfen werden."
+	cont "Dir helfen werden."
 	done
 
 VermilionCitySignText:

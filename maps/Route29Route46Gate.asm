@@ -29,10 +29,10 @@ Route29Route46GateYoungsterText:
 	line "#MON tauchen"
 	cont "hier auf."
 
-	para "Wenn du alle"
+	para "Wenn Du alle"
 	line "schnappen möch-"
-	cont "test, dann musst"
-	cont "du überall suchen."
+	cont "test, dann mußt"
+	cont "Du überall suchen."
 	done
 
 Route29Route46Gate_MapEvents:

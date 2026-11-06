@@ -38,7 +38,7 @@ EcruteakMartSuperNerdText:
 	done
 
 EcruteakMartGrannyText:
-	text "Setzt du BELEBER"
+	text "Setzt Du BELEBER"
 	line "ein, wacht ein be-"
 	cont "siegtes #MON"
 	cont "wieder auf."

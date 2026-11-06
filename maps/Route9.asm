@@ -109,7 +109,7 @@ CamperDeanAfterBattleText:
 	done
 
 PicnickerHeidiSeenText:
-	text "Warst du schon"
+	text "Warst Du schon"
 	line "beim Picknicken?"
 
 	para "Das macht großen"
@@ -130,14 +130,14 @@ PicnickerHeidiAfterBattleText:
 	done
 
 CamperSidSeenText:
-	text "Hey, du Lump!"
-	line "Wirf deinen Müll"
+	text "Hey, Du Lump!"
+	line "Wirf Deinen Müll"
 	cont "nicht hier hin!"
 	done
 
 CamperSidBeatenText:
 	text "Ich wollte nur"
-	line "klarstellen, dass…"
+	line "klarstellen, daß…"
 	done
 
 CamperSidAfterBattleText:
@@ -188,7 +188,7 @@ HikerTimAfterBattleText:
 	done
 
 HikerSidneySeenText:
-	text "Ich verrate dir"
+	text "Ich verrate Dir"
 	line "ein Geheimnis."
 
 	para "Aber zuerst müssen"
@@ -201,8 +201,8 @@ HikerSidneyBeatenText:
 	done
 
 HikerSidneyAfterBattleText:
-	text "Du musst einen"
-	line "kleinen Fluss"
+	text "Du mußt einen"
+	line "kleinen Fluß"
 	cont "durchqueren, um"
 	cont "zum KRAFTWERK"
 	cont "zu gelangen."

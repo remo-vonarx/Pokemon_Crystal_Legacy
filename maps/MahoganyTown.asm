@@ -143,16 +143,16 @@ MahoganyTownRageCandyBarMerchantReturnsMovement:
 RageCandyBarMerchantTryOneText:
 	text "Hi, Zwerg!"
 
-	para "Ich sehe, du bist"
+	para "Ich sehe, Du bist"
 	line "neu in MAHAGONIA."
 
-	para "Du musst unbedingt"
+	para "Du mußt unbedingt"
 	line "einen WUTKEKS"
 	cont "probieren!"
 
 	para "Ich habe einen da-"
 	line "bei. Für nur ¥300"
-	cont "gehört er dir."
+	cont "gehört er Dir."
 	done
 
 RageCandyBarMerchantSavorItText:
@@ -183,7 +183,7 @@ RageCandyBarMerchantSoldOutText:
 	done
 
 MahoganyTownGrampsText:
-	text "Hast du vor, die"
+	text "Hast Du vor, die"
 	line "GARADOS am SEE an-"
 	cont "zusehen?"
 	done
@@ -199,18 +199,18 @@ MahoganyTownGrampsText_ClearedRocketHideout:
 	done
 
 MahoganyTownFisherText:
-	text "Wenn du schon so"
+	text "Wenn Du schon so"
 	line "weit gekommen"
 
-	para "bist, solltest du"
-	line "dir die Zeit neh-"
+	para "bist, solltest Du"
+	line "Dir die Zeit neh-"
 	cont "men, um etwas"
 
 	para "Sightseeing zu un-"
 	line "ternehmen."
 
 	para "Geh nach Norden"
-	line "und sieh dir den"
+	line "und sieh Dir den"
 
 	para "SEE DES ZORNS an."
 	done
@@ -220,7 +220,7 @@ MahoganyTownLassText:
 	line "ters Laden. Sie"
 
 	para "verkauft Artikel,"
-	line "die du sonst nir-"
+	line "die Du sonst nir-"
 	cont "gends bekommen"
 	cont "kannst."
 	done

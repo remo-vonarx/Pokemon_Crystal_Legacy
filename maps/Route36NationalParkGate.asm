@@ -479,7 +479,7 @@ Route36NationalParkGateOfficer1AskToParticipateText:
 	text_ram wStringBuffer3
 	text "."
 
-	para "Das bedeutet, dass"
+	para "Das bedeutet, daß"
 	line "heute das Käfer-"
 	cont "turnier statt-"
 	cont "findet."
@@ -489,14 +489,14 @@ Route36NationalParkGateOfficer1AskToParticipateText:
 
 	para "Fange ein Käfer-"
 	line "#MON mit einem"
-	cont "deiner eigenen"
+	cont "Deiner eigenen"
 	cont "#MON."
 
-	para "Das Käfer-#MON"
+	para "Das KÄFER-#MON"
 	line "wird dann von der"
 	cont "Jury bewertet."
 
-	para "Möchtest du es"
+	para "Möchtest Du es"
 	line "einmal versuchen?"
 	done
 
@@ -513,26 +513,26 @@ Route36NationalParkGatePlayerReceivedParkBallsText:
 
 Route36NationalParkGateOfficer1ExplainsRulesText:
 	text "Wer das stärkste"
-	line "Käfer-#MON"
+	line "KÄFER-#MON"
 	cont "fängt, hat "
 	cont "gewonnen."
 
 	para "Du hast 20"
 	line "Minuten Zeit."
 
-	para "Wenn du keine"
+	para "Wenn Du keine"
 	line "PARKBÄLLE mehr"
 	cont "hast, ist das"
 	cont "Turnier beendet."
 
 	para "Du darfst das"
 	line "letzte #MON,"
-	cont "das du gefangen"
+	cont "das Du gefangen"
 	cont "hast, behalten."
 
 	para "Los! Fang das"
 	line "stärkste Käfer-"
-	cont "#MON, das du"
+	cont "#MON, das Du"
 	cont "finden kannst!"
 	done
 
@@ -542,22 +542,22 @@ Route36NationalParkGateOfficer1AskToUseFirstMonText:
 	para "Du hast mehr als"
 	line "ein #MON."
 
-	para "Du musst"
+	para "Du mußt"
 	line "@"
 	text_ram wStringBuffer3
 	text_start
 
-	para "auswählen - dein"
+	para "auswählen - Dein"
 	line "erstes #MON."
 
-	para "Bist du damit"
+	para "Bist Du damit"
 	line "einverstanden?"
 	done
 
 Route36NationalParkGateOfficer1WellHoldYourMonText:
 	text "Gut. Wir passen"
 	line "währenddessen auf"
-	cont "deine anderen"
+	cont "Deine anderen"
 	cont "#MON auf."
 	done
 
@@ -572,7 +572,7 @@ Route36NationalParkGateOfficer1ChooseMonAndComeBackText:
 	text "Wähle bitte das"
 	line "#MON, mit dem"
 
-	para "du im Turnier"
+	para "Du im Turnier"
 	line "antreten möchtest"
 	cont "aus und komm dann"
 	cont "wieder."
@@ -580,7 +580,7 @@ Route36NationalParkGateOfficer1ChooseMonAndComeBackText:
 
 Route36NationalParkGateOfficer1TakePartInFutureText:
 	text "Na gut. Wir"
-	line "hoffen, dass du"
+	line "hoffen, daß Du"
 	cont "später einmal"
 	cont "am Turnier teil-"
 	cont "nimmst."
@@ -590,7 +590,7 @@ Route36NationalParkGateOfficer1FirstMonCantBattleText:
 	text "Oh, oh…"
 	line "Das erste #MON"
 
-	para "deines Teams kann"
+	para "Deines Teams kann"
 	line "nicht am Turnier"
 	cont "teilnehmen."
 
@@ -608,18 +608,18 @@ Route36NationalParkGateOfficer1MakeRoomText:
 	text "Oh, oh…"
 	line "Dein Team und"
 
-	para "deine PC-BOX sind"
+	para "Deine PC-BOX sind"
 	line "voll besetzt."
 
 	para "Du kannst ein"
-	line "Käfer-#MON,"
-	cont "das du fängst,"
+	line "KÄFER-#MON,"
+	cont "das Du fängst,"
 	cont "nirgends ablegen."
 
 	para "Schaffe Platz in"
-	line "deinem Team oder"
+	line "Deinem Team oder"
 
-	para "in deiner PC-BOX"
+	para "in Deiner PC-BOX"
 	line "und komme dann"
 	cont "wieder."
 	done
@@ -629,7 +629,7 @@ Route36NationalParkGateOfficer1EggAsFirstMonText:
 	line "Ein EI ist an"
 
 	para "erster Stelle in"
-	line "deinem Team."
+	line "Deinem Team."
 
 	para "Tausche es bitte"
 	line "mit dem #MON"
@@ -647,7 +647,7 @@ Route36NationalParkGateOfficer1WantToFinishText:
 	text_start
 	line "Minute(n)."
 
-	para "Möchtest du jetzt"
+	para "Möchtest Du jetzt"
 	line "aufhören?"
 	done
 
@@ -671,7 +671,7 @@ Route36NationalParkGateOfficer1ContestIsOverText:
 	line "Turnier ist be-"
 	cont "endet. Wir hoffen,"
 
-	para "dass du wieder"
+	para "daß Du wieder"
 	line "daran teilnehmen"
 	cont "wirst."
 	done
@@ -683,7 +683,7 @@ Route36NationalParkGateOfficer1SomeMonOnlySeenInParkText:
 	done
 
 BugCatchingContestant1BText:
-	text "ULI: Wow, du hast"
+	text "ULI: Wow, Du hast"
 	line "mich besiegt! Du"
 	cont "bist sehr gut!"
 	done
@@ -700,7 +700,7 @@ BugCatchingContestant1BStillCompetingText:
 
 BugCatchingContestant2BText:
 	text "ALAN: Ich beneide"
-	line "dich. Dieses Mal"
+	line "Dich. Dieses Mal"
 	cont "habe ich es"
 	cont "einfach nicht"
 	cont "geschafft."
@@ -721,7 +721,7 @@ BugCatchingContestant3BText:
 
 BugCatchingContestant3BStillCompetingText:
 	text "LARS: Vielleicht"
-	line "erhältst du eine"
+	line "erhältst Du eine"
 
 	para "höhere Wertung für"
 	line "ein #MON mit"
@@ -732,7 +732,7 @@ BugCatchingContestant3BStillCompetingText:
 BugCatchingContestant4BText:
 	text "WILHELM: Du bist"
 	line "der Sieger? Was"
-	cont "hast du gefangen?"
+	cont "hast Du gefangen?"
 	done
 
 BugCatchingContestant4BStillCompetingText:
@@ -762,21 +762,21 @@ BugCatchingContestant5BStillCompetingText:
 
 BugCatchingContestant6BText:
 	text "TILL: Das #-"
-	line "MON, das du"
+	line "MON, das Du"
 	cont "gefangen hast…"
 	cont "Das ist cool!"
 	done
 
 BugCatchingContestant6BStillCompetingText:
 	text "TILL: Mit einem"
-	line "Käfer-#MON, das"
+	line "KÄFER-#MON, das"
 
 	para "einen hohen Level"
-	line "hat, steigen deine"
+	line "hat, steigen Deine"
 	cont "Gewinnchancen."
 
 	para "Ich glaube aber,"
-	line "dass auch noch"
+	line "daß auch noch"
 	cont "andere Kriterien"
 	cont "in die Bewertung"
 	cont "eingehen."
@@ -787,7 +787,7 @@ BugCatchingContestant7BText:
 	line "gewonnen? Das ist"
 	cont "großartig!"
 
-	para "Hättest du Lust,"
+	para "Hättest Du Lust,"
 	line "mit mir auf die"
 	cont "Suche nach Käfer-"
 	cont "#MON zu gehen?"
@@ -795,13 +795,13 @@ BugCatchingContestant7BText:
 
 BugCatchingContestant7BStillCompetingText:
 	text "CINDY: Ich liebe"
-	line "Käfer-#MON!"
+	line "KÄFER-#MON!"
 	done
 
 BugCatchingContestant8BText:
 	text "ENNO: Ich… ich"
 	line "glaube einfach"
-	cont "nicht, dass ich"
+	cont "nicht, daß ich"
 	cont "beim Käfer-"
 	cont "turnier verloren"
 	cont "habe…"
@@ -809,7 +809,7 @@ BugCatchingContestant8BText:
 
 BugCatchingContestant8BStillCompetingText:
 	text "ENNO: Ich hörte,"
-	line "dass jemand mit"
+	line "daß jemand mit"
 	cont "einem RAUPY"
 	cont "gewonnen hat!"
 	done
@@ -829,10 +829,10 @@ BugCatchingContestant9BStillCompetingText:
 
 BugCatchingContestant10BText:
 	text "MICHEL: Könntest"
-	line "du mir ein paar"
+	line "Du mir ein paar"
 
 	para "Tipps geben? Ich"
-	line "möchte deinen Stil"
+	line "möchte Deinen Stil"
 	cont "erlernen."
 	done
 
@@ -848,7 +848,7 @@ UnusedSilphScope2Text: ; unreferenced
 ; This text is referring to Sudowoodo.
 ; The SILPHSCOPE2 was later reworked into the SQUIRTBOTTLE.
 	text "Ich habe gehört,"
-	line "dass es ein #-"
+	line "daß es ein #-"
 	cont "MON gibt, das aus-"
 	cont "sieht wie ein"
 
@@ -875,7 +875,7 @@ UnusedBugCatchingContestExplanationText:
 	line "Teilnahme, sondern"
 
 	para "auch ein Käfer-"
-	line "#MON, das du"
+	line "#MON, das Du"
 	cont "dort fängst."
 	done
 
@@ -884,7 +884,7 @@ Route36NationalParkGateOfficer1WellHoldPrizeText:
 	line "BEUTEL ist voll."
 
 	para "Wir bewahren"
-	line "deinen Preis auf."
+	line "Deinen Preis auf."
 	cont "Aber nur heute."
 
 	para "Schaffe bitte"
@@ -897,7 +897,7 @@ Route36NationalParkGateOfficer1HeresThePrizeText:
 
 	para "Hier ist der"
 	line "Preis, den wir für"
-	cont "dich aufbewahrt"
+	cont "Dich aufbewahrt"
 	cont "haben."
 	done
 

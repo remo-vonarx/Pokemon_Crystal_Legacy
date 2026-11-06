@@ -114,7 +114,7 @@ RadioTower4FFisherText:
 
 RadioTower4FDJMaryText:
 	text "MARGIT: Warum?"
-	line "Warum muss ich"
+	line "Warum muß ich"
 	cont "das über mich"
 	cont "ergehen lassen?"
 
@@ -158,7 +158,7 @@ GruntM10SeenText:
 
 	para "Dies wird nicht"
 	line "möglich sein, da"
-	cont "ich dich besiege!"
+	cont "ich Dich besiege!"
 	done
 
 GruntM10BeatenText:
@@ -186,14 +186,14 @@ Executivem2BeatenText:
 	done
 
 Executivem2AfterBattleText:
-	text "Du hast dir meinen"
+	text "Du hast Dir meinen"
 	line "Respekt verdient."
 	cont "Hier ist ein Tipp"
-	cont "für dich."
+	cont "für Dich."
 
 	para "Es ist noch nicht"
 	line "zu spät. Noch"
-	cont "kannst du"
+	cont "kannst Du"
 	cont "umkehren."
 	done
 
@@ -206,7 +206,7 @@ GruntF4SeenText:
 	line "#MON sind"
 
 	para "niedlich - nachdem"
-	line "sie deine besiegt"
+	line "sie Deine besiegt"
 	cont "haben!"
 	done
 
@@ -240,7 +240,7 @@ ScientistRichBeatenText:
 	done
 
 ScientistRichAfterBattleText:
-	text "Glaubst du allen"
+	text "Glaubst Du allen"
 	line "Ernstes, TEAM"
 	cont "ROCKET aufhalten"
 	cont "zu können?"

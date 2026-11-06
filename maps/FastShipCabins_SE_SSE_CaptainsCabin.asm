@@ -239,8 +239,8 @@ SSAquaGrandpaApproachesPlayerMovement:
 	step_end
 
 SSAquaCaptainExhaustingText:
-	text "Wow! Danke, dass"
-	line "du mitgekommen"
+	text "Wow! Danke, daß"
+	line "Du mitgekommen"
 	cont "bist."
 
 	para "Es war sehr"
@@ -250,7 +250,7 @@ SSAquaCaptainExhaustingText:
 	done
 
 SSAquaCaptainHowDoYouLikeText:
-	text "Hat dir die Fahrt"
+	text "Hat Dir die Fahrt"
 	line "mit der M.S. AQUA"
 	cont "gefallen?"
 
@@ -281,17 +281,17 @@ SSAquaCantFindGranddaughterText:
 
 SSAquaEntertainedGranddaughterText:
 	text "<PLAY_G>, oder? Ich"
-	line "hörte, du hast"
+	line "hörte, Du hast"
 	cont "meine Enkelin bei"
 	cont "Laune gehalten."
 
-	para "Ich möchte dir"
+	para "Ich möchte Dir"
 	line "dafür danken."
 	done
 
 SSAquaGrandpaHaveThisText:
-	text "Ich möchte, dass"
-	line "du das nimmst!"
+	text "Ich möchte, daß"
+	line "Du das nimmst!"
 	done
 
 SSAquaGrandpaTravellingText:
@@ -301,7 +301,7 @@ SSAquaGrandpaTravellingText:
 
 SSAquaGranddaughterCaptainPlayWithMeText:
 	text "KAPITÄN, spielst"
-	line "du mit mir?"
+	line "Du mit mir?"
 
 	para "Mir ist langwei-"
 	line "lig! Ich möchte"
@@ -309,7 +309,7 @@ SSAquaGranddaughterCaptainPlayWithMeText:
 	done
 
 SSAquaGranddaughterHasToFindGrandpaText:
-	text "Hi! Willst du"
+	text "Hi! Willst Du"
 	line "mit mir"
 	cont "spielen?"
 
@@ -318,9 +318,9 @@ SSAquaGranddaughterHasToFindGrandpaText:
 	para "Opa sorgt sich"
 	line "um mich?"
 
-	para "Ich muss los!"
+	para "Ich muß los!"
 
-	para "Ich muss Opa"
+	para "Ich muß Opa"
 	line "finden!"
 	done
 
@@ -349,7 +349,7 @@ SSAquaGranddaughterHadFunText:
 
 PokefanmColinSeenText:
 	text "Hey, Winzling!"
-	line "Möchtest du gegen"
+	line "Möchtest Du gegen"
 	cont "mich antreten?"
 	done
 
@@ -361,7 +361,7 @@ PokefanmColinAfterBattleText:
 	text "Du reist ganz"
 	line "alleine?"
 
-	para "Ist deine Mutter"
+	para "Ist Deine Mutter"
 	line "nicht besorgt?"
 	done
 
@@ -421,7 +421,7 @@ PsychicRodneyAfterBattleText:
 	done
 
 PokefanmJeremySeenText:
-	text "Was denkst du?"
+	text "Was denkst Du?"
 	line "Meine #MON sind"
 	cont "doch schön, oder?"
 	done
@@ -432,7 +432,7 @@ PokefanmJeremyBeatenText:
 	done
 
 PokefanmJeremyAfterBattleText:
-	text "Ich muss in den"
+	text "Ich muß in den"
 	line "#MON-SALON, um"
 	cont "sie zurechtmachen"
 	cont "zu lassen!"
@@ -450,7 +450,7 @@ PokefanfGeorgiaBeatenText:
 	done
 
 PokefanfGeorgiaAfterBattleText:
-	text "Oh, ja! Ich muss"
+	text "Oh, ja! Ich muß"
 	line "meine #MON von"
 	cont "der PENSION"
 	cont "abholen!"
@@ -458,7 +458,7 @@ PokefanfGeorgiaAfterBattleText:
 
 SupernerdShawnSeenText:
 	text "Was für #-"
-	line "BÄLLE hast du"
+	line "BÄLLE hast Du"
 	cont "dabei?"
 	done
 
@@ -468,8 +468,8 @@ SupernerdShawnBeatenText:
 	done
 
 SupernerdShawnAfterBattleText:
-	text "Der BALL, den du"
-	line "einsetzt, muss zu"
+	text "Der BALL, den Du"
+	line "einsetzt, muß zu"
 	cont "der Situation"
 	cont "passen."
 	done

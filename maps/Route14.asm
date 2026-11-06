@@ -51,7 +51,7 @@ TrainerPokefanmTrevor:
 	end
 
 PokefanmCarterSeenText:
-	text "Eines kann ich dir"
+	text "Eines kann ich Dir"
 	line "sagen! Es war"
 
 	para "harte Arbeit, mei-"
@@ -91,16 +91,16 @@ BirdKeeperRoyAfterBattleText:
 	line "welche die VM"
 
 	para "FLIEGEN kennen?"
-	line "Ich beneide dich."
+	line "Ich beneide Dich."
 	done
 
 PokefanmTrevorSeenText:
-	text "Hi. Wusstest du…,"
+	text "Hi. Wußtest Du…,"
 
-	para "dass #MON dich"
+	para "daß #MON Dich"
 	line "mehr mögen, wenn"
 
-	para "du sie an einem"
+	para "Du sie an einem"
 	line "ihnen bekannten"
 	cont "Platz trainierst?"
 	done

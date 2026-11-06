@@ -238,7 +238,7 @@ OlivineCityStandingYoungsterPokegearText:
 	done
 
 OlivineCityStandingYoungsterPokedexText:
-	text "Wow, du hast einen"
+	text "Wow, Du hast einen"
 	line "#DEX!"
 
 	para "Das ist so toll!"

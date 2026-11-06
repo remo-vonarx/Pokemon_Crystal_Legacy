@@ -112,7 +112,7 @@ HallOfFame_LanceText:
 	cont "vereint!"
 
 	para "<PLAY_G>, darf ich"
-	line "dich und deine"
+	line "Dich und Deine"
 
 	para "Partner als"
 	line "CHAMPS"

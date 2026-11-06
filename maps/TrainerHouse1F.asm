@@ -82,11 +82,11 @@ TrainerHouse1FCooltrainerFText:
 	done
 
 TrainerHouse1FYoungsterText:
-	text "Ich nehme an, du"
+	text "Ich nehme an, Du"
 	line "kannst nur dann"
 
 	para "CHAMP werden, wenn"
-	line "du viel herum-"
+	line "Du viel herum-"
 	cont "kommst und so"
 
 	para "viele Kämpfe wie"

@@ -107,7 +107,7 @@ CarefulSwimmingSign:
 	jumptext CarefulSwimmingSignText
 
 SwimmermHaroldSeenText:
-	text "Warst du schon"
+	text "Warst Du schon"
 	line "einmal nachts im"
 	cont "Meer?"
 	done
@@ -121,7 +121,7 @@ SwimmermHaroldAfterBattleText:
 	line "Meer schwarz. Es"
 
 	para "scheint, als"
-	line "wollte es dich"
+	line "wollte es Dich"
 	cont "verschlingen."
 	done
 
@@ -150,7 +150,7 @@ SwimmerfDawnSeenText:
 	done
 
 SwimmerfDawnBeatenText:
-	text "Ich schlage dich"
+	text "Ich schlage Dich"
 	line "beim Schwimmen…"
 	done
 
@@ -198,11 +198,11 @@ Route19Fisher1Text:
 	cont "aufgrund von Bau-"
 	cont "arbeiten gesperrt."
 
-	para "Wenn du zu der"
+	para "Wenn Du zu der"
 	line "ZINNOBERINSEL"
 
 	para "möchtest, gehst"
-	line "du von ALABASTIA"
+	line "Du von ALABASTIA"
 	cont "gen Süden."
 	done
 
@@ -236,7 +236,7 @@ Route19SignText:
 
 CarefulSwimmingSignText:
 	text "Sei auf der Hut,"
-	line "wenn du zu den"
+	line "wenn Du zu den"
 	cont "SEESCHAUMINSELN"
 	cont "schwimmst."
 

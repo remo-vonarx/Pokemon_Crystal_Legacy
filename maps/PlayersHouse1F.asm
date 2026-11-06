@@ -289,10 +289,10 @@ CanRunText:
 	done
 
 HurryUpElmIsWaitingText:
-	text "PROF. LIND wartet"
-	line "auf dich."
+	text "PROF LIND wartet"
+	line "auf Dich."
 
-	para "Beeile dich, Baby!"
+	para "Beeile Dich, Baby!"
 	done
 
 SoWhatWasProfElmsErrandText:
@@ -306,18 +306,18 @@ SoWhatWasProfElmsErrandText:
 	line "einer wahren He-"
 	cont "rausforderung."
 
-	para "Aber du kannst"
+	para "Aber Du kannst"
 	line "stolz darauf sein,"
-	cont "dass sich die Leu-"
-	cont "te auf dich ver-"
+	cont "daß sich die Leu-"
+	cont "te auf Dich ver-"
 	cont "lassen!"
 	done
 
 ImBehindYouText:
-	text "<PLAYER>, du"
+	text "<PLAYER>, Du"
 	line "schaffst es!"
 
-	para "Ich werde dir"
+	para "Ich werde Dir"
 	line "immer zur Seite"
 	cont "stehen!"
 	done
@@ -343,7 +343,7 @@ NeighborNiteIntroText:
 
 NeighborText:
 	text "<PLAY_G>, hast"
-	line "du schon gehört?"
+	line "Du schon gehört?"
 
 	para "Meine Tochter will"
 	line "unbedingt PROF."

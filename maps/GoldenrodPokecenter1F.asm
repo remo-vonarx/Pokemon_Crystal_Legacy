@@ -348,7 +348,7 @@ GoldenrodPokecomCenterPerson2Text: ; unreferenced
 	done
 
 GoldenrodPokecomCenterPerson3Text: ; unreferenced
-	text "Sie sagen, dass"
+	text "Sie sagen, daß"
 	line "man dort sogar mit"
 
 	para "Fremden tauschen"
@@ -366,7 +366,7 @@ GoldenrodPokecomCenterPerson4Text: ; unreferenced
 	line "HOPPSPROSS."
 
 	para "Tausche #MON,"
-	line "die du möchtest."
+	line "die Du möchtest."
 	done
 
 GoldenrodPokecomCenterPerson5Text: ; unreferenced
@@ -439,10 +439,10 @@ GoldenrodPokecomCenterPerson11Text: ; unreferenced
 
 GoldenrodPokecenter1FGameboyKidText:
 	text "Im oberen Stock-"
-	line "werk findest du"
+	line "werk findest Du"
 
 	para "das KOLOSSEUM."
-	line "Hier kannst du"
+	line "Hier kannst Du"
 
 	para "gegen Freunde"
 	line "antreten."
@@ -462,7 +462,7 @@ GoldenrodPokecomCenterPerson12Text: ; unreferenced
 	line "hierher gekommen,"
 
 	para "als ich hörte,"
-	line "dass das #MON-"
+	line "daß das #MON-"
 	cont "CENTER in DUKATIA"
 
 	para "neue Maschinen"
@@ -486,7 +486,7 @@ GoldenrodPokecomCenterPerson13Text: ; unreferenced
 
 GoldenrodPokecenter1FLassText:
 	text "Ein starkes #-"
-	line "MON muss nicht"
+	line "MON muß nicht"
 	cont "zwingend gewinnen."
 
 	para "Meist entscheidet"
@@ -494,7 +494,7 @@ GoldenrodPokecenter1FLassText:
 	cont "Nachteil des Typs."
 
 	para "Ich glaube nicht,"
-	line "dass es ein #-"
+	line "daß es ein #-"
 	cont "MON gibt, das al-"
 	cont "len anderen über-"
 	cont "legen ist."
@@ -505,7 +505,7 @@ GoldenrodPokeCenter1FLinkReceptionistPleaseAcceptGSBallText:
 
 	para "Glückwunsch!"
 
-	para "Nur für dich wurde"
+	para "Nur für Dich wurde"
 	line "ein GS-BALL"
 	cont "geschickt!"
 
@@ -531,10 +531,10 @@ GoldenrodPokecomCenterNewsMachineNotYetText: ; unreferenced
 	done
 
 GoldenrodPokecenter1FPokefanFDoYouHaveEonMailText:
-	text "Oh, dein Beutel"
+	text "Oh, Dein Beutel"
 	line "sieht schwer aus!"
 
-	para "Oh! Hast du zufäl-"
+	para "Oh! Hast Du zufäl-"
 	line "lig etwas, das man"
 	cont "ANARA-BRIEF nennt?"
 
@@ -556,7 +556,7 @@ GoldenrodPokecenter1FPokefanFThisIsForYouText:
 
 	para "Hier, als Aus-"
 	line "gleich sollst"
-	cont "du das haben!"
+	cont "Du das haben!"
 	done
 
 GoldenrodPokecenter1FPokefanFDaughterWillBeDelightedText:

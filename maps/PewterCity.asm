@@ -67,7 +67,7 @@ PewterCityFruitTree2:
 	fruittree FRUITTREE_PEWTER_CITY_2
 
 PewterCityCooltrainerFText:
-	text "Warst du schon in"
+	text "Warst Du schon in"
 	line "der PKMN-ARENA von"
 	cont "MARMORIA CITY?"
 
@@ -86,7 +86,7 @@ PewterCityBugCatcherText:
 	done
 
 PewterCityGrampsText:
-	text "Oh, du bist den"
+	text "Oh, Du bist den"
 	line "ganzen Weg "
 	cont "von JOHTO bis"
 	cont "hierher gekommen?"
@@ -105,7 +105,7 @@ PewterCityGrampsText:
 	line "Mann."
 
 	para "Hier. Ich möchte,"
-	line "dass du dieses"
+	line "daß Du dieses"
 	cont "Item, das ich in"
 	cont "JOHTO fand,"
 	cont "behältst."

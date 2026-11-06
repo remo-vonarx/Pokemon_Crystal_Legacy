@@ -137,7 +137,7 @@ SaffronCityPokefanMText:
 	line "hergekommen?"
 
 	para "Wenn der MAGNETZUG"
-	line "läuft, bist du"
+	line "läuft, bist Du"
 	cont "ganz schnell"
 	cont "wieder zu Hause."
 	done
@@ -147,7 +147,7 @@ SaffronCityPokefanMText_ReturnedMachinePart:
 	line "JOHTO?"
 
 	para "Mit dem MAGNETZUG"
-	line "bist du ganz"
+	line "bist Du ganz"
 	cont "schnell wieder"
 	cont "zu Hause."
 	done
@@ -232,12 +232,12 @@ SaffronCityLass2Text:
 	line "wurde mal im Radio"
 	cont "berichtet."
 
-	para "Es ist schön, dass"
-	line "für deine Stadt"
+	para "Es ist schön, daß"
+	line "für Deine Stadt"
 
 	para "geworben wird,"
 	line "aber es ist auch"
-	cont "ein bisschen"
+	cont "ein bißchen"
 	cont "peinlich."
 	done
 
@@ -254,7 +254,7 @@ SaffronGymSignText:
 	cont "LEITUNG: SABRINA"
 
 	para "Die Meisterin der"
-	line "Psycho-#MON!"
+	line "PSYCHO-#MON!"
 	done
 
 FightingDojoSignText:

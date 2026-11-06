@@ -37,7 +37,7 @@ DayOfWeekSiblingsHousePokedexText2:
 	cont "dienen."
 
 	para "Wenn ein Trainer"
-	line "mit dir spricht,"
+	line "mit Dir spricht,"
 	cont "gib ihm etwas"
 	cont "Nützliches."
 

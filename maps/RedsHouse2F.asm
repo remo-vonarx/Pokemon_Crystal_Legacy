@@ -14,7 +14,7 @@ RedsHouse2FN64Text:
 	line "N64."
 
 	para "Mach besser"
-	line "weiter - du hast"
+	line "weiter - Du hast"
 	cont "keine Zeit zu"
 	cont "verlieren!"
 	done

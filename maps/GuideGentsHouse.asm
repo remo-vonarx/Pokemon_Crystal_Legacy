@@ -18,7 +18,7 @@ GuideGentsHouseGuideGentText:
 	cont "ein richtiger"
 	cont "Heißsporn!"
 
-	para "Ich gebe dir einen"
+	para "Ich gebe Dir einen"
 	line "Rat: Fange viele"
 	cont "#MON!"
 

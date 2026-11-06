@@ -46,22 +46,22 @@ OlivineLighthouse3FEther:
 	itemball ETHER
 
 BirdKeeperTheoSeenText:
-	text "Warum bist du"
-	line "gekommen? Bist du"
+	text "Warum bist Du"
+	line "gekommen? Bist Du"
 
 	para "zum Gaffen hier?"
-	line "Es ist besser, du"
+	line "Es ist besser, Du"
 	cont "gehst!"
 	done
 
 BirdKeeperTheoBeatenText:
-	text "Du sorgst dich"
+	text "Du sorgst Dich"
 	line "wirklich…"
 	done
 
 BirdKeeperTheoAfterBattleText:
 	text "Wie, zum Geier,"
-	line "bist du hier"
+	line "bist Du hier"
 	cont "hochgekommen?"
 
 	para "Ich möchte das"
@@ -75,7 +75,7 @@ BirdKeeperTheoAfterBattleText:
 SailorTerrellSeenText:
 	text "Matrosen sind"
 	line "nett und stark."
-	cont "Wie bist du?"
+	cont "Wie bist Du?"
 	done
 
 SailorTerrellBeatenText:
@@ -96,7 +96,7 @@ SailorTerrellAfterBattleText:
 	para "LEITERIN hat sich"
 	line "geändert, ohne"
 
-	para "dass ich es"
+	para "daß ich es"
 	line "bemerkte."
 	done
 
@@ -105,12 +105,12 @@ GentlemanPrestonSeenText:
 	line "Welt, um meine"
 	cont "#MON zu"
 	cont "trainieren. Ich"
-	cont "möchte mit dir"
+	cont "möchte mit Dir"
 	cont "kämpfen."
 	done
 
 GentlemanPrestonBeatenText:
-	text "…Seufz… Ich muss"
+	text "…Seufz… Ich muß"
 	line "mehr trainieren…"
 	done
 

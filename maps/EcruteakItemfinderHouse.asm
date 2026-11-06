@@ -56,8 +56,8 @@ ItemFinderHouseRadio:
 	jumpstd Radio2Script
 
 EcruteakItemfinderAdventureText:
-	text "Ah, suchst du mit"
-	line "deinen #MON"
+	text "Ah, suchst Du mit"
+	line "Deinen #MON"
 	cont "nach Abenteuern?"
 
 	para "Was wäre ein Aben-"
@@ -71,10 +71,10 @@ EcruteakItemfinderAdventureText:
 EcruteakItemfinderTrueSpiritText:
 	text "Gut! Du trägst den"
 	line "wahren Abenteurer-"
-	cont "geist in dir."
+	cont "geist in Dir."
 
 	para "Das mag ich! Nimm"
-	line "dies mit dir."
+	line "dies mit Dir."
 	done
 
 ItemfinderExplanationText:
@@ -92,13 +92,13 @@ ItemfinderExplanationText:
 	line "den."
 
 	para "Den exakten Fund-"
-	line "ort musst du aber"
+	line "ort mußt Du aber"
 
 	para "selbst herausfin-"
 	line "den."
 
 	para "Ich hörte auch,"
-	line "dass in der TURM-"
+	line "daß in der TURM-"
 	cont "RUINE von TEAK"
 
 	para "CITY Items zu fin-"

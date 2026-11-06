@@ -215,13 +215,13 @@ WhitneyBeforeText:
 	para "Jeder hat sich für"
 	line "#MON inte-"
 	cont "ressiert, also"
-	cont "musste ich mit-"
+	cont "mußte ich mit-"
 	cont "machen!"
 
 	para "#MON sind"
 	line "superniedlich!"
 
-	para "Willst du kämpfen?"
+	para "Willst Du kämpfen?"
 	line "Sei gewarnt, ich"
 	cont "bin gut!"
 	done
@@ -234,7 +234,7 @@ WhitneyShouldntBeSoSeriousText:
 
 	para "Du solltest nicht"
 	line "so ernst sein! Du,"
-	cont "du Kind, du!"
+	cont "Du Kind, Du!"
 	done
 
 WhitneyYouMeanieText:
@@ -250,7 +250,7 @@ WhitneyWhatDoYouWantText:
 	text "…Schnüff…"
 
 	para "Was? Was willst"
-	line "du? Einen ORDEN?"
+	line "Du? Einen ORDEN?"
 
 	para "Oh, stimmt, ich"
 	line "vergaß. Hier ist"
@@ -266,17 +266,17 @@ WhitneyPlainBadgeText:
 	text "Mit Hilfe des BA-"
 	line "SISORDENs können"
 
-	para "deine #MON"
+	para "Deine #MON"
 	line "STÄRKE auch außer-"
 	cont "halb eines Kampfes"
 	cont "einsetzen."
 
 	para "Außerdem erhöht er"
-	line "die INIT deiner"
+	line "die INIT Deiner"
 	cont "#MON."
 
 	para "Oh, das hier"
-	line "kannst du auch"
+	line "kannst Du auch"
 	cont "haben!"
 	done
 
@@ -288,7 +288,7 @@ WhitneyAttractText:
 	line "#MON voll zur"
 	cont "Geltung."
 
-	para "Passt das nicht"
+	para "Paßt das nicht"
 	line "perfekt zu einem"
 	cont "süßen Ding wie"
 	cont "mir?"
@@ -325,25 +325,25 @@ Whitney_RematchDefeatText:
 	done
 
 LassCarrieSeenText:
-	text "Lass dich nicht"
+	text "Laß Dich nicht"
 	line "von dem netten"
 
 	para "Äußeren meiner"
 	line "#MON täuschen."
 
-	para "Sie können dich"
+	para "Sie können Dich"
 	line "platt machen."
 	done
 
 LassCarrieBeatenText:
 	text "Verflixt… Ich"
-	line "dachte, du wärest"
+	line "dachte, Du wärest"
 	cont "schwach…"
 	done
 
 LassCarrieAfterBattleText:
 	text "Denken meine #-"
-	line "MON, dass ich"
+	line "MON, daß ich"
 	cont "niedlich bin?"
 	done
 
@@ -387,11 +387,11 @@ BridgetWhitneyCriesText:
 	done
 
 BeautyVictoriaSeenText:
-	text "Oh, du musst wohl"
+	text "Oh, Du mußt wohl"
 	line "noch etwas"
 
 	para "wachsen! Ich mag"
-	line "dich, aber ich"
+	line "Dich, aber ich"
 
 	para "werde mich nicht"
 	line "zurückhalten!"
@@ -403,8 +403,8 @@ BeautyVictoriaBeatenText:
 	done
 
 BeautyVictoriaAfterBattleText:
-	text "Wow, du musst gut"
-	line "sein, wenn du es"
+	text "Wow, Du mußt gut"
+	line "sein, wenn Du es"
 	cont "schaffst, mich zu"
 	cont "schlagen. Mach"
 	cont "weiter so!"

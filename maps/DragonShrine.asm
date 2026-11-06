@@ -396,25 +396,25 @@ DragonShrineClairWalkOutMovement:
 	step_end
 
 DragonShrineElderGreetingText:
-	text "Hm… Schön, dass"
-	line "du da bist."
+	text "Hm… Schön, daß"
+	line "Du da bist."
 
-	para "Du musst nicht er-"
-	line "klären, warum du"
+	para "Du mußt nicht er-"
+	line "klären, warum Du"
 	cont "hier bist."
 
-	para "SANDRA hat dich"
+	para "SANDRA hat Dich"
 	line "geschickt, oder?"
 
 	para "Sie ist ein"
 	line "wirklich…"
 
 	para "Tut mir Leid, aber"
-	line "ich muss dich"
+	line "ich muß Dich"
 	cont "prüfen."
 
-	para "Keine Angst, du"
-	line "musst nur einige"
+	para "Keine Angst, Du"
+	line "mußt nur einige"
 	cont "Fragen"
 	cont "beantworten."
 
@@ -422,19 +422,19 @@ DragonShrineElderGreetingText:
 	done
 
 DragonShrineQuestion1Text:
-	text "Was bedeuten dir"
+	text "Was bedeuten Dir"
 	line "#MON?"
 	done
 
 DragonShrineQuestion2Text:
-	text "Was hilft dir im"
+	text "Was hilft Dir im"
 	line "Kampf zu gewinnen?"
 	done
 
 DragonShrineQuestion3Text:
 	text "Gegen welche Art"
 	line "Trainer möchtest"
-	cont "du kämpfen?"
+	cont "Du kämpfen?"
 	done
 
 DragonShrineQuestion4Text:
@@ -454,7 +454,7 @@ DragonShrineQuestion5Text:
 DragonShrinePassedTestText:
 	text "Hm… Ich verstehe…"
 
-	para "Du kümmerst dich"
+	para "Du kümmerst Dich"
 	line "von Herzen um"
 	cont "#MON."
 
@@ -466,7 +466,7 @@ DragonShrinePassedTestText:
 	para "<PLAYER>, mach"
 	line "weiter so."
 
-	para "Ich treffe dich"
+	para "Ich treffe Dich"
 	line "dann bei der"
 	cont "#MON LIGA."
 	done
@@ -478,7 +478,7 @@ DragonShrineMustIInformLanceText:
 	line "tadellos, in Geist"
 	cont "und Talent!"
 
-	para "Gestehe deine"
+	para "Gestehe Deine"
 	line "Niederlage und"
 	cont "übergib den"
 	cont "DRACHENORDEN!"
@@ -494,24 +494,24 @@ DragonShrineElderScoldsClairText:
 	para "Dieses Kind spie-"
 	line "gelt das wider,"
 
-	para "was dir noch"
+	para "was Dir noch"
 	line "fehlt."
 	done
 
 DragonShrineComeAgainText:
 	text "Komme wieder, wenn"
-	line "du möchtest."
+	line "Du möchtest."
 	done
 
 DragonShrineTakeThisDratiniText:
-	text "Hm… Schön, dass du"
+	text "Hm… Schön, daß Du"
 	line "hier bist."
 
 	para "Du kommst zur"
 	line "richtigen Zeit."
 
 	para "Ich habe etwas für"
-	line "dich."
+	line "Dich."
 
 	para "Nimm dieses"
 	line "DRATINI als"
@@ -531,12 +531,12 @@ DragonShrinePartyFullText:
 	done
 
 DragonShrineSymbolicDragonText:
-	text "Drachen-#MON"
+	text "DRACHEN-#MON"
 	line "sind das Symbol"
 	cont "unseres Klans."
 
 	para "Du hast bewiesen,"
-	line "dass man dir eines"
+	line "daß man Dir eines"
 
 	para "anvertrauen kann."
 	done
@@ -545,16 +545,16 @@ DragonShrineClairsGrandfatherText:
 	text "SANDRA scheint"
 	line "eine wertvolle"
 
-	para "Lektion von dir"
+	para "Lektion von Dir"
 	line "gelernt zu haben."
 
 	para "Ich bin ihr Groß-"
 	line "vater und"
-	cont "danke dir dafür."
+	cont "danke Dir dafür."
 	done
 
 DragonShrineSilverIsInTrainingText:
-	text "Ein Junge deines"
+	text "Ein Junge Deines"
 	line "Alters trainiert"
 	cont "hier."
 
@@ -571,7 +571,7 @@ DragonShrineWrongAnswerText1:
 	done
 
 DragonShrineWrongAnswerText2:
-	text "Was hast du"
+	text "Was hast Du"
 	line "gesagt?"
 	done
 
@@ -585,14 +585,14 @@ DragonShrineElder2Text:
 
 	para "Trainer die Aner-"
 	line "kennung unseres"
-	cont "MEISTERs bekam."
+	cont "MEISTERS bekam."
 
 	para "Der letzte war"
 	line "Meister SIEGFRIED."
 	done
 
 DragonShrineElder3Text:
-	text "Kennst du den"
+	text "Kennst Du den"
 	line "jungen Meister"
 	cont "SIEGFRIED?"
 
@@ -608,7 +608,7 @@ DragonShrineClairYouPassedText:
 	text "Wie ist es"
 	line "gelaufen?"
 
-	para "Ich muss nicht"
+	para "Ich muß nicht"
 	line "danach fragen."
 
 	para "Du hast versagt?"
@@ -648,16 +648,16 @@ DragonShrinePlayerReceivedRisingBadgeText:
 
 DragonShrineRisingBadgeExplanationText:
 	text "Von nun an können"
-	line "deine #MON die"
+	line "Deine #MON die"
 
 	para "Fähigkeit KASKADE"
 	line "einsetzen."
 
 	para "Ferner werden"
-	line "dich alle #MON"
+	line "Dich alle #MON"
 
 	para "als Trainer"
-	line "anerkennen und dir"
+	line "anerkennen und Dir"
 
 	para "bedingungslos"
 	line "gehorchen."

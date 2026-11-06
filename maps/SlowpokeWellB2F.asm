@@ -32,7 +32,7 @@ SlowpokeWellB2FTMRainDance:
 
 SlowpokeWellB2FGymGuideText:
 	text "Ich warte darauf,"
-	line "dass sich FLEGMON"
+	line "daß sich FLEGMON"
 	cont "entwickelt."
 
 	para "Aufgrund meiner"
@@ -49,7 +49,7 @@ SlowpokeWellB2FGymGuideText:
 	cont "gebissen."
 
 	para "Hier, ich gebe"
-	line "dir einen von"
+	line "Dir einen von"
 	cont "meinen."
 	done
 

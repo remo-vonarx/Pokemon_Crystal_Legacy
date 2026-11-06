@@ -324,7 +324,7 @@ LanceGetPasswordText:
 	text "SIEGFRIED: Man"
 	line "benötigt zwei"
 
-	para "Passwörter, um Zu-"
+	para "Paßwörter, um Zu-"
 	line "tritt zum Quartier"
 	cont "des Bosses zu"
 	cont "bekommen."
@@ -339,7 +339,7 @@ LanceGetPasswordText:
 
 	para "<PLAY_G>, los!"
 	line "Holen wir uns"
-	cont "die Passwörter."
+	cont "die Paßwörter."
 	done
 
 TeamRocketBaseB3FRocketText:
@@ -439,20 +439,20 @@ ExecutiveM4AfterText:
 	text "Das darf mich"
 	line "nicht belasten."
 
-	para "Ich muss es den"
+	para "Ich muß es den"
 	line "anderen sagen…"
 	done
 
 RocketBaseMurkrowText:
 	text "KRAMURX: Das"
-	line "Passwort lautet…"
+	line "Paßwort lautet…"
 
 	para "PREISET GIOVANNI."
 	done
 
 GruntF5SeenText:
 	text "Ob ich das"
-	line "Passwort weiß?"
+	line "Paßwort weiß?"
 
 	para "Vielleicht."
 
@@ -464,20 +464,20 @@ GruntF5SeenText:
 GruntF5BeatenText:
 	text "O.K. Genug."
 	line "Ich verrate es"
-	cont "dir."
+	cont "Dir."
 	done
 
 GruntF5AfterBattleText:
-	text "Das Passwort zum"
+	text "Das Paßwort zum"
 	line "Büro vom Boss"
 	cont "lautet"
 
 	para "FLEGMONRUTE."
 
 	para "Es ist aber"
-	line "nutzlos, denn du"
+	line "nutzlos, denn Du"
 	cont "benötigst zwei"
-	cont "Passwörter."
+	cont "Paßwörter."
 	done
 
 GruntM28SeenText:
@@ -513,7 +513,7 @@ GruntM28BeatenText:
 GruntM28AfterBattleText:
 	text "Hiuck-hiuck-hiuck!"
 
-	para "Das Passwort für"
+	para "Das Paßwort für"
 	line "das Büro vom Boss…"
 
 	para "Uh… ich glaube,"
@@ -529,9 +529,9 @@ ScientistRossSeenText:
 	line "ich TEAM ROCKETs"
 	cont "Forschungen."
 
-	para "Ein Kind wie du,"
+	para "Ein Kind wie Du,"
 	line "das sich überall"
-	cont "einmischt, muss"
+	cont "einmischt, muß"
 	cont "bestraft werden."
 	done
 
@@ -551,7 +551,7 @@ ScientistRossAfterBattleText:
 	cont "Erfolg."
 
 	para "Meine Beförderung"
-	line "ist gewiss. Dieser"
+	line "ist gewiß. Dieser"
 
 	para "Verlust bedeutet"
 	line "nichts."
@@ -559,7 +559,7 @@ ScientistRossAfterBattleText:
 
 ScientistMitchSeenText:
 	text "Es ist mir egal,"
-	line "dass #MON bei"
+	line "daß #MON bei"
 	cont "unserem Experiment"
 	cont "Schmerzen"
 	cont "zugefügt werden."
@@ -588,7 +588,7 @@ TeamRocketBaseB3FLockedDoorNeedsPasswordText:
 	line "verschlossen…"
 
 	para "Zum Öffnen werden"
-	line "zwei Passwörter"
+	line "zwei Paßwörter"
 	cont "benötigt."
 	done
 
@@ -597,7 +597,7 @@ TeamRocketBaseB3FLockedDoorOpenSesameText:
 	line "verschlossen…"
 
 	para "<PLAYER> gibt beide"
-	line "Passwörter ein."
+	line "Paßwörter ein."
 
 	para "Die Tür wird"
 	line "entriegelt!"

@@ -131,7 +131,7 @@ _PasscodeSetText::
 	line "festgelegt."
 
 	para "Gib diese Nummer"
-	line "ein, wenn du den"
+	line "ein, wenn Du den"
 	cont "KARTENORDNER"
 	cont "öffnen möchtest."
 	done
@@ -161,7 +161,7 @@ _OakTimeWokeUpText::
 
 	para "Zzz… Hm? Was…?"
 	line "Du hast mich auf-"
-	cont "geweckt. Kannst du"
+	cont "geweckt. Kannst Du"
 
 	para "mir sagen, wie"
 	line "spät es ist?"
@@ -205,7 +205,7 @@ _OakTimeYikesText::
 
 _OakTimeSoDarkText::
 	text "!"
-	line "Kein Wunder, dass"
+	line "Kein Wunder, daß"
 	cont "es so dunkel ist!"
 	done
 
@@ -254,7 +254,7 @@ _CheckMobileAdapterText:: ; unreferenced
 ; Mobile Adapter End
 
 _ThePasswordIsText:: ; unreferenced
-	text "Das Passwort ist:"
+	text "Das Paßwort ist:"
 	done
 
 _IsThisOKText:: ; unreferenced
@@ -278,13 +278,13 @@ _NothingToChooseText::
 
 _WhichSidePutOnText::
 	text "Auf welcher Seite"
-	line "willst du sie"
+	line "willst Du sie"
 	cont "ablegen?"
 	done
 
 _WhichSidePutAwayText::
 	text "Welche Seite"
-	line "willst du ablegen?"
+	line "willst Du ablegen?"
 	done
 
 _PutAwayTheDecoText::
@@ -299,7 +299,7 @@ _NothingToPutAwayText::
 	prompt
 
 _SetUpTheDecoText::
-	text "Dekoriere dein"
+	text "Dekoriere Dein"
 	line "Zimmer mit"
 
 	para "@"
@@ -321,7 +321,7 @@ _PutAwayAndSetUpText::
 
 _AlreadySetUpText::
 	text "Das ist schon"
-	line "in deinem Zimmer."
+	line "in Deinem Zimmer."
 	prompt
 
 _LookTownMapText::
@@ -361,7 +361,7 @@ _LookGiantDecoText::
 
 _MomHiHowAreYouText::
 	text "Hi, <PLAYER>!"
-	line "Wie geht es dir?"
+	line "Wie geht es Dir?"
 	prompt
 
 _MomFoundAnItemText::
@@ -375,13 +375,13 @@ _MomBoughtWithYourMoneyText::
 	text "ich habe dieses"
 	line "dekorative Item"
 
-	para "von deinem Geld"
+	para "von Deinem Geld"
 	line "gekauft!"
 	prompt
 
 _MomItsInPCText::
-	text "Es ist in deinem"
-	line "PC. Es wird dir"
+	text "Es ist in Deinem"
+	line "PC. Es wird Dir"
 	cont "gefallen!"
 	done
 
@@ -393,7 +393,7 @@ _MomFoundADollText::
 	prompt
 
 _MomItsInYourRoomText::
-	text "Sie ist in deinem"
+	text "Sie ist in Deinem"
 	line "Zimmer. Du wirst"
 	cont "sie lieben!"
 	done
@@ -423,7 +423,7 @@ _MonNameBidsFarewellText::
 	done
 
 _TakeGoodCareOfMonText::
-	text "Kümmere dich um"
+	text "Kümmere Dich um"
 	line "@"
 	text_ram wOTTrademonSpeciesName
 	text "."
@@ -491,7 +491,7 @@ _MobilePlayersMonTradeText::
 	done
 
 _MobileTakeGoodCareOfMonText::
-	text "Kümmere dich um"
+	text "Kümmere Dich um"
 	line "@"
 	text_ram wOTTrademonSpeciesName
 	text "."
@@ -506,7 +506,7 @@ _MobilePlayersMonTrade2Text::
 	done
 
 _MobileTakeGoodCareOfText::
-	text "Kümmere dich um"
+	text "Kümmere Dich um"
 	line "@"
 	text_ram wOTTrademonSpeciesName
 	text "."
@@ -527,7 +527,7 @@ _OPT_IntroText1::
 
 _OPT_IntroText2::
 	text_start
-	line "PROF. EICHs"
+	line "PROF EICHs"
 	done
 
 _OPT_IntroText3::
@@ -779,7 +779,7 @@ _BenFernText2B::
 
 _BenFernText3A::
 	text_start
-	line "Entspann dich beim"
+	line "Entspann Dich beim"
 	done
 
 _BenFernText3B::
@@ -801,7 +801,7 @@ _LC_Text2::
 
 _LC_Text3::
 	text_start
-	line "geht es euch nun?"
+	line "geht es Euch nun?"
 	done
 
 _LC_Text4::
@@ -1016,7 +1016,7 @@ _RocketRadioText8::
 
 _RocketRadioText9::
 	text_start
-	line "du uns? Geschafft!"
+	line "Du uns? Geschafft!"
 	done
 
 _RocketRadioText10::
@@ -1040,7 +1040,7 @@ _BuenaRadioText2::
 
 _BuenaRadioText3::
 	text_start
-	line "Heutiges Passwort!"
+	line "Heutiges Paßwort!"
 	done
 
 _BuenaRadioText4::
@@ -1057,7 +1057,7 @@ _BuenaRadioText5::
 
 _BuenaRadioText6::
 	text_start
-	line "Vergesst es nicht!"
+	line "Vergeßt es nicht!"
 	done
 
 _BuenaRadioText7::
@@ -1082,7 +1082,7 @@ _BuenaRadioMidnightText3::
 
 _BuenaRadioMidnightText4::
 	text_start
-	line "Ich muss aufhören!"
+	line "Ich muß aufhören!"
 	done
 
 _BuenaRadioMidnightText5::
@@ -1112,7 +1112,7 @@ _BuenaRadioMidnightText9::
 
 _BuenaRadioMidnightText10::
 	text_start
-	line "Ich muss weg!"
+	line "Ich muß weg!"
 	done
 
 _BuenaOffTheAirText::
@@ -1179,7 +1179,7 @@ _ChangeWhichNumberText:: ; unreferenced
 	done
 
 _WillYouPlayWithMonText:: ; unreferenced
-	text "Möchtest du"
+	text "Möchtest Du"
 	line "@"
 	text_ram wStringBuffer2
 	text " einsetzen?"
@@ -1421,12 +1421,12 @@ _NPCTradeFanfareText::
 
 _NPCTradeIntroText1::
 	text "Ich sammle #-"
-	line "MON. Hast du ein"
+	line "MON. Hast Du ein"
 	cont "@"
 	text_ram wStringBuffer1
 	text "?"
 
-	para "Möchtest du es"
+	para "Möchtest Du es"
 	line "gegen mein"
 
 	para "@"
@@ -1467,12 +1467,12 @@ _NPCTradeIntroText2::
 	text "Hi, ich suche"
 	line "ein #MON."
 
-	para "Wenn du ein"
+	para "Wenn Du ein"
 	line "@"
 	text_ram wStringBuffer1
 	text " hast,"
 
-	para "tauschst du es"
+	para "tauschst Du es"
 	line "gegen mein"
 	cont "@"
 	text_ram wStringBuffer2
@@ -1508,7 +1508,7 @@ _NPCTradeAfterText2::
 	text "Dem @"
 	text_ram wMonOrItemNameBuffer
 	text ","
-	line "das du mit mir"
+	line "das Du mit mir"
 	cont "getauscht hast,"
 	cont "geht es gut!"
 	done
@@ -1519,11 +1519,11 @@ _NPCTradeIntroText3::
 	line "niedlich, aber ich"
 
 	para "habe keines. Hast"
-	line "du ein @"
+	line "Du ein @"
 	text_ram wStringBuffer1
 	text "?"
 
-	para "Möchtest du es"
+	para "Möchtest Du es"
 	line "gegen mein"
 
 	para "@"
@@ -1544,7 +1544,7 @@ _NPCTradeWrongText3::
 	text "."
 
 	para "Komm wieder, wenn"
-	line "du tauschen"
+	line "Du tauschen"
 	cont "möchtest."
 	done
 
@@ -1577,7 +1577,7 @@ _NPCTradeAfterText4::
 	text "Tauschen ist"
 	line "seltsam…"
 
-	para "Ich muss noch viel"
+	para "Ich muß noch viel"
 	line "darüber lernen."
 	done
 
@@ -1585,7 +1585,7 @@ _MomLeavingText1::
 	text "Das ist ein nied-"
 	line "liches #MON."
 
-	para "Wo hast du es"
+	para "Wo hast Du es"
 	line "her?"
 
 	para "…"
@@ -1594,26 +1594,26 @@ _MomLeavingText1::
 	line "ein Abenteuer…"
 
 	para "O.K.! Auch ich"
-	line "werde dir helfen."
+	line "werde Dir helfen."
 
 	para "Aber was kann ich"
-	line "für dich tun?"
+	line "für Dich tun?"
 
 	para "Ich weiß! Ich"
-	line "werde für dich"
+	line "werde für Dich"
 	cont "sparen."
 
 	para "Auf einer langen"
 	line "Reise ist Geld"
 	cont "sehr wichtig."
 
-	para "Soll ich dein"
+	para "Soll ich Dein"
 	line "Geld sparen?"
 	done
 
 _MomLeavingText2::
 	text "O.K., ich verwalte"
-	line "deine Ersparnisse."
+	line "Deine Ersparnisse."
 
 	para "<……><……><……>"
 	prompt
@@ -1622,8 +1622,8 @@ _MomLeavingText3::
 	text "Sei auf der Hut."
 
 	para "#MON sind"
-	line "deine Kameraden."
-	cont "Ihr müsst als Team"
+	line "Deine Kameraden."
+	cont "Ihr müßt als Team"
 	cont "auftreten."
 
 	para "Also mach's gut!"
@@ -1631,59 +1631,59 @@ _MomLeavingText3::
 
 _MomIsThisAboutYourMoneyText::
 	text "Hi! Willkommen!"
-	line "Ich sehe, du"
-	cont "bemühst dich sehr."
+	line "Ich sehe, Du"
+	cont "bemühst Dich sehr."
 
-	para "Ich habe dein"
+	para "Ich habe Dein"
 	line "Zimmer aufgeräumt."
 
 	para "Ist es wegen"
-	line "deinem Geld?"
+	line "Deinem Geld?"
 	done
 
 _MomBankWhatDoYouWantToDoText::
-	text "Was wirst du"
+	text "Was wirst Du"
 	line "tun?"
 	done
 
 _MomStoreMoneyText::
 	text "Wie viel möchtest"
-	line "du sparen?"
+	line "Du sparen?"
 	done
 
 _MomTakeMoneyText::
 	text "Wie viel möchtest"
-	line "du mitnehmen?"
+	line "Du mitnehmen?"
 	done
 
 _MomSaveMoneyText::
-	text "Möchtest du weiter"
+	text "Möchtest Du weiter"
 	line "Geld sparen?"
 	done
 
 _MomHaventSavedThatMuchText::
-	text "So viel hast du"
+	text "So viel hast Du"
 	line "nicht gespart."
 	prompt
 
 _MomNotEnoughRoomInWalletText::
-	text "So viel kannst du"
+	text "So viel kannst Du"
 	line "nicht mitnehmen."
 	prompt
 
 _MomInsufficientFundsInWalletText::
 	text "So viel hast"
-	line "du nicht."
+	line "Du nicht."
 	prompt
 
 _MomNotEnoughRoomInBankText::
 	text "So viel kannst"
-	line "du nicht sparen."
+	line "Du nicht sparen."
 	prompt
 
 _MomStartSavingMoneyText::
 	text "O.K., ich spare"
-	line "für dich! Traue"
+	line "für Dich! Traue"
 	cont "mir!"
 
 	para "<PLAYER>, bleib"
@@ -1692,7 +1692,7 @@ _MomStartSavingMoneyText::
 
 _MomStoredMoneyText::
 	text "Dein Geld ist hier"
-	line "sicher! Tschüss!"
+	line "sicher! Tschüß!"
 	done
 
 _MomTakenMoneyText::
@@ -1701,7 +1701,7 @@ _MomTakenMoneyText::
 	done
 
 _MomJustDoWhatYouCanText::
-	text "Gib immer dein"
+	text "Gib immer Dein"
 	line "Bestes."
 	done
 
@@ -1713,14 +1713,14 @@ _DayCareManIntroText::
 	text "Ich bin der"
 	line "PENSIONSLEITER."
 	cont "Soll ich eines"
-	cont "deiner #MON"
+	cont "Deiner #MON"
 	cont "aufziehen?"
 	done
 
 _DayCareManIntroEggText::
 	text "Ich bin der"
 	line "PENSIONSLEITER."
-	cont "Kennst du dich"
+	cont "Kennst Du Dich"
 	cont "mit EIERN aus?"
 
 	para "Ich habe #MON"
@@ -1743,14 +1743,14 @@ _DayCareLadyIntroText::
 	line "PENSIONSLEITERIN."
 
 	para "Soll ich eines"
-	line "deiner #MON"
+	line "Deiner #MON"
 	cont "aufziehen?"
 	done
 
 _DayCareLadyIntroEggText::
 	text "Ich bin die"
 	line "PENSIONSLEITERIN."
-	cont "Kennst du dich"
+	cont "Kennst Du Dich"
 	cont "mit EIERN aus?"
 
 	para "Mein Mann und ich"
@@ -1765,7 +1765,7 @@ _DayCareLadyIntroEggText::
 	line "unglaublich, oder?"
 
 	para "Soll ich eines"
-	line "deiner #MON"
+	line "Deiner #MON"
 	cont "aufziehen?"
 	done
 
@@ -1775,7 +1775,7 @@ _WhatShouldIRaiseText::
 	prompt
 
 _OnlyOneMonText::
-	text "Oh? Aber du hast"
+	text "Oh? Aber Du hast"
 	line "nur ein #MON."
 	prompt
 
@@ -1787,19 +1787,19 @@ _CantAcceptEggText::
 
 _RemoveMailText::
 	text "Entferne den"
-	line "BRIEF, ehe du mich"
+	line "BRIEF, ehe Du mich"
 	cont "aufsuchst."
 	prompt
 
 _LastHealthyMonText::
-	text "Wenn du mir das"
+	text "Wenn Du mir das"
 	line "gibst, wer soll"
 	cont "dann kämpfen?"
 	prompt
 
 _IllRaiseYourMonText::
 	text "O.K. Ich kümmere"
-	line "mich um dein"
+	line "mich um Dein"
 	cont "@"
 	text_ram wStringBuffer1
 	text "."
@@ -1812,8 +1812,8 @@ _ComeBackLaterText::
 
 _AreWeGeniusesText::
 	text "Wir sind genial,"
-	line "oder? Möchtest du"
-	cont "dein @"
+	line "oder? Möchtest Du"
+	cont "Dein @"
 	text_ram wStringBuffer1
 	text_start
 	cont "sehen?"
@@ -1830,10 +1830,10 @@ _YourMonHasGrownText::
 	text_start
 	line "Level gestiegen."
 
-	para "Wenn du dein"
+	para "Wenn Du Dein"
 	line "#MON zurück"
 	cont "haben möchtest,"
-	cont "kostet dich das"
+	cont "kostet Dich das"
 	cont "¥@"
 	text_decimal wStringBuffer2 + 2, 3, 4
 	text "."
@@ -1841,7 +1841,7 @@ _YourMonHasGrownText::
 
 _PerfectHeresYourMonText::
 	text "Perfekt! Hier ist"
-	line "dein #MON."
+	line "Dein #MON."
 	prompt
 
 _GotBackMonText::
@@ -1860,7 +1860,7 @@ _BackAlreadyText::
 	para "sollte noch ein"
 	line "wenig hierbleiben."
 
-	para "Wenn du dein"
+	para "Wenn Du Dein"
 	line "#MON zurück-"
 	cont "haben möchtest,"
 	cont "zahle ¥100."
@@ -1897,10 +1897,10 @@ _NotYetText::
 	done
 
 _FoundAnEggText::
-	text "Ah, du bist's!"
+	text "Ah, Du bist's!"
 
 	para "Wir haben uns um"
-	line "dein #MON"
+	line "Dein #MON"
 
 	para "gekümmert und"
 	line "waren sehr"
@@ -1912,9 +1912,9 @@ _FoundAnEggText::
 	para "Wir wissen nicht,"
 	line "wie es dahin"
 
-	para "gekommen ist; dein"
+	para "gekommen ist; Dein"
 	line "#MON hat es."
-	cont "Möchtest du es?"
+	cont "Möchtest Du es?"
 	done
 
 _ReceivedEggText::
@@ -1923,7 +1923,7 @@ _ReceivedEggText::
 	done
 
 _TakeGoodCareOfEggText::
-	text "Pass gut darauf"
+	text "Paß gut darauf"
 	line "auf."
 	done
 
@@ -1946,7 +1946,7 @@ _WhichMonPhotoText::
 	prompt
 
 _HoldStillText::
-	text "O.K. Beweg dich"
+	text "O.K. Beweg Dich"
 	line "nicht."
 	prompt
 

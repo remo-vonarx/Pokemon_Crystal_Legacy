@@ -104,7 +104,7 @@ MountMoonSilverTextBefore:
 	line "her, <PLAYER>."
 
 	para "…Seit ich gegen"
-	line "dich verlor, mache"
+	line "Dich verlor, mache"
 
 	para "ich mir Gedanken,"
 	line "was meinen #MON"
@@ -115,7 +115,7 @@ MountMoonSilverTextBefore:
 	cont "gefunden."
 
 	para "<PLAYER>, wir"
-	line "beweisen es dir!"
+	line "beweisen es Dir!"
 	done
 
 MountMoonSilverTextWin:
@@ -125,7 +125,7 @@ MountMoonSilverTextWin:
 	line "meine #MON so"
 
 	para "aufgezogen zu ha-"
-	line "ben, dass sie un-"
+	line "ben, daß sie un-"
 	cont "schlagbar seien.…"
 
 	para "…Aber ich"
@@ -138,7 +138,7 @@ MountMoonSilverTextAfter:
 	para "…Du hast mich"
 	line "fair besiegt."
 
-	para "Das muss ich dir"
+	para "Das muß ich Dir"
 	line "lassen. Wir werden"
 	cont "uns wiedersehen."
 
@@ -153,17 +153,17 @@ MountMoonSilverTextAfter:
 	para "…Hör mal, <PLAYER>."
 
 	para "Eines Tages werde"
-	line "ich es dir bewei-"
+	line "ich es Dir bewei-"
 
 	para "sen. Dann besiege"
-	line "ich dich."
+	line "ich Dich."
 	done
 
 MountMoonSilverTextLoss:
 	text "<……> <……> <……>"
 
 	para "Ich habe meine"
-	line "Schuld bei dir"
+	line "Schuld bei Dir"
 	cont "abgegolten."
 
 	para "Mit meinen #MON"

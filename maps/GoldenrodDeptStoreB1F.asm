@@ -100,8 +100,8 @@ GoldenrodDeptStoreB1FBlackBelt3Text:
 	para "Das Zeug am"
 	line "Boden ist Plunder."
 
-	para "Nimm es dir, wenn"
-	line "du möchtest!"
+	para "Nimm es Dir, wenn"
+	line "Du möchtest!"
 	done
 
 GoldenrodDeptStoreB1FMachokeText:

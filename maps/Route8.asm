@@ -81,7 +81,7 @@ BikerDwayneSeenText:
 	cont "TRAINERGILDE aus"
 	cont "KANTO."
 
-	para "Hier kommst du"
+	para "Hier kommst Du"
 	line "unter die Räder!"
 	done
 
@@ -119,7 +119,7 @@ BikerZekeSeenText:
 	text "Wir sind die"
 	line "#MON-TRAINER-"
 	cont "GILDE aus KANTO!"
-	cont "Nimm dich in Acht!"
+	cont "Nimm Dich in Acht!"
 	done
 
 BikerZekeBeatenText:
@@ -160,7 +160,7 @@ SupernerdTomBeatenText:
 
 SupernerdTomAfterBattleText:
 	text "ORDEN verschaffen"
-	line "dir im Kampf"
+	line "Dir im Kampf"
 	cont "Vorteile."
 	done
 

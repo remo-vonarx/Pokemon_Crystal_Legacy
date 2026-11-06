@@ -65,7 +65,7 @@ FirebreatherOtisSeenText:
 FirebreatherOtisBeatenText:
 	text "Die Sonne scheint,"
 	line "dennoch bin ich"
-	cont "nass…"
+	cont "naß…"
 	done
 
 FirebreatherOtisAfterBattleText:
@@ -81,7 +81,7 @@ YoungsterWarrenSeenText:
 	done
 
 YoungsterWarrenBeatenText:
-	text "Ich wusste es…"
+	text "Ich wußte es…"
 	done
 
 YoungsterWarrenAfterBattleText:
@@ -90,7 +90,7 @@ YoungsterWarrenAfterBattleText:
 	cont "Eindruck gemacht."
 
 	para "Ich hatte Angst,"
-	line "gegen dich zu"
+	line "gegen Dich zu"
 	cont "kämpfen…"
 	done
 

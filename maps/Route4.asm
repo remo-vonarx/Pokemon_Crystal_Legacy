@@ -54,7 +54,7 @@ Route4HiddenUltraBall:
 BirdKeeperHankSeenText:
 	text "Ich trainiere"
 	line "#MON. Trittst"
-	cont "du gegen mich an?"
+	cont "Du gegen mich an?"
 	done
 
 BirdKeeperHankBeatenText:
@@ -63,10 +63,10 @@ BirdKeeperHankBeatenText:
 	done
 
 BirdKeeperHankAfterBattleText:
-	text "Hast du ein spe-"
+	text "Hast Du ein spe-"
 	line "zielles #MON,"
 
-	para "das du trainieren"
+	para "das Du trainieren"
 	line "möchtest, setze es"
 
 	para "an die erste Stel-"
@@ -78,7 +78,7 @@ BirdKeeperHankAfterBattleText:
 	done
 
 PicnickerHopeSeenText:
-	text "Ich spüre, dass"
+	text "Ich spüre, daß"
 	line "ich gewinnen kann."
 
 	para "Mal sehen, ob"
@@ -86,12 +86,12 @@ PicnickerHopeSeenText:
 	done
 
 PicnickerHopeBeatenText:
-	text "Argh, du bist zu"
+	text "Argh, Du bist zu"
 	line "stark."
 	done
 
 PicnickerHopeAfterBattleText:
-	text "Ich hörte, dass"
+	text "Ich hörte, daß"
 	line "PIEPI am MONDBERG"
 
 	para "auftauchen. Aber"

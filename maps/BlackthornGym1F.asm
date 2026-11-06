@@ -181,7 +181,7 @@ ClairIntroText:
 	line "gegen die TOP VIER"
 	cont "der #MON LIGA."
 
-	para "Willst du immer"
+	para "Willst Du immer"
 	line "noch gegen mich"
 	cont "antreten?"
 
@@ -201,7 +201,7 @@ ClairWinText:
 	text "Ich habe verloren?"
 
 	para "Ich kann es nicht"
-	line "glauben. Das muss"
+	line "glauben. Das muß"
 	cont "ein Irrtum sein…"
 	done
 
@@ -210,14 +210,14 @@ ClairText_GoToDragonsDen:
 	line "nicht ein."
 
 	para "Ich mag verloren"
-	line "haben, aber du"
+	line "haben, aber Du"
 
 	para "bist noch nicht"
 	line "reif für die"
 	cont "#MON LIGA."
 
 	para "Ich weiß. Stelle"
-	line "dich der Drachen-"
+	line "Dich der Drachen-"
 	cont "Trainer-Heraus-"
 	cont "forderung."
 
@@ -229,14 +229,14 @@ ClairText_GoToDragonsDen:
 	line "ein Schrein. Gehe"
 	cont "dorthin."
 
-	para "Falls du beweisen"
-	line "kannst, dass du"
+	para "Falls Du beweisen"
+	line "kannst, daß Du"
 
-	para "deine faulen"
+	para "Deine faulen"
 	line "Ideale aufgegeben"
 
 	para "hast, werde ich"
-	line "dich als einen"
+	line "Dich als einen"
 
 	para "Trainer ansehen,"
 	line "der würdig ist,"
@@ -249,7 +249,7 @@ ClairText_TooMuchToExpect:
 	text "Was ist los?"
 
 	para "Erwarte ich etwa"
-	line "zu viel von dir?"
+	line "zu viel von Dir?"
 	done
 
 BlackthornGymClairText_YouKeptMeWaiting:
@@ -273,8 +273,8 @@ BlackthornGymClairText_DescribeTM24:
 	cont "schlechtem Atem"
 	cont "zu tun."
 
-	para "Wenn du sie nicht"
-	line "willst, musst du"
+	para "Wenn Du sie nicht"
+	line "willst, mußt Du"
 	cont "sie nicht nehmen."
 	done
 
@@ -286,10 +286,10 @@ BlackthornGymClairText_BagFull:
 BlackthornGymClairText_League:
 	text "Was ist los?"
 
-	para "Gehst du nicht zur"
+	para "Gehst Du nicht zur"
 	line "#MON LIGA?"
 
-	para "Kennst du den"
+	para "Kennst Du den"
 	line "Weg nicht?"
 
 	para "Gehe von hier nach"
@@ -308,10 +308,10 @@ BlackthornGymClairText_League:
 	para "Das würde meine"
 	line "Niederlage gegen"
 
-	para "dich noch ver-"
+	para "Dich noch ver-"
 	line "schlimmern!"
 
-	para "Gib dein Bestes!"
+	para "Gib Dein Bestes!"
 	done
 
 ClairRematchText:
@@ -350,11 +350,11 @@ Clair_RematchDefeatText:
 	done
 
 CooltrainermPaulSeenText:
-	text "Ist das dein ers-"
+	text "Ist das Dein ers-"
 	line "ter Kampf gegen"
 	cont "Drachen?"
 
-	para "Ich zeige dir, wie"
+	para "Ich zeige Dir, wie"
 	line "stark sie sind!"
 	done
 
@@ -366,16 +366,16 @@ CooltrainermPaulBeatenText:
 
 CooltrainermPaulAfterBattleText:
 	text "SIEGFRIED sagte"
-	line "dir, er möchte"
+	line "Dir, er möchte"
 
-	para "dich noch einmal"
+	para "Dich noch einmal"
 	line "sehen? Das kann"
 	cont "nicht sein!"
 	done
 
 CooltrainermMikeSeenText:
 	text "Die Chancen, gegen"
-	line "dich zu verlieren?"
+	line "Dich zu verlieren?"
 	cont "Nicht mal ein Pro-"
 	cont "zent!"
 	done
@@ -398,10 +398,10 @@ CooltrainerfLolaSeenText:
 	para "Sie sind voller"
 	line "Lebensenergie."
 
-	para "Wenn du es nicht"
+	para "Wenn Du es nicht"
 	line "ernst meinst, dann"
 
-	para "wirst du sie nicht"
+	para "wirst Du sie nicht"
 	line "besiegen können."
 	done
 
@@ -456,7 +456,7 @@ BlackthornGymGuideWinText:
 	line "gewinnen ist eine"
 	cont "Meisterleistung."
 
-	para "Alles was dir nun"
+	para "Alles was Dir nun"
 	line "noch bevorsteht,"
 	cont "ist die #MON"
 	cont "LIGA."

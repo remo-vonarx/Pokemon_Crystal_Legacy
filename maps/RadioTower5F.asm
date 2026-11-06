@@ -405,13 +405,13 @@ RadioTower5FPlayerTwoStepsLeftMovement:
 	step_end
 
 FakeDirectorTextBefore1:
-	text "D-Du! Bist du"
+	text "D-Du! Bist Du"
 	line "gekommen, um mich"
 	cont "zu retten?"
 	done
 
 FakeDirectorTextBefore2:
-	text "Ist es das, was du"
+	text "Ist es das, was Du"
 	line "erwartet hast?"
 
 	para "Falsch! Ich bin"
@@ -423,19 +423,19 @@ FakeDirectorTextBefore2:
 	para "unsere Übernahme"
 	line "vorzubereiten."
 
-	para "Möchtest du wis-"
+	para "Möchtest Du wis-"
 	line "sen, wo wir den"
 	cont "echten INTENDANTEN"
 	cont "versteckt haben?"
 
-	para "Ich werde es dir"
+	para "Ich werde es Dir"
 	line "verraten, wenn"
-	cont "du mich besiegst!"
+	cont "Du mich besiegst!"
 	done
 
 FakeDirectorWinText:
 	text "O.K. Ich sage"
-	line "dir, wo er ist."
+	line "Dir, wo er ist."
 	done
 
 FakeDirectorTextAfter:
@@ -486,7 +486,7 @@ Executivef1BeatenText:
 Executivef1AfterBattleText:
 	text "<PLAYER>, oder?"
 
-	para "Ein Balg wie du"
+	para "Ein Balg wie Du"
 	line "weiß die Größe"
 
 	para "von TEAM ROCKET"
@@ -494,14 +494,14 @@ Executivef1AfterBattleText:
 
 	para "Das ist schade."
 	line "Ich bewundere"
-	cont "deine Stärke."
+	cont "Deine Stärke."
 	done
 
 RadioTower5FRocketBossBeforeText:
 	text "Oh? Du bist"
 	line "so weit gekommen?"
 
-	para "Du musst ein aus-"
+	para "Du mußt ein aus-"
 	line "gezeichneter Trai-"
 	cont "ner sein."
 
@@ -525,7 +525,7 @@ RadioTower5FRocketBossBeforeText:
 	cont "wiedererlangen."
 
 	para "Ich werde nicht"
-	line "zulassen, dass du"
+	line "zulassen, daß Du"
 	cont "unsere Pläne"
 	cont "durchkreuzt."
 	done
@@ -758,7 +758,7 @@ RadioTower5FDirectorDescribeClearBellText:
 	line "diese Glocke"
 	cont "gefunden."
 
-	para "Ich hörte, dass"
+	para "Ich hörte, daß"
 	line "früher viele ver-"
 	cont "schiedene #MON"
 
@@ -790,7 +790,7 @@ RadioTower5FDirectorDescribeClearBellText:
 	line "Ahnung, was vor"
 
 	para "sich geht. Viel-"
-	line "leicht solltest du"
+	line "leicht solltest Du"
 	cont "es überprüfen."
 
 	para "O.K., ich gehe in"
@@ -818,7 +818,7 @@ RadioTower5FDirectorText:
 	done
 
 BenText:
-	text "BEN: Hörst du dir"
+	text "BEN: Hörst Du Dir"
 	line "unsere Musik an?"
 	done
 

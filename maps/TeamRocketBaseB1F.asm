@@ -660,7 +660,7 @@ CameraGrunt2BeatenText:
 	cont "installiert."
 
 	para "Wir greifen weiter"
-	line "an, bis du einen"
+	line "an, bis Du einen"
 	cont "Geheimschalter"
 	cont "betätigst."
 	done
@@ -672,7 +672,7 @@ ScientistJedSeenText:
 	para "Es wurden Fallen"
 	line "aufgestellt, um"
 	cont "Eindringlinge wie"
-	cont "dich zu verwirren."
+	cont "Dich zu verwirren."
 	done
 
 ScientistJedBeatenText:
@@ -681,7 +681,7 @@ ScientistJedBeatenText:
 
 ScientistJedAfterBattleText:
 	text "O.K. Ich verrate"
-	line "dir ein Geheimnis"
+	line "Dir ein Geheimnis"
 	cont "über unseren"
 	cont "Unterschlupf."
 
@@ -689,10 +689,10 @@ ScientistJedAfterBattleText:
 	line "am Boden ist ein"
 	cont "Warpfeld."
 
-	para "Sobald du es"
+	para "Sobald Du es"
 	line "betrittst, wirst"
 
-	para "du zurück zum"
+	para "Du zurück zum"
 	line "Eingang gewarpt."
 	done
 
@@ -710,7 +710,7 @@ GruntM16AfterBattleText:
 	line "wo die Fallen"
 	cont "aufgestellt sind."
 
-	para "Du musst deinen"
+	para "Du mußt Deinen"
 	line "ganzen Mut"
 	cont "zusammennehmen"
 	cont "und weitergehen."

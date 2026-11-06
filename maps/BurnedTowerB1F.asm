@@ -214,18 +214,18 @@ BurnedTowerB1FEusineText:
 	line "überwältigt!"
 
 	para "<PLAYER>, all das"
-	line "verdanke ich dir!"
+	line "verdanke ich Dir!"
 
 	para "Vielen Dank!"
 
-	para "Ich hörte, dass"
+	para "Ich hörte, daß"
 	line "die legendären"
 
 	para "#MON von TEAK"
 	line "CITY Auserwählte"
 
 	para "testen, indem sie"
-	line "zulassen, dass sie"
+	line "zulassen, daß sie"
 	cont "ihnen nahe kommen."
 
 	para "Ich begebe mich"

@@ -211,17 +211,17 @@ ChuckIntroText1:
 	line "bis hierher ge-"
 	cont "schafft!"
 
-	para "Lass dir gesagt"
-	line "sein, dass ich ein"
+	para "Laß Dir gesagt"
+	line "sein, daß ich ein"
 	cont "harter Brocken"
 	cont "bin."
 
 	para "Meine #MON"
-	line "werden dich in"
+	line "werden Dich in"
 	cont "Grund und Boden"
 	cont "rammen!"
 
-	para "Pass auf!"
+	para "Paß auf!"
 	done
 
 ChuckIntroText2:
@@ -232,8 +232,8 @@ ChuckIntroText2:
 	done
 
 ChuckIntroText3:
-	text "Da! Jetzt hast du"
-	line "dich erschreckt!"
+	text "Da! Jetzt hast Du"
+	line "Dich erschreckt!"
 
 	para "Wie?"
 	line "Es hat nichts mit"
@@ -241,7 +241,7 @@ ChuckIntroText3:
 	para "#MON zu tun?"
 	line "Das ist wahr!"
 
-	para "Komm her. Lass uns"
+	para "Komm her. Laß uns"
 	line "kämpfen!"
 	done
 
@@ -261,7 +261,7 @@ GetStormBadgeText:
 
 ChuckExplainBadgeText:
 	text "Durch den FAUSTOR-"
-	line "DEN gehorchen dir"
+	line "DEN gehorchen Dir"
 
 	para "alle #MON"
 	line "bis LV 70. Dies"
@@ -270,7 +270,7 @@ ChuckExplainBadgeText:
 	line "tauschte."
 
 	para "Außerdem können"
-	line "deine #MON"
+	line "Deine #MON"
 
 	para "FLIEGEN auch"
 	line "außerhalb eines"
@@ -295,7 +295,7 @@ ChuckExplainTMText:
 ChuckAfterText:
 	text "WAHAHAH! Es hat"
 	line "Spaß gemacht, ge-"
-	cont "gen dich zu kämp-"
+	cont "gen Dich zu kämp-"
 	cont "fen."
 
 	para "Aber eine Nieder-"
@@ -344,8 +344,8 @@ BlackbeltYoshiBeatenText:
 
 BlackbeltYoshiAfterText:
 	text "Es scheint, als"
-	line "stündest auch du"
-	cont "deinen #MON"
+	line "stündest auch Du"
+	cont "Deinen #MON"
 	cont "sehr nahe!"
 	done
 
@@ -360,14 +360,14 @@ BlackbeltLaoBeatenText:
 	done
 
 BlackbeltLaoAfterText:
-	text "Kampf-#MON"
+	text "KAMPF-#MON"
 	line "fürchten sich vor"
 	cont "Psycho-Attacken…"
 	done
 
 BlackbeltNobSeenText:
 	text "Worte sind nutz-"
-	line "los. Lass deine"
+	line "los. Laß Deine"
 	cont "Fäuste sprechen!"
 	done
 
@@ -383,7 +383,7 @@ BlackbeltNobAfterText:
 BlackbeltLungSeenText:
 	text "Gegen die Wut mei-"
 	line "ner Fäuste können"
-	cont "deine #MON"
+	cont "Deine #MON"
 	cont "nichts ausrichten!"
 	done
 

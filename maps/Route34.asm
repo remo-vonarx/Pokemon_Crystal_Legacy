@@ -560,10 +560,10 @@ YoungsterSamuelBeatenText:
 	done
 
 YoungsterSamuelMobileText: ; unreferenced
-	text "Warst du in"
+	text "Warst Du in"
 	line "DUKATIA CITY?"
 
-	para "Hat dich das neu-"
+	para "Hat Dich das neu-"
 	line "gestaltete #-"
 	cont "MON-CENTER auch"
 	cont "erstaunt?"
@@ -597,11 +597,11 @@ YoungsterIanAfterText:
 	done
 
 CamperTodd1SeenText:
-	text "Ich weiß, dass ich"
+	text "Ich weiß, daß ich"
 	line "#MON gut"
 	cont "aufziehen kann."
 
-	para "Möchtest du dich"
+	para "Möchtest Du Dich"
 	line "davon überzeugen?"
 	done
 
@@ -629,10 +629,10 @@ CamperToddSaleText:
 	done
 
 PicnickerGina1SeenText:
-	text "Bist du"
+	text "Bist Du"
 	line "ein Trainer?"
 
-	para "Hast du Lust auf"
+	para "Hast Du Lust auf"
 	line "einen Übungskampf?"
 	done
 
@@ -650,7 +650,7 @@ PicnickerGina1AfterText:
 
 OfficerKeithSeenText:
 	text "Wer ist da? Was"
-	line "ist dein Begehr?"
+	line "ist Dein Begehr?"
 	done
 
 OfficerKeithWinText:
@@ -664,8 +664,8 @@ OfficerKeithAfterText:
 	line "alles in Ordnung"
 
 	para "zu sein. Benimm"
-	line "dich und halte"
-	cont "dich aus"
+	line "Dich und halte"
+	cont "Dich aus"
 	cont "Schwierigkeiten"
 	cont "heraus."
 	done
@@ -689,7 +689,7 @@ PokefanmBrandonSeenText:
 	done
 
 PokefanmBrandonBeatenText:
-	text "Warum muss es auf"
+	text "Warum muß es auf"
 	line "diese Weise enden?"
 	done
 
@@ -732,7 +732,7 @@ CooltrainerfIreneAfterText2:
 
 CooltrainerfJennSeenText:
 	text "ELSE: Dein Sieg"
-	line "über LOLA muss"
+	line "über LOLA muß"
 	cont "gesühnt werden!"
 	done
 
@@ -743,7 +743,7 @@ CooltrainerfJennBeatenText:
 	done
 
 CooltrainerfJennAfterText1:
-	text "ELSE: Bilde dir"
+	text "ELSE: Bilde Dir"
 	line "bloß nichts ein!"
 	cont "Meine Schwester"
 	cont "EDNA ist sehr"
@@ -753,7 +753,7 @@ CooltrainerfJennAfterText1:
 CooltrainerfJennAfterText2:
 	text "ELSE: Sonnen-"
 	line "licht kräftigt"
-	cont "deinen Körper."
+	cont "Deinen Körper."
 	done
 
 CooltrainerfKateSeenText:
@@ -766,7 +766,7 @@ CooltrainerfKateSeenText:
 CooltrainerfKateBeatenText:
 	text "EDNA: Nein! Ich"
 	line "kann nicht"
-	cont "glauben, dass ich"
+	cont "glauben, daß ich"
 	cont "verloren habe."
 	done
 
@@ -775,18 +775,18 @@ CooltrainerfKateOfferSoftSandText:
 	line "stark. Ich hatte"
 	cont "keine Chance."
 
-	para "Hier. Das hast du"
-	line "dir verdient."
+	para "Hier. Das hast Du"
+	line "Dir verdient."
 	done
 
 CooltrainerfKateAfterText:
 	text "EDNA: Bitte "
-	line "entschuldige, dass"
-	cont "wir dich über-"
+	line "entschuldige, daß"
+	cont "wir Dich über-"
 	cont "fallen haben."
 
 	para "Wir hätten nicht"
-	line "gedacht, dass uns"
+	line "gedacht, daß uns"
 
 	para "hier jemand"
 	line "findet. Du hast"
@@ -818,7 +818,7 @@ Route34TrainerTipsText:
 	para "tragen jeden Tag"
 	line "neue BEEREN."
 
-	para "Merke dir, welche"
+	para "Merke Dir, welche"
 	line "BEEREN an den"
 	cont "Bäumen wachsen."
 	done

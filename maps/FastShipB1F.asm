@@ -220,7 +220,7 @@ FastShipB1FSailorBlocksLeftMovement:
 
 FastShipB1FOnDutySailorText:
 	text "Heh, könntest"
-	line "du mal nach meinem"
+	line "Du mal nach meinem"
 	cont "Kollegen suchen?"
 
 	para "Er faulenzt"
@@ -291,7 +291,7 @@ SailorJeffAfterBattleText:
 
 PicnickerDebraSeenText:
 	text "Mir ist lang-"
-	line "weilig. Willst du"
+	line "weilig. Willst Du"
 	cont "kämpfen?"
 	done
 
@@ -355,7 +355,7 @@ FisherJonahSeenText:
 	cont "nicht angeln!"
 
 	para "Wie langweilig!"
-	line "Lass uns kämpfen!"
+	line "Laß uns kämpfen!"
 	done
 
 FisherJonahBeatenText:
@@ -410,17 +410,17 @@ SailorKennethBeatenText:
 
 SailorKennethAfterBattleText:
 	text "Acht ORDEN!"
-	line "Das heißt, du"
+	line "Das heißt, Du"
 
 	para "hast die ARENA-"
 	line "LEITER besiegt."
 
-	para "Kein Wunder, dass"
-	line "du so stark bist!"
+	para "Kein Wunder, daß"
+	line "Du so stark bist!"
 	done
 
 TeacherShirleySeenText:
-	text "Lass die Finger"
+	text "Laß die Finger"
 	line "von meinen"
 	cont "Schülern!"
 	done
@@ -437,7 +437,7 @@ TeacherShirleyAfterBattleText:
 	done
 
 SchoolboyNateSeenText:
-	text "Kennst du die"
+	text "Kennst Du die"
 	line "ALPH-RUINEN?"
 	done
 
@@ -464,7 +464,7 @@ SchoolboyRickyBeatenText:
 
 SchoolboyRickyAfterBattleText:
 	text "Ich habe gelesen,"
-	line "dass es vier von"
+	line "daß es vier von"
 	cont "den Steinplatten"
 	cont "gibt."
 	done

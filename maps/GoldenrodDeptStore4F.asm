@@ -49,7 +49,7 @@ GoldenrodDeptStore4FCooltrainerMText:
 
 GoldenrodDeptStore4FBugCatcherText:
 	text "EISEN verstärkt"
-	line "die VERT deiner"
+	line "die VERT Deiner"
 	cont "#MON."
 	done
 

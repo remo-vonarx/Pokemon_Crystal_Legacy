@@ -49,7 +49,7 @@ PlayersNeighborsDaughterText:
 	line "entwickeltes"
 	cont "#MON."
 
-	para "PROF. LINDs"
+	para "PROF LINDs"
 	line "Entdeckungen"
 	cont "sind wirklich"
 	cont "erstaunlich."
@@ -80,7 +80,7 @@ PlayersNeighborText:
 	done
 
 PlayerNeighborRadioText1:
-	text "PROF. EICHs #-"
+	text "PROF EICHs #-"
 	line "MON-TALK! Schalten"
 	cont "Sie auch das"
 	cont "nächste Mal wieder"

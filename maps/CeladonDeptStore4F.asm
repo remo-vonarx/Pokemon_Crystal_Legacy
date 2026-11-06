@@ -44,7 +44,7 @@ CeladonDeptStore4FYoungsterText:
 	done
 
 CeladonDeptStore4FDirectoryText:
-	text "Lass Geschenke"
+	text "Laß Geschenke"
 	line "Für Dich Sprechen!"
 
 	para "3S: GESCHENK-"

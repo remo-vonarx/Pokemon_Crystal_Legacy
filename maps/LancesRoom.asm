@@ -385,15 +385,15 @@ LanceBattleWinText:
 	line "seltsames Gefühl."
 
 	para "Ich bin nicht"
-	line "wütend, dass ich"
+	line "wütend, daß ich"
 	cont "verloren habe. Ich"
 	cont "bin glücklich."
 
-	para "Glücklich, dass"
+	para "Glücklich, daß"
 	line "ich den Aufstieg"
 
 	para "eines neuen"
-	line "CHAMPs miterleben"
+	line "CHAMPS miterleben"
 	cont "durfte."
 	done
 
@@ -405,16 +405,16 @@ LanceBattleAfterText:
 	cont "<PLAY_G>."
 
 	para "Deine #MON"
-	line "haben deine starke"
+	line "haben Deine starke"
 
 	para "und aufrechte"
 	line "Persönlichkeit"
 	cont "akzeptiert."
 
-	para "Auch du wirst"
+	para "Auch Du wirst"
 	line "zusammen mit"
 
-	para "deinen #MON"
+	para "Deinen #MON"
 	line "stärker werden."
 	done
 
@@ -422,8 +422,8 @@ LancesRoomMaryOhNoOakText:
 	text "MARGIT: Oh, nein!"
 	line "Alles ist vorbei!"
 
-	para "PROF. EICH, wenn"
-	line "du nicht so lang-"
+	para "PROF EICH, wenn"
+	line "Du nicht so lang-"
 	cont "sam wärest…"
 	done
 
@@ -530,7 +530,7 @@ LancesRoomNoisyText:
 	cont "ein wenig zu laut…"
 
 	para "<PLAY_G>, kommst"
-	line "du mit mir?"
+	line "Du mit mir?"
 	done
 
 LancesRoomMaryNoInterviewText:

@@ -42,14 +42,14 @@ CelebrityHouseBookshelf:
 	jumpstd MagazineBookshelfScript
 
 CelebrityText1:
-	text "Oh, du hast"
+	text "Oh, Du hast"
 	line "mich gefunden."
 
 	para "Bitte erzähl"
 	line "niemandem von mir."
 
-	para "Ich gebe dir dies,"
-	line "wenn du mich nicht"
+	para "Ich gebe Dir dies,"
+	line "wenn Du mich nicht"
 	cont "verrätst. Bitte?"
 	done
 

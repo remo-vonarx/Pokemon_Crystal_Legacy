@@ -90,7 +90,7 @@ SwimmerfLoriSeenText:
 	text "Du besitzt eine"
 	line "umwerfende Anzahl"
 
-	para "ARENA-ORDEN. Lass"
+	para "ARENA-ORDEN. Laß"
 	line "uns kämpfen!"
 	done
 
@@ -101,7 +101,7 @@ SwimmerfLoriBeatenText:
 SwimmerfLoriAfterBattleText:
 	text "SURFER ist nicht"
 	line "mehr die einzige"
-	cont "VM, die du im"
+	cont "VM, die Du im"
 	cont "Wasser einsetzen"
 	cont "kannst."
 	done

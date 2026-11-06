@@ -39,10 +39,10 @@ SilphCoOfficerText:
 	line "hat Zutritt zu den"
 	cont "oberen Geschossen."
 
-	para "Aber, da du nun"
+	para "Aber, da Du nun"
 	line "schon mal da bist,"
 
-	para "gebe ich dir"
+	para "gebe ich Dir"
 	line "dieses hübsche"
 	cont "Souvenir."
 	done

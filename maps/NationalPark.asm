@@ -326,7 +326,7 @@ NationalParkHiddenFullHeal:
 	hiddenitem FULL_HEAL, EVENT_NATIONAL_PARK_HIDDEN_FULL_HEAL
 
 NationalParkLassText:
-	text "Sieh dir meine"
+	text "Sieh Dir meine"
 	line "Tasche an!"
 
 	para "Ich habe meine"
@@ -345,22 +345,22 @@ NationalParkPokefanFText:
 	done
 
 NationalParkTeacher1Text:
-	text "Pass bitte auf!"
+	text "Paß bitte auf!"
 
-	para "…Ohh, ich muss"
+	para "…Ohh, ich muß"
 	line "aufhören, immer"
 
 	para "wie ein Lehrer zu"
 	line "denken."
 
-	para "Du musst ein"
+	para "Du mußt ein"
 	line "#MON-Trainer"
 	cont "sein."
 
-	para "Da du so hart"
+	para "Da Du so hart"
 	line "arbeitest, möchte"
 
-	para "ich dir dies"
+	para "ich Dir dies"
 	line "überreichen."
 	done
 
@@ -415,14 +415,14 @@ NationalParkGameboyKidText:
 
 SchoolboyJack1SeenText:
 	text "Die #MON-Welt"
-	line "bietet dir viel."
+	line "bietet Dir viel."
 
 	para "Es gibt noch viele"
 	line "Dinge, über die"
 	cont "wir nichts wissen."
 
 	para "Aber ich weiß"
-	line "mehr als du!"
+	line "mehr als Du!"
 	done
 
 SchoolboyJack1BeatenText:
@@ -447,20 +447,20 @@ PokefanfBeverly1SeenText:
 	text "Meine #MON sind"
 	line "entzückend."
 
-	para "Ich will dir"
+	para "Ich will Dir"
 	line "sagen, wie stolz"
 	cont "sie mich machen."
 	done
 
 PokefanfBeverly1BeatenText:
 	text "Was Stolz angeht,"
-	line "kann ich dich"
+	line "kann ich Dich"
 	cont "schlagen, aber…"
 	done
 
 PokefanBeverlyCuteMonText:
-	text "Ich muss zugeben,"
-	line "dass deine #MON"
+	text "Ich muß zugeben,"
+	line "daß Deine #MON"
 	cont "auch süß sind."
 	done
 
@@ -500,7 +500,7 @@ PokefanFBeverlyMarillFriendText:
 
 LassKriseSeenText:
 	text "Was ist? Warum"
-	line "starrst du mich"
+	line "starrst Du mich"
 	cont "so an?"
 
 	para "Oh, ein Kampf?"
@@ -511,7 +511,7 @@ LassKriseBeatenText:
 	done
 
 LassKriseAfterBattleText:
-	text "Ich dachte, du"
+	text "Ich dachte, Du"
 	line "starrst mich an,"
 	cont "weil ich süß bin!"
 	done
@@ -529,13 +529,13 @@ NationalParkBattleNoticeText:
 	line "im Gras gestattet."
 
 	para "NATIONALPARK"
-	line "BÜRO DES WÄCHTERs"
+	line "BÜRO DES WÄCHTERS"
 	done
 
 NationalParkTrainerTipsText:
 	text "TIPPS für TRAINER"
 
-	para "Möchtest du deine"
+	para "Möchtest Du Deine"
 	line "BRIEFE drucken,"
 	cont "öffne sie und"
 	cont "drücke START."

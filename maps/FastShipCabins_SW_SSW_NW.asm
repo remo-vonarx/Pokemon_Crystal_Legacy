@@ -145,14 +145,14 @@ BugCatcherKenBeatenText:
 
 BugCatcherKenAfterBattleText:
 	text "In JOHTO findest"
-	line "du viele #MON"
+	line "Du viele #MON"
 	cont "in den Bäumen!"
 	done
 
 BeautyCassieSeenText:
 	text "Ich versuche,"
 	line "meine Leiden zu"
-	cont "vergessen. Lass"
+	cont "vergessen. Laß"
 	cont "uns kämpfen!"
 	done
 

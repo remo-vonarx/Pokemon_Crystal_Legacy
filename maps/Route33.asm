@@ -184,12 +184,12 @@ HikerAnthony2AfterText:
 	done
 
 HikerAnthonyDunsparceText:
-	text "Heh, hast du ein"
+	text "Heh, hast Du ein"
 	line "DUMMISEL?"
 
 	para "Ich habe eines."
 
-	para "Sieh es dir im"
+	para "Sieh es Dir im"
 	line "Licht an. Es hat"
 
 	para "ein lustiges"

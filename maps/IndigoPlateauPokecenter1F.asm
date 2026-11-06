@@ -215,23 +215,23 @@ PlateauRivalLeavesMovement:
 
 IndigoPlateauPokecenter1FCooltrainerMText:
 	text "In der #MON"
-	line "LIGA stellen dich"
+	line "LIGA stellen Dich"
 
 	para "die TOP VIER auf"
 	line "eine harte Probe."
 
-	para "Du musst sie alle"
-	line "schlagen. Wenn du"
+	para "Du mußt sie alle"
+	line "schlagen. Wenn Du"
 
-	para "verlierst, musst"
-	line "du ganz von vorne"
+	para "verlierst, mußt"
+	line "Du ganz von vorne"
 	cont "anfangen!"
 	done
 
 PlateauRivalText1:
 	text "Moment noch!"
 
-	para "Akzeptierst du die"
+	para "Akzeptierst Du die"
 	line "Herausforderung"
 
 	para "der #MON LIGA?"
@@ -240,12 +240,12 @@ PlateauRivalText1:
 
 	para "Meine perfekt"
 	line "trainierten #-"
-	cont "MON werden dich"
+	cont "MON werden Dich"
 	cont "zermalmen."
 
 	para "<PLAYER>!"
 
-	para "Ich fordere dich"
+	para "Ich fordere Dich"
 	line "heraus!"
 	done
 
@@ -261,7 +261,7 @@ PlateauRivalText2:
 	line "kann nicht"
 	cont "gewinnen…"
 
-	para "Ich… ich muss mich"
+	para "Ich… ich muß mich"
 	line "mehr um meine"
 	cont "#MON kümmern…"
 
@@ -284,26 +284,26 @@ TeleportGuyText1:
 	text "Ah! Du forderst"
 	line "also die TOP VIER"
 
-	para "heraus? Bist du"
+	para "heraus? Bist Du"
 	line "wirklich bereit?"
 
-	para "Wenn du mehr"
+	para "Wenn Du mehr"
 	line "trainieren willst,"
 
-	para "kann dir mein"
+	para "kann Dir mein"
 	line "ABRA helfen."
 
-	para "Es kann dich"
+	para "Es kann Dich"
 	line "nach Hause"
 	cont "TELEPORTIEREN."
 
-	para "Möchtest du jetzt"
+	para "Möchtest Du jetzt"
 	line "nach Hause?"
 	done
 
 TeleportGuyYesText:
 	text "O.K. Stell"
-	line "dir dein Haus"
+	line "Dir Dein Haus"
 	cont "vor…"
 	done
 

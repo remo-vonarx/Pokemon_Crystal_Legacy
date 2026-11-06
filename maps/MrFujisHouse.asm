@@ -50,7 +50,7 @@ MrFujisHouseSuperNerdText:
 	para "jetzt nicht"
 	line "zu Hause."
 
-	para "Er müsste in der"
+	para "Er müßte in der"
 	line "RUHESTÄTTE sein."
 	done
 

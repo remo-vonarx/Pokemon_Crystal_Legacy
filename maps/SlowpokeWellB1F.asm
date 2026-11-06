@@ -156,7 +156,7 @@ SlowpokeWellB1FKurtText:
 
 	para "Ich bin so hart "
 	line "auf meinem Rücken"
-	cont "gelandet, dass ich"
+	cont "gelandet, daß ich"
 	cont "mich nicht mehr"
 	cont "bewegen kann."
 
@@ -171,7 +171,7 @@ SlowpokeWellB1FKurtText:
 
 	para "<PLAYER>, zeig"
 	line "ihnen, wie mutig"
-	cont "du bist. Tu es für"
+	cont "Du bist. Tu es für"
 	cont "mich!"
 	done
 
@@ -184,7 +184,7 @@ KurtLeaveSlowpokeWellText:
 
 	para "Meinem Rücken geht"
 	line "es schon besser."
-	cont "Lass uns gehen."
+	cont "Laß uns gehen."
 	done
 
 GruntM29SeenText:
@@ -196,13 +196,13 @@ GruntM29SeenText:
 	cont "mich anschrie."
 
 	para "Ich bin so"
-	line "erschrocken, dass"
+	line "erschrocken, daß"
 	cont "ich hier hinunter"
 	cont "gefallen bin."
 
 	para "Ich glaube, ich"
 	line "lasse meine Wut"
-	cont "an dir aus!"
+	cont "an Dir aus!"
 	done
 
 GruntM29BeatenText:
@@ -228,11 +228,11 @@ GruntM29AfterBattleText:
 	done
 
 GruntM1SeenText:
-	text "Was willst du?"
-	line "Wenn du uns bei"
+	text "Was willst Du?"
+	line "Wenn Du uns bei"
 
 	para "der Arbeit störst,"
-	line "gibt es für dich"
+	line "gibt es für Dich"
 	cont "keine Gnade!"
 	done
 
@@ -326,7 +326,7 @@ SlowpokeWellB1FSlowpokeMailText:
 	line "BRIEF."
 
 	para "Sei so lieb und"
-	line "kümmere dich bitte"
+	line "kümmere Dich bitte"
 
 	para "um Opa und das"
 	line "FLEGMON."

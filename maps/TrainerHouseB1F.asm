@@ -189,7 +189,7 @@ TrainerHouseB1FIntroText:
 	cont "ÜBUNGSHALLE."
 
 	para "Einmal pro Tag"
-	line "kannst du gegen"
+	line "kannst Du gegen"
 	cont "einen Trainer"
 	cont "kämpfen."
 	done
@@ -197,11 +197,11 @@ TrainerHouseB1FIntroText:
 TrainerHouseB1FYourOpponentIsText:
 	text_ram wStringBuffer3
 	text " ist"
-	line "heute dein Gegner."
+	line "heute Dein Gegner."
 	done
 
 TrainerHouseB1FAskWantToBattleText:
-	text "Möchtest du"
+	text "Möchtest Du"
 	line "kämpfen?"
 	done
 
@@ -222,7 +222,7 @@ TrainerHouseB1FPleaseComeAgainText:
 
 TrainerHouseB1FSecondChallengeDeniedText:
 	text "Es tut mir Leid,"
-	line "das wäre für dich"
+	line "das wäre für Dich"
 
 	para "heute der zweite"
 	line "Kampf. Es ist aber"
@@ -260,7 +260,7 @@ TrainerHouseB1FWeebraBeatenText:
 TrainerHouseB1FCalBeforeText:
 	text "Ich bin nur"
 	line "hergereist, um"
-	cont "gegen dich zu"
+	cont "gegen Dich zu"
 	cont "kämpfen."
 	done
 

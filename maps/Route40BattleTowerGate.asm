@@ -19,12 +19,12 @@ Route40BattleTowerGateTwinScript:
 	jumptextfaceplayer Route40BattleTowerGateTwinText
 
 Route40BattleTowerGateUnusedText1: ; unreferenced
-	text "Bist du auch ge-"
+	text "Bist Du auch ge-"
 	line "kommen, um den"
 	cont "DUELLTURM zu"
 	cont "sehen?"
 
-	para "Aber du kannst"
+	para "Aber Du kannst"
 	line "noch nicht hinein."
 	done
 
@@ -41,14 +41,14 @@ Route40BattleTowerGateUnusedText2: ; unreferenced
 	done
 
 Route40BattleTowerGateRockerText:
-	text "Gehst du zum"
+	text "Gehst Du zum"
 	line "DUELLTURM?"
 
 	para "Das ist ein Ge-"
-	line "heimnis, aber du"
+	line "heimnis, aber Du"
 
 	para "erhältst spezielle"
-	line "Preise, wenn du"
+	line "Preise, wenn Du"
 	cont "oft gewinnst."
 	done
 
@@ -69,7 +69,7 @@ Route40BattleTowerGateTwinText:
 	line "sind unter-"
 	cont "schiedlich."
 
-	para "Ich muss sie jetzt"
+	para "Ich muß sie jetzt"
 	line "trainieren!"
 	done
 

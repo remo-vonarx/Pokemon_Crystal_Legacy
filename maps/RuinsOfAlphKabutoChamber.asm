@@ -158,10 +158,10 @@ RuinsOfAlphKabutoChamberReceptionistText:
 	line "stammt."
 
 	para "Verschiebe die"
-	line "Platten so, dass"
+	line "Platten so, daß"
 	cont "ein Bild entsteht."
 
-	para "Rechts findest du"
+	para "Rechts findest Du"
 	line "eine Beschreibung"
 	cont "des #MON."
 

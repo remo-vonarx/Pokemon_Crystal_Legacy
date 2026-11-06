@@ -28,7 +28,7 @@ Route2NuggetHouseBookshelf: ; unreferenced
 
 Route2NuggetHouseFisherText:
 	text "Hi! Ich bin froh"
-	line "dich zu sehen."
+	line "Dich zu sehen."
 
 	para "Mich hat schon"
 	line "lange Zeit niemand"
@@ -36,18 +36,18 @@ Route2NuggetHouseFisherText:
 
 	para "Ich bin über-"
 	line "glücklich! Das"
-	cont "hier ist für dich."
+	cont "hier ist für Dich."
 	done
 
 Route2NuggetHouseFisherText_GotNugget:
 	text "Das ist ein"
 	line "NUGGET."
 
-	para "Ich kann dir keine"
+	para "Ich kann Dir keine"
 	line "weisen Ratschläge"
 
 	para "mitgeben, das hier"
-	line "muss ausreichen!"
+	line "muß ausreichen!"
 	done
 
 Route2NuggetHouse_MapEvents:

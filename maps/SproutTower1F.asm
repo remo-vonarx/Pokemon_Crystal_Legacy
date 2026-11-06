@@ -58,15 +58,15 @@ SageChowAfterBattleText:
 	line "Koexistenz ist"
 	cont "Zusammenarbeit."
 
-	para "Lasst uns dies"
+	para "Laßt uns dies"
 	line "nie vergessen!"
 	done
 
 SproutTower1FSage1Text:
-	text "Nur wenn du es bis"
+	text "Nur wenn Du es bis"
 	line "ganz nach oben"
 	cont "schaffst, erhältst"
-	cont "du eine VM."
+	cont "Du eine VM."
 	done
 
 SproutTower1FSage2Text:
@@ -88,11 +88,11 @@ SproutTower1FGrannyText:
 	done
 
 SproutTower1FTeacherText:
-	text "Siehst du, wie sie"
+	text "Siehst Du, wie sie"
 	line "sich bewegt?"
 
 	para "Die Trainer fin-"
-	line "dest du oben."
+	line "dest Du oben."
 	done
 
 SproutTower1FStatueText:

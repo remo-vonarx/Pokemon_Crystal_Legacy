@@ -89,9 +89,9 @@ HikerRussellSeenText:
 	line "Weg nach AZALEA"
 	cont "CITY, nicht wahr?"
 
-	para "Lass meine #MON"
+	para "Laß meine #MON"
 	line "entscheiden, ob"
-	cont "du eines Kampfes"
+	cont "Du eines Kampfes"
 	cont "würdig bist."
 	done
 
@@ -114,10 +114,10 @@ PokemaniacLarrySeenText:
 	cont "ich durch das"
 	cont "Land."
 
-	para "Suchst du auch"
+	para "Suchst Du auch"
 	line "nach #MON?"
 
-	para "Dann bist du"
+	para "Dann bist Du"
 	line "mein Rivale!"
 	done
 
@@ -128,7 +128,7 @@ PokemaniacLarryBeatenText:
 
 PokemaniacLarryAfterBattleText:
 	text "Jeden Freitag"
-	line "kannst du #MON"
+	line "kannst Du #MON"
 
 	para "in dieser Höhle"
 	line "brüllen hören."
@@ -175,7 +175,7 @@ FirebreatherBillBeatenText:
 
 FirebreatherBillAfterBattleText:
 	text "Am Wochenende"
-	line "kannst du #MON"
+	line "kannst Du #MON"
 
 	para "in dieser Höhle"
 	line "brüllen hören."
@@ -186,8 +186,8 @@ FirebreatherRaySeenText:
 	line "einem eine Höhle"
 	cont "keine Angst ein."
 
-	para "Bist du stark"
-	line "genug, jagen dir"
+	para "Bist Du stark"
+	line "genug, jagen Dir"
 	cont "#MON keine"
 	cont "Angst ein."
 	done

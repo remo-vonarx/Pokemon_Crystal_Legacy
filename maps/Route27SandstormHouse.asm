@@ -40,12 +40,12 @@ SandstormHouseBookshelf:
 	jumpstd MagazineBookshelfScript
 
 SandstormHouseWomanText1:
-	text "Wohin möchtest du"
+	text "Wohin möchtest Du"
 	line "mit den #MON?"
 
 	para "Zur #MON LIGA?"
 
-	para "Sind deine #MON"
+	para "Sind Deine #MON"
 	line "loyal genug, um"
 	cont "zu gewinnen?"
 
@@ -55,7 +55,7 @@ SandstormHouseWomanText1:
 
 SandstormHouseWomanLoyalText:
 	text "Ah! Deine #MON"
-	line "vertrauen dir"
+	line "vertrauen Dir"
 	cont "blind."
 
 	para "Es ist schön, ei-"
@@ -63,7 +63,7 @@ SandstormHouseWomanLoyalText:
 	cont "zu treffen."
 
 	para "Hier, ein Geschenk"
-	line "für deine Reise."
+	line "für Deine Reise."
 	done
 
 SandstormHouseSandstormDescription:
@@ -79,17 +79,17 @@ SandstormHouseSandstormDescription:
 	cont "sie einsetzen."
 
 	para "Setze sie ein,"
-	line "wenn du dich"
+	line "wenn Du Dich"
 	cont "traust! Viel"
 	cont "Glück!"
 	done
 
 SandstormHouseWomanDisloyalText:
-	text "Falls es dir nicht"
+	text "Falls es Dir nicht"
 	line "mehr Vertrauen"
 
 	para "schenkt, wird es"
-	line "schwer für dich."
+	line "schwer für Dich."
 
 	para "Vertrauen ist der"
 	line "Bund zwischen"

@@ -97,11 +97,11 @@ Route35GoldenrodGateFisherScript:
 Route35GoldenrodGateRandyAskTakeThisMonToMyFriendText:
 	text "Entschuldige,"
 	line "bitte!"
-	cont "Könntest du mir"
+	cont "Könntest Du mir"
 	cont "einen Gefallen"
 	cont "tun?"
 
-	para "Könntest du dieses"
+	para "Könntest Du dieses"
 	line "#MON, das einen"
 	cont "BRIEF trägt,"
 	cont "zu meinem Freund"
@@ -112,7 +112,7 @@ Route35GoldenrodGateRandyAskTakeThisMonToMyFriendText:
 	done
 
 Route35GoldenrodGateRandyThanksText:
-	text "Das würdest du"
+	text "Das würdest Du"
 	line "tun? Super!"
 	cont "Vielen Dank!"
 
@@ -162,13 +162,13 @@ Route35GoldenrodGateRandyOhNeverMindThenText:
 	done
 
 Route35GoldenrodGateRandySomethingForYourTroubleText:
-	text "Ich danke dir!"
+	text "Ich danke Dir!"
 	line "Du hast die"
 	cont "Lieferung für mich"
 	cont "erledigt!"
 
 	para "Ich habe hier"
-	line "etwas für dich"
+	line "etwas für Dich"
 	cont "wegen der Un-"
 	cont "annehmlichkeiten!"
 	done
@@ -177,7 +177,7 @@ Route35GoldenrodGateRandyMyPalWasSnoozingRightText:
 	text "Mein Freund hat"
 	line "geschlafen, nicht"
 	cont "wahr? Na, was"
-	cont "habe ich dir"
+	cont "habe ich Dir"
 	cont "gesagt?"
 	done
 
@@ -191,7 +191,7 @@ Route35GoldenrodGatePokefanFText:
 	cont "ihn anspricht."
 
 	para "Ich habe gehört,"
-	line "dass er rasend"
+	line "daß er rasend"
 	cont "wurde, als ihn"
 
 	para "jemand mit Wasser"
@@ -215,9 +215,9 @@ Route35GoldenrodGateFisherText:
 	line "wohl geben mag."
 
 	para "Vor drei Jahren"
-	line "hat PROF. EICH"
+	line "hat PROF EICH"
 
-	para "verlautbart, dass"
+	para "verlautbart, daß"
 	line "es 150 verschie-"
 	cont "dene Arten geben"
 	cont "soll."

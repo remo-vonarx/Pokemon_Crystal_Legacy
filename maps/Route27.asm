@@ -343,21 +343,21 @@ Route27FisherHeyText:
 	done
 
 Route27FisherText:
-	text "Weißt du, was du"
+	text "Weißt Du, was Du"
 	line "gerade getan hast?"
 
-	para "Du hast deinen"
+	para "Du hast Deinen"
 	line "ersten Schritt in"
 	cont "KANTO gemacht."
 
 	para "Sieh auf die KARTE"
-	line "in deinem #COM."
+	line "in Deinem #COM."
 	done
 
 CooltrainermBlakeSeenText:
 	text "Du siehst sehr"
 	line "stark aus. Ich"
-	cont "will gegen dich"
+	cont "will gegen Dich"
 	cont "kämpfen!"
 	done
 
@@ -366,9 +366,9 @@ CooltrainermBlakeBeatenText:
 	done
 
 CooltrainermBlakeAfterBattleText:
-	text "Wenn du das hier"
+	text "Wenn Du das hier"
 	line "erfolgreich über-"
-	cont "stehst, wirst du"
+	cont "stehst, wirst Du"
 
 	para "die Wahrheit"
 	line "erkennen!"
@@ -412,7 +412,7 @@ CooltrainerfReenaAfterBattleText:
 	text "Du bist zwar nur"
 	line "ein Kind, aber man"
 
-	para "darf dich auch"
+	para "darf Dich auch"
 	line "nicht unter-"
 	cont "schätzen."
 	done
@@ -422,7 +422,7 @@ CooltrainerfMeganSeenText:
 	line "selten Menschen"
 	cont "vorbei."
 
-	para "Trainierst du"
+	para "Trainierst Du"
 	line "vollkommen allein?"
 	done
 
@@ -450,8 +450,8 @@ CooltrainerfMeganAfterBattleText:
 PsychicGilbertSeenText:
 	text "Sag nichts!"
 
-	para "Lass mich raten,"
-	line "woran du denkst."
+	para "Laß mich raten,"
+	line "woran Du denkst."
 
 	para "Mmmmmmm…"
 

@@ -454,10 +454,10 @@ FossilScientistReceiveText:
 RuinsOfAlphResearchCenterModifiedDexText:
 	text "Geschafft!"
 
-	para "Ich habe deinen"
+	para "Ich habe Deinen"
 	line "#DEX erweitert."
 
-	para "Ich habe dir einen"
+	para "Ich habe Dir einen"
 	line "optionalen #DEX"
 
 	para "extra für ICOGNITO"
@@ -465,7 +465,7 @@ RuinsOfAlphResearchCenterModifiedDexText:
 
 	para "speichert sie in"
 	line "der Reihenfolge,"
-	cont "in der du sie"
+	cont "in der Du sie"
 	cont "fängst."
 	done
 
@@ -476,7 +476,7 @@ RuinsOfAlphResearchCenterDexUpgradedText:
 
 RuinsOfAlphResearchCenterScientist3Text:
 	text "Jedes ICOGNITO,"
-	line "das du fängst,"
+	line "das Du fängst,"
 	cont "wird darin einge-"
 	cont "tragen."
 
@@ -486,7 +486,7 @@ RuinsOfAlphResearchCenterScientist3Text:
 	done
 
 RuinsOfAlphResearchCenterScientist3_PrinterAvailable:
-	text "Hast du alle"
+	text "Hast Du alle"
 	line "verschiedenen"
 	cont "ICOGNITO?"
 
@@ -525,7 +525,7 @@ RuinsOfAlphResearchCenterScientist1Text_UnownAppeared:
 	text "Es gibt #MON"
 	line "in den RUINEN?"
 
-	para "Das sind unfass-"
+	para "Das sind unfaß-"
 	line "bare Neuigkeiten!"
 
 	para "Das müssen wir"
@@ -534,7 +534,7 @@ RuinsOfAlphResearchCenterScientist1Text_UnownAppeared:
 
 RuinsOfAlphResearchCenterScientist1Text_GotAllUnown:
 	text "Unsere Forschung"
-	line "und deine Hilfe"
+	line "und Deine Hilfe"
 
 	para "geben uns einen"
 	line "tiefen Einblick in"
@@ -562,7 +562,7 @@ RuinsOfAlphResearchCenterScientist2Text:
 
 RuinsOfAlphResearchCenterScientist2Text_UnownAppeared:
 	text "Die seltsamen"
-	line "#MON, die du in"
+	line "#MON, die Du in"
 	cont "den RUINEN gesehen"
 	cont "hast?"
 
@@ -580,7 +580,7 @@ RuinsOfAlphResearchCenterScientist2Text_UnownAppeared:
 	done
 
 RuinsOfAlphResearchCenterUnusedText1: ; unreferenced
-	text "Wir denken, dass"
+	text "Wir denken, daß"
 	line "irgendetwas für"
 
 	para "die rätselhaften"
@@ -604,7 +604,7 @@ RuinsOfAlphResearchCenterUnusedText2: ; unreferenced
 	para "#KOM-CENTER"
 	line "errichtet wurde."
 
-	para "Das bedeutet, dass"
+	para "Das bedeutet, daß"
 	line "Radiowellen einen"
 
 	para "gewissen Einfluß"
@@ -651,7 +651,7 @@ RuinsOfAlphResearchCenterProfSilktreePhotoText:
 	line "the RESEARCH"
 
 	para "CENTER'S founder,"
-	line "PROF.SILKTREE."
+	line "PROF SILKTREE."
 	done
 
 RuinsOfAlphResearchCenterAcademicBooksText:

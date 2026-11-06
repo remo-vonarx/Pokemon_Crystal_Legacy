@@ -221,14 +221,14 @@ PryceText_Intro:
 	cont "litten."
 
 	para "Da ich der Ältere"
-	line "bin, lass mich dir"
+	line "bin, laß mich Dir"
 	cont "zeigen, was ich"
 	cont "meine."
 
 	para "Ich war schon mit"
 	line "#MON zusammen,"
 
-	para "bevor du geboren"
+	para "bevor Du geboren"
 	line "wurdest."
 
 	para "Ich verliere nicht"
@@ -242,15 +242,15 @@ PryceText_Intro:
 	done
 
 PryceText_Impressed:
-	text "Ich bin von deinem"
+	text "Ich bin von Deinem"
 	line "Können beein-"
 	cont "druckt."
 
-	para "Mit deinem starken"
-	line "Willen, wirst du"
+	para "Mit Deinem starken"
+	line "Willen, wirst Du"
 
 	para "alle Widrigkeiten"
-	line "in deinem Leben"
+	line "in Deinem Leben"
 	cont "überstehen."
 
 	para "Du bist dieses"
@@ -264,11 +264,11 @@ Text_ReceivedGlacierBadge:
 
 PryceText_GlacierBadgeSpeech:
 	text "Dieser ORDEN hebt"
-	line "den SPEZ-Wert dei-"
+	line "den SPEZ-Wert Dei-"
 	cont "ner #MON."
 
 	para "Außerdem können"
-	line "deine #MON"
+	line "Deine #MON"
 	cont "WHIRLPOOL einset-"
 	cont "zen, um echte"
 	cont "Strudel zu"
@@ -299,13 +299,13 @@ PryceText_CherishYourPokemon:
 	cont "sind, kehrt der"
 	cont "Frühling wieder."
 
-	para "Du und deine"
+	para "Du und Deine"
 	line "#MON werden"
 
 	para "noch viele Jahre"
 	line "zusammen sein."
 
-	para "Genießt eure ge-"
+	para "Genießt Eure ge-"
 	line "meinsame Zeit!"
 	done
 
@@ -349,9 +349,9 @@ Pryce_RematchDefeatText:
 	done
 
 BoarderRonaldSeenText:
-	text "Ich werde deine"
+	text "Ich werde Deine"
 	line "#MON einfrie-"
-	cont "ren, so dass sie"
+	cont "ren, so daß sie"
 	cont "sich nicht bewegen"
 	cont "können."
 	done
@@ -384,7 +384,7 @@ BoarderBradSeenText:
 	done
 
 BoarderBradBeatenText:
-	text "Siehst du jetzt,"
+	text "Siehst Du jetzt,"
 	line "wie ernst wir es"
 	cont "meinen?"
 	done
@@ -404,7 +404,7 @@ BoarderDouglasSeenText:
 
 BoarderDouglasBeatenText:
 	text "O.K. Ich verrate"
-	line "dir NORBERTs Ge-"
+	line "Dir NORBERTs Ge-"
 	cont "heimnis."
 	done
 
@@ -424,29 +424,29 @@ SkierRoxanneSeenText:
 	text "Um zu NORBERT, un-"
 	line "serem ARENALEITER,"
 
-	para "zu gelangen, musst"
-	line "du denken, bevor"
-	cont "du loslegst."
+	para "zu gelangen, mußt"
+	line "Du denken, bevor"
+	cont "Du loslegst."
 	done
 
 SkierRoxanneBeatenText:
 	text "Beim Skifahren"
 	line "würde ich nie ge-"
-	cont "gen dich verlie-"
+	cont "gen Dich verlie-"
 	cont "ren."
 	done
 
 SkierRoxanneAfterBattleText:
-	text "Wenn du nicht ge-"
+	text "Wenn Du nicht ge-"
 	line "nau rutschst,"
 
-	para "kommst du in die-"
+	para "kommst Du in die-"
 	line "ser PKMN-ARENA"
 	cont "nicht weit."
 	done
 
 SkierClarissaSeenText:
-	text "Sieh dir meinen"
+	text "Sieh Dir meinen"
 	line "Parallelschwung"
 	cont "an!"
 	done
@@ -489,7 +489,7 @@ MahoganyGymGuideText:
 
 MahoganyGymGuideWinText:
 	text "NORBERT ist nicht"
-	line "übel, aber du"
+	line "übel, aber Du"
 	cont "bist noch besser!"
 
 	para "Das war ein heißer"

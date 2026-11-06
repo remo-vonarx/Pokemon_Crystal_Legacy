@@ -53,7 +53,7 @@ WardensGranddaughterText1:
 
 WardensGranddaughterText2:
 	text "Viele Leute waren"
-	line "traurig, dass die"
+	line "traurig, daß die"
 
 	para "SAFARI-ZONE ge-"
 	line "schlossen wurde."

@@ -50,17 +50,17 @@ SailorErnestSeenText:
 
 	para "kämpfen, aber sie"
 	line "ist nicht da. Wie"
-	cont "wäre es mit dir?"
+	cont "wäre es mit Dir?"
 	done
 
 SailorErnestBeatenText:
-	text "Wow, du hast mich"
+	text "Wow, Du hast mich"
 	line "überwältigt!"
 	done
 
 SailorErnestAfterBattleText:
 	text "Ein ARENALEITER"
-	line "muss nicht nur"
+	line "muß nicht nur"
 
 	para "stark sein. Auch"
 	line "Mitgefühl"

@@ -69,7 +69,7 @@ SaffronPokecenter1FTeacherMobileText:
 	para "Dann sage ich mei-"
 	line "nem Freund in"
 
-	para "JOHTO, dass er mir"
+	para "JOHTO, daß er mir"
 	line "ein MARILL fangen"
 
 	para "und dann mit mir"

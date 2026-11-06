@@ -144,11 +144,11 @@ BrunoScript_BrunoBeforeText:
 	line "ich so stark"
 	cont "geworden."
 
-	para "Kannst du unserer"
+	para "Kannst Du unserer"
 	line "Kraft widerstehen?"
 
-	para "Hm? Ich sehe, du"
-	line "fürchtest dich"
+	para "Hm? Ich sehe, Du"
+	line "fürchtest Dich"
 
 	para "nicht und siehst"
 	line "entschlossen aus."
@@ -156,7 +156,7 @@ BrunoScript_BrunoBeforeText:
 	cont "einen Kampf!"
 
 	para "Bereit, <PLAYER>?"
-	line "Du wirst dich"
+	line "Du wirst Dich"
 
 	para "unserer unbändigen"
 	line "Kraft beugen"
@@ -172,10 +172,10 @@ BrunoScript_BrunoBeatenText:
 
 BrunoScript_BrunoDefeatText:
 	text "Da ich verloren"
-	line "habe, muss ich"
+	line "habe, muß ich"
 	cont "jetzt still sein…"
 
-	para "Bereite dich auf"
+	para "Bereite Dich auf"
 	line "die nächste"
 	cont "Herausforderung"
 	cont "vor!"

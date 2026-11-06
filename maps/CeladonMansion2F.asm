@@ -22,11 +22,11 @@ CeladonMansion2FComputerText:
 	line "dabei, eine E-Mail"
 	cont "aufzusetzen."
 
-	para "…Ich hoffe, du"
+	para "…Ich hoffe, Du"
 	line "kommst einmal nach"
 	cont "KANTO."
 
-	para "Ich glaube, du"
+	para "Ich glaube, Du"
 	line "wärst überrascht,"
 
 	para "wie viel sich hier"

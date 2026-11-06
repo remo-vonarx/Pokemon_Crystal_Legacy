@@ -26,7 +26,7 @@ MrFujiText:
 	line "willkommen."
 
 	para "Hm… Du scheinst"
-	line "deine #MON"
+	line "Deine #MON"
 
 	para "mit Sorgfalt und"
 	line "Liebe aufzuziehen."
@@ -39,7 +39,7 @@ MrFujiText:
 	cont "#MON ihren"
 	cont "Respekt."
 
-	para "Bekunde bitte dein"
+	para "Bekunde bitte Dein"
 	line "Beileid für die"
 
 	para "Seelen der"

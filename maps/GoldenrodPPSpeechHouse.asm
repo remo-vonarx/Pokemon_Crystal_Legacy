@@ -44,7 +44,7 @@ GoldenrodPPSpeechHouseLassText:
 	line "angreifen."
 
 	para "In diesem Fall"
-	line "musst du es in ei-"
+	line "mußt Du es in ei-"
 	cont "nem #MON-CENTER"
 	cont "oder mit einem"
 	cont "Item heilen."

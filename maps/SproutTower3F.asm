@@ -161,12 +161,12 @@ SproutTowerElderLecturesRivalText:
 	cont "begabter Trainer."
 
 	para "Wie abgemacht, be-"
-	line "kommst du die VM."
+	line "kommst Du die VM."
 
-	para "Eines gebe ich dir"
+	para "Eines gebe ich Dir"
 	line "noch mit: "
 
-	para "Behandle deine"
+	para "Behandle Deine"
 	line "#MON besser."
 
 	para "Dein Kampfstil"
@@ -185,7 +185,7 @@ SproutTowerRivalOnlyCareAboutStrongText:
 	cont "sein. Aber er ist"
 	cont "schwach."
 
-	para "Das muss noch"
+	para "Das muß noch"
 	line "geklärt werden."
 
 	para "Ich würde nie ge-"
@@ -211,7 +211,7 @@ SproutTowerRivalUsedEscapeRopeText:
 	done
 
 SageLiSeenText:
-	text "Schön, dass du"
+	text "Schön, daß Du"
 	line "gekommen bist!"
 
 	para "Der KNOFENSA-TURM"
@@ -230,12 +230,12 @@ SageLiSeenText:
 	line "Und ich bin der"
 
 	para "letzte Test."
-	line "Erlaube, dass ich"
+	line "Erlaube, daß ich"
 
 	para "die Freundschaft"
-	line "zwischen dir und"
+	line "zwischen Dir und"
 
-	para "deinen #MON"
+	para "Deinen #MON"
 	line "überprüfe!"
 	done
 
@@ -244,7 +244,7 @@ SageLiBeatenText:
 	done
 
 SageLiTakeThisFlashText:
-	text "Du und dein #-"
+	text "Du und Dein #-"
 	line "MON dürftet keine"
 
 	para "Probleme mit die-"
@@ -256,7 +256,7 @@ SageLiTakeThisFlashText:
 
 SageLiFlashExplanationText:
 	text "Mit BLITZ kannst"
-	line "du die dunkelsten"
+	line "Du die dunkelsten"
 	cont "Orte erhellen."
 
 	para "Um BLITZ auch"
@@ -264,15 +264,15 @@ SageLiFlashExplanationText:
 
 	para "Kampfes anwenden"
 	line "zu können, benö-"
-	cont "tigst du den ORDEN"
-	cont "des ARENALEITERs"
+	cont "tigst Du den ORDEN"
+	cont "des ARENALEITERS"
 	cont "von VIOLA CITY."
 	done
 
 SageLiAfterBattleText:
-	text "Ich hoffe, du"
+	text "Ich hoffe, Du"
 	line "lernst viel auf"
-	cont "deiner Reise."
+	cont "Deiner Reise."
 	done
 
 SageJinSeenText:
@@ -302,12 +302,12 @@ SageJinAfterBattleText:
 
 SageTroySeenText:
 	text "Ich will sehen,"
-	line "wie sehr du deinen"
+	line "wie sehr Du Deinen"
 	cont "#MON vertraust."
 	done
 
 SageTroyBeatenText:
-	text "Ja, du vertraust"
+	text "Ja, Du vertraust"
 	line "ihnen wirklich!"
 	done
 
@@ -318,7 +318,7 @@ SageTroyAfterBattleText:
 
 SageNealSeenText:
 	text "Mit der VM des"
-	line "WEISEN kannst du"
+	line "WEISEN kannst Du"
 	cont "selbst dunkelste"
 	cont "Orte erhellen."
 	done
@@ -329,7 +329,7 @@ SageNealBeatenText:
 	done
 
 SageNealAfterBattleText:
-	text "Möge dein Weg"
+	text "Möge Dein Weg"
 	line "erleuchtet sein."
 	done
 

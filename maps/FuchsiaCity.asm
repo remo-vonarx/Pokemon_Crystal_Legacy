@@ -69,7 +69,7 @@ FuchsiaCityPokefanMText:
 	done
 
 FuchsiaCityTeacherText:
-	text "Schade, dass die"
+	text "Schade, daß die"
 	line "SAFARI-ZONE"
 
 	para "geschlossen ist…"
@@ -108,7 +108,7 @@ SafariZoneOfficeSignText:
 
 WardensHomeSignText:
 	text "SAFARI-ZONE"
-	line "HAUS DES WÄRTERs"
+	line "HAUS DES WÄRTERS"
 	done
 
 SafariZoneClosedSignText:

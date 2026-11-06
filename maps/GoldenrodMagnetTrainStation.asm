@@ -121,11 +121,11 @@ GoldenrodMagnetTrainStationOfficerAreYouComingAboardText:
 	line "ze nach SAFFRONIA"
 	cont "CITY abreisen."
 
-	para "Kommst du mit?"
+	para "Kommst Du mit?"
 	done
 
 GoldenrodMagnetTrainStationOfficerRightThisWayText:
-	text "Darf ich deinen"
+	text "Darf ich Deinen"
 	line "FAHRSCHEIN sehen?"
 
 	para "O.K. Bitte hier"
@@ -134,7 +134,7 @@ GoldenrodMagnetTrainStationOfficerRightThisWayText:
 
 GoldenrodMagnetTrainStationOfficerYouDontHaveARailPassText:
 	text "Verzeihung, aber"
-	line "du hast keinen"
+	line "Du hast keinen"
 	cont "FAHRSCHEIN."
 	done
 

@@ -83,7 +83,7 @@ CooltrainermNickSeenText:
 	line "und jene ohne."
 
 	para "Zu welcher zählst"
-	line "du dich?"
+	line "Du Dich?"
 	done
 
 CooltrainermNickBeatenText:
@@ -104,7 +104,7 @@ CooltrainermNickAfterBattleText:
 CooltrainerfGwenSeenText:
 	text "Ich trainiere"
 	line "momentan. Möchtest"
-	cont "du kämpfen?"
+	cont "Du kämpfen?"
 	done
 
 CooltrainerfGwenBeatenText:

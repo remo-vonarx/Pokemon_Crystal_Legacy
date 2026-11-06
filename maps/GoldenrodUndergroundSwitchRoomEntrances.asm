@@ -727,7 +727,7 @@ UndergroundSilverAfterText:
 	line "dieser SIEGFRIED"
 	cont "erzählt?"
 
-	para "Dass ich meine"
+	para "Daß ich meine"
 	line "#MON nicht"
 	cont "richtig behandle?"
 
@@ -739,7 +739,7 @@ UndergroundSilverAfterText:
 	line "wirklich?"
 
 	para "Verhindern diese"
-	line "Mängel, dass ich"
+	line "Mängel, daß ich"
 	cont "gewinne?"
 
 	para "Ich… ich verstehe"
@@ -761,7 +761,7 @@ UndergroundSilverAfterText:
 UndergroundSilverLossText:
 	text "Hm. Das ist meine"
 	line "wahre Stärke,"
-	cont "du Schwächling."
+	cont "Du Schwächling."
 
 	para "TEAM ROCKET wird"
 	line "dank mir nur noch"
@@ -799,10 +799,10 @@ GruntM11SeenText:
 	line "laden und ein an-"
 	cont "derer schließt."
 
-	para "Ich wette, du"
+	para "Ich wette, Du"
 	line "kommst nicht so"
-	cont "weit, wie du es"
-	cont "dir vorstellst!"
+	cont "weit, wie Du es"
+	cont "Dir vorstellst!"
 	done
 
 GruntM11BeatenText:
@@ -816,7 +816,7 @@ GruntM11AfterBattleText:
 	line "verwirrt. Der"
 
 	para "letzte Schalter"
-	line "muss zuerst"
+	line "muß zuerst"
 	cont "betätigt werden,"
 	cont "aber…"
 	done
@@ -828,9 +828,9 @@ GruntM25SeenText:
 	line "Rollläden ver-"
 	cont "wirrt!"
 
-	para "Ich verrate dir"
+	para "Ich verrate Dir"
 	line "ein Geheimnis,"
-	cont "wenn du mich"
+	cont "wenn Du mich"
 	cont "besiegst!"
 	done
 
@@ -854,7 +854,7 @@ GruntM25AfterBattleText:
 	done
 
 BurglarDuncanSeenText:
-	text "Wirf deine"
+	text "Wirf Deine"
 	line "Goodies herüber!"
 	done
 
@@ -888,16 +888,16 @@ BurglarEddieAfterBattleText:
 	text "UNTERGRUND"
 	line "LAGERHAUS?"
 
-	para "Warum möchtest du"
+	para "Warum möchtest Du"
 	line "dorthin?"
 
 	para "Da unten wirst"
-	line "du nichts finden."
+	line "Du nichts finden."
 	done
 
 GruntM13SeenText:
 	text "Es ist mir egal,"
-	line "wenn du dich"
+	line "wenn Du Dich"
 	cont "verläufst."
 
 	para "Du tauchst hier"
@@ -907,13 +907,13 @@ GruntM13SeenText:
 
 GruntM13BeatenText:
 	text "Urk! Du glaubst,"
-	line "du bist cool, häh?"
+	line "Du bist cool, häh?"
 	done
 
 GruntM13AfterBattleText:
-	text "Durch deine Venen"
+	text "Durch Deine Venen"
 	line "fließt wohl Eis,"
-	cont "da du TEAM ROCKET"
+	cont "da Du TEAM ROCKET"
 	cont "nicht für bare"
 	cont "Münze nimmst."
 	done
@@ -924,27 +924,27 @@ SwitchRoomText_Switch1:
 	done
 
 GruntF3SeenText:
-	text "Hast du dich"
+	text "Hast Du Dich"
 	line "verirrt? Nein, das"
 	cont "kann nicht sein."
 
 	para "Es ist keine Angst"
-	line "in deinem Blick."
+	line "in Deinem Blick."
 
-	para "Ich zeige dir"
-	line "etwas, das dir"
+	para "Ich zeige Dir"
+	line "etwas, das Dir"
 	cont "Angst macht!"
 	done
 
 GruntF3BeatenText:
-	text "Wie konntest du?"
+	text "Wie konntest Du?"
 	done
 
 GruntF3AfterBattleText:
 	text "Geh nur! Verlaufe"
-	line "dich! Dann wirst"
-	cont "du feststellen,"
-	cont "dass es mir egal"
+	line "Dich! Dann wirst"
+	cont "Du feststellen,"
+	cont "daß es mir egal"
 	cont "ist!"
 	done
 

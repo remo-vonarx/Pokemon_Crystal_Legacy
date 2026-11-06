@@ -143,14 +143,14 @@ KimonoGirlNaokoSeenText:
 	done
 
 KimonoGirlNaokoBeatenText:
-	text "Oh, du bist sehr"
+	text "Oh, Du bist sehr"
 	line "stark."
 	done
 
 KimonoGirlNaokoAfterBattleText:
 	text "Das war ein toller"
 	line "Kampf. Ich würde"
-	cont "dich gerne mal"
+	cont "Dich gerne mal"
 	cont "wieder sehen."
 	done
 
@@ -166,7 +166,7 @@ KimonoGirlSayoSeenText:
 KimonoGirlSayoBeatenText:
 	text "Oh, beinahe!"
 	line "Fast hätte ich"
-	cont "dich gehabt."
+	cont "Dich gehabt."
 	done
 
 KimonoGirlSayoAfterBattleText:
@@ -200,14 +200,14 @@ KimonoGirlZukiAfterBattleText:
 	done
 
 KimonoGirlKuniSeenText:
-	text "Oh, du scheinst"
+	text "Oh, Du scheinst"
 	line "nett zu sein."
-	cont "Willst du kämpfen?"
+	cont "Willst Du kämpfen?"
 	done
 
 KimonoGirlKuniBeatenText:
 	text "Du bist stärker"
-	line "als du aussiehst."
+	line "als Du aussiehst."
 	done
 
 KimonoGirlKuniAfterBattleText:
@@ -220,15 +220,15 @@ KimonoGirlKuniAfterBattleText:
 	done
 
 KimonoGirlMikiSeenText:
-	text "Gefällt dir mein"
+	text "Gefällt Dir mein"
 	line "Tanz? Ich kenne"
 	cont "mich auch gut mit"
 	cont "#MON aus."
 	done
 
 KimonoGirlMikiBeatenText:
-	text "Ooh, du kennst"
-	line "dich auch gut mit"
+	text "Ooh, Du kennst"
+	line "Dich auch gut mit"
 	cont "#MON aus."
 	done
 
@@ -262,30 +262,30 @@ SurfGuyNeverLeftAScratchText:
 	done
 
 SurfGuyLadGiftText:
-	text "Junge! Wenn du"
+	text "Junge! Wenn Du"
 	line "alle KIMONO-GIRLS"
 
 	para "besiegst, gebe ich"
-	line "dir ein Geschenk."
+	line "Dir ein Geschenk."
 	done
 
 SurfGuyLassieGiftText:
-	text "Kleine! Wenn du"
+	text "Kleine! Wenn Du"
 	line "alle KIMONO-GIRLS"
 
 	para "besiegst, gebe ich"
-	line "dir ein Geschenk."
+	line "Dir ein Geschenk."
 	done
 
 SurfGuyLikeADanceText:
-	text "Die Art wie du"
+	text "Die Art wie Du"
 	line "kämpfst, ist wie"
 	cont "ein Tanz."
 
 	para "So etwas sieht man"
 	line "nicht oft!"
 
-	para "Ich möchte dir et-"
+	para "Ich möchte Dir et-"
 	line "was geben. Nur zu!"
 	cont "Nimm es ruhig!"
 	done
@@ -315,7 +315,7 @@ DanceTheatreCooltrainerMText:
 	line "immer sein RIZEROS"
 	cont "dabei."
 
-	para "Er sagt, dass er"
+	para "Er sagt, daß er"
 	line "ein #MON haben"
 	cont "will, das SURFEN"
 	cont "und tanzen kann."
@@ -340,7 +340,7 @@ DanceTheatreGrannyText:
 	line "öffentlich auftre-"
 	cont "ten."
 
-	para "Aber wenn du etwas"
+	para "Aber wenn Du etwas"
 	line "liebst, ist alles"
 	cont "möglich."
 	done

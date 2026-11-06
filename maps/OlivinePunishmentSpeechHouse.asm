@@ -23,7 +23,7 @@ OlivinePunishmentSpeechHouseDadText:
 	text "Auf dem Weg nach"
 	line "ANEMONIA CITY"
 
-	para "siehst du vier"
+	para "siehst Du vier"
 	line "verlassene Inseln."
 
 	para "Ungezogene Kinder"

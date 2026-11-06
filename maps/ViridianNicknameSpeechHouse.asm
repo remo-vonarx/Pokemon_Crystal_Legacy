@@ -32,11 +32,11 @@ Rattey:
 	end
 
 ViridianNicknameSpeechHousePokefanMText:
-	text "Machst du dir"
+	text "Machst Du Dir"
 	line "viele Gedanken"
 
-	para "darüber, wie du"
-	line "deine #MON"
+	para "darüber, wie Du"
+	line "Deine #MON"
 	cont "nennen sollst?"
 
 	para "Das Tauschen von"

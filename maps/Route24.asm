@@ -74,16 +74,16 @@ Route24RocketSeenText:
 
 	para "Geheim mein"
 	line "Auftrag sein, ich"
-	cont "dir nix verraten!"
+	cont "Dir nix verraten!"
 
 	para "Doch! Wenn mich"
 	line "besiegen, ich sein"
 
-	para "lieb und dir"
+	para "lieb und Dir"
 	line "verrate Geheimnis."
 
 	para "Du, Kind! Kämpfen"
-	line "lass uns!"
+	line "laß uns!"
 	done
 
 Route24RocketBeatenText:
@@ -91,13 +91,13 @@ Route24RocketBeatenText:
 	line "glauben nicht ich"
 	cont "kann!"
 
-	para "Stark sehr du"
+	para "Stark sehr Du"
 	line "sein! Ich nix"
-	cont "Gegner für dich!"
+	cont "Gegner für Dich!"
 	done
 
 Route24RocketAfterBattleText:
-	text "O.K. Verraten dir"
+	text "O.K. Verraten Dir"
 	line "meine Geheimnis."
 
 	para "SPULE, gestohlen"
@@ -112,10 +112,10 @@ Route24RocketAfterBattleText:
 	para "Mitte von PKMN-"
 	line "ARENA Wasser sein."
 
-	para "Kind, du mich"
+	para "Kind, Du mich"
 	line "vergessen nicht!"
 
-	para "Besiege dir wird"
+	para "Besiege Dir wird"
 	line "TEAM ROCKET tun."
 
 	para "Werden kommen aus"
@@ -128,11 +128,11 @@ Route24RocketAfterBattleText:
 Route24RocketDisappearsText:
 	text "…"
 
-	para "Was du sagen? TEAM"
+	para "Was Du sagen? TEAM"
 	line "ROCKET nix mehr"
 
 	para "gibt? Kaputt"
-	line "gemacht, du sagen?"
+	line "gemacht, Du sagen?"
 
 	para "Oh, nein! Ich"
 	line "tun was jetzt"

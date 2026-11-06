@@ -10,7 +10,7 @@ Route8SaffronGateOfficerScript:
 	jumptextfaceplayer Route8SaffronGateOfficerText
 
 Route8SaffronGateOfficerText:
-	text "Warst du schon in"
+	text "Warst Du schon in"
 	line "LAVANDIA?"
 
 	para "Dort steht ein"

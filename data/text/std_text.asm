@@ -39,7 +39,7 @@ PokeComNurseDayText:
 	done
 
 PokeComNurseNiteText:
-	text "Schön dass du noch"
+	text "Schön daß Du noch"
 	line "unterwegs bist."
 
 	para "This is the #-"
@@ -50,7 +50,7 @@ PokeComNurseNiteText:
 	done
 
 NurseAskHealText:
-	text "Wir heilen deine"
+	text "Wir heilen Deine"
 	line "#MON und"
 	cont "machen sie wieder"
 	cont "fit!"
@@ -58,7 +58,7 @@ NurseAskHealText:
 
 NurseTakePokemonText:
 	text "O.K. Wir benötigen"
-	line "deine #MON."
+	line "Deine #MON."
 	done
 
 NurseReturnPokemonText:
@@ -83,7 +83,7 @@ NurseGoodbyeText:
 	done
 
 NursePokerusText:
-	text "An deinen #MON"
+	text "An Deinen #MON"
 	line "sitzen winzige"
 
 	para "Lebewesen."
@@ -93,14 +93,14 @@ NursePokerusText:
 	line "kräftig aus."
 
 	para "Leider können wir"
-	line "dir hier auch"
+	line "Dir hier auch"
 
 	para "nicht mehr sagen."
 	done
 
 PokeComNursePokerusText:
 	text "Es scheint, als ob"
-	line "deine #MON von"
+	line "Deine #MON von"
 
 	para "winzigen Lebewesen"
 	line "befallen sind."
@@ -110,7 +110,7 @@ PokeComNursePokerusText:
 	cont "gesund."
 
 	para "Mehr können wir"
-	line "dir nicht sagen."
+	line "Dir nicht sagen."
 	done
 
 DifficultBookshelfText:
@@ -193,7 +193,7 @@ HomepageText:
 	text "#MON-RADIO!"
 
 	para "Ruft an und äußert"
-	line "eure Wünsche!"
+	line "Eure Wünsche!"
 	done
 
 TrashCanText:
@@ -215,7 +215,7 @@ TrashCanText:
 	done
 
 PokecenterSignText:
-	text "Lass deine"
+	text "Laß Deine"
 	line "#MON in einem"
 	cont "#MON-CENTER"
 	cont "heilen!"
@@ -225,13 +225,13 @@ MartSignText:
 	text "Alles, was ein"
 	line "#MON benötigt,"
 
-	para "findest du im"
+	para "findest Du im"
 	line "PKMN-SUPERMARKT!"
 	done
 
 ContestResults_ReadyToJudgeText:
 	text "Wir bewerten nun"
-	line "deine gefangenen"
+	line "Deine gefangenen"
 
 	para "#MON.<……>"
 	line "<……>"
@@ -239,7 +239,7 @@ ContestResults_ReadyToJudgeText:
 	para "Die Gewinner"
 	line "stehen fest!"
 
-	para "Bist du bereit?"
+	para "Bist Du bereit?"
 	done
 
 ContestResults_PlayerWonAPrizeText:
@@ -273,14 +273,14 @@ ContestResults_ConsolationPrizeText:
 
 ContestResults_DidNotWinText:
 	text "Hoffentlich"
-	line "schneidest du beim"
+	line "schneidest Du beim"
 	cont "nächsten Mal"
 	cont "besser ab."
 	done
 
 ContestResults_ReturnPartyText:
-	text "Wir geben dir"
-	line "deine #MON"
+	text "Wir geben Dir"
+	line "Deine #MON"
 
 	para "zurück."
 	line "Bitte schön!"
@@ -315,32 +315,32 @@ CoinVendor_WelcomeText:
 	done
 
 CoinVendor_NoCoinCaseText:
-	text "Brauchst du noch"
+	text "Brauchst Du noch"
 	line "Spielmünzen?"
 
-	para "Oh, du hast noch"
+	para "Oh, Du hast noch"
 	line "keinen MÜNZKORB"
-	cont "für deine Münzen."
+	cont "für Deine Münzen."
 	done
 
 CoinVendor_IntroText:
-	text "Brauchst du noch"
+	text "Brauchst Du noch"
 	line "Spielmünzen?"
 
 	para "50 Münzen kosten"
 	line "¥1000. Möchtest"
-	cont "du welche kaufen?"
+	cont "Du welche kaufen?"
 	done
 
 CoinVendor_Buy50CoinsText:
 	text "Dankeschön!"
-	line "Hier sind deine"
+	line "Hier sind Deine"
 	cont "50 Münzen!"
 	done
 
 CoinVendor_Buy500CoinsText:
 	text "Dankeschön!"
-	line "Hier sind deine"
+	line "Hier sind Deine"
 	cont "500 Münzen!"
 	done
 
@@ -365,33 +365,33 @@ BugContestPrizeNoRoomText:
 	line "ist voll."
 
 	para "Wir bewahren das"
-	line "für dich auf. Hol"
+	line "für Dich auf. Hol"
 
-	para "es dir ab, wenn"
-	line "du genügend Platz"
+	para "es Dir ab, wenn"
+	line "Du genügend Platz"
 	cont "geschaffen hast."
 	done
 
 HappinessText3:
-	text "Wow! Du und dein"
+	text "Wow! Du und Dein"
 	line "#MON versteht"
-	cont "euch sehr gut!"
+	cont "Euch sehr gut!"
 	done
 
 HappinessText2:
 	text "#MON werden"
 	line "zutraulicher, wenn"
 
-	para "du viel Zeit mit"
+	para "Du viel Zeit mit"
 	line "ihnen verbringst."
 	done
 
 HappinessText1:
-	text "Du hast dein"
+	text "Du hast Dein"
 	line "#MON noch nicht"
 	cont "gezähmt."
 
-	para "Wenn du es nicht"
+	para "Wenn Du es nicht"
 	line "gut behandelst,"
 	cont "ist es einge-"
 	cont "schnappt."

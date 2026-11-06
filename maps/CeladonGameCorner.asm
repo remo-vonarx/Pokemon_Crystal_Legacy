@@ -149,7 +149,7 @@ CeladonGameCornerUnusedMovementData: ; unreferenced
 CeladonGameCornerReceptionistText:
 	text "Willkommen!"
 
-	para "Du kannst deine"
+	para "Du kannst Deine"
 	line "Münzen nebenan"
 
 	para "gegen fabelhafte"
@@ -222,7 +222,7 @@ else
 	line "Du willst spielen?"
 
 	para "Ich teile mein"
-	line "Glück mit dir!"
+	line "Glück mit Dir!"
 	done
 endc
 
@@ -237,10 +237,10 @@ CeladonGameCornerFisherText2:
 	done
 
 CeladonGameCornerFisherNoCoinCaseText:
-	text "Eh, du hast keinen"
+	text "Eh, Du hast keinen"
 	line "MÜNZKORB."
 
-	para "Wie soll ich dir"
+	para "Wie soll ich Dir"
 	line "denn so Münzen"
 	cont "geben, Zwerg?"
 	done
@@ -251,7 +251,7 @@ if DEF(_CRYSTAL_AU)
 	line "voll."
 	done
 else
-	text "Heh, dein MÜNZKORB"
+	text "Heh, Dein MÜNZKORB"
 	line "ist voll, Wicht."
 
 	para "Du hast wohl auch"
@@ -267,7 +267,7 @@ CeladonGymGuideText:
 if DEF(_CRYSTAL_AU)
 	para "Spielst Du auch?"
 else
-	para "Spielst du auch an"
+	para "Spielst Du auch an"
 	line "den Automaten?"
 endc
 
@@ -325,7 +325,7 @@ CeladonGameCornerSodaCanText:
 	text "Eine Wasser-"
 	line "flasche…"
 
-	para "Die muss jemandem"
+	para "Die muß jemandem"
 	line "gehören, der sie"
 	cont "holen wird…"
 

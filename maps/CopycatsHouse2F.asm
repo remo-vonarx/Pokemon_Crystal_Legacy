@@ -200,10 +200,10 @@ CopycatSpinAroundMovementData:
 
 CopycatText_Male_1:
 	text "<PLAYER>: Hi! Magst"
-	line "du #MON?"
+	line "Du #MON?"
 
 	para "<PLAYER>: Äh, nein,"
-	line "ich frage dich."
+	line "ich frage Dich."
 
 	para "<PLAYER>: Was?"
 	line "Du bist komisch!"
@@ -223,18 +223,18 @@ CopycatText_Male_2:
 	text "<PLAYER>: Hi!"
 	line "Ich habe gehört,"
 
-	para "dass du deine"
+	para "daß Du Deine"
 	line "Lieblings-"
 	cont "#PUPPE"
 	cont "verloren hast."
 
-	para "<PLAYER>: Gibst du"
+	para "<PLAYER>: Gibst Du"
 	line "mir einen FAHR-"
 	cont "SCHEIN, wenn ich"
 	cont "sie finde?"
 
 	para "<PLAYER>: Ich suche"
-	line "sie für dich."
+	line "sie für Dich."
 
 	para "Du glaubst, sie"
 	line "auf dem Weg nach"
@@ -246,8 +246,8 @@ CopycatText_Worried:
 	text "NACHAHMERIN:"
 	line "Bitte?"
 
-	para "Ich soll dir nicht"
-	line "sagen, was du zu"
+	para "Ich soll Dir nicht"
+	line "sagen, was Du zu"
 	cont "tun hast?"
 
 	para "Aber ich mache mir"
@@ -261,7 +261,7 @@ CopycatText_GiveDoll:
 	line "Das ist meine"
 	cont "PIEPI-#PUPPE!"
 
-	para "Siehst du die"
+	para "Siehst Du die"
 	line "Naht am rechten"
 
 	para "Bein? Das ist"
@@ -304,18 +304,18 @@ CopycatText_Male_3:
 
 CopycatText_ItsAScream:
 	text "NACHAHMERIN: "
-	line "Darauf kannst du"
+	line "Darauf kannst Du"
 	cont "wetten!"
 	done
 
 CopycatText_Female_1:
 	text "<PLAYER>: Hi. Du"
-	line "musst #MON"
+	line "mußt #MON"
 	cont "mögen."
 
 	para "<PLAYER>: Nein,"
 	line "nicht ich. Ich"
-	cont "habe dich gefragt."
+	cont "habe Dich gefragt."
 
 	para "<PLAYER>: Bitte?"
 	line "Du bist seltsam!"
@@ -323,8 +323,8 @@ CopycatText_Female_1:
 
 CopycatText_Female_2:
 	text "<PLAYER>: Hi."
-	line "Hast du wirklich"
-	cont "deine #PUPPE"
+	line "Hast Du wirklich"
+	cont "Deine #PUPPE"
 	cont "verloren?"
 
 	para "<PLAYER>: Du"
@@ -334,11 +334,11 @@ CopycatText_Female_2:
 	line "falls ich sie"
 	cont "finde?"
 
-	para "<PLAYER>: Gewiss,"
+	para "<PLAYER>: Gewiß,"
 	line "ich halte die"
 	cont "Augen offen!"
 
-	para "Du denkst, du hast"
+	para "Du denkst, Du hast"
 	line "sie in ORANIA CITY"
 	cont "verloren?"
 	done

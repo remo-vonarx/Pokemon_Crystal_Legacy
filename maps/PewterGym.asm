@@ -102,7 +102,7 @@ BrockIntroText:
 	text "ROCKO: Wow, es"
 	line "kommt nicht oft"
 
-	para "vor, dass wir von"
+	para "vor, daß wir von"
 	line "einem Heraus-"
 	cont "forderer aus JOHTO"
 	cont "besucht werden."
@@ -120,7 +120,7 @@ BrockIntroText:
 
 	para "physischen Atta-"
 	line "cken immun. Es"
-	cont "wird dir schwer"
+	cont "wird Dir schwer"
 
 	para "fallen, ihnen"
 	line "Schaden zuzufügen."
@@ -130,7 +130,7 @@ BrockIntroText:
 BrockWinLossText:
 	text "ROCKO: Die mäch-"
 	line "tigen Attacken"
-	cont "deiner #MON"
+	cont "Deiner #MON"
 	cont "haben meine"
 	cont "felsenfeste"
 	cont "Verteidigung"
@@ -139,7 +139,7 @@ BrockWinLossText:
 	para "Du bist stärker,"
 	line "als ich dachte…"
 
-	para "Komm - Nimm dir"
+	para "Komm - Nimm Dir"
 	line "diesen ORDEN."
 	done
 
@@ -153,14 +153,14 @@ BrockBoulderBadgeText:
 	line "<PLAY_G>. Es war"
 
 	para "eine Freude, gegen"
-	line "dich zu kämpfen."
+	line "Dich zu kämpfen."
 
 	para "Auch wenn ich ein"
-	line "bisschen beleidigt"
+	line "bißchen beleidigt"
 	cont "bin."
 
 	para "Dieser FELSORDEN"
-	line "wird deine #-"
+	line "wird Deine #-"
 	cont "MON noch stärker"
 	cont "machen."
 	done
@@ -171,7 +171,7 @@ BrockFightDoneText:
 
 	para "immer noch viele"
 	line "starke Trainer wie"
-	cont "dich."
+	cont "Dich."
 
 	para "Warte nur ab. Ich"
 	line "werde auch noch"
@@ -208,33 +208,33 @@ Brock_RematchDefeatText:
 CamperJerrySeenText:
 	text "Die Trainer dieser"
 	line "PKMN-ARENA setzen"
-	cont "Gestein-#MON"
+	cont "GESTEIN-#MON"
 	cont "ein."
 
-	para "Gestein-#MON"
+	para "GESTEIN-#MON"
 	line "haben hohe"
 	cont "VERT-Werte."
 
 	para "Die Kämpfe können"
 	line "sehr lange"
 
-	para "dauern. Bist du"
+	para "dauern. Bist Du"
 	line "bereit dafür?"
 	done
 
 CamperJerryBeatenText:
-	text "Ich muss diese"
+	text "Ich muß diese"
 	line "Kämpfe gewinnen…"
 	done
 
 CamperJerryAfterBattleText:
-	text "He, du da! Trainer"
+	text "He, Du da! Trainer"
 	line "aus JOHTO! ROCKO"
 
 	para "ist stark. Es wird"
-	line "dir übel bekommen,"
+	line "Dir übel bekommen,"
 
-	para "wenn du ihn nicht"
+	para "wenn Du ihn nicht"
 	line "ernst nimmst."
 	done
 
@@ -243,7 +243,7 @@ PewterGymGuideText:
 	line "in spe!"
 
 	para "Das ist cool!"
-	line "Kämpfst du gegen"
+	line "Kämpfst Du gegen"
 
 	para "die ARENALEITER in"
 	line "KANTO?"
@@ -262,7 +262,7 @@ PewterGymGuideWinText:
 	para "Diese PKMN-ARENA"
 	line "stellte kein"
 
-	para "Problem für dich"
+	para "Problem für Dich"
 	line "dar."
 
 	para "Dein Einsatz"

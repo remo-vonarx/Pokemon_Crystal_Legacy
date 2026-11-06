@@ -237,14 +237,14 @@ Route35NationalParkGateOfficer1AskToParticipateText:
 
 	para "Fange ein Käfer-"
 	line "#MON mit einem"
-	cont "deiner eigenen"
+	cont "Deiner eigenen"
 	cont "#MON."
 
-	para "Das Käfer-#MON"
+	para "Das KÄFER-#MON"
 	line "wird dann von der"
 	cont "Jury bewertet."
 
-	para "Möchtest du es"
+	para "Möchtest Du es"
 	line "versuchen?"
 	done
 
@@ -261,26 +261,26 @@ Route35NationalParkGatePlayerReceivedParkBallsText:
 
 Route35NationalParkGateOfficer1ExplainsRulesText:
 	text "Wer das stärkste"
-	line "Käfer-#MON"
+	line "KÄFER-#MON"
 	cont "fängt, hat "
 	cont "gewonnen."
 
 	para "Du hast 20"
 	line "Minuten Zeit."
 
-	para "Wenn du keine"
+	para "Wenn Du keine"
 	line "PARKBÄLLE mehr"
 	cont "hast, ist das"
 	cont "Turnier beendet."
 
 	para "Du darfst das"
 	line "letzte #MON,"
-	cont "das du gefangen"
+	cont "das Du gefangen"
 	cont "hast, behalten."
 
 	para "Los! Fang das"
 	line "stärkste Käfer-"
-	cont "#MON, das du"
+	cont "#MON, das Du"
 	cont "finden kannst!"
 	done
 
@@ -290,22 +290,22 @@ Route35NationalParkGateOfficer1AskToUseFirstMonText:
 	para "Du hast mehr als"
 	line "ein #MON."
 
-	para "Du musst"
+	para "Du mußt"
 	line "@"
 	text_ram wStringBuffer3
 	text_start
 
-	para "auswählen - dein"
+	para "auswählen - Dein"
 	line "erstes #MON."
 
-	para "Bist du damit"
+	para "Bist Du damit"
 	line "einverstanden?"
 	done
 
 Route35NationalParkGateOfficer1WellHoldYourMonText:
 	text "Gut. Wir passen"
 	line "währenddessen auf"
-	cont "deine anderen"
+	cont "Deine anderen"
 	cont "#MON auf."
 	done
 
@@ -320,7 +320,7 @@ Route35NationalParkGateOfficer1ChooseMonAndComeBackText:
 	text "Wähle bitte das"
 	line "#MON, mit dem"
 
-	para "du im Turnier"
+	para "Du im Turnier"
 	line "antreten möchtest,"
 	cont "aus und komm dann"
 	cont "wieder."
@@ -328,7 +328,7 @@ Route35NationalParkGateOfficer1ChooseMonAndComeBackText:
 
 Route35NationalParkGateOfficer1TakePartInFutureText:
 	text "Na gut. Wir"
-	line "hoffen, dass du"
+	line "hoffen, daß Du"
 	cont "später einmal"
 	cont "am Turnier teil-"
 	cont "nimmst."
@@ -338,7 +338,7 @@ Route35NationalParkGateOfficer1FirstMonCantBattleText:
 	text "Oh, oh…"
 	line "Das erste #MON"
 
-	para "deines Teams kann"
+	para "Deines Teams kann"
 	line "nicht am Turnier"
 	cont "teilnehmen."
 
@@ -356,18 +356,18 @@ Route35NationalParkGateOfficer1MakeRoomText:
 	text "Oh, oh…"
 	line "Dein Team und"
 
-	para "deine PC-BOX sind"
+	para "Deine PC-BOX sind"
 	line "voll besetzt."
 
 	para "Du hast keinen"
 	line "Platz für ein"
-	cont "Käfer-#MON,"
-	cont "das du fängst."
+	cont "KÄFER-#MON,"
+	cont "das Du fängst."
 
 	para "Schaffe Platz in"
-	line "deinem Team oder"
+	line "Deinem Team oder"
 
-	para "in deiner PC-BOX"
+	para "in Deiner PC-BOX"
 	line "und komm dann"
 	cont "wieder."
 	done
@@ -377,12 +377,12 @@ Route35NationalParkGateOfficer1EggAsFirstMonText:
 	line "Ein EI ist an"
 
 	para "erster Stelle in"
-	line "deinem Team."
+	line "Deinem Team."
 
 	para "Tausche es bitte"
 	line "mit dem #MON,"
 
-	para "das du im Turnier"
+	para "das Du im Turnier"
 	line "einsetzen möchtest"
 
 	para "und komm dann"
@@ -395,7 +395,7 @@ Route35NationalParkGateOfficer1WantToFinishText:
 	text_start
 	line "Minute(n)."
 
-	para "Möchtest du jetzt"
+	para "Möchtest Du jetzt"
 	line "aufhören?"
 	done
 
@@ -419,7 +419,7 @@ Route35NationalParkGateOfficer1ContestIsOverText:
 	line "Turnier ist be-"
 	cont "endet. Wir hoffen,"
 
-	para "dass du wieder"
+	para "daß Du wieder"
 	line "daran teilnehmen"
 	cont "wirst."
 	done
@@ -456,7 +456,7 @@ BugCatchingContestExplanationText:
 	line "Teilnahme, sondern"
 
 	para "auch ein Käfer-"
-	line "#MON, das du"
+	line "#MON, das Du"
 
 	para "dort fängst."
 	done

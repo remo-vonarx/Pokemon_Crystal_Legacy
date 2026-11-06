@@ -428,7 +428,7 @@ Route36SuicuneMovement:
 UseSquirtbottleText:
 	text "Das ist ein merk-"
 	line "würdiger Baum."
-	cont "Möchtest du die"
+	cont "Möchtest Du die"
 	cont "SCHIGGYKANNE"
 	cont "benutzen?"
 	done
@@ -452,7 +452,7 @@ FloriaText1:
 	text "Ich bin FLORA"
 	line "vom BLUMENLADEN!"
 
-	para "Stell dir vor:"
+	para "Stell Dir vor:"
 
 	para "Als ich den wacke-"
 	line "ligen Baum mit"
@@ -461,7 +461,7 @@ FloriaText1:
 	line "ist er hoch-"
 	cont "geschreckt!"
 
-	para "Es muss einfach"
+	para "Es muß einfach"
 	line "ein #MON sein."
 
 	para "Ich wette, es gibt"
@@ -508,13 +508,13 @@ RockSmashGuyText1:
 	done
 
 RockSmashGuyText2:
-	text "Hast du diesen"
+	text "Hast Du diesen"
 	line "seltsamen Baum"
 	cont "weggeschafft?"
 
 	para "Ich bin"
 	line "beeindruckt! Ich"
-	cont "möchte dir dies"
+	cont "möchte Dir dies"
 	cont "geben."
 	done
 
@@ -527,14 +527,14 @@ RockSmashGuyText3:
 	text "Das ist der"
 	line "ZERTRÜMMERER."
 
-	para "Damit kannst du"
+	para "Damit kannst Du"
 	line "Felsen mit einem"
 
 	para "einzigen, gut "
 	line "gezielten Schlag"
 	cont "zertrümmern."
 
-	para "Sind dir irgend-"
+	para "Sind Dir irgend-"
 	line "welche Steine im"
 	cont "Weg, dann"
 	cont "zertrümmere sie"
@@ -579,20 +579,20 @@ Route36LassText_ClearedSudowoodo:
 
 PsychicMarkSeenText:
 	text "Ich werde jetzt"
-	line "deine Gedanken"
+	line "Deine Gedanken"
 	cont "lesen!"
 	done
 
 PsychicMarkBeatenText:
 	text "Ich habe mich wohl"
-	line "bei dir verlesen!"
+	line "bei Dir verlesen!"
 	done
 
 PsychicMarkAfterBattleText:
 	text "Ich wäre wirklich"
 	line "stark, wenn ich "
 
-	para "wüsste, was mein"
+	para "wüßte, was mein"
 	line "Gegner denkt."
 	done
 
@@ -614,14 +614,14 @@ SchoolboyAlanBooksText:
 	cont "am Tag."
 
 	para "Es gibt vieles,"
-	line "das du nicht aus"
+	line "das Du nicht aus"
 	cont "Büchern lernen"
 	cont "kannst."
 	done
 
 MeetArthurText:
 	text "DONATUS: Wer bist"
-	line "du?"
+	line "Du?"
 
 	para "Ich bin DONATUS"
 	line "von Donnerstag."
@@ -629,7 +629,7 @@ MeetArthurText:
 
 ArthurGivesGiftText:
 	text "Hier bitte. Das"
-	line "kannst du haben."
+	line "kannst Du haben."
 	done
 
 ArthurGaveGiftText:

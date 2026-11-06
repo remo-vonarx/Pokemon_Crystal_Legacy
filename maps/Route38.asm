@@ -399,7 +399,7 @@ SchoolboyChad1BeatenText:
 
 SchoolboyChadSoManyTestsText:
 	text "Ich habe so viele"
-	line "Prüfungen, dass"
+	line "Prüfungen, daß"
 
 	para "ich nicht viel"
 	line "Zeit für #MON"
@@ -412,17 +412,17 @@ SchoolboyChadSoManyTestsText:
 	done
 
 LassDana1SeenText:
-	text "Du scheinst dich"
+	text "Du scheinst Dich"
 	line "mit #MON"
 	cont "auszukennen."
 
-	para "Gibst du mir bitte"
+	para "Gibst Du mir bitte"
 	line "einige Ratschläge?"
 	done
 
 LassDana1BeatenText:
 	text "Ich verstehe. So"
-	line "kämpfst du also."
+	line "kämpfst Du also."
 	done
 
 LassDanaMoomooMilkText:
@@ -440,12 +440,12 @@ BeautyValerieSeenText:
 	line "bestimmt so nett"
 
 	para "und zeigst mir"
-	line "deine #MON?"
+	line "Deine #MON?"
 	done
 
 BeautyValerieBeatenText:
-	text "Ich bin froh, dass"
-	line "ich deine #MON"
+	text "Ich bin froh, daß"
+	line "ich Deine #MON"
 	cont "sehen durfte!"
 	done
 
@@ -515,7 +515,7 @@ Route38TrainerTipsText:
 	para "#MON weiter-"
 	line "entwickelt, kannst"
 
-	para "du diesen Prozess"
+	para "Du diesen Prozeß"
 	line "aufhalten."
 
 	para "Drücke während"

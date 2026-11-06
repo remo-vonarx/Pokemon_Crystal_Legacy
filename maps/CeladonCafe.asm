@@ -122,7 +122,7 @@ ChefText_Eatathon:
 	para "Wir halten gerade"
 	line "ein Wettessen ab."
 
-	para "Wir können dich"
+	para "Wir können Dich"
 	line "im Moment leider"
 	cont "nicht bedienen."
 	done
@@ -172,11 +172,11 @@ TeacherText_CrunchCrunch:
 	done
 
 TeacherText_NoCoinCase:
-	text "Hier wird dir"
+	text "Hier wird Dir"
 	line "niemand einen"
 
 	para "MÜNZKORB geben."
-	line "Den bekommst du"
+	line "Den bekommst Du"
 	cont "in JOHTO."
 	done
 

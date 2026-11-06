@@ -107,12 +107,12 @@ VioletPokecenterElmsAideFavorText:
 	text "<PLAY_G>, lange"
 	line "nicht gesehen."
 
-	para "PROF. LIND hat"
+	para "PROF LIND hat"
 	line "mich gebeten, nach"
-	cont "dir zu suchen."
+	cont "Dir zu suchen."
 
 	para "Er hat noch eine"
-	line "Bitte an dich."
+	line "Bitte an Dich."
 
 	para "Nimm bitte das"
 	line "#MON-EI!"
@@ -120,7 +120,7 @@ VioletPokecenterElmsAideFavorText:
 
 VioletPokecenterElmsAideGiveEggText:
 	text "Wir haben ent-"
-	line "deckt, dass ein"
+	line "deckt, daß ein"
 
 	para "#MON erst"
 	line "schlüpft, nachdem"
@@ -128,14 +128,14 @@ VioletPokecenterElmsAideGiveEggText:
 	para "es im EI gewachsen"
 	line "ist."
 
-	para "Außerdem muss es"
+	para "Außerdem muß es"
 	line "sich in der Nähe"
 
 	para "anderer #MON"
 	line "befinden, um zu"
 	cont "schlüpfen."
 
-	para "<PLAY_G>, du bist"
+	para "<PLAY_G>, Du bist"
 	line "die einzige Per-"
 	cont "son, auf die wir"
 
@@ -148,24 +148,24 @@ VioletPokecenterElmsAideGiveEggText:
 	done
 
 VioletCityElmsAideFullPartyText:
-	text "Oh, du hast keinen"
+	text "Oh, Du hast keinen"
 	line "Platz mehr für ein"
 	cont "weiteres #MON."
 
 	para "Ich warte hier,"
-	line "bis du Platz für"
+	line "bis Du Platz für"
 	cont "das EI geschaffen"
 	cont "hast."
 	done
 
 VioletPokecenterElmsAideRefuseText:
 	text "A-Aber… PROF."
-	line "LIND hat nach dir"
+	line "LIND hat nach Dir"
 	cont "gefragt…"
 	done
 
 VioletPokecenterElmsAideAskEggText:
-	text "<PLAY_G>, nimmst du"
+	text "<PLAY_G>, nimmst Du"
 	line "das EI?"
 	done
 

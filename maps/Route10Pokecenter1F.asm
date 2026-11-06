@@ -58,7 +58,7 @@ Route10Pokecenter1FGymGuideText:
 	done
 
 Route10Pokecenter1FGymGuideText_ReturnedMachinePart:
-	text "Ich hörte, dass"
+	text "Ich hörte, daß"
 	line "TEAM ROCKET sich"
 
 	para "in JOHTO re-"
@@ -71,10 +71,10 @@ Route10Pokecenter1FGymGuideText_ReturnedMachinePart:
 	done
 
 Route10Pokecenter1FCooltrainerFText:
-	text "Wenn du das"
-	line "Gebäude verlässt,"
+	text "Wenn Du das"
+	line "Gebäude verläßt,"
 
-	para "kannst du das Dach"
+	para "kannst Du das Dach"
 	line "eines großen"
 	cont "Hauses sehen."
 

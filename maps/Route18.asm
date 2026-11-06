@@ -33,10 +33,10 @@ Route18Sign:
 	jumptext Route18SignText
 
 BirdKeeperBorisSeenText:
-	text "Wenn du nach"
+	text "Wenn Du nach"
 	line "#MON suchst,"
 
-	para "musst du ins"
+	para "mußt Du ins"
 	line "hohe Gras gehen."
 	done
 
@@ -45,10 +45,10 @@ BirdKeeperBorisBeatenText:
 	done
 
 BirdKeeperBorisAfterBattleText:
-	text "Da du so stark"
-	line "bist, muss es"
+	text "Da Du so stark"
+	line "bist, muß es"
 	cont "Spaß machen, gegen"
-	cont "dich zu kämpfen."
+	cont "Dich zu kämpfen."
 	done
 
 BirdKeeperBobSeenText:
@@ -63,10 +63,10 @@ BirdKeeperBobBeatenText:
 	done
 
 BirdKeeperBobAfterBattleText:
-	text "Wenn du kein"
+	text "Wenn Du kein"
 	line "FAHRRAD hast,"
 
-	para "darfst du die"
+	para "darfst Du die"
 	line "Abkürzung nicht"
 	cont "benutzen."
 	done

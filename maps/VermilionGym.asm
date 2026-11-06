@@ -128,10 +128,10 @@ VermilionGymStatue:
 	jumpstd GymStatue2Script
 
 LtSurgeIntroText:
-	text "MAJOR BOB: Heh, du"
+	text "MAJOR BOB: Heh, Du"
 	line "Windelpupser!"
 
-	para "Das muss ich dir"
+	para "Das muß ich Dir"
 	line "lassen. Es ist"
 
 	para "nicht sehr weise,"
@@ -140,7 +140,7 @@ LtSurgeIntroText:
 	cont "mutig!"
 
 	para "Wenn es um"
-	line "Elektro-#MON"
+	line "ELEKTRO-#MON"
 	cont "geht, bin ich die"
 	cont "Nummer eins!"
 
@@ -150,7 +150,7 @@ LtSurgeIntroText:
 	para "als Verlierer"
 	line "verlassen."
 
-	para "Ich grille dich,"
+	para "Ich grille Dich,"
 	line "wie ich es mit"
 
 	para "meinen Feinden im"
@@ -176,13 +176,13 @@ LtSurgeThunderBadgeText:
 	line "DONNERORDEN erhöht"
 
 	para "den INIT-Wert"
-	line "deiner #MON."
+	line "Deiner #MON."
 
 	para "Du darfst stolz"
 	line "darauf sein, mich"
 
 	para "besiegt zu haben,"
-	line "hörst du?"
+	line "hörst Du?"
 	done
 
 LtSurgeFightDoneText:
@@ -219,7 +219,7 @@ GentlemanGregorySeenText:
 	text "Du willst MAJOR"
 	line "BOB besiegen?"
 
-	para "Da musst du erst"
+	para "Da mußt Du erst"
 	line "an mir vorbei!"
 	done
 
@@ -241,10 +241,10 @@ GuitaristVincentSeenText:
 	text "MAJOR BOB hat mein"
 	line "Talent für"
 
-	para "Elektro-#MON"
+	para "ELEKTRO-#MON"
 	line "erkannt."
 
-	para "Glaubst du, du"
+	para "Glaubst Du, Du"
 	line "kannst mich"
 	cont "besiegen?"
 	done
@@ -259,14 +259,14 @@ GuitaristVincentAfterBattleText:
 	line "der Trainer"
 
 	para "funktionieren"
-	line "würden, wärst du"
+	line "würden, wärst Du"
 
 	para "schon längst"
 	line "hinüber…"
 	done
 
 JugglerHortonSeenText:
-	text "Ich werde dich"
+	text "Ich werde Dich"
 	line "fertig machen! Du"
 	cont "wirst gleich einen"
 	cont "Schlag bekommen!"
@@ -278,7 +278,7 @@ JugglerHortonBeatenText:
 	done
 
 JugglerHortonAfterBattleText:
-	text "Lass dir den Sieg"
+	text "Laß Dir den Sieg"
 	line "über mich nicht zu"
 
 	para "Kopf steigen…"
@@ -291,7 +291,7 @@ VermilionGymGuideText:
 	line "in spe!"
 
 	para "Dieses Mal hattest"
-	line "du Glück."
+	line "Du Glück."
 
 	para "MAJOR BOB ist sehr"
 	line "vorsichtig. Er"

@@ -21,7 +21,7 @@ OlivineMartLassScript:
 	jumptextfaceplayer OlivineMartLassText
 
 OlivineMartCooltrainerFText:
-	text "Können deine #-"
+	text "Können Deine #-"
 	line "MON schon Leute"
 
 	para "übers Wasser tra-"
@@ -38,7 +38,7 @@ OlivineMartLassText:
 	line "BRIEF von ihm da-"
 	cont "bei."
 
-	para "Willst du wissen,"
+	para "Willst Du wissen,"
 	line "was er schreibt?"
 
 	para "Mal sehen… Oh!"

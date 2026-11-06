@@ -332,9 +332,9 @@ HikerErikSeenText:
 	text "Sei auf alles"
 	line "vorbereitet!"
 
-	para "Lass mich mal"
+	para "Laß mich mal"
 	line "sehen, wie gut"
-	cont "deine #MON"
+	cont "Deine #MON"
 	cont "trainiert sind!"
 	done
 
@@ -355,7 +355,7 @@ HikerErikAfterBattleText:
 HikerMichaelSeenText:
 	text "He! Du hast Mumm"
 	line "in den Knochen!"
-	cont "Aber weißt du was?"
+	cont "Aber weißt Du was?"
 
 	para "Wenn es um echte"
 	line "Courage geht, bin"
@@ -397,7 +397,7 @@ HikerParryAfterBattleText:
 	text "Ich bin eher"
 	line "langsam, was das"
 	cont "Denken betrifft,"
-	cont "weißt du?"
+	cont "weißt Du?"
 
 	para "Deswegen setze ich"
 	line "alles auf Kraft."
@@ -440,7 +440,7 @@ HikerParryGivesIronText:
 	para "Oh, und nimm dies"
 	line "- dies ist das"
 
-	para "Geschenk, das du"
+	para "Geschenk, das Du"
 	line "beim letzten Mal"
 
 	para "nicht mitnehmen"
@@ -490,7 +490,7 @@ BlackbeltKenjiNightText:
 	done
 
 CooltrainermRyanSeenText:
-	text "Was hältst du vom"
+	text "Was hältst Du vom"
 	line "#MON-Training?"
 	done
 
@@ -501,13 +501,13 @@ CooltrainermRyanBeatenText:
 
 CooltrainermRyanAfterBattleText:
 	text "Wie ich sehe,"
-	line "ziehst du deine"
+	line "ziehst Du Deine"
 	cont "#MON mit"
 	cont "Sorgfalt auf."
 
 	para "Die Gemeinschaft,"
-	line "die du bildest,"
-	cont "wird dich in"
+	line "die Du bildest,"
+	cont "wird Dich in"
 	cont "gefährlichen"
 	cont "Situationen"
 	cont "retten."
@@ -516,7 +516,7 @@ CooltrainermRyanAfterBattleText:
 CooltrainerfKellySeenText:
 	text "Welche Kampf-"
 	line "technik verwendest"
-	cont "du?"
+	cont "Du?"
 
 	para "Setze starke"
 	line "Attacken nicht"
@@ -561,7 +561,7 @@ CamperQuentinBeatenText:
 	done
 
 CamperQuentinAfterBattleText:
-	text "Warst du schon im"
+	text "Warst Du schon im"
 	line "DUELLTURM?"
 
 	para "Ich verliere dort"

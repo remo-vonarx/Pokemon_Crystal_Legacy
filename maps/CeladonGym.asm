@@ -157,9 +157,9 @@ ErikaBeforeBattleText:
 	cont "JOHTO? Wie nett…"
 
 	para "Oh, entschuldige."
-	line "Ich wusste"
+	line "Ich wußte"
 
-	para "nicht, dass du"
+	para "nicht, daß Du"
 	line "gegen mich kämpfen"
 	cont "willst."
 
@@ -176,7 +176,7 @@ ErikaBeatenText:
 	para "Du bist außerge-"
 	line "wöhnlich stark…"
 
-	para "Ich gebe dir den"
+	para "Ich gebe Dir den"
 	line "FARBORDEN…"
 	done
 
@@ -204,11 +204,11 @@ ErikaExplainTMText:
 	line "gefügten Schadens"
 	cont "wird zur Heilung"
 
-	para "deines #MON"
+	para "Deines #MON"
 	line "verwendet."
 
 	para "Verwende sie,"
-	line "wann immer du"
+	line "wann immer Du"
 	cont "möchtest…"
 	done
 
@@ -225,7 +225,7 @@ ErikaAfterBattleText:
 	para "mehr anzustrengen,"
 	line "wenn man weiß,"
 
-	para "dass es starke"
+	para "daß es starke"
 	line "Trainer gibt…"
 	done
 
@@ -266,7 +266,7 @@ Erika_RematchDefeatText:
 	done
 
 LassMichelleSeenText:
-	text "Glaubst du, dass"
+	text "Glaubst Du, daß"
 	line "eine PKMN-ARENA"
 	cont "nur mit Mädchen"
 	cont "selten ist?"
@@ -285,7 +285,7 @@ LassMichelleAfterBattleText:
 PicnickerTanyaSeenText:
 	text "Oh, ein Kampf?"
 	line "Das macht mir ein"
-	cont "bisschen Angst,"
+	cont "bißchen Angst,"
 	cont "aber von mir aus!"
 	done
 
@@ -297,12 +297,12 @@ PicnickerTanyaAfterBattleText:
 	text "Oh, sieh nur, all"
 	line "die ORDEN. Kein"
 
-	para "Wunder, dass ich"
+	para "Wunder, daß ich"
 	line "verloren habe!"
 	done
 
 BeautyJuliaSeenText:
-	text "Hast du die"
+	text "Hast Du die"
 	line "Blumen betrachtet"
 	cont "oder mich?"
 	done
@@ -318,7 +318,7 @@ BeautyJuliaAfterBattleText:
 	done
 
 TwinsJoAndZoe1SeenText:
-	text "Wir zeigen dir"
+	text "Wir zeigen Dir"
 	line "#MON-Attacken,"
 	cont "die ERIKA uns"
 	cont "beigebracht hat!"
@@ -330,7 +330,7 @@ TwinsJoAndZoe1BeatenText:
 	done
 
 TwinsJoAndZoe1AfterBattleText:
-	text "ERIKA wird es dir"
+	text "ERIKA wird es Dir"
 	line "heimzahlen!"
 	done
 

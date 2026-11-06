@@ -93,7 +93,7 @@ PlayersHousePCScript:
 	end
 
 PlayersRadioText1:
-	text "PROF. EICHs #-"
+	text "PROF EICHs #-"
 	line "MON-TALK! Schal-"
 	cont "ten Sie auch das"
 	cont "nächste Mal wieder"

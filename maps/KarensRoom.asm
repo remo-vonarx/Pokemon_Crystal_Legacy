@@ -142,7 +142,7 @@ KarenScript_KarenBeforeText:
 	para "Und sie sind"
 	line "wirklich stark."
 
-	para "Glaubst du, du"
+	para "Glaubst Du, Du"
 	line "kannst es mit uns"
 	cont "aufnehmen? Los,"
 	cont "ich will mich"
@@ -152,7 +152,7 @@ KarenScript_KarenBeforeText:
 	done
 
 KarenScript_KarenBeatenText:
-	text "Nun, du bist"
+	text "Nun, Du bist"
 	line "gut. Das gefällt"
 	cont "mir an einem"
 	cont "Trainer."
@@ -174,7 +174,7 @@ KarenScript_KarenDefeatText:
 	para "mit ihren Lieb-"
 	line "lings-#MON."
 
-	para "Ich mag deinen"
+	para "Ich mag Deinen"
 	line "Stil. Du weißt,"
 	cont "was wichtig ist."
 

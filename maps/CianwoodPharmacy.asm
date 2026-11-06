@@ -43,7 +43,7 @@ PharmacistGiveSecretpotionText:
 	line "scheint es gut zu"
 
 	para "gehen. Bedrückt"
-	line "dich etwas?"
+	line "Dich etwas?"
 
 	para "…"
 

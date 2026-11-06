@@ -14,7 +14,7 @@ Route42EcruteakGateOfficerText:
 	line "ist wie ein"
 
 	para "Irrgarten, also"
-	line "verlaufe dich"
+	line "verlaufe Dich"
 	cont "nicht."
 	done
 

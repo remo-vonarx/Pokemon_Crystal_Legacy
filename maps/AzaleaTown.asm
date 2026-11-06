@@ -259,7 +259,7 @@ AzaleaTownRivalBeforeText:
 	text "…Sag mir"
 	line "etwas."
 
-	para "Ist es wahr, dass"
+	para "Ist es wahr, daß"
 	line "TEAM ROCKET zu-"
 	cont "rückgekehrt ist?"
 
@@ -268,16 +268,16 @@ AzaleaTownRivalBeforeText:
 	cont "Hör auf zu lügen!"
 
 	para "Du machst keine"
-	line "Witze? Dann lass"
+	line "Witze? Dann laß"
 	cont "uns sehen, wie gut"
-	cont "du bist!"
+	cont "Du bist!"
 	done
 
 AzaleaTownRivalWinText:
 	text "…Hmpf! Nutzlose"
 	line "#MON!"
 
-	para "He, du! Du hast"
+	para "He, Du! Du hast"
 	line "nur gewonnen, weil"
 
 	para "meine #MON"
@@ -304,7 +304,7 @@ AzaleaTownRivalAfterText:
 	para "Nur gemeinsam sind"
 	line "sie stark. Aber"
 
-	para "triffst du auf ei-"
+	para "triffst Du auf ei-"
 	line "nen allein, ist er"
 	cont "schwach."
 
@@ -312,15 +312,15 @@ AzaleaTownRivalAfterText:
 
 	para "Geh mir aus dem"
 	line "Weg. Ein Schwäch-"
-	cont "ling wie du, ist"
+	cont "ling wie Du, ist"
 
 	para "nicht mehr als"
 	line "eine Ablenkung."
 	done
 
 AzaleaTownRivalLossText:
-	text "…Hmpf! Ich wusste,"
-	line "dass du lügst."
+	text "…Hmpf! Ich wußte,"
+	line "daß Du lügst."
 	done
 
 AzaleaTownRocket1Text:
@@ -335,13 +335,13 @@ AzaleaTownRocket1Text:
 	done
 
 AzaleaTownRocket2Text:
-	text "Hast du schon mal"
+	text "Hast Du schon mal"
 	line "eine FLEGMONRUTE"
 	cont "probiert? Sie soll"
 	cont "sehr lecker sein."
 
 	para "Du bist sicher"
-	line "froh, dass ich dir"
+	line "froh, daß ich Dir"
 	cont "das gesagt habe."
 	done
 
@@ -350,7 +350,7 @@ AzaleaTownGrampsTextBefore:
 	line "aus der Stadt ver-"
 	cont "schwunden…"
 
-	para "Ich hörte, dass"
+	para "Ich hörte, daß"
 	line "ihre RUTEN ver-"
 	cont "kauft werden."
 	done
@@ -365,9 +365,9 @@ AzaleaTownGrampsTextAfter:
 	done
 
 AzaleaTownTeacherText:
-	text "Bist du gekommen,"
+	text "Bist Du gekommen,"
 	line "um KURT zu bitten,"
-	cont "dir ein paar BÄLLE"
+	cont "Dir ein paar BÄLLE"
 	cont "zu machen?"
 
 	para "Eine Menge Leute"
@@ -376,7 +376,7 @@ AzaleaTownTeacherText:
 
 AzaleaTownYoungsterText:
 	text "Gehe durch AZALEA"
-	line "CITY und du lan-"
+	line "CITY und Du lan-"
 	cont "dest im STEINEI-"
 	cont "CHENWALD."
 
@@ -387,7 +387,7 @@ AzaleaTownYoungsterText:
 	line "zukommen."
 
 	para "Die #MON des"
-	line "KÖHLERs können die"
+	line "KÖHLERS können die"
 	cont "Bäume mit dem ZER-"
 	cont "SCHNEIDER fällen."
 	done
@@ -415,11 +415,11 @@ AzaleaTownKurtText1:
 
 AzaleaTownKurtText2:
 	text "<PLAYER>, hier"
-	line "dein GS-BALL!"
+	line "Dein GS-BALL!"
 	done
 
 AzaleaTownKurtText3:
-	text "Könntest du nach-"
+	text "Könntest Du nach-"
 	line "sehen, was im"
 	cont "STEINEICHENWALD"
 	cont "los ist?"
@@ -453,7 +453,7 @@ SlowpokeWellSignText:
 	cont "MACHERQUELLE."
 
 	para "Die Leute hier"
-	line "glauben, dass das"
+	line "glauben, daß das"
 	cont "Gähnen eines FLEG-"
 	cont "MONs Regen er-"
 	cont "zeugt."

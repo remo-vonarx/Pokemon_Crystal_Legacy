@@ -50,7 +50,7 @@ OfferGoodRodText:
 	para "Ich fische hier"
 	line "seit 30 Jahren."
 
-	para "Willst du das Meer"
+	para "Willst Du das Meer"
 	line "und die Fische"
 	cont "sehen?"
 	done
@@ -90,7 +90,7 @@ GaveGoodRodText:
 DontWantGoodRodText:
 	text "Waaas? Du willst"
 	line "nicht fischen!?"
-	cont "Unfassbar!"
+	cont "Unfaßbar!"
 	done
 
 HaveGoodRodText:

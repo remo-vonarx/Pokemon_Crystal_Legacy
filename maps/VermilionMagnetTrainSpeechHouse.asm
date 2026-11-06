@@ -17,7 +17,7 @@ VermilionMagnetTrainSpeechHouseBookshelf:
 	jumpstd PictureBookshelfScript
 
 VermilionMagnetTrainSpeechHousePokefanFText:
-	text "Hast du schon von"
+	text "Hast Du schon von"
 	line "dem MAGNETZUG"
 	cont "gehört?"
 

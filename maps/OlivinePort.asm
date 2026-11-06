@@ -299,13 +299,13 @@ OlivinePortAskBoardText:
 	line "dem SCHNELLBOOT"
 	cont "M.S. AQUA."
 
-	para "Trittst du heute"
-	line "deine Reise an?"
+	para "Trittst Du heute"
+	line "Deine Reise an?"
 	done
 
 OlivinePortAskTicketText:
 	text "Zeige mir bitte"
-	line "dein"
+	line "Dein"
 
 	para "BOOTSTICKET."
 	done
@@ -350,7 +350,7 @@ OlivinePortFridayShipText:
 	done
 
 OlivinePortFishingGuru1Text:
-	text "Hier kannst du"
+	text "Hier kannst Du"
 	line "MUSCHAS leicht"
 
 	para "fangen. An anderen"
@@ -360,10 +360,10 @@ OlivinePortFishingGuru1Text:
 
 OlivinePortFishingGuru2Text:
 	text "Wie viele ANGELN"
-	line "hast du?"
+	line "hast Du?"
 
 	para "Mit verschiedenen"
-	line "ANGELN, fängst du"
+	line "ANGELN, fängst Du"
 	cont "verschiedene"
 	cont "#MON."
 	done
@@ -385,10 +385,10 @@ OlivinePortCooltrainerFText:
 
 OlivinePortSailorBeforeHOFText:
 	text "Wir wollen nicht,"
-	line "dass du ins Wasser"
+	line "daß Du ins Wasser"
 
 	para "fällst. Darum"
-	line "lassen wir dich"
+	line "lassen wir Dich"
 	cont "nicht herein."
 	done
 

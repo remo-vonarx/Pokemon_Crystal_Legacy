@@ -116,7 +116,7 @@ CeladonCityGramps1Text:
 	line "kurzem SLEIMA"
 	cont "aufgetaucht."
 
-	para "Siehst du den"
+	para "Siehst Du den"
 	line "Teich da vor dem"
 
 	para "Haus? Dort leben"
@@ -136,7 +136,7 @@ CeladonCityGramps2Text:
 	done
 
 CeladonCityYoungster1Text:
-	text "Soll ich dir ein"
+	text "Soll ich Dir ein"
 	line "Geheimnis"
 	cont "erzählen?"
 
@@ -166,10 +166,10 @@ CeladonCityTeacher2Text:
 	para "und beste Auswahl"
 	line "an Artikeln."
 
-	para "Was du da nicht"
+	para "Was Du da nicht"
 	line "findest, wirst"
 
-	para "du nirgends"
+	para "Du nirgends"
 	line "finden."
 
 	para "Herrje… Ich klinge"
@@ -181,7 +181,7 @@ CeladonCityLassText_Mobile: ; unreferenced
 	line "hohen Gebäuden"
 	cont "umgeben zu sein!"
 
-	para "Stimmt es, dass"
+	para "Stimmt es, daß"
 	line "man das #MON-"
 	cont "CENTER in DUKATIA"
 	cont "vergrößert hat?"
@@ -258,7 +258,7 @@ CeladonCityTrainerTipsText:
 	line "Attacken wie z.B."
 	cont "Feuer und Wasser."
 
-	para "Hol dir deine"
+	para "Hol Dir Deine"
 	line "Items im EINKAUFS-"
 	cont "ZENTRUM von"
 	cont "PRISMANIA CITY!"

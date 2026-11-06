@@ -343,17 +343,17 @@ Route44HiddenElixer:
 	hiddenitem ELIXER, EVENT_ROUTE_44_HIDDEN_ELIXER
 
 FisherWilton1SeenText:
-	text "Aah! Wegen dir"
+	text "Aah! Wegen Dir"
 	line "habe ich ein"
 	cont "QUAPSEL verloren!"
 
-	para "Was wirst du"
+	para "Was wirst Du"
 	line "deswegen unter-"
 	cont "nehmen?"
 	done
 
 FisherWilton1BeatenText:
-	text "Vergiss es"
+	text "Vergiß es"
 	line "einfach."
 	done
 
@@ -363,7 +363,7 @@ FisherWiltonHugePoliwagText:
 	cont "Das war riesig."
 
 	para "Ich könnte"
-	line "schwören, dass es"
+	line "schwören, daß es"
 	cont "5 Meter lang war!"
 	done
 
@@ -398,7 +398,7 @@ FisherEdgarAfterBattleText:
 	done
 
 BirdKeeperVance1SeenText:
-	text "Hast du schon von"
+	text "Hast Du schon von"
 	line "dem legendären"
 	cont "Vogel-#MON"
 	cont "gehört?"
@@ -425,13 +425,13 @@ BirdKeeperVanceLegendaryBirdsText:
 
 BirdKeeperVance2BeatenText:
 	text "Warum kann ich"
-	line "dich nicht"
+	line "Dich nicht"
 	cont "besiegen?"
 
 	para "Oh yeah, hier. Das"
 	line "ist das Geschenk,"
 
-	para "das ich dir das"
+	para "das ich Dir das"
 	line "letzte Mal nicht"
 	cont "geben konnte."
 	done
@@ -461,7 +461,7 @@ PokemaniacZachSeenText:
 	done
 
 PokemaniacZachBeatenText:
-	text "Ach, deine #MON"
+	text "Ach, Deine #MON"
 	line "sind ja niedlich."
 	done
 
@@ -474,20 +474,20 @@ PokemaniacZachAfterBattleText:
 	cont "scheidet, ist"
 	cont "wertvoller."
 
-	para "Was? Willst du"
+	para "Was? Willst Du"
 	line "behaupten, das sei"
 	cont "nicht wahr?"
 	done
 
 CooltrainermAllenSeenText:
 	text "Ich kann sehen,"
-	line "dass du ein guter"
+	line "daß Du ein guter"
 	cont "Trainer bist."
 
 	para "Ich kenne mich gut"
 	line "mit #MON aus"
-	cont "und ich sehe, dass"
-	cont "du das auch tust."
+	cont "und ich sehe, daß"
+	cont "Du das auch tust."
 	done
 
 CooltrainermAllenBeatenText:
@@ -500,8 +500,8 @@ CooltrainermAllenAfterBattleText:
 	text "Wow! Du hast ja"
 	line "viele ORDEN!"
 
-	para "Kein Wunder, dass"
-	line "du so stark bist."
+	para "Kein Wunder, daß"
+	line "Du so stark bist."
 
 	para "Ich frage mich,"
 	line "ob JENS, der"

@@ -404,7 +404,7 @@ LakeOfRageCooltrainerFText:
 	done
 
 FisherAndreSeenText:
-	text "Lass die #MON,"
+	text "Laß die #MON,"
 	line "die ich gerade ge-"
 	cont "fangen habe,"
 	cont "kämpfen!"
@@ -448,7 +448,7 @@ CooltrainermAaronSeenText:
 	text "Trifft ein Trainer"
 	line "auf einen anderen,"
 
-	para "so muss er ihn he-"
+	para "so muß er ihn he-"
 	line "rausfordern."
 
 	para "Das ist unsere Be-"
@@ -478,7 +478,7 @@ CooltrainerfLoisSeenText:
 	line "umsonst hergekom-"
 	cont "men."
 
-	para "Ich weiß was! Lass"
+	para "Ich weiß was! Laß"
 	line "uns kämpfen!"
 	done
 
@@ -487,14 +487,14 @@ CooltrainerfLoisBeatenText:
 	done
 
 CooltrainerfLoisAfterBattleText:
-	text "Stell dir vor, ich"
+	text "Stell Dir vor, ich"
 	line "habe ein rosa"
 	cont "SMETTBO gesehen!"
 	done
 
 MeetWesleyText:
 	text "MITKO: Na, wie"
-	line "geht es dir?"
+	line "geht es Dir?"
 
 	para "Ich bin MITKO von"
 	line "Mittwoch. Soll"
@@ -504,9 +504,9 @@ MeetWesleyText:
 	done
 
 WesleyGivesGiftText:
-	text "Freut mich, dich"
+	text "Freut mich, Dich"
 	line "kennen zu lernen."
-	cont "Nimm dir bitte ein"
+	cont "Nimm Dir bitte ein"
 	cont "Souvenir."
 	done
 
@@ -518,15 +518,15 @@ WesleyGaveGiftText:
 	done
 
 WesleyWednesdayText:
-	text "MITKO: Da du mich"
+	text "MITKO: Da Du mich"
 	line "gefunden hast,"
 
-	para "musst du meine"
+	para "mußt Du meine"
 	line "Brüder und Schwes-"
 	cont "tern getroffen"
 	cont "haben."
 
-	para "Oder hattest du"
+	para "Oder hattest Du"
 	line "einfach nur Glück?"
 	done
 

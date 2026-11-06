@@ -32,7 +32,7 @@ SaffronMartCooltrainerFText:
 	cont "aber das bin ich"
 	cont "noch nicht…"
 
-	para "Kannst du mir"
+	para "Kannst Du mir"
 	line "zeigen, wie man"
 	cont "stärker wird?"
 	done

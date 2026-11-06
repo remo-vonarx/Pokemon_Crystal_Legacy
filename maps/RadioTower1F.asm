@@ -222,17 +222,17 @@ RadioTower1FReceptionistNoToursText:
 	done
 
 RadioTower1FLuckyNumberManAskToPlayText:
-	text "Hallo! Bist du"
+	text "Hallo! Bist Du"
 	line "wegen der GLÜCKS-"
 	cont "ZAHLSHOW hier?"
 
 	para "Soll ich die"
-	line "ID-Nummern deiner"
+	line "ID-Nummern Deiner"
 	cont "#MON über-"
 	cont "prüfen?"
 
-	para "Wenn du Glück"
-	line "hast, gewinnst du"
+	para "Wenn Du Glück"
+	line "hast, gewinnst Du"
 	cont "einen Preis."
 	done
 
@@ -246,7 +246,7 @@ RadioTower1FLuckyNumberManThisWeeksIdIsText:
 
 RadioTower1FLuckyNumberManCheckIfMatchText:
 	text "Mal sehen, ob"
-	line "du Glück hast."
+	line "Du Glück hast."
 	done
 
 RadioTower1FLuckyNumberManDotDotDotText:
@@ -257,7 +257,7 @@ RadioTower1FLuckyNumberManDotDotDotText:
 RadioTower1FLuckyNumberManComeAgainText:
 	text "Versuche nächste"
 	line "Woche erneut"
-	cont "dein Glück bei der"
+	cont "Dein Glück bei der"
 	cont "GLÜCKSZAHLSHOW."
 	done
 
@@ -296,7 +296,7 @@ RadioTower1FLuckyNumberManWeakMatchText:
 
 RadioTower1FLuckyNumberManNoneOfYourIDNumbersMatchText:
 	text "Leider stimmt"
-	line "keine deiner"
+	line "keine Deiner"
 	cont "Ziffern überein."
 	done
 
@@ -328,7 +328,7 @@ RadioTower1FRadioCardWomanOfferQuizText:
 	line "jeder Zeit Radio"
 	cont "hören zu können."
 
-	para "Möchtest du am"
+	para "Möchtest Du am"
 	line "Quiz teilnehmen?"
 	done
 
@@ -391,8 +391,8 @@ RadioTower1FRadioCardWomanYouWinText:
 	text "Bingo! Richtig!"
 	line "Glückwunsch!"
 
-	para "Hier hast du"
-	line "deinen Preis:"
+	para "Hier hast Du"
+	line "Deinen Preis:"
 	cont "ein RADIO-MODUL!"
 	done
 
@@ -404,7 +404,7 @@ RadioTower1FPokegearIsARadioText:
 	done
 
 RadioTower1FRadioCardWomanTuneInText:
-	text "Höre dir bitte"
+	text "Höre Dir bitte"
 	line "unsere Shows an!"
 	done
 
@@ -419,7 +419,7 @@ RadioTower1FRadioCardWomanWrongAnswerText:
 RadioTower1FRadioCardWomanNotTakingQuizText:
 	text "Oh. Ich verstehe."
 	line "Komm wieder, wenn"
-	cont "du deine Meinung"
+	cont "Du Deine Meinung"
 	cont "geändert hast."
 	done
 
@@ -428,7 +428,7 @@ RadioTower1FLassText:
 	line "großartiger DJ."
 
 	para "Seine sonore"
-	line "Stimme lässt mich"
+	line "Stimme läßt mich"
 	cont "dahinschmelzen!"
 	done
 
@@ -451,7 +451,7 @@ GruntM3SeenText:
 	para "Terrorapparat"
 	line "kennenlernen!"
 
-	para "Wir zeigen euch,"
+	para "Wir zeigen Euch,"
 	line "wie böse wir sind!"
 	done
 
@@ -465,7 +465,7 @@ GruntM3AfterBattleText:
 
 	para "Du könntest unsere"
 	line "Pläne zerstören."
-	cont "Ich muss die"
+	cont "Ich muß die"
 	cont "anderen warnen…"
 	done
 
@@ -486,7 +486,7 @@ RadioTower1FLuckyChannelSignText:
 	para "Gewinne mit #-"
 	line "MON-ID-Nummern!"
 
-	para "Tausche deine "
+	para "Tausche Deine "
 	line "#MON, um viele"
 	cont "ID-Nummern zu"
 	cont "erhalten!"

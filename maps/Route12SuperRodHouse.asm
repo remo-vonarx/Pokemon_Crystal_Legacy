@@ -38,10 +38,10 @@ SuperRodHouseBookshelf: ; unreferenced
 OfferSuperRodText:
 	text "Ich bin der"
 	line "jüngere Bruder des"
-	cont "PROFI-ANGLERs."
+	cont "PROFI-ANGLERS."
 
 	para "Wie ich sehe,"
-	line "macht dir Angeln"
+	line "macht Dir Angeln"
 
 	para "Spaß. Darüber gibt"
 	line "es keinen Zweifel!"
@@ -64,7 +64,7 @@ GaveSuperRodText:
 	line "angle, wo immer"
 	cont "es Wasser gibt."
 
-	para "Denk daran - du"
+	para "Denk daran - Du"
 	line "kannst mit ver-"
 	cont "schiedenen Angeln"
 

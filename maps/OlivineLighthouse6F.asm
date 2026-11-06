@@ -171,15 +171,15 @@ JasmineCianwoodPharmacyText:
 	cont "schnappt nach"
 	cont "Luft…"
 
-	para "…Ich weiß, dass"
+	para "…Ich weiß, daß"
 	line "es eine gut"
 
 	para "sortierte APOTHEKE"
 	line "in ANEMONIA CITY"
 	cont "gibt…"
 
-	para "Aber dafür musst"
-	line "du über das Meer…"
+	para "Aber dafür mußt"
+	line "Du über das Meer…"
 
 	para "Und ich kann AMPHI"
 	line "nicht unbeaufsich-"
@@ -188,7 +188,7 @@ JasmineCianwoodPharmacyText:
 
 JasmineGetSomeMedicineText:
 	text "…Vielleicht"
-	line "könntest du die"
+	line "könntest Du die"
 	cont "Medizin für mich"
 	cont "besorgen? Bitte!"
 	done
@@ -219,7 +219,7 @@ JasmineAmphyHowAreYouFeelingText:
 	text "JASMIN: …"
 
 	para "AMPHI, wie geht"
-	line "es dir?"
+	line "es Dir?"
 	done
 
 JasmineThankYouText:

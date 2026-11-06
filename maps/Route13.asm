@@ -78,14 +78,14 @@ Route13HiddenCalcium:
 	hiddenitem CALCIUM, EVENT_ROUTE_13_HIDDEN_CALCIUM
 
 PokefanmAlexSeenText:
-	text "Verbeuge dich vor"
+	text "Verbeuge Dich vor"
 	line "meinen königlichen"
 	cont "#MON!"
 	done
 
 PokefanmAlexBeatenText:
 	text "Wie… wie kannst"
-	line "du es wagen, die"
+	line "Du es wagen, die"
 	cont "Monarchie zu"
 	cont "verspotten?"
 	done
@@ -97,7 +97,7 @@ PokefanmAlexAfterBattleText:
 	done
 
 PokefanmJoshuaSeenText:
-	text "Hihi! Möchtest du"
+	text "Hihi! Möchtest Du"
 	line "gegen mein"
 	cont "PIKACHU-Team"
 	cont "antreten?"
@@ -108,8 +108,8 @@ PokefanmJoshuaBeatenText:
 	done
 
 PokefanmJoshuaAfterBattleText:
-	text "Es scheint, dass"
-	line "du viele #MON"
+	text "Es scheint, daß"
+	line "Du viele #MON"
 
 	para "hast, aber PIKACHU"
 	line "ist immer noch das"
@@ -125,7 +125,7 @@ BirdKeeperPerrySeenText:
 
 BirdKeeperPerryBeatenText:
 	text "Du hast mich"
-	line "aufgrund deiner"
+	line "aufgrund Deiner"
 	cont "Schnelligkeit"
 	cont "besiegt…"
 	done
@@ -137,7 +137,7 @@ BirdKeeperPerryAfterBattleText:
 	done
 
 BirdKeeperBretSeenText:
-	text "Schau dir meine"
+	text "Schau Dir meine"
 	line "#MON an. Sieh"
 
 	para "ihre Farben und"
@@ -150,7 +150,7 @@ BirdKeeperBretBeatenText:
 	done
 
 BirdKeeperBretAfterBattleText:
-	text "Wenn du deine"
+	text "Wenn Du Deine"
 	line "#MON pflegst,"
 	cont "sind sie fröhlich."
 	done

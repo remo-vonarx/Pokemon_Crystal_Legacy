@@ -20,17 +20,17 @@ Kyle:
 
 VioletKylesHousePokefanMText:
 	text "Ein #MON, das"
-	line "du durch Tausch"
+	line "Du durch Tausch"
 	cont "erhalten hast,"
 	cont "wird schneller"
 	cont "wachsen."
 
-	para "Aber wenn du nicht"
+	para "Aber wenn Du nicht"
 	line "im Besitz des pas-"
 	cont "senden ORDENs"
 
 	para "bist, gehorchen"
-	line "sie dir vielleicht"
+	line "sie Dir vielleicht"
 	cont "nicht."
 	done
 

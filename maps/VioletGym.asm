@@ -142,10 +142,10 @@ FalknerIntroText:
 	line "ARENALEITER von"
 	cont "VIOLA CITY!"
 
-	para "Man sagt, dass man"
+	para "Man sagt, daß man"
 	line "die Flügel von"
 
-	para "Flug-#MON mit"
+	para "FLUG-#MON mit"
 	line "einem elektrischen"
 
 	para "Blitz stutzen"
@@ -154,10 +154,10 @@ FalknerIntroText:
 	para "So etwas werde ich"
 	line "niemals zulassen!"
 
-	para "Ich werde dich die"
+	para "Ich werde Dich die"
 	line "wahre Kraft der"
 
-	para "Flug-#MON"
+	para "FLUG-#MON"
 	line "spüren lassen!"
 	done
 
@@ -183,18 +183,18 @@ ReceivedZephyrBadgeText:
 FalknerZephyrBadgeText:
 	text "Der FLÜGELORDEN"
 	line "stärkt den ANGR-"
-	cont "Wert deiner #-"
+	cont "Wert Deiner #-"
 	cont "MON."
 
 	para "Außerdem können"
-	line "deine #MON"
+	line "Deine #MON"
 
 	para "jederzeit BLITZ"
 	line "einsetzen."
 
 	para "Hier - ich habe"
 	line "noch etwas für"
-	cont "dich."
+	cont "Dich."
 	done
 
 FalknerTMMudSlapText:
@@ -203,7 +203,7 @@ FalknerTMMudSlapText:
 	cont "lernt es sofort"
 	cont "eine neue Attacke."
 
-	para "Überlege dir den"
+	para "Überlege Dir den"
 	line "Einsatz gut - eine"
 	cont "TM kann nur einmal"
 	cont "eingesetzt werden."
@@ -227,9 +227,9 @@ FalknerTMMudSlapText:
 FalknerFightDoneText:
 	text "In so mancher"
 	line "Stadt warten noch"
-	cont "ARENEN auf dich."
+	cont "ARENEN auf Dich."
 
-	para "Du solltest dein"
+	para "Du solltest Dein"
 	line "Können in diesen"
 	cont "ARENEN beweisen."
 
@@ -292,16 +292,16 @@ BirdKeeperRodAfterBattleText:
 	line "sind unübertreff-"
 	cont "lich!"
 
-	para "Du solltest dich"
+	para "Du solltest Dich"
 	line "nicht überschät-"
-	cont "zen, nur weil du"
+	cont "zen, nur weil Du"
 	cont "mich geschlagen"
 	cont "hast!"
 	done
 
 BirdKeeperAbeSeenText:
-	text "Lass mich heraus-"
-	line "finden, ob du gut"
+	text "Laß mich heraus-"
+	line "finden, ob Du gut"
 	cont "genug bist, um ge-"
 	cont "gen FALK anzutre-"
 	cont "ten!"
@@ -369,7 +369,7 @@ VioletGymGuideWinText:
 	text "Netter Kampf! Mach"
 	line "weiter so und bald"
 
-	para "schon wirst du der"
+	para "schon wirst Du der"
 	line "CHAMP sein!"
 	done
 

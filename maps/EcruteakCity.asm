@@ -92,7 +92,7 @@ UnusedMissingDaughterText: ; unreferenced
 	text "Oh nein, oh nein…"
 
 	para "Meine Tochter wird"
-	line "vermisst."
+	line "vermißt."
 
 	para "Nein… Hoffentlich"
 	line "ist sie nicht zur"
@@ -122,17 +122,17 @@ EcruteakCityGramps1Text:
 
 EcruteakCityGramps2Text:
 	text "Na, Kröte?"
-	line "Hast du gelernt zu"
+	line "Hast Du gelernt zu"
 
 	para "tanzen wie die"
 	line "KIMONO-GIRLS?"
 
 	para "Ich habe gehört,"
-	line "dass dir ein ei-"
+	line "daß Dir ein ei-"
 	cont "genartiger Mann"
 	cont "etwas Nettes geben"
 
-	para "wird, wenn du zu"
+	para "wird, wenn Du zu"
 	line "ihrem TANZTHEATER"
 	cont "gehst."
 	done
@@ -141,7 +141,7 @@ EcruteakCityLass1Text:
 	text "Ich will im TANZ-"
 	line "THEATER üben."
 
-	para "Kommst du mit?"
+	para "Kommst Du mit?"
 	done
 
 EcruteakCityLass2Text:
@@ -195,7 +195,7 @@ EcruteakCityFisherText_JasmineReturned:
 	done
 
 EcruteakCityYoungsterText:
-	text "Ich hörte, dass"
+	text "Ich hörte, daß"
 	line "#MON am SEE DES"
 
 	para "ZORNS Unruhe stif-"

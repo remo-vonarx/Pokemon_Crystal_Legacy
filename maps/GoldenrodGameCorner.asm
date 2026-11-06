@@ -326,14 +326,14 @@ GoldenrodGameCornerCardFlipMachineScript:
 GoldenrodGameCornerPrizeVendorIntroText:
 	text "Willkommen!"
 
-	para "Wir tauschen deine"
+	para "Wir tauschen Deine"
 	line "Spielmünzen gegen"
 	cont "tolle Preise!"
 	done
 
 GoldenrodGameCornerPrizeVendorWhichPrizeText:
 	text "Welchen Preis"
-	line "möchtest du?"
+	line "möchtest Du?"
 	done
 
 GoldenrodGameCornerPrizeVendorConfirmPrizeText:
@@ -348,7 +348,7 @@ GoldenrodGameCornerPrizeVendorHereYouGoText:
 
 GoldenrodGameCornerPrizeVendorNeedMoreCoinsText:
 	text "Tut mir Leid, aber"
-	line "du brauchst mehr"
+	line "Du brauchst mehr"
 	cont "Münzen."
 	done
 
@@ -473,7 +473,7 @@ else
 	line "aus…"
 
 	para "Ich war so zornig,"
-	line "dass ich meinen"
+	line "daß ich meinen"
 
 	para "MÜNZKORB in den"
 	line "UNTERGRUND gewor-"

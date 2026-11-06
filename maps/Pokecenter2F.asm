@@ -827,7 +827,7 @@ Text_BattleReceptionistIntro:
 	line "gegen einen Freund"
 	cont "antreten."
 
-	para "Möchtest du gerne"
+	para "Möchtest Du gerne"
 	line "kämpfen?"
 	done
 
@@ -840,7 +840,7 @@ Text_TradeReceptionistIntro:
 	line "#MON mit einem"
 	cont "Freund tauschen."
 
-	para "Möchtest du gerne"
+	para "Möchtest Du gerne"
 	line "tauschen?"
 	done
 
@@ -850,10 +850,10 @@ Text_TimeCapsuleReceptionistIntro:
 
 	para "Du kannst in die"
 	line "Vergangenheit"
-	cont "reisen und deine"
+	cont "reisen und Deine"
 	cont "#MON tauschen."
 
-	para "Möchtest du gerne"
+	para "Möchtest Du gerne"
 	line "durch die Zeit"
 	cont "tauschen?"
 	done
@@ -864,10 +864,10 @@ YourFriendIsNotReadyText:
 	prompt
 
 Text_MustSaveGame:
-	text "Bevor du die"
+	text "Bevor Du die"
 	line "Verbindung her-"
-	cont "stellst, musst du"
-	cont "deinen Spielstand"
+	cont "stellst, mußt Du"
+	cont "Deinen Spielstand"
 	cont "speichern."
 	done
 
@@ -882,7 +882,7 @@ Text_LinkTimedOut:
 	cont "abgebrochen."
 
 	para "Nimm bitte Kontakt"
-	line "mit deinem Freund"
+	line "mit Deinem Freund"
 	cont "auf und komm dann"
 	cont "wieder."
 	prompt
@@ -897,7 +897,7 @@ Text_PleaseComeInDuplicate: ; unreferenced
 	prompt
 
 Text_TemporaryStagingInLinkRoom: ; unreferenced
-	text "Wir bringen dich"
+	text "Wir bringen Dich"
 	line "währenddessen in"
 	cont "den Link-Raum."
 	done
@@ -924,7 +924,7 @@ Text_PleaseEnter: ; unreferenced
 	prompt
 
 Text_RejectNewMon:
-	text "Leider kannst du"
+	text "Leider kannst Du"
 	line "@"
 	text_ram wStringBuffer1
 	text_start
@@ -972,7 +972,7 @@ Text_MysteryGiftDeliveryGuy_Intro:
 	line "doch <PLAYER>."
 
 	para "Ich habe hier"
-	line "etwas für dich."
+	line "etwas für Dich."
 	done
 
 Text_MysteryGiftDeliveryGuy_HereYouGo:
@@ -981,16 +981,16 @@ Text_MysteryGiftDeliveryGuy_HereYouGo:
 
 Text_MysteryGiftDeliveryGuy_Outro:
 	text "Hoffentlich können"
-	line "wir dir bald wie-"
+	line "wir Dir bald wie-"
 	cont "der behilflich"
 	cont "sein."
 	done
 
 Text_MysteryGiftDeliveryGuy_NoRoom:
-	text "Oh, du hast keinen"
+	text "Oh, Du hast keinen"
 	line "Platz dafür."
 
-	para "Du kannst es dir"
+	para "Du kannst es Dir"
 	line "in jedem #MON-"
 	cont "CENTER des"
 	cont "Landes abholen."
@@ -1011,7 +1011,7 @@ Text_ChangeTheLook:
 	done
 
 Text_LikeTheLook:
-	text "Gefällt dir dieser"
+	text "Gefällt Dir dieser"
 	line "Stil?"
 	done
 
@@ -1019,7 +1019,7 @@ Text_BrokeStadiumRules:
 	text "Entschuldigung!"
 
 	para "Den STADION-Regeln"
-	line "zufolge, musst du"
+	line "zufolge, mußt Du"
 
 	para "6 unterschiedliche"
 	line "#MON, außer"
@@ -1034,7 +1034,7 @@ Text_BrokeStadiumRules:
 	cont "Items tragen."
 
 	para "Komme zurück, wenn"
-	line "du fertig bist."
+	line "Du fertig bist."
 	done
 
 Pokecenter2F_MapEvents:

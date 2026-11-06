@@ -96,12 +96,12 @@ GoldenrodUndergroundWarehouseUltraBall:
 	itemball ULTRA_BALL
 
 GruntM24SeenText:
-	text "Wie bist du"
+	text "Wie bist Du"
 	line "so weit gekommen?"
 
 	para "Ich denke, es gibt"
 	line "keine andere"
-	cont "Lösung, um dich"
+	cont "Lösung, um Dich"
 	cont "loszuwerden."
 	done
 
@@ -122,7 +122,7 @@ GruntM24AfterBattleText:
 
 GruntM14SeenText:
 	text "Weiter kommst"
-	line "du nicht!"
+	line "Du nicht!"
 
 	para "Ich habe niemals"
 	line "Mitleid mit meinen"
@@ -172,7 +172,7 @@ GruntM15BeatenText:
 GruntM15AfterBattleText:
 	text "Hiuck-hiuck-hiuck!"
 	line "Das war grandios!"
-	cont "Ich werde dich"
+	cont "Ich werde Dich"
 	cont "nicht vergessen!"
 	done
 
@@ -197,13 +197,13 @@ DirectorIntroText:
 
 DirectorCardKeyText:
 	text "INTENDANT: Damit"
-	line "kannst du den"
+	line "kannst Du den"
 	cont "Rollladen im 2S"
 	cont "öffnen."
 	done
 
 DirectorAfterText:
-	text "Ich flehe dich an,"
+	text "Ich flehe Dich an,"
 	line "uns zu helfen."
 
 	para "Niemand weiß, was"

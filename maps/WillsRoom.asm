@@ -144,7 +144,7 @@ WillScript_WillBeforeText:
 	para "Ich habe die ganze"
 	line "Welt bereist, um"
 
-	para "meine Psycho-#-"
+	para "meine PSYCHO-#-"
 	line "MON zu verbessern."
 
 	para "Und schließlich"

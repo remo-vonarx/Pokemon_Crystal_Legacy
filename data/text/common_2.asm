@@ -14,7 +14,7 @@ _NameRaterHelloText::
 	line "NAMEN-BEWERTER."
 
 	para "Ich bewerte die"
-	line "Namen deiner"
+	line "Namen Deiner"
 	cont "#MON."
 
 	para "Soll ich einen"
@@ -34,7 +34,7 @@ _NameRaterBetterNameText::
 	line "Das ist kein"
 	cont "schlechter Name."
 
-	para "Aber überlege dir"
+	para "Aber überlege Dir"
 	line "einen besseren"
 	cont "Spitznamen!"
 
@@ -45,7 +45,7 @@ _NameRaterBetterNameText::
 _NameRaterWhatNameText::
 	text "O.K. Welchen"
 	line "Namen möchtest"
-	cont "du haben?"
+	cont "Du haben?"
 	prompt
 
 _NameRaterFinishedText::
@@ -68,7 +68,7 @@ _NameRaterPerfectNameText::
 	line "Ein wirklich"
 	cont "tadelloser Name!"
 
-	para "Kümmere dich gut"
+	para "Kümmere Dich gut"
 	line "um @"
 	text_ram wStringBuffer1
 	text "."
@@ -227,7 +227,7 @@ _MysteryGiftCommErrorText::
 	prompt
 
 _RetrieveMysteryGiftText::
-	text "Hole dir die"
+	text "Hole Dir die"
 	line "GABE im"
 	cont "#MON-CENTER."
 	prompt
@@ -349,7 +349,7 @@ _AlreadySurfingText::
 
 _AskSurfText::
 	text "Die See ist ruhig."
-	line "Möchtest du SURFER"
+	line "Möchtest Du SURFER"
 	cont "einsetzen?"
 	done
 
@@ -365,7 +365,7 @@ _HugeWaterfallText::
 	done
 
 _AskWaterfallText::
-	text "Möchtest du"
+	text "Möchtest Du"
 	line "KASKADE einsetzen?"
 	done
 
@@ -387,7 +387,7 @@ _CantUseDigText::
 	done
 
 _TeleportReturnText::
-	text "Bringt dich zum"
+	text "Bringt Dich zum"
 	line "letzten #MON-"
 	cont "CENTER."
 	done
@@ -421,7 +421,7 @@ _AskStrengthText::
 	line "das vielleicht"
 	cont "bewegen."
 
-	para "Möchtest du STÄRKE"
+	para "Möchtest Du STÄRKE"
 	line "einsetzen?"
 	done
 
@@ -456,7 +456,7 @@ _AskWhirlpoolText::
 	text "Ein Strudel ist"
 	line "im Weg."
 
-	para "Möchtest du"
+	para "Möchtest Du"
 	line "WHIRLPOOL"
 	cont "einsetzen?"
 	done
@@ -476,7 +476,7 @@ _AskHeadbuttText::
 	line "ein #MON in"
 	cont "diesem Baum."
 
-	para "Möchtest du KOPF-"
+	para "Möchtest Du KOPF-"
 	line "NUSS einsetzen?"
 	done
 
@@ -540,7 +540,7 @@ _AskCutText::
 	line "ZERSCHNEIDER hier"
 	cont "einsetzen!"
 
-	para "Möchtest du den"
+	para "Möchtest Du den"
 	line "ZERSCHNEIDER"
 
 	para "einsetzen?"
@@ -576,7 +576,7 @@ _WhitedOutText::
 
 _ItemfinderItemNearbyText::
 	text "Der DETEKTOR zeigt"
-	line "dir an, dass ein"
+	line "Dir an, daß ein"
 	cont "Item in der Nähe"
 	cont "ist."
 	prompt
@@ -696,7 +696,7 @@ _YouCantUseItInABattleText::
 	prompt
 
 _AreYouABoyOrAreYouAGirlText::
-	text "Bist du ein Junge?"
+	text "Bist Du ein Junge?"
 	line "Oder ein Mädchen?"
 	done
 
@@ -871,7 +871,7 @@ _BreedEggHatchText::
 	text_end ; unreferenced
 
 _BreedAskNicknameText::
-	text "Möchtest du"
+	text "Möchtest Du"
 	line "@"
 	text_ram wStringBuffer1
 	text " einen"
@@ -880,14 +880,14 @@ _BreedAskNicknameText::
 
 _LeftWithDayCareLadyText::
 	text_ram wBreedMon2Nickname
-	text " hast du"
+	text " hast Du"
 	line "der PENSIONSLEI-"
 	cont "TERIN anvertraut."
 	done
 
 _LeftWithDayCareManText::
 	text_ram wBreedMon1Nickname
-	text " hast du"
+	text " hast Du"
 	line "dem PENSIONSLEITER"
 	cont "anvertraut."
 	done
@@ -1118,7 +1118,7 @@ _ContestJudging_ThirdPlaceScoreText::
 	prompt
 
 _MagikarpGuruMeasureText::
-	text "Lass mich dein"
+	text "Laß mich Dein"
 	line "KARPADOR messen."
 
 	para "…Hm, es ist"
@@ -1149,7 +1149,7 @@ _LuckyNumberMatchPartyText::
 	text_ram wStringBuffer1
 	text_start
 
-	para "in deinem Team"
+	para "in Deinem Team"
 	line "ist stimmig."
 	prompt
 
@@ -1161,12 +1161,12 @@ _LuckyNumberMatchPCText::
 	text_ram wStringBuffer1
 	text_start
 
-	para "in deiner PC-BOX"
+	para "in Deiner PC-BOX"
 	line "ist stimmig."
 	prompt
 
 _CaughtAskNicknameText::
-	text "Möchtest du"
+	text "Möchtest Du"
 	line "@"
 	text_ram wStringBuffer1
 	text " einen"
@@ -1185,13 +1185,13 @@ _PlayersPCTurnOnText::
 	prompt
 
 _PlayersPCAskWhatDoText::
-	text "Was möchtest du"
+	text "Was möchtest Du"
 	line "tun?"
 	done
 
 _PlayersPCHowManyWithdrawText::
 	text "Wie viele möchtest"
-	line "du mitnehmen?"
+	line "Du mitnehmen?"
 	done
 
 _PlayersPCWithdrewItemsText::
@@ -1215,7 +1215,7 @@ _PlayersPCNoItemsText::
 
 _PlayersPCHowManyDepositText::
 	text "Wie viele möchtest"
-	line "du ablegen?"
+	line "Du ablegen?"
 	done
 
 _PlayersPCDepositItemsText::
@@ -1260,7 +1260,7 @@ _PokecenterBillsPCText::
 
 _PokecenterPlayersPCText::
 	text "Die Verbindung zu"
-	line "deinem PC wurde"
+	line "Deinem PC wurde"
 	cont "hergestellt."
 
 	para "Du hast Zugriff"
@@ -1270,7 +1270,7 @@ _PokecenterPlayersPCText::
 
 _PokecenterOaksPCText::
 	text "Die Verbindung zu"
-	line "PROF. EICHs PC"
+	line "PROF EICHs PC"
 	cont "wurde hergestellt."
 
 	para "Du hast Zugriff"
@@ -1285,12 +1285,12 @@ _PokecenterPCOaksClosedText::
 	done
 
 _OakPCText1::
-	text "Soll dein #DEX"
+	text "Soll Dein #DEX"
 	line "bewertet werden?"
 	done
 
 _OakPCText2::
-	text "In deinem #DEX"
+	text "In Deinem #DEX"
 	line "steht:"
 	prompt
 
@@ -1302,7 +1302,7 @@ _OakPCText3::
 	text_ram wStringBuffer4
 	text " #MON"
 
-	para "PROF. EICHs"
+	para "PROF EICHs"
 	line "Bewertung:"
 	done
 
@@ -1313,7 +1313,7 @@ _OakRating01::
 	done
 
 _OakRating02::
-	text "Gut. Ich sehe, du"
+	text "Gut. Ich sehe, Du"
 	line "kannst mit #-"
 	cont "BÄLLEN umgehen."
 	done
@@ -1323,7 +1323,7 @@ _OakRating03::
 	line "besser, hast aber"
 
 	para "noch einen langen"
-	line "Weg vor dir."
+	line "Weg vor Dir."
 	done
 
 _OakRating04::
@@ -1335,7 +1335,7 @@ _OakRating04::
 	done
 
 _OakRating05::
-	text "Du gibst dir Mühe."
+	text "Du gibst Dir Mühe."
 	line "Dein #DEX"
 
 	para "wird immer"
@@ -1352,7 +1352,7 @@ _OakRating06::
 	done
 
 _OakRating07::
-	text "Hast du eine"
+	text "Hast Du eine"
 	line "ANGEL? Du"
 
 	para "kannst damit"
@@ -1361,7 +1361,7 @@ _OakRating07::
 
 _OakRating08::
 	text "Sehr gut! Sammeln"
-	line "scheint dir Spaß"
+	line "scheint Dir Spaß"
 	cont "zu machen!"
 	done
 
@@ -1383,17 +1383,17 @@ _OakRating11::
 	text "Beeindruckend."
 	line "Du fängst nicht"
 
-	para "nur #MON, du"
+	para "nur #MON, Du"
 	line "trainierst sie"
 	cont "auch."
 	done
 
 _OakRating12::
-	text "Hast du KURT schon"
+	text "Hast Du KURT schon"
 	line "getroffen? Seine"
 	cont "handgefertigten"
 	cont "#BÄLLE werden"
-	cont "dir helfen."
+	cont "Dir helfen."
 	done
 
 _OakRating13::
@@ -1406,7 +1406,7 @@ _OakRating13::
 	done
 
 _OakRating14::
-	text "Tauschst du deine"
+	text "Tauschst Du Deine"
 	line "#MON?"
 
 	para "Alleine ist das"
@@ -1455,7 +1455,7 @@ _OakRating19::
 
 _OakPCText4::
 	text "Die Verbindung zu"
-	line "PROF. EICHs PC"
+	line "PROF EICHs PC"
 	cont "wurde getrennt."
 	done
 
@@ -1486,7 +1486,7 @@ _MemoryGameDarnText::
 	done
 
 _StartMenuContestEndText::
-	text "Möchtest du den"
+	text "Möchtest Du den"
 	line "Wettkampf beenden?"
 	done
 
@@ -1618,20 +1618,20 @@ _MailNoSpaceText::
 
 _MailAskSendToPCText::
 	text "Den entfernten"
-	line "BRIEF auf deinen"
+	line "BRIEF auf Deinen"
 	cont "PC übertragen?"
 	done
 
 _MailboxFullText::
 	text "Du kannst keine"
 	line "weiteren BRIEFE"
-	cont "auf deinen PC"
+	cont "auf Deinen PC"
 	cont "übertragen."
 	prompt
 
 _MailSentToPCText::
 	text "Der BRIEF wurde"
-	line "auf deinen PC"
+	line "auf Deinen PC"
 	cont "übertragen."
 	prompt
 
@@ -1641,7 +1641,7 @@ _PokemonNotEnoughHPText::
 
 _MayRegisterItemText::
 	text "Ein Item aus"
-	line "deinem BEUTEL"
+	line "Deinem BEUTEL"
 
 	para "kann auf"
 	line "SELECT"

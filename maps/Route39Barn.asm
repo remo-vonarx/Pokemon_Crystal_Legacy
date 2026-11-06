@@ -151,7 +151,7 @@ MoomooHappyMooText:
 	done
 
 Route39BarnAskGiveBerryText:
-	text "Gibst du MILTANK"
+	text "Gibst Du MILTANK"
 	line "eine BEERE?"
 	done
 

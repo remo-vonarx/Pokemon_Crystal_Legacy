@@ -293,11 +293,11 @@ CooltrainermJakeAfterBattleText:
 	line "schwer, in der"
 	cont "LIGA zu gewinnen."
 
-	para "Ich muss mehr"
+	para "Ich muß mehr"
 	line "trainieren."
 
 	para "Ich habe gehört,"
-	line "dass die TOP VIER"
+	line "daß die TOP VIER"
 
 	para "aus der LIGA noch"
 	line "stärker sind als"
@@ -305,9 +305,9 @@ CooltrainermJakeAfterBattleText:
 	done
 
 CooltrainermGaven3SeenText:
-	text "Wenn du harte"
+	text "Wenn Du harte"
 	line "Kämpfe bestrei-"
-	cont "test, wirst du"
+	cont "test, wirst Du"
 	cont "stärker."
 	done
 
@@ -320,7 +320,7 @@ CooltrainermGavenAfterText:
 	text "Um zur #MON"
 	line "LIGA zu gelangen,"
 
-	para "musst du die"
+	para "mußt Du die"
 	line "SIEGESSTRASSE"
 	cont "passieren."
 
@@ -332,9 +332,9 @@ CooltrainermGavenAfterText:
 	done
 
 CooltrainerfJoyceSeenText:
-	text "Da du es bis"
+	text "Da Du es bis"
 	line "hierher geschafft"
-	cont "hast, musst du"
+	cont "hast, mußt Du"
 	cont "gut sein."
 
 	para "Ich werde in"
@@ -352,10 +352,10 @@ CooltrainerfJoyceAfterBattleText:
 	line "ARENALEITER, also"
 
 	para "hatte ich genug"
-	line "Selbstbewusstsein."
+	line "Selbstbewußtsein."
 
 	para "Das nächste Mal"
-	line "muss ich mich mehr"
+	line "muß ich mich mehr"
 	cont "anstrengen."
 	done
 
@@ -389,11 +389,11 @@ CooltrainerfBethAfterText:
 	done
 
 PsychicRichardSeenText:
-	text "Wow, sieh dir all"
+	text "Wow, sieh Dir all"
 	line "die ORDEN an! Ich"
 	cont "bin beeindruckt."
 
-	para "Aber es reicht dir"
+	para "Aber es reicht Dir"
 	line "nicht, sie nur zu"
 
 	para "sammeln, oder?"
@@ -418,7 +418,7 @@ FisherScottSeenText:
 	line "mich grossartig!"
 
 	para "Ich fühle mich so"
-	line "stark, dass ich"
+	line "stark, daß ich"
 	cont "den LIGA-CHAMP"
 	cont "besiegen könnte!"
 	done
@@ -432,7 +432,7 @@ FisherScottAfterBattleText:
 	text "Das Angeln und"
 	line "#MON sind sehr"
 
-	para "ähnlich. Wenn du"
+	para "ähnlich. Wenn Du"
 	line "aufgibst, ist es"
 	cont "vorüber."
 	done

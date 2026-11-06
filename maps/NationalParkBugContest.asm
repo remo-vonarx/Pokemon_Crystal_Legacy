@@ -117,7 +117,7 @@ NationalParkBugContestHiddenFullHeal:
 
 BugCatchingContestant1AText:
 	text "ULI: Ich werde"
-	line "gewinnen! Lass"
+	line "gewinnen! Laß"
 	cont "mich in Ruhe."
 	done
 
@@ -148,14 +148,14 @@ BugCatchingContestant5AText:
 	text "AXEL: Pst! Du"
 	line "hast SICHLOR ver-"
 	cont "schreckt. Ich rede"
-	cont "später mit dir."
+	cont "später mit Dir."
 	done
 
 BugCatchingContestant6AText:
 	text "TILL: Schwäche"
-	line "Käfer-#MON, ehe"
+	line "KÄFER-#MON, ehe"
 
-	para "du einen #BALL"
+	para "Du einen #BALL"
 	line "wirfst."
 	done
 
@@ -180,17 +180,17 @@ BugCatchingContestant8AText:
 	done
 
 BugCatchingContestant9AText:
-	text "GUIDO: Wenn du"
+	text "GUIDO: Wenn Du"
 	line "Zeit für Gespräche"
 
-	para "hast, solltest du"
+	para "hast, solltest Du"
 	line "lieber Käfer-"
 	cont "#MON suchen."
 	done
 
 BugCatchingContestant10AText:
 	text "MICHEL: Ich habe"
-	line "Käfer-#MON"
+	line "KÄFER-#MON"
 	cont "lange studiert."
 
 	para "Ich werde sicher-"
@@ -210,13 +210,13 @@ NationalParkBugContestBattleNoticeText:
 	line "im Gras gestattet."
 
 	para "NATIONALPARK"
-	line "BÜRO DES WÄCHTERs"
+	line "BÜRO DES WÄCHTERS"
 	done
 
 NationalParkBugContestTrainerTipsText:
 	text "TIPPS für TRAINER"
 
-	para "Möchtest du deine"
+	para "Möchtest Du Deine"
 	line "BRIEFE drucken,"
 	cont "öffne sie und"
 	cont "drücke START."

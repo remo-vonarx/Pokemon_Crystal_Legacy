@@ -71,7 +71,7 @@ HikerPhillipSeenText:
 	cont "mehr begegnet."
 
 	para "Hab keine Angst."
-	line "Lass uns kämpfen!"
+	line "Laß uns kämpfen!"
 	done
 
 HikerPhillipBeatenText:
@@ -101,8 +101,8 @@ HikerLeonardAfterBattleText:
 	text "Ich wohne hier"
 	line "unten."
 
-	para "Wenn du möchtest,"
-	line "kannst du bei"
+	para "Wenn Du möchtest,"
+	line "kannst Du bei"
 	cont "mir einziehen."
 
 	para "Es ist noch"
@@ -112,7 +112,7 @@ HikerLeonardAfterBattleText:
 PokemaniacAndrewSeenText:
 	text "Wer ist da?"
 
-	para "Lass mich und"
+	para "Laß mich und"
 	line "meine #MON"
 	cont "in Frieden!"
 	done
@@ -135,7 +135,7 @@ PokemaniacCalvinSeenText:
 	cont "Forschungen"
 	cont "durchzuführen."
 
-	para "Ich zeige dir"
+	para "Ich zeige Dir"
 	line "meine Ergebnisse"
 	cont "in einem Kampf!"
 	done
@@ -153,7 +153,7 @@ PokemaniacCalvinAfterBattleText:
 
 	para "Vielleicht werde"
 	line "ich so berühmt"
-	cont "wie PROF. LIND."
+	cont "wie PROF LIND."
 	done
 
 UnionCaveB1F_MapEvents:

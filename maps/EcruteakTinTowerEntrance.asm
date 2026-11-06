@@ -150,22 +150,22 @@ EcruteakTinTowerEntranceSageBlocksRightMovement:
 	step_end
 
 EcruteakTinTowerEntranceSageText:
-	text "Wenn du nicht im"
+	text "Wenn Du nicht im"
 	line "Besitz des ORDENs"
 
 	para "von TEAK CITY"
-	line "bist, darfst du"
+	line "bist, darfst Du"
 
 	para "den ZINNTURM nicht"
 	line "betreten."
 	done
 
 EcruteakTinTowerEntranceSageText_GotFogBadge:
-	text "Wenn du nicht im"
+	text "Wenn Du nicht im"
 	line "Besitz des ORDENs"
 
 	para "von TEAK CITY"
-	line "bist, darfst du"
+	line "bist, darfst Du"
 
 	para "den ZINNTURM nicht"
 	line "betreten. Ah!"
@@ -180,7 +180,7 @@ EcruteakTinTowerEntranceSageText_NoClearBell:
 	line "Augenblick."
 
 	para "Entschuldigung,"
-	line "aber ich muss dich"
+	line "aber ich muß Dich"
 	cont "bitten zu gehen."
 
 	para "…Was lindert"
@@ -199,7 +199,7 @@ EcruteakTinTowerEntranceSageText_HearsClearBell:
 	line "Augenblick."
 
 	para "Entschuldigung,"
-	line "aber ich muss dich"
+	line "aber ich muß Dich"
 	cont "bitten zu gehen."
 
 	para "<……><……><……>"
@@ -263,7 +263,7 @@ EcruteakTinTowerEntranceWanderingSageText:
 
 EcruteakTinTowerEntranceWanderingSageText_GotClearBell:
 	text "Der ZINNTURM bebt!"
-	line "Ein #MON muss"
+	line "Ein #MON muß"
 
 	para "auf der Spitze ge-"
 	line "landet sein!"

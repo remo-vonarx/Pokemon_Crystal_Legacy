@@ -60,7 +60,7 @@ ViridianPokecenter1FCooltrainerMText_BlueReturned:
 
 ViridianPokecenter1FCooltrainerFText:
 	text "Ich habe gehört,"
-	line "dass die PKMN-"
+	line "daß die PKMN-"
 	cont "ARENA auf der"
 	cont "ZINNOBERINSEL"
 	cont "verschwunden ist."

@@ -46,7 +46,7 @@ GoldenrodDeptStore2FUnusedText1: ; unreferenced
 	cont "werden können."
 
 	para "Das ist ein Werbe-"
-	line "Geschenk. Lass ein"
+	line "Geschenk. Laß ein"
 	cont "#MON es tragen."
 	done
 
@@ -54,7 +54,7 @@ GoldenrodDeptStore2FUnusedText2: ; unreferenced
 	text "Trägt ein #MON"
 	line "ein Item, könnte"
 	cont "das einen Kampf zu"
-	cont "deinen Gunsten"
+	cont "Deinen Gunsten"
 	cont "entscheiden."
 	done
 
@@ -81,7 +81,7 @@ GoldenrodDeptStore2FCooltrainerFText:
 
 GoldenrodDeptStore2FGentlemanText:
 	text "Dieses KAUFHAUS"
-	line "zeigt mir, dass"
+	line "zeigt mir, daß"
 
 	para "DUKATIA CITY eine"
 	line "sehr große Stadt"

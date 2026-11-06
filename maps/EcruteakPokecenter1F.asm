@@ -99,7 +99,7 @@ EcruteakPokecenter1FPlayerMovement1:
 
 EcruteakPokecenter1F_BillText1:
 	text "Hi, ich bin BILL."
-	line "Und wer bist du?"
+	line "Und wer bist Du?"
 
 	para "Hmm, <PLAYER>?"
 	line "Du bist gerade zum"
@@ -114,7 +114,7 @@ EcruteakPokecenter1F_BillText2:
 	cont "fertig geworden."
 
 	para "Du weißt doch,"
-	line "dass man #MON"
+	line "daß man #MON"
 	cont "tauschen kann?"
 
 	para "Meine ZEITKAPSEL"
@@ -123,20 +123,20 @@ EcruteakPokecenter1F_BillText2:
 	para "Tauschhandel in"
 	line "der Vergangenheit."
 
-	para "Aber du kannst"
+	para "Aber Du kannst"
 	line "nichts in die Ver-"
 	cont "gangenheit senden,"
 
 	para "was damals nicht"
 	line "existierte."
 
-	para "Solltest du das"
+	para "Solltest Du das"
 	line "versuchen, erlei-"
 	cont "det der PC in der"
 	cont "Vergangenheit ei-"
 	cont "nen Absturz."
 
-	para "Also musst du al-"
+	para "Also mußt Du al-"
 	line "les entfernen, was"
 
 	para "es in der Vergan-"
@@ -161,7 +161,7 @@ EcruteakPokecenter1F_BillText2:
 	line "CENTERN zur Verfü-"
 	cont "gung stehen."
 
-	para "Ich muss zurück"
+	para "Ich muß zurück"
 	line "nach DUKATIA CITY,"
 	cont "um meine Freunde"
 	cont "zu besuchen."
@@ -190,7 +190,7 @@ EcruteakPokecenter1FPokefanMTextMobile:
 	para "Ort, an dem sich"
 	line "Trainer treffen."
 
-	para "Wo, fragst du?"
+	para "Wo, fragst Du?"
 
 	para "Kurz nach"
 	line "OLIVIANA CITY."

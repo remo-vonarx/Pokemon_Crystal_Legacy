@@ -96,7 +96,7 @@ ViridianCityCoffeeGrampsQuestionText:
 	para "Ich brauche jetzt"
 	line "jemanden zum"
 	cont "Reden und zwar"
-	cont "dich!"
+	cont "Dich!"
 
 	para "Man sieht es mir"
 	line "jetzt vielleicht"
@@ -106,7 +106,7 @@ ViridianCityCoffeeGrampsQuestionText:
 	cont "Experte im Fangen"
 	cont "von #MON."
 
-	para "Glaubst du mir?"
+	para "Glaubst Du mir?"
 	done
 
 ViridianCityCoffeeGrampsBelievedText:
@@ -114,7 +114,7 @@ ViridianCityCoffeeGrampsBelievedText:
 	line "war wirklich etwas"
 
 	para "Besonderes, das"
-	line "kann ich dir"
+	line "kann ich Dir"
 	cont "sagen!"
 	done
 
@@ -125,7 +125,7 @@ ViridianCityCoffeeGrampsDoubtedText:
 	para "Wenn ich etwas"
 	line "jünger wäre, würde"
 
-	para "ich dir schon das"
+	para "ich Dir schon das"
 	line "eine oder andere"
 	cont "zeigen! Grummel."
 	done
@@ -145,7 +145,7 @@ ViridianCityGrampsNearGymText:
 	done
 
 ViridianCityGrampsNearGymBlueReturnedText:
-	text "Wirst du den"
+	text "Wirst Du den"
 	line "ARENALEITER"
 	cont "herausfordern?"
 
@@ -179,7 +179,7 @@ ViridianCityDreamEaterFisherText:
 	line "hergekommen?"
 
 	para "Unheimlich!"
-	line "Hier, du kannst"
+	line "Hier, Du kannst"
 	cont "die TM behalten."
 	done
 
@@ -192,7 +192,7 @@ ViridianCityDreamEaterFisherGotDreamEaterText:
 
 ViridianCityYoungsterText:
 	text "Ich habe gehört,"
-	line "dass man viele"
+	line "daß man viele"
 
 	para "Items im VERTANIA-"
 	line "WALD findet."

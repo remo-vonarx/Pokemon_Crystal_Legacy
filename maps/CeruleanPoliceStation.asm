@@ -24,14 +24,14 @@ CeruleanDiglett:
 
 CeruleanPoliceStationFishingGuruText:
 	text "Ich habe gehört,"
-	line "dass ein zwielich-"
+	line "daß ein zwielich-"
 	cont "tiger Typ herum-"
 	cont "schleichen soll."
 
 	para "Ich werde nicht"
 	line "still halten, wenn"
 	cont "sich herausstellt,"
-	cont "dass er ein"
+	cont "daß er ein"
 	cont "Dieb ist."
 	done
 

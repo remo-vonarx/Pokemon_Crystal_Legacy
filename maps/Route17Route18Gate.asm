@@ -40,14 +40,14 @@ Route17Route18GateOfficerText:
 	done
 
 Route17Route18GateCannotPassText:
-	text "Warte! Hast du"
+	text "Warte! Hast Du"
 	line "kein FAHRRAD?"
 
 	para "Der RADWEG"
 	line "beginnt da vorne."
 
 	para "Ohne FAHRRAD"
-	line "darfst du ihn"
+	line "darfst Du ihn"
 	cont "nicht benutzen."
 	done
 

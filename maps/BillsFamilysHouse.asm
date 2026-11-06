@@ -123,23 +123,23 @@ BillTakeThisEeveeText:
 	para "aber ich gehe"
 	line "nicht gerne raus."
 
-	para "Wirst du für mich"
+	para "Wirst Du für mich"
 	line "mit ihm spielen,"
 	cont "<PLAYER>?"
 	done
 
 BillImCountingOnYouText:
-	text "BILL: Ich wusste,"
-	line "dass du es"
+	text "BILL: Ich wußte,"
+	line "daß Du es"
 
 	para "schaffst! Noch ein"
 	line "kleines Stück! Du"
 	cont "bist einzigartig!"
 
 	para "O.K., ich zähle"
-	line "auf dich."
+	line "auf Dich."
 
-	para "Pass auf dich auf!"
+	para "Paß auf Dich auf!"
 	done
 
 ReceivedEeveeText:
@@ -148,7 +148,7 @@ ReceivedEeveeText:
 	done
 
 BillEeveeMayEvolveText:
-	text "BILL: PROF. LIND"
+	text "BILL: PROF LIND"
 	line "sagt, EVOLI kann"
 
 	para "sich in neue, un-"
@@ -159,7 +159,7 @@ BillEeveeMayEvolveText:
 BillPartyFullText:
 	text "Moment! Du hast"
 	line "keinen Platz mehr"
-	cont "in deinem Team."
+	cont "in Deinem Team."
 	done
 
 BillNoEeveeText:
@@ -179,7 +179,7 @@ BillPopWontWorkText:
 	done
 
 BillsMomText_BeforeEcruteak:
-	text "Oh, du sammelst"
+	text "Oh, Du sammelst"
 	line "#MON? Mein Sohn"
 	cont "BILL ist ein"
 	cont "Experte."
@@ -202,17 +202,17 @@ BillsMomText_AfterEcruteak:
 	line "#MANIAC "
 
 	para "bekannt. BILL"
-	line "muss nach seinem"
+	line "muß nach seinem"
 	cont "Vater kommen."
 	done
 
 BillsSisterUsefulNumberText:
-	text "Bist du ein"
+	text "Bist Du ein"
 	line "Trainer?"
 
 	para "Ich habe eine"
 	line "nützliche Telefon-"
-	cont "nummer für dich."
+	cont "nummer für Dich."
 	done
 
 RecordedBillsNumberText:
@@ -226,7 +226,7 @@ BillsSisterRefusedNumberText:
 	cont "LAGERUNGS-SYSTEM"
 	cont "erfunden."
 
-	para "Ich wollte dir ge-"
+	para "Ich wollte Dir ge-"
 	line "rade BILLs Nummer"
 	cont "geben…"
 	done

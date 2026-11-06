@@ -32,7 +32,7 @@ MahoganyPokecenter1FPokefanMText:
 
 MahoganyPokecenter1FYoungsterText:
 	text "Ich verhindere,"
-	line "dass sich meine"
+	line "daß sich meine"
 	cont "#MON zu"
 	cont "rasch entwickeln."
 

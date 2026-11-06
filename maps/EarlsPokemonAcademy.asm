@@ -167,20 +167,20 @@ AcademyEarlIntroText:
 	para "Wunderbar sind"
 	line "#MON, oui!"
 
-	para "Isch werde dir"
+	para "Isch werde Dir"
 	line "beibringen, ein"
 
 	para "besserer Trainer"
 	line "zu werden!"
 
-	para "Was möchtest du"
+	para "Was möchtest Du"
 	line "wissen? Willst ein"
-	cont "Gewinner du sein?"
+	cont "Gewinner Du sein?"
 	done
 
 AcademyEarlTeachHowToWinText:
-	text "Gut! So lass misch"
-	line "dir erklären!"
+	text "Gut! So laß misch"
+	line "Dir erklären!"
 
 	para "Im Kampf wird das"
 	line "erste #MON auf"
@@ -189,11 +189,11 @@ AcademyEarlTeachHowToWinText:
 
 	para "Ändere die Auf-"
 	line "stellung in der"
-	cont "Liste, um dich den"
+	cont "Liste, um Dich den"
 	cont "Gegebenheiten an-"
 	cont "zupassen!"
 
-	para "Möschtest du noch"
+	para "Möschtest Du noch"
 	line "mehr ören?"
 	done
 
@@ -205,7 +205,7 @@ AcademyEarlTeachMoreText:
 	done
 
 AcademyEarlTeachHowToRaiseWellText:
-	text "Gut! So lass misch"
+	text "Gut! So laß misch"
 	line "erklären!"
 
 	para "Selbst, wenn ein"
@@ -386,7 +386,7 @@ AcademyBlackboardText:
 
 AcademyBlackboardText2: ; unreferenced
 	text "Über welches Thema"
-	line "willst du lesen?"
+	line "willst Du lesen?"
 	done
 
 AcademyPoisonText:
@@ -403,7 +403,7 @@ AcademyPoisonText:
 	cont "weiterhin KP."
 
 	para "Um es zu heilen,"
-	line "musst du GEGENGIFT"
+	line "mußt Du GEGENGIFT"
 	cont "einsetzen."
 	done
 
@@ -436,7 +436,7 @@ AcademySleepText:
 
 AcademyBurnText:
 	text "Eine Verbrennung"
-	line "lässt die KP ste-"
+	line "läßt die KP ste-"
 	cont "tig sinken und re-"
 	cont "duziert die An-"
 	cont "griffskraft."
@@ -451,7 +451,7 @@ AcademyBurnText:
 	done
 
 AcademyFreezeText:
-	text "Ist dein #MON"
+	text "Ist Dein #MON"
 	line "eingefroren, ist"
 
 	para "es zu keiner"
@@ -486,7 +486,7 @@ AcademyNotebookText:
 AcademyNotebookText1:
 	text "Bevor man den"
 	line "#BALL wirft,"
-	cont "muss das Ziel ge-"
+	cont "muß das Ziel ge-"
 	cont "schwächt werden."
 
 	para "Ein vergiftetes"
@@ -500,7 +500,7 @@ AcademyNotebookText1:
 
 AcademyNotebookText2:
 	text "Manche Attacken"
-	line "verwirren dein"
+	line "verwirren Dein"
 	cont "#MON."
 
 	para "Ein verwirrtes"
@@ -524,7 +524,7 @@ AcademyNotebookText3:
 	cont "MON-Trainer."
 
 	para "Man erwartet von"
-	line "ihnen, dass sie"
+	line "ihnen, daß sie"
 
 	para "ARENEN besuchen"
 	line "und gegen andere"

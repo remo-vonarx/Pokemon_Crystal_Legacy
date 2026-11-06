@@ -60,11 +60,11 @@ PokefanmRobertBeatenText:
 	done
 
 PokefanmRobertAfterBattleText:
-	text "Sieh nur, was du"
+	text "Sieh nur, was Du"
 	line "meinen #MON"
 	cont "angetan hast…"
 
-	para "Das werde ich dir"
+	para "Das werde ich Dir"
 	line "nie verzeihen…"
 	done
 

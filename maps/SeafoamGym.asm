@@ -168,7 +168,7 @@ BlaineAfterBattleText:
 
 	para "ZINNOBERINSEL"
 	line "wieder aufbauen"
-	cont "und dann wirst du"
+	cont "und dann wirst Du"
 	cont "erneut gegen mich"
 	cont "antreten."
 	done
@@ -225,15 +225,15 @@ SeafoamGymGuideWinText:
 
 	para "existiert nicht"
 	line "mehr und ich"
-	cont "wusste nicht, wo"
-	cont "du steckst."
+	cont "wußte nicht, wo"
+	cont "Du steckst."
 
 	para "Aber egal! Du"
 	line "bist auch ohne"
 
 	para "meinen Ratschlag"
 	line "zurechtgekommen."
-	cont "Ich wusste, du"
+	cont "Ich wußte, Du"
 	cont "würdest gewinnen."
 	done
 

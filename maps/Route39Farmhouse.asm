@@ -116,7 +116,7 @@ FarmerMText_SickCow:
 	done
 
 FarmerMText_BuyMilk:
-	text "Wie findest du"
+	text "Wie findest Du"
 	line "die MILCH von"
 	cont "meinem MILTANK?"
 
@@ -127,7 +127,7 @@ FarmerMText_BuyMilk:
 	line "#MON, um dessen"
 	cont "KP aufzufrischen!"
 
-	para "Ich gebe sie dir"
+	para "Ich gebe sie Dir"
 	line "für nur ¥500."
 	done
 
@@ -139,15 +139,15 @@ FarmerMText_GotMilk:
 
 FarmerMText_NoMoney:
 	text "Tut mir Leid, mein"
-	line "Kind. Wenn du kein"
+	line "Kind. Wenn Du kein"
 	cont "Geld hast, kann"
-	cont "ich dir nichts"
+	cont "ich Dir nichts"
 	cont "verkaufen!"
 	done
 
 FarmerMText_NoRoom:
 	text "Ich schätze,"
-	line "dein BEUTEL ist"
+	line "Dein BEUTEL ist"
 	cont "voll."
 	done
 
@@ -155,7 +155,7 @@ FarmerMText_NoSale:
 	text "Du hast kein"
 	line "Interesse? Komm"
 	cont "aber wieder, hörst"
-	cont "du?"
+	cont "Du?"
 	done
 
 FarmerMText_Milking:
@@ -183,7 +183,7 @@ FarmerFText_HealedMiltank:
 	para "Jetzt gibt es"
 	line "wieder Milch!"
 
-	para "Hier, für deine"
+	para "Hier, für Deine"
 	line "Mühe."
 	done
 
@@ -203,8 +203,8 @@ FarmerFText_SnoreSpeech:
 	line "fendes #MON"
 	cont "einsetzen kann."
 
-	para "Überlege dir gut,"
-	line "wie du sie"
+	para "Überlege Dir gut,"
+	line "wie Du sie"
 	cont "anwendest."
 	done
 

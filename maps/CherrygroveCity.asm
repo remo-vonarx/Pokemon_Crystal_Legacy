@@ -368,8 +368,8 @@ GuideGentIntroText:
 	cont "Meister vom Himmel"
 	cont "gefallen!"
 
-	para "Wenn du willst,"
-	line "bringe ich dir ein"
+	para "Wenn Du willst,"
+	line "bringe ich Dir ein"
 	cont "paar Tricks bei."
 	done
 
@@ -382,7 +382,7 @@ GuideGentPokecenterText:
 	text "Das ist ein #-"
 	line "MON-CENTER. Hier"
 
-	para "kannst du deine"
+	para "kannst Du Deine"
 	line "#MON heilen."
 
 	para "Du wirst diese"
@@ -398,11 +398,11 @@ GuideGentMartText:
 
 	para "Hier werden BÄLLE"
 	line "verkauft, mit de-"
-	cont "nen du #MON"
+	cont "nen Du #MON"
 	cont "fangen kannst."
 
 	para "Außerdem findest"
-	line "du hier viele"
+	line "Du hier viele"
 	cont "nützliche Items."
 	done
 
@@ -418,7 +418,7 @@ GuideGentRoute30Text:
 	done
 
 GuideGentSeaText:
-	text "Wie du sehen"
+	text "Wie Du sehen"
 	line "kannst, befinden"
 
 	para "wir uns hier am"
@@ -433,11 +433,11 @@ GuideGentGiftText:
 	text "Hier…"
 
 	para "Das ist mein Haus!"
-	line "Danke, dass du mir"
+	line "Danke, daß Du mir"
 	cont "Gesellschaft"
 	cont "geleistet hast."
 
-	para "Lass mich dir ein"
+	para "Laß mich Dir ein"
 	line "kleines Präsent"
 	cont "geben!"
 	done
@@ -452,12 +452,12 @@ GotMapCardText:
 GuideGentPokegearText:
 	text "Der #COM wird"
 	line "vielseitiger, wenn"
-	cont "du ihn mit MODULEN"
+	cont "Du ihn mit MODULEN"
 	cont "erweiterst."
 
-	para "Ich wünsche dir"
+	para "Ich wünsche Dir"
 	line "viel Glück für"
-	cont "deine Reise!"
+	cont "Deine Reise!"
 	done
 
 GuideGentNoText:
@@ -477,24 +477,24 @@ CherrygroveRivalText_Seen:
 	para "Welch eine Ver-"
 	line "schwendung für ei-"
 	cont "nen Schwächling"
-	cont "wie dich."
+	cont "wie Dich."
 
 	para "<……> <……> <……>"
 
-	para "Hast du kapiert,"
+	para "Hast Du kapiert,"
 	line "wovon ich spreche?"
 
 	para "Auch ich habe ein"
 	line "gutes #MON."
 
-	para "Ich zeige dir, was"
+	para "Ich zeige Dir, was"
 	line "ich meine!"
 	done
 
 SilverCherrygroveWinText:
-	text "Hmpf. Bist du we-"
+	text "Hmpf. Bist Du we-"
 	line "nigstens froh über"
-	cont "deinen Sieg?"
+	cont "Deinen Sieg?"
 	done
 
 CherrygroveRivalText_YouLost:
@@ -523,21 +523,21 @@ CherrygroveRivalText_YouWon:
 	done
 
 CherrygroveTeacherText_NoMapCard:
-	text "Hast du mit dem"
+	text "Hast Du mit dem"
 	line "alten Mann am"
 	cont "#MON-CENTER"
 	cont "gesprochen?"
 
-	para "Er wird dir eine"
+	para "Er wird Dir eine"
 	line "KARTE von JOHTO"
-	cont "für deinen #-"
+	cont "für Deinen #-"
 	cont "COM geben."
 	done
 
 CherrygroveTeacherText_HaveMapCard:
 	text "Du kannst gehen,"
-	line "wohin du willst -"
-	cont "solange du mit"
+	line "wohin Du willst -"
+	cont "solange Du mit"
 	cont "#MON unterwegs"
 	cont "bist, wird es"
 	cont "immer lustig sein."
@@ -557,7 +557,7 @@ CherrygroveYoungsterText_HavePokedex:
 	para "Meine #MON"
 	line "haben verloren!"
 
-	para "Ich muss sie rasch"
+	para "Ich muß sie rasch"
 	line "in ein #MON-"
 	cont "CENTER bringen."
 	done
@@ -572,7 +572,7 @@ MysticWaterGuyTextBefore:
 	cont "ZAUBERWASSER."
 
 	para "Ich brauche es"
-	line "nicht. Möchtest du"
+	line "nicht. Möchtest Du"
 	cont "es haben?"
 	done
 
@@ -590,7 +590,7 @@ CherrygroveCitySignText:
 
 GuideGentsHouseSignText:
 	text "HAUS DES"
-	line "FREMDENFÜHRERs"
+	line "FREMDENFÜHRERS"
 	done
 
 CherrygroveCity_MapEvents:

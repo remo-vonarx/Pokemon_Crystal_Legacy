@@ -15,7 +15,7 @@ Route31VioletGateCooltrainerFScript:
 
 Route31VioletGateOfficerText:
 	text "Tach auch!"
-	line "Warst du im"
+	line "Warst Du im"
 	cont "KNOFENSA-TURM?"
 	done
 

@@ -48,7 +48,7 @@ BattleTowerOutsideYoungsterText_Mobile: ; unreferenced
 	para "Da sich darin so"
 	line "viele Trainer"
 
-	para "tummeln, muss es"
+	para "tummeln, muß es"
 	line "auch sehr viele"
 
 	para "unterschiedliche"
@@ -59,7 +59,7 @@ BattleTowerOutsideYoungsterText:
 	text "Wow, der DUELLTURM"
 	line "ist riesig!"
 
-	para "Es muss dort viele"
+	para "Es muß dort viele"
 	line "#MON geben!"
 	done
 
@@ -68,7 +68,7 @@ BattleTowerOutsideBeautyText_NotYetOpen: ; unreferenced
 	line "vor sich?"
 
 	para "Nomen est Omen:"
-	line "Hier muss es"
+	line "Hier muß es"
 
 	para "um #MON-Kämpfe"
 	line "gehen."
@@ -107,7 +107,7 @@ BattleTowerOutsideSailorText:
 	para "nicht zurück, bis"
 	line "ich siege. Ich"
 
-	para "muss alles gewin-"
+	para "muß alles gewin-"
 	line "nen. Es ist ein"
 	cont "Zwang!"
 	done

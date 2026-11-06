@@ -158,13 +158,13 @@ CeruleanCityCooltrainerMText1:
 	line "Straße östlich"
 	cont "von hier."
 
-	para "Es muss dort einen"
+	para "Es muß dort einen"
 	line "Störfall gegeben"
 	cont "haben."
 	done
 
 CeruleanCityCooltrainerMText2:
-	text "Sammelst du jede"
+	text "Sammelst Du jede"
 	line "Art von #MON?"
 
 	para "Das ist bestimmt"
@@ -193,7 +193,7 @@ CeruleanCityCooltrainerFText1:
 	done
 
 CeruleanCityCooltrainerFText2:
-	text "LAHMUS, mach deine"
+	text "LAHMUS, mach Deine"
 	line "KONFUSION vor!"
 	done
 
@@ -222,7 +222,7 @@ CeruleanCityYoungsterText1:
 
 	para "haben, in der"
 	line "mächtige und"
-	cont "grässliche #MON"
+	cont "gräßliche #MON"
 	cont "gehaust haben."
 	done
 

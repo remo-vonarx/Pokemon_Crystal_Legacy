@@ -150,7 +150,7 @@ WiseTriosRoomSage2Text:
 	cont "dort geöffnet"
 
 	para "haben soll. Jemand"
-	line "muss das absicht-"
+	line "muß das absicht-"
 	cont "lich getan haben."
 	done
 
@@ -166,7 +166,7 @@ WiseTriosRoomSage3BlocksExitText:
 	line "und ENTEI jetzt"
 
 	para "aber erwacht sind,"
-	line "muss ich dich"
+	line "muß ich Dich"
 
 	para "bitten, nicht"
 	line "einzutreten!"
@@ -182,7 +182,7 @@ WiseTriosRoomSage3Text:
 
 SageGakuSeenText:
 	text "Die Legende be-"
-	line "sagt, dass beim"
+	line "sagt, daß beim"
 
 	para "Erscheinen eines"
 	line "Trainers, der die"
@@ -207,7 +207,7 @@ SageGakuSeenText:
 	para "Wir, das TRIO der"
 	line "WEISEN, werden"
 
-	para "prüfen, ob du"
+	para "prüfen, ob Du"
 	line "würdig bist,"
 	cont "einzutreten!"
 	done
@@ -218,7 +218,7 @@ SageGakuBeatenText:
 	done
 
 SageGakuAfterBattleText:
-	text "Ah, du behauptest"
+	text "Ah, Du behauptest"
 	line "also, SUICUNE,"
 
 	para "ENTEI und RAIKOU"
@@ -237,16 +237,16 @@ SageGakuAfterBattleText:
 	done
 
 SageMasaSeenText:
-	text "Kann man dir die"
+	text "Kann man Dir die"
 	line "Wahrheit"
 	cont "anvertrauen?"
 
-	para "Ich muss prüfen,"
-	line "ob du würdig bist."
+	para "Ich muß prüfen,"
+	line "ob Du würdig bist."
 	done
 
 SageMasaBeatenText:
-	text "…Ich sage dir"
+	text "…Ich sage Dir"
 	line "die Wahrheit…"
 	done
 
@@ -267,7 +267,7 @@ SageMasaAfterBattleText:
 	para "Die Aussicht von"
 	line "den beiden Spitzen"
 
-	para "der TÜRME muss"
+	para "der TÜRME muß"
 	line "atemberaubend"
 	cont "gewesen sein."
 
@@ -305,7 +305,7 @@ SageMasaAfterBattleText:
 	done
 
 SageKojiSeenText:
-	text "Beweise mir deine"
+	text "Beweise mir Deine"
 	line "Kraft!"
 	done
 
@@ -315,7 +315,7 @@ SageKojiBeatenText:
 	done
 
 SageKojiAfterBattleQuestionText:
-	text "Du… bist du der"
+	text "Du… bist Du der"
 	line "Trainer, der von"
 
 	para "dem legendären"
@@ -344,14 +344,14 @@ SageKojiAfterBattleSpeechText:
 	line "betritt den"
 	cont "ZINNTURM."
 
-	para "SUICUNE wird dich"
+	para "SUICUNE wird Dich"
 	line "prüfen."
 	done
 
 SageKojiAfterBattleFinalText:
 	text "Schreite voran!"
 
-	para "SUICUNE wird dich"
+	para "SUICUNE wird Dich"
 	line "prüfen."
 	done
 

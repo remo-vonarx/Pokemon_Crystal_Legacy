@@ -361,12 +361,12 @@ Text_BattleTowerWelcomesYou:
 	text "Willkommen im"
 	line "DUELLTURM!"
 
-	para "Ich führe dich in"
+	para "Ich führe Dich in"
 	line "einen KAMPFRAUM."
 	done
 
 Text_WantToGoIntoABattleRoom:
-	text "Möchtest du in"
+	text "Möchtest Du in"
 	line "einen KAMPFRAUM?"
 	done
 
@@ -397,14 +397,14 @@ Text_BattleTowerIntroduction_1: ; unreferenced
 	para "In jedem RAUM sind"
 	line "sieben Trainer."
 
-	para "Besiegst du alle"
+	para "Besiegst Du alle"
 	line "sieben Trainer"
 
 	para "eines RAUMs und"
 	line "hast eine gute"
 
 	para "Kampfstatistik,"
-	line "kannst du der"
+	line "kannst Du der"
 	cont "RAUMPRIMUS werden."
 
 	para "Jeder PRIMUS wird"
@@ -429,10 +429,10 @@ Text_BattleTowerIntroduction_1: ; unreferenced
 	line "forderung zu"
 
 	para "unterbrechen,"
-	line "musst du SICHERN."
+	line "mußt Du SICHERN."
 
 	para "Falls nicht,"
-	line "kannst du den"
+	line "kannst Du den"
 
 	para "Kampf nicht"
 	line "fortsetzen."
@@ -461,19 +461,19 @@ Text_BattleTowerIntroduction_2:
 	para "In jedem RAUM sind"
 	line "sieben Trainer."
 
-	para "Besiegst du alle,"
-	line "bekommst du einen"
+	para "Besiegst Du alle,"
+	line "bekommst Du einen"
 
 	para "Preis. Um eine"
 	line "Herausforderung zu"
 
 	para "unterbrechen,"
-	line "musst du SICHERN."
+	line "mußt Du SICHERN."
 
-	para "Falls du nicht"
+	para "Falls Du nicht"
 	line "sicherst, kannst"
 
-	para "du den Kampf nicht"
+	para "Du den Kampf nicht"
 	line "fortsetzen."
 	done
 
@@ -493,7 +493,7 @@ Text_ThankYou: ; unreferenced
 	done
 
 Text_ThanksForVisiting:
-	text "Danke für deinen"
+	text "Danke für Deinen"
 	line "Besuch!"
 	done
 
@@ -509,7 +509,7 @@ Text_BeatenAllTheTrainers_Mobile: ; unreferenced
 
 	para "<PLAYER>. Dieses"
 	line "Resultat könnte"
-	cont "dich zum"
+	cont "Dich zum"
 	cont "RAUMPRIMUS machen."
 	done
 
@@ -519,12 +519,12 @@ Text_CongratulationsYouveBeatenAllTheTrainers:
 	para "Du hast alle Trai-"
 	line "ner besiegt! Dafür"
 
-	para "erhältst du einen"
+	para "erhältst Du einen"
 	line "Preis!"
 	done
 
 Text_AskRegisterRecord_Mobile: ; unreferenced
-	text "Möchtest du deine"
+	text "Möchtest Du Deine"
 	line "Daten im CENTER"
 
 	para "eintragen?"
@@ -553,7 +553,7 @@ Text_PlayerGotDeco:
 	done
 
 Text_YourPackIsStuffedFull:
-	text "Ups, dein BEUTEL"
+	text "Ups, Dein BEUTEL"
 	line "ist absolut voll."
 
 	para "Schaffe Platz und"
@@ -578,7 +578,7 @@ Text_PleaseStepThisWay:
 	done
 
 Text_WouldYouLikeToHearAboutTheBattleTower:
-	text "Soll ich dich über"
+	text "Soll ich Dich über"
 	line "den DUELLTURM"
 	cont "aufklären?"
 	done
@@ -641,7 +641,7 @@ Text_BattleTower_LeftWithoutSaving:
 	cont "zu SICHERN."
 
 	para "Es tut mir Leid,"
-	line "aber deine Heraus-"
+	line "aber Deine Heraus-"
 	cont "forderung wird für"
 	cont "ungültig erklärt."
 	done
@@ -664,14 +664,14 @@ Text_SaveBeforeConnecting_Mobile: ; unreferenced
 	line "derung wird"
 
 	para "geSICHERT, bevor"
-	line "du die Verbindung"
+	line "Du die Verbindung"
 
 	para "mit dem CENTER"
 	line "herstellst."
 	done
 
 Text_SaveBeforeEnteringBattleRoom:
-	text "Ehe du einen"
+	text "Ehe Du einen"
 	line "KAMPFRAUM"
 
 	para "betrittst, wird"
@@ -687,7 +687,7 @@ Text_SaveAndEndTheSession:
 
 Text_SaveBeforeReentry:
 	text "Deine Daten werden"
-	line "geSICHERT, ehe du"
+	line "geSICHERT, ehe Du"
 
 	para "in den vorigen"
 	line "RAUM zurückkehrst."
@@ -700,16 +700,16 @@ Text_CancelYourBattleRoomChallenge:
 	done
 
 Text_RegisterRecordOnFile_Mobile: ; unreferenced
-	text "Wir haben deine"
+	text "Wir haben Deine"
 	line "Daten gespeichert."
 
-	para "Möchtest du dich"
+	para "Möchtest Du Dich"
 	line "in einem CENTER"
 	cont "eintragen?"
 	done
 
 Text_WeveBeenWaitingForYou:
-	text "Wir haben dich er-"
+	text "Wir haben Dich er-"
 	line "wartet. Hier"
 
 	para "entlang zum"
@@ -727,13 +727,13 @@ Text_FiveDayBattleLimit_Mobile:
 
 Text_TooMuchTimeElapsedNoRegister:
 	text "Leider können"
-	line "deine aktuellen"
+	line "Deine aktuellen"
 
 	para "Daten nicht im"
 	line "CENTER eingetragen"
 
 	para "werden, da seit"
-	line "Beginn deiner He-"
+	line "Beginn Deiner He-"
 	cont "rausforderung zu"
 
 	para "viel Zeit"
@@ -743,13 +743,13 @@ Text_TooMuchTimeElapsedNoRegister:
 Text_RegisterRecordTimedOut_Mobile: ; unreferenced
 ; duplicate of Text_TooMuchTimeElapsedNoRegister
 	text "Leider können"
-	line "deine aktuellen"
+	line "Deine aktuellen"
 
 	para "Daten nicht im"
 	line "CENTER eingetragen"
 
 	para "werden, da seit"
-	line "Beginn deiner He-"
+	line "Beginn Deiner He-"
 	cont "rausforderung zu"
 
 	para "viel Zeit"
@@ -758,7 +758,7 @@ Text_RegisterRecordTimedOut_Mobile: ; unreferenced
 
 Text_AMonLevelExceeds:
 	text "Eines oder mehrere"
-	line "deiner #MON"
+	line "Deiner #MON"
 	cont "übersteigen den"
 	cont "Level @"
 	text_decimal wScriptVar, 1, 3
@@ -802,7 +802,7 @@ Text_BattleTowerGranny:
 	para "ohne Items kämpfen"
 	line "zu müssen."
 
-	para "Gib deinen #MON"
+	para "Gib Deinen #MON"
 	line "Items. Das ist der"
 
 	para "Schlüssel zum"
@@ -813,12 +813,12 @@ Text_BattleTowerBugCatcher:
 	text "Ich probiere, wie"
 	line "weit ich nur mit"
 
-	para "Käfer-#MON"
+	para "KÄFER-#MON"
 	line "komme."
 
 	para "Hoffentlich treffe"
 	line "ich nicht auf"
-	cont "Feuer-#MON…"
+	cont "FEUER-#MON…"
 	done
 
 BattleTower1F_MapEvents:

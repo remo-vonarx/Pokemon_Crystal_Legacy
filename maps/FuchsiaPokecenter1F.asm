@@ -63,8 +63,8 @@ FuchsiaPokecenter1FCooltrainerMText:
 	line "völlig neuen"
 	cont "#DEX!"
 
-	para "Hat PROF. EICH"
-	line "dir den gegeben?"
+	para "Hat PROF EICH"
+	line "Dir den gegeben?"
 	done
 
 FuchsiaPokecenter1FCooltrainerFText:
@@ -86,7 +86,7 @@ FuchsiaPokecenter1FJanineImpersonatorText1:
 	done
 
 FuchsiaPokecenter1FJanineImpersonatorText2:
-	text "Siehst du! Jetzt"
+	text "Siehst Du! Jetzt"
 	line "sehe ich genauso"
 	cont "aus wie sie!"
 	done

@@ -26,7 +26,7 @@ AzaleaPokecenter1FPokefanFScript:
 	jumptextfaceplayer AzaleaPokecenter1FPokefanFText
 
 AzaleaPokecenter1FGentlemanText:
-	text "Beherrschen deine"
+	text "Beherrschen Deine"
 	line "#MON VM-"
 	cont "Attacken?"
 
@@ -34,7 +34,7 @@ AzaleaPokecenter1FGentlemanText:
 	line "können auch einge-"
 	cont "setzt werden, wenn"
 
-	para "dein #MON be-"
+	para "Dein #MON be-"
 	line "siegt worden ist."
 	done
 
@@ -59,7 +59,7 @@ AzaleaPokecenter1FFishingGuruText:
 	done
 
 AzaleaPokecenter1FPokefanFText:
-	text "Weißt du über"
+	text "Weißt Du über"
 	line "APRIKOKOS Be-"
 	cont "scheid?"
 
@@ -70,7 +70,7 @@ AzaleaPokecenter1FPokefanFText:
 	line "einer speziellen"
 	cont "Vorrichtung."
 
-	para "Dann kannst du"
+	para "Dann kannst Du"
 	line "#MON damit"
 	cont "fangen."
 

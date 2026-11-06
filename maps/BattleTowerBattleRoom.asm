@@ -133,7 +133,7 @@ Script_ChallengeCanceled: ; unreferenced
 
 Text_ReturnedAfterSave_Mobile: ; unreferenced
 	text "Nach dem SICHERN"
-	line "kehrst du zurück."
+	line "kehrst Du zurück."
 	done
 
 BattleTowerBattleRoom_MapEvents:

@@ -117,14 +117,14 @@ PsychicHermanAfterBattleText:
 
 	para "Ich verlor, als"
 	line "ich meine Augen"
-	cont "schloss…"
+	cont "schloß…"
 	done
 
 PsychicFidelSeenText:
 	text "Ich kann es sehen…"
 
 	para "Ich kann alles"
-	line "über dich sehen…"
+	line "über Dich sehen…"
 	done
 
 PsychicFidelBeatenText:
@@ -138,7 +138,7 @@ PsychicFidelAfterBattleText:
 	line "ist stark…"
 
 	para "Du bist stark,"
-	line "weil du an deine"
+	line "weil Du an Deine"
 	cont "#MON glaubst."
 	done
 

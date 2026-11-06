@@ -13,14 +13,14 @@ UnusedSweetHoneyText: ; unreferenced
 	line "Meister im Sammeln"
 	cont "von HONIG."
 
-	para "Ich gebe dir gerne"
+	para "Ich gebe Dir gerne"
 	line "etwas ab."
 	done
 
 UnusedSweetHoneyBagFullText: ; unreferenced
-	text "Ich würde dir ger-"
+	text "Ich würde Dir ger-"
 	line "ne etwas HONIG ge-"
-	cont "ben, aber du hast"
+	cont "ben, aber Du hast"
 	cont "nicht genug Platz."
 	done
 
@@ -45,7 +45,7 @@ UnusedSweetHoneyAfterText1: ; unreferenced
 	done
 
 UnusedSweetHoneyAfterText2: ; unreferenced
-	text "Hast du schon mal"
+	text "Hast Du schon mal"
 	line "HONIG an einen"
 	cont "Baum geschmiert?"
 
@@ -54,7 +54,7 @@ UnusedSweetHoneyAfterText2: ; unreferenced
 	done
 
 UnusedSweetHoneyAfterText3: ; unreferenced
-	text "Hast du schon mal"
+	text "Hast Du schon mal"
 	line "HONIG an einen"
 	cont "Baum geschmiert?"
 

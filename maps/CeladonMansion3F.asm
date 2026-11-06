@@ -111,7 +111,7 @@ GameFreakGameDesignerPauseForDiplomaText:
 
 GameFreakGameDesignerAfterDiplomaText:
 	text "Der GRAFIKER wird"
-	line "dir ein DIPLOM"
+	line "Dir ein DIPLOM"
 	cont "ausdrucken."
 
 	para "Gib ruhig damit"
@@ -123,7 +123,7 @@ GameFreakGraphicArtistText:
 	line "GRAFIKER."
 
 	para "Ich habe eine"
-	line "Zeichnung von dir"
+	line "Zeichnung von Dir"
 	cont "angefertigt!"
 	done
 
@@ -131,25 +131,25 @@ GameFreakGraphicArtistPrintDiplomaText:
 	text "Ich bin der"
 	line "GRAFIKER."
 
-	para "Oh, du hast deinen"
+	para "Oh, Du hast Deinen"
 	line "#DEX fertig"
 	cont "gestellt?"
 
-	para "Möchtest du, dass"
-	line "ich dir ein DIPLOM"
+	para "Möchtest Du, daß"
+	line "ich Dir ein DIPLOM"
 	cont "ausdrucke?"
 	done
 
 GameFreakGraphicArtistRefusedText:
 	text "Gib mir Bescheid,"
-	line "wenn ich dir dein"
+	line "wenn ich Dir Dein"
 	cont "DIPLOM ausdrucken"
 	cont "soll."
 	done
 
 GameFreakGraphicArtistErrorText:
 	text "Irgendetwas stimmt"
-	line "da nicht. Ich muss"
+	line "da nicht. Ich muß"
 	cont "den Druckvorgang"
 	cont "beenden."
 	done

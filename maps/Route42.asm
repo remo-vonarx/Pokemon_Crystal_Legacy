@@ -241,7 +241,7 @@ Route42SuicuneMovement:
 
 FisherTullySeenText:
 	text "Jetzt demonstriere"
-	line "ich dir die Kraft"
+	line "ich Dir die Kraft"
 	cont "des #MON,"
 	cont "das ich gefangen"
 	cont "habe!"
@@ -291,7 +291,7 @@ PokemaniacShaneSeenText:
 
 	para "Das ist mein"
 	line "Geheimversteck!"
-	cont "Verschwinde, du"
+	cont "Verschwinde, Du"
 	cont "Außenseiter!"
 	done
 
@@ -305,7 +305,7 @@ PokemaniacShaneAfterBattleText:
 	text "Du erstellst einen"
 	line "#DEX?"
 
-	para "Wow, du kennst"
+	para "Wow, Du kennst"
 	line "bestimmt einige"
 	cont "sehr seltene"
 	cont "#MON!"

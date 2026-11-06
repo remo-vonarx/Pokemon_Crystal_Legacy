@@ -32,7 +32,7 @@ FightingDojoBlackBeltText:
 
 FightingDojoSign1Text:
 	text "Es geschieht, was"
-	line "geschehen muss!"
+	line "geschehen muß!"
 	done
 
 FightingDojoSign2Text:

@@ -141,14 +141,14 @@ KogaScript_KogaBeforeText:
 	cont "heit."
 
 	para "Mein komplizierter"
-	line "Stil wird dich"
+	line "Stil wird Dich"
 	cont "verwirren und"
 	cont "vernichten!"
 
 	para "Verwirrung,"
 	line "Schlaf, Gift…"
 
-	para "Auch du wirst ein"
+	para "Auch Du wirst ein"
 	line "Opfer meiner"
 	cont "hinterhältigen"
 	cont "Strategie!"
@@ -159,13 +159,13 @@ KogaScript_KogaBeforeText:
 	line "es nicht nur um"
 
 	para "Kraft allein - das"
-	line "wirst du noch"
+	line "wirst Du noch"
 	cont "herausfinden!"
 	done
 
 KogaScript_KogaBeatenText:
 	text "Ah!"
-	line "Du hast dich als"
+	line "Du hast Dich als"
 	cont "würdig erwiesen!"
 	done
 
@@ -175,13 +175,13 @@ KogaScript_KogaDefeatText:
 	cont "gezogen."
 
 	para "Alles war umsonst."
-	line "Ich muss meine"
+	line "Ich muß meine"
 	cont "Fertigkeiten"
 	cont "verbessern."
 
 	para "Betritt den"
 	line "nächsten Raum und"
-	cont "stelle dein Können"
+	cont "stelle Dein Können"
 	cont "unter Beweis!"
 	done
 

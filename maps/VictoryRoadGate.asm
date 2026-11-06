@@ -64,7 +64,7 @@ VictoryRoadGateNotEnoughBadgesText:
 	cont "JOHTO."
 
 	para "Tut mir Leid. Ich"
-	line "darf dich nicht"
+	line "darf Dich nicht"
 	cont "passieren lassen."
 	done
 
@@ -90,10 +90,10 @@ VictoryRoadGateRightBlackBeltText:
 	cont "LIGA, nicht wahr?"
 
 	para "Die TOP VIER sind"
-	line "so stark, dass es"
+	line "so stark, daß es"
 
 	para "einem Angst macht."
-	line "Sie erwarten dich!"
+	line "Sie erwarten Dich!"
 	done
 
 VictoryRoadGate_MapEvents:

@@ -34,7 +34,7 @@ CeladonMansionRoofHousePharmacistScript:
 	end
 
 CeladonMansionRoofHousePharmacistIntroText:
-	text "Lass mich eine"
+	text "Laß mich eine"
 	line "gruselige Ge-"
 	cont "schichte erzählen…"
 	done
@@ -64,10 +64,10 @@ CeladonMansionRoofHousePharmacistStoryText:
 	line "darauf fahren…"
 
 	para "Das machte ihm so"
-	line "viel Spaß, dass er"
+	line "viel Spaß, daß er"
 
 	para "gar nicht be-"
-	line "merkte, dass die"
+	line "merkte, daß die"
 
 	para "Sonne unterge-"
 	line "gangen war…"
@@ -110,8 +110,8 @@ CeladonMansionRoofHousePharmacistStoryText:
 	para "…"
 	line "Ba-dum ba-dum!"
 
-	para "Es ist schön, dass"
-	line "du meiner Ge-"
+	para "Es ist schön, daß"
+	line "Du meiner Ge-"
 	cont "schichte so"
 	cont "aufmerksam"
 	cont "gelauscht hast."

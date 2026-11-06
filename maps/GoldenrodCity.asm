@@ -326,9 +326,9 @@ GoldenrodCityCooltrainerF2Text:
 	line "rade eine Werbe-"
 	cont "kampagne."
 
-	para "Sie können deinen"
+	para "Sie können Deinen"
 	line "#COM modifi-"
-	cont "zieren, so dass er"
+	cont "zieren, so daß er"
 	cont "auch als Radio"
 
 	para "verwendet werden"
@@ -336,7 +336,7 @@ GoldenrodCityCooltrainerF2Text:
 	done
 
 GoldenrodCityCooltrainerF2Text_GotRadioCard:
-	text "Oh, dein #COM"
+	text "Oh, Dein #COM"
 	line "ist auch ein"
 	cont "Radio!"
 	done
@@ -354,10 +354,10 @@ GoldenrodCityYoungster2Text:
 
 GoldenrodCityLassText:
 	text "Der Mann in diesem"
-	line "Haus bewertet dei-"
+	line "Haus bewertet Dei-"
 	cont "ne #MON-Namen."
 
-	para "Er kann deine"
+	para "Er kann Deine"
 	line "#MON auch"
 	cont "umbenennen."
 	done
@@ -376,7 +376,7 @@ GoldenrodCityRocketScoutText1:
 	done
 
 GoldenrodCityRocketScoutText2:
-	text "Was willst du, du"
+	text "Was willst Du, Du"
 	line "Nervensäge? Hau"
 	cont "ab!"
 	done
@@ -390,7 +390,7 @@ GoldenrodCityRocket2Text:
 	text "Den RADIOTURM ein-"
 	line "nehmen…"
 
-	para "Was? Das geht dich"
+	para "Was? Das geht Dich"
 	line "nichts an!"
 	done
 
@@ -474,7 +474,7 @@ GoldenrodCityGameCornerSignText:
 GoldenrodCityNameRaterSignText:
 	text "NAMEN-BEWERTER"
 
-	para "Möchtest du deine"
+	para "Möchtest Du Deine"
 	line "Spitznamen bewer-"
 	cont "ten lassen?"
 	done
@@ -499,8 +499,8 @@ GoldenrodCityFlowerShopSignText:
 	done
 
 GoldenrodCityMoveTutorAskTeachAMoveText:
-	text "Wenn du möchtest,"
-	line "kann ich deinen"
+	text "Wenn Du möchtest,"
+	line "kann ich Deinen"
 
 	para "#MON tolle"
 	line "Attacken"
@@ -522,26 +522,26 @@ GoldenrodCityMoveTutorAwwButTheyreAmazingText:
 
 GoldenrodCityMoveTutorWhichMoveShouldITeachText:
 	text "Wahahah! Das wirst"
-	line "du nicht bereuen!"
+	line "Du nicht bereuen!"
 
 	para "Welche Attacke"
 	line "erlernen?"
 	done
 
 GoldenrodCityMoveTutorHmTooBadText:
-	text "Hm, Mist. Ich muss"
+	text "Hm, Mist. Ich muß"
 	line "noch Geld von zu"
 	cont "Hause holen…"
 	done
 
 GoldenrodCityMoveTutorIfYouUnderstandYouveMadeItText:
-	text "Wenn du verstehst,"
+	text "Wenn Du verstehst,"
 	line "was an dieser"
 
 	para "Attacke so toll"
 	line "ist, dann darfst"
 
-	para "du dich einen"
+	para "Du Dich einen"
 	line "Trainer nennen."
 	done
 

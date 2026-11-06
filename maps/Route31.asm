@@ -297,7 +297,7 @@ Route31CooltrainerMText:
 BugCatcherWade1SeenText:
 	text "Ich habe einige"
 	line "#MON gefangen."
-	cont "Lass uns kämpfen!"
+	cont "Laß uns kämpfen!"
 	done
 
 BugCatcherWade1BeatenText:
@@ -308,10 +308,10 @@ BugCatcherWade1AfterText:
 	text "Du kannst #MON"
 	line "fangen, auch wenn"
 
-	para "du bereits sechs"
-	line "bei dir trägst."
+	para "Du bereits sechs"
+	line "bei Dir trägst."
 
-	para "Fängst du eines,"
+	para "Fängst Du eines,"
 	line "wird es automa-"
 	cont "tisch auf die BOX"
 	cont "im PC übertragen."
@@ -361,20 +361,20 @@ Text_Route31ReadingMail:
 
 	para "Gut zu wissen."
 
-	para "Danke, dass du mir"
+	para "Danke, daß Du mir"
 	line "den BRIEF"
 	cont "brachtest."
 
 	para "Mein Freund ist"
 	line "ein netter Mensch,"
-	cont "genau wie du!"
+	cont "genau wie Du!"
 
 	para "Ich möchte mich"
-	line "bei dir dafür"
+	line "bei Dir dafür"
 	cont "revanchieren!"
 
 	para "Ich hab's! Ich"
-	line "möchte dir das"
+	line "möchte Dir das"
 	cont "hier geben!"
 	done
 
@@ -417,11 +417,11 @@ Text_Route31DeclinedToHandOverMail:
 	done
 
 Text_Route31CantTakeLastMon:
-	text "Wenn ich dir die-"
+	text "Wenn ich Dir die-"
 	line "ses #MON weg-"
 
 	para "nehme, womit"
-	line "willst du dann"
+	line "willst Du dann"
 
 	para "kämpfen?"
 	done

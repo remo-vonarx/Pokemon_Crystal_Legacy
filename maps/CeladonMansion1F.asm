@@ -70,7 +70,7 @@ CeladonMansion1FNidoranFText:
 
 CeladonMansionManagersSuiteSignText:
 	text "PRISMANIA-VILLA"
-	line "SUITE des MANAGERs"
+	line "SUITE des MANAGERS"
 	done
 
 CeladonMansion1F_MapEvents:

@@ -313,7 +313,7 @@ CamperIvanBeatenText:
 
 CamperIvanAfterBattleText:
 	text "Die Musik aus dem"
-	line "Radio beeinflusst"
+	line "Radio beeinflußt"
 	cont "die Stimmung von"
 	cont "wilden #MON."
 	done
@@ -325,7 +325,7 @@ CamperElliotSeenText:
 	done
 
 CamperElliotBeatenText:
-	text "Ach, hättest du"
+	text "Ach, hättest Du"
 	line "doch verloren…"
 	done
 
@@ -345,7 +345,7 @@ PicnickerBrookeSeenText:
 
 PicnickerBrookeBeatenText:
 	text "Meine Güte, bist"
-	line "du stark!"
+	line "Du stark!"
 	done
 
 PicnickerBrookeAfterBattleText:
@@ -357,7 +357,7 @@ PicnickerBrookeAfterBattleText:
 	done
 
 PicnickerKimSeenText:
-	text "Gehst du auch"
+	text "Gehst Du auch"
 	line "zur PKMN-ARENA?"
 	done
 
@@ -376,7 +376,7 @@ PicnickerKimAfterBattleText:
 BirdKeeperBryanSeenText:
 	text "Welche Art von"
 	line "#BALL"
-	cont "benutzt du?"
+	cont "benutzt Du?"
 	done
 
 BirdKeeperBryanBeatenText:
@@ -416,13 +416,13 @@ JugglerIrwin1BeatenText:
 	done
 
 JugglerIrwinAfterBattleText:
-	text "Ich wollte dich"
+	text "Ich wollte Dich"
 	line "mit meinen"
 
 	para "prämierten #MON"
 	line "fritzeln."
 
-	para "Aber dein Können"
+	para "Aber Dein Können"
 	line "elektrisierte"
 	cont "mich!"
 	done
@@ -484,7 +484,7 @@ OfficerDirkBeatenText:
 	done
 
 OfficerDirkAfterBattleText:
-	text "Du weißt, dass"
+	text "Du weißt, daß"
 	line "die Nacht auf"
 	cont "ihre Weise"
 	cont "schön sein kann."

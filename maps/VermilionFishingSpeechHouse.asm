@@ -20,7 +20,7 @@ FishingDudeText:
 	line "LER, der Ältere"
 	cont "der ANGLERBRÜDER."
 
-	para "Hast du den PROFI-"
+	para "Hast Du den PROFI-"
 	line "ANGLER am SEE DES"
 	cont "ZORNS getroffen?"
 
@@ -30,17 +30,17 @@ FishingDudeText:
 	para "KARPADOR der Welt"
 	line "zu sehen."
 
-	para "Falls es dir"
+	para "Falls es Dir"
 	line "nichts ausmacht,"
 
-	para "könntest du ihm"
+	para "könntest Du ihm"
 	line "jedes KARPADOR"
 
-	para "zeigen, das du"
+	para "zeigen, das Du"
 	line "fängst?"
 
 	para "Wer weiß, viel-"
-	line "leicht fängst du"
+	line "leicht fängst Du"
 
 	para "das KARPADOR"
 	line "seiner Träume."

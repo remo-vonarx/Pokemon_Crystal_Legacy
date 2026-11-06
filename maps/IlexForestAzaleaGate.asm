@@ -15,7 +15,7 @@ IlexForestAzaleaGateGrannyScript:
 
 IlexForestAzaleaGateOfficerText:
 	text "Vorsicht! Verlaufe"
-	line "dich nicht! Der"
+	line "Dich nicht! Der"
 	cont "STEINEICHENWALD"
 	cont "ist groß."
 	done

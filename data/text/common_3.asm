@@ -1,15 +1,15 @@
 _OakText6::
-	text "Wie lautet dein"
+	text "Wie lautet Dein"
 	line "Name?"
 	prompt
 
 _OakText7::
-	text "<PLAYER>, bist du"
+	text "<PLAYER>, bist Du"
 	line "bereit?"
 
 	para "Dein eigenes"
 	line "#MON-Abenteuer"
-	cont "erwartet dich."
+	cont "erwartet Dich."
 
 	para "Dich erwarten tol-"
 	line "le Dinge, aber"
@@ -20,10 +20,10 @@ _OakText7::
 	cont "gender #MON-"
 
 	para "Abenteuer erwar-"
-	line "tet dich! Mach"
-	cont "dich bereit!"
+	line "tet Dich! Mach"
+	cont "Dich bereit!"
 
-	para "Ich treffe dich"
+	para "Ich treffe Dich"
 	line "später!"
 	done
 
@@ -61,9 +61,9 @@ _LinkTimeoutText::
 	prompt
 
 _LinkTradeCantBattleText::
-	text "Wenn du dieses"
+	text "Wenn Du dieses"
 	line "#MON tauschst,"
-	cont "kannst du nicht"
+	cont "kannst Du nicht"
 	cont "mehr kämpfen."
 	prompt
 
@@ -71,7 +71,7 @@ _LinkAbnormalMonText::
 	text "Das @"
 	text_ram wStringBuffer1
 	text_start
-	cont "deines Freundes"
+	cont "Deines Freundes"
 	cont "scheint nicht in"
 	cont "Ordnung zu sein!"
 	prompt
@@ -89,14 +89,14 @@ _MobileBattleMustPickThreeMonText::
 	text "Um einen Mobil"
 	line "Kampf auszuführen,"
 
-	para "musst du drei"
+	para "mußt Du drei"
 	line "#MON auswählen."
 
 	para "In Odnung?"
 	done
 
 _MobileBattleMoreInfoText::
-	text "Benötigst du mehr"
+	text "Benötigst Du mehr"
 	line "Informationen über"
 	cont "den Mobil-Kampf?"
 	done
@@ -138,7 +138,7 @@ _WouldYouLikeToMobileBattleText::
 	text_decimal wStringBuffer2, 1, 2
 	text " min."
 
-	para "Möchtest du"
+	para "Möchtest Du"
 	line "kämpfen?"
 	done
 
@@ -198,7 +198,7 @@ _MobileBattleRemainingTimeText::
 	done
 
 _WouldYouLikeToSaveTheGameText::
-	text "Möchtest du das"
+	text "Möchtest Du das"
 	line "Spiel SICHERN?"
 	done
 
@@ -227,7 +227,7 @@ _ChangeBoxSaveText::
 	done
 
 _MoveMonWOMailSaveText::
-	text "Immer, wenn du"
+	text "Immer, wenn Du"
 	line "ein #MON"
 	cont "verschiebst, wird"
 	cont "das Spiel ge-"
@@ -291,8 +291,8 @@ _SeerSeeAllText::
 	text "Ich sehe alles."
 	line "Ich weiß alles…"
 
-	para "Gewiss kenne ich"
-	line "deine #MON!"
+	para "Gewiß kenne ich"
+	line "Deine #MON!"
 	done
 
 _SeerCantTellAThingText::
@@ -304,7 +304,7 @@ _SeerCantTellAThingText::
 	done
 
 _SeerNameLocationText::
-	text "Hm… du trafst"
+	text "Hm… Du trafst"
 	line "@"
 	text_ram wSeerNickname
 	text " hier:"
@@ -327,7 +327,7 @@ _SeerTimeLevelText::
 	prompt
 
 _SeerTradeText::
-	text "Hm… hast du"
+	text "Hm… hast Du"
 	line "@"
 	text_ram wSeerNickname
 	text " mit"
@@ -358,7 +358,7 @@ _SeerNoLocationText::
 	line "Du bist anders."
 
 	para "Ich kann nicht sa-"
-	line "gen, wo du es"
+	line "gen, wo Du es"
 	cont "trafst, aber sein"
 	cont "Level war @"
 	text_ram wSeerCaughtLevelString
@@ -373,21 +373,21 @@ _SeerEggText::
 	para "Das ist ein EI!"
 
 	para "Du kannst nicht"
-	line "behaupten, du"
+	line "behaupten, Du"
 	cont "hättest es schon"
 	cont "getroffen…"
 	done
 
 _SeerDoNothingText::
 	text "Fufufu! Ich sah,"
-	line "dass du müßig"
+	line "daß Du müßig"
 	cont "gehst!"
 	done
 
 _SeerMoreCareText::
 	text "Apropos…"
 
-	para "Du solltest deine"
+	para "Du solltest Deine"
 	line "#MON etwas"
 
 	para "umsichtiger"
@@ -404,7 +404,7 @@ _SeerMoreConfidentText::
 	text_ram wSeerNickname
 	text_start
 	line "wird immer"
-	cont "selbstbewusster."
+	cont "selbstbewußter."
 	done
 
 _SeerMuchStrengthText::
@@ -426,13 +426,13 @@ _SeerMightyText::
 	para "@"
 	text_ram wSeerNickname
 	text_start
-	line "muss viele"
+	line "muß viele"
 
 	para "#MON-Kämpfe"
 	line "bestritten haben."
 
 	para "Es strotzt vor"
-	line "Selbstbewusstsein."
+	line "Selbstbewußtsein."
 	done
 
 _SeerImpressedText::
@@ -442,7 +442,7 @@ _SeerImpressedText::
 	line "eindruckt mich."
 
 	para "Es ist schon lange"
-	line "her, dass ich ein"
+	line "her, daß ich ein"
 
 	para "so starkes #MON"
 	line "wie @"
@@ -451,7 +451,7 @@ _SeerImpressedText::
 	cont "gesehen habe."
 
 	para "Ich bin sicher,"
-	line "dass jeder"
+	line "daß jeder"
 
 	para "@"
 	text_ram wSeerNickname
@@ -600,12 +600,12 @@ _HerbalLadyFinalPriceText::
 	done
 
 _HerbalLadyThanksText::
-	text "Danke, Kleiner."
+	text "Danke, Kind."
 	line "Hihihihi…"
 	done
 
 _HerbalLadyPackFullText::
-	text "Oh? In deinem"
+	text "Oh? In Deinem"
 	line "BEUTEL ist kein"
 	cont "Platz mehr."
 	done
@@ -621,7 +621,7 @@ _HerbalLadyComeAgainText::
 	done
 
 _BargainShopIntroText::
-	text "Heh! Bist du an"
+	text "Heh! Bist Du an"
 	line "Schnäppchen"
 	cont "interessiert?"
 
@@ -648,19 +648,19 @@ _BargainShopThanksText::
 	done
 
 _BargainShopPackFullText::
-	text "Uhh, dein BEUTEL"
+	text "Uhh, Dein BEUTEL"
 	line "platzt aus"
 	cont "allen Nähten."
 	done
 
 _BargainShopSoldOutText::
-	text "Das hast du schon"
+	text "Das hast Du schon"
 	line "gekauft. Ich"
 	cont "habe keines mehr."
 	done
 
 _BargainShopNoFundsText::
-	text "Uhh, du bist knapp"
+	text "Uhh, Du bist knapp"
 	line "bei Kasse."
 	done
 
@@ -671,7 +671,7 @@ _BargainShopComeAgainText::
 
 _PharmacyIntroText::
 	text "Was ist? Brauchst"
-	line "du Medizin?"
+	line "Du Medizin?"
 	done
 
 _PharmacyHowManyText::
@@ -717,7 +717,7 @@ _MartSellHowManyText::
 	done
 
 _MartSellPriceText::
-	text "Ich zahle dir"
+	text "Ich zahle Dir"
 	line "¥@"
 	text_decimal hMoneyTemp, 3, 6
 	text "."
@@ -747,7 +747,7 @@ _MartPackFullText::
 	done
 
 _MartCantBuyText::
-	text "Ich kann dir das"
+	text "Ich kann Dir das"
 	line "nicht abkaufen."
 	prompt
 
@@ -757,7 +757,7 @@ _MartComeAgainText::
 
 _MartAskMoreText::
 	text "Kann ich noch"
-	line "etwas für dich"
+	line "etwas für Dich"
 	cont "tun?"
 	done
 
@@ -822,7 +822,7 @@ _MobileStadiumSuccessText::
 	text "Datentransfer"
 	line "abgeschlossen."
 
-	para "Wir hoffen, du"
+	para "Wir hoffen, Du"
 	line "magst die Kämpfe"
 
 	para "im MOBILEN STADION"
@@ -869,9 +869,9 @@ _MobileOnlyThreeMonMayEnterText::
 
 _MobileCardFolderIntro1Text::
 	text "Im KARTENORDNER"
-	line "legst du deine und"
+	line "legst Du Deine und"
 
-	para "die KARTEN deiner"
+	para "die KARTEN Deiner"
 	line "Freunde ab."
 
 	para "Eine KARTE enhält"
@@ -884,22 +884,22 @@ _MobileCardFolderIntro1Text::
 	done
 
 _MobileCardFolderIntro2Text::
-	text "Hier, deine KARTE."
+	text "Hier, Deine KARTE."
 
-	para "Gib deine Telefon-"
+	para "Gib Deine Telefon-"
 	line "nummer ein und"
 
 	para "tausche KARTEN"
-	line "mit deinen"
+	line "mit Deinen"
 	cont "Freunden."
 	done
 
 _MobileCardFolderIntro3Text::
-	text "Wenn du im Besitz"
-	line "der KARTE deines"
+	text "Wenn Du im Besitz"
+	line "der KARTE Deines"
 
 	para "Freundes bist,"
-	line "kannst du ihn vom"
+	line "kannst Du ihn vom"
 
 	para "Handy im 1.Stock"
 	line "in jedem #MON-"
@@ -907,10 +907,10 @@ _MobileCardFolderIntro3Text::
 	done
 
 _MobileCardFolderIntro4Text::
-	text "Um deine KARTEN"
+	text "Um Deine KARTEN"
 	line "sicher wegzulegen,"
 
-	para "musst du einen"
+	para "mußt Du einen"
 	line "CODE für den"
 	cont "KARTENORDNER"
 	cont "festlegen."
@@ -935,7 +935,7 @@ _MobileCardFolderAskDeleteText::
 	done
 
 _MobileCardFolderDeleteAreYouSureText::
-	text "Möchtest du ihn"
+	text "Möchtest Du ihn"
 	line "wirklich löschen?"
 	done
 
@@ -950,7 +950,7 @@ _MobileCardFolderAskOpenOldText::
 	cont "von einem anderen"
 	cont "Abenteuer."
 
-	para "Möchtest du ihn"
+	para "Möchtest Du ihn"
 	line "öffnen?"
 	done
 
@@ -984,7 +984,7 @@ _PhoneOutOfAreaText::
 	done
 
 _PhoneJustTalkToThemText::
-	text "Du musst diesen"
+	text "Du mußt diesen"
 	line "Gesprächspartner"
 	cont "zu Fuß aufsuchen!"
 	done
@@ -1151,7 +1151,7 @@ _GearOutOfServiceText::
 	prompt
 
 _PokegearAskWhoCallText::
-	text "Wen möchtest du"
+	text "Wen möchtest Du"
 	line "anrufen?"
 	done
 
@@ -1167,7 +1167,7 @@ _PokegearAskDeleteText::
 
 _BuenaAskWhichPrizeText::
 	text "Welchen Preis"
-	line "hättest du gerne?"
+	line "hättest Du gerne?"
 	done
 
 _BuenaIsThatRightText::
@@ -1206,7 +1206,7 @@ _ExcuseMeYoureNotReadyText::
 
 _BattleTowerReturnWhenReadyText::
 	text "Komme wieder, wenn"
-	line "du bereit bist."
+	line "Du bereit bist."
 	done
 
 _NeedAtLeastThreeMonText::
@@ -1251,7 +1251,7 @@ _BallDodgedText::
 	line "BALL aus!"
 
 	para "Dieses #MON"
-	line "lässt sich nicht"
+	line "läßt sich nicht"
 	cont "fangen!"
 	prompt
 
@@ -1318,7 +1318,7 @@ _NewDexDataText::
 	text_end ; unreferenced
 
 _AskGiveNicknameText::
-	text "Möchtest du"
+	text "Möchtest Du"
 	line "@"
 	text_ram wStringBuffer1
 	text " einen"
@@ -1445,7 +1445,7 @@ _ItemOakWarningText::
 
 _ItemBelongsToSomeoneElseText::
 	text "Das gehört nicht"
-	line "dir!"
+	line "Dir!"
 	prompt
 
 _ItemWontHaveEffectText::
@@ -1479,7 +1479,7 @@ _ItemCantGetOnText::
 _BallBoxFullText::
 	text "Die #MON-BOX"
 	line "ist voll. Das"
-	cont "kannst du jetzt"
+	cont "kannst Du jetzt"
 	cont "nicht benutzen."
 	prompt
 
@@ -1579,7 +1579,7 @@ _TimeAskOkayText::
 	done
 
 _TimesetAskDSTText::
-	text "Möchtest du auf"
+	text "Möchtest Du auf"
 	line "Sommerzeit um-"
 	cont "stellen?"
 	done
@@ -1601,7 +1601,7 @@ _TimesetNotDSTText::
 	prompt
 
 _TimesetAskAdjustDSTText::
-	text "Möchtest du die"
+	text "Möchtest Du die"
 	line "Uhrzeit der"
 
 	para "Sommerzeit an-"

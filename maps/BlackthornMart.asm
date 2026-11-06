@@ -39,7 +39,7 @@ BlackthornMartCooltrainerMText:
 
 BlackthornMartBlackBeltText:
 	text "TOP-SCHUTZ hält"
-	line "dir schwache #-"
+	line "Dir schwache #-"
 	cont "MON vom Leib."
 
 	para "Von allen SCHUTZ-"

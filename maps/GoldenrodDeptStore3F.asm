@@ -41,7 +41,7 @@ GoldenrodDeptStore3FSuperNerdText:
 	done
 
 GoldenrodDeptStore3FRockerText:
-	text "Hey! Setzt du im"
+	text "Hey! Setzt Du im"
 	line "Kampf X-SPEZIAL"
 	cont "ein?"
 

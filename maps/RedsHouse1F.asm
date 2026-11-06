@@ -48,7 +48,7 @@ RedsMomText1:
 	para "Wenn man nichts"
 	line "hört, soll das ja"
 
-	para "heißen, dass es"
+	para "heißen, daß es"
 	line "ihm gut geht. Aber"
 	cont "ich mache mir"
 	cont "Sorgen um ihn."
@@ -56,7 +56,7 @@ RedsMomText1:
 
 RedsMomText2:
 	text "Ich habe Angst,"
-	line "dass sich ROT"
+	line "daß sich ROT"
 
 	para "verletzt oder"
 	line "krank wird. Aber"
@@ -64,7 +64,7 @@ RedsMomText2:
 	para "er ist ein Junge"
 	line "und ich bin stolz,"
 
-	para "dass er macht, was"
+	para "daß er macht, was"
 	line "ihm gefällt."
 	done
 

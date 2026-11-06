@@ -91,8 +91,8 @@ Route34IlexForestGateTeacherText:
 	line "Du erstellst einen"
 	cont "#DEX?"
 
-	para "Das muss schwierig"
-	line "sein, wenn du"
+	para "Das muß schwierig"
+	line "sein, wenn Du"
 	cont "keine #MON"
 
 	para "triffst. Versuche"
@@ -125,7 +125,7 @@ Route34IlexForestGateButterfreeText:
 	done
 
 Route34IlexForestGateLassText:
-	text "Hast du den"
+	text "Hast Du den"
 	line "Schrein gesehen,"
 	cont "der dem Schutz-"
 	cont "patron huldigt?"
@@ -136,7 +136,7 @@ Route34IlexForestGateLassText:
 
 	para "Ich glaube, das"
 	line "ist ein"
-	cont "Pflanzen-#MON."
+	cont "PFLANZEN-#MON."
 	done
 
 Route34IlexForestGate_MapEvents:

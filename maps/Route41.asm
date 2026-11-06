@@ -138,7 +138,7 @@ SwimmermCharlieSeenText:
 	cont "locker und gelenk."
 
 	para "Natürlich trete"
-	line "ich gegen dich an!"
+	line "ich gegen Dich an!"
 	done
 
 SwimmermCharlieBeatenText:
@@ -157,8 +157,8 @@ SwimmermCharlieAfterBattleText:
 SwimmermGeorgeSeenText:
 	text "Ich bin etwas"
 	line "müde. Wenn ich"
-	cont "gewinne, leihst du"
-	cont "mir dein #MON."
+	cont "gewinne, leihst Du"
+	cont "mir Dein #MON."
 	done
 
 SwimmermGeorgeBeatenText:
@@ -178,7 +178,7 @@ SwimmermGeorgeAfterBattleText:
 	done
 
 SwimmermBerkeSeenText:
-	text "Siehst du diese"
+	text "Siehst Du diese"
 	line "Inseln, die von"
 	cont "den Strudeln"
 	cont "blockiert werden?"
@@ -190,7 +190,7 @@ SwimmermBerkeSeenText:
 
 SwimmermBerkeBeatenText:
 	text "Was ist das"
-	line "Geheimnis deiner"
+	line "Geheimnis Deiner"
 	cont "Stärke?"
 	done
 
@@ -214,7 +214,7 @@ SwimmermKirkSeenText:
 	text "Hier gibt es hohe"
 	line "Wellen."
 
-	para "Das macht dich"
+	para "Das macht Dich"
 	line "schnell müde."
 	done
 
@@ -230,7 +230,7 @@ SwimmermKirkAfterBattleText:
 	done
 
 SwimmermMathewSeenText:
-	text "Suchst du die"
+	text "Suchst Du die"
 	line "Geheimnisse der"
 	cont "STRUDELINSELN?"
 	done
@@ -276,7 +276,7 @@ SwimmerfKayleeAfterBattleText:
 
 SwimmerfSusieSeenText:
 	text "Du gleitest so"
-	line "elegant auf deinem"
+	line "elegant auf Deinem"
 	cont "#MON dahin."
 	done
 
@@ -318,15 +318,15 @@ SwimmerfDeniseAfterBattleText:
 	done
 
 SwimmerfKaraSeenText:
-	text "Wenn du eine Pause"
+	text "Wenn Du eine Pause"
 	line "brauchst, dann"
-	cont "halte deinen Kopf"
+	cont "halte Deinen Kopf"
 	cont "über Wasser und"
 	cont "paddle mit den"
 	cont "Füßen."
 
 	para "Auf diese Weise"
-	line "legst du eine"
+	line "legst Du eine"
 
 	para "Ruhepause ein und"
 	line "sammelst Energie."

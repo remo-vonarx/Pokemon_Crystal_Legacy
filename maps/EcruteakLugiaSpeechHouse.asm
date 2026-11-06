@@ -42,7 +42,7 @@ EcruteakLugiaSpeechHouseYoungsterText:
 	line "so großes #MON"
 
 	para "gibt? Wenn ja, so"
-	line "muss es unfassbar"
+	line "muß es unfaßbar"
 	cont "mächtig sein."
 	done
 

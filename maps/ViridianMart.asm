@@ -27,7 +27,7 @@ ViridianMartLassText:
 	done
 
 ViridianMartCooltrainerMText:
-	text "Warst du schon auf"
+	text "Warst Du schon auf"
 	line "der ZINNOBER-"
 	cont "INSEL?"
 

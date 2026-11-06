@@ -23,7 +23,7 @@ Route7SaffronGuardScript:
 	end
 
 Route7SaffronGuardPowerPlantText:
-	text "Hast du von"
+	text "Hast Du von"
 	line "dem Vorfall im"
 	cont "KRAFTWERK gehört?"
 

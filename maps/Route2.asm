@@ -80,7 +80,7 @@ Route2HiddenRevive:
 	hiddenitem REVIVE, EVENT_ROUTE_2_HIDDEN_REVIVE
 
 BugCatcherRobSeenText:
-	text "Meine Käfer-#-"
+	text "Meine KÄFER-#-"
 	line "MON sind zäh. Du"
 	cont "wirst verlieren!"
 	done
@@ -97,12 +97,12 @@ BugCatcherRobAfterBattleText:
 	done
 
 BugCatcherEdSeenText:
-	text "Wenn du mit Shorts"
+	text "Wenn Du mit Shorts"
 	line "in hohem Gras"
 
 	para "läufst, bekommst"
-	line "du dann Schrammen"
-	cont "an deinen Beinen?"
+	line "Du dann Schrammen"
+	cont "an Deinen Beinen?"
 	done
 
 BugCatcherEdBeatenText:
@@ -111,14 +111,14 @@ BugCatcherEdBeatenText:
 
 BugCatcherEdAfterBattleText:
 	text "Sie stechen,"
-	line "wenn du ein Bad"
+	line "wenn Du ein Bad"
 	cont "nimmst."
 	done
 
 BugCatcherDougSeenText:
 	text "Warum mögen"
 	line "Mädchen keine"
-	cont "Käfer-#MON?"
+	cont "KÄFER-#MON?"
 	done
 
 BugCatcherDougBeatenText:
@@ -126,11 +126,11 @@ BugCatcherDougBeatenText:
 	done
 
 BugCatcherDougAfterBattleText:
-	text "Käfer-#MON"
+	text "KÄFER-#MON"
 	line "zischen wie"
 
 	para "Plüschtiere, wenn"
-	line "du sie auf den"
+	line "Du sie auf den"
 	cont "Bauch drückst."
 
 	para "Ich mag das"

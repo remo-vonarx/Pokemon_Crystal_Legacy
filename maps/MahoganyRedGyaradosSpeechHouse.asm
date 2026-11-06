@@ -33,7 +33,7 @@ MahoganyRedGyaradosSpeechHouseUnusedBookshelf2: ; unreferenced
 	jumpstd MagazineBookshelfScript
 
 MahoganyRedGyaradosSpeechHouseBlackBeltText:
-	text "Ich hörte, dass"
+	text "Ich hörte, daß"
 	line "ein rotes GARADOS"
 
 	para "am SEE erschienen"
