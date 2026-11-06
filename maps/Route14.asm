@@ -67,8 +67,9 @@ PokefanmCarterAfterBattleText:
 	text "KARNIMANI,"
 	line "FEURIGEL, ENDIVIE…"
 
-	para "I think that's a"
-	line "well-balanced mix."
+	para "Ich denke, das ist"
+	line "ein ausgeglichenes"
+	cont "Team."
 	done
 
 BirdKeeperRoySeenText:
@@ -105,8 +106,8 @@ PokefanmTrevorSeenText:
 	done
 
 PokefanmTrevorBeatenText:
-	text "Where did I meet"
-	line "this SCHEROX?"
+	text "Wo traf ich dieses"
+	line "SCHEROX?"
 	done
 
 PokefanmTrevorAfterBattleText:

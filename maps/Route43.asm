@@ -517,9 +517,9 @@ PicnickerTiffanyWantsPicnicText:
 	done
 
 PicnickerTiffanyClefairyText:
-	text "Isn't my PIXI"
-	line "just the most"
-	cont "adorable thing?"
+	text "Ist mein PIXI"
+	line "nicht"
+	cont "herzallerliebst?"
 	done
 
 Route43Sign1Text:

@@ -310,21 +310,25 @@ PokefanfJaimeBeatenText:
 	done
 
 PokefanfJaimeAfterBattleText:
-	text "I met NACHTARA at"
-	line "night right here"
-	cont "on ROUTE 39."
+	text "Ich traf NACHTARA"
+	line "NACHTs, genau hier"
+	cont "auf ROUTE 39."
 
-	para "I'm not sure why,"
-	line "but it seems to"
+	para "Ich weiß nicht"
+	line "warum, aber es"
 
-	para "like it when I"
-	line "train here."
+	para "scheint es zu"
+	line "mögen, wenn ich"
+	cont "hier trainiere."
 
-	para "It seems to become"
-	line "friendlier by"
+	para "Es scheint mich"
+	line "durch das Training"
 
-	para "training here than"
-	line "anywhere else."
+	para "hier mehr zu"
+	line "mögen, als wenn"
+
+	para "ich woanders"
+	line "trainiere."
 	done
 
 Route39SignText:

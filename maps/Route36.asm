@@ -554,16 +554,17 @@ UnusedOddTreeText: ; unreferenced
 	done
 
 Route36LassText:
-	text "Be careful at"
-	line "night on this"
-	cont "route!"
+	text "Sei nachts auf"
+	line "dieser Route"
+	cont "vorsichtig!"
 
-	para "I saw a #MON"
-	line "that looked like"
+	para "Ich sah ein"
+	line "#MON, das aussah"
+	cont "wie FUKANO,"
 
-	para "FUKANO, but it"
-	line "had a scary aura"
-	cont "to it."
+	para "aber es hatte"
+	line "eine unheimliche"
+	cont "Aura."
 	done
 
 Route36LassText_ClearedSudowoodo:

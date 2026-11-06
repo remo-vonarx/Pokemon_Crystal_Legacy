@@ -275,40 +275,41 @@ CatchingTutorialIntroText:
 	done
 
 CatchingTutorialDebriefText:
-	text "If you weaken them"
-	line "first, #MON are"
-	cont "easier to catch."
+	text "Wenn Du sie zuerst"
+	line "schwächst, kannst"
+	cont "Du sie leichter"
+	cont "fangen."
 
-	para "If you want to"
-	line "learn more, go"
-	cont "to the ACADEMY"
-	cont "in VIOLA CITY!"
+	para "Willst Du mehr"
+	line "lernen, geh zur"
+	cont "AKADEMIE in"
+	cont "VIOLA CITY!"
 
-	para "The students there"
-	line "know a lot about"
+	para "Die Schüler dort"
+	line "wissen viel über"
 	cont "#MON."
 	done
 
 CatchingTutorialDeclinedText:
-	text "Oh. Fine, then."
+	text "Oh. In Ordnung."
 
-	para "Check every route"
-	line "to find different"
-	cont "types of #MON."
+	para "Suche jede Route"
+	line "ab, um verschie-"
+	cont "dene #MON zu"
+	cont "finden."
 
-	para "Your #DEX shows"
-	line "where you can find"
-	cont "them too!"
+	para "Dein #DEX zeigt"
+	line "auch, wo Du sie"
+	cont "findest!"
 
-	para "If you want to"
-	line "learn more, go"
+	para "Willst Du mehr"
+	line "lernen, geh zur"
 
-	para "to the ACADEMY"
-	line "in VIOLA CITY!"
-	
-	para "The students"
-	line "know a lot about"
-	cont "#MON."
+	para "AKADEMIE in"
+	line "VIOLA CITY!"
+
+	para "Die Schüler wissen"
+	line "viel über #MON."
 	done
 
 CatchingTutorialRepeatText:
@@ -355,11 +356,11 @@ Route29FisherText:
 	done
 
 Route29CooltrainerMText_WaitingForDay:
-	text "I'm waiting for"
-	line "#MON that"
+	text "Ich warte auf"
+	line "#MON, die erst"
 
-	para "appear only later"
-	line "in the day."
+	para "später am Tag"
+	line "auftauchen."
 	done
 
 Route29CooltrainerMText_WaitingForNight:

@@ -53,42 +53,44 @@ Route6UndergroundPathSignText:
 	done
 
 PokefanmRexSeenText:
-	text "My DAMHIRPLEX is"
-	line "the cutest in"
-	cont "the world."
+	text "Mein DAMHIRPLEX"
+	line "ist das nied-"
+	cont "lichste der"
+	cont "ganzen Welt."
 	done
 
 PokefanmRexBeatenText:
-	text "My DAMHIRPLEX!"
+	text "Mein DAMHIRPLEX!"
 	done
 
 PokefanmRexAfterBattleText:
-	text "Look how adorable"
-	line "my DAMHIRPLEX"
-	cont "acts!"
+	text "Sieh, wie grazil"
+	line "sich mein"
+	cont "DAMHIRPLEX bewegt!"
 
-	para "Isn't it cute"
-	line "enough to make"
-	cont "your heart melt?"
+	para "Es ist so süß,"
+	line "daß Dein Herz"
+	cont "dahinschmilzt."
 	done
 
 PokefanmAllanSeenText:
-	text "My GRANBULL is"
-	line "the cutest in the"
-	cont "world."
+	text "Mein GRANBULL ist"
+	line "das niedlichste"
+	cont "der ganzen Welt."
 	done
 
 PokefanmAllanBeatenText:
-	text "My GRANBULL!"
+	text "Mein GRANBULL!"
 	done
 
 PokefanmAllanAfterBattleText:
-	text "Look how adorable"
-	line "my GRANBULL acts!"
+	text "Sieh, wie grazil"
+	line "sich mein"
+	cont "GRANBULL bewegt!"
 
-	para "Isn't it cute"
-	line "enough to make"
-	cont "your heart melt?"
+	para "Es ist so süß,"
+	line "daß Dein Herz"
+	cont "dahinschmilzt."
 	done
 
 Route6_MapEvents:

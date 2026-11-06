@@ -197,17 +197,18 @@ HikerAnthonyDunsparceText:
 	done
 
 Route33LassText:
-	text "Pant, pant…"
+	text "Hechel, keuch…"
 
-	para "That cave was"
-	line "bigger than I'd"
-	cont "expected."
+	para "Diese Höhle war"
+	line "größer, als ich"
+	cont "annahm."
 
-	para "I got too tired"
-	line "exploring for"
+	para "Ich war zu er-"
+	line "schöpft, um weiter"
 
-	para "MARILL, so I came"
-	line "outside."
+	para "nach MARILL zu"
+	line "suchen, also bin"
+	cont "ich rausgekommen."
 	done
 
 Route33SignText:

@@ -550,8 +550,8 @@ Route34MovementData_DayCareManWalksBackInside_WalkAroundPlayer:
 	step_end
 
 YoungsterSamuelSeenText:
-	text "Hey! I'm looking"
-	line "for MENKI!"
+	text "Hey! Ich suche"
+	line "nach MENKI!"
 	done
 
 YoungsterSamuelBeatenText:
@@ -694,12 +694,13 @@ PokefanmBrandonBeatenText:
 	done
 
 PokefanmBrandonAfterText:
-	text "My #MON came"
-	line "back from DAY-CARE"
-	cont "with new moves."
+	text "Mein #MON kam"
+	line "mit neuen Atta-"
+	cont "cken aus der"
+	cont "PENSION zurück."
 
-	para "That confounded me"
-	line "to no end!"
+	para "Das war überaus"
+	line "erstaunlich!"
 	done
 
 CooltrainerfIreneSeenText:

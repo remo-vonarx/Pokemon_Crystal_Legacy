@@ -20,11 +20,12 @@ Route31VioletGateOfficerText:
 	done
 
 Route31VioletGateCooltrainerFText:
-	text "I saw the cutest"
-	line "#MON out there."
-	
-	para "It looked a lot"
-	line "like PIKACHU!"
+	text "Ich sah da draußen"
+	line "ein total süßes"
+	cont "#MON."
+
+	para "Es sah PIKACHU"
+	line "sehr ähnlich!"
 	done
 
 Route31VioletGate_MapEvents:
