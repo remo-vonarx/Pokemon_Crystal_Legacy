@@ -62,41 +62,45 @@ MountMortar1FOutsideHiddenHyperPotion:
 MountMortarB1FKiyoIntroText:
 	text "Hey!"
 
-	para "I am the KARATE"
-	line "KING!"
+	para "Ich bin der"
+	line "KARATE-MEISTER!"
 
-	para "I train alone here"
-	line "in the dark!"
+	para "Ich trainiere hier"
+	line "allein im Dunkeln!"
 
-	para "You!"
-	line "Battle with me!"
+	para "Du!"
+	line "Kämpfe mit mir!"
 
-	para "Hwaaarggh!"
+	para "Arggh!"
 	done
 
 MountMortarB1FKiyoWinText:
 	text "Waaaarggh!"
-	line "I'm beaten!"
+	line "Ich wurde besiegt!"
 	done
 
 MountMortarB1FTyrogueRewardText:
-	text "I… I'm crushed…"
+	text "Ich… ich bin am"
+	line "Boden zerstört…"
 
-	para "My training is"
-	line "still not enough…"
+	para "Ich habe nicht gut"
+	line "genug trainiert…"
 
-	para "But a loss is a"
-	line "loss. I admit it."
+	para "Eine Niederlage"
+	line "ist nun mal eine"
+	cont "Niederlage. Das"
+	cont "gebe ich zu."
 
-	para "As proof that you"
-	line "defeated me, I'll"
+	para "Als Beweis für"
+	line "deinen Sieg gebe"
 
-	para "give you a rare"
-	line "fighting #MON."
+	para "ich dir dieses"
+	line "seltene Kampf-"
+	cont "#MON."
 	done
 
 MountMortarB1FReceiveMonText:
-	text "<PLAYER> received"
+	text "<PLAYER> erhält"
 	line "RABAUZ."
 	done
 
@@ -115,8 +119,9 @@ MountMortarB1FKiyoGotTyrogueText:
 	done
 
 MountMortarB1FKiyoFullPartyText:
-	text "You have no room"
-	line "in your party!"
+	text "Du kannst keine"
+	line "weiteren #MON"
+	cont "mehr tragen!"
 	done
 
 MountMortar1FOutside_MapEvents:

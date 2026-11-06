@@ -121,8 +121,8 @@ MewtwoBattleText:
 	done
 
 RedSeenText:
-	text "<……>"
-	line "<……>"
+	text "…"
+	line "…"
 	done
 
 RedWinLossText:

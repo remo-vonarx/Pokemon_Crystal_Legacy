@@ -31,32 +31,35 @@ SlowpokeWellB2FTMRainDance:
 	itemball TM_RAIN_DANCE
 
 SlowpokeWellB2FGymGuideText:
-	text "I'm waiting to see"
-	line "FLEGMON's moment"
-	cont "of evolution."
+	text "Ich warte darauf,"
+	line "dass sich FLEGMON"
+	cont "entwickelt."
 
-	para "Through observa-"
-	line "tion, I made a new"
-	cont "discovery."
+	para "Aufgrund meiner"
+	line "Beobachtungen"
+	cont "habe ich eine"
+	cont "neue Entdeckung"
+	cont "gemacht."
 
-	para "A FLEGMON with a"
-	line "KING'S ROCK often"
+	para "Trägt FLEGMON"
+	line "einen KING-STEIN"
 
-	para "gets bitten by a"
-	line "MUSCHAS."
+	para "wird es oft von"
+	line "einem MUSCHAS"
+	cont "gebissen."
 
-	para "Here, I'll share a"
-	line "KING'S ROCK with"
-	cont "you."
+	para "Hier, ich gebe"
+	line "dir einen von"
+	cont "meinen."
 	done
 
 SlowpokeWellB2FGymGuideText_GotKingsRock:
-	text "I'm going to be"
-	line "like FLEGMON."
+	text "Ich werde mich wie"
+	line "FLEGMON verhalten."
 
-	para "I'll wait patient-"
-	line "ly, so I can see"
-	cont "one evolve."
+	para "Ich werde geduldig"
+	line "abwarten, bis es"
+	cont "sich entwickelt."
 	done
 
 SlowpokeWellB2F_MapEvents:

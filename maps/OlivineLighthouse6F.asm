@@ -160,62 +160,66 @@ OlivineLighthouseJasmineLeavesRightMovement:
 	step_end
 
 JasmineCianwoodPharmacyText:
-	text "JASMIN: … This"
-	line "#MON always"
+	text "JASMIN: …Dieses"
+	line "#MON hat"
 
-	para "kept the sea lit"
-	line "at night."
+	para "das Meer immer"
+	line "erleuchtet."
 
-	para "…But it suddenly"
-	line "got sick… It's"
-	cont "gasping for air…"
+	para "…Aber plötzlich"
+	line "wurde es krank… Es"
+	cont "schnappt nach"
+	cont "Luft…"
 
-	para "…I understand"
-	line "that there is a"
+	para "…Ich weiß, dass"
+	line "es eine gut"
 
-	para "wonderful PHARMACY"
-	line "in ANEMONIA…"
+	para "sortierte APOTHEKE"
+	line "in ANEMONIA CITY"
+	cont "gibt…"
 
-	para "But that's across"
-	line "the sea…"
+	para "Aber dafür musst"
+	line "du über das Meer…"
 
-	para "And I can't leave"
-	line "AMPHI unattended…"
+	para "Und ich kann AMPHI"
+	line "nicht unbeaufsich-"
+	cont "tigt zurücklassen…"
 	done
 
 JasmineGetSomeMedicineText:
-	text "…May I ask you to"
-	line "get some medicine"
-	cont "for me? Please?"
+	text "…Vielleicht"
+	line "könntest du die"
+	cont "Medizin für mich"
+	cont "besorgen? Bitte!"
 	done
 
 JasmineCureAmphyText:
-	text "JASMIN: …Will"
-	line "that medicine cure"
-	cont "AMPHI?"
+	text "JASMIN: …Wird"
+	line "diese Arznei AMPHI"
+	cont "helfen?"
 	done
 
 PlayerHandedSecretpotionText:
-	text "<PLAYER> handed the"
-	line "SECRETPOTION to"
-	cont "JASMIN."
+	text "<PLAYER> übergibt"
+	line "JASMIN den"
+	cont "GEHEIMTRANK."
 	done
 
 JasmineDontBeOffendedText:
-	text "JASMIN: …Um,"
-	line "please don't be"
-	cont "offended…"
+	text "JASMIN: …Hm,"
+	line "sei bitte nicht"
+	cont "beleidigt…"
 
-	para "…AMPHI will not"
-	line "take anything from"
-	cont "anyone but me…"
+	para "…AMPHI nimmt"
+	line "die Arznei nur"
+	cont "von mir…"
 	done
 
 JasmineAmphyHowAreYouFeelingText:
 	text "JASMIN: …"
 
-	para "AMPHI, how are you"
-	line "feeling?"
+	para "AMPHI, wie geht"
+	line "es dir?"
 	done
 
 JasmineThankYouText:
@@ -237,11 +241,13 @@ JasmineThankYouText:
 	done
 
 JasmineISeeText:
-	text "JASMIN: …I see…"
+	text "JASMIN: …Ich ver-"
+	line "stehe…"
 	done
 
 JasmineAmphyHangOnText:
-	text "…AMPHI, hang on!"
+	text "…AMPHI, halte"
+	line "durch!"
 	done
 
 AmphyPalPalooText:
@@ -250,8 +256,8 @@ AmphyPalPalooText:
 	done
 
 AmphyBreathingLaboredText:
-	text "Its breathing is"
-	line "terribly labored…"
+	text "Es hat Probleme"
+	line "mit der Atmung…"
 	done
 
 AmphyPaluPaluluText:

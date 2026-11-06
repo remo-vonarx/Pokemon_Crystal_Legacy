@@ -203,15 +203,15 @@ MovementDragonsDen_ClairWalksAway:
 	step_end
 
 ClairText_Wait:
-	text "Wait!"
+	text "Moment!"
 	done
 
 ClairText_GiveDragonbreathDragonDen:
-	text "SANDRA: I'm sorry"
-	line "about this."
+	text "SANDRA: Das tut"
+	line "mir Leid."
 
-	para "Here, take this as"
-	line "my apology."
+	para "Hier, nimm das als"
+	line "Entschuldigung."
 	done
 
 Text_ReceivedTM24:
@@ -220,27 +220,26 @@ Text_ReceivedTM24:
 	done
 
 ClairText_DescribeDragonbreathDragonDen:
-	text "That contains"
-	line "DRAGONBREATH."
+	text "Sie enthält"
+	line "FEUERODEM."
 
-	para "No, it doesn't"
-	line "have anything to"
-	cont "do with my breath."
+	para "Nein, das hat"
+	line "nichts mit meinem"
+	cont "Atem zu tun."
 
-	para "If you don't want"
-	line "it, you don't have"
-	cont "to take it."
+	para "Wenn du sie nicht"
+	line "möchtest, musst du"
+	cont "sie nicht nehmen."
 	done
 
 ClairText_NoRoom:
-	text "Oh? You don't have"
-	line "any room for this."
+	text "Oh? Du hast keinen"
+	line "Platz dafür."
 
-	para "I'm going back to"
-	line "the GYM, so make"
-
-	para "room, then come"
-	line "see me there."
+	para "Ich bin in der"
+	line "PKMN-ARENA, schaf-"
+	cont "fe Platz und komme"
+	cont "dann dorthin."
 	done
 
 ClairText_WhatsTheMatterDragonDen:
@@ -286,131 +285,142 @@ ClairText_WhatsTheMatterDragonDen:
 	done
 
 DragonShrineSignpostText:
-	text "DRAGON SHRINE"
+	text "DRACHENSCHREIN"
 
-	para "A shrine honoring"
-	line "the dragon #MON"
+	para "Der Schrein ehrt"
+	line "die Drachen #-"
+	cont "MON, die früher"
 
-	para "said to have lived"
-	line "in DRAGON'S DEN."
+	para "in der DRACHEN-"
+	line "HÖHLE gelebt haben"
+	cont "sollen."
 	done
 
 SilverText_Training1:
 	text "…"
-	line "What? <PLAYER>?"
+	line "Was? <PLAYER>?"
 
-	para "…No, I won't"
-	line "battle you now…"
+	para "…Nein, ich"
+	line "möchte jetzt nicht"
+	cont "mit dir kämpfen…"
 
-	para "My #MON aren't"
-	line "ready to beat you."
+	para "Meine #MON sind"
+	line "noch nicht bereit,"
+	cont "dich zu schlagen."
 
-	para "I can't push them"
-	line "too hard now."
+	para "Ich darf sie nicht"
+	line "zu schroff"
+	cont "behandeln."
 
-	para "I have to be dis-"
-	line "ciplined to become"
+	para "Ich muss diszipli-"
+	line "nierter sein, wenn"
 
-	para "the greatest #-"
-	line "MON trainer…"
+	para "ich der weltbeste"
+	line "#MON-Trainer"
+	cont "werden möchte…"
 	done
 
 SilverText_Training2:
 	text "…"
 
-	para "Whew…"
+	para "Wow…"
 
-	para "Learn to stay out"
-	line "of my way…"
+	para "Du musst lernen,"
+	line "mir aus dem Weg"
+	cont "zu gehen…"
 	done
 
 CooltrainermDarinSeenText:
-	text "You! How dare you"
-	line "enter uninvited!"
+	text "Du! Wie kannst du"
+	line "es wagen! Niemand"
+
+	para "bat dich"
+	line "einzutreten!"
 	done
 
 CooltrainermDarinBeatenText:
-	text "S-strong!"
+	text "S-stark!"
 	done
 
 CooltrainermDarinAfterBattleText:
-	text "The SHRINE ahead"
-	line "is home to the"
+	text "In dem SCHREIN da"
+	line "vorne lebt der"
 
-	para "MASTER of our"
-	line "dragon-user clan."
+	para "MEISTER unseres"
+	line "Drachenklans. Du"
 
-	para "You're not allowed"
-	line "to just go in!"
+	para "darfst nicht"
+	line "einfach eintreten!"
 	done
 
 CooltrainerfCaraSeenText:
-	text "You shouldn't be"
-	line "in here!"
+	text "Du solltest nicht"
+	line "hier sein!"
 	done
 
 CooltrainerfCaraBeatenText:
-	text "Oh yikes, I lost!"
+	text "Mist, verloren!"
 	done
 
 CooltrainerfCaraAfterBattleText:
-	text "Soon I'm going to"
-	line "get permission"
+	text "Bald werde ich vom"
+	line "MEISTER eine Er-"
+	cont "laubnis für den"
+	cont "Einsatz von"
+	cont "Drachen bekommen."
 
-	para "from our MASTER to"
-	line "use dragons."
+	para "Dann werde ich ein"
+	line "bewundernswerter"
 
-	para "When I do, I'm"
-	line "going to become an"
+	para "Drachen-Trainer"
+	line "und verdiene mir"
 
-	para "admirable dragon"
-	line "trainer and gain"
-
-	para "our MASTER's"
-	line "approval."
+	para "die Anerkennung"
+	line "unseres MEISTERs."
 	done
 
 TwinsLeaandpia1SeenText:
-	text "It's a stranger we"
-	line "don't know."
+	text "Ein Fremder, den"
+	line "wir nicht kennen."
 	done
 
 TwinsLeaandpia1BeatenText:
-	text "Ouchies."
+	text "Aua!"
 	done
 
 TwinsLeaandpia1AfterBattleText:
-	text "It was like having"
-	line "to battle"
-	cont "SIEGFRIED."
+	text "Es kam mir vor,"
+	line "als würde ich"
+	cont "gegen SIEGFRIED"
+	cont "kämpfen."
 	done
 
 TwinsLeaandpia2SeenText:
-	text "Who are you?"
+	text "Wer bist du?"
 	done
 
 TwinsLeaandpia2BeatenText:
-	text "Meanie."
+	text "Fiesling."
 	done
 
 TwinsLeaandpia2AfterBattleText:
-	text "We'll tell on you."
+	text "Wir verraten dich."
 
-	para "MASTER will be"
-	line "angry with you."
+	para "Der MEISTER wird"
+	line "erzürnt sein."
 	done
 
 Text_FoundDragonFang:
-	text "<PLAYER> found"
+	text "<PLAYER> findet"
 	line "@"
 	text_ram wStringBuffer3
 	text "!"
 	done
 
 Text_NoRoomForDragonFang:
-	text "But <PLAYER> can't"
-	line "carry any more"
-	cont "items."
+	text "<PLAYER> kann"
+	line "keine weiteren"
+	cont "Items mehr tragen."
 	done
 
 DragonsDenB1F_MapEvents:

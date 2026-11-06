@@ -208,21 +208,21 @@ MahoganyMart1FRageCandyBarText: ; unreferenced
 	done
 
 MahoganyMart1FPharmacistText_LanceEntered:
-	text "Arrgh… You found"
-	line "the secret stair-"
-	cont "way…"
+	text "Arrgh… Du hast"
+	line "die Geheimtreppe"
+	cont "gefunden…"
 	done
 
 MahoganyMart1FBlackBeltText:
-	text "Heheh! The experi-"
-	line "ment worked like a"
-	cont "charm."
+	text "Heheh! Das"
+	line "Experiment verlief"
+	cont "wie am Schnürchen."
 
-	para "KARPADOR are just"
-	line "worthless, but"
+	para "KARPADOR ist"
+	line "wertlos, aber"
 
-	para "GARADOS are big"
-	line "moneymakers."
+	para "GARADOS verkauft"
+	line "sich gut."
 	done
 
 MahoganyMart1FBlackBeltText_LanceEntered:
@@ -250,17 +250,19 @@ MahoganyMart1FLanceRadioText:
 	done
 
 MahoganyMart1FLanceStairsText:
-	text "The stairs are"
-	line "right here."
+	text "Die Treppe"
+	line "ist hier."
 	done
 
 MahoganyMart1FLanceSplitUpText:
 	text "SIEGFRIED:"
-	line "<PLAY_G>, we"
-	cont "should split up to"
+	line "<PLAY_G>,"
 
-	para "check this place."
-	line "I'll go first."
+	para "wir sollten uns"
+	line "trennen, um diesen"
+
+	para "Ort zu erforschen."
+	line "Ich gehe zuerst."
 	done
 
 MahoganyMart1F_MapEvents:

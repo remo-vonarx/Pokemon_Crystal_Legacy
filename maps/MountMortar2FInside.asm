@@ -49,19 +49,20 @@ SupernerdHughSeenText:
 	done
 
 SupernerdHughBeatenText:
-	text "Sorry, my mistake."
+	text "… mein Fehler."
 	done
 
 SupernerdHughAfterBattleText:
-	text "I'm investigating"
-	line "MT.MORTAR, but my"
-	cont "pal's gone AWOL."
+	text "Ich erkunde den"
+	line "KESSELBERG, aber"
+	cont "mein Kamerad fehlt"
+	cont "unentschuldigt."
 
-	para "Have you seen a"
-	line "trainer who has a"
+	para "Bist du hier einem"
+	line "Trainer begegnet,"
 
-	para "FLEGMON that can"
-	line "use STRENGTH?"
+	para "dessen FLEGMON"
+	line "STÄRKE beherrscht?"
 	done
 
 MountMortar2FInside_MapEvents:
