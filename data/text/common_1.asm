@@ -1335,10 +1335,11 @@ _RepelWoreOffText::
 _UseAnotherRepelText::
 	text "@"
 	text_ram wStringBuffer3
-	text "'s"
-	line "worn off."
+	text " wirkt"
+	line "nicht mehr."
 
-	para "Use another?"
+	para "Noch einen"
+	line "benutzen?"
 	done
 
 
@@ -1884,10 +1885,11 @@ _ComeAgainText::
 	done
 
 _CantAcceptFaintedMonText::
-	text "Sorry, but you'll"
-	line "have to heal your"
-	cont "#MON before I"
-	cont "accept it."
+	text "Tut mir leid, aber"
+	line "Du mußt Dein"
+	cont "#MON heilen,"
+	cont "bevor ich es"
+	cont "annehme."
 	prompt
 
 _NotYetText::
