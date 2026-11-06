@@ -1690,9 +1690,9 @@ Pokedex_DrawMainScreenBG:
 	ret
 
 String_SEEN:
-	db "SEEN", -1
+	db "GES", -1
 String_OWN:
-	db "OWN", -1
+	db "BES", -1
 String_SELECT_OPTION:
 	db $3b, $48, $49, $4a, $44, $45, $46, $47 ; SELECT > OPTION
 	; fallthrough
@@ -1862,25 +1862,25 @@ Pokedex_DrawOptionScreenBG:
 	ret
 
 .Title:
-	db $3b, " OPTION ", $3c, -1
+	db $3b, " OPTIONEN ", $3c, -1
 
 .NayrusPokedex:
-	db "#DEX INFO@"
+	db "#DEX-INFO@"
 
 .NewMode:
-	db "NEW #DEX MODE@"
+	db "NEUER #DEX@"
 
 .OldMode:
-	db "OLD #DEX MODE@"
+	db "ALTER #DEX@"
 
 .AtoZMode:
-	db "A to Z MODE@"
+	db "A bis Z@"
 	
 .Color:
-	db "#DEX COLOR@"
+	db "#DEX-FARBE@"
 
 .UnownMode:
-	db "ICOGNITO MODE@"
+	db "ICOGNITO INDEX@"
 
 Pokedex_DrawColorScreenBG:
 	call Pokedex_FillBackgroundColor2
@@ -1922,34 +1922,34 @@ Pokedex_DrawColorScreenBG:
 	; jp Pokedex_PlaceString
 
  .Title:
-	db $3b, " COLORS ", $3c, -1
+	db $3b, " FARBEN ", $3c, -1
 
  .Red
-	db "RED    ", $4f, -1
+	db "ROT    ", $4f, -1
 	
  .Blue
-	db "BLUE   ", $4f, -1
+	db "BLAU   ", $4f, -1
 
  .Purple
-	db "PURPLE ", $4f, -1
+	db "LILA   ", $4f, -1
 
  .Brown
-	db "BROWN  ", $4f, -1
+	db "BRAUN  ", $4f, -1
 
  .Green
-	db "GREEN  ", $4f, -1	
+	db "GRÜN   ", $4f, -1	
 	
  .Pink
-	db "PINK   ", $4f, -1	
+	db "ROSA   ", $4f, -1	
 	
  .Yellow
-	db "YELLOW ", $4f, -1	
+	db "GELB   ", $4f, -1	
 	
  .Cyan
-	db "CYAN   ", $4f, -1
+	db "TÜRKIS ", $4f, -1
 	
  .Gray
-	db "GRAY   ", $4f, -1	
+	db "GRAU   ", $4f, -1	
 	
 ;  .Mewtwo
 ; 	db "MEWTWO ", $4f, -1	
@@ -2078,19 +2078,19 @@ Pokedex_DrawSearchScreenBG:
 	ret
 
 .Title:
-	db $3b, " SEARCH ", $3c, -1
+	db $3b, " SUCHE ", $3c, -1
 
 .TypeLeftRightArrows:
 	db $3d, "        ", $3e, -1
 
 .Types:
-	db   "TYPE1"
-	next "TYPE2"
+	db   "TYP1"
+	next "TYP2"
 	db   "@"
 
 .Menu:
-	db   "BEGIN SEARCH!!"
-	next "CANCEL"
+	db   "SUCHE BEGINNEN!!"
+	next "ZURÜCK"
 	db   "@"
 
 Pokedex_DrawSearchResultsScreenBG:
@@ -2124,9 +2124,9 @@ Pokedex_DrawSearchResultsScreenBG:
 	ret
 
 .BottomWindowText:
-	db   "SEARCH RESULTS"
-	next "  TYPE"
-	next "    FOUND!"
+	db   "Ergebnisse"
+	next "Element"
+	next "    gefunden"
 	db   "@"
 
 Pokedex_PlaceSearchResultsTypeStrings:
@@ -2581,34 +2581,34 @@ Pokedex_DisplayModeDescription:
 	dw .UnownMode
 
 .NayDexInfo:	
-	db   $41, $42, $43, $56, " FULL AREA MAP", $37, $36, \
+	db   $41, $42, $43, $56, " GEBIETSKARTE", $37, $36, \
 		 "                  ", $37, $36, \
-		 $48, $49, $4a, $56, " TOGGLE SHINY", -1	
+		 $48, $49, $4a, $56, " SCHILLERND", -1	
 
 .NewMode:
-	db   "<PK><MN> are listed by  ", $37, $36, \
+	db   "<PK><MN> nach           ", $37, $36, \
 		 "                  ", $37, $36, \
-		 "evolution type.", -1
+		 "Evolution ordnen.", -1
 
 .OldMode:
-	db   "<PK><MN> are listed by  ", $37, $36, \
+	db   "<PK><MN> traditionell   ", $37, $36, \
 		 "                  ", $37, $36, \
-		 "official type.", -1
+		 "ordnen.", -1
 
 .ABCMode:
-	db   "<PK><MN> are listed     ", $37, $36, \
+	db   "<PK><MN> nach           ", $37, $36, \
 		 "                  ", $37, $36, \
-		 "alphabetically.", -1
+		 "Alphabet ordnen.", -1
 
 .Color
-	db   "Change the color  ", $37, $36, \
+	db   "Farbe des Rahmens ", $37, $36, \
 		 "                  ", $37, $36, \
-		 "of the border.", -1
+		 "ändern.", -1
 
 .UnownMode:
-	db   "ICOGNITO are shown", $37, $36, \
+	db   "ICOGNITO in       ", $37, $36, \
 		 "                  ", $37, $36, \
-		 "in catching order.", -1
+		 "Fangreihenfolge.", -1
 
 Pokedex_DisplayChangingModesMessage:
 	xor a
@@ -2630,8 +2630,8 @@ Pokedex_DisplayChangingModesMessage:
 	ret
 
 String_ChangingModesPleaseWait:
-	db   "Changing modes."
-	next "Please wait.@"
+	db   "Moduswechsel."
+	next "Bitte warten.@"
 
 Pokedex_UpdateSearchMonType:
 	ld a, [wDexArrowCursorPosIndex]
@@ -2831,8 +2831,8 @@ Pokedex_DisplayTypeNotFoundMessage:
 	ret
 
 .TypeNotFound:
-	db   "The specified type"
-	next "was not found.@"
+	db   "Gesuchtes Element"
+	next "nicht gefunden.@"
 
 Pokedex_UpdateCursorOAM:
 	ld a, [wCurDexMode]

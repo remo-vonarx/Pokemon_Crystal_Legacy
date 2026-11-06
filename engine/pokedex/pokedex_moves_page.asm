@@ -5,21 +5,21 @@ DEF MAX_NUM_MOVES EQU 7
 ; must fill in spaces to erase other text already printed
 ; top string goes in 8, 6, bottom in 8, 7
 String_LVL_text:
-	db "LVL-UP     @"
+	db "LEVEL-     @"
 String_FIELD_text:
-	db "FIELD      @"
+	db "TERRAIN-   @"
 String_EGG_text:
-	db "EGG        @"		
+	db "EI-        @"
 String_MOVES_text:
-	db " MOVES     @"
+	db " ATTACKEN  @"
 String_TECH_text:
-	db "TECHNICAL  @"
+	db "TM-        @"
 String_MACHINES_text:
-	db " MACHINES  @"
+	db " ATTACKEN  @"
 String_MOVE_text:
-	db "MOVE       @"
+	db "ATTACKEN-  @"
 String_TUTOR_text:
-	db " TUTOR     @"
+	db " LEHRER    @"
 Print_Category_MOVES_text:
 	ld hl, String_MOVES_text
 	jp Print_Category_text
@@ -835,4 +835,4 @@ Pokedex_anymoreMTs:
 ; 	ret
 
 DexEntry_NONE_text:
-	db "NONE@"
+	db "KEINE@"

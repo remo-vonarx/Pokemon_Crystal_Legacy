@@ -7,7 +7,7 @@ String_johto_text:
 String_kanto_text:
 	db "KANTO:     @"
 String_swarm_text:
-	db "SWARM:     @"
+	db "SCHWARM:   @"
 
 Pokedex_DetailedArea:
 	xor a
@@ -159,7 +159,7 @@ Pokedex_DetailedArea:
 	xor a
 	ret
 .none_found_text:
-	db "NOT LOCATED@"
+	db "UNBEKANNT@"
 
 Dex_FindFirstList:
 ; contest, trees(+rocks), grass swarm, grass, rods, water surf, surf
@@ -524,7 +524,7 @@ Pokedex_DetailedArea_grass:
 	ret
 .grass_walk_text:
 	; db "GRASS     @"
-	db " WALKING @"
+	db " LAUFEN  @"
 	; db "GRASS/WALKING@"
 
 Pokedex_Parse_grass:
@@ -771,7 +771,7 @@ Pokedex_DetailedArea_surf:
 	xor a ; to ensure a isnt actually returned at -1. 0 is for normal
 	ret
 .surfing_text:
-	db " SURFING @"
+	db " SURFEN  @"
 
 Pokedex_Parse_surf:
 	push hl ; first species byte, surfing has no time of day
@@ -1141,17 +1141,17 @@ Pokedex_DetailedArea_bugcontest:
 	call DexEntry_NextCategory
 	ret
 .bugcontest_text:
-	db "BUG       @" ; CATCH CONTEST@"
+	db "KÄFER-    @" ; CATCH CONTEST@"
 .contest_text:
-	db " CONTEST @"	
+	db " TURNIER @"
 .park_text:
-	db " NATIONAL PARK@"
+	db " NATIONALPARK@"
 .String_Tuesday:
-	db " Tuesdays@"
+	db " Dienstags@"
 .String_Thursday:
-	db " Thursdays@"
+	db " Donnerstags@"
 .String_Saturday:
-	db " Saturdays@"
+	db " Samstags@"
 
 BugContest_Print:
 	ld b, e ; encounter %
@@ -1257,7 +1257,7 @@ Pokedex_DetailedArea_roaming:
 	call DexEntry_NextCategory
 	ret
 .roaming_text:
-	db "ROAMING   @"
+	db "STREUNEND @"
 
 Dex_Print_Roamer_Info:
 	; push bc ; line counter in c
@@ -1356,7 +1356,7 @@ Dex_Print_Roamer_Info:
 	inc c
 	ret
 .hp_text:
-	db "HP:@"
+	db "KP:@"
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; ROAMING END ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
@@ -1459,9 +1459,9 @@ Pokedex_DetailedArea_casino:
 	call DexEntry_NextCategory
 	ret
 .casino_text:
-	db "CASINO    @"
+	db "SPIELHALLE@"
 .prize_text:
-	db " PRIZE   @"
+	db " PREIS   @"
 
 Print_casinomon:
 	; 'de' has casino map_id ptr
@@ -1519,7 +1519,7 @@ Print_casinomon:
 	pop hl ; current casinomon species ptr
 	ret
 .coins_text:
-	db "COINS@"
+	db "MÜNZEN@"
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; CASINO END ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; NPC TRADES ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -1640,7 +1640,7 @@ Pokedex_DetailedArea_npctrades:
 .npctrade_text:
 	db "NPC       @" 
 .trade_text:
-	db " TRADE   @"
+	db " TAUSCH  @"
 
 Dex_Print_TradeMon_Info:
 	; 'de': location: 		hlcoord 2, 10
@@ -1765,9 +1765,9 @@ Dex_Print_TradeMon_Info:
 .Nickname_Text:
 	db "NAME/@"
 .GivenItem_Text:
-	db "HOLD/@"
+	db "ITEM/@"
 .WantedMon_Text:
-	db "FOR/@"	
+	db "FÜR/@"
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; NPC TRADES END ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
@@ -1912,9 +1912,9 @@ Pokedex_DetailedArea_eventwildmons:
 	jp Pokedex_DetailedArea_eventmons
 	
 .eventwildmon_text:
-	db "SPECIAL   @"
+	db "BESONDERE @"
 .eventwildmon_text2:
-	db "ENCOUNTER@"
+	db "BEGEGNUNG@"
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; EVENT WILD MONS END ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
@@ -1938,7 +1938,7 @@ Pokedex_DetailedArea_giftmons:
 	jp Pokedex_DetailedArea_eventmons
 
 .giftmon_text:
-	db "GIFT      @"
+	db "GESCHENK  @"
 	ret
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; GIFT MONS END ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

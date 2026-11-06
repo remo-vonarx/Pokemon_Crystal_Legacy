@@ -6,9 +6,9 @@ ENDC
 EXPORT POKEDEX_STATSPAGE_MAX_PAGE_NUM
 
 String_BASE_text:
-	db "BASE       @" ; @ 8, 6
+	db "BASISWERTE @" ; @ 8, 6
 String_STATS_text:
-	db " STATS     @" ; @ 8, 7
+	db "           @" ; @ 8, 7
 DisplayDexMonStats::
 	ld a, [wTempSpecies]
 	ld [wCurSpecies], a
@@ -66,7 +66,7 @@ ELSE
 ENDC ; done handling EVs/StatExp differences
 	jp DexEntry_IncPageNum
 .Base_stats_text:
-	db "BASE STATS@"
+	db "BASISWERTE@"
 
 Pokedex_GBS_Stats:
 	hlcoord 1, 9
@@ -108,11 +108,11 @@ Pokedex_GBS_Stats:
 	ret
 
 .String_abbrv_BS_text1:
-	db "  HP      SPE     @"
+	db "  KP     INIT     @"
 .String_abbrv_BS_text2:
-	db " ATK      DEF     @"
+	db "ANGR      VER     @"
 .String_abbrv_BS_text3:
-	db " SPA      SPD     @"
+	db "S.ANG    S.VER    @"
 
 Pokedex_BST:
 	hlcoord 2, 9
@@ -176,7 +176,7 @@ Pokedex_BST:
 	ld [wCurDamage + 1], a
 	ret
 .BS_Total_text:
-	db "Base Total:@"
+	db "Summe:@"
 
 Pokedex_Get_Items:
 ; TODO: Add code to differentiate same items in both entries, special cases
@@ -226,7 +226,7 @@ Pokedex_Get_Items:
 .ThreeDashes:
 	db "---@"
 .BS_ITEM_text:
-	db "Wild Held Items:@"
+	db "Getragene Items:@"
 .BS_ITEM1:
 	db "[23<%>]@"
 .BS_ITEM2:
@@ -250,7 +250,7 @@ ENDC
 	ret
 ;Catch Rate
 .BS_Catchrate:
-	db "Catch Rate: @"
+	db "Fangrate: @"
 
 Pokedex_PrintBaseExp:
 ; wBaseExp
@@ -270,7 +270,7 @@ ENDC
 	call PrintNum
 	ret
 .Exp_text:
-	db "EXP Yield:@"
+	db "EP-Ertrag:@"
 
 Pokedex_Get_Growth::
 ;Growth rate
@@ -305,17 +305,17 @@ ENDC
 	ret
 
 .growth_Medfast:
-	db "Med. Fast Growth@"
+	db "Mittel-Schnell@"
 .growth_slightfast
-	db "Sml. Fast Growth@"
+	db "Leicht-Schnell@"
 .growth_slightslow
-	db "Sml. Slow Growth@"
+	db "Leicht-Langsam@"
 .growth_medslow
-	db "Med. Slow Growth@"
+	db "Mittel-Langsam@"
 .growth_fast
-	db "Fast Growth@"
+	db "Schnell@"
 .growth_slow
-	db "Slow Growth@"
+	db "Langsam@"
 
 Pokedex_EggG_SetUp:
 	ld a, [wBaseEggGroups]
@@ -352,9 +352,9 @@ Pokedex_EggG_SetUp:
 .EggGroups_DONE
 	ret
 .BS_Egg_text1:
-	db "Egg Group: @"
+	db "Ei-Gruppe: @"
 .BS_Egg_text2:
-	db "Egg Groups: @"
+	db "Ei-Gruppen: @"
 
 Pokedex_Get_EggGroup:
 ;; have the fixed group num in 'a' already
@@ -422,31 +422,31 @@ Pokedex_Get_EggGroup:
 .EggG_Monster_text:
 	db "Monster@"
 .EggG_Amphibian_text:
-	db "Amphibian@"
+	db "Wasser 1@"
 .EggG_Bug_text:
-	db "Bug@"
+	db "Käfer@"
 .EggG_Flying_text:
-	db "Flying@"
+	db "Flug@"
 .EggG_Field_text:
-	db "Field@"
+	db "Feld@"
 .EggG_Fairy_text:
-	db "Fairy@"
+	db "Feen@"
 .EggG_Grass_text:
-	db "Grass@"
+	db "Pflanzen@"
 .EggG_HumanLike_text:
-	db "Humane-Like@"
+	db "Humanotyp@"
 .EggG_Invertebrate_text:
-	db "Invertebrate@"
+	db "Wasser 3@"
 .EggG_Mineral_text:
 	db "Mineral@"
 .EggG_Amorphous_text:
-	db "Amorphous@"
+	db "Amorph@"
 .EggG_Fish_text:
-	db "Fish@"
+	db "Wasser 2@"
 .EggG_Ditto_text:
-	db "ALL@"
+	db "Ditto@"
 .EggG_Dragon_text:
-	db "Dragon@"
+	db "Drachen@"
 
 Pokedex_Get_GenderRatio::
 	hlcoord 2, 14
@@ -483,11 +483,11 @@ Pokedex_Get_GenderRatio::
 	ret
 
 .GR_Text
-	db "Gender Ratio: @"
+	db "Geschlecht: @"
 .GR_always_fem:
-	db "♀ Only@"
+	db "Nur ♀@"
 .GR_always_male
-	db "♂ Only@"
+	db "Nur ♂@"
 .GR_QuarterF
 	db "1♀:4♂@"
 .GR_Equal
@@ -508,7 +508,7 @@ Pokedex_PrintHatchSteps:
 	call PrintNum
 	ret
 .HatchSteps_text:
-	db "Egg Cycles:@"
+	db "Ei-Zyklen:@"
 
 ; If using EVs instead of StatEXP
 IF DEF(wBaseHPAtkDefSpdEVs)
@@ -610,7 +610,7 @@ Pokedex_PrintBaseEVs:
 	pop hl
 	jr .ev_done
 .EVyield_text:
-	db "EV Yield:@"
+	db "EV-Ertrag:@"
 
 .prep_stack
 	hlcoord 11, 12
@@ -755,14 +755,14 @@ ENDC
 	db "kg@"
 
 BS_HP_text:
-	db " HP@"
+	db " KP@"
 BS_SPEED_text:
-	db "SPE@"
+	db "INI@"
 BS_ATK_text:
-	db "ATK@"
+	db "ANG@"
 BS_DEF_text:
-	db "DEF@"
+	db "VER@"
 BS_SPCL_text:
-	db "SPA@"
+	db "S.A@"
 BS_SPCLDEF_text:
-	db "SPD@"
+	db "S.V@"

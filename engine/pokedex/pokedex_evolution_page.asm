@@ -281,7 +281,7 @@ DisplayDexMonEvos:
 .cont_page_text:
 	db $63, $64, $65, $66, "@"
 .doesnt_evo_text:
-	db "DOES NOT EVOLVE@"
+	db "KEINE ENTWICKLUNG@"
 .exit_early_print_cont
 	pop af
 .exit_early_print_cont2
@@ -394,7 +394,7 @@ EVO_trade:
 	call EVO_inchlcoord
 	ret
 .trade_text:
-	db "TRADE@"
+	db "TAUSCH@"
 .hold_text:
 	db " ", "+","@"
 
@@ -465,11 +465,11 @@ EVO_stats:
 	ret
 
 .atk_eq_def_text:
-	db "ATK = DEF@"
+	db "ANGR = VER@"
 .atk_gt_def_text:
-	db "ATK > DEF@"
+	db "ANGR > VER@"
 .atk_lt_def_text:
-	db "ATK < DEF@"
+	db "ANGR < VER@"
 
 EVO_place_Mon_Types:
 	push af
