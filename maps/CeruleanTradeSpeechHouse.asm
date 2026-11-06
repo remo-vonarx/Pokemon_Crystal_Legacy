@@ -32,14 +32,16 @@ CeruleanTradeSpeechHouseZubatScript:
 	end
 
 CeruleanTradeSpeechHouseGrannyText:
-	text "My husband lives"
-	line "happily with #-"
-	cont "MON he got through"
-	cont "trades."
+	text "Mein Mann ist"
+	line "glücklich mit den"
+	cont "#MON, die er im"
+	cont "Tausch erhalten"
+	cont "hat."
 	done
 
 CeruleanTradeSpeechHouseGrampsText:
-	text "Ah… I'm so happy…"
+	text "Ach… Ich bin so"
+	line "glücklich…"
 	done
 
 CeruleanTradeSpeechHouseRhydonText:
