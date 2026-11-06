@@ -51,15 +51,16 @@ TrainerPokefanmTrevor:
 	end
 
 PokefanmCarterSeenText:
-	text "Let me tell you,"
-	line "I had a hard time"
+	text "Eines kann ich dir"
+	line "sagen! Es war"
 
-	para "catching my prized"
-	line "#MON."
+	para "harte Arbeit, mei-"
+	line "ne prämierten"
+	cont "#MON zu fangen."
 	done
 
 PokefanmCarterBeatenText:
-	text "Awaaah!"
+	text "Uaaaah!"
 	done
 
 PokefanmCarterAfterBattleText:
@@ -71,33 +72,36 @@ PokefanmCarterAfterBattleText:
 	done
 
 BirdKeeperRoySeenText:
-	text "My dream is to fly"
-	line "with my beloved"
-	cont "bird #MON."
+	text "Ich träume davon,"
+	line "mit meinen ge-"
+	cont "liebten Vogel-"
+	cont "#MON zu"
+	cont "fliegen."
 	done
 
 BirdKeeperRoyBeatenText:
-	text "I can dream, but I"
-	line "can't ever fly…"
+	text "Ich kann träumen,"
+	line "aber ich kann"
+	cont "nicht fliegen…"
 	done
 
 BirdKeeperRoyAfterBattleText:
-	text "You have #MON"
-	line "that know the HM"
+	text "Du hast #MON,"
+	line "welche die VM"
 
-	para "move FLY, don't"
-	line "you? I envy you."
+	para "FLIEGEN kennen?"
+	line "Ich beneide dich."
 	done
 
 PokefanmTrevorSeenText:
-	text "Hi. Did you know…?"
+	text "Hi. Wusstest du…,"
 
-	para "#MON get more"
-	line "friendly if you"
+	para "dass #MON dich"
+	line "mehr mögen, wenn"
 
-	para "train them in a"
-	line "place that they"
-	cont "remember."
+	para "du sie an einem"
+	line "ihnen bekannten"
+	cont "Platz trainierst?"
 	done
 
 PokefanmTrevorBeatenText:
@@ -106,11 +110,12 @@ PokefanmTrevorBeatenText:
 	done
 
 PokefanmTrevorAfterBattleText:
-	text "If only there were"
-	line "an easy way to"
+	text "Gäbe es doch einen"
+	line "einfachen Weg, um"
 
-	para "identify where I"
-	line "got my #MON…"
+	para "festzustellen, wo"
+	line "ich meine"
+	cont "#MON traf…"
 	done
 
 Route14_MapEvents:

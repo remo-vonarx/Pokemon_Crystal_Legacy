@@ -14,8 +14,8 @@ Route31VioletGateCooltrainerFScript:
 	jumptextfaceplayer Route31VioletGateCooltrainerFText
 
 Route31VioletGateOfficerText:
-	text "Hi there!"
-	line "Did you visit"
+	text "Tach auch!"
+	line "Warst du im"
 	cont "KNOFENSA-TURM?"
 	done
 

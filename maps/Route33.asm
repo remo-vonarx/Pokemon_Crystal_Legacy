@@ -163,33 +163,37 @@ Route33FruitTree:
 	fruittree FRUITTREE_ROUTE_33
 
 HikerAnthony2SeenText:
-	text "I came through the"
-	line "tunnel, but I"
+	text "Ich bin durch den"
+	line "Tunnel gegangen,"
+	cont "aber ich habe noch"
 
-	para "still have plenty"
-	line "of energy left."
+	para "viel Energie"
+	line "übrig."
 	done
 
 HikerAnthony2BeatenText:
-	text "Whoa! You've got"
-	line "more zip than me!"
+	text "Wow! Du hast mehr"
+	line "Mumm als ich!"
 	done
 
 HikerAnthony2AfterText:
-	text "We HIKERS are at"
-	line "our best in the"
-	cont "mountains."
+	text "In den Bergen sind"
+	line "wir WANDERER"
+	cont "in unserem"
+	cont "Element."
 	done
 
 HikerAnthonyDunsparceText:
-	text "Hey, did you get a"
+	text "Heh, hast du ein"
 	line "DUMMISEL?"
 
-	para "I caught one too."
+	para "Ich habe eines."
 
-	para "Take a look at it"
-	line "in the light. It's"
-	cont "got a funny face!"
+	para "Sieh es dir im"
+	line "Licht an. Es hat"
+
+	para "ein lustiges"
+	line "Gesicht!"
 	done
 
 Route33LassText:

@@ -37,15 +37,16 @@ Route6UndergroundPathSign:
 	jumptext Route6UndergroundPathSignText
 
 Route6PokefanMText:
-	text "The road is closed"
-	line "until the problem"
+	text "Die Straße zum"
+	line "KRAFTWERK bleibt"
 
-	para "at the POWER PLANT"
-	line "is solved."
+	para "gesperrt, bis das"
+	line "Problem gelöst"
+	cont "wurde."
 	done
 
 Route6UndergroundPathSignText:
-	text "UNDERGROUND PATH"
+	text "TUNNELPFAD"
 
 	para "AZURIA CITY -"
 	line "ORANIA CITY"

@@ -189,113 +189,124 @@ Route39MiltankText:
 	done
 
 SailorEugeneSeenText:
-	text "I just got back to"
-	line "OLIVIANA."
+	text "Ich bin gerade"
+	line "wieder in OLIVIANA"
+	cont "angekommen."
 
-	para "So how about a"
-	line "#MON battle?"
+	para "Wie steht es nun"
+	line "mit dem #MON-"
+	cont "Kampf?"
 	done
 
 SailorEugeneBeatenText:
-	text "Awaaargh!"
+	text "Aah!"
 	done
 
 SailorEugeneAfterBattleText:
-	text "My #MON were"
-	line "caught and raised"
-	cont "overseas."
+	text "Meine #MON"
+	line "wurden eingefangen"
+	cont "und sind im Aus-"
+	cont "land aufgezogen"
+	cont "worden."
 
-	para "They're my compan-"
-	line "ions on those long"
-	cont "voyages."
+	para "Sie begleiten mich"
+	line "auf meinen langen"
+	cont "Reisen."
 	done
 
 PokefanmDerekSeenText:
-	text "This is a good"
-	line "time to brag about"
-	cont "my PIKACHU!"
+	text "Genau der richtige"
+	line "Moment, um mit"
+	cont "PIKACHU anzugeben!"
 	done
 
 PokefanmDerekBeatenText:
-	text "I had no time to"
-	line "show off PIKACHU…"
+	text "Ich hatte keine"
+	line "Zeit, mit PIKACHU"
+	cont "zu prahlen…"
 	done
 
 PokefanMDerekText_NotBragging:
-	text "I'm not listening"
-	line "to your bragging!"
+	text "Ich höre mir deine"
+	line "Prahlerei gar"
+	cont "nicht an!"
 
-	para "We # FANS have"
-	line "a policy of not"
+	para "Wir #-FANS"
+	line "haben ein Gelübde,"
 
-	para "listening to other"
-	line "people brag!"
+	para "das uns verbietet,"
+	line "Leuten beim"
+	cont "Prahlen zuzuhören!"
 	done
 
 PokefanfRuthSeenText:
-	text "Such darling"
-	line "#MON."
+	text "Was für süße"
+	line "#MON!"
 
-	para "Let's show our"
-	line "#MON together"
-	cont "at the same time."
+	para "Zeigen wir uns"
+	line "gegenseitig unsere"
+	cont "#MON, und zwar"
+	cont "gleichzeitig!"
 	done
 
 PokefanfRuthBeatenText:
-	text "I don't mind"
-	line "losing."
+	text "Mir macht es"
+	line "nichts aus,"
+	cont "zu verlieren."
 	done
 
 PokefanfRuthAfterBattleText:
-	text "Do you know about"
-	line "baby #MON?"
+	text "Weißt du über"
+	line "Baby-#MON"
+	cont "Bescheid?"
 
-	para "I bet they're just"
-	line "adorable!"
+	para "Die sind bestimmt"
+	line "super-süß!"
 	done
 
 PokefanMDerekPikachuIsItText:
-	text "PIKACHU is it!"
-	line "Don't you agree?"
+	text "PIKACHU muss sein!"
+	line "Was meinst du?"
 	done
 
 PsychicNormanSeenText:
-	text "Let me see what"
-	line "your #MON are"
-	cont "capable of."
+	text "Zeig doch mal, was"
+	line "deine #MON"
+	cont "drauf haben."
 	done
 
 PsychicNormanBeatenText:
-	text "Ooh, your #MON"
-	line "have potential."
+	text "He, deine #MON"
+	line "sind sehr fähig!"
 	done
 
 PsychicNormanAfterBattleText:
-	text "You know how #-"
-	line "MON have different"
-	cont "abilities?"
+	text "Du weißt von den"
+	line "unterschiedlichen"
+	cont "#-Fähigkeiten?"
 
-	para "People are like"
-	line "that too. Every-"
-	cont "one has different"
-	cont "potential."
+	para "Bei den Menschen"
+	line "ist das ganz"
+	cont "ähnlich. Jeder hat"
+	cont "unterschiedliche"
+	cont "Talente."
 	done
 
 PokefanfJaimeHopeItGetsDarkText:
-	text "Ufufufu… I hope it"
-	line "gets dark soon."
+	text "Ufu… Ich hoffe, es"
+	line "wird bald dunkel."
 	done
 
 PokefanfJaimeSeenText:
-	text "You came at just"
-	line "the right time."
+	text "Du kommst gerade"
+	line "recht."
 
-	para "Let's battle."
+	para "Auf in den Kampf."
 	done
 
 PokefanfJaimeBeatenText:
-	text "Oh, how disap-"
-	line "pointing…"
+	text "Oh, wie"
+	line "ernüchternd…"
 	done
 
 PokefanfJaimeAfterBattleText:
@@ -324,25 +335,28 @@ Route39SignText:
 	done
 
 MoomooFarmSignText:
-	text "MOOMOO FARM"
+	text "KUHMUH-FARM"
 
-	para "Enjoy Our Fresh"
-	line "and Tasty Milk"
+	para "Unsere Bekömmliche"
+	line "Milch Ist Sehr"
+	cont "Erfrischend"
 	done
 
 Route39TrainerTipsText:
-	text "TRAINER TIPS"
+	text "TIPPS für TRAINER"
+	line "Benutze KOPFNUSS,"
 
-	para "Use HEADBUTT on"
-	line "trees to shake"
-	cont "#MON out."
+	para "um #MON"
+	line "aus den Bäumen"
+	cont "zu schütteln."
 
-	para "Different kinds of"
-	line "#MON drop out"
-	cont "of trees."
+	para "Auf den Bäumen"
+	line "leben verschiedene"
+	cont "Arten von #MON."
 
-	para "Use HEADBUTT on"
-	line "any tree you see!"
+	para "Benutze KOPFNUSS"
+	line "an jedem Baum, den"
+	cont "du siehst!"
 	done
 
 Route39_MapEvents:
