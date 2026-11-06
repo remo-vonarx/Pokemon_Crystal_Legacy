@@ -145,15 +145,15 @@ EcruteakCityLass1Text:
 	done
 
 EcruteakCityLass2Text:
-	text "The tower that"
-	line "used to be here…"
+	text "Der Turm, der"
+	line "früher hier stand…"
 
-	para "My grandma told me"
-	line "it used to be much"
-	cont "taller."
-	
-	para "I hear there are"
-	line "ghosts in it now."
+	para "Meine Oma sagte"
+	line "mir, daß er"
+	cont "früher höher war."
+
+	para "Ich hörte, daß es"
+	line "dort jetzt spukt."
 	done
 
 EcruteakCityLass2Text_ReleasedBeasts:

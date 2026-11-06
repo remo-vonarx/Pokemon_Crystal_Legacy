@@ -311,42 +311,41 @@ MortyFightDoneText:
 	done
 
 MortyRematchText:
-	text "Ah, the JOHTO"
-	line "CHAMPION! Good"
-	cont "of you to come."
+	text "Ah, der JOHTO-"
+	line "CHAMP! Schön, daß"
+	cont "Du gekommen bist."
 
-	para "You've shown your"
-	line "strength and"
-	cont "skill, but have"
+	para "Du hast Stärke und"
+	line "Können bewiesen,"
 
-	para "you improved"
-	line "since our last"
-	cont "battle?"
+	para "aber hast Du Dich"
+	line "seit unserem"
+	cont "letzten Kampf"
+	cont "verbessert?"
 
-	para "I've been"
-	line "training with my"
-	cont "GHOST-type"
-	cont "#MON."
+	para "Ich habe mit"
+	line "meinen #MON des"
+	cont "Typs Geist"
+	cont "trainiert."
 
-	para "Let's see if you"
-	line "can overcome the"
-	cont "shadows once"
-	cont "again."
+	para "Mal sehen, ob Du"
+	line "die Schatten"
+	cont "erneut über-"
+	cont "winden kannst."
 
-	para "Want to have a"
-	line "rematch with me?"
+	para "Willst Du eine"
+	line "Revanche?"
 	done
 
 Morty_RematchDefeatText:
-	text "I'm not good"
-	line "enough yet…"
+	text "Ich bin noch nicht"
+	line "gut genug…"
 
-	para "You have wit-"
-	line "nessed much more"
-	cont "than I."
+	para "Du hast viel mehr"
+	line "gesehen als ich."
 
-	para "I envy you for"
-	line "that…"
+	para "Dafür beneide ich"
+	line "Dich…"
 	done
 
 SageJeffreySeenText:
@@ -388,12 +387,12 @@ SagePingBeatenText:
 	done
 
 SagePingAfterBattleText:
-	text "We use GHOST-"
-	line "type #MON."
+	text "Wir setzen"
+	line "GEIST-#MON ein."
 
-	para "No NORMAL-type"
-	line "attack can harm"
-	cont "them!"
+	para "Normal-Attacken"
+	line "zeigen bei ihnen"
+	cont "keine Wirkung!"
 	done
 
 MediumMarthaSeenText:
@@ -435,22 +434,26 @@ MediumGraceAfterBattleText:
 	done
 
 EcruteakGymGuideText:
-	text "Hey CHAMP!"
-	line "You're almost"
-	cont "halfway there!"
-	
-	para "The trainers here"
-	line "use GHOST and"
-	cont "DARK-type #MON."
+	text "He, CHAMP! Du hast"
+	line "fast die Hälfte"
+	cont "geschafft!"
 
-	para "While JENS is a"
-	line "GHOST-type expert,"
-	
-	para "be wary of his"
-	line "mystic deer."
-	
-	para "It's said to cause"
-	line "odd nightmares…"
+	para "Die Trainer hier"
+	line "setzen #MON der"
+	cont "Typen Geist und"
+	cont "Unlicht ein."
+
+	para "JENS ist zwar ein"
+	line "Experte für den"
+	cont "Typ Geist,"
+
+	para "aber hüte Dich"
+	line "vor seinem"
+	cont "mystischen Hirsch."
+
+	para "Er soll seltsame"
+	line "Alpträume"
+	cont "hervorrufen…"
 	done
 
 EcruteakGymGuideWinText:
