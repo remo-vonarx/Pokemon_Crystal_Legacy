@@ -559,8 +559,8 @@ Route36LassText:
 	cont "vorsichtig!"
 
 	para "Ich sah ein"
-	line "#MON, das aussah"
-	cont "wie FUKANO,"
+	line "#MON, das wie"
+	cont "FUKANO aussah,"
 
 	para "aber es hatte"
 	line "eine unheimliche"

@@ -235,9 +235,9 @@ JasmineThankYouText:
 	para "…Ich kehre in die"
 	line "PKMN-ARENA zurück."
 
-	para "Ich warne Dich"
-	line "aber: STAHL-"
-	cont "#MON sind stark."
+	para "Ich warne Dich:"
+	line "STAHL-#MON sind"
+	cont "stark."
 	done
 
 JasmineISeeText:
