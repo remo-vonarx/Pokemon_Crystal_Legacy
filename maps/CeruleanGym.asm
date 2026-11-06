@@ -317,24 +317,24 @@ MistyFightDoneText:
 	done
 
 MistyRematchText:
-	text "MISTY: Wow, you're"
-	line "the KANTO CHAMPION"
-	cont "now!"
+	text "MISTY: Wow, Du"
+	line "bist jetzt"
+	cont "KANTO-CHAMP!"
 
-	para "That's amazing!"
-	line "You've come a long"
-	cont "way, <PLAYER>."
+	para "Das ist toll! Du"
+	line "hast es weit"
+	cont "gebracht, <PLAYER>."
 
-	para "But I'm not"
-	line "backing down."
+	para "Aber ich gebe"
+	line "nicht nach."
 
-	para "Want to have a"
-	line "rematch with me?"
+	para "Willst Du eine"
+	line "Revanche?"
 	done
 
 Misty_RematchDefeatText:
-	text "MISTY: You really"
-	line "are good…"
+	text "MISTY: Du bist"
+	line "wirklich gut…"
 	done
 
 SwimmerfDianaSeenText:
