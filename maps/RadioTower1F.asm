@@ -457,7 +457,7 @@ GruntM3SeenText:
 
 GruntM3BeatenText:
 	text "Zu stark! Tut mir"
-	line "leid, Boss…"
+	line "Leid, Boss…"
 	done
 
 GruntM3AfterBattleText:

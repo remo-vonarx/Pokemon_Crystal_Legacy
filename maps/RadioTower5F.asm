@@ -480,7 +480,7 @@ Executivef1BeatenText:
 	cont "dennoch verloren…"
 
 	para "Es tut mir so"
-	line "leid, GIOVANNI…"
+	line "Leid, GIOVANNI…"
 	done
 
 Executivef1AfterBattleText:

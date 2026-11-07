@@ -165,7 +165,7 @@ GruntM15BeatenText:
 	line "höre auf."
 
 	para "Vielen Dank."
-	line "Tut mir leid,"
+	line "Tut mir Leid,"
 	cont "GIOVANNI!"
 	done
 

@@ -1890,7 +1890,7 @@ _ComeAgainText::
 	done
 
 _CantAcceptFaintedMonText::
-	text "Tut mir leid, aber"
+	text "Tut mir Leid, aber"
 	line "Du mußt Dein"
 	cont "#MON heilen,"
 	cont "bevor ich es"
