@@ -5942,7 +5942,7 @@ Function1029af:
 
 MenuHeader_1029bb:
 	db MENU_BACKUP_TILES ; flags
-	menu_coords 3, 10, 15, 12
+	menu_coords 3, 10, 18, 12
 	dw NULL
 	db 1 ; default option
 
@@ -6003,7 +6003,7 @@ Function1029fe:
 
 String_102a26:
 	db   "TAUSCH"
-	next "ABBRECHEN"
+	next "ZURÜCK"
 	db   "@"
 
 MenuData3_102a33:
@@ -6487,7 +6487,7 @@ Function102dec:
 Function102e07:
 	hlcoord 3, 10
 	ld b,  1
-	ld c, 11
+	ld c, 14 ; wide enough for BITTE WARTEN…!
 	ld a, [wBattleMode]
 	and a
 	jr z, .link_battle
@@ -6498,7 +6498,7 @@ Function102e07:
 ; the next three operations are pointless
 	hlcoord 3, 10
 	ld b,  1
-	ld c, 11
+	ld c, 14
 	ld d, h
 	ld e, l
 	farcall _LinkTextbox
