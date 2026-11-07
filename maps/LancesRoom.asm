@@ -366,10 +366,7 @@ LanceBattleIntroText:
 	para "der Stärkere von"
 	line "uns beiden ist."
 
-	para "Ich, der beste"
-	line "aller Trainer und"
-
-	para "CHAMP der"
+	para "Als CHAMP der"
 	line "#MON LIGA…"
 
 	para "Ich, SIEGFRIED"
