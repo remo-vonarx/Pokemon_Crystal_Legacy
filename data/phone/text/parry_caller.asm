@@ -20,7 +20,7 @@ ParryDefeatedMonText:
 	done
 
 ParryLostAMonText:
-	text "Und gestern, haben"
+	text "Und gestern haben"
 	line "wir ein wildes"
 
 	para "@"

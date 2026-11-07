@@ -47,7 +47,7 @@ _BTLossM3Text:
 	done
 
 _BTWinM3Text:
-	text "Das nächste Mal,"
+	text "Das nächste Mal"
 	line "verliere ich"
 	cont "nicht, oder?"
 	done
@@ -98,7 +98,7 @@ _BTLossM6Text:
 _BTWinM6Text:
 	text "Ups! Komm schon,"
 	line "laß mich doch"
-	cont "ein Mal gewinnen!"
+	cont "einmal gewinnen!"
 	done
 
 _BTGreetingM7Text:
@@ -618,7 +618,7 @@ _BTGreetingF12Text:
 	done
 
 _BTLossF12Text:
-	text "Ups, sorry! Aber,"
+	text "Ups, sorry! Aber"
 	line "ich bin auch"
 	cont "glücklich!"
 	done

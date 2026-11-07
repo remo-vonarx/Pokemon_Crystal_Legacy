@@ -166,7 +166,7 @@ ElmPhoneEggAssistantText:
 
 	para "von VIOLA CITY. "
 	line "Sprich doch bitte"
-	cont "mit ihm?"
+	cont "mit ihm."
 	done
 
 ElmPhoneRadioTowerRocketTakeoverText:

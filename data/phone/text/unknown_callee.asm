@@ -22,7 +22,7 @@ UnknownTougherThanEverText:
 	text "Mein @"
 	text_ram wStringBuffer4
 	text_start
-	line "ist so stark, wie"
+	line "ist so stark wie"
 	cont "nie zuvor."
 
 	para "Es ist sogar"

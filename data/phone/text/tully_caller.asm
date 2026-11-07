@@ -67,7 +67,7 @@ TullyFoundItemText:
 	line "Kleines am Ufer."
 
 	para "Wie versprochen,"
-	line "es gehört Dir."
+	line "gehört es Dir."
 
 	para "Ich warte hier:"
 	line "@"

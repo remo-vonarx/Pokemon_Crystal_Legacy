@@ -107,7 +107,7 @@ TiffanyFoundItemText:
 	done
 
 TiffanyNoItemText:
-	text "Ich liebe es mein"
+	text "Ich liebe es, mein"
 	line "PIEPI anzuziehen!"
 	done
 

@@ -16,7 +16,7 @@ DerekCheekPinchingText:
 	done
 
 DerekDefeatedMonText:
-	text "Oh, und neulich,"
+	text "Oh, und neulich"
 	line "hat mein PIKACHU"
 
 	para "ein wildes"
@@ -60,8 +60,8 @@ DerekLostAMonText:
 	done
 
 DerekHangUpText:
-	text "Nun, wir hören von"
-	line "einander!"
+	text "Nun, wir hören"
+	line "voneinander!"
 	done
 
 DerekBugCatchingContestText:

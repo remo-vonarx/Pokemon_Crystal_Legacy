@@ -5,7 +5,7 @@ RalphNeglectingKidsText:
 	para "@"
 	text_ram wStringBuffer4
 	text " ver-"
-	line "bracht, als mit"
+	line "bracht als mit"
 	cont "meinen Kindern."
 
 	para "Das ist in der Tat"

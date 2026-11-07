@@ -51,7 +51,7 @@ ArnieBattleRematchText:
 
 ArnieHangUpText:
 	text "Laß uns erneut"
-	line "plaudern?"
+	line "plaudern!"
 	done
 
 ArnieSwarmText:

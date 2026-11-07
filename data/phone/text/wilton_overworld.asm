@@ -18,7 +18,7 @@ WiltonAskNumber2Text:
 	line "Angeln ein Item,"
 
 	para "gehört es Dir. Gib"
-	line "mir Deine Nummer?"
+	line "mir Deine Nummer!"
 	done
 
 WiltonNumberAcceptedText:

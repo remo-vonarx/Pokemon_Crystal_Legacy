@@ -5,8 +5,9 @@ TiffanyAskNumber1Text:
 	para "Sie sind so"
 	line "niedlich, oder?"
 
-	para "Ich denke wir wer-"
-	line "den gute Freunde!"
+	para "Ich denke, wir"
+	line "werden gute"
+	cont "Freunde!"
 
 	para "Gib mir doch Deine"
 	line "Telefonnummer!"
@@ -54,10 +55,10 @@ TiffanyGiftText:
 
 	para "Ist das nicht"
 	line "toll, ein"
-	cont "ROSA BAND."
+	cont "ROSA BAND?"
 	done
 
 TiffanyPackFullText:
-	text "Oh-oh. Dein Beutel"
+	text "Oh-oh. Dein BEUTEL"
 	line "platzt gleich."
 	done

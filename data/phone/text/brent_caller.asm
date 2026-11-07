@@ -6,8 +6,8 @@ BrentRareTradeText:
 	line "#MON in einem"
 	cont "Tausch erhalten."
 
-	para "Möchtest Du wissen"
-	line "welches?"
+	para "Möchtest Du"
+	line "wissen, welches?"
 
 	para "Hehe, das verrate"
 	line "ich Dir nicht!"

@@ -43,7 +43,7 @@ IrwinJasmineReturnedGossipText:
 	line "wahr?"
 
 	para "<PLAY_G>, ich"
-	line "wünschte Du wür-"
+	line "wünschte, Du wür-"
 	cont "dest mich be-"
 	cont "suchen, wenn ich"
 
@@ -114,7 +114,7 @@ IrwinEliteFourGossipText:
 	line "Mama ist sehr"
 
 	para "stolz auf Dich,"
-	line "nachdem, was Du"
+	line "nach dem, was Du"
 	cont "erreicht hast."
 
 	para "Anders gesagt,"
@@ -125,7 +125,7 @@ IrwinEliteFourGossipText:
 	done
 
 IrwinVermilionCityGossipText:
-	text "Ich sah, ich sah"
+	text "Ich sah, ich sah,"
 	line "ich sah…"
 
 	para "Du bist an Bord"

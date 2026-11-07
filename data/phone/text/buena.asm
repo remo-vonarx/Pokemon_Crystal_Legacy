@@ -305,7 +305,7 @@ BuenaPhoneRadioTowerDirectorText:
 	para "RADIOTURM ist ein"
 	line "großer TV-Fan!"
 
-	para "Vor geraumer Zeit,"
+	para "Vor geraumer Zeit"
 	line "sagte man in einer"
 
 	para "Modenschau im TV,"

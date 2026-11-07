@@ -35,7 +35,7 @@ BrentNumberAcceptedText:
 	text "BILL - er ist"
 	line "unbeschreiblich!"
 
-	para "Ein #MANIAC,"
+	para "Ein #MANIAC"
 	line "wie er zu werden…"
 
 	para "ist mein Traum."
@@ -45,7 +45,7 @@ BrentNumberDeclinedText:
 	text "Das wirst Du noch"
 	line "bereuen…"
 
-	para "Aber, das ist mir"
+	para "Aber das ist mir"
 	line "völlig gleich…"
 	done
 

@@ -44,7 +44,7 @@ AlanBattleRematchText:
 	text "."
 
 	para "Schau doch auf ei-"
-	line "nen Kampf vorbei?"
+	line "nen Kampf vorbei!"
 	done
 
 AlanHangUpText:

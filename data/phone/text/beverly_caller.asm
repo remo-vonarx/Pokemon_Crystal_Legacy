@@ -30,7 +30,7 @@ BeverlyLostAMonText:
 	cont "zumindest."
 
 	para "Bei näherem Hin-"
-	line "sehen, stellte ich"
+	line "sehen stellte ich"
 
 	para "fest, daß es ein"
 	line "@"

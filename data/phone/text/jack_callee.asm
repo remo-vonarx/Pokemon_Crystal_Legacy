@@ -14,7 +14,7 @@ JackAnswerPhoneDayText:
 	text_ram wStringBuffer3
 	text "…"
 
-	para "Wie geht's"
+	para "Wie geht's,"
 	line "<PLAY_G>?"
 	done
 

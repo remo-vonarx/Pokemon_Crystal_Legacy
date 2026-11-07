@@ -23,7 +23,7 @@ LizDefeatedMonText:
 	line "mit nur einem"
 	cont "Schlag."
 
-	para "Aber, wir hatten"
+	para "Aber wir hatten"
 	line "Mitleid mit ihm."
 	done
 
@@ -52,7 +52,7 @@ LizBattleRematchText:
 	line "Zeit. Wenn auch Du"
 
 	para "Zeit hast, dann"
-	line "komme zum Kämpfen?"
+	line "komme zum Kämpfen!"
 
 	para "Ich bin hier:"
 	line "@"
@@ -94,7 +94,7 @@ LizRuinsOfAlphGossipText:
 	cont "terbrochen wurde."
 
 	para "Ich frage mich,"
-	line "was das war? Sehr"
+	line "was das war. Sehr"
 	cont "merkwürdig!"
 	done
 
@@ -110,7 +110,7 @@ LizFalknerGossipText:
 	para "cool und schön"
 	line "ist?"
 
-	para "Aber, man sagt,"
+	para "Aber man sagt,"
 	line "daß sein Vater,"
 
 	para "der im Freien"
@@ -218,7 +218,7 @@ LizWhitneyGossipText:
 	para "BIANKA, die ARENA-"
 	line "LEITERIN von"
 
-	para "DUKATIA CITY hat"
+	para "DUKATIA CITY, hat"
 	line "erst vor kurzem"
 
 	para "mit dem Training"
@@ -242,7 +242,7 @@ LizBugCatchingContestGossipText:
 	para "NATIONALPARK teil-"
 	line "genommen?"
 
-	para "Ich nahm ein Mal"
+	para "Ich nahm einmal"
 	line "teil, aber ich"
 	cont "fing nur ein"
 	cont "RAUPY."

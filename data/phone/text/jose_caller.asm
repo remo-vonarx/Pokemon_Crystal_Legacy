@@ -91,7 +91,7 @@ JoseHaventGottenItemYetText:
 	cont "Dir versprach."
 
 	para "Ich melde mich,"
-	line "alsbald ich es"
+	line "sobald ich es"
 
 	para "habe. Kannst Du"
 	line "noch ein wenig"

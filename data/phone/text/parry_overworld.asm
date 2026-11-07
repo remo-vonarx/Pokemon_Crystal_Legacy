@@ -47,8 +47,8 @@ ParryRematchText:
 	line "ich! Und los!"
 
 	para "Mach Dich bereit"
-	line "für meine Hals"
-	cont "über Kopf-Attacke!"
+	line "für meine Hals-"
+	cont "über-Kopf-Attacke!"
 	done
 
 ParryPackFullText:

@@ -44,7 +44,7 @@ GavenDefeatedMonText:
 	done
 
 GavenLostAMonText:
-	text "Vor geraumer Zeit,"
+	text "Vor geraumer Zeit"
 	line "versuchte ich ein"
 
 	para "wildes @"

@@ -52,9 +52,9 @@ AlanGenericText:
 
 	para "Ich habe gelesen,"
 	line "daß man die #-"
-	cont "MON, die man fängt"
-	cont "mit Liebe und"
+	cont "MON, die man"
+	cont "fängt, mit Liebe"
 
-	para "Umsicht trainieren"
-	line "soll."
+	para "und Umsicht"
+	line "trainieren soll."
 	done

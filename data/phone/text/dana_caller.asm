@@ -62,7 +62,7 @@ DanaFoundItemText:
 	cont "Geschenk für Dich!"
 
 	para "Wie versprochen,"
-	line "es gehört Dir!"
+	line "gehört es Dir!"
 
 	para "Ich bin sicher,"
 	line "Du wirst es mögen."
@@ -89,7 +89,7 @@ DanaReminderText:
 	text "Hi! Du hast Dein"
 	line "Versprechen, gegen"
 
-	para "mich zu kämpfen"
+	para "mich zu kämpfen,"
 	line "nicht vergessen,"
 	cont "oder?"
 

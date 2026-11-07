@@ -60,7 +60,7 @@ ErinRematchGiftText:
 	para "Zum wievielten"
 	line "Mal war das…"
 
-	para "Danke, für alles!"
+	para "Danke für alles!"
 	line "Hier ist Dein"
 	cont "Geschenk!"
 	done

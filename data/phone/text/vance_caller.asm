@@ -20,7 +20,7 @@ VanceDefeatedMonText:
 	done
 
 VanceLostAMonText:
-	text "Aber, stell Dir"
+	text "Aber stell Dir"
 	line "vor, ein wildes"
 
 	para "@"

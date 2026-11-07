@@ -3,7 +3,7 @@ HueyBattleRematchText:
 	line "Dich zu einem"
 
 	para "Kampf heraus. Es"
-	line "wird nicht so, wie"
+	line "wird nicht so wie"
 	cont "beim letzten Mal!"
 
 	para "Ich warte hier:"
