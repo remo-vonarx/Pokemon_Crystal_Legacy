@@ -119,7 +119,7 @@ Pokedex_DetailedArea_rods:
 	push bc
 	push de
 	push hl
-	hlcoord 2, 9
+	hlcoord 1, 9
 	ld de, .group_text
 	call PlaceString
 	pop hl
