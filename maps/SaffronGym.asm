@@ -231,7 +231,7 @@ SabrinaFightDoneText:
 	done
 
 SabrinaRematchText:
-	text "SABRINA: Ah, der"
+	text "SABRINA: Ah,"
 	line "KANTO-CHAMP."
 
 	para "Ich habe Deine"
