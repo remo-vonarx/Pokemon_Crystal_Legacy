@@ -9277,7 +9277,7 @@ GetWeatherImage:
 	and a
 	ret z
 	ld de, RainWeatherImage
-	lb bc, PAL_BATTLE_OB_BLUE, 4
+	lb bc, PAL_BATTLE_OB_BLUE, 6
 	dec a
 	jr z, .done
 	ld de, SunWeatherImage
@@ -9291,7 +9291,7 @@ GetWeatherImage:
 	
 .done
 	push bc
-	ld b, BANK(WeatherImages) ; c = 4
+	ld b, BANK(WeatherImages) ; c = 6
 	ld hl, vTiles0
 	call Request2bpp
 	pop bc
@@ -9315,7 +9315,9 @@ GetWeatherImage:
 .WeatherImageOAMData
 ; positions are backwards since
 ; we load them in reverse order
-	db $88, $1c ; y/x - bottom right
-	db $88, $14 ; y/x - bottom left
-	db $80, $1c ; y/x - top right
-	db $80, $14 ; y/x - top left
+	db $88, $20 ; y/x - bottom right
+	db $88, $18 ; y/x - bottom middle
+	db $88, $10 ; y/x - bottom left
+	db $80, $20 ; y/x - top right
+	db $80, $18 ; y/x - top middle
+	db $80, $10 ; y/x - top left
