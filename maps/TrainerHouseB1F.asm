@@ -252,8 +252,8 @@ TrainerHouseB1FWeebraBeatenText:
 
 	para "Und ich durfte"
 	line "nicht mal meine"
-	cont "'Essence of"
-	cont "Breaker Style'"
+	cont "'Essenz des"
+	cont "Capoeira-Stils'"
 	cont "einsetzen…"
 	done
 
