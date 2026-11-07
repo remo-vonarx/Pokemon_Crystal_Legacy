@@ -540,7 +540,7 @@ Mobile12_Bin2Dec:
 	db "9@"
 
 MobileProfileString:         db "  Mobil-Profil@"
-MobileString_Gender:         db "Geschlecht@"
+MobileString_Gender:         db "Geschl.@"
 MobileString_Age:            db "Alter@"
 MobileString_Address:        db "Wohnort@"
 MobileString_ZipCode:        db "PLZ@"
@@ -561,8 +561,8 @@ MenuData_0x484f9:
 	db STATICMENU_CURSOR | STATICMENU_WRAP ; flags
 	db 2 ; items
 Strings_484fb:
-String_484fb: db "Junge@"
-String_484ff: db "Mädchen@"
+String_484fb: db "männl.@"
+String_484ff: db "weibl.@"
 
 MenuHeader_0x48504:
 	db MENU_BACKUP_TILES ; flags
