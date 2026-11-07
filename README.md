@@ -11,22 +11,31 @@ We would also like to credit & thank Katt, Chamber, Soloo993, Blue Emerald, Lake
 
 ## Changes in this fork
 
-This fork keeps the English text of Crystal Legacy, but uses the German names, so the game feels familiar to everyone who grew up with the German releases. It is the sister of the German-names fork of [Yellow Legacy](https://github.com/cRz-Shadows/Pokemon_Yellow_Legacy).
+This fork is a full German translation of Crystal Legacy. The general rule was to follow the German release *Pokémon Kristall*: its wording, menu layouts and graphics are used wherever Crystal Legacy did not change a spot, and its minor mistakes, such as typos, grammar errors and text running past its box, are fixed. Text that Crystal Legacy added or changed got a new translation in the German release's wording and style. It is the sister of the German fork of [Yellow Legacy](https://github.com/cRz-Shadows/Pokemon_Yellow_Legacy).
 
 **German:**
-* All 251 Pokémon, also in dialogue, signs, phone calls, the radio and the Pokédex (FLEGMON, KARPADOR, ICOGNITO, ...); the Pokédex A to Z mode is sorted by the German names
-* Characters: PROF LIND, PROF EICH, MAMA, the gym leaders (FALK, KAI, BIANKA, JENS, HARTWIG, JASMIN, NORBERT, SANDRA, ROCKO, MAJOR BOB, JANINA, PYRO, BLAU), the ELITE FOUR WILLI and MELANIE, champion SIEGFRIED, ROT, EUSIN, DJ MARGIT and DJ BASTIAN, the executives ATLAS and ATHENA, the KIMONO GIRLS and the SAGES, the weekday siblings (MONJA, DIETLINDE, MITKO, DONATUS, FRIEDA, SAMSON, SONNFRIED), SARAH, FLORA, DJ LILLY, DJ FABIAN, MR.PSYCHO and the default names in the naming menus
-* All trainers' names as in *Pokémon Kristall* (YOUNGSTER JULIAN, BUG CATCHER GREG, PICNICKER ANETTE, ...); their classes stay English, and so do GRUNT and EXECUTIVE. The font has Ä, Ö and Ü for them (BUG CATCHER JÖRG, HIKER GÜNTER)
-* Cities: NEUBORKIA, ROSALIA CITY, VIOLA CITY, AZALEA CITY, DUKATIA CITY, TEAK CITY, OLIVIANA CITY, ANEMONIA CITY, MAHAGONIA CITY, EBENHOLZ CITY, and in Kanto ALABASTIA, VERTANIA CITY, MARMORIA CITY, AZURIA CITY, ORANIA CITY, LAVANDIA, PRISMANIA CITY, FUCHSANIA CITY, SAFFRONIA CITY and ZINNOBER ISLAND
-* Places named after a city or Pokémon (FLEGMON WELL, DIGDA'S CAVE, VERTANIA FOREST, DUKATIA DEPT.STORE, ...) and the KNOFENSA-TURM
-* The in-game trade nicknames and OTs (HERAKLES from RALF, ...), the nicknames of other people's Pokémon (ERDBEERE, HABBI, FRATZI, AMPHI, HABSI, MODRI) and the default names GOLD, KRISTA and SILBER
-* The cries of the talking Pokémon, as written in *Pokémon Kristall* (MILTANK: "Muh!", LUGIA: "Uargh!", ...); `docs/german_cries.md` lists them all
+* All dialogue, signs, phone calls, radio shows, item and move descriptions and menus, in the German release's old spelling (*daß*, *muß*) with *Du* and *Dein* capitalised; a girl player is addressed neutrally
+* The Pokédex, with entries and categories from the German release and heights and weights in metres and kilograms, and Nayru's Pokédex pages (stats, moves, areas, evolutions and pictures) with their labels in the German release's style
+* Moves, items, badges, types, stats, trainer classes and map names
+* All 251 Pokémon (FLEGMON, KARPADOR, ICOGNITO, ...); the Pokédex A to Z mode is sorted by the German names
+* Characters, cities and places as in *Pokémon Kristall* (PROF LIND, NEUBORKIA, DUKATIA CITY, KNOFENSA-TURM, ALPH-RUINEN, ...)
+* The in-game trade nicknames and OTs, the default names GOLD, KRISTA and SILBER, and the cries of talking Pokémon as in the German release (`docs/german_cries.md` lists them all)
+* The title KRISTALL-VERMÄCHTNIS, the German graphics (bag pockets, battle, trainer card, slot machine, Unown words, word rooms, diploma, printer, ...) and the German staff credits; Legacy's own credits got German role headings, while names and handles stay as they are
 
-**Still English:** everything else, including moves, items, badges, types, trainer classes, Pokédex categories and landmarks such as MT.MOON, ICE PATH or RUINS OF ALPH.
+DVs and EVs keep their English abbreviations, DV and EV. The battle menu says KAMPF, where the German release shortens it to KMPF.
 
-The names, trades and cries were checked against a dump of the German *Pokémon Kristall* cartridge.
+**Still English:** the debug menus.
 
-To keep names and line lengths consistent after changes, run `python3 tools/check_names.py` and `python3 tools/check_text_width.py`; `tools/germanize.py` replaces English names inside text strings and `tools/rename_trainers.py` renames trainers.
+**Bug fixes from upstream pull requests and issues:**
+* [#33](https://github.com/cRz-Shadows/Pokemon_Crystal_Legacy/pull/33) by Linus Unnebäck: the Battle Tower uses the Rocket leader's class, not Archer's trainer id
+* [#35](https://github.com/cRz-Shadows/Pokemon_Crystal_Legacy/pull/35) by Linus Unnebäck: Cara's Seadra knows TWINEEDLE
+* [#36](https://github.com/cRz-Shadows/Pokemon_Crystal_Legacy/pull/36) by Linus Unnebäck: Blue's second party for the rematch
+* [#42](https://github.com/cRz-Shadows/Pokemon_Crystal_Legacy/pull/42) by ssabo: the Pokédex area page shows the right game corner and price for the prize Pokémon
+* [#27](https://github.com/cRz-Shadows/Pokemon_Crystal_Legacy/issues/27): the Pokédex stats pages wrap back to the first page
+* [#38](https://github.com/cRz-Shadows/Pokemon_Crystal_Legacy/issues/38): the herb shop lady in the underground says she sells herbs, as in the German release
+
+The font has Ä in tile `$cd`, Ö and Ü in `$da`-`$db`, and ä, ö, ü and ß in `$d0`-`$d3`. To keep names, line lengths and text commands consistent after changes, run `python3 tools/check_names.py`, `python3 tools/check_text_width.py` and `python3 tools/check_text_mode.py`.
+
 
 ## Download and Play
 
