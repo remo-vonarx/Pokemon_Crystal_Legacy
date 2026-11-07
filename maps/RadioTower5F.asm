@@ -439,7 +439,7 @@ FakeDirectorWinText:
 	done
 
 FakeDirectorTextAfter:
-	text "Der Boss hat den"
+	text "Der Boß hat den"
 	line "echten INTENDANTEN"
 
 	para "in das UNTERGRUND-"
@@ -460,7 +460,7 @@ Executivef1SeenText:
 	cont "VERSTECK in"
 	cont "MAHAGONIA CITY?"
 
-	para "Mein Boss hat mich"
+	para "Mein Boß hat mich"
 	line "getadelt, aber"
 	cont "ich bin stärker."
 

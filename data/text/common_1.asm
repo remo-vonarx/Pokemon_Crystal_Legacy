@@ -1023,7 +1023,7 @@ _RocketRadioText9::
 	text_start
 	line "@"
 	text_pause
-	text "Wo ist unser Boss?"
+	text "Wo ist unser Boß?"
 	done
 
 _RocketRadioText10::

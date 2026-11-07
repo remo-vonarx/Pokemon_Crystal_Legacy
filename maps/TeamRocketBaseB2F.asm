@@ -894,7 +894,7 @@ GruntM19BeatenText:
 	done
 
 GruntM19AfterBattleText:
-	text "Heh, nur der Boss"
+	text "Heh, nur der Boß"
 	line "kennt das Paßwort"
 	cont "für diese Tür."
 

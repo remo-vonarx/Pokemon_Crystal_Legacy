@@ -469,7 +469,7 @@ GruntF5BeatenText:
 
 GruntF5AfterBattleText:
 	text "Das Paßwort zum"
-	line "Büro vom Boss"
+	line "Büro vom Boß"
 	cont "lautet"
 
 	para "FLEGMONRUTE."
@@ -502,7 +502,7 @@ GruntM28SeenText:
 
 	para "ich Dir ein"
 	line "Paßwort für das"
-	cont "Büro vom Boss!"
+	cont "Büro vom Boß!"
 	done
 
 GruntM28BeatenText:
@@ -514,7 +514,7 @@ GruntM28AfterBattleText:
 	text "Hiuck-hiuck-hiuck!"
 
 	para "Das Paßwort für"
-	line "das Büro vom Boss…"
+	line "das Büro vom Boß…"
 
 	para "Uh… ich glaube,"
 	line "es lautet"

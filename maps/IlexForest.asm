@@ -738,7 +738,7 @@ IlexForestPlayerStepsDownMovement:
 
 IlexForestApprenticeIntroText:
 	text "Oh, Mist… Mein"
-	line "Boss wird sauer"
+	line "Boß wird sauer"
 	cont "sein…"
 
 	para "Das PORENTA, das"
@@ -767,7 +767,7 @@ IlexForestApprenticeAfterText:
 	line "auch!"
 
 	para "Die #MON von"
-	line "meinem Boss"
+	line "meinem Boß"
 	cont "gehorchen mir"
 	cont "nicht, da ich"
 	cont "keinen ORDEN"

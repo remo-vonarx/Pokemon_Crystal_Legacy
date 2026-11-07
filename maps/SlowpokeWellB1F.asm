@@ -249,7 +249,7 @@ TrainerGruntM1WhenTalkText:
 	cont "Jahren zer-"
 	cont "schlagen."
 
-	para "Der Boss ist"
+	para "Der Boß ist"
 	line "untergetaucht."
 
 	para "Aber wir haben"
