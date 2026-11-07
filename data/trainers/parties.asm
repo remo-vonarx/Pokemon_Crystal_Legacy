@@ -447,7 +447,7 @@ PKMNTrainerGroup:
 				db MYSTIC_WATER
 				db SURF, ICE_BEAM, REST, SLEEP_TALK
 		db 70, ARCANINE
-				db "@FURBALL@"
+				db "@FELLKNÄUEL@"
 				db $ee, PERFECT_DV ; atk|def, spd|spc
 				dw $01FE, $01FE, $01FE, $01FE, $01FE ; hp, atk, def, spd, spc
 				db CHARCOAL
