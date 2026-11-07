@@ -553,6 +553,11 @@ StatsScreen_LoadGFX:
 	assert_table_length NUM_STAT_PAGES
 
 LoadPinkPage:
+	; the orange page's Unown letters may have overwritten the exp bar tiles
+	ld de, ExpBarGFX
+	ld hl, vTiles2 tile $55
+	lb bc, BANK(ExpBarGFX), 8
+	call Get2bppViaHDMA
 	hlcoord 0, 9
 	ld b, $0
 	predef DrawPlayerHP
@@ -1045,6 +1050,10 @@ StatsScreen_placeCaughtLevel:
 .MetUnknownLevelString:
 	db "@"
 
+; The Unown letters go to unused BG tiles, not over the font, whose
+; tiles $ba-$d3 hold the textbox frame and the German letters.
+STATS_UNOWN_CHAR EQU $42
+
 StatsScreen_LoadUnownFont:
 	ld a, BANK(sScratch)
 	call OpenSRAM
@@ -1058,7 +1067,7 @@ StatsScreen_LoadUnownFont:
 	; ld bc, (NUM_UNOWN + 1) tiles
 	;call Pokedex_InvertTiles
 	ld de, sScratch + $188
-	ld hl, vTiles1 tile $3a ;FIRST_UNOWN_CHAR
+	ld hl, vTiles2 tile STATS_UNOWN_CHAR
 	lb bc, BANK(Pokedex_LoadUnownFont), NUM_UNOWN
 	call Request2bpp
 	call CloseSRAM
@@ -1275,12 +1284,12 @@ PlaceString_UnownFont_Type:
 	inc de
 	cp "Ä"
 	jr nz, .not_umlaut
-	ld [hl], "A" - "A" + $BA ; FIRST_UNOWN_CHAR
+	ld [hl], "A" - "A" + STATS_UNOWN_CHAR
 	inc hl
 	ld a, "E"
 .not_umlaut
 	sub "A"
-	add $BA ; FIRST_UNOWN_CHAR
+	add STATS_UNOWN_CHAR
 	ld [hli], a
 	push hl
 	push de
@@ -1301,7 +1310,7 @@ PlaceString_UnownFont:
 	call z, .skip_space
 	inc de
 	sub "A"
-	add $BA ; FIRST_UNOWN_CHAR
+	add STATS_UNOWN_CHAR
 	
 	ld [hli], a
 	push hl
