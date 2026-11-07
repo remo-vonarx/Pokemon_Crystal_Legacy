@@ -216,7 +216,7 @@ ChadDaisyTeaGossipText:
 	done
 
 ChadProfOakTravelingGossipText:
-	text "Wußtest Du? PROF."
+	text "Wußtest Du? PROF"
 	line "EICH bereiste die"
 
 	para "ganze Welt, als er"

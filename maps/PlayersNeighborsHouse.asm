@@ -68,7 +68,7 @@ PlayersNeighborsDaughterText:
 
 PlayersNeighborText:
 	text "Meine Tochter will"
-	line "unbedingt PROF."
+	line "unbedingt PROF"
 
 	para "LINDs Assistentin"
 	line "werden."

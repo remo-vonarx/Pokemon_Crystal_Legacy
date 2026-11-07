@@ -142,7 +142,7 @@ VioletPokecenterElmsAideGiveEggText:
 	para "uns verlassen"
 	line "können."
 
-	para "Bitte ruf PROF."
+	para "Bitte ruf PROF"
 	line "LIND an, wenn das"
 	cont "EI so weit ist!"
 	done
@@ -159,7 +159,7 @@ VioletCityElmsAideFullPartyText:
 	done
 
 VioletPokecenterElmsAideRefuseText:
-	text "A-Aber… PROF."
+	text "A-Aber… PROF"
 	line "LIND hat nach Dir"
 	cont "gefragt…"
 	done

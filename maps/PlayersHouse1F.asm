@@ -297,7 +297,7 @@ HurryUpElmIsWaitingText:
 
 SoWhatWasProfElmsErrandText:
 	text "Wie lautete der"
-	line "Auftrag von PROF."
+	line "Auftrag von PROF"
 	cont "LIND?"
 
 	para "…"
@@ -346,7 +346,7 @@ NeighborText:
 	line "Du schon gehört?"
 
 	para "Meine Tochter will"
-	line "unbedingt PROF."
+	line "unbedingt PROF"
 
 	para "LINDs Assistentin"
 	line "werden."

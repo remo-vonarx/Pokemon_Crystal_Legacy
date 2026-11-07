@@ -231,13 +231,13 @@ MrPokemonIntroText4:
 
 MrPokemonIntroText5:
 	text "Ich gehe davon"
-	line "aus, daß PROF."
+	line "aus, daß PROF"
 	cont "LIND mehr darüber"
 	cont "weiß."
 	done
 
 MrPokemonsHouse_MrPokemonHealText:
-	text "Kehrst Du zu PROF."
+	text "Kehrst Du zu PROF"
 	line "LIND zurück?"
 
 	para "Dein #MON"

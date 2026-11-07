@@ -10,7 +10,7 @@ ChadAskNumber1Text:
 	para "Ich träume davon,"
 	line "ein #MON-"
 
-	para "Forscher wie PROF."
+	para "Forscher wie PROF"
 	line "EICH zu werden."
 
 	para "Gibst Du mir bitte"
@@ -35,7 +35,7 @@ ChadAskNumber2Text:
 	done
 
 ChadNumberAcceptedText:
-	text "Du mußt PROF."
+	text "Du mußt PROF"
 	line "EICHs #MON-"
 	cont "TALK einschalten,"
 	cont "nicht wahr?"
@@ -43,7 +43,7 @@ ChadNumberAcceptedText:
 
 ChadNumberDeclinedText:
 	text "Oh… ich wünschte,"
-	line "ich könnte PROF."
+	line "ich könnte PROF"
 	cont "EICH treffen…"
 	done
 

@@ -199,7 +199,7 @@ BuenaPhoneStressedFromWorkText:
 	done
 
 BuenaPhoneProfessorOakText:
-	text "Gestern hat PROF."
+	text "Gestern hat PROF"
 	line "EICH seine Show"
 
 	para "im Studio aufge-"

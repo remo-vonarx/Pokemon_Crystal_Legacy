@@ -696,7 +696,7 @@ KurtsHouseSlowpokeText:
 	done
 
 KurtsHouseOakPhotoText:
-	text "…Ein junger PROF."
+	text "…Ein junger PROF"
 	line "EICH?"
 	done
 

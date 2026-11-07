@@ -62,7 +62,7 @@ ChadGenericText:
 	text "Wie geht es Deinen"
 	line "#MON?"
 
-	para "Du kennst PROF."
+	para "Du kennst PROF"
 	line "EICH, also geht es"
 	cont "Deinen #MON"
 	cont "gut!"

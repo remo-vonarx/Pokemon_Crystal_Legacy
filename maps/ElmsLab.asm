@@ -1338,7 +1338,7 @@ ElmsLabOfficerText1:
 	cont "gestohlen worden"
 	cont "sei…"
 
-	para "Ich habe von PROF."
+	para "Ich habe von PROF"
 	line "LIND einige Infor-"
 	cont "mationen erhalten."
 

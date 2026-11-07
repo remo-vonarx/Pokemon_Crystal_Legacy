@@ -141,7 +141,7 @@ RadioTower4FDJMaryText_GivePinkBow:
 
 RadioTower4FDJMaryText_After:
 	text "MARGIT: Wir hören"
-	line "uns in PROF."
+	line "uns in PROF"
 
 	para "EICHs #MON-"
 	line "TALKSHOW wieder."

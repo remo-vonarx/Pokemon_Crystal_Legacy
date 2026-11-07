@@ -144,7 +144,7 @@ MomPhoneNoPokedexText:
 	para "Oh, hi, <PLAYER>!"
 	line "Du bist auf einer"
 
-	para "Mission für PROF."
+	para "Mission für PROF"
 	line "LIND? Mach's gut!"
 	done
 
