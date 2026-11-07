@@ -5,8 +5,8 @@ LizAskNumber1Text:
 	para "besuchst Sehens-"
 	line "würdigkeiten. Gut!"
 
-	para "Ich möchte Dein"
-	line "Freund sein! Gibst"
+	para "Laß uns Freunde"
+	line "sein! Gibst"
 
 	para "Du mir Deine"
 	line "Telefonnummer?"
@@ -17,8 +17,8 @@ LizAskNumber1Text:
 	done
 
 LizAskNumber2Text:
-	text "Ich möchte Dein"
-	line "Freund sein! Gibst"
+	text "Laß uns Freunde"
+	line "sein! Gibst"
 
 	para "Du mir Deine"
 	line "Telefonnummer?"
@@ -36,8 +36,8 @@ LizNumberAcceptedText:
 
 LizNumberDeclinedText:
 	text "Oh… Du willst"
-	line "nicht mein"
-	cont "Freund sein?"
+	line "nicht mit mir"
+	cont "befreundet sein?"
 	done
 
 LizPhoneFullText:

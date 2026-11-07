@@ -3,8 +3,8 @@ TullyAskNumber1Text:
 	line "auch der beste"
 
 	para "Trainer sein? Dann"
-	line "bist Du mein"
-	cont "Kamerad!"
+	line "sind wir"
+	cont "Kameraden!"
 
 	para "Wenn ich am Wasser"
 	line "noch mehr Items"

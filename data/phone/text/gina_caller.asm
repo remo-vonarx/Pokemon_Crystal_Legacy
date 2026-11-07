@@ -37,9 +37,9 @@ GinaLostAMonText:
 	done
 
 GinaBattleRematchText:
-	text "Möchtest Du mein"
-	line "Trainings-Kamerad"
-	cont "sein?"
+	text "Wollen wir mal"
+	line "wieder zusammen"
+	cont "trainieren?"
 
 	para "Ich warte hier:"
 	line "@"
