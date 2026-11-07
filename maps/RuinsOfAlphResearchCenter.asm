@@ -389,7 +389,7 @@ FossilScientistNoText:
 	done
 
 FossilScientistPartyFullText:
-	text "Nein? Zu schade!"
+	text "Oh nein! Schade!"
 
 	para "Dein Team ist"
 	line "schon voll!"
