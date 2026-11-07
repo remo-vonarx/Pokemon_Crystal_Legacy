@@ -24,7 +24,7 @@ This fork is a full German translation of Crystal Legacy. The general rule was t
 
 DVs and EVs keep their English abbreviations, DV and EV. The battle menu says KAMPF, where the German release shortens it to KMPF.
 
-**Still English:** the debug menus. The Unown words stay English as in the German release, and so do WEEBRA's KAPOERA *Cinderella* and the word *Disassembly* in the thanks to pret.
+**Still English:** the debug menus. The Unown words stay English as in the German release, and so do WEEBRA's KAPOERA *Cinderella*, *NPC* in the Pokédex heading for in-game trades, and the word *Disassembly* in the thanks to pret.
 
 **Bug fixes from upstream pull requests and issues:**
 * [#33](https://github.com/cRz-Shadows/Pokemon_Crystal_Legacy/pull/33) by Linus Unnebäck: the Battle Tower uses the Rocket leader's class, not Archer's trainer id
