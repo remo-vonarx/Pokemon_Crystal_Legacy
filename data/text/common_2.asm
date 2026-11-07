@@ -106,14 +106,14 @@ _BoostedExpPointsText::
 	text_start
 	line "spezielle"
 	cont "@"
-	text_decimal wStringBuffer2, 2, 4
+	text_decimal wStringBuffer2, 2, 5
 	text " EP!"
 	prompt
 
 _ExpPointsText::
 	text_start
 	line "@"
-	text_decimal wStringBuffer2, 2, 4
+	text_decimal wStringBuffer2, 2, 5
 	text " EP!"
 	prompt
 
