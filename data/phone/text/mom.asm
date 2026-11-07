@@ -11,13 +11,13 @@ MomPhoneLandmarkText:
 	text_ram wStringBuffer3
 	text "…"
 
-	para "Ist da nicht"
+	para "Ist da nicht der"
 	line "@"
 	text_ram wStringBuffer4
 	text "?"
 
-	para "Hast Du das schon"
-	line "angesehen?"
+	para "Hast Du ihn Dir"
+	line "schon angesehen?"
 	done
 
 MomPhoneGenericAreaText:

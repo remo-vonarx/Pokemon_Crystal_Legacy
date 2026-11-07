@@ -58,8 +58,8 @@ JoseRematchText:
 	done
 
 JoseGiftText:
-	text "Ich will nicht"
-	line "warten! Sieh, das"
+	text "Hast mich warten"
+	line "lassen! Sieh, das"
 	cont "ist es!"
 
 	para "Schau! Ist das"

@@ -116,8 +116,8 @@ ChadProfOaksDreamGossipText:
 	line "PROF EICH ist"
 
 	para "die Erstellung"
-	line "eines verständ-"
-	cont "lichen #DEX."
+	line "eines umfassenden"
+	cont "#DEX."
 
 	para "Ich beneide Dich,"
 	line "weil Du an diesem"

@@ -58,6 +58,6 @@ WiltonGenericText:
 	para "Mein @"
 	text_ram wStringBuffer4
 	text_start
-	line "ist ein bißchen"
+	line "ist ganz schön"
 	cont "gewachsen."
 	done

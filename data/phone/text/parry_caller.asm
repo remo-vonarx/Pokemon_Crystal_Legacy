@@ -61,8 +61,8 @@ ParryBattleWithMeText:
 	done
 
 ParryHaventYouGottenToText:
-	text "Ich bin hier:"
-	line "@"
+	text "Bist Du noch nicht"
+	line "auf @"
 	text_ram wStringBuffer5
 	text "?"
 

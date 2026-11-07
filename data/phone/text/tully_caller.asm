@@ -29,11 +29,11 @@ TullyDefeatedMonText:
 	done
 
 TullyLostAMonText:
-	text "Oh yo, ich verlor"
-	line "gegen ein wildes"
-	cont "@"
+	text "Oh yo, mir ist ein"
+	line "wildes @"
 	text_ram wStringBuffer4
-	text "."
+	text_start
+	cont "entwischt."
 
 	para "Es war riesig,"
 	line "ungefähr soo groß."
@@ -58,8 +58,8 @@ TullyBattleRematchText:
 	done
 
 TullyHangUpText:
-	text "Nun, ich werde"
-	line "Dich treffen."
+	text "Nun, wir sehen"
+	line "uns."
 	done
 
 TullyFoundItemText:

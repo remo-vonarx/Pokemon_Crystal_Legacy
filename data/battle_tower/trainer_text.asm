@@ -258,7 +258,7 @@ _BTWinM15Text:
 
 _BTGreetingM16Text:
 	text "Auf geht's!"
-	line "Nichts geht mehr!"
+	line "Alles ist erlaubt!"
 	done
 
 _BTLossM16Text:
@@ -301,8 +301,8 @@ _BTGreetingM18Text:
 	done
 
 _BTLossM18Text:
-	text "Ich hätte mir das"
-	line "denken können."
+	text "Das muß ich mir"
+	line "eingebildet haben."
 
 	para "Es scheint nie-"
 	line "mand hier zu sein…"
@@ -444,7 +444,7 @@ _BTLossF1Text:
 
 _BTWinF1Text:
 	text "Nein!"
-	line "Ratzfatz!"
+	line "Das gibt's nicht!"
 	done
 
 _BTGreetingF2Text:

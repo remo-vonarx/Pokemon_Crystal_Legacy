@@ -26,7 +26,7 @@ WadeDefeatedMonText:
 	para "mit nur einem"
 	line "Schlag besiegt."
 
-	para "Es ging so hart"
+	para "Es ging so leicht"
 	line "zu Boden, daß"
 
 	para "ich fast schon"
