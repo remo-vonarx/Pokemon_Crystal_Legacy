@@ -95,7 +95,7 @@ MountMortarB1FTyrogueRewardText:
 	line "Deinen Sieg gebe"
 
 	para "ich Dir dieses"
-	line "seltene Kampf-"
+	line "seltene KAMPF-"
 	cont "#MON."
 	done
 

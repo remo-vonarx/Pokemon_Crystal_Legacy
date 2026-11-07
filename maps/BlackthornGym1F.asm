@@ -359,7 +359,7 @@ CooltrainermPaulSeenText:
 	done
 
 CooltrainermPaulBeatenText:
-	text "Mein Drachen-"
+	text "Mein DRACHEN-"
 	line "#MON hat"
 	cont "verloren?"
 	done

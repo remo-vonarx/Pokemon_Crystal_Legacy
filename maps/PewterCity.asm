@@ -72,7 +72,7 @@ PewterCityCooltrainerFText:
 	cont "MARMORIA CITY?"
 
 	para "Der LEITER dort"
-	line "verwendet Gestein-"
+	line "verwendet GESTEIN-"
 	cont "#MON."
 	done
 

@@ -163,7 +163,7 @@ BugCatchingContestant7AText:
 	text "CINDY: Was ist"
 	line "los?"
 
-	para "Du magst Käfer-"
+	para "Du magst KÄFER-"
 	line "#MON doch"
 	cont "auch, oder?"
 	done
@@ -172,7 +172,7 @@ BugCatchingContestant8AText:
 	text "ENNO: Seit meiner"
 	line "Kindheit sammle"
 
-	para "ich Käfer-"
+	para "ich KÄFER-"
 	line "#MON."
 
 	para "Du kannst mich"
@@ -184,7 +184,7 @@ BugCatchingContestant9AText:
 	line "Zeit für Gespräche"
 
 	para "hast, solltest Du"
-	line "lieber Käfer-"
+	line "lieber KÄFER-"
 	cont "#MON suchen."
 	done
 

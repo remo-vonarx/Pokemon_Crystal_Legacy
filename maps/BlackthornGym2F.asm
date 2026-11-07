@@ -94,7 +94,7 @@ CooltrainermCodyAfterBattleText:
 	text "Mitglieder unseres"
 	line "Drachenklans"
 
-	para "dürfen Drachen-"
+	para "dürfen DRACHEN-"
 	line "#MON erst"
 
 	para "einsetzen, wenn es"

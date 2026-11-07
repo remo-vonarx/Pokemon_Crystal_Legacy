@@ -348,7 +348,7 @@ SaffronGymGuideText:
 	para "braucht sicher"
 	line "keine Anweisung,"
 
-	para "wie mit Psycho-"
+	para "wie mit PSYCHO-"
 	line "#MON umzugehen"
 	cont "ist, nicht wahr?"
 

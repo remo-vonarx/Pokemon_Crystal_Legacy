@@ -227,7 +227,7 @@ SwimmerfPaulaSeenText:
 	line "Schwimmreifen."
 
 	para "Ich halte mich an"
-	line "einem Wasser-"
+	line "einem WASSER-"
 	cont "#MON fest!"
 	done
 

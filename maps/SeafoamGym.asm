@@ -174,7 +174,7 @@ BlaineAfterBattleText:
 	done
 
 BlaineFightDoneText:
-	text "PYRO: Meine Feuer-"
+	text "PYRO: Meine FEUER-"
 	line "#MON werden"
 
 	para "noch stärker sein."

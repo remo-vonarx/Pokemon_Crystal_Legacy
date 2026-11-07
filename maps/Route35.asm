@@ -429,7 +429,7 @@ JugglerIrwinAfterBattleText:
 
 BugCatcherArnieSeenText:
 	text "Ich gehe überall-"
-	line "hin, wo es Käfer-"
+	line "hin, wo es KÄFER-"
 	cont "#MON gibt."
 	done
 

@@ -273,7 +273,7 @@ VioletGymSignText:
 	para "LEITUNG: FALK"
 	line "Der elegante"
 
-	para "Meister der Flug-"
+	para "Meister der FLUG-"
 	line "#MON"
 	done
 

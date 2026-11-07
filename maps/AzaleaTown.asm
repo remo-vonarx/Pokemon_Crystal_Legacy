@@ -441,7 +441,7 @@ AzaleaGymSignText:
 	line "AZALEA CITY"
 	cont "LEITUNG: KAI"
 
-	para "Die lebende Käfer-"
+	para "Die lebende KÄFER-"
 	line "#MON-Enzyklo-"
 	cont "pädie"
 	done

@@ -281,7 +281,7 @@ MistyIntroText:
 	line "schätze mich"
 	cont "lieber nicht!"
 
-	para "Meine Wasser-"
+	para "Meine WASSER-"
 	line "#MON sind hart!"
 	done
 

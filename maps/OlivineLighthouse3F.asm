@@ -116,7 +116,7 @@ GentlemanPrestonBeatenText:
 
 GentlemanPrestonAfterBattleText:
 	text "JASMIN trainierte"
-	line "früher Gestein-"
+	line "früher GESTEIN-"
 	cont "#MON wie ONIX."
 	done
 

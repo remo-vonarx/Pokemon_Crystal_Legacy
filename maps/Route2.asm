@@ -92,7 +92,7 @@ BugCatcherRobBeatenText:
 
 BugCatcherRobAfterBattleText:
 	text "Ich werde mir"
-	line "stärkere Käfer-"
+	line "stärkere KÄFER-"
 	cont "#MON suchen."
 	done
 

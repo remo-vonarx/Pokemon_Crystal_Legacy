@@ -289,7 +289,7 @@ DragonShrineSignpostText:
 	text "DRACHENSCHREIN"
 
 	para "Der Schrein ehrt"
-	line "die Drachen #-"
+	line "die DRACHEN-#-"
 	cont "MON, die früher"
 
 	para "in der DRACHEN-"

@@ -111,7 +111,7 @@ BrockIntroText:
 	line "ARENALEITER von"
 
 	para "MARMORIA. Ich habe"
-	line "mich auf Gestein-"
+	line "mich auf GESTEIN-"
 	cont "#MON"
 	cont "spezialisiert."
 

@@ -61,7 +61,7 @@ CherrygroveMartYoungsterText:
 	text "Als ich durch das"
 	line "Gras spazierte,"
 
-	para "hat ein Käfer-"
+	para "hat ein KÄFER-"
 	line "#MON mein"
 
 	para "#MON ver-"

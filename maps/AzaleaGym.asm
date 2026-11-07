@@ -179,7 +179,7 @@ BugsyText_INeverLose:
 	text "Ich bin KAI!"
 	line "Ich verliere nie,"
 
-	para "wenn es um Käfer-"
+	para "wenn es um KÄFER-"
 	line "#MON geht."
 
 	para "Meine Forschungen"
@@ -414,7 +414,7 @@ TwinsAmyandmay2BeatenText:
 	done
 
 TwinsAmyandmay2AfterBattleText:
-	text "UTE: Unsere Käfer-"
+	text "UTE: Unsere KÄFER-"
 	line "#MON haben ver-"
 	cont "loren! Was für ei-"
 	cont "ne Schande!"
@@ -434,7 +434,7 @@ AzaleaGymGuideText:
 	para "KAI ist zwar jung,"
 	line "aber sein Wissen"
 
-	para "über Käfer-#-"
+	para "über KÄFER-#-"
 	line "MON ist unüber-"
 	cont "trefflich."
 

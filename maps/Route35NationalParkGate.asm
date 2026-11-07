@@ -235,7 +235,7 @@ Route35NationalParkGateOfficer1AskToParticipateText:
 	para "Die Regeln sind"
 	line "einfach."
 
-	para "Fange ein Käfer-"
+	para "Fange ein KÄFER-"
 	line "#MON mit einem"
 	cont "Deiner eigenen"
 	cont "#MON."
@@ -279,7 +279,7 @@ Route35NationalParkGateOfficer1ExplainsRulesText:
 	cont "hast, behalten."
 
 	para "Los! Fang das"
-	line "stärkste Käfer-"
+	line "stärkste KÄFER-"
 	cont "#MON, das Du"
 	cont "finden kannst!"
 	done
@@ -455,7 +455,7 @@ BugCatchingContestExplanationText:
 	para "allein für die"
 	line "Teilnahme, sondern"
 
-	para "auch ein Käfer-"
+	para "auch ein KÄFER-"
 	line "#MON, das Du"
 
 	para "dort fängst."

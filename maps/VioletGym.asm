@@ -163,7 +163,7 @@ FalknerIntroText:
 
 FalknerWinLossText:
 	text "…Verflixt! Mein"
-	line "Vater hat Flug-"
+	line "Vater hat FLUG-"
 	cont "#MON geliebt…"
 
 	para "Also gut."
