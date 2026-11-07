@@ -280,7 +280,7 @@ BurnedTower1FMortyText:
 	text "JENS: Der ARENA-"
 	line "LEITER von TEAK"
 
-	para "CITY, muß die"
+	para "CITY muß die"
 	line "sogenannten"
 
 	para "legendären #MON"

@@ -91,7 +91,7 @@ BattleTowerOutsideSailorText_Mobile: ; unreferenced
 
 	para "von der Arbeit"
 	line "weg, um hierher"
-	cont "zu kommen"
+	cont "zu kommen."
 
 	para "Ich werde nicht"
 	line "eher aufgeben, bis"

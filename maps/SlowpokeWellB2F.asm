@@ -42,7 +42,7 @@ SlowpokeWellB2FGymGuideText:
 	cont "gemacht."
 
 	para "Trägt FLEGMON"
-	line "einen KING-STEIN"
+	line "einen KING-STEIN,"
 
 	para "wird es oft von"
 	line "einem MUSCHAS"

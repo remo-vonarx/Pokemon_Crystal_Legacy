@@ -176,8 +176,8 @@ LavRadioTower1FSuperNerd2Text:
 	line "ZUSATZSET be-"
 	cont "sorgst, empfängst"
 
-	para "Du meine Send-"
-	line "ungen. Hol es Dir"
+	para "Du meine Sen-"
+	line "dungen. Hol es Dir"
 	cont "bald!"
 	done
 

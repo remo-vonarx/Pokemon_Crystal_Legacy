@@ -126,7 +126,7 @@ MountMoonSilverTextWin:
 
 	para "aufgezogen zu ha-"
 	line "ben, daß sie un-"
-	cont "schlagbar seien.…"
+	cont "schlagbar seien…"
 
 	para "…Aber ich"
 	line "habe versagt…"

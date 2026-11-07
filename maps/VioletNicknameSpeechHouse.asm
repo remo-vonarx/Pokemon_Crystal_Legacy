@@ -26,7 +26,7 @@ VioletNicknameSpeechHouseBirdScript:
 VioletNicknameSpeechHouseTeacherText:
 	text "Sie verwendet die"
 	line "Namen ihrer Lieb-"
-	cont "lingsspeisen,"
+	cont "lingsspeisen"
 
 	para "als Spitznamen für"
 	line "ihre #MON,"

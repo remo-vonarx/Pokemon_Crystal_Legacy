@@ -363,7 +363,7 @@ OlivinePortFishingGuru2Text:
 	line "hast Du?"
 
 	para "Mit verschiedenen"
-	line "ANGELN, fängst Du"
+	line "ANGELN fängst Du"
 	cont "verschiedene"
 	cont "#MON."
 	done

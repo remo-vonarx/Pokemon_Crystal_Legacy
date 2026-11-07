@@ -107,7 +107,7 @@ SwimmerfLoriAfterBattleText:
 	done
 
 SwimmermCameronSeenText:
-	text "Ich denke es ist"
+	text "Ich denke, es ist"
 	line "unmöglich, den"
 
 	para "ganzen Weg nach"

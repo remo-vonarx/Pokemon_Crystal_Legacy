@@ -456,7 +456,7 @@ BlackthornGymGuideWinText:
 	line "gewinnen ist eine"
 	cont "Meisterleistung."
 
-	para "Alles was Dir nun"
+	para "Alles, was Dir nun"
 	line "noch bevorsteht,"
 	cont "ist die #MON"
 	cont "LIGA."

@@ -421,7 +421,7 @@ YoungsterJoeyText_GiveHPUpAfterBattle:
 	text "Wieder verloren…"
 	line "Bist Du stark!"
 
-	para "Oh fast vergaß"
+	para "Oh, fast vergaß"
 	line "ich, daß ich Dir"
 	cont "das geben muß."
 

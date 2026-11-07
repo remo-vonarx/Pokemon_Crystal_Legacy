@@ -54,7 +54,7 @@ MewScript:
 	end
 
 MewBattleText:
-	text "Myuu..."
+	text "Myuu…"
 	done
 
 Route24RocketSeenText:

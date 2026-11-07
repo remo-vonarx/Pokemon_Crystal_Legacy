@@ -485,7 +485,7 @@ BirdKeeperJose2BeatenText:
 
 BirdKeeperJose2AfterBattleText:
 	text "VOGELFÄNGER wie"
-	line "ich, imitieren"
+	line "ich imitieren"
 
 	para "Vogelstimmen, um"
 	line "dadurch den"

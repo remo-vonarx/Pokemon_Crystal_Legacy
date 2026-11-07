@@ -603,7 +603,7 @@ KurtsHouseKurtWhatIsThatText:
 	para "Es sieht wie ein"
 	line "#BALL aus, es"
 
-	para "scheint, aber"
+	para "scheint aber"
 	line "etwas anderes zu"
 	cont "sein."
 

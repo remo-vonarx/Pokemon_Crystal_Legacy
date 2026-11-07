@@ -419,8 +419,8 @@ TuscanyGaveGiftText:
 
 TuscanyTuesdayText:
 	text "DIETLINDE: Bist"
-	line "Du MONJA meiner"
-	cont "älteren Schwester"
+	line "Du MONJA, meiner"
+	cont "älteren Schwester,"
 	cont "schon begegnet?"
 
 	para "Oder meinem"

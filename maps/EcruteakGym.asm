@@ -468,7 +468,7 @@ EcruteakGymGuideWinText:
 
 EcruteakGymClosedText:
 	text "JENS, der ARENA-"
-	line "LEITER ist nicht"
+	line "LEITER, ist nicht"
 	cont "hier."
 
 	para "Du mußt leider"

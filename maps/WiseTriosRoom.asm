@@ -221,10 +221,10 @@ SageGakuAfterBattleText:
 	text "Ah, Du behauptest"
 	line "also, SUICUNE,"
 
-	para "ENTEI und RAIKOU"
+	para "ENTEI und RAIKOU,"
 	line "während sie"
 
-	para "schliefen"
+	para "schliefen,"
 	line "gesehen zu haben?"
 
 	para "Unglaublich!"

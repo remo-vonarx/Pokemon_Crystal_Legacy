@@ -1019,7 +1019,7 @@ Text_BrokeStadiumRules:
 	text "Entschuldigung!"
 
 	para "Den STADION-Regeln"
-	line "zufolge, mußt Du"
+	line "zufolge mußt Du"
 
 	para "6 unterschiedliche"
 	line "#MON, außer"

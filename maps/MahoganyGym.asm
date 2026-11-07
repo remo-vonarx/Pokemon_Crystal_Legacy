@@ -247,7 +247,7 @@ PryceText_Impressed:
 	cont "druckt."
 
 	para "Mit Deinem starken"
-	line "Willen, wirst Du"
+	line "Willen wirst Du"
 
 	para "alle Widrigkeiten"
 	line "in Deinem Leben"

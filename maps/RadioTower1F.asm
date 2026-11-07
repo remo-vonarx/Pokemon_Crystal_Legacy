@@ -280,7 +280,7 @@ RadioTower1FLuckyNumberManOkayMatchText:
 
 	para "Du hast den"
 	line "zweiten Preis"
-	cont "gewonnen: Den"
+	cont "gewonnen: den"
 	cont "EP-TEILER!"
 	done
 

@@ -27,7 +27,7 @@ Route2NuggetHouseBookshelf: ; unreferenced
 	jumpstd DifficultBookshelfScript
 
 Route2NuggetHouseFisherText:
-	text "Hi! Ich bin froh"
+	text "Hi! Ich bin froh,"
 	line "Dich zu sehen."
 
 	para "Mich hat schon"

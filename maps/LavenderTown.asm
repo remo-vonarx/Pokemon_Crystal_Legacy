@@ -55,7 +55,7 @@ LavenderTownPokefanMText:
 
 LavenderTownTeacherText:
 	text "In KANTO werden"
-	line "viele, gute Radio-"
+	line "viele gute Radio-"
 	cont "programme"
 	cont "gesendet."
 	done
@@ -108,7 +108,7 @@ SoulHouseSignText:
 
 	para "Mögen die Seelen"
 	line "der #MON hier"
-	cont "in Frieden Ruhen"
+	cont "in Frieden ruhen"
 	done
 
 LavenderTown_MapEvents:

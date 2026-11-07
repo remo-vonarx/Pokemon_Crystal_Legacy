@@ -419,7 +419,7 @@ Text_BattleTowerIntroduction_1: ; unreferenced
 	para "KAMPFRÄUME"
 	line "betreten."
 
-	para "Du darfst jedoch,"
+	para "Du darfst jedoch"
 	line "den gleichen RAUM"
 
 	para "nur ein Mal am Tag"
@@ -505,7 +505,7 @@ Text_BeatenAllTheTrainers_Mobile: ; unreferenced
 
 	para "Deine Leistung ist"
 	line "es wert, einge-"
-	cont "tragen zu werden"
+	cont "tragen zu werden,"
 
 	para "<PLAYER>. Dieses"
 	line "Resultat könnte"

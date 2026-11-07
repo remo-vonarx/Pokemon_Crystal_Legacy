@@ -1127,8 +1127,8 @@ ElmGiveEverstoneText1:
 	line "#MON-Mysterien!"
 
 	para "Bitte nimm dies"
-	line "als Zeichen unser-"
-	cont "er Wertschätzung."
+	line "als Zeichen unse-"
+	cont "rer Wertschätzung."
 	done
 
 ElmGiveEverstoneText2:

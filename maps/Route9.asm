@@ -132,7 +132,7 @@ PicnickerHeidiAfterBattleText:
 CamperSidSeenText:
 	text "Hey, Du Lump!"
 	line "Wirf Deinen Müll"
-	cont "nicht hier hin!"
+	cont "nicht hierhin!"
 	done
 
 CamperSidBeatenText:

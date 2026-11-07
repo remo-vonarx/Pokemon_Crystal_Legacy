@@ -378,7 +378,7 @@ TwinsAmyandmay1SeenText:
 
 TwinsAmyandmay1BeatenText:
 	text "EVA & UTE: Oh, um"
-	line "Himmels Willen!"
+	line "Himmels willen!"
 	done
 
 TwinsAmyandmay1AfterBattleText:
@@ -410,7 +410,7 @@ TwinsAmyandmay2SeenText:
 
 TwinsAmyandmay2BeatenText:
 	text "EVA & UTE: Um"
-	line "Himmels Willen!"
+	line "Himmels willen!"
 	done
 
 TwinsAmyandmay2AfterBattleText:

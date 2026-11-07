@@ -348,8 +348,8 @@ Route35NationalParkGateOfficer1FirstMonCantBattleText:
 	para "aus, das am"
 	line "Turnier teilnehmen"
 
-	para "soll und komm dann"
-	line "wieder."
+	para "soll, und komm"
+	line "dann wieder."
 	done
 
 Route35NationalParkGateOfficer1MakeRoomText:
@@ -383,10 +383,9 @@ Route35NationalParkGateOfficer1EggAsFirstMonText:
 	line "mit dem #MON,"
 
 	para "das Du im Turnier"
-	line "einsetzen möchtest"
-
-	para "und komm dann"
-	line "wieder."
+	line "einsetzen möch-"
+	cont "test, und komm"
+	cont "dann wieder."
 	done
 
 Route35NationalParkGateOfficer1WantToFinishText:

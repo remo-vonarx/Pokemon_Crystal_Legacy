@@ -385,8 +385,8 @@ Text_Route31DescribeNightmare:
 	para "Dies ist eine"
 	line "gemeine Attacke,"
 
-	para "die einem schlaf-"
-	line "enden Gegner"
+	para "die einem schla-"
+	line "fenden Gegner"
 	cont "kontinuierlich"
 	cont "KP abzieht."
 

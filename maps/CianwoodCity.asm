@@ -273,7 +273,7 @@ CianwoodCityPokefanMText:
 
 CianwoodCityLassText:
 	text "HARTWIG, der ARE-"
-	line "NALEITER steigt"
+	line "NALEITER, steigt"
 
 	para "gerne mit seinen"
 	line "#MON in den"
