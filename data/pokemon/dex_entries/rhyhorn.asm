@@ -7,4 +7,4 @@
 
 	page "erst angefangen zu"
 	next "laufen, hat es"
-	next "vergessen warum.@"
+	next "vergessen, warum.@"

@@ -5,6 +5,6 @@
 	next "wirft es seine"
 	next "messerscharfen"
 
-	page "Blätter umher, und"
+	page "Blätter umher und"
 	next "zerteilt alles"
 	next "um sich herum.@"
