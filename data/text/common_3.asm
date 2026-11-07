@@ -161,7 +161,7 @@ _WantToRushThroughAMobileBattleText::
 	done
 
 _PleaseTryAgainTomorrowText::
-	text "Weniger, als 1"
+	text "Weniger als 1"
 	line "min für heute!"
 
 	para "Komme morgen"
@@ -175,7 +175,7 @@ _TryAgainUsingSameSettingsText::
 	done
 
 _MobileBattleLessThanOneMinuteLeftText::
-	text "Weniger, als 1"
+	text "Weniger als 1"
 	line "min für heute!"
 	done
 

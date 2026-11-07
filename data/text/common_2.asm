@@ -81,7 +81,7 @@ _NameRaterEggText::
 
 _NameRaterSameNameText::
 	text "Er sieht genauso"
-	line "aus, wie der alte,"
+	line "aus wie der alte,"
 
 	para "aber er ist "
 	line "viel besser."
@@ -529,7 +529,7 @@ _GotOnBikeText::
 	done
 
 _GotOffBikeText::
-	text "<PLAYER> steigt von"
+	text "<PLAYER> steigt vom"
 	line "@"
 	text_ram wStringBuffer2
 	text " ab."
@@ -1399,7 +1399,7 @@ _OakRating12::
 
 _OakRating13::
 	text "Wow. Du hast mehr"
-	line "#MON entdeckt,"
+	line "#MON entdeckt"
 
 	para "als die letzte"
 	line "#DEX-For-"
