@@ -650,7 +650,7 @@ RuinsOfAlphResearchCenterProfSilktreePhotoText:
 	text "Das Foto zeigt den"
 	line "Gründer des"
 
-	para "FORSCHUNGSZENTRUMS"
+	para "FORSCHUNGSZENTRUMs"
 	line "PROF SILKTREE."
 	done
 

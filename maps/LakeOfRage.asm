@@ -544,7 +544,7 @@ LakeOfRageSignText:
 
 FishingGurusHouseSignText:
 	text "HAUS DES PROFI-"
-	line "ANGLERs"
+	line "ANGLERS"
 	done
 
 LakeOfRage_MapEvents:

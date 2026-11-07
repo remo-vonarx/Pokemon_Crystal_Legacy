@@ -462,7 +462,7 @@ SlowpokeWellSignText:
 	line "nungen soll das"
 
 	para "Gähnen eines FLEG-"
-	line "MONS vor 400 Jah-"
+	line "MONs vor 400 Jah-"
 	cont "ren eine Dürre be-"
 	cont "endet haben."
 	done

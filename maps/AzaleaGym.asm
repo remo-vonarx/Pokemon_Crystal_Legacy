@@ -389,7 +389,7 @@ TwinsAmyandmay1AfterBattleText:
 	line "stärker! Der ZER-"
 	cont "SCHNEIDER seines"
 
-	para "SICHLOR landet"
+	para "SICHLORs landet"
 	line "fast immer"
 	cont "Volltreffer!"
 	done
@@ -401,7 +401,7 @@ TwinsAmyandmay2SeenText:
 
 	para "KAI ist so stark!"
 	line "Der ZERSCHNEIDER"
-	cont "seines SICHLOR"
+	cont "seines SICHLORs"
 
 	para "scheint immer"
 	line "Volltreffer zu"

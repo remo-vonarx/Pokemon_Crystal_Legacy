@@ -992,7 +992,7 @@ _MonNumberText:: ; unreferenced
 _WasSentToBillsPCText::
 	text_ram wStringBuffer1
 	text_start
-	line "wurde auf Bills PC"
+	line "wurde auf BILLs PC"
 	cont "übertragen."
 	prompt
 

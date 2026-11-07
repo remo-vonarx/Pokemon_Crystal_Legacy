@@ -141,7 +141,7 @@ PewterMuseumSignText:
 	text "Hier ist eine"
 	line "Nachricht…"
 
-	para "MARMORIAS MUSEUM"
+	para "MARMORIAs MUSEUM"
 	line "DER WISSENSCHAFT"
 	cont "ist wegen Reno-"
 	cont "vierungsarbeiten"
