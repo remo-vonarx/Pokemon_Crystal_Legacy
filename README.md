@@ -11,7 +11,7 @@ We would also like to credit & thank Katt, Chamber, Soloo993, Blue Emerald, Lake
 
 ## Changes in this fork
 
-This fork is a full German translation of Crystal Legacy. The general rule was to follow the German release *Pokémon Kristall*: its wording, menu layouts and graphics are used wherever Crystal Legacy did not change a spot, and its minor mistakes, such as typos, grammar errors and text running past its box, are fixed. Text that Crystal Legacy added or changed got a new translation in the German release's wording and style. It is the sister of the German fork of [Yellow Legacy](https://github.com/cRz-Shadows/Pokemon_Yellow_Legacy).
+This fork is a full German translation of Crystal Legacy. The general rule was to follow the German release *Pokémon Kristall*: its wording, menu layouts and graphics are used wherever Crystal Legacy did not change a spot, and its minor mistakes, such as typos, grammar errors and text running past its box, are fixed. Text that Crystal Legacy added or changed got a new translation in the German release's wording and style. It is the sister of the German fork of [Yellow Legacy](https://github.com/remo-vonarx/Pokemon_Yellow_Legacy).
 
 **German:**
 * All dialogue, signs, phone calls, radio shows, item and move descriptions and menus, in the German release's old spelling (*daß*, *muß*) with *Du* and *Dein* capitalised; a girl player is addressed neutrally
@@ -20,16 +20,16 @@ This fork is a full German translation of Crystal Legacy. The general rule was t
 * All 251 Pokémon (FLEGMON, KARPADOR, ICOGNITO, ...); the Pokédex A to Z mode is sorted by the German names
 * Characters, cities and places as in *Pokémon Kristall* (PROF LIND, NEUBORKIA, DUKATIA CITY, KNOFENSA-TURM, ALPH-RUINEN, ...)
 * The in-game trade nicknames and OTs, the default names GOLD, KRISTA and SILBER, and the cries of talking Pokémon as in the German release (`docs/german_cries.md` lists them all)
-* The title KRISTALL-VERMÄCHTNIS, the German graphics (bag pockets, battle, trainer card, slot machine, Unown words, word rooms, diploma, printer, ...) and the German staff credits; Legacy's own credits got German role headings, while names and handles stay as they are
+* The title KRISTALL-VERMÄCHTNIS, the German graphics (bag pockets, battle, trainer card, slot machine, KRISTALL in Unown letters in the intro and on the Game Boy Color notice, word rooms, diploma, printer, ...) and the German staff credits; Legacy's own credits got German role headings, while names and handles stay as they are
 
 DVs and EVs keep their English abbreviations, DV and EV. The battle menu says KAMPF, where the German release shortens it to KMPF.
 
-**Still English:** the debug menus. The Unown words stay English as in the German release, and so do WEEBRA's KAPOERA *Cinderella*, *NPC* in the Pokédex heading for in-game trades, and the word *Disassembly* in the thanks to pret.
+**Still English:** the debug menus. The Unown words in the Pokédex's Unown mode stay English as in the German release, and so do WEEBRA's KAPOERA *Cinderella*, *NPC* in the Pokédex heading for in-game trades, and the word *Disassembly* in the thanks to pret.
 
 **Bug fixes from upstream pull requests and issues:**
 * [#33](https://github.com/cRz-Shadows/Pokemon_Crystal_Legacy/pull/33) by Linus Unnebäck: the Battle Tower uses the Rocket leader's class, not Archer's trainer id
-* [#35](https://github.com/cRz-Shadows/Pokemon_Crystal_Legacy/pull/35) by Linus Unnebäck: Cara's Seadra knows TWINEEDLE
-* [#36](https://github.com/cRz-Shadows/Pokemon_Crystal_Legacy/pull/36) by Linus Unnebäck: Blue's second party for the rematch
+* [#35](https://github.com/cRz-Shadows/Pokemon_Crystal_Legacy/pull/35) by Linus Unnebäck: Cara's Seadra's move is written TWINEEDLE in the source; it is the same byte, so the game does not change
+* [#36](https://github.com/cRz-Shadows/Pokemon_Crystal_Legacy/pull/36) by Linus Unnebäck: Blue's rematch uses his second party, with RHYDON instead of MACHAMP and an ALAKAZAM that knows THUNDERBOLT
 * [#42](https://github.com/cRz-Shadows/Pokemon_Crystal_Legacy/pull/42) by ssabo: the Pokédex area page shows the right game corner and price for the prize Pokémon
 * [#27](https://github.com/cRz-Shadows/Pokemon_Crystal_Legacy/issues/27): the Pokédex stats pages wrap back to the first page
 * [#38](https://github.com/cRz-Shadows/Pokemon_Crystal_Legacy/issues/38): the herb shop lady in the underground says she sells herbs, as in the German release
