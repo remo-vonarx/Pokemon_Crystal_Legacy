@@ -177,8 +177,8 @@ BuenaPhoneStressedFromWorkText:
 	para "aß jede Menge"
 	line "Fast Food!"
 
-	para "MARIA und ich hab-"
-	line "en diese Wette"
+	para "MARGIT und ich"
+	line "haben diese Wette"
 	cont "mit dem Abnehmen…"
 
 	para "Das wird nicht"
@@ -190,9 +190,9 @@ BuenaPhoneStressedFromWorkText:
 	para "Das muß geheim"
 	line "bleiben!"
 
-	para "MARIA wiegt…"
+	para "MARGIT wiegt…"
 
-	para "Ahh! M-MARIA!"
+	para "Ahh! M-MARGIT!"
 
 	para "Uh… Ähm… Ich…"
 	line "Sorry, verwählt!"
@@ -385,7 +385,7 @@ BuenaPhoneStarterPokemonText:
 	line "ich es probieren."
 
 	para "Wußtest Du, daß"
-	line "TRAUMATO MARIAs"
+	line "TRAUMATO MARGITs"
 
 	para "erstes #MON"
 	line "war?"
@@ -393,7 +393,7 @@ BuenaPhoneStarterPokemonText:
 	para "Das paßt nicht"
 	line "zu ihr, oder?"
 
-	para "MARIAs TRAUMATO"
+	para "MARGITs TRAUMATO"
 	line "ließ sie während"
 
 	para "der Arbeit immer"
@@ -472,7 +472,7 @@ BuenaPhoneBenAndFernText:
 
 BuenaPhoneGoingShoppingText:
 	text "Bald gehe ich mit"
-	line "MARIA und LILLY"
+	line "MARGIT und LILLY"
 	cont "zum Einkaufen."
 
 	para "Es wäre toll, wenn"

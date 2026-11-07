@@ -169,13 +169,13 @@ ChadPokemonTalkGossipText:
 	para "Show nicht"
 	line "moderieren wollte?"
 
-	para "Aber MARIAs ener-"
+	para "Aber MARGITs ener-"
 	line "gische Hartnäckig-"
 	cont "keit stimmte ihn"
 	cont "um."
 
 	para "Also müssen wir"
-	line "MARIA danken!"
+	line "MARGIT danken!"
 	done
 
 ChadProfOakTrainerGossipText:
