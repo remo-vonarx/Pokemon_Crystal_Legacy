@@ -727,7 +727,8 @@ _SelectDifficultyHardcoreText::
 
 	para "Wie Schwer, aber"
 	line "man kann #MON"
-	cont "nicht beleben."
+	cont "nicht wieder-"
+	cont "beleben."
 
 	para "Verlierst Du alle,"
 	line "geht es beim"
