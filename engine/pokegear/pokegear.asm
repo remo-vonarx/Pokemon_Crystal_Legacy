@@ -2606,9 +2606,8 @@ Pokedex_GetArea:
 	ld [hli], a
 	ld a, $4a ; part of SELECT >
 	ld [hli], a
-	ld a, $1d ; custom arrow cap + YOU
-	ld [hli], a ; $78
-	ld [hl], $1e
+	ld a, $1d ; DU
+	ld [hl], a
 
 ; show player coords
 ; ; show player
