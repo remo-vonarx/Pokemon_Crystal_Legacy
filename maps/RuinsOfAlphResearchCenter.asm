@@ -632,7 +632,7 @@ RuinsOfAlphResearchCenterComputerText_GotAllUnown:
 	line "#MON"
 	cont "Name: ICOGNITO"
 
-	para "26 verschiedene"
+	para "{d:NUM_UNOWN} verschiedene"
 	line "gefunden."
 	done
 

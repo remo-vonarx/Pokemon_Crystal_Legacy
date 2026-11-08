@@ -256,7 +256,7 @@ Route35NationalParkGateOfficer1GiveParkBallsText:
 
 Route35NationalParkGatePlayerReceivedParkBallsText:
 	text "<PLAYER> erhält"
-	line "20 PARKBÄLLE."
+	line "{d:BUG_CONTEST_BALLS} PARKBÄLLE."
 	done
 
 Route35NationalParkGateOfficer1ExplainsRulesText:
@@ -265,7 +265,7 @@ Route35NationalParkGateOfficer1ExplainsRulesText:
 	cont "fängt, hat "
 	cont "gewonnen."
 
-	para "Du hast 20"
+	para "Du hast {d:BUG_CONTEST_MINUTES}"
 	line "Minuten Zeit."
 
 	para "Wenn Du keine"

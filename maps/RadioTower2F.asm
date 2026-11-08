@@ -641,14 +641,14 @@ RadioTower2FBuenaNoBlueCardText:
 
 RadioTower2FBuenaOfferPhoneNumberText:
 	text "BUENA: Oh! Du hast"
-	line "30 Punkte auf Dei-"
+	line "{d:BLUE_CARD_POINT_CAP} Punkte auf Dei-"
 	cont "ner BLAUEN KARTE!"
 	cont "Das ist toll!"
 
 	para "Hmm… Es gibt zwar"
 	line "keinen Preis für"
 	cont "das Erreichen von"
-	cont "30 Punkten, aber…"
+	cont "{d:BLUE_CARD_POINT_CAP} Punkten, aber…"
 
 	para "Du hast mich so"
 	line "oft besucht,"

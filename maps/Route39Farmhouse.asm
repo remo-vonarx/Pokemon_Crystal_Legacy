@@ -128,7 +128,7 @@ FarmerMText_BuyMilk:
 	cont "KP aufzufrischen!"
 
 	para "Ich gebe sie Dir"
-	line "für nur ¥500."
+	line "für nur ¥{d:ROUTE39FARMHOUSE_MILK_PRICE}."
 	done
 
 FarmerMText_GotMilk:

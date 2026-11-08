@@ -196,7 +196,7 @@ RocketText_TollFee:
 	text "Stehengeblieben!"
 
 	para "Der Wegzoll"
-	line "beträgt ¥1000."
+	line "beträgt ¥{d:ROUTE43GATE_TOLL}."
 	done
 
 RocketText_ThankYou:
