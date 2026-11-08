@@ -7,8 +7,10 @@ Usage: python check_text_mode.py [file.asm|directory ...]
 Report text that the game would misread. The text printer is either reading
 a string, where each byte is a character, or between strings, where each byte
 is a text command. A command inside a string goes wrong: text_start and text
-are $00 there, which prints "NN FEHLER" through NullChar. A string also has
-to end before the next label, or the printer runs on into whatever follows.
+are $00 there, which prints "NN FEHLER" through NullChar. text_end there is
+"@", which ends the string but not the text. Between strings, a db string other
+than "@" is read as commands. A string and the text around it also have to end
+before the next label, or the printer runs on into whatever follows.
 Checks maps/, data/, engine/ and home/ when no paths are given. The
 _CRYSTAL11_VC branches are skipped: they hold padding that is never read. Exits
 with status 1 if anything is found.
@@ -66,6 +68,7 @@ def check_file(path):
 	name = path.relative_to(ROOT) if path.is_relative_to(ROOT) else path
 	state = OUTSIDE
 	opened = None  # line of the string being read
+	last = None  # line of the last command
 	def report(number, message, line):
 		problems.append(f'{name}:{number}: {message}: {line.strip()}')
 	for number, line in live_lines(path):
@@ -73,12 +76,15 @@ def check_file(path):
 		if match:
 			if state == STRING:
 				report(opened, f'string runs into {match.group(1)}', line)
+			elif state == BETWEEN:
+				report(last, f'text runs into {match.group(1)}', line)
 			state = OUTSIDE
 			continue
 		match = COMMAND.match(line)
 		if not match:
 			continue
 		command, rest = match.groups()
+		last = number
 		ended = '@' in ''.join(STRINGS.findall(rest))
 		if command in OPEN:
 			if state == STRING:
@@ -100,10 +106,15 @@ def check_file(path):
 				report(number, f'{command} inside a string', line)
 			state = OUTSIDE if command == 'text_asm' else BETWEEN
 		elif command == 'text_end':
+			if state == STRING:
+				report(number, 'text_end inside a string ends only the string', line)
 			state = OUTSIDE
 		elif command == 'db':
 			if state == STRING:
 				state = BETWEEN if ended else STRING
+			elif state == BETWEEN and '"' in rest and rest.strip() != '"@"':
+				report(number, 'string between text commands', line)
+				state = OUTSIDE
 			else:
 				state = PLAIN if '"' in rest and not ended else OUTSIDE
 		elif command not in NEUTRAL:
