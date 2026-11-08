@@ -558,8 +558,10 @@ HOF_AnimatePlayerPic:
 	call HOF_SlideFrontpic
 	xor a
 	ldh [hBGMapMode], a
-	hlcoord 0, 2
-	lb bc, 8, 9
+	; The player box starts below the edition box, which "Vermächtnis"
+	; makes wider than the English one.
+	hlcoord 0, 4
+	lb bc, 6, 9
 	call Textbox
 	hlcoord 0, 12
 	lb bc, 4, 18
@@ -610,7 +612,7 @@ HOF_AnimatePlayerPic:
 	ld de, .crystal_legacy_4
 	call PlaceString
 .EndMode:
-	hlcoord 2, 4
+	hlcoord 2, 5
 	ld de, wPlayerName
 	call PlaceString
 	hlcoord 1, 6
