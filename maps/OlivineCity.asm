@@ -189,8 +189,8 @@ OlivineCityRivalText:
 	line "LEUCHTTURM."
 
 	para "Hmpf! Bu-Huu!"
-	line "Laß kranke #MON"
-	cont "doch gehen!"
+	line "Wozu soll das nur"
+	cont "gut sein?"
 
 	para "Ein #MON, das"
 	line "nicht kämpfen"
