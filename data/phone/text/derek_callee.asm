@@ -46,7 +46,7 @@ DerekGreetNiteText:
 	para "@"
 	text_ram wStringBuffer3
 	text " hier."
-	line "Warst Du wach?"
+	line "Bist Du wach pika?"
 	done
 
 DerekGenericText:

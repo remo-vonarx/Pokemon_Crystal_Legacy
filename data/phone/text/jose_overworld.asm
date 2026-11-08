@@ -50,7 +50,7 @@ JosePhoneFullText:
 	done
 
 JoseRematchText:
-	text "Kwak! Kwak! Kwak!"
+	text "Tüüt! Tüüüüt!"
 
 	para "Laß mich nicht"
 	line "warten!"
