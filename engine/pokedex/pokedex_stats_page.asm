@@ -683,13 +683,13 @@ ENDC
 	ld a, l
 	ld [wPoisonStepCount + 1], a ; weight ptr, 2 bytes
 	ld de, wPoisonStepCount ; weight ptr, 2 bytes
-; Print the height, with two of the four digits in front of the decimal point
+; Print the height in metres, one digit in front of the decimal point (at most 9.9 m)
 IF !DEF(wBaseHPAtkDefSpdEVs) ; vanilla
 	hlcoord 4, 15
 ELSE ; using EVs
 	hlcoord 4, 14
 ENDC
-	lb bc, 2, (2 << 4) | 3
+	lb bc, 2, (1 << 4) | 2
 	call PrintNum
 ; get weight
 	pop af ; bank
@@ -702,42 +702,13 @@ ENDC
 	ld a, l
 	ld [wPoisonStepCount + 1], a ; weight ptr, 2 bytes
 	ld de, wPoisonStepCount ; weight ptr, 2 bytes
-; 2 digit weight (actually 3, but we are cutting off decimal since it's always 0)
-	ld a, h
-	cp 3
-	jr c, .normal_weight
-	cp 4
-	jr nc, .heavy_weight
-	jr z, .heavy_weight
-	ld a, l
-	cp $e8
-	jr c, .normal_weight
-.heavy_weight	
-	
+; Print the weight in kilograms, right-aligned in five tiles: up to 999.9 kg
 IF !DEF(wBaseHPAtkDefSpdEVs) ; vanilla
-	hlcoord 14, 15
+	hlcoord 12, 15
 ELSE ; using EVs
-	hlcoord 14, 14
+	hlcoord 12, 14
 ENDC
 	lb bc, 2, (3 << 4) | 4
-	call PrintNum
-IF !DEF(wBaseHPAtkDefSpdEVs) ; vanilla
-	hlcoord 17, 15
-ELSE ; using EVs
-	hlcoord 17, 14
-ENDC
-	ld de, .String_pounds
-	call PlaceString
-	jr .done
-; 3 digit weight (actually 4, but we are cutting off decimal since it's always 0)
-.normal_weight	
-	; Print the weight, with 3 of the 4 digits in front of the decimal point
-IF !DEF(wBaseHPAtkDefSpdEVs) ; vanilla
-	hlcoord 13, 15
-ELSE ; using EVs
-	hlcoord 13, 14
-ENDC
-	lb bc, 2, (2 << 4) | 3
 	call PrintNum
 IF !DEF(wBaseHPAtkDefSpdEVs) ; vanilla
 	hlcoord 17, 15
@@ -752,7 +723,7 @@ ENDC
 	pop hl	
 	ret
 .String_HeightWeight_blank:
-	db "GR.    m GEW@"
+	db "GR.   m GEW@"
 .String_pounds:
 	db "kg@"
 
