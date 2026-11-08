@@ -266,7 +266,7 @@ OlivineGymGuideText:
 	line "Metallkäfer, der"
 
 	para "mit einer Technik"
-	line "seinen ANGRIFF"
+	line "seinen ANGR-Wert"
 	cont "erhöhen kann."
 
 	para "Feuer schadet ihm,"

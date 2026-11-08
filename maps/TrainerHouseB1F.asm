@@ -269,13 +269,11 @@ TrainerHouseB1FSmithBeforeText:
 	done
 
 TrainerHouseB1FCraigBeforeText:
-	text "Ich will Kampf-"
-	line "erfahrung sammeln"
+	text "Ich sammle Kampf-"
+	line "erfahrung für ein"
 
-	para "für ein Spiel, das"
-	line "ich mache,"
-	cont "basierend auf"
-	cont "#MON."
+	para "#MON-Spiel, das"
+	line "ich gerade mache."
 	done
 
 TrainerHouseB1FWeebraBeforeText:

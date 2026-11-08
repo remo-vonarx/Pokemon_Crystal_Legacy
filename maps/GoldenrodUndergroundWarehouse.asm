@@ -154,8 +154,9 @@ GruntM15BeatenText:
 	text "Hiuck-hiuck-hiuck!"
 	line "Du bist so gut!"
 
-	para "Dieses TEAM ROCKET"
-	line "ist nur ein Job,"
+	para "Die Sache mit TEAM"
+	line "ROCKET ist nur"
+	cont "ein Job,"
 
 	para "aber ich sehe,"
 	line "daß es anderen"

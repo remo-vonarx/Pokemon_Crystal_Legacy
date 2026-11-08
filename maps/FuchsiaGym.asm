@@ -338,7 +338,7 @@ JanineText_ApplyMyself:
 	done
 
 JanineRematchText:
-	text "Fufufufu…"
+	text "Hehehehe…"
 
 	para "Wow, Du hast es"
 	line "geschafft!"

@@ -334,8 +334,8 @@ EarlsPokemonAcademyYoungster2Text:
 	line "die als schwach"
 	cont "galten,"
 
-	para "sind noch zu er-"
-	line "kennen, haben aber"
+	para "sind zwar noch die"
+	line "alten, haben aber"
 	cont "5-20 Basispunkte"
 	cont "dazugewonnen."
 

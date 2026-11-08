@@ -548,8 +548,9 @@ RadioTower5FRocketBossAfterText:
 	cont "Wir dürfen nicht"
 	cont "fallen!"
 
-	para "Du hast diesen"
-	line "Kampf gewonnen,"
+	para "Du magst diesen"
+	line "Kampf gewonnen"
+	cont "haben,"
 
 	para "aber den Krieg?"
 	line "Der ist noch lange"
@@ -690,9 +691,9 @@ RadioTower5FRocketBossDisbandText3:
 
 RadioTower5FRocketBossDisbandText4:
 	text "War ich nur eine"
-	line "Marionette?"
+	line "Marionette,"
 
-	para "Die einem Traum"
+	para "die einem Traum"
 	line "nachjagte, den Du"
 	cont "nie geteilt hast?"
 	done

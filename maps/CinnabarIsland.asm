@@ -116,9 +116,9 @@ CinnabarIslandBlueText:
 	line "einen der legen-"
 	cont "dären Vögel von"
 
-	para "ROT auf, also komm"
-	line "bereit für einen"
-	cont "echten Kampf."
+	para "ROT auf, also sei"
+	line "auf einen echten"
+	cont "Kampf gefaßt."
 
 	para "Besuche mich in"
 	line "VERTANIA CITY."

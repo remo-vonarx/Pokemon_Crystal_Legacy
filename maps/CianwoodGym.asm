@@ -308,7 +308,7 @@ ChuckAfterText:
 	done
 
 ChuckRematchText:
-	text "Wahahah!"
+	text "WAHAHAH!"
 	line "JOHTO-CHAMP!"
 
 	para "Du willst also"
@@ -318,14 +318,14 @@ ChuckRematchText:
 	line "Fähigkeiten haben"
 	cont "sich verbessert!"
 
-	para "Bereit, um zu"
-	line "sehen, wer von"
+	para "Bereit heraus-"
+	line "zufinden, wer von"
 	cont "uns stärker ist?"
 	done
 
 Chuck_RematchDefeatText:
-	text "Was? Hä? Ich habe"
-	line "verloren?"
+	text "Wa…? Huch?"
+	line "Ich habe verloren?"
 	cont "Schon wieder?"
 	done
 
