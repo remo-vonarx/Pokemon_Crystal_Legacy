@@ -37,7 +37,9 @@ RESET = {'done', 'prompt', 'text_end', 'text_far', 'text_asm', 'text_promptbutto
 	'text_waitbutton', 'text_scroll', 'IF', 'ELSE', 'ELIF', 'ENDC'}
 COMMAND = re.compile(r'^\s*(\w+)\b(.*)$')
 LABEL = re.compile(r'^([A-Za-z_.][\w.]*)::?')
-TOKEN = re.compile(r"<[^>]+>|'[dlstvrm]|{[^}]*}|.")
+# "'s" is one tile; the other English contractions ('d 'l 'm 'r) became
+# the umlauts and ß, so there they are an apostrophe and a letter
+TOKEN = re.compile(r"<[^>]+>|'s|{[^}]*}|.")
 
 def string_width(string):
 	string = string.split('@')[0]
