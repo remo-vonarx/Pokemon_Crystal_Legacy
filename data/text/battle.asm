@@ -454,7 +454,8 @@ BattleText_ItemHealedConfusion:
 
 AlreadyConfusedText:
 	text "<TARGET>"
-	line "ist schon verwir.!"
+	line "ist schon"
+	cont "verwirrt!"
 	prompt
 
 BattleText_UsersHurtByStringBuffer1:
@@ -1011,7 +1012,8 @@ FullyParalyzedText:
 
 AlreadyParalyzedText:
 	text "<TARGET>"
-	line "ist schon paral.!"
+	line "ist schon"
+	cont "paralysiert!"
 	prompt
 
 ProtectedByText:
