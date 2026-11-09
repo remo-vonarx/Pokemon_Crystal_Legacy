@@ -50,8 +50,9 @@ MrFujisHouseSuperNerdText:
 	para "jetzt nicht"
 	line "zu Hause."
 
-	para "Er müßte in der"
-	line "RUHESTÄTTE sein."
+	para "Er müßte im"
+	line "HAUS DER SEELEN"
+	cont "sein."
 	done
 
 MrFujisHouseLassText:

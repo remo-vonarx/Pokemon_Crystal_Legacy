@@ -104,7 +104,7 @@ VolunteerPokemonHouseSignText:
 	done
 
 SoulHouseSignText:
-	text "RUHESTÄTTE"
+	text "HAUS DER SEELEN"
 
 	para "Mögen die Seelen"
 	line "der #MON hier"
