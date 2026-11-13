@@ -201,8 +201,8 @@ _AnotherSaveFileText::
 	done
 
 _SaveFileCorruptedText::
-	text "The save file is"
-	line "corrupted!"
+	text "Der Spielstand"
+	line "ist zerstört!"
 	prompt
 
 _ChangeBoxSaveText::
@@ -791,7 +791,7 @@ _MobileStadiumSuccessText::
 	done
 
 _MainMenuTimeUnknownText::
-	text "Clock time unknown"
+	text "Uhrzeit unbekannt"
 	done
 
 _DeleteSavedLoginPasswordText::
