@@ -133,13 +133,15 @@
 	charmap "└",         $c5
 	charmap "┘",         $c6
 
+	charmap "Ä",         $cd ; German letters: Ä Ö Ü ä ö ü ß
+
 	charmap "′",         $ce
 	charmap "″",         $cf
 
-	charmap "'d",        $d0
-	charmap "'l",        $d1
-	charmap "'m",        $d2
-	charmap "'r",        $d3
+	charmap "ä",         $d0 ; was "'d"
+	charmap "ö",         $d1 ; was "'l"
+	charmap "ü",         $d2 ; was "'m"
+	charmap "ß",         $d3 ; was "'r"
 	charmap "'s",        $d4
 	charmap "'t",        $d5
 	charmap "'v",        $d6
@@ -147,8 +149,8 @@
 	charmap "■",         $d7
 	charmap "▲",         $d8
 	charmap "☎",         $d9
-	charmap "<BOLD_A>",  $da
-	charmap "<BOLD_B>",  $db
+	charmap "Ö",         $da ; was the unused bold A
+	charmap "Ü",         $db ; was the unused bold B
 	charmap "<COLON>",   $dc ; colon with tinier dots than ":"
 	charmap "“",         $dd ; opening quote
 	charmap "”",         $de ; closing quote
