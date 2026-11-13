@@ -1,28 +1,30 @@
 _OakText6::
-	text "Now, what did you"
-	line "say your name was?"
+	text "Wie lautet dein"
+	line "Name?"
 	prompt
 
 _OakText7::
-	text "<PLAYER>, are you"
-	line "ready?"
+	text "<PLAYER>, bist du"
+	line "bereit?"
 
-	para "Your very own"
-	line "#MON story is"
-	cont "about to unfold."
+	para "Dein eigenes"
+	line "#MON-Abenteuer"
+	cont "erwartet dich."
 
-	para "You'll face fun"
-	line "times and tough"
-	cont "challenges."
+	para "Dich erwarten tol-"
+	line "le Dinge, aber"
+	cont "auch harte Zeiten."
 
-	para "A world of dreams"
-	line "and adventures"
+	para "Eine Welt voller"
+	line "Träume und aufre-"
+	cont "gender #MON-"
 
-	para "with #MON"
-	line "awaits! Let's go!"
+	para "Abenteuer erwar-"
+	line "tet dich! Mach"
+	cont "dich bereit!"
 
-	para "I'll be seeing you"
-	line "later!"
+	para "Ich treffe dich"
+	line "später!"
 	done
 
 _ClockTimeMayBeWrongText::
@@ -1518,13 +1520,13 @@ _DeleterAskWhichMonText::
 	prompt
 
 _DSTIsThatOKText::
-	text " DST,"
-	line "is that OK?"
+	text " SZ,"
+	line "in Ordnung?"
 	done
 
 _TimeAskOkayText::
 	text ","
-	line "is that OK?"
+	line "in Ordnung?"
 	done
 
 _TimesetAskDSTText::

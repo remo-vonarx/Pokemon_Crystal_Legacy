@@ -157,19 +157,20 @@ _OakTimeWokeUpText::
 	text "<……><……><……><……><……><……>"
 	line "<……><……><……><……><……><……>"
 
-	para "Zzz… Hm? Wha…?"
-	line "You woke me up!"
+	para "Zzz… Hm? Was…?"
+	line "Du hast mich auf-"
+	cont "geweckt. Kannst du"
 
-	para "Will you check the"
-	line "clock for me?"
+	para "mir sagen, wie"
+	line "spät es ist?"
 	prompt
 
 _OakTimeWhatTimeIsItText::
-	text "What time is it?"
+	text "Wie spät ist es?"
 	done
 
 _OakTimeWhatHoursText::
-	text "What?@"
+	text "Was?@"
 	text_end
 
 _OakTimeHoursQuestionMarkText::
@@ -177,11 +178,11 @@ _OakTimeHoursQuestionMarkText::
 	done
 
 _OakTimeHowManyMinutesText::
-	text "How many minutes?"
+	text "Wie viele Minuten?"
 	done
 
 _OakTimeWhoaMinutesText::
-	text "Whoa!@"
+	text "Wow!@"
 	text_end
 
 _OakTimeMinutesQuestionMarkText::
@@ -190,30 +191,30 @@ _OakTimeMinutesQuestionMarkText::
 
 _OakTimeOversleptText::
 	text "!"
-	line "I overslept!"
+	line "Ich habe"
+	cont "verschlafen!"
 	done
 
 _OakTimeYikesText::
 	text "!"
-	line "Yikes! I over-"
-	cont "slept!"
+	line "Uah! Ich habe"
+	cont "verschlafen!"
 	done
 
 _OakTimeSoDarkText::
 	text "!"
-	line "No wonder it's so"
-	cont "dark!"
+	line "Kein Wunder, dass"
+	cont "es so dunkel ist!"
 	done
 
 _OakTimeWhatDayIsItText::
-	text "What day is it?"
+	text "Welcher Tag ist"
+	line "heute?"
 	done
 
 _OakTimeIsItText::
-	text ", is it?"
+	text ", oder?"
 	done
-
-; Mobile Adapter
 
 _ThereIsNothingConnectedText:: ; unreferenced
 	text "There is nothing"

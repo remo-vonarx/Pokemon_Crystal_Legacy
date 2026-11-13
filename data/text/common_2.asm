@@ -661,8 +661,8 @@ _YouCantUseItInABattleText::
 	prompt
 
 _AreYouABoyOrAreYouAGirlText::
-	text "Are you a boy?"
-	line "Or are you a girl?"
+	text "Bist du ein Junge?"
+	line "Oder ein Mädchen?"
 	done
 
 _SelectDifficultyText::
@@ -1559,23 +1559,25 @@ _MayRegisterItemText::
 	done
 
 _OakText1::
-	text "Hello! Sorry to"
-	line "keep you waiting!"
+	text "Hi! Entschuldige"
+	line "die Verspätung!"
 
-	para "Welcome to the"
-	line "world of #MON!"
+	para "Willkommen in der"
+	line "Welt der #MON!"
 
-	para "My name is OAK."
+	para "Mein Name ist"
+	line "EICH!"
+	cont "Man nennt mich"
 
-	para "People call me the"
-	line "#MON PROF."
+	para "den #MON-"
+	line "PROFESSOR."
 	prompt
 
 _OakText2::
-	text "This world is in-"
-	line "habited by crea-"
-	cont "tures that we call"
-	cont "#MON.@"
+	text "Diese Welt wird"
+	line "von Wesen"
+	cont "bewohnt, die man"
+	cont "#MON nennt.@"
 	text_end
 
 _OakText3::
@@ -1585,26 +1587,29 @@ _OakText3::
 	text_end ; unreferenced
 
 _OakText4::
-	text "People and #MON"
-	line "live together by"
+	text "Menschen und"
+	line "#MON leben"
 
-	para "supporting each"
-	line "other."
+	para "zusammen und"
+	line "helfen einander."
 
-	para "Some people play"
-	line "with #MON, some"
-	cont "battle with them."
+	para "Für manche Leute"
+	line "sind #MON"
+	cont "Haustiere, andere"
+	cont "tragen Kämpfe mit"
+	cont "ihnen aus."
 	prompt
 
 _OakText5::
-	text "But we don't know"
-	line "everything about"
-	cont "#MON yet."
+	text "Leider wissen wir"
+	line "noch nicht alles"
+	cont "über #MON."
 
-	para "There are still"
-	line "many mysteries to"
-	cont "solve."
+	para "Es gibt noch"
+	line "viele Geheimnisse"
+	cont "zu lüften."
 
-	para "That's why I study"
-	line "#MON every day."
+	para "Darum studiere"
+	line "ich #MON"
+	cont "tagaus, tagein!"
 	prompt
