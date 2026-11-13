@@ -666,33 +666,38 @@ _AreYouABoyOrAreYouAGirlText::
 	done
 
 _SelectDifficultyText::
-	text "Select difficulty."
+	text "Wähle den Schwie-"
+	line "rigkeitsgrad."
 	done
 
 _SelectDifficultyNormalText::
-	text "Are you sure?"
+	text "Bist du sicher?"
 
-	para "Classic #MON"
-	line "rules."
+	para "Klassische"
+	line "#MON-Regeln."
 	done
 
 _SelectDifficultyHardText::
-	text "Are you sure?"
+	text "Bist du sicher?"
 
-	para "SET mode, no"
-	line "items in battle,"
-	cont "GYM LVL caps."
+	para "Kampfstil FOLGEND,"
+	line "keine Items im"
+	cont "Kampf und Level-"
+	cont "grenzen je ARENA."
 	done
 
 _SelectDifficultyHardcoreText::
-	text "Are you sure?"
+	text "Bist du sicher?"
 
-	para "Hard mode, but"
-	line "#MON can't be"
-	cont "revived."
+	para "Wie SCHWER, aber"
+	line "#MON können"
+	cont "nicht wieder-"
+	cont "belebt werden."
 
-	para "Wipeouts reset to"
-	line "previous save."
+	para "Bei einer Nieder-"
+	line "lage wird der"
+	cont "letzte Spielstand"
+	cont "geladen."
 	done
 
 Text_BattleEffectActivate::

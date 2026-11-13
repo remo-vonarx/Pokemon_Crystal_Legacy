@@ -95,9 +95,9 @@ InitDifficulty:
 .DifficultyMenuData:
 	db STATICMENU_CURSOR | STATICMENU_WRAP | STATICMENU_DISABLE_B ; flags
 	db 3 ; items
-	db "Normal@"
-	db "Hard@"
-	db "Hardcore@"
+	db "NORMAL@"
+	db "SCHWER@"
+	db "EXTREM@"
 
 MenuCursorLoop:
 	; VerticalMenu
@@ -168,9 +168,9 @@ MenuCursorLoop:
 .DifficultyMenuDataLoop:
 	db STATICMENU_CURSOR | STATICMENU_WRAP | STATICMENU_DISABLE_B ; flags
 	db 3 ; items
-	db "Normal@"
-	db "Hard@"
-	db "Hardcore@"
+	db "NORMAL@"
+	db "SCHWER@"
+	db "EXTREM@"
 
 UpdateDifficultyText:
     ld a, [wMenuCursorY]
