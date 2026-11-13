@@ -28,28 +28,30 @@ _OakText7::
 	done
 
 _ClockTimeMayBeWrongText::
-	text "The clock's time"
-	line "may be wrong."
+	text "Die Uhr könnte"
+	line "falsch gestellt"
+	cont "sein."
 
-	para "Please reset the"
-	line "time."
+	para "Gib bitte die"
+	line "genaue Uhrzeit an."
 	prompt
 
 _ClockSetWithControlPadText::
-	text "Set with the"
-	line "Control Pad."
+	text "Benutze dafür das"
+	line "Steuerkreuz."
 
-	para "Confirm: A Button"
-	line "Cancel:  B Button"
+	para "Bestätigen:"
+	line "A-Knopf"
+	cont "Zurück: B-Knopf"
 	done
 
 _ClockIsThisOKText::
-	text "Is this OK?"
+	text "Einverstanden?"
 	done
 
 _ClockHasResetText::
-	text "The clock has been"
-	line "reset."
+	text "Die Uhr wurde"
+	line "korrigiert."
 	done
 
 _LinkTimeoutText::
@@ -963,17 +965,18 @@ _SpaceSpaceColonText:: ; unreferenced
 	done
 
 _PasswordAskResetText::
-	text "Select CONTINUE &"
-	line "reset settings."
+	text "Wähle Fortfahren"
+	line "& verwirf die"
+	cont "Einstellungen."
 	prompt
 
 _PasswordAskResetClockText::
-	text "Reset the clock?"
+	text "Uhr neu stellen?"
 	done
 
 _ClearAllSaveDataText::
-	text "Clear all save"
-	line "data?"
+	text "Spielstand"
+	line "löschen?"
 	done
 
 _LearnedMoveText::
