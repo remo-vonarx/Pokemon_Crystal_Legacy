@@ -12,6 +12,6 @@ MailEntry_Lowercase:
 	db "a b c d e f g h i j"
 	db "k l m n o p q r s t"
 	db "u v w x y z   . - /"
-	db "'d 'l 'm 'r 's 't 'v & ( )"
+	db "ä ö ü ß 's 't 'v & ( )"
 	db "“ ” [ ] ' : ;      "
 	db "UPPER  DEL   END   "

@@ -11,7 +11,7 @@ BoxNameInputLower:
 	db "a b c d e f g h i"
 	db "j k l m n o p q r"
 	db "s t u v w x y z  "
-	db "é 'd 'l 'm 'r 's 't 'v 0"
+	db "é ä ö ü ß 's 't 'v 0"
 	db "1 2 3 4 5 6 7 8 9"
 	db "UPPER  DEL   END "
 
