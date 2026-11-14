@@ -163,49 +163,51 @@ _ComeBackText::
 	done
 
 _BootedTMText::
-	text "Booted up a TM."
+	text "TM aktiviert."
 	prompt
 
 _BootedHMText::
-	text "Booted up an HM."
+	text "VM aktiviert."
 	prompt
 
 _ContainedMoveText::
-	text "It contained"
+	text "Sie enthält"
 	line "@"
 	text_ram wStringBuffer2
 	text "."
 
-	para "Teach @"
+	para "@"
 	text_ram wStringBuffer2
 	text_start
-	line "to a #MON?"
+	line "einem #MON"
+	cont "beibringen?"
 	done
 
 _TMHMNotCompatibleText::
 	text_ram wStringBuffer2
-	text " is"
-	line "not compatible"
-	cont "with @"
+	text " ist"
+	line "nicht kompatibel"
+	cont "mit @"
 	text_ram wStringBuffer1
 	text "."
 
-	para "It can't learn"
+	para "Es kann"
 	line "@"
 	text_ram wStringBuffer2
-	text "."
+	text_start
+	cont "nicht erlernen."
 	prompt
 
 _NoRoomTMHMText::
-	text "You have no room"
-	line "for any more"
+	text "Du hast keinen"
+	line "Platz mehr für:"
 	cont "@"
 	text_ram wStringBuffer1
-	text "S."
+	text "."
 	prompt
 
 _ReceivedTMHMText::
-	text "You received"
+	text "Du erhältst"
 	line "@"
 	text_ram wStringBuffer1
 	text "!"
@@ -594,61 +596,63 @@ _UseSacredAshText::
 	done
 
 _AnEggCantHoldAnItemText::
-	text "An EGG can't hold"
-	line "an item."
+	text "Ein EI kann kein"
+	line "Item tragen."
 	prompt
 
 _PackNoItemText::
-	text "No items."
+	text "Keine Items."
 	done
 
 _AskThrowAwayText::
-	text "Throw away how"
-	line "many?"
+	text "Wie viele"
+	line "wegwerfen?"
 	done
 
 _AskQuantityThrowAwayText::
-	text "Throw away @"
-	text_decimal wItemQuantityChange, 1, 2
-	text_start
+	text "Wegwerfen?"
 	line "@"
+	text_decimal wItemQuantityChange, 1, 2
+	text " x @"
 	text_ram wStringBuffer2
-	text "(S)?"
+	text "?"
 	done
 
 _ThrewAwayText::
-	text "Threw away"
-	line "@"
+	text_decimal wItemQuantityChange, 1, 2
+	text " x @"
 	text_ram wStringBuffer2
-	text "(S)."
+	text_start
+	line "weggeworfen."
 	prompt
 
 _OakThisIsntTheTimeText::
-	text "OAK: <PLAYER>!"
-	line "This isn't the"
-	cont "time to use that!"
+	text "EICH: <PLAYER>!"
+	line "Es ist noch nicht"
+	cont "an der Zeit, dies"
+	cont "zu benutzen!"
 	prompt
 
 _YouDontHaveAMonText::
-	text "You don't have a"
+	text "Du hast kein"
 	line "#MON!"
 	prompt
 
 _RegisteredItemText::
-	text "Registered the"
-	line "@"
 	text_ram wStringBuffer2
-	text "."
+	text_start
+	line "eingetragen."
 	prompt
 
 _CantRegisterText::
-	text "You can't register"
-	line "that item."
+	text "Du kannst dieses"
+	line "Item nicht"
+	cont "eintragen."
 	prompt
 
 _AskItemMoveText::
-	text "Where should this"
-	line "be moved to?"
+	text "Wo soll das"
+	line "hin?"
 	done
 
 _PackEmptyText::
@@ -656,8 +660,9 @@ _PackEmptyText::
 	done
 
 _YouCantUseItInABattleText::
-	text "You can't use it"
-	line "in a battle."
+	text "Du kannst das"
+	line "im Kampf nicht"
+	cont "benutzen."
 	prompt
 
 _AreYouABoyOrAreYouAGirlText::
