@@ -189,19 +189,20 @@ _MobileBattleRemainingTimeText::
 	done
 
 _WouldYouLikeToSaveTheGameText::
-	text "Would you like to"
-	line "save the game?"
+	text "Möchtest du das"
+	line "Spiel SICHERN?"
 	done
 
 _SavedTheGameText::
-	text "<PLAYER> saved"
-	line "the game."
+	text "<PLAYER> hat das"
+	line "Spiel gesichert."
 	done
 
 _AnotherSaveFileText::
-	text "There is another"
-	line "save file. Is it"
-	cont "OK to overwrite?"
+	text "Es gibt bereits"
+	line "einen Spielstand."
+	cont "Spielstand"
+	cont "überschreiben?"
 	done
 
 _SaveFileCorruptedText::
@@ -210,15 +211,18 @@ _SaveFileCorruptedText::
 	prompt
 
 _ChangeBoxSaveText::
-	text "When you change a"
-	line "#MON BOX, data"
-	cont "will be saved. OK?"
+	text "Vor einem Wechsel"
+	line "der #MON-BOX"
+	cont "wird das Spiel"
+	cont "gesichert!"
 	done
 
 _MoveMonWOMailSaveText::
-	text "Each time you move"
-	line "a #MON, data"
-	cont "will be saved. OK?"
+	text "Immer, wenn du"
+	line "ein #MON"
+	cont "verschiebst, wird"
+	cont "das Spiel ge-"
+	cont "sichert!"
 	done
 
 _WindowAreaExceededErrorText:: ; unreferenced

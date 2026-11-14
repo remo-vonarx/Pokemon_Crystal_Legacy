@@ -1417,8 +1417,8 @@ _MemoryGameDarnText::
 	done
 
 _StartMenuContestEndText::
-	text "Would you like to"
-	line "end the Contest?"
+	text "Möchtest du den"
+	line "Wettkampf beenden?"
 	done
 
 _ItemsTossOutHowManyText::
