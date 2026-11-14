@@ -220,16 +220,17 @@ MomWalksBackMovement:
 	step_end
 
 ElmsLookingForYouText:
-	text "Oh, <PLAYER>…! Our"
-	line "neighbor, PROF.ELM"
+	text "Oh, <PLAYER>…"
+	line "Unser Nachbar,"
 
-	para "was looking for"
-	line "you. Also, your"
+	para "PROF. LIND, hat"
+	line "nach dir gesucht."
 
-	para "#GEAR is back"
-	line "from the shop."
+	para "Außerdem ist dein"
+	line "#COM von der"
+	cont "Reparatur zurück."
 
-	para "Here you go!"
+	para "Da hast du ihn!"
 	done
 
 MomGivesPokegearText:
@@ -254,8 +255,9 @@ ComeHomeForDSTText:
 	done
 
 KnowTheInstructionsText:
-	text "Great! No need to"
-	line "explain it then."
+	text "Toll! Dann muss"
+	line "ich es dir nicht"
+	cont "erklären."
 	done
 
 DontKnowTheInstructionsText:
@@ -279,9 +281,10 @@ InstructionsNextText:
 	done
 
 CanRunText:
-	text "Oh, and remember,"
-    line "you can get there"
-    cont "faster if you run!"
+	text "Oh, und vergiss"
+	line "nicht: Wenn du"
+	cont "rennst, bist du"
+	cont "schneller dort!"
 	done
 
 HurryUpElmIsWaitingText:
