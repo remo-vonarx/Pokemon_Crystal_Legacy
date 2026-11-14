@@ -1422,137 +1422,152 @@ _StartMenuContestEndText::
 	done
 
 _ItemsTossOutHowManyText::
-	text "Toss out how many"
+	text "Wie viele"
 	line "@"
 	text_ram wStringBuffer2
-	text "(S)?"
+	text_start
+	cont "wegwerfen?"
 	done
 
 _ItemsThrowAwayText::
-	text "Throw away @"
-	text_decimal wItemQuantityChange, 1, 2
-	text_start
+	text "Wegwerfen"
 	line "@"
+	text_decimal wItemQuantityChange, 1, 2
+	text " x @"
 	text_ram wStringBuffer2
-	text "(S)?"
+	text "?"
 	done
 
 _ItemsDiscardedText::
-	text "Discarded"
-	line "@"
+	text_decimal wItemQuantityChange, 1, 2
+	text " x @"
 	text_ram wStringBuffer1
-	text "(S)."
+	text_start
+	line "wurde weggeworfen."
 	prompt
 
 _ItemsTooImportantText::
-	text "That's too impor-"
-	line "tant to toss out!"
+	text "Dieses Item ist"
+	line "zu wichtig! Du"
+	cont "kannst es nicht"
+	cont "wegwerfen!"
 	prompt
 
 _ItemsOakWarningText::
-	text "OAK: <PLAYER>!"
-	line "This isn't the"
-	cont "time to use that!"
+	text "EICH: <PLAYER>!"
+	line "Es ist noch nicht"
+	cont "an der Zeit, dies"
+	cont "zu benutzen."
 	done
 
 _PokemonSwapItemText::
-	text "Took @"
-	text_ram wMonOrItemNameBuffer
-	text "'s"
-	line "@"
+	text "Nimmt @"
 	text_ram wStringBuffer1
-	text " and"
+	text_start
+	line "von @"
+	text_ram wMonOrItemNameBuffer
+	text_start
 
-	para "made it hold"
+	para "und gibt ihm"
 	line "@"
 	text_ram wStringBuffer2
 	text "."
 	prompt
 
 _PokemonHoldItemText::
-	text "Made @"
+	text "Gibt @"
 	text_ram wMonOrItemNameBuffer
 	text_start
-	line "hold @"
+	line "@"
 	text_ram wStringBuffer2
 	text "."
 	prompt
 
 _PokemonRemoveMailText::
-	text "Please remove the"
-	line "MAIL first."
+	text "Entferne zuerst"
+	line "den BRIEF."
 	prompt
 
 _PokemonNotHoldingText::
 	text_ram wMonOrItemNameBuffer
-	text " isn't"
-	line "holding anything."
+	text_start
+	line "trägt kein Item."
 	prompt
 
 _ItemStorageFullText::
-	text "Item storage space"
-	line "full."
+	text "Du kannst keine"
+	line "weiteren Items"
+	cont "mehr lagern."
 	prompt
 
 _PokemonTookItemText::
-	text "Took @"
+	text "Nimmt @"
 	text_ram wStringBuffer1
 	text_start
-	line "from @"
+	line "von @"
 	text_ram wMonOrItemNameBuffer
 	text "."
 	prompt
 
 _PokemonAskSwapItemText::
 	text_ram wMonOrItemNameBuffer
-	text " is"
-	line "already holding"
+	text " hält"
+	line "schon das Item"
 
 	para "@"
 	text_ram wStringBuffer1
 	text "."
-	line "Switch items?"
+	line "Items wechseln?"
 	done
 
 _ItemCantHeldText::
-	text "This item can't be"
-	line "held."
+	text "Du kannst dieses"
+	line "Item keinem"
+	cont "#MON geben."
 	prompt
 
 _MailLoseMessageText::
-	text "The MAIL will lose"
-	line "its message. OK?"
+	text "Der Inhalt des"
+	line "BRIEFes wird"
+	cont "gelöscht"
+	cont "Einverstanden?"
 	done
 
 _MailDetachedText::
-	text "MAIL detached from"
+	text "BRIEF entfernt von"
 	line "@"
 	text_ram wStringBuffer1
 	text "."
 	prompt
 
 _MailNoSpaceText::
-	text "There's no space"
-	line "for removing MAIL."
+	text "Es ist nicht"
+	line "genügend Platz"
+	cont "für entfernte"
+	cont "BRIEFE."
 	prompt
 
 _MailAskSendToPCText::
-	text "Send the removed"
-	line "MAIL to your PC?"
+	text "Den entfernten"
+	line "BRIEF auf deinen"
+	cont "PC übertragen?"
 	done
 
 _MailboxFullText::
-	text "Your PC's MAILBOX"
-	line "is full."
+	text "Du kannst keine"
+	line "weiteren BRIEFE"
+	cont "auf deinen PC"
+	cont "übertragen."
 	prompt
 
 _MailSentToPCText::
-	text "The MAIL was sent"
-	line "to your PC."
+	text "Der BRIEF wurde"
+	line "auf deinen PC"
+	cont "übertragen."
 	prompt
 
 _PokemonNotEnoughHPText::
-	text "Not enough HP!"
+	text "Nicht genügend KP!"
 	prompt
 
 _MayRegisterItemText::
