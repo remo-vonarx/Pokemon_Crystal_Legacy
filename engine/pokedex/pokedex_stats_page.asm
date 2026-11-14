@@ -6,9 +6,9 @@ ENDC
 EXPORT POKEDEX_STATSPAGE_MAX_PAGE_NUM
 
 String_BASE_text:
-	db "BASE       @" ; @ 8, 6
+	db "BASIS-     @" ; @ 8, 6
 String_STATS_text:
-	db " STATS     @" ; @ 8, 7
+	db " WERTE     @" ; @ 8, 7
 DisplayDexMonStats::
 	ld a, [wTempSpecies]
 	ld [wCurSpecies], a
@@ -97,22 +97,22 @@ Pokedex_GBS_Stats:
 	lb bc, 1, 3 ; 1 byte, 3 digits
 	call PrintNum
 
-	hlcoord 6, 11
+	hlcoord 15, 11
 	ld de, wBaseSpecialAttack
 	lb bc, 1, 3 ; 1 byte, 3 digits
 	call PrintNum
-	hlcoord 15, 11
+	hlcoord 15, 12
 	ld de, wBaseSpecialDefense
 	lb bc, 1, 3 ; 1 byte, 3 digits
 	call PrintNum
 	ret
 
 .String_abbrv_BS_text1:
-	db "  HP      SPE     @"
+	db "  KP     INIT     @"
 .String_abbrv_BS_text2:
-	db " ATK      DEF     @"
+	db "ANGR      VER     @"
 .String_abbrv_BS_text3:
-	db " SPA      SPD     @"
+	db " SPEZ.ANG<LF> SPEZ.VER@"
 
 Pokedex_BST:
 	hlcoord 2, 9
@@ -176,7 +176,7 @@ Pokedex_BST:
 	ld [wCurDamage + 1], a
 	ret
 .BS_Total_text:
-	db "Base Total:@"
+	db "Basis-Summe:@"
 
 Pokedex_Get_Items:
 ; TODO: Add code to differentiate same items in both entries, special cases
@@ -226,7 +226,7 @@ Pokedex_Get_Items:
 .ThreeDashes:
 	db "---@"
 .BS_ITEM_text:
-	db "Wild Held Items:@"
+	db "Getragene Items:@"
 .BS_ITEM1:
 	db "[23<%>]@"
 .BS_ITEM2:
@@ -250,7 +250,7 @@ ENDC
 	ret
 ;Catch Rate
 .BS_Catchrate:
-	db "Catch Rate: @"
+	db "Fangrate: @"
 
 Pokedex_PrintBaseExp:
 ; wBaseExp
@@ -270,7 +270,7 @@ ENDC
 	call PrintNum
 	ret
 .Exp_text:
-	db "EXP Yield:@"
+	db "Basis-EP:@"
 
 Pokedex_Get_Growth::
 ;Growth rate
@@ -305,17 +305,17 @@ ENDC
 	ret
 
 .growth_Medfast:
-	db "Med. Fast Growth@"
+	db "EP: Mittel-Schnell@"
 .growth_slightfast
-	db "Sml. Fast Growth@"
+	db "EP: Leicht-Schnell@"
 .growth_slightslow
-	db "Sml. Slow Growth@"
+	db "EP: Leicht-Langsam@"
 .growth_medslow
-	db "Med. Slow Growth@"
+	db "EP: Mittel-Langsam@"
 .growth_fast
-	db "Fast Growth@"
+	db "EP: Schnell@"
 .growth_slow
-	db "Slow Growth@"
+	db "EP: Langsam@"
 
 Pokedex_EggG_SetUp:
 	ld a, [wBaseEggGroups]
@@ -352,9 +352,9 @@ Pokedex_EggG_SetUp:
 .EggGroups_DONE
 	ret
 .BS_Egg_text1:
-	db "Egg Group: @"
+	db "Ei-Gruppe: @"
 .BS_Egg_text2:
-	db "Egg Groups: @"
+	db "Ei-Gruppen: @"
 
 Pokedex_Get_EggGroup:
 ;; have the fixed group num in 'a' already
@@ -422,31 +422,31 @@ Pokedex_Get_EggGroup:
 .EggG_Monster_text:
 	db "Monster@"
 .EggG_Amphibian_text:
-	db "Amphibian@"
+	db "Wasser 1@"
 .EggG_Bug_text:
-	db "Bug@"
+	db "Käfer@"
 .EggG_Flying_text:
-	db "Flying@"
+	db "Flug@"
 .EggG_Field_text:
-	db "Field@"
+	db "Feld@"
 .EggG_Fairy_text:
-	db "Fairy@"
+	db "Fee@"
 .EggG_Grass_text:
-	db "Grass@"
+	db "Pflanze@"
 .EggG_HumanLike_text:
-	db "Humane-Like@"
+	db "Humanotyp@"
 .EggG_Invertebrate_text:
-	db "Invertebrate@"
+	db "Wasser 3@"
 .EggG_Mineral_text:
 	db "Mineral@"
 .EggG_Amorphous_text:
-	db "Amorphous@"
+	db "Amorph@"
 .EggG_Fish_text:
-	db "Fish@"
+	db "Wasser 2@"
 .EggG_Ditto_text:
-	db "ALL@"
+	db "Ditto@"
 .EggG_Dragon_text:
-	db "Dragon@"
+	db "Drache@"
 
 Pokedex_Get_GenderRatio::
 	hlcoord 2, 14
@@ -483,11 +483,11 @@ Pokedex_Get_GenderRatio::
 	ret
 
 .GR_Text
-	db "Gender Ratio: @"
+	db "Geschlecht: @"
 .GR_always_fem:
-	db "♀ Only@"
+	db "Nur ♀@"
 .GR_always_male
-	db "♂ Only@"
+	db "Nur ♂@"
 .GR_QuarterF
 	db "1♀:4♂@"
 .GR_Equal
@@ -508,7 +508,7 @@ Pokedex_PrintHatchSteps:
 	call PrintNum
 	ret
 .HatchSteps_text:
-	db "Egg Cycles:@"
+	db "Ei-Zyklen:@"
 
 ; If using EVs instead of StatEXP
 IF DEF(wBaseHPAtkDefSpdEVs)
@@ -646,16 +646,15 @@ Pokedex_PrintBaseEVs:
 ENDC
 
 Pokedex_HeightWeight:
+; the German ROM's metric block from its entry page (GR. and GEW), one column wider so GEW keeps a space before 100.0
 	push hl
 	push bc
 	push de
-; height string
-IF !DEF(wBaseHPAtkDefSpdEVs) ; vanilla
-	hlcoord 2, 15
-ELSE ; using EVs
 	hlcoord 2, 14
-ENDC
-	ld de, .String_HeightWeight_blank
+	ld de, .String_Height
+	call PlaceString
+	hlcoord 2, 15
+	ld de, .String_Weight
 	call PlaceString
 
 ; get pokemon's dex entry ptr in b:de
@@ -677,24 +676,14 @@ ENDC
 	push af ; keep bank
 	call GetFarWord
 	ld a, h
-	ld [wPoisonStepCount], a ; weight ptr, 2 bytes
+	ld [wPoisonStepCount], a ; height, 2 bytes
 	ld a, l
-	ld [wPoisonStepCount + 1], a ; weight ptr, 2 bytes
-	ld de, wPoisonStepCount ; weight ptr, 2 bytes
-; Print the height, with two of the four digits in front of the decimal point
-IF !DEF(wBaseHPAtkDefSpdEVs) ; vanilla
-	hlcoord 4, 15
-ELSE ; using EVs
-	hlcoord 4, 14
-ENDC
-	lb bc, 2, (2 << 4) | 4
+	ld [wPoisonStepCount + 1], a
+	ld de, wPoisonStepCount
+; Print the height in decimeters as meters, with two of the three digits in front of the decimal point
+	hlcoord 7, 14
+	lb bc, 2, (2 << 4) | 3
 	call PrintNum
-IF !DEF(wBaseHPAtkDefSpdEVs) ; vanilla
-	hlcoord 6, 15
-ELSE ; using EVs
-	hlcoord 6, 14
-ENDC
-	ld [hl], "′"
 ; get weight
 	pop af ; bank
 	pop hl ; ptr
@@ -702,63 +691,22 @@ ENDC
 	inc hl
 	call GetFarWord
 	ld a, h
-	ld [wPoisonStepCount], a ; weight ptr, 2 bytes
+	ld [wPoisonStepCount], a ; weight, 2 bytes
 	ld a, l
-	ld [wPoisonStepCount + 1], a ; weight ptr, 2 bytes
-	ld de, wPoisonStepCount ; weight ptr, 2 bytes
-; 2 digit weight (actually 3, but we are cutting off decimal since it's always 0)
-	ld a, h
-	cp 3
-	jr c, .normal_weight
-	cp 4
-	jr nc, .heavy_weight
-	jr z, .heavy_weight
-	ld a, l
-	cp $e8
-	jr c, .normal_weight
-.heavy_weight	
-	
-IF !DEF(wBaseHPAtkDefSpdEVs) ; vanilla
-	hlcoord 14, 15
-ELSE ; using EVs
-	hlcoord 14, 14
-ENDC
+	ld [wPoisonStepCount + 1], a
+	ld de, wPoisonStepCount
+; Print the weight in hectograms as kilograms, with three of the four digits in front of the decimal point
+	hlcoord 6, 15
 	lb bc, 2, (3 << 4) | 4
 	call PrintNum
-IF !DEF(wBaseHPAtkDefSpdEVs) ; vanilla
-	hlcoord 17, 15
-ELSE ; using EVs
-	hlcoord 17, 14
-ENDC
-	ld de, .String_pounds
-	call PlaceString
-	jr .done
-; 3 digit weight (actually 4, but we are cutting off decimal since it's always 0)
-.normal_weight	
-	; Print the weight, with 3 of the 4 digits in front of the decimal point
-IF !DEF(wBaseHPAtkDefSpdEVs) ; vanilla
-	hlcoord 13, 15
-ELSE ; using EVs
-	hlcoord 13, 14
-ENDC
-	lb bc, 2, (3 << 4) | 4
-	call PrintNum
-IF !DEF(wBaseHPAtkDefSpdEVs) ; vanilla
-	hlcoord 16, 15
-ELSE ; using EVs
-	hlcoord 16, 14
-ENDC	
-	ld de, .String_pounds
-	call PlaceString
-.done	
 	pop de
 	pop bc
-	pop hl	
+	pop hl
 	ret
-.String_HeightWeight_blank:
-	db "HT     ″ WT       @" ; HT  ?'??"
-.String_pounds:
-	db "lbs@"
+.String_Height:
+	db "GR.      m@"
+.String_Weight:
+	db "GEW      kg@"
 
 BS_HP_text:
 	db " HP@"

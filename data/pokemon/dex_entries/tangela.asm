@@ -1,10 +1,10 @@
-	db "VINE@" ; species name
-	dw 303, 770 ; height, weight
+	db "RANKE@" ; species name
+	dw 10, 350 ; height (dm), weight (hg)
 
-	db   "During battle, it"
-	next "constantly moves"
-	next "the vines that"
+	db   "Im Kampf bewegt"
+	next "es stets die"
+	next "Ranken, die seinen"
 
-	page "cover its body in"
-	next "order to annoy its"
-	next "opponent.@"
+	page "Körper bedecken,"
+	next "um seinen Gegner"
+	next "aufzuregen.@"

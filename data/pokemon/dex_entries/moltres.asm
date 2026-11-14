@@ -1,10 +1,10 @@
-	db "FLAME@" ; species name
-	dw 607, 1320 ; height, weight
+	db "FEUER@" ; species name
+	dw 20, 600 ; height (dm), weight (hg)
 
-	db   "Legendary bird"
-	next "#MON. It is"
-	next "said to migrate"
+	db   "Ein legendäres"
+	next "Vogel-#MON."
+	next "Man sagt, dass es"
 
-	page "from the south"
-	next "along with the"
-	next "spring.@"
+	page "vom Süden kommt"
+	next "und mit dem"
+	next "Frühling fliegt.@"

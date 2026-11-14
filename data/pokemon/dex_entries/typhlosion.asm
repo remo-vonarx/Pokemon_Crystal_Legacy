@@ -1,10 +1,10 @@
-	db "VOLCANO@" ; species name
-	dw 507, 1750 ; height, weight
+	db "VULKAN@" ; species name
+	dw 17, 795 ; height (dm), weight (hg)
 
-	db   "When heat from its"
-	next "body causes the"
-	next "air around it to"
+	db   "Wenn es kampfbe-"
+	next "reit ist, strahlt"
+	next "sein Körper eine"
 
-	page "shimmer, this is a"
-	next "sign that it is"
-	next "ready to battle.@"
+	page "derartige Hitze"
+	next "aus, dass die Luft"
+	next "um ihn flimmert.@"

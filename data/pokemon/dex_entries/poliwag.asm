@@ -1,10 +1,10 @@
-	db "TADPOLE@" ; species name
-	dw 200, 270 ; height, weight
+	db "KAULQUAPPE@" ; species name
+	dw 6, 124 ; height (dm), weight (hg)
 
-	db   "The swirl on its"
-	next "belly is its"
-	next "insides showing"
+	db   "Der Kreisel auf"
+	next "seinem Bauch sind"
+	next "seine Innereien,"
 
-	page "through the skin."
-	next "It looks clearer"
-	next "after it eats.@"
+	page "die durchscheinen."
+	next "Hat es gefressen,"
+	next "sind sie klarer.@"

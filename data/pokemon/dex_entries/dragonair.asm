@@ -1,10 +1,10 @@
-	db "DRAGON@" ; species name
-	dw 1301, 360 ; height, weight
+	db "DRACHE@" ; species name
+	dw 40, 165 ; height (dm), weight (hg)
 
-	db   "It is called the"
-	next "divine #MON."
-	next "When its entire"
+	db   "Man nennt es das"
+	next "göttliche #MON."
+	next "Wenn sein gesamter"
 
-	page "body brightens"
-	next "slightly, the"
-	next "weather changes.@"
+	page "Körper ein wenig"
+	next "leuchtet, ändert"
+	next "sich das Wetter.@"

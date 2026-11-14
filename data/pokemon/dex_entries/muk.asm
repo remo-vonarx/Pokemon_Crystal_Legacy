@@ -1,10 +1,10 @@
-	db "SLUDGE@" ; species name
-	dw 311, 660 ; height, weight
+	db "SCHLAMM@" ; species name
+	dw 12, 300 ; height (dm), weight (hg)
 
-	db   "As it moves, a"
-	next "very strong poison"
-	next "leaks from it,"
+	db   "Bei jeder Bewegung"
+	next "tropft Gift aus"
+	next "ihm heraus auf den"
 
-	page "making the ground"
-	next "there barren for"
-	next "three years.@"
+	page "Boden, der dadurch"
+	next "für drei Jahre"
+	next "verseucht ist.@"

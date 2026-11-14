@@ -1,10 +1,10 @@
-	db "LONELY@" ; species name
-	dw 104, 140 ; height, weight
+	db "EINSAM@" ; species name
+	dw 4, 65 ; height (dm), weight (hg)
 
-	db   "It lost its mother"
-	next "after its birth."
-	next "It wears its"
+	db   "Es hat seine Mut-"
+	next "ter bei der Geburt"
+	next "verloren. Seitdem"
 
-	page "mother's skull,"
-	next "never revealing"
-	next "its true face.@"
+	page "trägt es ihren"
+	next "Schädel und zeigt"
+	next "nie sein Gesicht.@"

@@ -1,10 +1,10 @@
-	db "BIVALVE@" ; species name
-	dw 411, 2920 ; height, weight
+	db "MUSCHEL@" ; species name
+	dw 15, 1325 ; height (dm), weight (hg)
 
-	db   "Even a missile"
-	next "can't break the"
-	next "spikes it uses to"
+	db   "Nicht einmal eine"
+	next "Rakete kann seine"
+	next "Angriffsstacheln"
 
-	page "stab opponents."
-	next "They're even hard-"
-	next "er than its shell.@"
+	page "zerbrechen. Sie"
+	next "sind härter als"
+	next "seine Schale.@"

@@ -1,10 +1,10 @@
-	db "VOLCANO@" ; species name
-	dw 211, 420 ; height, weight
+	db "VULKAN@" ; species name
+	dw 9, 190 ; height (dm), weight (hg)
 
-	db   "Before battle, it"
-	next "turns its back on"
-	next "its opponent to"
+	db   "Vor dem Kampf"
+	next "dreht es dem Feind"
+	next "den Rücken zu, um"
 
-	page "demonstrate how"
-	next "ferociously its"
-	next "fire blazes.@"
+	page "ihm zu zeigen, wie"
+	next "Furcht erregend"
+	next "sein Feuer lodert.@"

@@ -1,10 +1,10 @@
-	db "MOLD@" ; species name
-	dw 200, 450 ; height, weight
+	db "SCHIMMEL@" ; species name
+	dw 6, 205 ; height (dm), weight (hg)
 
-	db   "The fluid secreted"
-	next "by its toes carves"
-	next "holes in rocks for"
+	db   "Sein Zehensekret"
+	next "ätzt Löcher für"
+	next "Nester in Felsen."
 
-	page "nesting and can be"
-	next "mixed with BERRIES"
-	next "to make a drink.@"
+	page "Mischt man es mit"
+	next "BEEREN, entsteht"
+	next "leckerer Saft.@"

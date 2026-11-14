@@ -1,10 +1,10 @@
-	db "NEW SPECIE@" ; species name
-	dw 104, 90 ; height, weight
+	db "NEUE ART@" ; species name
+	dw 4, 40 ; height (dm), weight (hg)
 
-	db   "Because it can"
-	next "learn any move,"
-	next "some people began"
+	db   "Da es jede Attacke"
+	next "erlernen kann,"
+	next "glauben manche"
 
-	page "research to see if"
-	next "it is the ancestor"
-	next "of all #MON.@"
+	page "Menschen, dass es"
+	next "der Urvater aller"
+	next "#MON ist.@"

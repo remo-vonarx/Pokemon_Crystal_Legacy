@@ -1,10 +1,10 @@
-	db "DARKNESS@" ; species name
-	dw 108, 50 ; height, weight
+	db "FINSTERNIS@" ; species name
+	dw 5, 21 ; height (dm), weight (hg)
 
-	db   "It hides any shiny"
-	next "object it finds in"
-	next "a secret location."
+	db   "Es versteckt jeden"
+	next "schimmernden"
+	next "Gegenstand."
 
-	page "MURKROW and"
-	next "MEOWTH loot one"
-	next "another's stashes.@"
+	page "KRAMURX und MAUZI"
+	next "rauben sich gegen-"
+	next "seitig die Beute.@"
