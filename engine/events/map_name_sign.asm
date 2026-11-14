@@ -157,6 +157,8 @@ PlaceMapNameCenterAlign:
 	jr z, .stop
 	cp "%"
 	jr z, .loop
+	cp "<SHY>"
+	jr z, .loop
 	inc c
 	jr .loop
 .stop

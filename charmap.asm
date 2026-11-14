@@ -10,6 +10,8 @@
 	charmap "<LF>",      $22
 	charmap "<POKE>",    $24 ; "<PO><KE>"
 	charmap "%",         $25 ; soft linebreak in landmark names
+	charmap "<SHY>",     $1e ; soft hyphen in landmark names: nothing, or "-" and a line break on the town map
+	charmap "<SHY_LF>",  $1d ; "-" and a line break (the town map's form of <SHY>)
 	charmap "<RED>",     $38 ; wRedsName
 	charmap "<GREEN>",   $39 ; wGreensName
 	charmap "<ENEMY>",   $3f
