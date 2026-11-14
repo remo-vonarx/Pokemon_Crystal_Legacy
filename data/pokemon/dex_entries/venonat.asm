@@ -1,10 +1,10 @@
-	db "INSECT@" ; species name
+	db "INSEKT@" ; species name
 	dw 303, 660 ; height, weight
 
-	db   "The small bugs it"
-	next "eats appear only"
-	next "at night, so it"
+	db   "Die kleinen Käfer,"
+	next "die es frisst,"
+	next "sind nachtaktiv."
 
-	page "sleeps in a hole"
-	next "in a tree until"
-	next "night falls.@"
+	page "Daher schläft es"
+	next "in einem Baum, bis"
+	next "es dunkel wird.@"

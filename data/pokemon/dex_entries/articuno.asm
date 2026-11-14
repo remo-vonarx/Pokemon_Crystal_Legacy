@@ -1,10 +1,10 @@
-	db "FREEZE@" ; species name
+	db "EIS@" ; species name
 	dw 507, 1220 ; height, weight
 
-	db   "Legendary bird"
-	next "#MON. As it"
-	next "flies through the"
+	db   "Ein legendäres"
+	next "Vogel-#MON."
+	next "Es kühlt die Luft"
 
-	page "sky, it cools the"
-	next "air, causing snow"
-	next "to fall.@"
+	page "beim Fliegen so"
+	next "stark ab, dass es"
+	next "schneit.@"

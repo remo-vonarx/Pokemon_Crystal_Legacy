@@ -1,10 +1,10 @@
-	db "LIGHT@" ; species name
+	db "LEUCHTE@" ; species name
 	dw 407, 1360 ; height, weight
 
-	db   "When it gets dark,"
-	next "the light from its"
-	next "bright, shiny tail"
+	db   "Bei Dunkelheit"
+	next "sieht man das hel-"
+	next "le Licht an seinem"
 
-	page "can be seen from"
-	next "far away on the"
-	next "ocean's surface.@"
+	page "Schwanz von weitem"
+	next "über das Meer"
+	next "scheinen.@"

@@ -1,10 +1,10 @@
-	db "SPIRAL@" ; species name
+	db "SPIRALE@" ; species name
 	dw 104, 170 ; height, weight
 
-	db   "In prehistoric"
-	next "times, it swam on"
-	next "the sea floor,"
+	db   "In der Vorzeit"
+	next "schwamm es am"
+	next "Meeresgrund und"
 
-	page "eating plankton."
-	next "Its fossils are"
-	next "sometimes found.@"
+	page "fraß Plankton."
+	next "Selten gibt es"
+	next "Fossilienfunde.@"

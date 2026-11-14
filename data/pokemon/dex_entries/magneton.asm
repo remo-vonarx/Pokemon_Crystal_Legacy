@@ -1,10 +1,10 @@
 	db "MAGNET@" ; species name
 	dw 303, 1320 ; height, weight
 
-	db   "When many"
-	next "MAGNETON gather"
-	next "together, the"
+	db   "Versammeln sich"
+	next "viele MAGNETON,"
+	next "entsteht ein"
 
-	page "resulting magnetic"
-	next "storm disrupts"
-	next "radio waves.@"
+	page "starkes Magnet-"
+	next "feld, das Radio-"
+	next "wellen zerstört.@"

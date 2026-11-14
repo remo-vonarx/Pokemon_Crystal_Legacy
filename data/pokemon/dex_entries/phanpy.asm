@@ -1,10 +1,10 @@
-	db "LONG NOSE@" ; species name
+	db "LANGRÜSSEL@" ; species name
 	dw 108, 740 ; height, weight
 
-	db   "During the desert-"
-	next "ed morning hours,"
-	next "it comes ashore"
+	db   "In den ruhigen"
+	next "Morgenstunden"
+	next "geht es zu seiner"
 
-	page "where it deftly"
-	next "uses its trunk to"
-	next "take a shower.@"
+	page "Wasserstelle und"
+	next "duscht sich mit"
+	next "seinem Rüssel.@"

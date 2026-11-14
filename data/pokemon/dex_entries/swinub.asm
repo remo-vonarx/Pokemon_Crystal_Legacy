@@ -1,10 +1,10 @@
-	db "PIG@" ; species name
+	db "FERKEL@" ; species name
 	dw 104, 140 ; height, weight
 
-	db   "It uses the tip of"
-	next "its nose to dig"
-	next "for food. Its nose"
+	db   "Mit seiner Nase"
+	next "gräbt es nach Nah-"
+	next "rung. Sie ist so"
 
-	page "is so tough that"
-	next "even frozen ground"
-	next "poses no problem.@"
+	page "hart, dass selbst"
+	next "gefrorener Boden"
+	next "kein Problem ist.@"

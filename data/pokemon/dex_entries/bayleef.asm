@@ -1,10 +1,10 @@
-	db "LEAF@" ; species name
+	db "LAUB@" ; species name
 	dw 311, 350 ; height, weight
 
-	db   "The scent that"
-	next "wafts from the"
-	next "leaves on its neck"
+	db   "Der Duft, aus den"
+	next "Knospen um seinen"
+	next "Hals, setzt bei"
 
-	page "causes anyone who"
-	next "smells it to"
-	next "become energetic.@"
+	page "jedem, der ihn"
+	next "riecht, neue"
+	next "Energien frei.@"

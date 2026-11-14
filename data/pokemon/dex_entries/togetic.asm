@@ -1,10 +1,10 @@
-	db "HAPPINESS@" ; species name
+	db "FREUDE@" ; species name
 	dw 200, 70 ; height, weight
 
-	db   "Although it does"
-	next "not flap its wings"
-	next "very much, it can"
+	db   "Obwohl es nicht"
+	next "viel mit den Flü-"
+	next "geln schlägt, hält"
 
-	page "stay up in the air"
-	next "as it tags along"
-	next "after its trainer.@"
+	page "es sich in der"
+	next "Luft, wenn es sei-"
+	next "nem Trainer folgt.@"

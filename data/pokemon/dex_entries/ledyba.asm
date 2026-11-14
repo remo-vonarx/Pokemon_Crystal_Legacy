@@ -1,10 +1,10 @@
-	db "FIVE STAR@" ; species name
+	db "FÜNF-PUNKT@" ; species name
 	dw 303, 240 ; height, weight
 
-	db   "It is timid and"
-	next "clusters together"
-	next "with others. The"
+	db   "Es ist scheu und"
+	next "stets mit Artge-"
+	next "nossen zusammen."
 
-	page "fluid secreted by"
-	next "its feet indicates"
-	next "its location.@"
+	page "Das Sekret an sei-"
+	next "nen Füßen führt zu"
+	next "seinem Standort.@"

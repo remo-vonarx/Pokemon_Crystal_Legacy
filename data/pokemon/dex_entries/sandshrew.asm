@@ -1,10 +1,10 @@
-	db "MOUSE@" ; species name
+	db "MAUS@" ; species name
 	dw 200, 260 ; height, weight
 
-	db   "It prefers dry,"
-	next "sandy places"
-	next "because it uses"
+	db   "Es lebt bevorzugt"
+	next "in sandigen Ge-"
+	next "bieten, da es sich"
 
-	page "the sand to"
-	next "protect itself"
-	next "when threatened.@"
+	page "bei Gefahr im Sand"
+	next "eingräbt, um sich"
+	next "zu schützen.@"

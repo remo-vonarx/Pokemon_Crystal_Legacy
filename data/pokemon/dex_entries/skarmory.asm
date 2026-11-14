@@ -1,10 +1,10 @@
-	db "ARMOR BIRD@" ; species name
+	db "FLUGSTAHL@" ; species name
 	dw 507, 1110 ; height, weight
 
-	db   "The feathers that"
-	next "it sheds are very"
-	next "sharp. It is said"
+	db   "Seine Federn sind"
+	next "sehr scharf. Man"
+	next "sagt, dass die"
 
-	page "that people once"
-	next "used the feathers"
-	next "as swords.@"
+	page "Menschen die Fe-"
+	next "dern als Schwerter"
+	next "benutzten.@"

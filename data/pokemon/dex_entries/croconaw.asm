@@ -1,10 +1,10 @@
-	db "BIG JAW@" ; species name
+	db "GROSSMAUL@" ; species name
 	dw 307, 550 ; height, weight
 
-	db   "The tips of its"
-	next "fangs are slanted"
-	next "backward. Once"
+	db   "Seine Zähne sind"
+	next "nach hinten ge-"
+	next "richtet. Hat es"
 
-	page "those fangs clamp"
-	next "down, the prey has"
-	next "no hope of escape.@"
+	page "erst zugebissen,"
+	next "gibt es kein"
+	next "Entrinnen.@"

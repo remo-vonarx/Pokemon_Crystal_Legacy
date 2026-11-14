@@ -1,10 +1,10 @@
-	db "MUSHROOM@" ; species name
+	db "PILZ@" ; species name
 	dw 100, 120 ; height, weight
 
-	db   "The tochukaso"
-	next "growing on this"
-	next "#MON's back"
+	db   "Die Tochukaso, die"
+	next "auf seinem Rücken"
+	next "wachsen, befehlen"
 
-	page "orders it to"
-	next "extract juice from"
-	next "tree trunks.@"
+	page "ihm, den Saft"
+	next "aus Baumstämmen"
+	next "zu trinken.@"

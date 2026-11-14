@@ -1,10 +1,10 @@
-	db "WEED@" ; species name
+	db "UNKRAUT@" ; species name
 	dw 108, 120 ; height, weight
 
-	db   "During the day, it"
-	next "stays in the cold"
-	next "underground to"
+	db   "Tagsüber versteckt"
+	next "es sich in der"
+	next "kalten Erde, um"
 
-	page "avoid the sun."
-	next "It grows by bath-"
-	next "ing in moonlight.@"
+	page "die Sonne zu"
+	next "meiden. Es wächst"
+	next "im Mondschein.@"

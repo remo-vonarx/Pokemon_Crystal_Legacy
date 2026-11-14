@@ -1,10 +1,10 @@
-	db "CORAL@" ; species name
+	db "KORALLE@" ; species name
 	dw 200, 110 ; height, weight
 
-	db   "The points on its"
-	next "head absorb"
-	next "nutrients from"
+	db   "Die Punkte auf"
+	next "seinem Kopf ernäh-"
+	next "ren sich in klarem"
 
-	page "clean water. They"
-	next "cannot survive in"
-	next "polluted water.@"
+	page "Wasser. Es kann"
+	next "nicht in Schmutz-"
+	next "wasser leben.@"

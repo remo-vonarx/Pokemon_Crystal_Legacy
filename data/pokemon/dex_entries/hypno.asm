@@ -1,10 +1,10 @@
-	db "HYPNOSIS@" ; species name
+	db "HYPNOSE@" ; species name
 	dw 503, 1670 ; height, weight
 
-	db   "The longer it"
-	next "swings its"
-	next "pendulum, the"
+	db   "Je länger es sein"
+	next "Pendel schwingt,"
+	next "desto länger sind"
 
-	page "longer the effects"
-	next "of its hypnosis"
-	next "last.@"
+	page "auch die Auswir-"
+	next "kungen seiner"
+	next "Hypnose zu spüren.@"

@@ -1,10 +1,10 @@
-	db "LONG BODY@" ; species name
+	db "LANGLEIB@" ; species name
 	dw 511, 720 ; height, weight
 
-	db   "It lives in narrow"
-	next "burrows that fit"
-	next "its slim body. The"
+	db   "Sein Bau ist sei-"
+	next "nem schlanken Kör-"
+	next "per angepasst. Je"
 
-	page "deeper the nests"
-	next "go, the more maze-"
-	next "like they become.@"
+	page "tiefer sein Bau"
+	next "ist, desto ver-"
+	next "zweigter ist er.@"
