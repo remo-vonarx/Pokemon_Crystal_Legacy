@@ -677,19 +677,19 @@ LoadPinkPage:
 
 .Status_Type:
 	db   "STATUS/"
-	next "TYPE/@"
+	next "TYP/@"
 
 .OK_str:
-	db "OK @"
+	db "OK@"
 
 .ExpPointStr:
-	db "EXP POINTS@"
+	db "EP-PUNKTE@"
 
 .LevelUpStr:
 	db "LEVEL UP@"
 
 .ToStr:
-	db "TO@"
+	db "▶@"
 
 .PkrsStr:
 	db "#RUS@"
@@ -737,7 +737,7 @@ LoadGreenPage:
 	db "---@"
 
 .Move:
-	db "MOVE@"
+	db "ATTACKE@"
 
 LoadBluePage:
 	call StatsScreen_PrintHappiness
@@ -948,10 +948,10 @@ StatsScreen_PrintDVs:
 	ret
 
 .DVstring1:
-	db "DVS: ATK    DEF   @"
+	db "DV: ANGR    VER   @"
 .DVstring2:	
 	; db "ATK    DEF@"
-	db "HP   SPC    SPE   @"
+	db "KP   SPEZ   INIT  @"
 ; .DVstring3:
 ; 	db "SPC    SPE    HP@"
 
@@ -979,9 +979,9 @@ StatsScreen_placeCaughtLocation:
 	call PlaceString
 	ret
 .MetAtMapString:
-	db "MET: @"
+	db "FANG @"
 .MetUnknownMapString:
-	db "UNKNOWN LOCATION@"
+	db "UNBEKANNTER ORT@"
 
 StatsScreen_placeCaughtTime:
 	ld a, [wTempMonCaughtTime]
@@ -1011,11 +1011,11 @@ StatsScreen_placeCaughtTime:
 	call PlaceString
 	ret
 .times
-	db "MORN@"
-	db "DAY@"
-	db "NITE@"
+	db "VORM.@"
+	db "TAG@"
+	db "NACHT@"
 .unknown_time_text
-	db "TRADE@"
+	db "TAUSCH@"
 
 StatsScreen_placeCaughtLevel:
 	; caught level
@@ -1178,10 +1178,9 @@ StatsScreen_Print_HiddenPow_Info:
 	ld de, .hp_30_text
 	sub 30
 .print1
+; German puts the unit before the tens (EINUNDDREISSIG): print the unit first, then the tens
+	push de
 	hlcoord 2, 17
-	push af
-	call PlaceString_UnownFont
-	pop af
 
 	cp 9
 	jr c, .not9
@@ -1224,42 +1223,45 @@ StatsScreen_Print_HiddenPow_Info:
 	jr .print2
 .not2
 	cp 1
-	ret c
+	jr c, .print_tens
 	ld de, .hp_1_text
 .print2
 	; hlcoord 13, 16
-	call PlaceString_UnownFont	
+	call PlaceString_UnownFont
+.print_tens
+	pop de
+	call PlaceString_UnownFont
 	ret
 .hidden_pow_text:
-	db "HIDDEN POWER@"
+	db "KRAFTRESERVE@"
 .hp_70_text:
-	db "SEVENTY@"
+	db "SIEBZIG@"
 .hp_60_text:
-	db "SIXTY@"
+	db "SECHZIG@"
 .hp_50_text:
-	db "FIFTY@"
+	db "FUENFZIG@"
 .hp_40_text:
-	db "FORTY@"
+	db "VIERZIG@"
 .hp_30_text:
-	db "THIRTY@"
+	db "DREISSIG@"
 .hp_1_text:
-	db "-ONE@"
+	db "EINUND@"
 .hp_2_text:
-	db "-TWO@"
+	db "ZWEIUND@"
 .hp_3_text:
-	db "-THREE@"
+	db "DREIUND@"
 .hp_4_text:
-	db "-FOUR@"
+	db "VIERUND@"
 .hp_5_text:
-	db "-FIVE@"
+	db "FUENFUND@"
 .hp_6_text:
-	db "-SIX@"
+	db "SECHSUND@"
 .hp_7_text:
-	db "-SEVEN@"
+	db "SIEBENUND@"
 .hp_8_text:
-	db "-EIGHT@"
+	db "ACHTUND@"
 .hp_9_text:
-	db "-NINE@"
+	db "NEUNUND@"
 
 PlaceString_UnownFont_Type:
 	push hl
@@ -1274,6 +1276,12 @@ PlaceString_UnownFont_Type:
 	cp "@"
 	ret z
 	inc de
+	cp "Ä" ; KÄFER: no Unown letter for Ä, print AE
+	jr nz, .letter
+	ld a, $BA ; FIRST_UNOWN_CHAR, "A"
+	ld [hli], a
+	ld a, "E"
+.letter
 	sub "A"
 	add $BA ; FIRST_UNOWN_CHAR
 	ld [hli], a
@@ -1542,31 +1550,34 @@ endc
 	ret
 
 EggString:
-	db "EGG@"
+	db "EI@"
 
 FiveQMarkString:
 	db "?????@"
 
 EggSoonString:
-	db   "It's making sounds"
-	next "inside. It's going"
-	next "to hatch soon!@"
+	db   "Es sind schon"
+	next "Laute zu hören."
+	next "Es wird bald"
+	next "schlüpfen!@"
 
 EggCloseString:
-	db   "It moves around"
-	next "inside sometimes."
-	next "It must be close"
-	next "to hatching.@"
+	db   "Es bewegt sich"
+	next "manchmal."
+	next "Es könnte bald"
+	next "schlüpfen!@"
 
 EggMoreTimeString:
-	db   "Wonder what's"
-	next "inside? It needs"
-	next "more time, though.@"
+	db   "Was ist in"
+	next "dem EI?"
+	next "Gedulde dich noch"
+	next "ein wenig!@"
 
 EggALotMoreTimeString:
-	db   "This EGG needs a"
-	next "lot more time to"
-	next "hatch.@"
+	db   "Das Ei braucht"
+	next "noch eine ganze"
+	next "Weile,bis"
+	next "es schlüpft!@"
 
 StatsScreen_AnimateEgg:
 	call StatsScreen_GetAnimationParam

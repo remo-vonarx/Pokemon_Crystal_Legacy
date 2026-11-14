@@ -40,57 +40,63 @@ _HowManyShouldIMakeText::
 _RecoveredSomeHPText::
 	text_ram wStringBuffer1
 	text_start
-	line "recovered @"
+	line "erhält @"
 	text_decimal wCurHPAnimDeltaHP, 2, 3
-	text "HP!"
+	text " KP!"
 	done
 
 _CuredOfPoisonText::
+	text "Die Vergiftung von"
+	line "@"
 	text_ram wStringBuffer1
-	text "'s"
-	line "cured of poison."
+	text_start
+	cont "wurde geheilt."
 	done
 
 _RidOfParalysisText::
+	text "Die Paralyse von"
+	line "@"
 	text_ram wStringBuffer1
-	text "'s"
-	line "rid of paralysis."
+	text_start
+	cont "wurde aufgehoben."
 	done
 
 _BurnWasHealedText::
+	text "Verbrennung von"
+	line "@"
 	text_ram wStringBuffer1
-	text "'s"
-	line "burn was healed."
+	text_start
+	cont "wurde geheilt."
 	done
 
 _WasDefrostedText::
 	text_ram wStringBuffer1
 	text_start
-	line "was defrosted."
+	line "wurde aufgetaut."
 	done
 
 _WokeUpText::
 	text_ram wStringBuffer1
 	text_start
-	line "woke up."
+	line "ist aufgewacht."
 	done
 
 _HealthReturnedText::
 	text_ram wStringBuffer1
-	text "'s"
-	line "health returned."
+	text_start
+	line "ist wieder fit."
 	done
 
 _RevitalizedText::
 	text_ram wStringBuffer1
 	text_start
-	line "is revitalized."
+	line "ist wieder fit."
 	done
 
 _GrewToLevelText::
 	text_ram wStringBuffer1
-	text " grew to"
-	line "level @"
+	text " er-"
+	line "reicht Level @"
 	text_decimal wCurPartyLevel, 1, 3
 	text "!@"
 	sound_dex_fanfare_50_79 ; plays SFX_DEX_FANFARE_50_79, identical to SFX_LEVEL_UP
@@ -101,8 +107,8 @@ _GrewToLevelText::
 
 _CameToItsSensesText::
 	text_ram wStringBuffer1
-	text " came"
-	line "to its senses."
+	text " kommt"
+	line "wieder zu sich."
 	done
 
 _EnterNewPasscodeText::
