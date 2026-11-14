@@ -17,3 +17,13 @@ Settled translation decisions for Crystal Legacy. Read before every task; add ea
 | Also, your POKéGEAR is back from the shop. | Außerdem ist dein #COM von der Reparatur zurück. | Mom, first talk | German ROM 1e:6c34 with Legacy's cuts; `Außerdem` own for Legacy's `Also,`; the ROM's `von der Reparatur` kept for Legacy's `shop` |
 | Great! No need to explain it then. | Toll! Dann muss ich es dir nicht erklären. | Mom, after JA to the phone question | Own |
 | Oh, and remember, you can get there faster if you run! | Oh, und vergiss nicht: Wenn du rennst, bist du schneller dort! | Mom, end of her talk | Own; `Vergiss nicht` as in the German ROM |
+| Pokémon, move, item, type and trainer class names, A–Z Pokédex order | German ROM tables, by index | everywhere | German ROM: Pokémon 14:736e (incl. `?????` and `EI`), moves 72:5e9d, items 72:4000, types via 14:496e (BIRD is empty there), classes 0b:41ef, A–Z order 10:4c5e |
+| Trainer names | German ROM, by trainer class and position | trainer battles, phone | Same English name, different German name by position: the two KIMONO_GIRL NAOKOs are NAOKO and EDITH; KATE is `EDNA ` with the ROM's trailing space |
+| OLD AMBER / DOME FOSSIL / HELIX FOSSIL | ALTBERNSTEIN / DOMFOSSIL / HELIXFOSSIL | Legacy's fossil items | Official (PokeAPI) |
+| BOSS (Legacy's trainer class) | BOSS | Giovanni | German Feuerrot/Blattgrün (PokéWiki); chosen over HeartGold/SoulSilver's `Rocket Boss` |
+| ROCKET / <PKMN> TRAINER (Legacy's classes) | ROCKET / TRAINER | Archer, Weebra | The German ROM's names for the same English class names |
+| ARCHER / ARIANA | ATLAS / ATHENA | Rocket executives | PokéWiki (HeartGold/SoulSilver) |
+| ETO (Legacy's named grunt) | RÜPEL | Slowpoke Well, Rocket HQ, Goldenrod warehouse | Like the German ROM's other grunts (GRUNT → RÜPEL) |
+| SMITH / CRAIG / WEEBRA | SMITH / CRAIG / WEEBRA | Trainer House B1F | Legacy's own names, kept |
+| DORIS / PAUL (trade nicknames) | DORIS / POLLO | Legacy's MR. MIME and HAUNTER trades | The German ROM's DORI and AVIO in these slots were puns on DODRIO and XATU. DORIS kept; POLLO is the German nickname of the HAUNTER traded in Diamond/Pearl/Platinum (PokéWiki), since the German ROM's trainer here is PAUL. OTs from the German ROM (CARMEN, PAUL) |
+| Item pocket names, receive texts | ITEM-TASCHE / BASIS-ITEMS / BALL-TASCHE / TM-TASCHE; `erhält`, `steckt … in …`, `… ist voll…` | receiving items | German ROM 25:7024, 71:4820–484e |
