@@ -1,5 +1,5 @@
 	db "LAUB@" ; species name
-	dw 211, 140 ; height, weight
+	dw 9, 64 ; height (dm), weight (hg)
 
 	db   "Es liegt gerne in"
 	next "der Sonne. Mit"

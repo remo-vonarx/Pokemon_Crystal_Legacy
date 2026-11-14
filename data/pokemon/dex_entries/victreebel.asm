@@ -1,5 +1,5 @@
 	db "FLIEGENTOT@" ; species name
-	dw 507, 340 ; height, weight
+	dw 17, 155 ; height (dm), weight (hg)
 
 	db   "Selbst die härtes-"
 	next "ten Objekte"

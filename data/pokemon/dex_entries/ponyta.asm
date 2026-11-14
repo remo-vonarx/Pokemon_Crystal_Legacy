@@ -1,5 +1,5 @@
 	db "FEUERPFERD@" ; species name
-	dw 303, 660 ; height, weight
+	dw 10, 300 ; height (dm), weight (hg)
 
 	db   "Das Springen über"
 	next "Gras, das täglich"

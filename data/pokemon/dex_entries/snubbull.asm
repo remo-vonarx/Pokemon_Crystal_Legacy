@@ -1,5 +1,5 @@
 	db "FEE@" ; species name
-	dw 200, 170 ; height, weight
+	dw 6, 78 ; height (dm), weight (hg)
 
 	db   "Eigentlich ist es"
 	next "ein feiges #-"

@@ -1,5 +1,5 @@
 	db "LEGENDÄR@" ; species name
-	dw 603, 3420 ; height, weight
+	dw 19, 1550 ; height (dm), weight (hg)
 
 	db   "Eine alte Schrift-"
 	next "rolle zeigt, dass"

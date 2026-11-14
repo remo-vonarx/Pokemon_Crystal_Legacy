@@ -1,5 +1,5 @@
 	db "STERNFORM@" ; species name
-	dw 100, 70 ; height, weight
+	dw 3, 30 ; height (dm), weight (hg)
 
 	db   "Wenn man den Ein-"
 	next "schlagkrater eines"

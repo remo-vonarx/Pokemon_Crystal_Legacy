@@ -1,5 +1,5 @@
 	db "VULKAN@" ; species name
-	dw 507, 1750 ; height, weight
+	dw 17, 795 ; height (dm), weight (hg)
 
 	db   "Wenn es kampfbe-"
 	next "reit ist, strahlt"

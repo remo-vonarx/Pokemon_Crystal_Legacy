@@ -1,5 +1,5 @@
 	db "MUSCHEL@" ; species name
-	dw 100, 90 ; height, weight
+	dw 3, 40 ; height (dm), weight (hg)
 
 	db   "Da es seine ver-"
 	next "wundbarste Stelle"

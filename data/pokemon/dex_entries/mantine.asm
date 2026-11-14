@@ -1,5 +1,5 @@
 	db "FLUGROCHEN@" ; species name
-	dw 611, 4850 ; height, weight
+	dw 21, 2200 ; height (dm), weight (hg)
 
 	db   "Es schwimmt frei"
 	next "umher und frisst"

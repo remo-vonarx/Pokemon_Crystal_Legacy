@@ -1,5 +1,5 @@
 	db "GAS@" ; species name
-	dw 403, 2 ; height, weight
+	dw 13, 1 ; height (dm), weight (hg)
 
 	db   "Es umwickelt seine"
 	next "Feinde mit seinem"

@@ -1,5 +1,5 @@
 	db "LAUB@" ; species name
-	dw 311, 350 ; height, weight
+	dw 12, 158 ; height (dm), weight (hg)
 
 	db   "Der Duft, aus den"
 	next "Knospen um seinen"

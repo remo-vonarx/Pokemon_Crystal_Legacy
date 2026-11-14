@@ -1,5 +1,5 @@
 	db "FREUDE@" ; species name
-	dw 411, 1030 ; height, weight
+	dw 15, 468 ; height (dm), weight (hg)
 
 	db   "Beisst man in"
 	next "eines der leckeren"

@@ -1,5 +1,5 @@
 	db "FOSSIL@" ; species name
-	dw 511, 1300 ; height, weight
+	dw 18, 590 ; height (dm), weight (hg)
 
 	db   "In der Urzeit"
 	next "flog dieses"

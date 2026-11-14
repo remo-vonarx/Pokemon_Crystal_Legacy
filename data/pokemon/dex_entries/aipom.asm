@@ -1,5 +1,5 @@
 	db "LANGSCHWEIF@" ; species name
-	dw 207, 250 ; height, weight
+	dw 8, 115 ; height (dm), weight (hg)
 
 	db   "Es setzt seinen"
 	next "Schwanz ein, um"

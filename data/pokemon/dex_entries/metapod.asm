@@ -1,5 +1,5 @@
 	db "KOKON@" ; species name
-	dw 204, 220 ; height, weight
+	dw 7, 99 ; height (dm), weight (hg)
 
 	db   "In diesem Ent-"
 	next "wicklungsstadium"

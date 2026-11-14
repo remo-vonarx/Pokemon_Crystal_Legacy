@@ -1,5 +1,5 @@
 	db "ECHSE@" ; species name
-	dw 200, 190 ; height, weight
+	dw 6, 85 ; height (dm), weight (hg)
 
 	db   "Ist es gesund,"
 	next "strahlt die Flamme"

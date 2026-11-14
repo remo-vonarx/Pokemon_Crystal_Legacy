@@ -1,5 +1,5 @@
 	db "TRANSPORT@" ; species name
-	dw 802, 4850 ; height, weight
+	dw 25, 2200 ; height (dm), weight (hg)
 
 	db   "Dieses gutmütige"
 	next "#MON nimmt"

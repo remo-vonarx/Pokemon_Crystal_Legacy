@@ -1,5 +1,5 @@
 	db "KAULQUAPPE@" ; species name
-	dw 303, 440 ; height, weight
+	dw 10, 200 ; height (dm), weight (hg)
 
 	db   "Obwohl es ein ge-"
 	next "schickter Läufer"

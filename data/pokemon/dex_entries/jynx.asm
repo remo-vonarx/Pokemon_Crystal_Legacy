@@ -1,5 +1,5 @@
 	db "HUMANOTYP@" ; species name
-	dw 407, 900 ; height, weight
+	dw 14, 406 ; height (dm), weight (hg)
 
 	db   "Es stößt unter-"
 	next "schiedliche Rufe"

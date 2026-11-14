@@ -1,5 +1,5 @@
 	db "GESTEIN@" ; species name
-	dw 104, 440 ; height, weight
+	dw 4, 200 ; height (dm), weight (hg)
 
 	db   "Da sie stolz auf"
 	next "ihre harten Körper"

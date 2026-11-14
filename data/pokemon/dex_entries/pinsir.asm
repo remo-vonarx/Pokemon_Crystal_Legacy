@@ -1,5 +1,5 @@
 	db "KNEIFKÄFER@" ; species name
-	dw 411, 1210 ; height, weight
+	dw 15, 550 ; height (dm), weight (hg)
 
 	db   "Sinkt nachts die"
 	next "Temperatur, sucht"

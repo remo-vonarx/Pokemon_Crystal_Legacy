@@ -646,16 +646,15 @@ Pokedex_PrintBaseEVs:
 ENDC
 
 Pokedex_HeightWeight:
+; the German ROM's metric block from its entry page (GR. and GEW), one column wider so GEW keeps a space before 100.0
 	push hl
 	push bc
 	push de
-; height string
-IF !DEF(wBaseHPAtkDefSpdEVs) ; vanilla
-	hlcoord 2, 15
-ELSE ; using EVs
 	hlcoord 2, 14
-ENDC
-	ld de, .String_HeightWeight_blank
+	ld de, .String_Height
+	call PlaceString
+	hlcoord 2, 15
+	ld de, .String_Weight
 	call PlaceString
 
 ; get pokemon's dex entry ptr in b:de
@@ -677,24 +676,14 @@ ENDC
 	push af ; keep bank
 	call GetFarWord
 	ld a, h
-	ld [wPoisonStepCount], a ; weight ptr, 2 bytes
+	ld [wPoisonStepCount], a ; height, 2 bytes
 	ld a, l
-	ld [wPoisonStepCount + 1], a ; weight ptr, 2 bytes
-	ld de, wPoisonStepCount ; weight ptr, 2 bytes
-; Print the height, with two of the four digits in front of the decimal point
-IF !DEF(wBaseHPAtkDefSpdEVs) ; vanilla
-	hlcoord 4, 15
-ELSE ; using EVs
-	hlcoord 4, 14
-ENDC
-	lb bc, 2, (2 << 4) | 4
+	ld [wPoisonStepCount + 1], a
+	ld de, wPoisonStepCount
+; Print the height in decimeters as meters, with two of the three digits in front of the decimal point
+	hlcoord 7, 14
+	lb bc, 2, (2 << 4) | 3
 	call PrintNum
-IF !DEF(wBaseHPAtkDefSpdEVs) ; vanilla
-	hlcoord 6, 15
-ELSE ; using EVs
-	hlcoord 6, 14
-ENDC
-	ld [hl], "′"
 ; get weight
 	pop af ; bank
 	pop hl ; ptr
@@ -702,63 +691,22 @@ ENDC
 	inc hl
 	call GetFarWord
 	ld a, h
-	ld [wPoisonStepCount], a ; weight ptr, 2 bytes
+	ld [wPoisonStepCount], a ; weight, 2 bytes
 	ld a, l
-	ld [wPoisonStepCount + 1], a ; weight ptr, 2 bytes
-	ld de, wPoisonStepCount ; weight ptr, 2 bytes
-; 2 digit weight (actually 3, but we are cutting off decimal since it's always 0)
-	ld a, h
-	cp 3
-	jr c, .normal_weight
-	cp 4
-	jr nc, .heavy_weight
-	jr z, .heavy_weight
-	ld a, l
-	cp $e8
-	jr c, .normal_weight
-.heavy_weight	
-	
-IF !DEF(wBaseHPAtkDefSpdEVs) ; vanilla
-	hlcoord 14, 15
-ELSE ; using EVs
-	hlcoord 14, 14
-ENDC
+	ld [wPoisonStepCount + 1], a
+	ld de, wPoisonStepCount
+; Print the weight in hectograms as kilograms, with three of the four digits in front of the decimal point
+	hlcoord 6, 15
 	lb bc, 2, (3 << 4) | 4
 	call PrintNum
-IF !DEF(wBaseHPAtkDefSpdEVs) ; vanilla
-	hlcoord 17, 15
-ELSE ; using EVs
-	hlcoord 17, 14
-ENDC
-	ld de, .String_pounds
-	call PlaceString
-	jr .done
-; 3 digit weight (actually 4, but we are cutting off decimal since it's always 0)
-.normal_weight	
-	; Print the weight, with 3 of the 4 digits in front of the decimal point
-IF !DEF(wBaseHPAtkDefSpdEVs) ; vanilla
-	hlcoord 13, 15
-ELSE ; using EVs
-	hlcoord 13, 14
-ENDC
-	lb bc, 2, (3 << 4) | 4
-	call PrintNum
-IF !DEF(wBaseHPAtkDefSpdEVs) ; vanilla
-	hlcoord 16, 15
-ELSE ; using EVs
-	hlcoord 16, 14
-ENDC	
-	ld de, .String_pounds
-	call PlaceString
-.done	
 	pop de
 	pop bc
-	pop hl	
+	pop hl
 	ret
-.String_HeightWeight_blank:
-	db "HT     ″ WT       @" ; HT  ?'??"
-.String_pounds:
-	db "lbs@"
+.String_Height:
+	db "GR.      m@"
+.String_Weight:
+	db "GEW      kg@"
 
 BS_HP_text:
 	db " HP@"

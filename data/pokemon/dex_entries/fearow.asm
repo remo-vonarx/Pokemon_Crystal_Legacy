@@ -1,5 +1,5 @@
 	db "PICKVOGEL@" ; species name
-	dw 311, 840 ; height, weight
+	dw 12, 380 ; height (dm), weight (hg)
 
 	db   "Da es mit seinem"
 	next "langen Schnabel"

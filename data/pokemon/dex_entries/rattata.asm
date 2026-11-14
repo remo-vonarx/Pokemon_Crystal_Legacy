@@ -1,5 +1,5 @@
 	db "RATTE@" ; species name
-	dw 100, 80 ; height, weight
+	dw 3, 35 ; height (dm), weight (hg)
 
 	db   "Seine Anpassungs-"
 	next "fähigkeit ermög-"

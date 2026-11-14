@@ -1,5 +1,5 @@
 	db "FLAMME@" ; species name
-	dw 307, 420 ; height, weight
+	dw 11, 190 ; height (dm), weight (hg)
 
 	db   "Steigert es sich"
 	next "in einen Kampf"

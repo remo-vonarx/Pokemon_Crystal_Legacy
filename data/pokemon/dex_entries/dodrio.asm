@@ -1,5 +1,5 @@
 	db "TRIVOGEL@" ; species name
-	dw 511, 1880 ; height, weight
+	dw 18, 852 ; height (dm), weight (hg)
 
 	db   "Lässt ein Feind"
 	next "auch nur einen der"

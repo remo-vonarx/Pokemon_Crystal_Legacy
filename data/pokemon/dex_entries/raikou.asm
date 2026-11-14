@@ -1,5 +1,5 @@
 	db "DONNER@" ; species name
-	dw 603, 3920 ; height, weight
+	dw 19, 1780 ; height (dm), weight (hg)
 
 	db   "Dieses aggressive"
 	next "#MON speichert"

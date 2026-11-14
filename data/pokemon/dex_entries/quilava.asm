@@ -1,5 +1,5 @@
 	db "VULKAN@" ; species name
-	dw 211, 420 ; height, weight
+	dw 9, 190 ; height (dm), weight (hg)
 
 	db   "Vor dem Kampf"
 	next "dreht es dem Feind"

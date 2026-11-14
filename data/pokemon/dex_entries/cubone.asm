@@ -1,5 +1,5 @@
 	db "EINSAM@" ; species name
-	dw 104, 140 ; height, weight
+	dw 4, 65 ; height (dm), weight (hg)
 
 	db   "Es hat seine Mut-"
 	next "ter bei der Geburt"

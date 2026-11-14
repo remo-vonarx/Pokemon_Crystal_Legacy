@@ -1,5 +1,5 @@
 	db "ELEKTRO@" ; species name
-	dw 200, 520 ; height, weight
+	dw 6, 235 ; height (dm), weight (hg)
 
 	db   "Es mag gewaltigen"
 	next "Donner. Die Luft"

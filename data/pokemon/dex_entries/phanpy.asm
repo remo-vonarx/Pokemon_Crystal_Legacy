@@ -1,5 +1,5 @@
 	db "LANGRÜSSEL@" ; species name
-	dw 108, 740 ; height, weight
+	dw 5, 335 ; height (dm), weight (hg)
 
 	db   "In den ruhigen"
 	next "Morgenstunden"

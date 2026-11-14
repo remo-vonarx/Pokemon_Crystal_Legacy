@@ -1,5 +1,5 @@
 	db "KAULQUAPPE@" ; species name
-	dw 200, 270 ; height, weight
+	dw 6, 124 ; height (dm), weight (hg)
 
 	db   "Der Kreisel auf"
 	next "seinem Bauch sind"

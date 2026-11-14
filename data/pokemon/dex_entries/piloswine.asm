@@ -1,5 +1,5 @@
 	db "SCHWEIN@" ; species name
-	dw 307, 1230 ; height, weight
+	dw 11, 558 ; height (dm), weight (hg)
 
 	db   "Trotz kurzer Beine"
 	next "rutscht es auf"

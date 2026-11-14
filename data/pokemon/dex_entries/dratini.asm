@@ -1,5 +1,5 @@
 	db "DRACHE@" ; species name
-	dw 511, 70 ; height, weight
+	dw 18, 33 ; height (dm), weight (hg)
 
 	db   "Es häutet sich, um"
 	next "zu wachsen."

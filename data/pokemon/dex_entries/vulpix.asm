@@ -1,5 +1,5 @@
 	db "FUCHS@" ; species name
-	dw 200, 220 ; height, weight
+	dw 6, 99 ; height (dm), weight (hg)
 
 	db   "Wenn es wächst,"
 	next "wird sein warmer"

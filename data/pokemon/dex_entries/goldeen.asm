@@ -1,5 +1,5 @@
 	db "GOLDFISCH@" ; species name
-	dw 200, 330 ; height, weight
+	dw 6, 150 ; height (dm), weight (hg)
 
 	db   "Während der Laich-"
 	next "zeit schwimmen sie"

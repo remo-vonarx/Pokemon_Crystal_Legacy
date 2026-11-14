@@ -1,5 +1,5 @@
 	db "RASSEKATZE@" ; species name
-	dw 303, 710 ; height, weight
+	dw 10, 320 ; height (dm), weight (hg)
 
 	db   "Hinter seiner ele-"
 	next "ganten Fassade"

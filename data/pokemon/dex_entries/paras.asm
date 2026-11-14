@@ -1,5 +1,5 @@
 	db "PILZ@" ; species name
-	dw 100, 120 ; height, weight
+	dw 3, 54 ; height (dm), weight (hg)
 
 	db   "Die Tochukaso, die"
 	next "auf seinem Rücken"

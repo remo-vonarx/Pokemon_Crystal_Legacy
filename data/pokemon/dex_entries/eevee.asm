@@ -1,5 +1,5 @@
 	db "EVOLUTION@" ; species name
-	dw 100, 140 ; height, weight
+	dw 3, 65 ; height (dm), weight (hg)
 
 	db   "Da es so viele"
 	next "verschiedene Ent-"

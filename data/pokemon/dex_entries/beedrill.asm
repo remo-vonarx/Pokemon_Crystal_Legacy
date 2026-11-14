@@ -1,5 +1,5 @@
 	db "GIFTBIENE@" ; species name
-	dw 303, 650 ; height, weight
+	dw 10, 295 ; height (dm), weight (hg)
 
 	db   "Mit seinen Gift-"
 	next "stacheln über-"

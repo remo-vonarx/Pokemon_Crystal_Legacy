@@ -1,5 +1,5 @@
 	db "GIFTDORN@" ; species name
-	dw 108, 200 ; height, weight
+	dw 5, 90 ; height (dm), weight (hg)
 
 	db   "Es richtet seine"
 	next "großen Ohren stän-"

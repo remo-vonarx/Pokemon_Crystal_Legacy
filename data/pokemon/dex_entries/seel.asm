@@ -1,5 +1,5 @@
 	db "SEEHUND@" ; species name
-	dw 307, 1980 ; height, weight
+	dw 11, 900 ; height (dm), weight (hg)
 
 	db   "Sein hellblaues"
 	next "Fell schützt es"

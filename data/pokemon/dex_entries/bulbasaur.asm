@@ -1,5 +1,5 @@
 	db "SAMEN@" ; species name
-	dw 204, 150 ; height, weight
+	dw 7, 69 ; height (dm), weight (hg)
 
 	db   "Da es noch klein"
 	next "ist, frisst es die"

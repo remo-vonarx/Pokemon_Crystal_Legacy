@@ -1,5 +1,5 @@
 	db "KOKON@" ; species name
-	dw 200, 220 ; height, weight
+	dw 6, 100 ; height (dm), weight (hg)
 
 	db   "Es kann sich kaum"
 	next "bewegen. Daher"

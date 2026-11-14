@@ -1,5 +1,5 @@
 	db "HUND@" ; species name
-	dw 204, 420 ; height, weight
+	dw 7, 190 ; height (dm), weight (hg)
 
 	db   "Stößt es in seinem"
 	next "weiten Gebiet auf"

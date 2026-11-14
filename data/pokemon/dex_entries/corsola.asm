@@ -1,5 +1,5 @@
 	db "KORALLE@" ; species name
-	dw 200, 110 ; height, weight
+	dw 6, 50 ; height (dm), weight (hg)
 
 	db   "Die Punkte auf"
 	next "seinem Kopf ernäh-"

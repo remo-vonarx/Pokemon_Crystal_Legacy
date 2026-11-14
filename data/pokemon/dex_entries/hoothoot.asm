@@ -1,5 +1,5 @@
 	db "EULE@" ; species name
-	dw 204, 470 ; height, weight
+	dw 7, 212 ; height (dm), weight (hg)
 
 	db   "Es ruft immer zur"
 	next "gleichen Tages-"

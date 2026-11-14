@@ -1,5 +1,5 @@
 	db "SYMBIOSE@" ; species name
-	dw 503, 1730 ; height, weight
+	dw 16, 785 ; height (dm), weight (hg)
 
 	db   "Das MUSCHAS an"
 	next "seiner Rute lässt"

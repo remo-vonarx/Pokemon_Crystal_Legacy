@@ -1,5 +1,5 @@
 	db "MAUS@" ; species name
-	dw 207, 660 ; height, weight
+	dw 8, 300 ; height (dm), weight (hg)
 
 	db   "Lässt die Elektri-"
 	next "zität in den Ba-"

@@ -1,5 +1,5 @@
 	db "DRACHE@" ; species name
-	dw 1301, 360 ; height, weight
+	dw 40, 165 ; height (dm), weight (hg)
 
 	db   "Man nennt es das"
 	next "göttliche #MON."

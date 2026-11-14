@@ -1,5 +1,5 @@
 	db "LIEFERANT@" ; species name
-	dw 211, 350 ; height, weight
+	dw 9, 160 ; height (dm), weight (hg)
 
 	db   "Es trägt immer"
 	next "Lebensmittel bei"

@@ -1,5 +1,5 @@
 	db "ANGLER@" ; species name
-	dw 108, 260 ; height, weight
+	dw 5, 120 ; height (dm), weight (hg)
 
 	db   "Seine Antennen,"
 	next "die aus Flossen"

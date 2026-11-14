@@ -1,5 +1,5 @@
 	db "BLUBBLASE@" ; species name
-	dw 303, 640 ; height, weight
+	dw 10, 290 ; height (dm), weight (hg)
 
 	db   "Da es die Flossen"
 	next "an seinem Schwanz-"

@@ -1,5 +1,5 @@
 	db "MALER@" ; species name
-	dw 311, 1280 ; height, weight
+	dw 12, 580 ; height (dm), weight (hg)
 
 	db   "Die Farbe des"
 	next "mysteriösen"

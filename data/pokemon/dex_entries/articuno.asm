@@ -1,5 +1,5 @@
 	db "EIS@" ; species name
-	dw 507, 1220 ; height, weight
+	dw 17, 554 ; height (dm), weight (hg)
 
 	db   "Ein legendäres"
 	next "Vogel-#MON."
