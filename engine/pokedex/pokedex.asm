@@ -588,8 +588,8 @@ DexEntryScreen_ArrowCursorData:
 	dwcoord 1, 17  ; INFO
 	dwcoord 4, 17  ; STAT
 	dwcoord 7, 17  ; MOVES
-	dwcoord 11, 17 ; AREA
-	dwcoord 14, 17 ; EVO
+	dwcoord 10, 17 ; AREA
+	dwcoord 13, 17 ; EVO
 	dwcoord 17, 17 ; PICS
 
 DexEntryScreen_MenuActionJumptable:
@@ -1799,9 +1799,9 @@ Pokedex_DrawDexEntryScreenBG:
 .MenuItems:
 	db $3b, " ", $79, $7a, " ", \ ; INFO
 		$71, $72, " ", \ ; STATS
-		$74, $75, $76, " ", \ ; MOVES
+		$74, $75, " ", \ ; MOVES
 		$77, $78, " ", \ ; AREA
-		$7d, $7e, \ ; EVO
+		$7d, $7e, $76, \ ; EVO
 		$31, $7b, $7c, -1 ; PICS
 
 Pokedex_LoadTextboxSpaceGFX:
