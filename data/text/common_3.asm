@@ -252,27 +252,26 @@ _CoordinatesEventText::
 	done
 
 _ReceivedItemText::
-	text "<PLAYER> received"
+	text "<PLAYER> erhält"
 	line "@"
 	text_ram wStringBuffer4
 	text "."
 	done
 
 _PutItemInPocketText::
-	text "<PLAYER> put the"
+	text "<PLAYER> steckt"
 	line "@"
 	text_ram wStringBuffer1
 	text " in"
-	cont "the @"
+	cont "@"
 	text_ram wStringBuffer3
 	text "."
 	prompt
 
 _PocketIsFullText::
-	text "The @"
 	text_ram wStringBuffer3
 	text_start
-	line "is full…"
+	line "ist voll…"
 	prompt
 
 _SeerSeeAllText::

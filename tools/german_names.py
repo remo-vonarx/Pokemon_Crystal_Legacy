@@ -292,8 +292,8 @@ TRADES = [
 	(('MUSCLE', 'MIKE'), ('HERAKLES', 'RALF')),
 	(('ROCKY', 'KYLE'), ('AARON', 'TOBI')),
 	(('VOLTY', 'TIM'), ('KUGO', 'TIM')),
-	(('DORIS', 'EMY'), ('DORI', 'CARMEN')),
-	(('PAUL', 'CHRIS'), ('AVIO', 'PAUL')),
+	(('DORIS', 'EMY'), ('DORIS', 'CARMEN')),  # nickname kept: Legacy trades a MR. MIME here
+	(('PAUL', 'CHRIS'), ('POLLO', 'PAUL')),  # Legacy trades a HAUNTER here: Diamond/Pearl/Platinum's POLLO
 	(('AEROY', 'KIM'), ('AEROY', 'KIM')),
 	(('MAGGIE', 'FOREST'), ('LORETTA', 'WALDO')),
 ]
