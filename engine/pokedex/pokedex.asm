@@ -1865,7 +1865,7 @@ Pokedex_DrawOptionScreenBG:
 	db $3b, " OPTIONEN ", $3c, -1
 
 .NayrusPokedex:
-	db "#DEX INFO@"
+	db "#DEX-INFO@"
 
 .NewMode:
 	db "NEUER #DEX@"
@@ -1877,7 +1877,7 @@ Pokedex_DrawOptionScreenBG:
 	db "A bis Z@"
 	
 .Color:
-	db "#DEX COLOR@"
+	db "#DEX-FARBE@"
 
 .UnownMode:
 	db "ICOGNITO INDEX@"
@@ -1922,34 +1922,34 @@ Pokedex_DrawColorScreenBG:
 	; jp Pokedex_PlaceString
 
  .Title:
-	db $3b, " COLORS ", $3c, -1
+	db $3b, " FARBEN ", $3c, -1
 
  .Red
-	db "RED    ", $4f, -1
+	db "ROT    ", $4f, -1
 	
  .Blue
-	db "BLUE   ", $4f, -1
+	db "BLAU   ", $4f, -1
 
  .Purple
-	db "PURPLE ", $4f, -1
+	db "LILA   ", $4f, -1
 
  .Brown
-	db "BROWN  ", $4f, -1
+	db "BRAUN  ", $4f, -1
 
  .Green
-	db "GREEN  ", $4f, -1	
+	db "GRÜN   ", $4f, -1	
 	
  .Pink
-	db "PINK   ", $4f, -1	
+	db "ROSA   ", $4f, -1	
 	
  .Yellow
-	db "YELLOW ", $4f, -1	
+	db "GELB   ", $4f, -1	
 	
  .Cyan
-	db "CYAN   ", $4f, -1
+	db "TÜRKIS ", $4f, -1
 	
  .Gray
-	db "GRAY   ", $4f, -1	
+	db "GRAU   ", $4f, -1	
 	
 ;  .Mewtwo
 ; 	db "MEWTWO ", $4f, -1	
@@ -2581,9 +2581,9 @@ Pokedex_DisplayModeDescription:
 	dw .UnownMode
 
 .NayDexInfo:	
-	db   $41, $42, $43, " FULL AREA MAP ", $37, $36, \
+	db   $41, $42, $43, " GEBIETSKARTE  ", $37, $36, \
 		 "                  ", $37, $36, \
-		 $48, $49, $4a, " TOGGLE SHINY", -1	
+		 $48, $49, $4a, " SCHILLERND", -1	
 
 .NewMode:
 	db   "<PK><MN> nach           ", $37, $36, \
@@ -2601,9 +2601,9 @@ Pokedex_DisplayModeDescription:
 		 "Alphabet ordnen.", -1
 
 .Color
-	db   "Change the color  ", $37, $36, \
+	db   "Ändere die Farbe  ", $37, $36, \
 		 "                  ", $37, $36, \
-		 "of the border.", -1
+		 "des Rahmens.", -1
 
 .UnownMode:
 	db   "ICOGNITO in       ", $37, $36, \
