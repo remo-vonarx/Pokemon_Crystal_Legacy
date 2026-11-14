@@ -948,10 +948,10 @@ StatsScreen_PrintDVs:
 	ret
 
 .DVstring1:
-	db "DVS: ATK    DEF   @"
+	db "DV: ANGR    VER   @"
 .DVstring2:	
 	; db "ATK    DEF@"
-	db "HP   SPC    SPE   @"
+	db "KP   SPEZ   INIT  @"
 ; .DVstring3:
 ; 	db "SPC    SPE    HP@"
 
@@ -979,9 +979,9 @@ StatsScreen_placeCaughtLocation:
 	call PlaceString
 	ret
 .MetAtMapString:
-	db "MET: @"
+	db "FANG @"
 .MetUnknownMapString:
-	db "UNKNOWN LOCATION@"
+	db "UNBEKANNTER ORT@"
 
 StatsScreen_placeCaughtTime:
 	ld a, [wTempMonCaughtTime]
@@ -1011,11 +1011,11 @@ StatsScreen_placeCaughtTime:
 	call PlaceString
 	ret
 .times
-	db "MORN@"
-	db "DAY@"
-	db "NITE@"
+	db "VORM.@"
+	db "TAG@"
+	db "NACHT@"
 .unknown_time_text
-	db "TRADE@"
+	db "TAUSCH@"
 
 StatsScreen_placeCaughtLevel:
 	; caught level
