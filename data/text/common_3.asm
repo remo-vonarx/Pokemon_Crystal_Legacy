@@ -1,53 +1,57 @@
 _OakText6::
-	text "Now, what did you"
-	line "say your name was?"
+	text "Wie lautet dein"
+	line "Name?"
 	prompt
 
 _OakText7::
-	text "<PLAYER>, are you"
-	line "ready?"
+	text "<PLAYER>, bist du"
+	line "bereit?"
 
-	para "Your very own"
-	line "#MON story is"
-	cont "about to unfold."
+	para "Dein eigenes"
+	line "#MON-Abenteuer"
+	cont "erwartet dich."
 
-	para "You'll face fun"
-	line "times and tough"
-	cont "challenges."
+	para "Dich erwarten tol-"
+	line "le Dinge, aber"
+	cont "auch harte Zeiten."
 
-	para "A world of dreams"
-	line "and adventures"
+	para "Eine Welt voller"
+	line "Träume und aufre-"
+	cont "gender #MON-"
 
-	para "with #MON"
-	line "awaits! Let's go!"
+	para "Abenteuer erwar-"
+	line "tet dich! Mach"
+	cont "dich bereit!"
 
-	para "I'll be seeing you"
-	line "later!"
+	para "Ich treffe dich"
+	line "später!"
 	done
 
 _ClockTimeMayBeWrongText::
-	text "The clock's time"
-	line "may be wrong."
+	text "Die Uhr könnte"
+	line "falsch gestellt"
+	cont "sein."
 
-	para "Please reset the"
-	line "time."
+	para "Gib bitte die"
+	line "genaue Uhrzeit an."
 	prompt
 
 _ClockSetWithControlPadText::
-	text "Set with the"
-	line "Control Pad."
+	text "Benutze dafür das"
+	line "Steuerkreuz."
 
-	para "Confirm: A Button"
-	line "Cancel:  B Button"
+	para "Bestätigen:"
+	line "A-Knopf"
+	cont "Zurück: B-Knopf"
 	done
 
 _ClockIsThisOKText::
-	text "Is this OK?"
+	text "Einverstanden?"
 	done
 
 _ClockHasResetText::
-	text "The clock has been"
-	line "reset."
+	text "Die Uhr wurde"
+	line "korrigiert."
 	done
 
 _LinkTimeoutText::
@@ -201,8 +205,8 @@ _AnotherSaveFileText::
 	done
 
 _SaveFileCorruptedText::
-	text "The save file is"
-	line "corrupted!"
+	text "Der Spielstand"
+	line "ist zerstört!"
 	prompt
 
 _ChangeBoxSaveText::
@@ -791,7 +795,7 @@ _MobileStadiumSuccessText::
 	done
 
 _MainMenuTimeUnknownText::
-	text "Clock time unknown"
+	text "Uhrzeit unbekannt"
 	done
 
 _DeleteSavedLoginPasswordText::
@@ -961,17 +965,18 @@ _SpaceSpaceColonText:: ; unreferenced
 	done
 
 _PasswordAskResetText::
-	text "Select CONTINUE &"
-	line "reset settings."
+	text "Wähle Fortfahren"
+	line "& verwirf die"
+	cont "Einstellungen."
 	prompt
 
 _PasswordAskResetClockText::
-	text "Reset the clock?"
+	text "Uhr neu stellen?"
 	done
 
 _ClearAllSaveDataText::
-	text "Clear all save"
-	line "data?"
+	text "Spielstand"
+	line "löschen?"
 	done
 
 _LearnedMoveText::
@@ -1518,13 +1523,13 @@ _DeleterAskWhichMonText::
 	prompt
 
 _DSTIsThatOKText::
-	text " DST,"
-	line "is that OK?"
+	text " SZ,"
+	line "in Ordnung?"
 	done
 
 _TimeAskOkayText::
 	text ","
-	line "is that OK?"
+	line "in Ordnung?"
 	done
 
 _TimesetAskDSTText::
