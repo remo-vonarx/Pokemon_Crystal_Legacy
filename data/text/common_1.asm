@@ -1111,7 +1111,7 @@ _BuenaOffTheAirText::
 
 _EnemyWithdrewText::
 	text "<ENEMY>"
-	line "withdrew"
+	line "ersetzt"
 	cont "@"
 	text_ram wEnemyMonNickname
 	text "!"
@@ -1119,12 +1119,15 @@ _EnemyWithdrewText::
 
 _EnemyUsedOnText::
 	text "<ENEMY>"
-	line "used @"
+	line "setzt @"
 	text_ram wMonOrItemNameBuffer
 	text_start
-	cont "on @"
+	cont "bei"
+
+	para "@"
 	text_ram wEnemyMonNickname
-	text "!"
+	text_start
+	line "ein!"
 	prompt
 
 _ThatCantBeUsedRightNowText:: ; unreferenced

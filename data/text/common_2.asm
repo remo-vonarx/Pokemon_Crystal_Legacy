@@ -96,40 +96,40 @@ _NameRaterNamedText::
 
 Text_Gained::
 	text_ram wStringBuffer1
-	text " gained@"
+	text " erhält@"
 	text_end
 
 _BoostedExpPointsText::
 	text_start
-	line "a boosted"
+	line "spezielle"
 	cont "@"
 	text_decimal wStringBuffer2, 2, 5
-	text " EXP. Points!"
+	text " EP!"
 	prompt
 
 _ExpPointsText::
 	text_start
 	line "@"
 	text_decimal wStringBuffer2, 2, 5
-	text " EXP. Points!"
+	text " EP!"
 	prompt
 
 _GoMonText::
-	text "Go! @"
+	text "Los! @"
 	text_end
 
 _DoItMonText::
-	text "Do it! @"
+	text "Los! @"
 	text_end
 
 _GoForItMonText::
-	text "Go for it,"
+	text "Los,"
 	line "@"
 	text_end
 
 _YourFoesWeakGetmMonText::
-	text "Your foe's weak!"
-	line "Get'm, @"
+	text "Mach es fertig!"
+	line "Los, @"
 	text_end
 
 _BattleMonNicknameText::
@@ -143,23 +143,23 @@ _BattleMonNickCommaText::
 	text_end
 
 _ThatsEnoughComeBackText::
-	text " that's"
-	line "enough! Come back!@"
+	text " genug!"
+	line "Komm zurück!@"
 	text_end
 
 _OKComeBackText::
-	text " OK!"
-	line "Come back!@"
+	text " O.K.!"
+	line "Komm zurück!@"
 	text_end
 
 _GoodComeBackText::
-	text " good!"
-	line "Come back!@"
+	text " super!"
+	line "Komm zurück!@"
 	text_end
 
 _ComeBackText::
-	text " come"
-	line "back!"
+	text " komm"
+	line "zurück!"
 	done
 
 _BootedTMText::
@@ -706,7 +706,7 @@ _SelectDifficultyHardcoreText::
 	done
 
 Text_BattleEffectActivate::
-	text "<USER>'s"
+	text "<USER>s"
 	line "@"
 	text_ram wStringBuffer2
 	text_end
@@ -715,15 +715,15 @@ Text_BattleEffectActivate::
 
 _BattleStatWentWayUpText::
 	text_pause
-	text "<SCROLL>went way up!"
+	text "<SCROLL>steigt stark!"
 	prompt
 
 _BattleStatWentUpText::
-	text " went up!"
+	text " steigt!"
 	prompt
 
 Text_BattleFoeEffectActivate::
-	text "<TARGET>'s"
+	text "<TARGET>s"
 	line "@"
 	text_ram wStringBuffer2
 	text_end
@@ -732,11 +732,11 @@ Text_BattleFoeEffectActivate::
 
 _BattleStatSharplyFellText::
 	text_pause
-	text "<SCROLL>sharply fell!"
+	text "<SCROLL>sinkt stark!"
 	prompt
 
 _BattleStatFellText::
-	text " fell!"
+	text " sinkt!"
 	prompt
 
 Text_BattleUser::
@@ -745,32 +745,33 @@ Text_BattleUser::
 
 _BattleMadeWhirlwindText::
 	text_start
-	line "made a whirlwind!"
+	line "erzeugt einen"
+	cont "Wirbelwind!"
 	prompt
 
 _BattleTookSunlightText::
 	text_start
-	line "took in sunlight!"
+	line "badet im Licht!"
 	prompt
 
 _BattleLoweredHeadText::
 	text_start
-	line "lowered its head!"
+	line "duckt sich!"
 	prompt
 
 _BattleGlowingText::
 	text_start
-	line "is glowing!"
+	line "leuchtet!"
 	prompt
 
 _BattleFlewText::
 	text_start
-	line "flew up high!"
+	line "fliegt empor!"
 	prompt
 
 _BattleDugText::
 	text_start
-	line "dug a hole!"
+	line "gräbt ein Loch!"
 	prompt
 
 _ActorNameText::
@@ -779,16 +780,16 @@ _ActorNameText::
 
 _UsedMove1Text::
 	text_start
-	line "used @"
+	line "ben. @"
 	text_end
 
 _UsedMove2Text::
 	text_start
-	line "used @"
+	line "ben. @"
 	text_end
 
 _UsedInsteadText::
-	text "instead,"
+	text "stattdessen"
 	cont "@"
 	text_end
 

@@ -441,8 +441,8 @@ _SeerImpressedText::
 	done
 
 _CongratulationsYourPokemonText::
-	text "Congratulations!"
-	line "Your @"
+	text "Glückwunsch!"
+	line "Dein @"
 	text_ram wStringBuffer2
 	text_end
 
@@ -451,24 +451,23 @@ _CongratulationsYourPokemonText::
 _EvolvedIntoText::
 	text_start
 
-	para "evolved into"
+	para "wurde zu"
 	line "@"
 	text_ram wStringBuffer1
 	text "!"
 	done
 
 _StoppedEvolvingText::
-	text "Huh? @"
-	text_ram wStringBuffer2
-	text_start
-	line "stopped evolving!"
+	text "Hmm? Die Entwick-"
+	line "lung wurde abge-"
+	cont "brochen!"
 	prompt
 
 _EvolvingText::
-	text "What? @"
+	text "Hey! @"
 	text_ram wStringBuffer2
 	text_start
-	line "is evolving!"
+	line "entwickelt sich!"
 	done
 
 _EggMoveReminderIntro::
@@ -984,7 +983,7 @@ _ClearAllSaveDataText::
 
 _LearnedMoveText::
 	text_ram wMonOrItemNameBuffer
-	text " learned"
+	text " erlernt"
 	line "@"
 	text_ram wStringBuffer2
 	text "!@"
@@ -995,72 +994,78 @@ _LearnedMoveText::
 	text_end ; unreferenced
 
 _MoveAskForgetText::
-	text "Which move should"
-	next "be forgotten?"
+	text "Welche Attacke"
+	next "soll vergessen"
+	cont "werden?"
 	done
 
 _StopLearningMoveText::
-	text "Stop learning"
-	line "@"
 	text_ram wStringBuffer2
-	text "?"
+	text_start
+	line "nicht erlernen?"
 	done
 
 _DidNotLearnMoveText::
 	text_ram wMonOrItemNameBuffer
 	text_start
-	line "did not learn"
-	cont "@"
+	line "hat @"
 	text_ram wStringBuffer2
-	text "."
+	text_start
+	cont "nicht erlernt."
 	prompt
 
 _AskForgetMoveText::
 	text_ram wMonOrItemNameBuffer
-	text " is"
-	line "trying to learn"
+	text " "
+	line "versucht,"
 	cont "@"
 	text_ram wStringBuffer2
-	text "."
+	text " zu"
+	cont "erlernen!"
 
-	para "But @"
+	para "Aber @"
 	text_ram wMonOrItemNameBuffer
 	text_start
-	line "can't learn more"
-	cont "than four moves."
+	line "kann nicht mehr"
+	cont "als vier Attacken"
+	cont "erlernen."
 
-	para "Delete an older"
-	line "move to make room"
-	cont "for @"
+	para "Soll eine andere"
+	line "Attacke zugunsten"
+	cont "von @"
 	text_ram wStringBuffer2
-	text "?"
+	text_start
+	cont "vergessen werden?"
 	done
 
 Text_MoveForgetCount::
-	text "1, 2 and…@"
+	text "1, 2 und…@"
 	text_pause
 	text_end
 
 	text_end ; unreferenced
 
 _MoveForgotText::
-	text " Poof!@"
+	text "Schwupp!@"
 	text_pause
 	text_start
 
 	para "@"
 	text_ram wMonOrItemNameBuffer
-	text " forgot"
+	text " hat"
 	line "@"
 	text_ram wStringBuffer1
-	text "."
+	text_start
 
-	para "And…"
+	para "vergessen!"
+
+	para "Und…"
 	prompt
 
 _MoveCantForgetHMText::
-	text "HM moves can't be"
-	line "forgotten now."
+	text "VM-Attacken"
+	line "können nicht"
+	cont "gelöscht werden!"
 	prompt
 
 _CardFlipPlayWithThreeCoinsText::
@@ -1232,43 +1237,45 @@ _YouCantTakeAnEggText::
 	done
 
 _BallDodgedText::
-	text "It dodged the"
-	line "thrown BALL!"
+	text "Es weicht dem"
+	line "BALL aus!"
 
-	para "This #MON"
-	line "can't be caught!"
+	para "Dieses #MON"
+	line "lässt sich nicht"
+	cont "fangen!"
 	prompt
 
 _BallMissedText::
-	text "You missed the"
-	line "#MON!"
+	text "Du hast das"
+	line "#MON verfehlt!"
 	prompt
 
 _BallBrokeFreeText::
-	text "Oh no! The #MON"
-	line "broke free!"
+	text "Mist! Das #MON"
+	line "hat sich befreit!"
 	prompt
 
 _BallAppearedCaughtText::
-	text "Aww! It appeared"
-	line "to be caught!"
+	text "Fast hätte es"
+	line "geklappt!"
 	prompt
 
 _BallAlmostHadItText::
-	text "Aargh!"
-	line "Almost had it!"
+	text "Mist!"
+	line "Das war knapp!"
 	prompt
 
 _BallSoCloseText::
-	text "Shoot! It was so"
-	line "close too!"
+	text "Verflixt! Es"
+	line "hätte beinahe"
+	cont "geklappt!"
 	prompt
 
 Text_BallCaught::
-	text "Gotcha! @"
+	text "Toll! @"
 	text_ram wEnemyMonNickname
 	text_start
-	line "was caught!@"
+	line "wurde gefangen!@"
 	sound_caught_mon
 	text_end
 
@@ -1282,15 +1289,18 @@ _WaitButtonText::
 
 _BallSentToPCText::
 	text_ram wMonOrItemNameBuffer
-	text " was"
-	line "sent to BILL's PC."
+	text_start
+	line "wurde auf BILLs PC"
+	cont "übertragen."
 	prompt
 
 _NewDexDataText::
+	text "Für @"
 	text_ram wEnemyMonNickname
-	text "'s data"
-	line "was newly added to"
-	cont "the #DEX.@"
+	text_start
+	line "wird ein neuer"
+	cont "Eintrag im"
+	cont "#DEX angelegt.@"
 	sound_slot_machine_start
 	text_promptbutton
 	text_end
@@ -1298,61 +1308,65 @@ _NewDexDataText::
 	text_end ; unreferenced
 
 _AskGiveNicknameText::
-	text "Give a nickname to"
+	text "Möchtest du"
 	line "@"
 	text_ram wStringBuffer1
-	text "?"
+	text " einen"
+	cont "Spitznamen geben?"
 	done
 
 _ItemStatRoseText::
-	text_ram wStringBuffer1
-	text "'s"
-	line "@"
 	text_ram wStringBuffer2
-	text " rose."
+	text " von"
+	line "@"
+	text_ram wStringBuffer1
+	text_start
+
+	para "nimmt zu."
 	prompt
 
 _ItemCantUseOnMonText::
-	text "That can't be used"
-	line "on this #MON."
+	text "Dieses #MON"
+	line "kann das nicht"
+	cont "einsetzen."
 	prompt
 
 _RepelUsedEarlierIsStillInEffectText::
-	text "The REPEL used"
-	line "earlier is still"
-	cont "in effect."
+	text "SCHUTZ wirkt"
+	line "noch immer."
 	prompt
 
 _PlayedFluteText::
-	text "Played the #"
-	line "FLUTE."
+	text "Die #FLÖTE"
+	line "wurde gespielt."
 
-	para "Now, that's a"
-	line "catchy tune!"
+	para "Das ist ein"
+	line "flotter Rhythmus!"
 	prompt
 
 _FluteWakeUpText::
-	text "All sleeping"
-	line "#MON woke up."
+	text "Alle schlafenden"
+	line "#MON sind"
+	cont "aufgewacht."
 	prompt
 
 Text_PlayedPokeFlute::
-	text "<PLAYER> played the"
-	line "# FLUTE.@"
+	text "<PLAYER> spielte"
+	line "die #FLÖTE.@"
 	text_promptbutton
 	text_end
 
 	text_end ; unreferenced
 
 _BlueCardBalanceText::
-	text "You now have"
+	text "Du hast jetzt"
 	line "@"
 	text_decimal wBlueCardBalance, 1, 2
-	text " points."
+	text " Punkte."
 	done
 
 _CoinCaseCountText::
-	text "Coins:"
+	text "Münzen:"
 	line "@"
 	text_decimal wCoins, 2, 4
 	text_end
@@ -1360,115 +1374,124 @@ _CoinCaseCountText::
 	text_end ; unreferenced
 
 _RaiseThePPOfWhichMoveText::
-	text "Raise the PP of"
-	line "which move?"
+	text "Für welche"
+	line "Attacke sollen"
+	cont "die AP aufgefüllt"
+	cont "werden?"
 	done
 
 _RestoreThePPOfWhichMoveText::
-	text "Restore the PP of"
-	line "which move?"
+	text "Für welche"
+	line "Attacke sollen"
+	cont "die AP erneuert"
+	cont "werden?"
 	done
 
 _PPIsMaxedOutText::
 	text_ram wStringBuffer2
-	text "'s PP"
-	line "is maxed out."
+	text "s AP"
+	line "wurden komplett"
+	cont "aufgefüllt."
 	prompt
 
 _PPsIncreasedText::
 	text_ram wStringBuffer2
-	text "'s PP"
-	line "increased."
+	text "s AP"
+	line "wurden aufgefüllt."
 	prompt
 
 _PPRestoredText::
-	text "PP was restored."
+	text "AP aufgefüllt."
 	prompt
 
 _SentTrophyHomeText::
-	text "There was a trophy"
-	line "inside!@"
+	text "Hier ist eine"
+	line "Trophäe!@"
 	sound_dex_fanfare_50_79
 	text_start
 
 	para "@"
 	text_ram wPlayerName
-	text " sent the"
-	line "trophy home."
+	text " hat"
+	line "die Trophäe nach"
+	cont "Hause gesandt."
 	prompt
 
 _ItemLooksBitterText::
-	text "It looks bitter…"
+	text "Das ist bitter…"
 	prompt
 
 _ItemCantUseOnEggText::
-	text "That can't be used"
-	line "on an EGG."
+	text "Ein EI kann das"
+	line "nicht benutzen."
 	prompt
 
 _ItemOakWarningText::
-	text "OAK: <PLAYER>!"
-	line "This isn't the"
-	cont "time to use that!"
+	text "EICH: <PLAYER>!"
+	line "Es ist nicht"
+	cont "an der Zeit,"
+	cont "dies zu benutzen!"
 	prompt
 
 _ItemBelongsToSomeoneElseText::
-	text "That belongs to"
-	line "someone else!"
+	text "Das gehört nicht"
+	line "dir!"
 	prompt
 
 _ItemWontHaveEffectText::
-	text "It won't have any"
-	line "effect."
+	text "Das hätte keinen"
+	line "Effekt."
 	prompt
 
 _BallBlockedText::
-	text "The trainer"
-	line "blocked the BALL!"
+	text "Der Trainer hat"
+	line "den BALL"
+	cont "abgeblockt!"
 	prompt
 
 _BallDontBeAThiefText::
-	text "Don't be a thief!"
+	text "Sei kein Dieb!"
 	prompt
 
 _NoCyclingText::
-	text "Cycling isn't"
-	line "allowed here."
+	text "Rad fahren ist"
+	line "hier nicht"
+	cont "gestattet."
 	prompt
 
 _ItemCantGetOnText::
-	text "Can't get on your"
-	line "@"
 	text_ram wStringBuffer1
-	text " now."
+	text_start
+	line "kann nicht be-"
+	cont "stiegen werden."
 	prompt
 
 _BallBoxFullText::
-	text "The #MON BOX"
-	line "is full. That"
-	cont "can't be used now."
+	text "Die #MON-BOX"
+	line "ist voll. Das"
+	cont "kannst du jetzt"
+	cont "nicht benutzen."
 	prompt
 
 _ItemUsedText::
-	text "<PLAYER> used the@"
-	text_low
+	text "<PLAYER> setzt"
+	line "@"
 	text_ram wStringBuffer2
-	text "."
+	text " ein."
 	done
 
 _ItemGotOnText::
-	text "<PLAYER> got on the@"
+	text "<PLAYER> stieg auf@"
 	text_low
 	text_ram wStringBuffer2
 	text "."
 	prompt
 
 _ItemGotOffText::
-	text "<PLAYER> got off@"
+	text "<PLAYER> stieg von@"
 	text_low
-	text "the @"
 	text_ram wStringBuffer2
-	text "."
+	text " ab."
 	prompt
 
 _KnowsMoveText::
