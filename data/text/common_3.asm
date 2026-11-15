@@ -1109,23 +1109,24 @@ _GearEllipseText::
 	done
 
 _GearOutOfServiceText::
-	text "You're out of the"
-	line "service area."
+	text "Du bist außerhalb"
+	line "des Service-"
+	cont "gebiets."
 	prompt
 
 _PokegearAskWhoCallText::
-	text "Whom do you want"
-	line "to call?"
+	text "Wen möchtest du"
+	line "anrufen?"
 	done
 
 _PokegearPressButtonText::
-	text "Press any button"
-	line "to exit."
+	text "Drücke B-KNOPF,"
+	line "um abzubrechen."
 	done
 
 _PokegearAskDeleteText::
-	text "Delete this stored"
-	line "phone number?"
+	text "Die gespeicherte"
+	line "Nummer löschen?"
 	done
 
 _BuenaAskWhichPrizeText::
