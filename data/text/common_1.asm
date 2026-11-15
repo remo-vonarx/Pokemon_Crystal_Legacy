@@ -1,30 +1,29 @@
 _FruitBearingTreeText::
-	text "It's a fruit-"
-	line "bearing tree."
+	text "Es ist ein"
+	line "Obstbaum."
 	done
 
 _HeyItsFruitText::
-	text "Hey! It's"
+	text "Hey! Das ist eine"
 	line "@"
 	text_ram wStringBuffer3
 	text "!"
 	done
 
 _ObtainedFruitText::
-	text "Obtained"
-	line "@"
 	text_ram wStringBuffer3
-	text "!"
+	text_start
+	line "erhalten!"
 	done
 
 _FruitPackIsFullText::
-	text "But the PACK is"
-	line "full…"
+	text "Aber der BEUTEL"
+	line "ist voll…"
 	done
 
 _NothingHereText::
-	text "There's nothing"
-	line "here…"
+	text "Hier ist"
+	line "nichts…"
 	done
 
 _WhichApricornText::
@@ -275,116 +274,130 @@ _EnterTheAmountText:: ; unreferenced
 	done
 
 _NothingToChooseText::
-	text "There's nothing to"
-	line "choose."
+	text "Es gibt nichts"
+	line "zum Auswählen."
 	prompt
 
 _WhichSidePutOnText::
-	text "Which side do you"
-	line "want to put it on?"
+	text "Auf welcher Seite"
+	line "willst du sie"
+	cont "ablegen?"
 	done
 
 _WhichSidePutAwayText::
-	text "Which side do you"
-	line "want to put away?"
+	text "Welche Seite"
+	line "willst du ablegen?"
 	done
 
 _PutAwayTheDecoText::
-	text "Put away the"
-	line "@"
 	text_ram wStringBuffer3
-	text "."
+	text_start
+	line "ablegen."
 	prompt
 
 _NothingToPutAwayText::
-	text "There's nothing to"
-	line "put away."
+	text "Hier ist nichts"
+	line "zum Ablegen."
 	prompt
 
 _SetUpTheDecoText::
-	text "Set up the"
-	line "@"
+	text "Dekoriere dein"
+	line "Zimmer mit"
+
+	para "@"
 	text_ram wStringBuffer3
 	text "."
 	prompt
 
 _PutAwayAndSetUpText::
-	text "Put away the"
+	text "Entferne"
 	line "@"
 	text_ram wStringBuffer3
 	text_start
 
-	para "and set up the"
+	para "und dekoriere mit"
 	line "@"
 	text_ram wStringBuffer4
 	text "."
 	prompt
 
 _AlreadySetUpText::
-	text "That's already set"
-	line "up."
+	text "Das ist schon"
+	line "in deinem Zimmer."
 	prompt
 
 _LookTownMapText::
-	text "It's the TOWN MAP."
+	text "Das ist die KARTE."
 	done
 
 _LookPikachuPosterText::
-	text "It's a poster of a"
-	line "cute PIKACHU."
+	text "Das ist ein Poster"
+	line "eines niedlichen"
+	cont "PIKACHUs."
 	done
 
 _LookClefairyPosterText::
-	text "It's a poster of a"
-	line "cute CLEFAIRY."
+	text "Das ist ein Poster"
+	line "eines niedlichen"
+	cont "PIEPIs."
 	done
 
 _LookJigglypuffPosterText::
-	text "It's a poster of a"
-	line "cute JIGGLYPUFF."
+	text "Das ist ein Poster"
+	line "eines niedlichen"
+	cont "PUMMELUFFs."
 	done
 
 _LookAdorableDecoText::
-	text "It's an adorable"
+	text "Sehr bezaubernd:"
 	line "@"
 	text_ram wStringBuffer3
 	text "."
 	done
 
 _LookGiantDecoText::
-	text "A giant doll! It's"
-	line "fluffy and cuddly."
+	text "Eine Riesenpuppe!"
+	line "Sie ist flauschig"
+	cont "und weich."
 	done
 
 _MomHiHowAreYouText::
 	text "Hi, <PLAYER>!"
-	line "How are you?"
+	line "Wie geht es dir?"
 	prompt
 
 _MomFoundAnItemText::
-	text "I found a useful"
-	line "item shopping, so"
+	text "Ich habe beim"
+	line "Einkaufen ein"
+	cont "nützliches Item"
+	cont "gefunden und"
 	prompt
 
 _MomBoughtWithYourMoneyText::
-	text "I bought it with"
-	line "your money. Sorry!"
+	text "ich habe dieses"
+	line "dekorative Item"
+
+	para "von deinem Geld"
+	line "gekauft!"
 	prompt
 
 _MomItsInPCText::
-	text "It's in your PC."
-	line "You'll like it!"
+	text "Es ist in deinem"
+	line "PC. Es wird dir"
+	cont "gefallen!"
 	done
 
 _MomFoundADollText::
-	text "While shopping"
-	line "today, I saw this"
-	cont "adorable doll, so"
+	text "Beim Einkaufen"
+	line "heute habe ich"
+	cont "eine tolle Puppe"
+	cont "gesehen und"
 	prompt
 
 _MomItsInYourRoomText::
-	text "It's in your room."
-	line "You'll love it!"
+	text "Sie ist in deinem"
+	line "Zimmer. Du wirst"
+	cont "sie lieben!"
 	done
 
 _MonWasSentToText::
@@ -1299,7 +1312,7 @@ _ObtainedTheVoltorbBadgeText:: ; unreferenced
 	done
 
 _AskFloorElevatorText::
-	text "Which floor?"
+	text "Welcher Stock?"
 	done
 
 _BugCatchingContestTimeUpText::
@@ -1314,30 +1327,31 @@ _BugCatchingContestIsOverText::
 	done
 
 _RepelWoreOffText::
-	text "REPEL's effect"
-	line "wore off."
+	text "SCHUTZ wirkt"
+	line "nicht mehr."
 	done
 
 _UseAnotherRepelText::
 	text "@"
 	text_ram wStringBuffer3
-	text "'s"
-	line "worn off."
+	text " wirkt"
+	line "nicht mehr."
 
-	para "Use another?"
+	para "Noch eins"
+	line "einsetzen?"
 	done
 
-
 _PlayerFoundItemText::
-	text "<PLAYER> found"
+	text "<PLAYER> findet"
 	line "@"
 	text_ram wStringBuffer3
-	text "!"
+	text "."
 	done
 
 _ButNoSpaceText::
-	text "But <PLAYER> has"
-	line "no space left…"
+	text "Aber <PLAYER> hat"
+	line "keinen Platz"
+	cont "dafür…"
 	done
 
 _JustSawSomeRareMonText::
@@ -1361,7 +1375,7 @@ _SavingRecordText::
 
 _ReceiveItemText::
 	text_ram wPlayerName
-	text " received"
+	text " erhält"
 	line "@"
 	text_ram wStringBuffer1
 	text "!@"
@@ -1372,12 +1386,13 @@ _ReceiveItemText::
 	text_end ; unreferenced
 
 _NoCoinsText::
-	text "You have no coins."
+	text "Du hast keine"
+	line "Münzen."
 	prompt
 
 _NoCoinCaseText::
-	text "You don't have a"
-	line "COIN CASE."
+	text "Du hast keinen"
+	line "MÜNZKORB."
 	prompt
 
 _NPCTradeCableText::
@@ -1555,123 +1570,127 @@ _NPCTradeAfterText4::
 	done
 
 _MomLeavingText1::
-	text "Wow, that's a cute"
-	line "#MON."
+	text "Das ist ein nied-"
+	line "liches #MON."
 
-	para "Where did you get"
-	line "it?"
+	para "Wo hast du es"
+	line "her?"
 
 	para "…"
 
-	para "So, you're leaving"
-	line "on an adventure…"
+	para "Du beginnst also"
+	line "ein Abenteuer…"
 
-	para "OK!"
-	line "I'll help too."
+	para "O.K.! Auch ich"
+	line "werde dir helfen."
 
-	para "But what can I do"
-	line "for you?"
+	para "Aber was kann ich"
+	line "für dich tun?"
 
-	para "I know! I'll save"
-	line "money for you."
+	para "Ich weiß! Ich"
+	line "werde für dich"
+	cont "sparen."
 
-	para "On a long journey,"
-	line "money's important."
+	para "Auf einer langen"
+	line "Reise ist Geld"
+	cont "sehr wichtig."
 
-	para "Do you want me to"
-	line "save your money?"
+	para "Soll ich dein"
+	line "Geld sparen?"
 	done
 
 _MomLeavingText2::
-	text "OK, I'll take care"
-	line "of your money."
+	text "O.K., ich verwalte"
+	line "deine Ersparnisse."
 
 	para "<……><……><……>"
 	prompt
 
 _MomLeavingText3::
-	text "Be careful."
+	text "Sei auf der Hut."
 
-	para "#MON are your"
-	line "friends. You need"
-	cont "to work as a team."
+	para "#MON sind"
+	line "deine Kameraden."
+	cont "Ihr müsst als Team"
+	cont "auftreten."
 
-	para "Now, go on!"
+	para "Also mach's gut!"
 	done
 
 _MomIsThisAboutYourMoneyText::
-	text "Hi! Welcome home!"
-	line "You're trying very"
-	cont "hard, I see."
+	text "Hi! Willkommen!"
+	line "Ich sehe, du"
+	cont "bemühst dich sehr."
 
-	para "I've kept your"
-	line "room tidy."
+	para "Ich habe dein"
+	line "Zimmer aufgeräumt."
 
-	para "Or is this about"
-	line "your money?"
+	para "Ist es wegen"
+	line "deinem Geld?"
 	done
 
 _MomBankWhatDoYouWantToDoText::
-	text "What do you want"
-	line "to do?"
+	text "Was wirst du"
+	line "tun?"
 	done
 
 _MomStoreMoneyText::
-	text "How much do you"
-	line "want to save?"
+	text "Wie viel möchtest"
+	line "du sparen?"
 	done
 
 _MomTakeMoneyText::
-	text "How much do you"
-	line "want to take?"
+	text "Wie viel möchtest"
+	line "du mitnehmen?"
 	done
 
 _MomSaveMoneyText::
-	text "Do you want to"
-	line "save some money?"
+	text "Möchtest du weiter"
+	line "Geld sparen?"
 	done
 
 _MomHaventSavedThatMuchText::
-	text "You haven't saved"
-	line "that much."
+	text "So viel hast du"
+	line "nicht gespart."
 	prompt
 
 _MomNotEnoughRoomInWalletText::
-	text "You can't take"
-	line "that much."
+	text "So viel kannst du"
+	line "nicht mitnehmen."
 	prompt
 
 _MomInsufficientFundsInWalletText::
-	text "You don't have"
-	line "that much."
+	text "So viel hast"
+	line "du nicht."
 	prompt
 
 _MomNotEnoughRoomInBankText::
-	text "You can't save"
-	line "that much."
+	text "So viel kannst"
+	line "du nicht sparen."
 	prompt
 
 _MomStartSavingMoneyText::
-	text "OK, I'll save your"
-	line "money. Trust me!"
+	text "O.K., ich spare"
+	line "für dich! Traue"
+	cont "mir!"
 
-	para "<PLAYER>, stick"
-	line "with it!"
+	para "<PLAYER>, bleib"
+	line "dabei!"
 	done
 
 _MomStoredMoneyText::
-	text "Your money's safe"
-	line "here! Get going!"
+	text "Dein Geld ist hier"
+	line "sicher! Tschüss!"
 	done
 
 _MomTakenMoneyText::
-	text "<PLAYER>, don't"
-	line "give up!"
+	text "<PLAYER>, nur nicht"
+	line "aufgeben!"
 	done
 
 _MomJustDoWhatYouCanText::
-	text "Just do what"
-	line "you can."
+	text "Gib immer dein"
+	line "Bestes."
 	done
 
 _DaycareDummyText::
