@@ -1219,8 +1219,10 @@ _PlayersPCNoRoomDepositText::
 	prompt
 
 _TooImportantToDepositText::
-	text "That's too impor-"
-	line "tant to deposit!"
+	text "Dieses Item ist"
+	line "zu wichtig! Du"
+	cont "kannst es nicht"
+	cont "ablegen!"
 	prompt
 
 _PokecenterPCTurnOnText::

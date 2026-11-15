@@ -2226,7 +2226,7 @@ PCString_Non: db "Nein@" ; unreferenced
 PCString_BoxFull: db "Die BOX ist voll!@"
 PCString_PartyFull: db "Team ist voll!@"
 PCString_NoReleasingEGGS: db "EI ablegen verbt.!@"
-PCString_ReleaseMon: db "Release <PK><MN>.@"
+PCString_ReleaseMon: db "<PK><MN> freilassen.@"
 
 _ChangeBox:
 	call LoadStandardMenuHeader

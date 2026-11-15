@@ -1334,12 +1334,12 @@ _RepelWoreOffText::
 _UseAnotherRepelText::
 	text "@"
 	text_ram wStringBuffer3
-	text "'s"
-	line "worn off."
+	text " wirkt"
+	line "nicht mehr."
 
-	para "Use another?"
+	para "Noch eins"
+	line "einsetzen?"
 	done
-
 
 _PlayerFoundItemText::
 	text "<PLAYER> findet"

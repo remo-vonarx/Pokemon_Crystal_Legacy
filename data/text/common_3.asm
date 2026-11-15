@@ -552,16 +552,17 @@ _MartFinalPriceText::
 	done
 
 _HerbShopLadyIntroText::
-	text "Hello, dear."
+	text "Hallo,"
 
-	para "I sell rare and"
-	line "valuable stones."
+	para "ich verkaufe"
+	line "seltene und"
+	cont "wertvolle Steine."
 
-	para "They've been known"
-	line "to make #MON"
-	cont "change forms."
+	para "Man sagt, sie"
+	line "lassen #MON"
+	cont "ihre Form ändern."
 
-	para "Hehehehe…"
+	para "Hihihihi…"
 	done
 
 _HerbalLadyHowManyText::
