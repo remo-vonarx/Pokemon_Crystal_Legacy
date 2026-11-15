@@ -1698,162 +1698,178 @@ _DaycareDummyText::
 	done
 
 _DayCareManIntroText::
-	text "I'm the DAY-CARE"
-	line "MAN. Want me to"
-	cont "raise a #MON?"
+	text "Ich bin der"
+	line "PENSIONSLEITER."
+	cont "Soll ich eines"
+	cont "deiner #MON"
+	cont "aufziehen?"
 	done
 
 _DayCareManIntroEggText::
-	text "I'm the DAY-CARE"
-	line "MAN. Do you know"
-	cont "about EGGS?"
+	text "Ich bin der"
+	line "PENSIONSLEITER."
+	cont "Kennst du dich"
+	cont "mit EIERN aus?"
 
-	para "I was raising"
-	line "#MON with my"
-	cont "wife, you see."
+	para "Ich habe #MON"
+	line "mit meiner"
+	cont "Frau aufgezogen."
 
-	para "We were shocked to"
-	line "find an EGG!"
+	para "Wir waren ent-"
+	line "setzt, als wir ein"
+	cont "EI fanden!"
 
-	para "How incredible is"
-	line "that?"
+	para "Das ist doch"
+	line "unglaublich, oder?"
 
-	para "So, want me to"
-	line "raise a #MON?"
+	para "Soll ich ein"
+	line "#MON aufziehen?"
 	done
 
 _DayCareLadyIntroText::
-	text "I'm the DAY-CARE"
-	line "LADY."
+	text "Ich bin die"
+	line "PENSIONSLEITERIN."
 
-	para "Should I raise a"
-	line "#MON for you?"
+	para "Soll ich eines"
+	line "deiner #MON"
+	cont "aufziehen?"
 	done
 
 _DayCareLadyIntroEggText::
-	text "I'm the DAY-CARE"
-	line "LADY. Do you know"
-	cont "about EGGS?"
+	text "Ich bin die"
+	line "PENSIONSLEITERIN."
+	cont "Kennst du dich"
+	cont "mit EIERN aus?"
 
-	para "My husband and I"
-	line "were raising some"
-	cont "#MON, you see."
+	para "Mein Mann und ich"
+	line "haben #MON"
+	cont "aufgezogen."
 
-	para "We were shocked to"
-	line "find an EGG!"
+	para "Wir waren er-"
+	line "staunt, als wir"
+	cont "ein EI fanden!"
 
-	para "How incredible"
-	line "could that be?"
+	para "Das ist doch"
+	line "unglaublich, oder?"
 
-	para "Should I raise a"
-	line "#MON for you?"
+	para "Soll ich eines"
+	line "deiner #MON"
+	cont "aufziehen?"
 	done
 
 _WhatShouldIRaiseText::
-	text "What should I"
-	line "raise for you?"
+	text "Welches soll"
+	line "ich aufziehen?"
 	prompt
 
 _OnlyOneMonText::
-	text "Oh? But you have"
-	line "just one #MON."
+	text "Oh? Aber du hast"
+	line "nur ein #MON."
 	prompt
 
 _CantAcceptEggText::
-	text "Sorry, but I can't"
-	line "accept an EGG."
+	text "Tut mir Leid, aber"
+	line "ich kann kein EI"
+	cont "annehmen."
 	prompt
 
 _RemoveMailText::
-	text "Remove MAIL before"
-	line "you come see me."
+	text "Entferne den"
+	line "BRIEF, ehe du mich"
+	cont "aufsuchst."
 	prompt
 
 _LastHealthyMonText::
-	text "If you give me"
-	line "that, what will"
-	cont "you battle with?"
+	text "Wenn du mir das"
+	line "gibst, wer soll"
+	cont "dann kämpfen?"
 	prompt
 
 _IllRaiseYourMonText::
-	text "OK. I'll raise"
-	line "your @"
+	text "O.K. Ich kümmere"
+	line "mich um dein"
+	cont "@"
 	text_ram wStringBuffer1
 	text "."
 	prompt
 
 _ComeBackLaterText::
-	text "Come back for it"
-	line "later."
+	text "Hole es später"
+	line "wieder ab."
 	done
 
 _AreWeGeniusesText::
-	text "Are we geniuses or"
-	line "what? Want to see"
-	cont "your @"
+	text "Wir sind genial,"
+	line "oder? Möchtest du"
+	cont "dein @"
 	text_ram wStringBuffer1
-	text "?"
+	text_start
+	cont "sehen?"
 	done
 
 _YourMonHasGrownText::
-	text "Your @"
+	text "Dein @"
 	text_ram wStringBuffer1
 	text_start
-	line "has grown a lot."
+	line "ist groß geworden."
 
-	para "By level, it's"
-	line "grown by @"
+	para "Es ist um @"
 	text_decimal wStringBuffer2 + 1, 1, 3
-	text "."
+	text_start
+	line "Level gestiegen."
 
-	para "If you want your"
-	line "#MON back, it"
-	cont "will cost ¥@"
+	para "Wenn du dein"
+	line "#MON zurück"
+	cont "haben möchtest,"
+	cont "kostet dich das"
+	cont "¥@"
 	text_decimal wStringBuffer2 + 2, 3, 4
 	text "."
 	done
 
 _PerfectHeresYourMonText::
-	text "Perfect! Here's"
-	line "your #MON."
+	text "Perfekt! Hier ist"
+	line "dein #MON."
 	prompt
 
 _GotBackMonText::
-	text "<PLAYER> got back"
+	text "<PLAYER> erhält"
 	line "@"
 	text_ram wStringBuffer1
 	text "."
 	prompt
 
 _BackAlreadyText::
-	text "Huh? Back already?"
-	line "Your @"
+	text "Huh? Schon zurück?"
+	line "Dein @"
 	text_ram wStringBuffer1
 	text_start
-	para "needs a little"
-	line "more time with us."
 
-	para "If you want your"
-	line "#MON back, it"
-	cont "will cost ¥100."
+	para "sollte noch ein"
+	line "wenig hierbleiben."
+
+	para "Wenn du dein"
+	line "#MON zurück-"
+	cont "haben möchtest,"
+	cont "zahle ¥100."
 	done
 
 _HaveNoRoomText::
-	text "You have no room"
-	line "for it."
+	text "Du hast keinen"
+	line "Platz mehr."
 	prompt
 
 _NotEnoughMoneyText::
-	text "You don't have"
-	line "enough money."
+	text "Du hast nicht"
+	line "genügend Geld."
 	prompt
 
 _OhFineThenText::
-	text "Oh, fine then."
+	text "Oh, in Ordnung."
 	prompt
 
 _ComeAgainText::
-	text "Come again."
+	text "Komm wieder."
 	done
 
 _CantAcceptFaintedMonText::
@@ -1864,47 +1880,50 @@ _CantAcceptFaintedMonText::
 	prompt
 
 _NotYetText::
-	text "Not yet…"
+	text "Noch nicht…"
 	done
 
 _FoundAnEggText::
-	text "Ah, it's you!"
+	text "Ah, du bist's!"
 
-	para "We were raising"
-	line "your #MON, and"
+	para "Wir haben uns um"
+	line "dein #MON"
 
-	para "my goodness, were"
-	line "we surprised!"
+	para "gekümmert und"
+	line "waren sehr"
+	cont "erstaunt!"
 
-	para "Your #MON had"
-	line "an EGG!"
+	para "Dein #MON hatte"
+	line "ein EI!"
 
-	para "We don't know how"
-	line "it got there, but"
+	para "Wir wissen nicht,"
+	line "wie es dahin"
 
-	para "your #MON had"
-	line "it. You want it?"
+	para "gekommen ist; dein"
+	line "#MON hat es."
+	cont "Möchtest du es?"
 	done
 
 _ReceivedEggText::
-	text "<PLAYER> received"
-	line "the EGG!"
+	text "<PLAYER> erhält"
+	line "das EI!"
 	done
 
 _TakeGoodCareOfEggText::
-	text "Take good care of"
-	line "it."
+	text "Pass gut darauf"
+	line "auf."
 	done
 
 _IllKeepItThanksText::
-	text "Well then, I'll"
-	line "keep it. Thanks!"
+	text "Gut, ich passe"
+	line "darauf auf. Danke!"
 	done
 
 _NoRoomForEggText::
-	text "You have no room"
-	line "in your party."
-	cont "Come back later."
+	text "Du kannst keine"
+	line "#MON mehr"
+	cont "tragen. Komm"
+	cont "später wieder."
 	done
 
 _WhichMonPhotoText::

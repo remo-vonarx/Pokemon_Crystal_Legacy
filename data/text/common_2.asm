@@ -844,7 +844,7 @@ _EndUsedMove5Text::
 	done
 
 Text_BreedHuh::
-	text "Huh?"
+	text "Huch?"
 
 	para "@"
 	text_end
@@ -855,8 +855,9 @@ _BreedClearboxText::
 
 _BreedEggHatchText::
 	text_ram wStringBuffer1
-	text " came"
-	line "out of its EGG!@"
+	text_start
+	line "schlüpft aus dem"
+	cont "EI!@"
 	sound_caught_mon
 	text_promptbutton
 	text_end
@@ -864,57 +865,58 @@ _BreedEggHatchText::
 	text_end ; unreferenced
 
 _BreedAskNicknameText::
-	text "Give a nickname to"
+	text "Möchtest du"
 	line "@"
 	text_ram wStringBuffer1
-	text "?"
+	text " einen"
+	cont "Spitznamen geben?"
 	done
 
 _LeftWithDayCareLadyText::
-	text "It's @"
 	text_ram wBreedMon2Nickname
-	text_start
-	line "that was left with"
-	cont "the DAY-CARE LADY."
+	text " hast du"
+	line "der PENSIONSLEI-"
+	cont "TERIN anvertraut."
 	done
 
 _LeftWithDayCareManText::
-	text "It's @"
 	text_ram wBreedMon1Nickname
-	text_start
-	line "that was left with"
-	cont "the DAY-CARE MAN."
+	text " hast du"
+	line "dem PENSIONSLEITER"
+	cont "anvertraut."
 	done
 
 _BreedBrimmingWithEnergyText::
-	text "It's brimming with"
-	line "energy."
+	text "Es strotzt vor"
+	line "Energie."
 	prompt
 
 _BreedNoInterestText::
-	text "It has no interest"
-	line "in @"
 	text_ram wStringBuffer1
-	text "."
+	text_start
+	line "ist nicht"
+	cont "interessiert."
 	prompt
 
 _BreedAppearsToCareForText::
-	text "It appears to care"
-	line "for @"
+	text "Es kümmert sich um"
+	line "@"
 	text_ram wStringBuffer1
 	text "."
 	prompt
 
 _BreedFriendlyText::
-	text "It's friendly with"
-	line "@"
+	text "Es ist freundlich"
+	line "gegenüber"
+
+	para "@"
 	text_ram wStringBuffer1
 	text "."
 	prompt
 
 _BreedShowsInterestText::
-	text "It shows interest"
-	line "in @"
+	text "Es zeigt Interesse"
+	line "an @"
 	text_ram wStringBuffer1
 	text "."
 	prompt
