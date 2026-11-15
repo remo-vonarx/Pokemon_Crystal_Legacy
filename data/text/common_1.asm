@@ -274,85 +274,91 @@ _EnterTheAmountText:: ; unreferenced
 	done
 
 _NothingToChooseText::
-	text "There's nothing to"
-	line "choose."
+	text "Es gibt nichts"
+	line "zum Auswählen."
 	prompt
 
 _WhichSidePutOnText::
-	text "Which side do you"
-	line "want to put it on?"
+	text "Auf welcher Seite"
+	line "willst du sie"
+	cont "ablegen?"
 	done
 
 _WhichSidePutAwayText::
-	text "Which side do you"
-	line "want to put away?"
+	text "Welche Seite"
+	line "willst du ablegen?"
 	done
 
 _PutAwayTheDecoText::
-	text "Put away the"
-	line "@"
 	text_ram wStringBuffer3
-	text "."
+	text_start
+	line "ablegen."
 	prompt
 
 _NothingToPutAwayText::
-	text "There's nothing to"
-	line "put away."
+	text "Hier ist nichts"
+	line "zum Ablegen."
 	prompt
 
 _SetUpTheDecoText::
-	text "Set up the"
-	line "@"
+	text "Dekoriere dein"
+	line "Zimmer mit"
+
+	para "@"
 	text_ram wStringBuffer3
 	text "."
 	prompt
 
 _PutAwayAndSetUpText::
-	text "Put away the"
+	text "Entferne"
 	line "@"
 	text_ram wStringBuffer3
 	text_start
 
-	para "and set up the"
+	para "und dekoriere mit"
 	line "@"
 	text_ram wStringBuffer4
 	text "."
 	prompt
 
 _AlreadySetUpText::
-	text "That's already set"
-	line "up."
+	text "Das ist schon"
+	line "in deinem Zimmer."
 	prompt
 
 _LookTownMapText::
-	text "It's the TOWN MAP."
+	text "Das ist die KARTE."
 	done
 
 _LookPikachuPosterText::
-	text "It's a poster of a"
-	line "cute PIKACHU."
+	text "Das ist ein Poster"
+	line "eines niedlichen"
+	cont "PIKACHUs."
 	done
 
 _LookClefairyPosterText::
-	text "It's a poster of a"
-	line "cute CLEFAIRY."
+	text "Das ist ein Poster"
+	line "eines niedlichen"
+	cont "PIEPIs."
 	done
 
 _LookJigglypuffPosterText::
-	text "It's a poster of a"
-	line "cute JIGGLYPUFF."
+	text "Das ist ein Poster"
+	line "eines niedlichen"
+	cont "PUMMELUFFs."
 	done
 
 _LookAdorableDecoText::
-	text "It's an adorable"
+	text "Sehr bezaubernd:"
 	line "@"
 	text_ram wStringBuffer3
 	text "."
 	done
 
 _LookGiantDecoText::
-	text "A giant doll! It's"
-	line "fluffy and cuddly."
+	text "Eine Riesenpuppe!"
+	line "Sie ist flauschig"
+	cont "und weich."
 	done
 
 _MomHiHowAreYouText::
