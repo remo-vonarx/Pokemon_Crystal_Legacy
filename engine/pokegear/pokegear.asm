@@ -600,9 +600,9 @@ Pokegear_UpdateClock:
 	jr z, .print_tod
 .print_fish_group
 	ld a, BANK(FishGroups_Names)
-	hlcoord 8, 10
+	hlcoord 7, 10
 	call PlaceFarString
-	hlcoord 3, 10
+	hlcoord 1, 10
 	ld de, .FishGrpStr
 	call PlaceString
 .print_tod
@@ -613,7 +613,7 @@ Pokegear_UpdateClock:
 	jr z, .Day
 	ld de, .NiteStr
 .got_tod		
-	hlcoord 14, 6
+	hlcoord 13, 6
 	call PlaceString
 
 	hlcoord 11, 0
@@ -633,14 +633,14 @@ Pokegear_UpdateClock:
 	jr .got_tod
 
 .MornStr:
-	db "MORN@"
+	db "VORM.@"
 .DayStr:
-	db "DAY@"
+	db "TAG@"
 .NiteStr:
-	db "NITE@"
+	db "NACHT@"
 	; db "NIGHT@"
 .FishGrpStr:
-	db "FISH:@"	
+	db "ANGELN@"	
 
 .GearTodayText:
 	text_far _GearTodayText
@@ -1375,9 +1375,9 @@ PokegearPhoneContactSubmenu:
 .CallDeleteCancelStrings:
 	dwcoord 10, 6
 	db 3
-	db   "CALL"
-	next "DELETE"
-	next "CANCEL"
+	db   "ANRUF"
+	next "LÖSCHEN"
+	next "ZURÜCK"
 	db   "@"
 
 .CallDeleteCancelJumptable:
@@ -1388,8 +1388,8 @@ PokegearPhoneContactSubmenu:
 .CallCancelStrings:
 	dwcoord 10, 8
 	db 2
-	db   "CALL"
-	next "CANCEL"
+	db   "ANRUF"
+	next "ZURÜCK"
 	db   "@"
 
 .CallCancelJumptable:
@@ -1737,7 +1737,7 @@ LoadStation_BuenasPassword:
 	ld de, BuenasPasswordName
 	ret
 
-BuenasPasswordName:    db "BUENA'S PASSWORD@"
+BuenasPasswordName:    db "BUENAs PASSWORT@"
 NotBuenasPasswordName: db "@"
 
 LoadStation_UnownRadio:
@@ -1870,15 +1870,15 @@ NoRadioName:
 	call Textbox
 	ret
 
-OaksPKMNTalkName:     db "OAK's <PK><MN> Talk@"
+OaksPKMNTalkName:     db "EICHs <PKMN>-Talk@"
 PokedexShowName:      db "#DEX Show@"
-PokemonMusicName:     db "#MON Music@"
-LuckyChannelName:     db "Lucky Channel@"
+PokemonMusicName:     db "#MON-Musik@"
+LuckyChannelName:     db "Glückskanal@"
 UnownStationName:     db "?????@"
 
-PlacesAndPeopleName:  db "Places & People@"
-LetsAllSingName:      db "Let's All Sing!@"
-PokeFluteStationName: db "# FLUTE@"
+PlacesAndPeopleName:  db "Orte & Personen@"
+LetsAllSingName:      db "Lasst uns singen@"
+PokeFluteStationName: db "#MON-FLÖTE@"
 
 _TownMap:
 	ld hl, wOptions
@@ -2592,7 +2592,7 @@ Pokedex_GetArea:
 	call ByteFill
 	ld [hl], $17
 	call GetPokemonName
-	hlcoord 2, 0
+	hlcoord 1, 0
 	call PlaceString
 	ld h, b
 	ld l, c
@@ -2606,9 +2606,8 @@ Pokedex_GetArea:
 	ld [hli], a
 	ld a, $4a ; part of SELECT >
 	ld [hli], a
-	ld a, $1d ; custom arrow cap + YOU
-	ld [hli], a ; $78
-	ld [hl], $1e
+	ld a, $1d ; DU
+	ld [hl], a
 
 ; show player coords
 ; ; show player
@@ -2616,7 +2615,7 @@ Pokedex_GetArea:
 	ret
 
 .String_SNest:
-	db "'S NEST@"
+	db " FUNDORT@"
 
 .GetAndPlaceNest:
 	ld [wTownMapCursorLandmark], a

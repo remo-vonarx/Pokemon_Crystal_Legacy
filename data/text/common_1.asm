@@ -510,22 +510,27 @@ _MobileTradeCameBackText::
 
 _OPT_IntroText1::
 	text_start
-	line "MARY: PROF.OAK'S"
+	line "MARGIT:"
 	done
 
 _OPT_IntroText2::
 	text_start
-	line "#MON TALK!"
+	line "PROF. EICHs"
 	done
 
 _OPT_IntroText3::
 	text_start
-	line "With me, MARY!"
+	line "#MON-TALK!"
+	done
+
+_OPT_IntroText4::
+	text_start
+	line "Mit MARGIT!"
 	done
 
 _OPT_OakText1::
 	text_start
-	line "OAK: @"
+	line "EICH: @"
 	text_ram wMonOrItemNameBuffer
 	text_end
 
@@ -533,7 +538,7 @@ _OPT_OakText1::
 
 _OPT_OakText2::
 	text_start
-	line "may be seen around"
+	line "wurde gesehen auf"
 	done
 
 _OPT_OakText3::
@@ -545,169 +550,170 @@ _OPT_OakText3::
 
 _OPT_MaryText1::
 	text_start
-	line "MARY: @"
+	line "MARGIT: @"
 	text_ram wStringBuffer1
-	text "'s"
-	done
+	text_end
+
+	text_end ; unreferenced
 
 _OPT_SweetAdorablyText::
 	text_start
-	line "sweet and adorably"
+	line "Wie bezaubernd."
 	done
 
 _OPT_WigglySlicklyText::
 	text_start
-	line "wiggly and slickly"
+	line "Wie smart."
 	done
 
 _OPT_AptlyNamedText::
 	text_start
-	line "aptly named and"
+	line "Wie reizend."
 	done
 
 _OPT_UndeniablyKindOfText::
 	text_start
-	line "undeniably kind of"
+	line "Wie freundlich."
 	done
 
 _OPT_UnbearablyText::
 	text_start
-	line "so, so unbearably"
+	line "Nicht zu ertragen…"
 	done
 
 _OPT_WowImpressivelyText::
 	text_start
-	line "wow, impressively"
+	line "Wow, faszinierend."
 	done
 
 _OPT_AlmostPoisonouslyText::
 	text_start
-	line "almost poisonously"
+	line "Fast giftig."
 	done
 
 _OPT_SensuallyText::
 	text_start
-	line "ooh, so sensually"
+	line "Wie einfühlsam."
 	done
 
 _OPT_MischievouslyText::
 	text_start
-	line "so mischievously"
+	line "So schelmisch."
 	done
 
 _OPT_TopicallyText::
 	text_start
-	line "so very topically"
+	line "Sehr aktuell."
 	done
 
 _OPT_AddictivelyText::
 	text_start
-	line "sure addictively"
+	line "Suchterregend."
 	done
 
 _OPT_LooksInWaterText::
 	text_start
-	line "looks in water is"
+	line "Schaut ins Wasser."
 	done
 
 _OPT_EvolutionMustBeText::
 	text_start
-	line "evolution must be"
+	line "Entwicklung, ja."
 	done
 
 _OPT_ProvocativelyText::
 	text_start
-	line "provocatively"
+	line "Wie provozierend."
 	done
 
 _OPT_FlippedOutText::
 	text_start
-	line "so flipped out and"
+	line "Wie ausgeflippt."
 	done
 
 _OPT_HeartMeltinglyText::
 	text_start
-	line "heart-meltingly"
+	line "Wie wunderbar."
 	done
 
 _OPT_CuteText::
 	text_start
-	line "cute."
+	line "Wie niedlich."
 	done
 
 _OPT_WeirdText::
 	text_start
-	line "weird."
+	line "Wie verrückt."
 	done
 
 _OPT_PleasantText::
 	text_start
-	line "pleasant."
+	line "Wie angenehm."
 	done
 
 _OPT_BoldSortOfText::
 	text_start
-	line "bold, sort of."
+	line "Wie dreist."
 	done
 
 _OPT_FrighteningText::
 	text_start
-	line "frightening."
+	line "Furchterregend."
 	done
 
 _OPT_SuaveDebonairText::
 	text_start
-	line "suave & debonair!"
+	line "Wie weltmännisch!"
 	done
 
 _OPT_PowerfulText::
 	text_start
-	line "powerful."
+	line "Wie stark."
 	done
 
 _OPT_ExcitingText::
 	text_start
-	line "exciting."
+	line "Wie aufregend."
 	done
 
 _OPT_GroovyText::
 	text_start
-	line "groovy!"
+	line "Jetzt!"
 	done
 
 _OPT_InspiringText::
 	text_start
-	line "inspiring."
+	line "Wie inspirierend."
 	done
 
 _OPT_FriendlyText::
 	text_start
-	line "friendly."
+	line "Wie freundlich."
 	done
 
 _OPT_HotHotHotText::
 	text_start
-	line "hot, hot, hot!"
+	line "Wie interessant!"
 	done
 
 _OPT_StimulatingText::
 	text_start
-	line "stimulating."
+	line "Wie anregend."
 	done
 
 _OPT_GuardedText::
 	text_start
-	line "guarded."
+	line "Gut geschützt."
 	done
 
 _OPT_LovelyText::
 	text_start
-	line "lovely."
+	line "Wie lieblich."
 	done
 
 _OPT_SpeedyText::
 	text_start
-	line "speedy."
+	line "Wie rasant."
 	done
 
 _OPT_PokemonChannelText::
@@ -722,100 +728,96 @@ _PokedexShowText::
 
 	text_end ; unreferenced
 
-; Pokémon Music Channel / Pokémusic
-
 _BenIntroText1::
 	text_start
-	line "BEN: #MON MUSIC"
+	line "BEN: #MON-MUSIK"
 	done
 
 _BenIntroText2::
 	text_start
-	line "CHANNEL!"
+	line "PROGRAMM!"
 	done
 
 _BenIntroText3::
 	text_start
-	line "It's me, DJ BEN!"
+	line "Ich bin's, DJ BEN!"
 	done
 
 _FernIntroText1::
 	text_start
-	line "FERN: #MUSIC!"
+	line "FABIAN: #MUSIK!"
 	done
 
 _FernIntroText2::
 	text_start
-	line "With DJ FERN!"
+	line "Mit DJ FABIAN!"
 	done
 
 _BenFernText1::
 	text_start
-	line "Today's @"
+	line "Es ist @"
 	text_today
-	text ","
+	text "!"
 	done
 
 _BenFernText2A::
 	text_start
-	line "so let us jam to"
+	line "Mach mit beim"
 	done
 
 _BenFernText2B::
 	text_start
-	line "so chill out to"
+	line "Entspann dich beim"
 	done
 
 _BenFernText3A::
 	text_start
-	line "#MON March!"
+	line "#MON-Marsch!"
 	done
 
 _BenFernText3B::
 	text_start
-	line "#MON Lullaby!"
+	line "PKMN-Schlaflied!"
 	done
-
-; Lucky Channel
 
 _LC_Text1::
 	text_start
-	line "REED: Yeehaw! How"
+	line "BASTIAN: Yeah! Wie"
 	done
 
 _LC_Text2::
 	text_start
-	line "y'all doin' now?"
+	line "geht es euch nun?"
 	done
 
 _LC_Text3::
 	text_start
-	line "Whether you're up"
+	line "Geht es gut, oder"
 	done
 
 _LC_Text4::
 	text_start
-	line "or way down low,"
+	line "geht es nicht,"
 	done
 
 _LC_Text5::
 	text_start
-	line "don't you miss the"
+	line "die GLÜCKSZAHLSHOW"
 	done
 
 _LC_Text6::
 	text_start
-	line "LUCKY NUMBER SHOW!"
+	line "ist immer Pflicht!"
 	done
 
 _LC_Text7::
 	text_start
-	line "This week's Lucky"
+	line "Die Glückszahl ist"
 	done
 
 _LC_Text8::
 	text_start
-	line "Number is @"
+	line "@"
 	text_pause
 	text_ram wStringBuffer1
 	text "!"
@@ -823,44 +825,42 @@ _LC_Text8::
 
 _LC_Text9::
 	text_start
-	line "I'll repeat that!"
+	line "Ich wiederhole!"
 	done
 
 _LC_Text10::
 	text_start
-	line "Match it and go to"
+	line "Gewonnen? Kommt"
 	done
 
 _LC_Text11::
 	text_start
-	line "the RADIO TOWER!"
+	line "zum RADIOTURM!"
 	done
 
 _LC_DragText1::
 	text_start
-	line "…Repeating myself"
+	line "…Die Wiederholung"
 	done
 
 _LC_DragText2::
 	text_start
-	line "gets to be a drag…"
+	line "verzögert alles…"
 	done
-
-; Places and People
 
 _PnP_Text1::
 	text_start
-	line "PLACES AND PEOPLE!"
+	line "ORTE UND PERSONEN!"
 	done
 
 _PnP_Text2::
 	text_start
-	line "Brought to you by"
+	line "Moderiert von"
 	done
 
 _PnP_Text3::
 	text_start
-	line "me, DJ LILY!"
+	line "DJ LILLY!"
 	done
 
 _PnP_Text4::
@@ -875,82 +875,82 @@ _PnP_Text4::
 
 _PnP_CuteText::
 	text_start
-	line "is cute."
+	line "ist niedlich."
 	done
 
 _PnP_LazyText::
 	text_start
-	line "is sort of lazy."
+	line "irgendwie faul."
 	done
 
 _PnP_HappyText::
 	text_start
-	line "is always happy."
+	line "ist immer heiter."
 	done
 
 _PnP_NoisyText::
 	text_start
-	line "is quite noisy."
+	line "ist ziemlich laut."
 	done
 
 _PnP_PrecociousText::
 	text_start
-	line "is precocious."
+	line "ist frühreif."
 	done
 
 _PnP_BoldText::
 	text_start
-	line "is somewhat bold."
+	line "ist wohl dreist."
 	done
 
 _PnP_PickyText::
 	text_start
-	line "is too picky!"
+	line "ist zu wählerisch!"
 	done
 
 _PnP_SortOfOKText::
 	text_start
-	line "is sort of OK."
+	line "ist O.K."
 	done
 
 _PnP_SoSoText::
 	text_start
-	line "is just so-so."
+	line "geht so."
 	done
 
 _PnP_GreatText::
 	text_start
-	line "is actually great."
+	line "ist großartig."
 	done
 
 _PnP_MyTypeText::
 	text_start
-	line "is just my type."
+	line "ist mein Typ."
 	done
 
 _PnP_CoolText::
 	text_start
-	line "is so cool, no?"
+	line "ist so cool, oder?"
 	done
 
 _PnP_InspiringText::
 	text_start
-	line "is inspiring!"
+	line "ist inspirierend!"
 	done
 
 _PnP_WeirdText::
 	text_start
-	line "is kind of weird."
+	line "ist verrückt."
 	done
 
 _PnP_RightForMeText::
 	text_start
-	line "is right for me?"
+	line "ist genau richtig?"
 	done
 
 _PnP_OddText::
 	text_start
-	line "is definitely odd!"
+	line "ist merkwürdig!"
 	done
 
 _PnP_Text5::
@@ -963,7 +963,7 @@ _PnP_Text5::
 
 _RocketRadioText1::
 	text_start
-	line "… …Ahem, we are"
+	line "… …Ähm, wir sind"
 	done
 
 _RocketRadioText2::
@@ -973,65 +973,63 @@ _RocketRadioText2::
 
 _RocketRadioText3::
 	text_start
-	line "After three years"
+	line "Nach drei Jahren"
 	done
 
 _RocketRadioText4::
 	text_start
-	line "of preparation, we"
+	line "Vorbereitung sind"
 	done
 
 _RocketRadioText5::
 	text_start
-	line "have risen again"
+	line "wir bereit für"
 	done
 
 _RocketRadioText6::
 	text_start
-	line "from the ashes!"
+	line "unser Comeback!"
 	done
 
 _RocketRadioText7::
 	text_start
 	line "GIOVANNI! @"
 	text_pause
-	text "Can you"
+	text "Hörst"
 	done
 
 _RocketRadioText8::
 	text_start
-	line "hear?@"
-	text_pause
-	text " We did it!"
+	line "du uns? Geschafft!"
 	done
 
 _RocketRadioText9::
 	text_start
 	line "@"
 	text_pause
-	text "Where is our boss?"
+	text "Wo ist unser Boss?"
 	done
 
 _RocketRadioText10::
 	text_start
 	line "@"
 	text_pause
-	text "Is he listening?"
+	text "Hört er zu?"
 	done
 
 _BuenaRadioText1::
 	text_start
-	line "BUENA: BUENA here!"
+	line "BUENA: BUENA hier!"
 	done
 
 _BuenaRadioText2::
 	text_start
-	line "Today's password!"
+	line "Heutiges Passwort!"
 	done
 
 _BuenaRadioText3::
 	text_start
-	line "Let me think… It's"
+	line "Moment… es lautet"
 	done
 
 _BuenaRadioText4::
@@ -1043,65 +1041,67 @@ _BuenaRadioText4::
 
 _BuenaRadioText5::
 	text_start
-	line "Don't forget it!"
+	line "Vergesst es nicht!"
 	done
 
 _BuenaRadioText6::
 	text_start
-	line "I'm in GOLDENROD's"
+	line "Ich bin im RADIO-"
 	done
 
 _BuenaRadioText7::
 	text_start
-	line "RADIO TOWER!"
+	line "TURM von DUKATIA!"
 	done
 
 _BuenaRadioMidnightText1::
 	text_start
-	line "BUENA: Oh my…"
+	line "BUENA: Oh, es ist…"
 	done
 
 _BuenaRadioMidnightText2::
 	text_start
-	line "It's midnight! I"
+	line "Mitternacht!"
 	done
 
 _BuenaRadioMidnightText3::
 	text_start
-	line "have to shut down!"
+	line "Ich muss aufhören!"
 	done
 
 _BuenaRadioMidnightText4::
 	text_start
-	line "Thanks for tuning"
+	line "Danke, Zuhörer!"
 	done
 
 _BuenaRadioMidnightText5::
 	text_start
-	line "in to the end! But"
+	line "Das Ende naht!"
 	done
 
 _BuenaRadioMidnightText6::
 	text_start
-	line "don't stay up too"
+	line "Bleibt nicht zu"
 	done
 
 _BuenaRadioMidnightText7::
 	text_start
-	line "late! Presented to"
+	line "lange auf! Euer"
 	done
 
 _BuenaRadioMidnightText8::
 	text_start
-	line "you by DJ BUENA!"
+	line "DJ BUENA!"
 	done
 
 _BuenaRadioMidnightText9::
-	text "I'm outta here!"
+	text_start
+	line "Ich muss weg!"
 	done
 
 _BuenaRadioMidnightText10::
-	text "…"
+	text_start
+	line "…"
 	done
 
 _BuenaOffTheAirText::
