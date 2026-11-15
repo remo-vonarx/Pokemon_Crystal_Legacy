@@ -760,8 +760,7 @@ _MartBoughtText::
 	done
 
 _SlotsBetHowManyCoinsText::
-	text "Bet how many"
-	line "coins?"
+	text "Wie viel setzen?"
 	done
 
 _SlotsStartText::
@@ -769,28 +768,29 @@ _SlotsStartText::
 	done
 
 _SlotsNotEnoughCoinsText::
-	text "Not enough"
-	line "coins."
+	text "Nicht genügend"
+	line "Münzen."
 	prompt
 
 _SlotsRanOutOfCoinsText::
-	text "Darn… Ran out of"
-	line "coins…"
+	text "Mist… Ich habe"
+	line "keine Münzen mehr…"
 	done
 
 _SlotsPlayAgainText::
-	text "Play again?"
+	text "Noch einmal?"
 	done
 
 _SlotsLinedUpText::
-	text "lined up!"
-	line "Won @"
+	text "Bingo!"
+	line "@"
 	text_ram wStringBuffer2
-	text " coins!"
+	text " Münzen"
+	cont "gewonnen!"
 	done
 
 _SlotsDarnText::
-	text "Darn!"
+	text "Mist!"
 	done
 
 _MobileStadiumEntryText::
@@ -1092,38 +1092,38 @@ _MoveCantForgetHMText::
 	prompt
 
 _CardFlipPlayWithThreeCoinsText::
-	text "Play with three"
-	line "coins?"
+	text "Drei Münzen set-"
+	line "zen?"
 	done
 
 _CardFlipNotEnoughCoinsText::
-	text "Not enough coins…"
+	text "Nicht genügend"
+	cont "Münzen…"
 	prompt
 
 _CardFlipChooseACardText::
-	text "Choose a card."
+	text "Zieh eine Karte."
 	done
 
 _CardFlipPlaceYourBetText::
-	text "Place your bet."
+	text "Worauf setzen?"
 	done
 
 _CardFlipPlayAgainText::
-	text "Want to play"
-	line "again?"
+	text "Noch einmal?"
 	done
 
 _CardFlipShuffledText::
-	text "The cards have"
-	line "been shuffled."
+	text "Die Karten"
+	line "wurden gemischt."
 	prompt
 
 _CardFlipYeahText::
-	text "Yeah!"
+	text "Yoh!"
 	done
 
 _CardFlipDarnText::
-	text "Darn…"
+	text "Mist…"
 	done
 
 _GearTodayText::

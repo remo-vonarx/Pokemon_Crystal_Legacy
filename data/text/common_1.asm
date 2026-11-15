@@ -1316,14 +1316,15 @@ _AskFloorElevatorText::
 	done
 
 _BugCatchingContestTimeUpText::
-	text "ANNOUNCER: BEEEP!"
+	text "SPRECHER: BIEP!"
 
-	para "Time's up!"
+	para "Die Zeit ist um!"
 	done
 
 _BugCatchingContestIsOverText::
-	text "ANNOUNCER: The"
-	line "Contest is over!"
+	text "SPRECHER: Der"
+	line "Wettkampf ist"
+	cont "vorbei!"
 	done
 
 _RepelWoreOffText::

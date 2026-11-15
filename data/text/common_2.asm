@@ -1028,33 +1028,35 @@ _PCCantTakeText::
 	prompt
 
 _ContestCaughtMonText::
-	text "Caught @"
 	text_ram wStringBuffer1
-	text "!"
+	text " wurde"
+	line "gefangen!"
 	prompt
 
 _ContestAskSwitchText::
-	text "Switch #MON?"
+	text "#MON tauschen?"
 	done
 
 _ContestAlreadyCaughtText::
-	text "You already caught"
-	line "a @"
+	text "Du hast bereits"
+	line "ein @"
 	text_ram wStringBuffer1
-	text "."
+	text_start
+	cont "gefangen."
 	prompt
 
 _ContestJudging_FirstPlaceText::
-	text "This Bug-Catching"
-	line "Contest winner is@"
+	text "Der Gewinner des"
+	line "Käferturniers ist@"
 	text_pause
 	text "…"
 
 	para "@"
 	text_ram wBugContestWinnerName
 	text ","
-	line "who caught a"
-	cont "@"
+	line "mit einem"
+
+	para "@"
 	text_ram wStringBuffer1
 	text "!@"
 	text_end
@@ -1062,19 +1064,21 @@ _ContestJudging_FirstPlaceText::
 _ContestJudging_FirstPlaceScoreText::
 	text_start
 
-	para "The winning score"
-	line "was @"
+	para "Mit einer Punkt-"
+	line "zahl von @"
 	text_decimal wBugContestFirstPlaceScore, 2, 3
-	text " points!"
+	text_start
+	cont "Punkten!"
 	prompt
 
 _ContestJudging_SecondPlaceText::
-	text "Placing second was"
+	text "Zweiter wurde"
 	line "@"
 	text_ram wBugContestWinnerName
 	text ","
 
-	para "who caught a"
+	para "mit einem"
+	line ""
 	line "@"
 	text_ram wStringBuffer1
 	text "!@"
@@ -1083,19 +1087,19 @@ _ContestJudging_SecondPlaceText::
 _ContestJudging_SecondPlaceScoreText::
 	text_start
 
-	para "The score was"
+	para "Die Punktzahl ist"
 	line "@"
 	text_decimal wBugContestSecondPlaceScore, 2, 3
-	text " points!"
+	text "!"
 	prompt
 
 _ContestJudging_ThirdPlaceText::
-	text "Placing third was"
+	text "Dritter wurde"
 	line "@"
 	text_ram wBugContestWinnerName
 	text ","
 
-	para "who caught a"
+	para "mit einem"
 	line "@"
 	text_ram wStringBuffer1
 	text "!@"
@@ -1104,10 +1108,10 @@ _ContestJudging_ThirdPlaceText::
 _ContestJudging_ThirdPlaceScoreText::
 	text_start
 
-	para "The score was"
-	line "@"
+	para "Mit einer Punkt-"
+	line "zahl von @"
 	text_decimal wBugContestThirdPlaceScore, 2, 3
-	text " points!"
+	text "!"
 	prompt
 
 _MagikarpGuruMeasureText::
@@ -1474,11 +1478,11 @@ _TrainerRankingNoDataText:: ; unreferenced
 	done
 
 _MemoryGameYeahText::
-	text " , yeah!"
+	text "!"
 	done
 
 _MemoryGameDarnText::
-	text "Darn…"
+	text "Mist…"
 	done
 
 _StartMenuContestEndText::
