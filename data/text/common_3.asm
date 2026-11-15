@@ -535,15 +535,18 @@ _MoveReminderNoMoves::
 
 
 _MartHowManyText::
-	text "How many?"
+	text "Wie viele?"
 	done
 
 _MartFinalPriceText::
 	text_decimal wItemQuantityChange, 1, 2
-	text " @"
+	text " x"
+	line "@"
 	text_ram wStringBuffer2
-	text "(S)"
-	line "will be ¥@"
+	text "?"
+
+	para "Das macht dann"
+	line "¥@"
 	text_decimal hMoneyTemp, 3, 6
 	text "."
 	done
@@ -562,180 +565,190 @@ _HerbShopLadyIntroText::
 	done
 
 _HerbalLadyHowManyText::
-	text "How many?"
+	text "Wie viele?"
 	done
 
 _HerbalLadyFinalPriceText::
 	text_decimal wItemQuantityChange, 1, 2
-	text " @"
+	text " x @"
 	text_ram wStringBuffer2
-	text "(S)"
-	line "will be ¥@"
+	text_start
+	line "kostet ¥@"
 	text_decimal hMoneyTemp, 3, 6
 	text "."
 	done
 
 _HerbalLadyThanksText::
-	text "Thank you, dear."
-	line "Hehehehe…"
+	text "Danke, Kleiner."
+	line "Hihihihi…"
 	done
 
 _HerbalLadyPackFullText::
-	text "Oh? Your PACK is"
-	line "full, dear."
+	text "Oh? In deinem"
+	line "BEUTEL ist kein"
+	cont "Platz mehr."
 	done
 
 _HerbalLadyNoMoneyText::
-	text "Hehehe… You don't"
-	line "have the money."
+	text "Hihihi… Du hast"
+	line "nicht genug Geld."
 	done
 
 _HerbalLadyComeAgainText::
-	text "Come again, dear."
-	line "Hehehehe…"
+	text "Besuche mich"
+	line "wieder. Hihihihi…"
 	done
 
 _BargainShopIntroText::
-	text "Hiya! Care to see"
-	line "some bargains?"
+	text "Heh! Bist du an"
+	line "Schnäppchen"
+	cont "interessiert?"
 
-	para "I sell rare items"
-	line "that nobody else"
+	para "Ich verkaufe"
+	line "seltene Items,"
 
-	para "carries--but only"
-	line "one of each item."
+	para "aber leider sind"
+	line "es nur Einzel-"
+	cont "stücke."
 	done
 
 _BargainShopFinalPriceText::
 	text_ram wStringBuffer2
-	text " costs"
-	line "¥@"
+	text_start
+	line "kostet ¥@"
 	text_decimal hMoneyTemp, 3, 6
-	text ". Want it?"
+	text "."
+
+	para "Kaufen?"
 	done
 
 _BargainShopThanksText::
-	text "Thanks."
+	text "Danke."
 	done
 
 _BargainShopPackFullText::
-	text "Uh-oh, your PACK"
-	line "is chock-full."
+	text "Uhh, dein BEUTEL"
+	line "platzt aus"
+	cont "allen Nähten."
 	done
 
 _BargainShopSoldOutText::
-	text "You bought that"
-	line "already. I'm all"
-	cont "sold out of it."
+	text "Das hast du schon"
+	line "gekauft. Ich"
+	cont "habe keines mehr."
 	done
 
 _BargainShopNoFundsText::
-	text "Uh-oh, you're"
-	line "short on funds."
+	text "Uhh, du bist knapp"
+	line "bei Kasse."
 	done
 
 _BargainShopComeAgainText::
-	text "Come by again"
-	line "sometime."
+	text "Schau mal"
+	line "wieder vorbei."
 	done
 
 _PharmacyIntroText::
-	text "What's up? Need"
-	line "some medicine?"
+	text "Was ist? Brauchst"
+	line "du Medizin?"
 	done
 
 _PharmacyHowManyText::
-	text "How many?"
+	text "Wie viele?"
 	done
 
 _PharmacyFinalPriceText::
 	text_decimal wItemQuantityChange, 1, 2
-	text " @"
+	text " x @"
 	text_ram wStringBuffer2
-	text "(S)"
-	line "will cost ¥@"
+	text_start
+	line "kostet ¥@"
 	text_decimal hMoneyTemp, 3, 6
 	text "."
 	done
 
 _PharmacyThanksText::
-	text "Thanks much!"
+	text "Vielen Dank!"
 	done
 
 _PharmacyPackFullText::
-	text "You don't have any"
-	line "more space."
+	text "Du hast keinen"
+	line "Platz mehr."
 	done
 
 _PharmacyNoMoneyText::
-	text "Huh? That's not"
-	line "enough money."
+	text "Wie? Das ist nicht"
+	line "genügend Geld."
 	done
 
 _PharmacyComeAgainText::
-	text "All right."
-	line "See you around."
+	text "In Ordnung."
+	line "Bis die Tage."
 	done
 
 _NothingToSellText::
-	text "You don't have"
-	line "anything to sell."
+	text "Du hast nichts"
+	line "zu verkaufen."
 	prompt
 
 _MartSellHowManyText::
-	text "How many?"
+	text "Wie viele?"
 	done
 
 _MartSellPriceText::
-	text "I can pay you"
+	text "Ich zahle dir"
 	line "¥@"
 	text_decimal hMoneyTemp, 3, 6
 	text "."
 
-	para "Is that OK?"
+	para "Reicht das?"
 	done
 
 _MartWelcomeText::
-	text "Welcome! How may I"
-	line "help you?"
+	text "Willkommen! Womit"
+	line "kann ich dienen?"
 	done
 
 _MartThanksText::
-	text "Here you are."
-	line "Thank you!"
+	text "Hier, bitte."
+	line "Danke schön!"
 	done
 
 _MartNoMoneyText::
-	text "You don't have"
-	line "enough money."
+	text "Du hast nicht"
+	line "genügend Geld."
 	done
 
 _MartPackFullText::
-	text "You can't carry"
-	line "any more items."
+	text "Du kannst keine"
+	line "weiteren Items"
+	cont "mehr tragen."
 	done
 
 _MartCantBuyText::
-	text "Sorry, I can't buy"
-	line "that from you."
+	text "Ich kann dir das"
+	line "nicht abkaufen."
 	prompt
 
 _MartComeAgainText::
-	text "Please come again!"
+	text "Komm wieder!"
 	done
 
 _MartAskMoreText::
-	text "Can I do anything"
-	line "else for you?"
+	text "Kann ich noch"
+	line "etwas für dich"
+	cont "tun?"
 	done
 
 _MartBoughtText::
-	text "Got ¥@"
+	text "Erhält ¥@"
 	text_decimal hMoneyTemp, 3, 6
-	text " for"
+	text " für"
 	line "@"
+	text_decimal wItemQuantityChange, 1, 2
+	text " x @"
 	text_ram wStringBuffer2
-	text "(S)."
+	text "."
 	done
 
 _SlotsBetHowManyCoinsText::
@@ -1135,39 +1148,39 @@ _PokegearAskDeleteText::
 	done
 
 _BuenaAskWhichPrizeText::
-	text "Which prize would"
-	line "you like?"
+	text "Welchen Preis"
+	line "hättest du gerne?"
 	done
 
 _BuenaIsThatRightText::
 	text_ram wStringBuffer1
 	text "?"
-	line "Is that right?"
+	line "Ist das richtig?"
 	done
 
 _BuenaHereYouGoText::
-	text "Here you go!"
+	text "Und los!"
 
 	para ""
 	done
 
 _BuenaNotEnoughPointsText::
-	text "You don't have"
-	line "enough points."
+	text "Du hast nicht ge-"
+	line "nügend Punkte."
 
 	para ""
 	done
 
 _BuenaNoRoomText::
-	text "You have no room"
-	line "for it."
+	text "Du hast keinen"
+	line "Platz dafür."
 
 	para ""
 	done
 
 _BuenaComeAgainText::
-	text "Oh. Please come"
-	line "back again!"
+	text "Oh. Komme bitte"
+	line "wieder!"
 	done
 
 _BTExcuseMeText::
