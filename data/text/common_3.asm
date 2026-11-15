@@ -441,8 +441,8 @@ _SeerImpressedText::
 	done
 
 _CongratulationsYourPokemonText::
-	text "Congratulations!"
-	line "Your @"
+	text "Glückwunsch!"
+	line "Dein @"
 	text_ram wStringBuffer2
 	text_end
 
@@ -451,24 +451,23 @@ _CongratulationsYourPokemonText::
 _EvolvedIntoText::
 	text_start
 
-	para "evolved into"
+	para "wurde zu"
 	line "@"
 	text_ram wStringBuffer1
 	text "!"
 	done
 
 _StoppedEvolvingText::
-	text "Huh? @"
-	text_ram wStringBuffer2
-	text_start
-	line "stopped evolving!"
+	text "Hmm? Die Entwick-"
+	line "lung wurde abge-"
+	cont "brochen!"
 	prompt
 
 _EvolvingText::
-	text "What? @"
+	text "Hey! @"
 	text_ram wStringBuffer2
 	text_start
-	line "is evolving!"
+	line "entwickelt sich!"
 	done
 
 _EggMoveReminderIntro::
@@ -984,7 +983,7 @@ _ClearAllSaveDataText::
 
 _LearnedMoveText::
 	text_ram wMonOrItemNameBuffer
-	text " learned"
+	text " erlernt"
 	line "@"
 	text_ram wStringBuffer2
 	text "!@"
@@ -995,72 +994,78 @@ _LearnedMoveText::
 	text_end ; unreferenced
 
 _MoveAskForgetText::
-	text "Which move should"
-	next "be forgotten?"
+	text "Welche Attacke"
+	next "soll vergessen"
+	cont "werden?"
 	done
 
 _StopLearningMoveText::
-	text "Stop learning"
-	line "@"
 	text_ram wStringBuffer2
-	text "?"
+	text_start
+	line "nicht erlernen?"
 	done
 
 _DidNotLearnMoveText::
 	text_ram wMonOrItemNameBuffer
 	text_start
-	line "did not learn"
-	cont "@"
+	line "hat @"
 	text_ram wStringBuffer2
-	text "."
+	text_start
+	cont "nicht erlernt."
 	prompt
 
 _AskForgetMoveText::
 	text_ram wMonOrItemNameBuffer
-	text " is"
-	line "trying to learn"
+	text " "
+	line "versucht,"
 	cont "@"
 	text_ram wStringBuffer2
-	text "."
+	text " zu"
+	cont "erlernen!"
 
-	para "But @"
+	para "Aber @"
 	text_ram wMonOrItemNameBuffer
 	text_start
-	line "can't learn more"
-	cont "than four moves."
+	line "kann nicht mehr"
+	cont "als vier Attacken"
+	cont "erlernen."
 
-	para "Delete an older"
-	line "move to make room"
-	cont "for @"
+	para "Soll eine andere"
+	line "Attacke zugunsten"
+	cont "von @"
 	text_ram wStringBuffer2
-	text "?"
+	text_start
+	cont "vergessen werden?"
 	done
 
 Text_MoveForgetCount::
-	text "1, 2 and…@"
+	text "1, 2 und…@"
 	text_pause
 	text_end
 
 	text_end ; unreferenced
 
 _MoveForgotText::
-	text " Poof!@"
+	text "Schwupp!@"
 	text_pause
 	text_start
 
 	para "@"
 	text_ram wMonOrItemNameBuffer
-	text " forgot"
+	text " hat"
 	line "@"
 	text_ram wStringBuffer1
-	text "."
+	text_start
 
-	para "And…"
+	para "vergessen!"
+
+	para "Und…"
 	prompt
 
 _MoveCantForgetHMText::
-	text "HM moves can't be"
-	line "forgotten now."
+	text "VM-Attacken"
+	line "können nicht"
+	cont "gelöscht werden!"
 	prompt
 
 _CardFlipPlayWithThreeCoinsText::
