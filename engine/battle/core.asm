@@ -6209,27 +6209,42 @@ LoadEnemyMon:
 	ld bc, wPlayerID
 	callfar CalcMagikarpLength
 
-; No reason to keep going if length > 1536 mm (i.e. if HIGH(length) > 6 feet)
-	ld a, [wMagikarpLength]
-	cp 5
-	jr nz, .CheckMagikarpArea
+; No reason to keep going unless the length is 5'0" to 5'11" (1524 to 1828 mm)
+	ld hl, wMagikarpLength
+	ld a, [hli]
+	ld l, [hl]
+	ld h, a
+	ld a, l
+	sub LOW(1829)
+	ld a, h
+	sbc HIGH(1829)
+	jr nc, .CheckMagikarpArea
+	ld a, l
+	sub LOW(1524)
+	ld a, h
+	sbc HIGH(1524)
+	jr c, .CheckMagikarpArea
 
 ; 5% chance of skipping both size checks
 	call Random
 	cp 5 percent
 	jr c, .CheckMagikarpArea
-; Try again if length >= 1616 mm (i.e. if LOW(length) >= 4 inches)
-	ld a, [wMagikarpLength + 1]
-	cp 4
+; Try again if length >= 1626 mm (5'4")
+	ld a, l
+	sub LOW(1626)
+	ld a, h
+	sbc HIGH(1626)
 	jr nc, .GenerateDVs
 
 ; 20% chance of skipping this check
 	call Random
 	cp 20 percent - 1
 	jr c, .CheckMagikarpArea
-; Try again if length >= 1600 mm (i.e. if LOW(length) >= 3 inches)
-	ld a, [wMagikarpLength + 1]
-	cp 3
+; Try again if length >= 1601 mm (5'3")
+	ld a, l
+	sub LOW(1601)
+	ld a, h
+	sbc HIGH(1601)
 	jr nc, .GenerateDVs
 
 .CheckMagikarpArea:
@@ -6243,10 +6258,12 @@ LoadEnemyMon:
 	call Random
 	cp 39 percent + 1
 	jr c, .Happiness
-; Try again if length < 1024 mm (i.e. if HIGH(length) < 3 feet)
-	ld a, [wMagikarpLength]
-	cp 3
-	jr c, .GenerateDVs ; try again
+; Try again if length < 915 mm (3'0")
+	ld a, l
+	sub LOW(915)
+	ld a, h
+	sbc HIGH(915)
+	jp c, .GenerateDVs ; try again
 
 ; Finally done with DVs
 

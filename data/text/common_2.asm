@@ -1,95 +1,98 @@
 _NoPhotoText::
-	text "Oh, no picture?"
-	line "Come again, OK?"
+	text "Kein Foto? Schau"
+	line "mal wieder vorbei!"
 	done
 
 _EggPhotoText::
-	text "An EGG? My talent"
-	line "is worth more…"
+	text "Ein EI? Mein"
+	line "Talent hat mehr"
+	cont "verdient…"
 	done
 
 _NameRaterHelloText::
-	text "Hello, hello! I'm"
-	line "the NAME RATER."
+	text "Hallo! Ich bin der"
+	line "NAMEN-BEWERTER."
 
-	para "I rate the names"
-	line "of #MON."
+	para "Ich bewerte die"
+	line "Namen deiner"
+	cont "#MON."
 
-	para "Would you like me"
-	line "to rate names?"
+	para "Soll ich einen"
+	line "Namen bewerten?"
 	done
 
 _NameRaterWhichMonText::
-	text "Which #MON's"
-	line "nickname should I"
-	cont "rate for you?"
+	text "Welchen #MON-"
+	line "Spitznamen soll"
+	cont "ich bewerten?"
 	prompt
 
 _NameRaterBetterNameText::
 	text "Hm… @"
 	text_ram wStringBuffer1
 	text "…"
-	line "That's a fairly"
-	cont "decent name."
+	line "Das ist kein"
+	cont "schlechter Name."
 
-	para "But, how about a"
-	line "slightly better"
-	cont "nickname?"
+	para "Aber überlege dir"
+	line "einen besseren"
+	cont "Spitznamen!"
 
-	para "Want me to give it"
-	line "a better name?"
+	para "Soll ich ihm einen"
+	line "neuen Namen geben?"
 	done
 
 _NameRaterWhatNameText::
-	text "All right. What"
-	line "name should we"
-	cont "give it, then?"
+	text "O.K. Welchen"
+	line "Namen möchtest"
+	cont "du haben?"
 	prompt
 
 _NameRaterFinishedText::
-	text "That's a better"
-	line "name than before!"
+	text "Dieser Name"
+	line "ist besser!"
 
-	para "Well done!"
+	para "Gut gemacht!"
 	done
 
 _NameRaterComeAgainText::
-	text "OK, then. Come"
-	line "again sometime."
+	text "O.K. Du kannst"
+	line "mich immer be-"
+	cont "suchen."
 	done
 
 _NameRaterPerfectNameText::
 	text "Hm… @"
 	text_ram wStringBuffer1
 	text "?"
-	line "What a great name!"
-	cont "It's perfect."
+	line "Ein wirklich"
+	cont "tadelloser Name!"
 
-	para "Treat @"
+	para "Kümmere dich gut"
+	line "um @"
 	text_ram wStringBuffer1
-	text_start
-	line "with loving care."
+	text "."
 	done
 
 _NameRaterEggText::
-	text "Whoa… That's just"
-	line "an EGG."
+	text "Wow… Das ist nur"
+	line "ein EI."
 	done
 
 _NameRaterSameNameText::
-	text "It might look the"
-	line "same as before,"
+	text "Er sieht genauso"
+	line "aus, wie der alte,"
 
-	para "but this new name"
-	line "is much better!"
+	para "aber er ist "
+	line "viel besser."
 
-	para "Well done!"
+	para "Gut gemacht!"
 	done
 
 _NameRaterNamedText::
-	text "All right. This"
-	line "#MON is now"
-	cont "named @"
+	text "O.K. Der neue Name"
+	line "dieses #MON"
+	cont "ist @"
 	text_ram wStringBuffer1
 	text "."
 	prompt
@@ -214,38 +217,40 @@ _ReceivedTMHMText::
 	prompt
 
 _MysteryGiftCanceledText::
-	text "The link has been"
-	line "cancelled."
+	text "Die Verbindung"
+	line "wurde getrennt."
 	prompt
 
 _MysteryGiftCommErrorText::
-	text "Communication"
-	line "error."
+	text "Übertragungs-"
+	line "fehler."
 	prompt
 
 _RetrieveMysteryGiftText::
-	text "Must retrieve GIFT"
-	line "at #MON CENTER."
+	text "Hole dir die"
+	line "GABE im"
+	cont "#MON-CENTER."
 	prompt
 
 _YourFriendIsNotReadyText::
-	text "Your friend isn't"
-	line "ready."
+	text "Dein Freund ist"
+	line "nicht bereit."
 	prompt
 
 _MysteryGiftFiveADayText::
-	text "Sorry--only five"
-	line "GIFTS a day."
+	text "Nur fünf GABEN"
+	line "pro Tag."
 	prompt
 
 _MysteryGiftOneADayText::
-	text "Sorry. One GIFT"
-	line "a day per person."
+	text "Nur eine GABE"
+	line "pro Person pro"
+	cont "Tag."
 	prompt
 
 _MysteryGiftSentText::
 	text_ram wMysteryGiftPartnerName
-	text " sent"
+	text " schickte"
 	line "@"
 	text_ram wStringBuffer1
 	text "."
@@ -253,43 +258,44 @@ _MysteryGiftSentText::
 
 _MysteryGiftSentHomeText::
 	text_ram wMysteryGiftPartnerName
-	text " sent"
+	text " schickte"
 	line "@"
 	text_ram wStringBuffer1
 	text_start
-	cont "to @"
+	cont "zur Adresse von"
+	cont "@"
 	text_ram wMysteryGiftPlayerName
-	text "'s home."
+	text "."
 	prompt
 
 _NameCardReceivedCardText::
-	text "Received"
+	text "Erhält KARTE von"
 	line "@"
 	text_ram wMysteryGiftCardHolderName
-	text "'s CARD."
+	text "."
 	prompt
 
 _NameCardListedCardText::
 	text_ram wMysteryGiftCardHolderName
-	text "'s CARD was"
-	line "listed as no.@"
+	text "s KARTE"
+	line "ist Nr.@"
 	text_decimal wTextDecimalByte, 1, 2
 	text "."
 	prompt
 
 _NameCardNotRegisteredCardText::
-	text "The CARD was not"
-	line "registered."
+	text "Die KARTE wurde"
+	line "nicht registriert."
 	prompt
 
 _NameCardLinkCancelledText::
-	text "The link has been"
-	line "cancelled."
+	text "Die Verbindung"
+	line "wurde getrennt."
 	prompt
 
 _NameCardLinkCommErrorText::
-	text "Communication"
-	line "error."
+	text "Übertragungs-"
+	line "fehler."
 	prompt
 
 _BadgeRequiredText::
@@ -844,7 +850,7 @@ _EndUsedMove5Text::
 	done
 
 Text_BreedHuh::
-	text "Huh?"
+	text "Huch?"
 
 	para "@"
 	text_end
@@ -855,8 +861,9 @@ _BreedClearboxText::
 
 _BreedEggHatchText::
 	text_ram wStringBuffer1
-	text " came"
-	line "out of its EGG!@"
+	text_start
+	line "schlüpft aus dem"
+	cont "EI!@"
 	sound_caught_mon
 	text_promptbutton
 	text_end
@@ -864,57 +871,58 @@ _BreedEggHatchText::
 	text_end ; unreferenced
 
 _BreedAskNicknameText::
-	text "Give a nickname to"
+	text "Möchtest du"
 	line "@"
 	text_ram wStringBuffer1
-	text "?"
+	text " einen"
+	cont "Spitznamen geben?"
 	done
 
 _LeftWithDayCareLadyText::
-	text "It's @"
 	text_ram wBreedMon2Nickname
-	text_start
-	line "that was left with"
-	cont "the DAY-CARE LADY."
+	text " hast du"
+	line "der PENSIONSLEI-"
+	cont "TERIN anvertraut."
 	done
 
 _LeftWithDayCareManText::
-	text "It's @"
 	text_ram wBreedMon1Nickname
-	text_start
-	line "that was left with"
-	cont "the DAY-CARE MAN."
+	text " hast du"
+	line "dem PENSIONSLEITER"
+	cont "anvertraut."
 	done
 
 _BreedBrimmingWithEnergyText::
-	text "It's brimming with"
-	line "energy."
+	text "Es strotzt vor"
+	line "Energie."
 	prompt
 
 _BreedNoInterestText::
-	text "It has no interest"
-	line "in @"
 	text_ram wStringBuffer1
-	text "."
+	text_start
+	line "ist nicht"
+	cont "interessiert."
 	prompt
 
 _BreedAppearsToCareForText::
-	text "It appears to care"
-	line "for @"
+	text "Es kümmert sich um"
+	line "@"
 	text_ram wStringBuffer1
 	text "."
 	prompt
 
 _BreedFriendlyText::
-	text "It's friendly with"
-	line "@"
+	text "Es ist freundlich"
+	line "gegenüber"
+
+	para "@"
 	text_ram wStringBuffer1
 	text "."
 	prompt
 
 _BreedShowsInterestText::
-	text "It shows interest"
-	line "in @"
+	text "Es zeigt Interesse"
+	line "an @"
 	text_ram wStringBuffer1
 	text "."
 	prompt
@@ -958,11 +966,11 @@ _MailMovedFromBoxText::
 	prompt
 
 _YesPromptText:: ; unreferenced
-	text "Yes"
+	text "Ja"
 	prompt
 
 _NoPromptText:: ; unreferenced
-	text "No"
+	text "Nein"
 	prompt
 
 _AnimationTypeText:: ; unreferenced
@@ -970,14 +978,14 @@ _AnimationTypeText:: ; unreferenced
 	text " @"
 	text_ram wStringBuffer1
 	text_start
-	line "Animation type @"
+	line "Animationstyp @"
 	text_ram wStringBuffer2
 	text_end
 
 	text_end ; unreferenced
 
 _MonNumberText:: ; unreferenced
-	text "#MON number?"
+	text "#MON-Nummer?"
 	done
 
 _WasSentToBillsPCText::
@@ -1023,33 +1031,35 @@ _PCCantTakeText::
 	prompt
 
 _ContestCaughtMonText::
-	text "Caught @"
 	text_ram wStringBuffer1
-	text "!"
+	text " wurde"
+	line "gefangen!"
 	prompt
 
 _ContestAskSwitchText::
-	text "Switch #MON?"
+	text "#MON tauschen?"
 	done
 
 _ContestAlreadyCaughtText::
-	text "You already caught"
-	line "a @"
+	text "Du hast bereits"
+	line "ein @"
 	text_ram wStringBuffer1
-	text "."
+	text_start
+	cont "gefangen."
 	prompt
 
 _ContestJudging_FirstPlaceText::
-	text "This Bug-Catching"
-	line "Contest winner is@"
+	text "Der Gewinner des"
+	line "Käferturniers ist@"
 	text_pause
 	text "…"
 
 	para "@"
 	text_ram wBugContestWinnerName
 	text ","
-	line "who caught a"
-	cont "@"
+	line "mit einem"
+
+	para "@"
 	text_ram wStringBuffer1
 	text "!@"
 	text_end
@@ -1057,19 +1067,21 @@ _ContestJudging_FirstPlaceText::
 _ContestJudging_FirstPlaceScoreText::
 	text_start
 
-	para "The winning score"
-	line "was @"
+	para "Mit einer Punkt-"
+	line "zahl von @"
 	text_decimal wBugContestFirstPlaceScore, 2, 3
-	text " points!"
+	text_start
+	cont "Punkten!"
 	prompt
 
 _ContestJudging_SecondPlaceText::
-	text "Placing second was"
+	text "Zweiter wurde"
 	line "@"
 	text_ram wBugContestWinnerName
 	text ","
 
-	para "who caught a"
+	para "mit einem"
+	line ""
 	line "@"
 	text_ram wStringBuffer1
 	text "!@"
@@ -1078,19 +1090,19 @@ _ContestJudging_SecondPlaceText::
 _ContestJudging_SecondPlaceScoreText::
 	text_start
 
-	para "The score was"
+	para "Die Punktzahl ist"
 	line "@"
 	text_decimal wBugContestSecondPlaceScore, 2, 3
-	text " points!"
+	text "!"
 	prompt
 
 _ContestJudging_ThirdPlaceText::
-	text "Placing third was"
+	text "Dritter wurde"
 	line "@"
 	text_ram wBugContestWinnerName
 	text ","
 
-	para "who caught a"
+	para "mit einem"
 	line "@"
 	text_ram wStringBuffer1
 	text "!@"
@@ -1099,29 +1111,30 @@ _ContestJudging_ThirdPlaceText::
 _ContestJudging_ThirdPlaceScoreText::
 	text_start
 
-	para "The score was"
-	line "@"
+	para "Mit einer Punkt-"
+	line "zahl von @"
 	text_decimal wBugContestThirdPlaceScore, 2, 3
-	text " points!"
+	text "!"
 	prompt
 
 _MagikarpGuruMeasureText::
-	text "Let me measure"
-	line "that MAGIKARP."
+	text "Lass mich dein"
+	line "KARPADOR messen."
 
-	para "…Hm, it measures"
+	para "…Hm, es ist"
 	line "@"
 	text_ram wStringBuffer1
-	text "."
+	text "cm"
+	cont "groß."
 	prompt
 
 _KarpGuruRecordText::
-	text "CURRENT RECORD"
+	text "AKTUELLER REKORD"
 
 	para "@"
 	text_ram wStringBuffer1
-	text " caught by"
-	line "@"
+	text "cm gefangen"
+	line "von @"
 	text_ram wMagikarpRecordHoldersName
 	text_promptbutton
 	text_end
@@ -1129,27 +1142,27 @@ _KarpGuruRecordText::
 	text_end ; unreferenced
 
 _LuckyNumberMatchPartyText::
-	text "Congratulations!"
+	text "Glückwunsch!"
 
-	para "We have a match"
-	line "with the ID number"
-
-	para "of @"
+	para "Die ID-Nummer"
+	line "von @"
 	text_ram wStringBuffer1
-	text " in"
-	line "your party."
+	text_start
+
+	para "in deinem Team"
+	line "ist stimmig."
 	prompt
 
 _LuckyNumberMatchPCText::
-	text "Congratulations!"
+	text "Glückwunsch!"
 
-	para "We have a match"
-	line "with the ID number"
-
-	para "of @"
+	para "Die ID-Nummer"
+	line "von @"
 	text_ram wStringBuffer1
-	text " in"
-	line "your PC BOX."
+	text_start
+
+	para "in deiner PC-BOX"
+	line "ist stimmig."
 	prompt
 
 _CaughtAskNicknameText::
@@ -1447,32 +1460,33 @@ _OakPCText4::
 	done
 
 _TrainerRankingExplanationText:: ; unreferenced
-	text "Triple-theme"
-	line "trainer ranking!"
+	text "Dreifache Trainer"
+	line "Bestenliste!"
 
-	para "The SAVE file you"
-	line "just sent might"
-	cont "make the rankings!"
+	para "Dieser SPIELSTAND"
+	line "könnte die Besten-"
+	cont "liste erreichen!"
 
 	para ""
 	done
 
 _TrainerRankingNoDataText:: ; unreferenced
-	text "There is no"
-	line "ranking data."
+	text "Es gibt keine"
+	line "Bestenliste."
 
-	para "Link to obtain"
-	line "ranking data."
+	para "Verbindung erstel-"
+	line "len, um Besten-"
+	cont "liste zu erhalten."
 
 	para ""
 	done
 
 _MemoryGameYeahText::
-	text " , yeah!"
+	text "!"
 	done
 
 _MemoryGameDarnText::
-	text "Darn…"
+	text "Mist…"
 	done
 
 _StartMenuContestEndText::

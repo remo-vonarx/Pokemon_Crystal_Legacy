@@ -27,13 +27,13 @@ _NothingHereText::
 	done
 
 _WhichApricornText::
-	text "Which APRICORN"
-	line "should I use?"
+	text "Welche APRIKOKO"
+	line "soll ich benutzen?"
 	done
 
 _HowManyShouldIMakeText::
-	text "How many should I"
-	line "make?"
+	text "Wie viele soll ich"
+	line "fertigen?"
 	done
 
 _RecoveredSomeHPText::
@@ -111,51 +111,54 @@ _CameToItsSensesText::
 	done
 
 _EnterNewPasscodeText::
-	text "Please enter any"
-	line "four-digit number."
+	text "Gib eine 4-"
+	line "stellige Zahl ein."
 	done
 
 _ConfirmPasscodeText::
-	text "Enter the same"
-	line "number to confirm."
+	text "Gib dieselbe Zahl"
+	line "zur Bestätigung"
+	cont "ein."
 	done
 
 _PasscodesNotSameText::
-	text "That's not the"
-	line "same number."
+	text "Das war nicht"
+	line "dieselbe Nummer."
 	done
 
 _PasscodeSetText::
-	text "Your PASSCODE has"
-	line "been set."
+	text "Dein CODE wurde"
+	line "festgelegt."
 
-	para "Enter this number"
-	line "next time to open"
-	cont "the CARD FOLDER."
+	para "Gib diese Nummer"
+	line "ein, wenn du den"
+	cont "KARTENORDNER"
+	cont "öffnen möchtest."
 
 	para ""
 	done
 
 _FourZerosInvalidText::
-	text "0000 is invalid!"
+	text "0000 ist ungültig!"
 
 	para ""
 	done
 
 _EnterPasscodeText::
-	text "Enter the CARD"
-	next "FOLDER PASSCODE."
+	text "Gib den KARTEN-"
+	next "ORDNER CODE ein."
 	done
 
 _IncorrectPasscodeText::
-	text "Incorrect"
-	line "PASSCODE!"
+	text "CODE"
+	line "falsch!"
 
 	para ""
 	done
 
 _CardFolderOpenText::
-	text "CARD FOLDER open.@"
+	text "KARTENORDNER"
+	line "geöffnet.@"
 	text_end
 
 _OakTimeWokeUpText::
@@ -222,55 +225,55 @@ _OakTimeIsItText::
 	done
 
 _ThereIsNothingConnectedText:: ; unreferenced
-	text "There is nothing"
-	line "connected."
+	text "Es ist nichts"
+	line "angeschlossen."
 	done
 
 _CheckCellPhoneAdapterText:: ; unreferenced
-	text "Check cell phone"
-	line "adapter."
+	text "Überprüfe den"
+	line "Handy-Adapter."
 	done
 
 _CheckCDMAAdapterText:: ; unreferenced
-	text "Check CDMA"
-	line "adapter."
+	text "Überprüfe"
+	line "CDMA-Adapter."
 	done
 
 _CheckDOCOMOPHSAdapterText:: ; unreferenced
-	text "Check DOCOMO PHS"
-	line "adapter."
+	text "Überprüfe DOCOMO"
+	line "PHS-Adapter."
 	done
 
 _CheckDDIPHSAdapterText:: ; unreferenced
-	text "Check DDI PHS"
-	line "adapter."
+	text "Überprüfe DDI"
+	line "PHS-Adapter."
 	done
 
 _CheckMobileAdapterText:: ; unreferenced
-	text "Check unlimited"
-	line "battle mobile"
-	cont "adapter."
+	text "Überprüfe unbe-"
+	line "grenzten Mobil-"
+	cont "Kampf-Adapter."
 	done
 
 ; Mobile Adapter End
 
 _ThePasswordIsText:: ; unreferenced
-	text "The password is:"
+	text "Das Passwort ist:"
 	line ""
 	done
 
 _IsThisOKText:: ; unreferenced
-	text "Is this OK?"
+	text "In Ordnung?"
 	done
 
 _EnterTheIDNoText:: ; unreferenced
-	text "Enter the"
-	line "ID no."
+	text "Gib die"
+	line "ID-Nummer ein.."
 	done
 
 _EnterTheAmountText:: ; unreferenced
-	text "Enter the"
-	line "amount."
+	text "Gib den"
+	line "Betrag ein."
 	done
 
 _NothingToChooseText::
@@ -402,8 +405,8 @@ _MomItsInYourRoomText::
 
 _MonWasSentToText::
 	text_ram wPlayerTrademonSpeciesName
-	text " was"
-	line "sent to @"
+	text " ge-"
+	line "sendet an @"
 	text_ram wOTTrademonSenderName
 	text "."
 	done
@@ -413,35 +416,36 @@ _MonNameSentToText::
 	done
 
 _BidsFarewellToMonText::
-	text_ram wOTTrademonSenderName
-	text " bids"
-	line "farewell to"
-	done
+	text "Lebwohl,"
+	line "@"
+	text_ram wOTTrademonSpeciesName
+	text_end
 
 _MonNameBidsFarewellText::
-	text_ram wOTTrademonSpeciesName
+	text "sagt @"
+	text_ram wOTTrademonSenderName
 	text "."
 	done
 
 _TakeGoodCareOfMonText::
-	text "Take good care of"
+	text "Kümmere dich um"
 	line "@"
 	text_ram wOTTrademonSpeciesName
 	text "."
 	done
 
 _ForYourMonSendsText::
-	text "For @"
+	text "Für @"
 	text_ram wPlayerTrademonSenderName
-	text "'s"
+	text "s"
 	line "@"
 	text_ram wPlayerTrademonSpeciesName
-	text ","
-	done
+	text_end
 
 _OTSendsText::
+	text "überträgt @"
 	text_ram wOTTrademonSenderName
-	text " sends"
+	text_start
 	line "@"
 	text_ram wOTTrademonSpeciesName
 	text "."
@@ -449,17 +453,17 @@ _OTSendsText::
 
 _WillTradeText::
 	text_ram wOTTrademonSenderName
-	text " will"
-	line "trade @"
+	text " tauscht"
+	line "@"
 	text_ram wOTTrademonSpeciesName
 	text_end
 
 	text_end ; unreferenced
 
 _ForYourMonWillTradeText::
-	text "for @"
+	text "gegen @"
 	text_ram wPlayerTrademonSenderName
-	text "'s"
+	text "s"
 	line "@"
 	text_ram wPlayerTrademonSpeciesName
 	text "."
@@ -467,17 +471,17 @@ _ForYourMonWillTradeText::
 
 _MobilePlayerWillTradeMonText::
 	text_ram wPlayerTrademonSenderName
-	text " will"
-	line "trade @"
+	text " tauscht"
+	line "@"
 	text_ram wPlayerTrademonSpeciesName
 	text_end
 
 	text_end ; unreferenced
 
 _MobileForPartnersMonText::
-	text "for @"
+	text "gegen @"
 	text_ram wOTTrademonSenderName
-	text "'s"
+	text "s"
 	line "@"
 	text_ram wOTTrademonSpeciesName
 	text "."
@@ -485,14 +489,14 @@ _MobileForPartnersMonText::
 
 _MobilePlayersMonTradeText::
 	text_ram wPlayerTrademonSenderName
-	text "'s"
+	text " tauscht"
 	line "@"
 	text_ram wPlayerTrademonSpeciesName
-	text " trade…"
+	text "…"
 	done
 
 _MobileTakeGoodCareOfMonText::
-	text "Take good care of"
+	text "Kümmere dich um"
 	line "@"
 	text_ram wOTTrademonSpeciesName
 	text "."
@@ -500,14 +504,14 @@ _MobileTakeGoodCareOfMonText::
 
 _MobilePlayersMonTrade2Text::
 	text_ram wPlayerTrademonSenderName
-	text "'s"
+	text " tauscht"
 	line "@"
 	text_ram wPlayerTrademonSpeciesName
-	text " trade…"
+	text "…"
 	done
 
 _MobileTakeGoodCareOfText::
-	text "Take good care of"
+	text "Kümmere dich um"
 	line "@"
 	text_ram wOTTrademonSpeciesName
 	text "."
@@ -515,8 +519,8 @@ _MobileTakeGoodCareOfText::
 
 _MobileTradeCameBackText::
 	text_ram wOTTrademonSpeciesName
-	text " came"
-	line "back!"
+	text_start
+	line "kam zurück!"
 	done
 
 ; Oak's Pokémon Talk
@@ -1144,78 +1148,81 @@ _EnemyUsedOnText::
 	prompt
 
 _ThatCantBeUsedRightNowText:: ; unreferenced
-	text "That can't be used"
-	line "right now."
+	text "Es ist noch nicht"
+	line "an der Zeit, dies"
+	cont "zu benutzen."
 	prompt
 
 _ThatItemCantBePutInThePackText:: ; unreferenced
-	text "That item can't be"
-	line "put in the PACK."
+	text "Dieses Item gehört"
+	line "nicht in den"
+	cont "BEUTEL."
 	done
 
 _TheItemWasPutInThePackText:: ; unreferenced
-	text "The @"
 	text_ram wStringBuffer1
 	text_start
-	line "was put in the"
-	cont "PACK."
+	line "wurde im BEUTEL"
+	cont "verstaut."
 	done
 
 _RemainingTimeText:: ; unreferenced
-	text "Remaining Time"
+	text "Verbleibende Zeit"
 	done
 
 _YourMonsHPWasHealedText:: ; unreferenced
-	text "Your #MON's HP"
-	line "was healed."
+	text "Dein #MON wurde"
+	line "komplett geheilt."
 	prompt
 
 _WarpingText:: ; unreferenced
-	text "Warping…"
+	text "Warpen…"
 	done
 
 _ChangeWhichNumberText:: ; unreferenced
-	text "Which number"
-	line "should be changed?"
+	text "Welche Nummer soll"
+	line "geändert werden?"
 	done
 
 _WillYouPlayWithMonText:: ; unreferenced
-	text "Will you play with"
+	text "Möchtest du"
 	line "@"
 	text_ram wStringBuffer2
-	text "?"
+	text " einsetzen?"
 	done
 
 _YouNeedTwoMonForBreedingText:: ; unreferenced
-	text "You need two #-"
-	line "MON for breeding."
+	text "Du benötigst zwei"
+	line "#MON, um zu"
+	cont "züchten."
 	prompt
 
 _BreedingIsNotPossibleText:: ; unreferenced
-	text "Breeding is not"
-	line "possible."
+	text "Züchten ist hier"
+	line "nicht möglich."
 	prompt
 
 _CompatibilityShouldTheyBreedText:: ; unreferenced
-	text "The compatibility"
-	line "is @"
+	text "Sie passen"
+	line "@"
 	text_decimal wBreedingCompatibility, 1, 3
-	text "."
-	cont "Should they breed?"
+	text_start
+	cont "zueinander."
+	cont "Züchten?"
 	done
 
 _ThereIsNoEggText:: ; unreferenced
-	text "There is no EGG."
+	text "Es gibt kein EI."
 	line ""
 	prompt
 
 _ItsGoingToHatchText:: ; unreferenced
-	text "It's going to"
-	line "hatch!"
+	text "Es wird bald aus"
+	line "dem EI schlüpfen!"
 	prompt
 
 _TestEventText:: ; unreferenced
-	text "Test event"
+	text "Ereignistest"
 	line "@"
 	text_decimal wStringBuffer2, 1, 2
 	text "?"
@@ -1226,80 +1233,80 @@ _StartText:: ; unreferenced
 	done
 
 _EndText:: ; unreferenced
-	text "End!"
+	text "Ende!"
 	done
 
 _ForABoyText:: ; unreferenced
-	text "For a boy!"
+	text "Für einen Jungen!"
 	done
 
 _ForAGirlText:: ; unreferenced
-	text "For a girl!"
+	text "Für ein Mädchen!"
 	done
 
 _DoesntConcernABoyText:: ; unreferenced
-	text "This doesn't"
-	line "concern a boy!"
+	text "Das geht Jungen"
+	line "nichts an!"
 	done
 
 _TheBoxIsFullText:: ; unreferenced
-	text "The BOX is full!"
+	text "Die BOX ist voll!"
 	done
 
 ; Mobile Adapter
 
 _NewCardArrivedText::
-	text "A new CARD arrived"
-	line "from @"
+	text "Eine neue KARTE"
+	line "von @"
 	text_ram wStringBuffer2
 	text "."
 	done
 
 _PutCardInCardFolderText::
-	text "Put this CARD in"
-	line "the CARD FOLDER?"
+	text "KARTE in den KAR-"
+	line "TENORDNER legen?"
 	done
 
 _CardWasListedText::
 	text_ram wStringBuffer2
-	text "'s CARD was"
-	line "listed as no.@"
+	text "s KARTE"
+	line "ist Nr.@"
 	text_decimal wStringBuffer1, 1, 2
 	text "."
 	prompt
 
 _StartingLinkText::
-	text "Starting link."
+	text "Verbindung steht."
 	done
 
 _LinkTerminatedText::
-	text "Link terminated."
+	text "Verbindung gelöst."
 	done
 
 _ClosingLinkText::
-	text "Closing link."
+	text "Verbindungsende."
 	done
 
 _ClearTimeLimitText:: ; unreferenced
-	text "Clear the time"
-	line "limit?"
+	text "Zeitbegrenzung"
+	line "löschen?"
 	done
 
 _TimeLimitWasClearedText:: ; unreferenced
-	text "The time limit was"
-	line "cleared."
+	text "Die Zeitbegrenzung"
+	line "wurde gelöscht."
 	done
 
 _PickErrorPacketText:: ; unreferenced
-	text "Pick which packet"
-	line "as an error?"
+	text "Welches Paket als"
+	line "Fehler wählen?"
 	done
 
 _TradingMonForOTMonText::
-	text "Trading @"
+	text "Tausche @"
 	text_ram wStringBuffer2
 	text_start
-	line "for @"
+	line "gegen @"
 	text_ram wStringBuffer1
 	text "…"
 	done
@@ -1307,8 +1314,8 @@ _TradingMonForOTMonText::
 ; Mobile Adapter End
 
 _ObtainedTheVoltorbBadgeText:: ; unreferenced
-	text "Obtained the"
-	line "VOLTORBBADGE!"
+	text "VOLTOBALORDEN"
+	line "erhalten!"
 	done
 
 _AskFloorElevatorText::
@@ -1316,14 +1323,15 @@ _AskFloorElevatorText::
 	done
 
 _BugCatchingContestTimeUpText::
-	text "ANNOUNCER: BEEEP!"
+	text "SPRECHER: BIEP!"
 
-	para "Time's up!"
+	para "Die Zeit ist um!"
 	done
 
 _BugCatchingContestIsOverText::
-	text "ANNOUNCER: The"
-	line "Contest is over!"
+	text "SPRECHER: Der"
+	line "Wettkampf ist"
+	cont "vorbei!"
 	done
 
 _RepelWoreOffText::
@@ -1355,22 +1363,23 @@ _ButNoSpaceText::
 	done
 
 _JustSawSomeRareMonText::
-	text "I just saw some"
-	line "rare @"
+	text "Ich sah seltene"
+	line "@"
 	text_ram wStringBuffer1
-	text " in"
+	text " bei"
 	cont "@"
 	text_ram wStringBuffer2
 	text "."
 
-	para "I'll call you if I"
-	line "see another rare"
-	cont "#MON, OK?"
+	para "Ich rufe an, wenn"
+	line "ich ein anderes"
+	cont "seltenes #MON"
+	cont "sehe, in Ordnung?"
 	prompt
 
 _SavingRecordText::
-	text "SAVING RECORD…"
-	line "DON'T TURN OFF!"
+	text "SPEICHERN…"
+	line ""
 	done
 
 _ReceiveItemText::
@@ -1396,15 +1405,15 @@ _NoCoinCaseText::
 	prompt
 
 _NPCTradeCableText::
-	text "OK, connect the"
-	line "Game Link Cable."
+	text "O.K., benutze das"
+	line "Game Link-Kabel."
 	prompt
 
 Text_NPCTraded::
-	text "<PLAYER> traded"
+	text "<PLAYER> tauscht"
 	line "@"
 	text_ram wMonOrItemNameBuffer
-	text " for"
+	text " gegen"
 	cont "@"
 	text_ram wStringBuffer2
 	text ".@"
@@ -1418,155 +1427,165 @@ _NPCTradeFanfareText::
 	text_end ; unreferenced
 
 _NPCTradeIntroText1::
-	text "I collect #MON."
-	line "Do you have"
+	text "Ich sammle #-"
+	line "MON. Hast du ein"
 	cont "@"
 	text_ram wStringBuffer1
 	text "?"
 
-	para "Want to trade it"
-	line "for my @"
+	para "Möchtest du es"
+	line "gegen mein"
+
+	para "@"
+	text_ram wStringBuffer2
+	text_start
+	line "tauschen?"
+	done
+
+_NPCTradeCancelText1::
+	text "Du möchtest nicht"
+	line "tauschen? Schade…"
+	done
+
+_NPCTradeWrongText1::
+	text "Häh? Das ist kein"
+	line "@"
+	text_ram wStringBuffer1
+	text "."
+	cont "Wie enttäuschend…"
+	done
+
+_NPCTradeCompleteText1::
+	text "Yo! Ich habe mir"
+	line "@"
+	text_ram wStringBuffer1
+	text_start
+	cont "besorgt! Danke!"
+	done
+
+_NPCTradeAfterText1::
+	text "Hi, wie geht es"
+	line "meinem @"
 	text_ram wStringBuffer2
 	text "?"
 	done
 
-_NPCTradeCancelText1::
-	text "You don't want to"
-	line "trade? Aww…"
-	done
-
-_NPCTradeWrongText1::
-	text "Huh? That's not"
-	line "@"
-	text_ram wStringBuffer1
-	text ". "
-	cont "What a letdown…"
-	done
-
-_NPCTradeCompleteText1::
-	text "Yay! I got myself"
-	line "@"
-	text_ram wStringBuffer1
-	text "!"
-	cont "Thanks!"
-	done
-
-_NPCTradeAfterText1::
-	text "Hi, how's my old"
-	line "@"
-	text_ram wStringBuffer2
-	text " doing?"
-	done
-
 _NPCTradeIntroText2::
-	text "Hi, I'm looking"
-	line "for this #MON."
+	text "Hi, ich suche"
+	line "ein #MON."
 
-	para "If you have"
+	para "Wenn du ein"
 	line "@"
 	text_ram wStringBuffer1
-	text ", would"
+	text " hast,"
 
-	para "you trade it for"
-	line "my @"
+	para "tauschst du es"
+	line "gegen mein"
+	cont "@"
 	text_ram wStringBuffer2
 	text "?"
 	done
 
 _NPCTradeCancelText2::
-	text "You don't have"
-	line "one either?"
+	text "Du hast auch"
+	line "keines?"
 
-	para "Gee, that's really"
-	line "disappointing…"
+	para "Das ist wirklich"
+	line "enttäuschend…"
 	done
 
 _NPCTradeWrongText2::
-	text "You don't have"
+	text "Du hast kein"
 	line "@"
 	text_ram wStringBuffer1
-	text "? That's"
-	cont "too bad, then."
+	text "? Das"
+	cont "ist schade, na ja."
 	done
 
 _NPCTradeCompleteText2::
-	text "Great! Thank you!"
+	text "Großartig! Danke!"
 
-	para "I finally got"
-	line "@"
+	para "Endlich habe ich"
+	line "ein @"
 	text_ram wStringBuffer1
 	text "."
 	done
 
 _NPCTradeAfterText2::
-	text "Hi! The @"
+	text "Dem @"
 	text_ram wMonOrItemNameBuffer
-	text_start
-	line "you traded me is"
-	cont "doing great!"
+	text ","
+	line "das du mit mir"
+	cont "getauscht hast,"
+	cont "geht es gut!"
 	done
 
 _NPCTradeIntroText3::
 	text_ram wMonOrItemNameBuffer
-	text "'s cute,"
-	line "but I don't have"
+	text " ist"
+	line "niedlich, aber ich"
 
-	para "it. Do you have"
-	line "@"
+	para "habe keines. Hast"
+	line "du ein @"
 	text_ram wStringBuffer1
 	text "?"
 
-	para "Want to trade it"
-	line "for my @"
+	para "Möchtest du es"
+	line "gegen mein"
+
+	para "@"
 	text_ram wStringBuffer2
-	text "?"
+	text_start
+	line "tauschen?"
 	done
 
 _NPCTradeCancelText3::
-	text "You don't want to"
-	line "trade? Oh, darn…"
+	text "Du möchtest nicht"
+	line "tauschen? Schade…"
 	done
 
 _NPCTradeWrongText3::
-	text "That's not"
+	text "Das ist kein"
 	line "@"
 	text_ram wStringBuffer1
 	text "."
 
-	para "Please trade with"
-	line "me if you get one."
+	para "Komm wieder, wenn"
+	line "du tauschen"
+	cont "möchtest."
 	done
 
 _NPCTradeCompleteText3::
-	text "Wow! Thank you!"
-	line "I always wanted"
+	text "Danke! Ich wollte"
+	line "immer schon ein"
 	cont "@"
 	text_ram wMonOrItemNameBuffer
 	text "!"
 	done
 
 _NPCTradeAfterText3::
-	text "How is that"
-	line "@"
+	text "Wie geht es dem"
+	line "getauschten"
+	cont "@"
 	text_ram wStringBuffer2
-	text " I"
-	cont "traded you doing?"
+	text "?"
 
-	para "Your @"
+	para "Dein @"
 	text_ram wMonOrItemNameBuffer
-	text "'s"
-	line "so cute!"
+	text_start
+	line "ist so niedlich!"
 	done
 
 _NPCTradeCompleteText4::
-	text "Uh? What happened?"
+	text "Was ist passiert?"
 	done
 
 _NPCTradeAfterText4::
-	text "Trading is so odd…"
+	text "Tauschen ist"
+	line "seltsam…"
 
-	para "I still have a lot"
-	line "to learn about it."
+	para "Ich muss noch viel"
+	line "darüber lernen."
 	done
 
 _MomLeavingText1::
@@ -1698,227 +1717,247 @@ _DaycareDummyText::
 	done
 
 _DayCareManIntroText::
-	text "I'm the DAY-CARE"
-	line "MAN. Want me to"
-	cont "raise a #MON?"
+	text "Ich bin der"
+	line "PENSIONSLEITER."
+	cont "Soll ich eines"
+	cont "deiner #MON"
+	cont "aufziehen?"
 	done
 
 _DayCareManIntroEggText::
-	text "I'm the DAY-CARE"
-	line "MAN. Do you know"
-	cont "about EGGS?"
+	text "Ich bin der"
+	line "PENSIONSLEITER."
+	cont "Kennst du dich"
+	cont "mit EIERN aus?"
 
-	para "I was raising"
-	line "#MON with my"
-	cont "wife, you see."
+	para "Ich habe #MON"
+	line "mit meiner"
+	cont "Frau aufgezogen."
 
-	para "We were shocked to"
-	line "find an EGG!"
+	para "Wir waren ent-"
+	line "setzt, als wir ein"
+	cont "EI fanden!"
 
-	para "How incredible is"
-	line "that?"
+	para "Das ist doch"
+	line "unglaublich, oder?"
 
-	para "So, want me to"
-	line "raise a #MON?"
+	para "Soll ich ein"
+	line "#MON aufziehen?"
 	done
 
 _DayCareLadyIntroText::
-	text "I'm the DAY-CARE"
-	line "LADY."
+	text "Ich bin die"
+	line "PENSIONSLEITERIN."
 
-	para "Should I raise a"
-	line "#MON for you?"
+	para "Soll ich eines"
+	line "deiner #MON"
+	cont "aufziehen?"
 	done
 
 _DayCareLadyIntroEggText::
-	text "I'm the DAY-CARE"
-	line "LADY. Do you know"
-	cont "about EGGS?"
+	text "Ich bin die"
+	line "PENSIONSLEITERIN."
+	cont "Kennst du dich"
+	cont "mit EIERN aus?"
 
-	para "My husband and I"
-	line "were raising some"
-	cont "#MON, you see."
+	para "Mein Mann und ich"
+	line "haben #MON"
+	cont "aufgezogen."
 
-	para "We were shocked to"
-	line "find an EGG!"
+	para "Wir waren er-"
+	line "staunt, als wir"
+	cont "ein EI fanden!"
 
-	para "How incredible"
-	line "could that be?"
+	para "Das ist doch"
+	line "unglaublich, oder?"
 
-	para "Should I raise a"
-	line "#MON for you?"
+	para "Soll ich eines"
+	line "deiner #MON"
+	cont "aufziehen?"
 	done
 
 _WhatShouldIRaiseText::
-	text "What should I"
-	line "raise for you?"
+	text "Welches soll"
+	line "ich aufziehen?"
 	prompt
 
 _OnlyOneMonText::
-	text "Oh? But you have"
-	line "just one #MON."
+	text "Oh? Aber du hast"
+	line "nur ein #MON."
 	prompt
 
 _CantAcceptEggText::
-	text "Sorry, but I can't"
-	line "accept an EGG."
+	text "Tut mir Leid, aber"
+	line "ich kann kein EI"
+	cont "annehmen."
 	prompt
 
 _RemoveMailText::
-	text "Remove MAIL before"
-	line "you come see me."
+	text "Entferne den"
+	line "BRIEF, ehe du mich"
+	cont "aufsuchst."
 	prompt
 
 _LastHealthyMonText::
-	text "If you give me"
-	line "that, what will"
-	cont "you battle with?"
+	text "Wenn du mir das"
+	line "gibst, wer soll"
+	cont "dann kämpfen?"
 	prompt
 
 _IllRaiseYourMonText::
-	text "OK. I'll raise"
-	line "your @"
+	text "O.K. Ich kümmere"
+	line "mich um dein"
+	cont "@"
 	text_ram wStringBuffer1
 	text "."
 	prompt
 
 _ComeBackLaterText::
-	text "Come back for it"
-	line "later."
+	text "Hole es später"
+	line "wieder ab."
 	done
 
 _AreWeGeniusesText::
-	text "Are we geniuses or"
-	line "what? Want to see"
-	cont "your @"
+	text "Wir sind genial,"
+	line "oder? Möchtest du"
+	cont "dein @"
 	text_ram wStringBuffer1
-	text "?"
+	text_start
+	cont "sehen?"
 	done
 
 _YourMonHasGrownText::
-	text "Your @"
+	text "Dein @"
 	text_ram wStringBuffer1
 	text_start
-	line "has grown a lot."
+	line "ist groß geworden."
 
-	para "By level, it's"
-	line "grown by @"
+	para "Es ist um @"
 	text_decimal wStringBuffer2 + 1, 1, 3
-	text "."
+	text_start
+	line "Level gestiegen."
 
-	para "If you want your"
-	line "#MON back, it"
-	cont "will cost ¥@"
+	para "Wenn du dein"
+	line "#MON zurück"
+	cont "haben möchtest,"
+	cont "kostet dich das"
+	cont "¥@"
 	text_decimal wStringBuffer2 + 2, 3, 4
 	text "."
 	done
 
 _PerfectHeresYourMonText::
-	text "Perfect! Here's"
-	line "your #MON."
+	text "Perfekt! Hier ist"
+	line "dein #MON."
 	prompt
 
 _GotBackMonText::
-	text "<PLAYER> got back"
+	text "<PLAYER> erhält"
 	line "@"
 	text_ram wStringBuffer1
 	text "."
 	prompt
 
 _BackAlreadyText::
-	text "Huh? Back already?"
-	line "Your @"
+	text "Huh? Schon zurück?"
+	line "Dein @"
 	text_ram wStringBuffer1
 	text_start
-	para "needs a little"
-	line "more time with us."
 
-	para "If you want your"
-	line "#MON back, it"
-	cont "will cost ¥100."
+	para "sollte noch ein"
+	line "wenig hierbleiben."
+
+	para "Wenn du dein"
+	line "#MON zurück-"
+	cont "haben möchtest,"
+	cont "zahle ¥100."
 	done
 
 _HaveNoRoomText::
-	text "You have no room"
-	line "for it."
+	text "Du hast keinen"
+	line "Platz mehr."
 	prompt
 
 _NotEnoughMoneyText::
-	text "You don't have"
-	line "enough money."
+	text "Du hast nicht"
+	line "genügend Geld."
 	prompt
 
 _OhFineThenText::
-	text "Oh, fine then."
+	text "Oh, in Ordnung."
 	prompt
 
 _ComeAgainText::
-	text "Come again."
+	text "Komm wieder."
 	done
 
 _CantAcceptFaintedMonText::
-	text "Sorry, but you'll"
-	line "have to heal your"
-	cont "#MON before I"
-	cont "accept it."
+	text "Tut mir Leid, aber"
+	line "du musst dein"
+	cont "#MON heilen,"
+	cont "ehe ich es"
+	cont "annehme."
 	prompt
 
 _NotYetText::
-	text "Not yet…"
+	text "Noch nicht…"
 	done
 
 _FoundAnEggText::
-	text "Ah, it's you!"
+	text "Ah, du bist's!"
 
-	para "We were raising"
-	line "your #MON, and"
+	para "Wir haben uns um"
+	line "dein #MON"
 
-	para "my goodness, were"
-	line "we surprised!"
+	para "gekümmert und"
+	line "waren sehr"
+	cont "erstaunt!"
 
-	para "Your #MON had"
-	line "an EGG!"
+	para "Dein #MON hatte"
+	line "ein EI!"
 
-	para "We don't know how"
-	line "it got there, but"
+	para "Wir wissen nicht,"
+	line "wie es dahin"
 
-	para "your #MON had"
-	line "it. You want it?"
+	para "gekommen ist; dein"
+	line "#MON hat es."
+	cont "Möchtest du es?"
 	done
 
 _ReceivedEggText::
-	text "<PLAYER> received"
-	line "the EGG!"
+	text "<PLAYER> erhält"
+	line "das EI!"
 	done
 
 _TakeGoodCareOfEggText::
-	text "Take good care of"
-	line "it."
+	text "Pass gut darauf"
+	line "auf."
 	done
 
 _IllKeepItThanksText::
-	text "Well then, I'll"
-	line "keep it. Thanks!"
+	text "Gut, ich passe"
+	line "darauf auf. Danke!"
 	done
 
 _NoRoomForEggText::
-	text "You have no room"
-	line "in your party."
-	cont "Come back later."
+	text "Du kannst keine"
+	line "#MON mehr"
+	cont "tragen. Komm"
+	cont "später wieder."
 	done
 
 _WhichMonPhotoText::
-	text "Which #MON"
-	line "should I photo-"
-	cont "graph?"
+	text "Welches #MON"
+	line "soll ich"
+	cont "fotografieren?"
 	prompt
 
 _HoldStillText::
-	text "All righty. Hold"
-	line "still for a bit."
+	text "O.K. Beweg dich"
+	line "nicht."
 	prompt
 
 _PrestoAllDoneText::
-	text "Presto! All done."
-	line "Come again, OK?"
+	text "Erledigt! Schau"
+	line "mal wieder vorbei!"
 	done
