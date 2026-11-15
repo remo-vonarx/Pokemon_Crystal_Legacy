@@ -600,9 +600,9 @@ Pokegear_UpdateClock:
 	jr z, .print_tod
 .print_fish_group
 	ld a, BANK(FishGroups_Names)
-	hlcoord 8, 10
+	hlcoord 7, 10
 	call PlaceFarString
-	hlcoord 3, 10
+	hlcoord 1, 10
 	ld de, .FishGrpStr
 	call PlaceString
 .print_tod
@@ -613,7 +613,7 @@ Pokegear_UpdateClock:
 	jr z, .Day
 	ld de, .NiteStr
 .got_tod		
-	hlcoord 14, 6
+	hlcoord 13, 6
 	call PlaceString
 
 	hlcoord 11, 0
@@ -633,14 +633,14 @@ Pokegear_UpdateClock:
 	jr .got_tod
 
 .MornStr:
-	db "MORN@"
+	db "VORM.@"
 .DayStr:
-	db "DAY@"
+	db "TAG@"
 .NiteStr:
-	db "NITE@"
+	db "NACHT@"
 	; db "NIGHT@"
 .FishGrpStr:
-	db "FISH:@"	
+	db "ANGELN@"	
 
 .GearTodayText:
 	text_far _GearTodayText
@@ -2606,9 +2606,8 @@ Pokedex_GetArea:
 	ld [hli], a
 	ld a, $4a ; part of SELECT >
 	ld [hli], a
-	ld a, $1d ; custom arrow cap + YOU
-	ld [hli], a ; $78
-	ld [hl], $1e
+	ld a, $1d ; DU
+	ld [hl], a
 
 ; show player coords
 ; ; show player
