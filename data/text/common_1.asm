@@ -111,51 +111,54 @@ _CameToItsSensesText::
 	done
 
 _EnterNewPasscodeText::
-	text "Please enter any"
-	line "four-digit number."
+	text "Gib eine 4-"
+	line "stellige Zahl ein."
 	done
 
 _ConfirmPasscodeText::
-	text "Enter the same"
-	line "number to confirm."
+	text "Gib dieselbe Zahl"
+	line "zur Bestätigung"
+	cont "ein."
 	done
 
 _PasscodesNotSameText::
-	text "That's not the"
-	line "same number."
+	text "Das war nicht"
+	line "dieselbe Nummer."
 	done
 
 _PasscodeSetText::
-	text "Your PASSCODE has"
-	line "been set."
+	text "Dein CODE wurde"
+	line "festgelegt."
 
-	para "Enter this number"
-	line "next time to open"
-	cont "the CARD FOLDER."
+	para "Gib diese Nummer"
+	line "ein, wenn du den"
+	cont "KARTENORDNER"
+	cont "öffnen möchtest."
 
 	para ""
 	done
 
 _FourZerosInvalidText::
-	text "0000 is invalid!"
+	text "0000 ist ungültig!"
 
 	para ""
 	done
 
 _EnterPasscodeText::
-	text "Enter the CARD"
-	next "FOLDER PASSCODE."
+	text "Gib den KARTEN-"
+	next "ORDNER CODE ein."
 	done
 
 _IncorrectPasscodeText::
-	text "Incorrect"
-	line "PASSCODE!"
+	text "CODE"
+	line "falsch!"
 
 	para ""
 	done
 
 _CardFolderOpenText::
-	text "CARD FOLDER open.@"
+	text "KARTENORDNER"
+	line "geöffnet.@"
 	text_end
 
 _OakTimeWokeUpText::
@@ -402,8 +405,8 @@ _MomItsInYourRoomText::
 
 _MonWasSentToText::
 	text_ram wPlayerTrademonSpeciesName
-	text " was"
-	line "sent to @"
+	text " ge-"
+	line "sendet an @"
 	text_ram wOTTrademonSenderName
 	text "."
 	done
@@ -413,35 +416,36 @@ _MonNameSentToText::
 	done
 
 _BidsFarewellToMonText::
-	text_ram wOTTrademonSenderName
-	text " bids"
-	line "farewell to"
-	done
+	text "Lebwohl,"
+	line "@"
+	text_ram wOTTrademonSpeciesName
+	text_end
 
 _MonNameBidsFarewellText::
-	text_ram wOTTrademonSpeciesName
+	text "sagt @"
+	text_ram wOTTrademonSenderName
 	text "."
 	done
 
 _TakeGoodCareOfMonText::
-	text "Take good care of"
+	text "Kümmere dich um"
 	line "@"
 	text_ram wOTTrademonSpeciesName
 	text "."
 	done
 
 _ForYourMonSendsText::
-	text "For @"
+	text "Für @"
 	text_ram wPlayerTrademonSenderName
-	text "'s"
+	text "s"
 	line "@"
 	text_ram wPlayerTrademonSpeciesName
-	text ","
-	done
+	text_end
 
 _OTSendsText::
+	text "überträgt @"
 	text_ram wOTTrademonSenderName
-	text " sends"
+	text_start
 	line "@"
 	text_ram wOTTrademonSpeciesName
 	text "."
@@ -449,17 +453,17 @@ _OTSendsText::
 
 _WillTradeText::
 	text_ram wOTTrademonSenderName
-	text " will"
-	line "trade @"
+	text " tauscht"
+	line "@"
 	text_ram wOTTrademonSpeciesName
 	text_end
 
 	text_end ; unreferenced
 
 _ForYourMonWillTradeText::
-	text "for @"
+	text "gegen @"
 	text_ram wPlayerTrademonSenderName
-	text "'s"
+	text "s"
 	line "@"
 	text_ram wPlayerTrademonSpeciesName
 	text "."
@@ -467,17 +471,17 @@ _ForYourMonWillTradeText::
 
 _MobilePlayerWillTradeMonText::
 	text_ram wPlayerTrademonSenderName
-	text " will"
-	line "trade @"
+	text " tauscht"
+	line "@"
 	text_ram wPlayerTrademonSpeciesName
 	text_end
 
 	text_end ; unreferenced
 
 _MobileForPartnersMonText::
-	text "for @"
+	text "gegen @"
 	text_ram wOTTrademonSenderName
-	text "'s"
+	text "s"
 	line "@"
 	text_ram wOTTrademonSpeciesName
 	text "."
@@ -485,14 +489,14 @@ _MobileForPartnersMonText::
 
 _MobilePlayersMonTradeText::
 	text_ram wPlayerTrademonSenderName
-	text "'s"
+	text " tauscht"
 	line "@"
 	text_ram wPlayerTrademonSpeciesName
-	text " trade…"
+	text "…"
 	done
 
 _MobileTakeGoodCareOfMonText::
-	text "Take good care of"
+	text "Kümmere dich um"
 	line "@"
 	text_ram wOTTrademonSpeciesName
 	text "."
@@ -500,14 +504,14 @@ _MobileTakeGoodCareOfMonText::
 
 _MobilePlayersMonTrade2Text::
 	text_ram wPlayerTrademonSenderName
-	text "'s"
+	text " tauscht"
 	line "@"
 	text_ram wPlayerTrademonSpeciesName
-	text " trade…"
+	text "…"
 	done
 
 _MobileTakeGoodCareOfText::
-	text "Take good care of"
+	text "Kümmere dich um"
 	line "@"
 	text_ram wOTTrademonSpeciesName
 	text "."
@@ -515,8 +519,8 @@ _MobileTakeGoodCareOfText::
 
 _MobileTradeCameBackText::
 	text_ram wOTTrademonSpeciesName
-	text " came"
-	line "back!"
+	text_start
+	line "kam zurück!"
 	done
 
 ; Oak's Pokémon Talk
@@ -1249,35 +1253,35 @@ _TheBoxIsFullText:: ; unreferenced
 ; Mobile Adapter
 
 _NewCardArrivedText::
-	text "A new CARD arrived"
-	line "from @"
+	text "Eine neue KARTE"
+	line "von @"
 	text_ram wStringBuffer2
 	text "."
 	done
 
 _PutCardInCardFolderText::
-	text "Put this CARD in"
-	line "the CARD FOLDER?"
+	text "KARTE in den KAR-"
+	line "TENORDNER legen?"
 	done
 
 _CardWasListedText::
 	text_ram wStringBuffer2
-	text "'s CARD was"
-	line "listed as no.@"
+	text "s KARTE"
+	line "ist Nr.@"
 	text_decimal wStringBuffer1, 1, 2
 	text "."
 	prompt
 
 _StartingLinkText::
-	text "Starting link."
+	text "Verbindung steht."
 	done
 
 _LinkTerminatedText::
-	text "Link terminated."
+	text "Verbindung gelöst."
 	done
 
 _ClosingLinkText::
-	text "Closing link."
+	text "Verbindungsende."
 	done
 
 _ClearTimeLimitText:: ; unreferenced
@@ -1296,10 +1300,10 @@ _PickErrorPacketText:: ; unreferenced
 	done
 
 _TradingMonForOTMonText::
-	text "Trading @"
+	text "Tausche @"
 	text_ram wStringBuffer2
 	text_start
-	line "for @"
+	line "gegen @"
 	text_ram wStringBuffer1
 	text "…"
 	done

@@ -217,38 +217,40 @@ _ReceivedTMHMText::
 	prompt
 
 _MysteryGiftCanceledText::
-	text "The link has been"
-	line "cancelled."
+	text "Die Verbindung"
+	line "wurde getrennt."
 	prompt
 
 _MysteryGiftCommErrorText::
-	text "Communication"
-	line "error."
+	text "Übertragungs-"
+	line "fehler."
 	prompt
 
 _RetrieveMysteryGiftText::
-	text "Must retrieve GIFT"
-	line "at #MON CENTER."
+	text "Hole dir die"
+	line "GABE im"
+	cont "#MON-CENTER."
 	prompt
 
 _YourFriendIsNotReadyText::
-	text "Your friend isn't"
-	line "ready."
+	text "Dein Freund ist"
+	line "nicht bereit."
 	prompt
 
 _MysteryGiftFiveADayText::
-	text "Sorry--only five"
-	line "GIFTS a day."
+	text "Nur fünf GABEN"
+	line "pro Tag."
 	prompt
 
 _MysteryGiftOneADayText::
-	text "Sorry. One GIFT"
-	line "a day per person."
+	text "Nur eine GABE"
+	line "pro Person pro"
+	cont "Tag."
 	prompt
 
 _MysteryGiftSentText::
 	text_ram wMysteryGiftPartnerName
-	text " sent"
+	text " schickte"
 	line "@"
 	text_ram wStringBuffer1
 	text "."
@@ -256,43 +258,44 @@ _MysteryGiftSentText::
 
 _MysteryGiftSentHomeText::
 	text_ram wMysteryGiftPartnerName
-	text " sent"
+	text " schickte"
 	line "@"
 	text_ram wStringBuffer1
 	text_start
-	cont "to @"
+	cont "zur Adresse von"
+	cont "@"
 	text_ram wMysteryGiftPlayerName
-	text "'s home."
+	text "."
 	prompt
 
 _NameCardReceivedCardText::
-	text "Received"
+	text "Erhält KARTE von"
 	line "@"
 	text_ram wMysteryGiftCardHolderName
-	text "'s CARD."
+	text "."
 	prompt
 
 _NameCardListedCardText::
 	text_ram wMysteryGiftCardHolderName
-	text "'s CARD was"
-	line "listed as no.@"
+	text "s KARTE"
+	line "ist Nr.@"
 	text_decimal wTextDecimalByte, 1, 2
 	text "."
 	prompt
 
 _NameCardNotRegisteredCardText::
-	text "The CARD was not"
-	line "registered."
+	text "Die KARTE wurde"
+	line "nicht registriert."
 	prompt
 
 _NameCardLinkCancelledText::
-	text "The link has been"
-	line "cancelled."
+	text "Die Verbindung"
+	line "wurde getrennt."
 	prompt
 
 _NameCardLinkCommErrorText::
-	text "Communication"
-	line "error."
+	text "Übertragungs-"
+	line "fehler."
 	prompt
 
 _BadgeRequiredText::

@@ -55,137 +55,146 @@ _ClockHasResetText::
 	done
 
 _LinkTimeoutText::
-	text "Too much time has"
-	line "elapsed. Please"
-	cont "try again."
+	text "Es verging zu viel"
+	line "Zeit. Probier's"
+	cont "noch einmal."
 	prompt
 
 _LinkTradeCantBattleText::
-	text "If you trade that"
-	line "#MON, you won't"
-	cont "be able to battle."
+	text "Wenn du dieses"
+	line "#MON tauschst,"
+	cont "kannst du nicht"
+	cont "mehr kämpfen."
 	prompt
 
 _LinkAbnormalMonText::
-	text "Your friend's"
-	line "@"
+	text "Das @"
 	text_ram wStringBuffer1
-	text " appears"
-	cont "to be abnormal!"
+	text_start
+	cont "deines Freundes"
+	cont "scheint nicht in"
+	cont "Ordnung zu sein!"
 	prompt
 
 _LinkAskTradeForText::
-	text "Trade @"
+	text "Tausche @"
 	text_ram wBufferTrademonNickname
 	text_start
-	line "for @"
+	line "mit @"
 	text_ram wStringBuffer1
 	text "?"
 	done
 
 _MobileBattleMustPickThreeMonText::
-	text "To enter a mobile"
-	line "battle, you must"
+	text "Um einen Mobil"
+	line "Kampf auszuführen,"
 
-	para "pick a team of"
-	line "three #MON."
+	para "musst du drei"
+	line "#MON auswählen."
 
-	para "Is that OK?"
+	para "In Odnung?"
 	done
 
 _MobileBattleMoreInfoText::
-	text "Need more info on"
-	line "mobile battles?"
+	text "Benötigst du mehr"
+	line "Informationen über"
+	cont "den Mobil-Kampf?"
 	done
 
 _MobileBattleRulesText::
-	text "For a mobile"
-	line "battle, choose"
-	cont "three #MON."
+	text "An einem Mobil-"
+	line "Kampf nehmen drei"
+	cont "#MON teil."
 
-	para "The maximum daily"
-	line "play time is ten"
+	para "Die max. Kampfzeit"
+	line "pro Tag beträgt"
 
-	para "minutes for each"
-	line "linked player."
+	para "zehn Minuten für"
+	line "jeden angeschlos-"
+	cont "senen Spieler."
 
-	para "If a battle isn't"
-	line "finished within"
+	para "Steht nach Ablauf"
+	line "des Zeitlimits"
 
-	para "the time limit,"
-	line "the player with"
+	para "kein Sieger fest,"
+	line "gewinnt der Spie-"
+	cont "ler, der noch über"
 
-	para "the fewest fainted"
-	line "#MON wins."
+	para "die meisten kampf-"
+	line "fähigen #MON"
+	cont "verfügt."
 
-	para "If tied, the team"
-	line "that lost the"
+	para "Bei einem Remis,"
+	line "gewinnt der Spie-"
+	cont "ler, dessen Team"
 
-	para "least amount of HP"
-	line "wins."
+	para "die wenigsten KP"
+	line "verloren hat."
 	done
 
 _WouldYouLikeToMobileBattleText::
-	text "Today's remaining"
-	line "time is @"
+	text "Für heute bleiben"
+	line "noch @"
 	text_decimal wStringBuffer2, 1, 2
 	text " min."
 
-	para "Would you like to"
-	line "battle?"
+	para "Möchtest du"
+	line "kämpfen?"
 	done
 
 _WantAQuickMobileBattleText::
-	text "There are only @"
+	text "Für heute bleiben"
+	line "nur noch @"
 	text_decimal wStringBuffer2, 1, 2
-	text_start
-	line "min. left today."
+	text " min."
 
-	para "Want a quick"
-	line "battle?"
+	para "Einen schnellen"
+	line "Kampf bestreiten?"
 	done
 
 _WantToRushThroughAMobileBattleText::
-	text "There is only"
-	line "1 min. left today!"
+	text "Du hast nur noch"
+	line "1 min für heute!"
 
-	para "Want to rush"
-	line "through a battle?"
+	para "Wie wäre es mit"
+	line "einem Blitzkampf?"
 	done
 
 _PleaseTryAgainTomorrowText::
-	text "There is less than"
-	line "1 min. left today!"
+	text "Weniger, als 1"
+	line "min für heute!"
 
-	para "Please try again"
-	line "tomorrow."
+	para "Kommme morgen"
+	line "wieder."
 	done
 
 _TryAgainUsingSameSettingsText::
-	text "Try again using"
-	line "the same settings?"
+	text "Noch ein Versuch"
+	line "bei gleichen"
+	cont "Einstellungen?"
 	done
 
 _MobileBattleLessThanOneMinuteLeftText::
-	text "There is less than"
-	line "1 min. left today!"
+	text "Weniger, als 1"
+	line "min für heute!"
 	done
 
 _MobileBattleNoTimeLeftForLinkingText::
-	text "No time left for"
-	line "linking today."
+	text "Heute ist keine"
+	line "Zeit für eine"
+	cont "Verbindung."
 	done
 
 _PickThreeMonForMobileBattleText::
-	text "Pick three #MON"
-	line "for battle."
+	text "Wähle drei #MON"
+	line "für den Kampf."
 	done
 
 _MobileBattleRemainingTimeText::
-	text "Today's remaining"
-	line "time is @"
+	text "Heute sind noch"
+	line "@"
 	text_decimal wStringBuffer2, 1, 2
-	text " min."
+	text " min übrig."
 	done
 
 _WouldYouLikeToSaveTheGameText::
@@ -794,25 +803,27 @@ _SlotsDarnText::
 	done
 
 _MobileStadiumEntryText::
-	text "Data for use in"
-	line "the MOBILE STADIUM"
+	text "Daten für das"
+	line "MOBILE STADION"
 
-	para "of the N64 #MON"
-	line "STADIUM 2 can be"
-	cont "read here."
+	para "bei #MON"
+	line "STADIUM 2 auf N64"
+	cont "können hier"
+	cont "gelesen werden."
 
-	para "Read the data?"
+	para "Daten lesen?"
 	done
 
 _MobileStadiumSuccessText::
-	text "Data transfer is"
-	line "complete."
+	text "Datentransfer"
+	line "abgeschlossen."
 
-	para "We hope you enjoy"
-	line "MOBILE STADIUM"
+	para "Wir hoffen, du"
+	line "magst die Kämpfe"
 
-	para "battles in the N64"
-	line "#MON STADIUM 2."
+	para "im MOBILEN STADION"
+	line "bei #MON"
+	cont "STADIUM 2 auf N64."
 
 	para ""
 	done
@@ -822,18 +833,18 @@ _MainMenuTimeUnknownText::
 	done
 
 _DeleteSavedLoginPasswordText::
-	text "Delete the saved"
-	line "LOG-IN PASSWORD?"
+	text "Das LOG-IN-"
+	line "PASSWORT löschen?"
 	done
 
 _DeletedTheLoginPasswordText::
-	text "Deleted the LOG-IN"
-	line "PASSWORD."
+	text "Das LOG-IN-"
+	line "PASSWORT löschen?"
 	done
 
 _MobilePickThreeMonForBattleText::
-	text "Pick three #MON"
-	line "for battle."
+	text "Wähle drei #MON"
+	line "für den Kampf."
 	prompt
 
 _MobileUseTheseThreeMonText::
@@ -841,119 +852,124 @@ _MobileUseTheseThreeMonText::
 	text ","
 	line "@"
 	text_ram wMobileParticipant2Nickname
-	text " and"
+	text " und"
 	cont "@"
 	text_ram wMobileParticipant3Nickname
 	text "."
 
-	para "Use these three?"
+	para "Diese 3 einsetzen?"
 	done
 
 _MobileOnlyThreeMonMayEnterText::
-	text "Only three #MON"
-	line "may enter."
+	text "Es dürfen nur drei"
+	line "#MON kämpfen."
 	prompt
 
 _MobileCardFolderIntro1Text::
-	text "The CARD FOLDER"
-	line "stores your and"
+	text "Im KARTENORDNER"
+	line "legst du deine und"
 
-	para "your friends'"
-	line "CARDS."
+	para "die KARTEN deiner"
+	line "Freunde ab."
 
-	para "A CARD contains"
-	line "information like"
+	para "Eine KARTE enhält"
+	line "Informationen wie"
 
-	para "the person's name,"
-	line "phone number and"
-	cont "profile."
+	para "den Namen, die"
+	line "Nummer und das"
+	cont "Profil einer"
+	cont "Person."
 
 	para ""
 	done
 
 _MobileCardFolderIntro2Text::
-	text "This is your CARD."
+	text "Hier, deine KARTE."
 
-	para "Once you've"
-	line "entered your phone"
+	para "Gib deine Telefon-"
+	line "nummer ein und"
 
-	para "number, you can"
-	line "trade CARDS with"
-	cont "your friends."
+	para "tausche KARTEN"
+	line "mit deinen"
+	cont "Freunden."
 
 	para ""
 	done
 
 _MobileCardFolderIntro3Text::
-	text "If you have your"
-	line "friend's CARD, you"
+	text "Wenn du im Besitz"
+	line "der KARTE deines"
 
-	para "can use it to make"
-	line "a call from a"
+	para "Freundes bist,"
+	line "kannst du ihn vom"
 
-	para "mobile phone on"
-	line "the 2nd floor of a"
-	cont "#MON CENTER."
+	para "Handy im 1.Stock"
+	line "in jedem #MON-"
+	cont "CENTER anrufen."
 
 	para ""
 	done
 
 _MobileCardFolderIntro4Text::
-	text "To safely store"
-	line "your collection of"
+	text "Um deine KARTEN"
+	line "sicher wegzulegen,"
 
-	para "CARDS, you must"
-	line "set a PASSCODE for"
-	cont "your CARD FOLDER."
+	para "musst du einen"
+	line "CODE für den"
+	cont "KARTENORDNER"
+	cont "festlegen."
 
 	para ""
 	done
 
 _MobileCardFolderAskDeleteText::
-	text "If the CARD FOLDER"
-	line "is deleted, all"
+	text "Wird der KARTEN-"
+	line "ORDNER gelöscht,"
 
-	para "its CARDS and the"
-	line "PASSCODE will also"
-	cont "be deleted."
+	para "werden auch alle"
+	line "KARTEN und der"
+	cont "CODE gelöscht."
 
-	para "Beware--a deleted"
-	line "CARD FOLDER can't"
-	cont "be restored."
+	para "Vorsicht - Ein"
+	line "gelöschter KARTEN-"
+	cont "ORDNER kann nicht"
+	cont "wieder hergestellt"
+	cont "werden."
 
-	para "Want to delete"
-	line "your CARD FOLDER?"
+	para "Den KARTENORDNER"
+	line "löschen?"
 	done
 
 _MobileCardFolderDeleteAreYouSureText::
-	text "Are you sure you"
-	line "want to delete it?"
+	text "Möchtest du ihn"
+	line "wirklich löschen?"
 	done
 
 _MobileCardFolderDeletedText::
-	text "The CARD FOLDER"
-	line "has been deleted."
+	text "Der KARTENORDNER"
+	line "wurde gelöscht."
 
 	para ""
 	done
 
 _MobileCardFolderAskOpenOldText::
-	text "There is an older"
-	line "CARD FOLDER from a"
-	cont "previous journey."
+	text "Es gibt einen al-"
+	line "ten KARTENORDNER"
+	cont "von einem anderen"
+	cont "Abenteuer."
 
-	para "Do you want to"
-	line "open it?"
+	para "Möchtest du ihn"
+	line "öffnen?"
 	done
 
 _MobileCardFolderAskDeleteOldText::
-	text "Delete the old"
-	line "CARD FOLDER?"
+	text "Den alten KARTEN-"
+	line "ORDNER löschen?"
 	done
 
 _MobileCardFolderFinishRegisteringCardsText::
-	text "Finish registering"
-	line "CARDS?"
+	text "Ablage der KARTEN"
+	line "abgeschlossen?"
 	done
 
 _PhoneWrongNumberText::
@@ -1194,67 +1210,68 @@ _BuenaComeAgainText::
 	done
 
 _BTExcuseMeText::
-	text "Excuse me!"
+	text "Entschuldigung!"
 
 	para ""
 	done
 
 _ExcuseMeYoureNotReadyText::
-	text "Excuse me."
-	line "You're not ready."
+	text "Entschuldigung. Du"
+	line "bist nicht bereit."
 
 	para ""
 	done
 
 _BattleTowerReturnWhenReadyText::
-	text "Please return when"
-	line "you're ready."
+	text "Komme wieder, wenn"
+	line "du bereit bist."
 	done
 
 _NeedAtLeastThreeMonText::
-	text "You need at least"
-	line "three #MON."
+	text "Du benötigst min-"
+	line "destens 3 #MON."
 
 	para ""
 	done
 
 _EggDoesNotQualifyText::
-	text "Sorry, an EGG"
-	line "doesn't qualify."
+	text "Sorry, ein EI"
+	line "geht nicht durch."
 
 	para ""
 	done
 
 _OnlyThreeMonMayBeEnteredText::
-	text "Only three #MON"
-	line "may be entered."
+	text "Nur drei #MON"
+	line "sind gestattet."
 
 	para ""
 	done
 
 _TheMonMustAllBeDifferentKindsText::
-	text "The @"
+	text "Die @"
 	text_ram wStringBuffer2
 	text " #MON"
-	line "must all be"
-	cont "different kinds."
+	line "müssen unter-"
+	cont "schiedlich sein."
 
 	para ""
 	done
 
 _TheMonMustNotHoldTheSameItemsText::
-	text "The @"
+	text "Die @"
 	text_ram wStringBuffer2
 	text " #MON"
-	line "must not hold the"
-	cont "same items."
+	line "dürfen nicht"
+	cont "dieselben Items"
+	cont "tragen."
 
 	para ""
 	done
 
 _YouCantTakeAnEggText::
-	text "You can't take an"
-	line "EGG!"
+	text "Du kannst kein EI"
+	line "mitnehmen!"
 
 	para ""
 	done
