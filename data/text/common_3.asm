@@ -491,68 +491,71 @@ _EvolvingText::
 	done
 
 _EggMoveReminderIntro::
-    text "Hiya, I'm the"
-    line "EGG-MOVE TUTOR!"
+	text "Hallo, ich bin der"
+	line "EI-ATTACKEN-"
+	cont "LEHRER!"
 
-    para "I can teach your"
-    line "#MON moves they"
+	para "Ich kann deinen"
+	line "#MON Attacken"
+	cont "beibringen, die"
+	cont "sie normalerweise"
+	cont "nur als EI lernen"
+	cont "können."
 
-    para "can normally only"
-    line "learn as an EGG."
-
-	para "Are you"
-    line "interested?"
-    done
+	para "Bist du"
+	line "interessiert?"
+	done
 
 _MoveReminderIntro::
-    text "Hiya, I'm the"
-    line "MOVE REMINDER!"
+	text "Hallo, ich bin der"
+	line "ATTACKEN-"
+	cont "ERINNERER!"
 
-    para "I can make #MON"
-    line "rememember moves"
+	para "Ich lasse #MON"
+	line "sich an Attacken"
+	cont "erinnern, die sie"
+	cont "beim Aufwachsen"
+	cont "gelernt haben."
 
-    para "that they learned"
-    line "while growing up."
-
-	para "Shall I make a"
-	line "#MON remember?"
-    done
+	para "Soll sich ein"
+	line "#MON erinnern?"
+	done
 
 _MoveReminderWhichMon::
-    text "Which #MON"
-    next "would you like"
-
-    para "to make remember"
-    line "a move?"
-    done
+	text "Welches #MON"
+	line "soll sich an eine"
+	cont "Attacke erinnern?"
+	done
 
 _MoveReminderWhichMove::
-    text "Which move should"
-    line "it learn?"
-    done
+	text "Welche Attacke"
+	line "soll es lernen?"
+	done
 
 _MoveReminderCancel::
-    text "Come back anytime."
-    done
+	text "Komm jederzeit"
+	line "wieder vorbei."
+	done
 
 _MoveReminderEgg::
-    text "Hey! What am I"
-    line "supposed to teach"
-    cont "an EGG?"
-    done
+	text "Hey! Was soll ich"
+	line "einem EI denn"
+	cont "beibringen?"
+	done
 
 _MoveReminderNoMon::
-    text "You don't have a"
-    line "#MON that can"
-    cont "remember a move."
-    done
+	text "Du hast kein"
+	line "#MON, das sich"
+	cont "an eine Attacke"
+	cont "erinnern kann."
+	done
 
 _MoveReminderNoMoves::
-    text "There are no moves"
-    line "for this #MON"
-    cont "to learn."
-    done
-
+	text "Es gibt keine"
+	line "Attacken, die"
+	cont "dieses #MON"
+	cont "lernen kann."
+	done
 
 _MartHowManyText::
 	text "Wie viele?"

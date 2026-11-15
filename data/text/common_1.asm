@@ -1892,10 +1892,11 @@ _ComeAgainText::
 	done
 
 _CantAcceptFaintedMonText::
-	text "Sorry, but you'll"
-	line "have to heal your"
-	cont "#MON before I"
-	cont "accept it."
+	text "Tut mir Leid, aber"
+	line "du musst dein"
+	cont "#MON heilen,"
+	cont "ehe ich es"
+	cont "annehme."
 	prompt
 
 _NotYetText::
