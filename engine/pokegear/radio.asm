@@ -118,6 +118,7 @@ RadioJumptable:
 	dw PokedexShow6      ; $55
 	dw PokedexShow7      ; $56
 	dw PokedexShow8      ; $57
+	dw OaksPKMNTalkIntro4 ; $58
 	assert_table_length NUM_RADIO_SEGMENTS
 
 PrintRadioLine:
@@ -189,6 +190,11 @@ OaksPKMNTalk2:
 
 OaksPKMNTalk3:
 	ld hl, OPT_IntroText3
+	ld a, OAKS_POKEMON_TALK_INTRO_4
+	jp NextRadioLine
+
+OaksPKMNTalkIntro4:
+	ld hl, OPT_IntroText4
 	ld a, OAKS_POKEMON_TALK_4
 	jp NextRadioLine
 
@@ -305,6 +311,10 @@ OPT_IntroText2:
 
 OPT_IntroText3:
 	text_far _OPT_IntroText3
+	text_end
+
+OPT_IntroText4:
+	text_far _OPT_IntroText4
 	text_end
 
 OPT_OakText1:
@@ -583,7 +593,7 @@ OaksPKMNTalk12:
 	jp PlaceRadioString
 
 .pokemon_channel_string
-	db "#MON Channel@"
+	db "#MON Programm@"
 
 OaksPKMNTalk13:
 	ld hl, wRadioTextDelay
@@ -1718,7 +1728,7 @@ BuenasPasswordCheckTime:
 	ret
 
 BuenasPasswordChannelName:
-	db "BUENA'S PASSWORD@"
+	db "BUENAs PASSWORT@"
 
 BuenaRadioText1:
 	text_far _BuenaRadioText1

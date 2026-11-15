@@ -1737,7 +1737,7 @@ LoadStation_BuenasPassword:
 	ld de, BuenasPasswordName
 	ret
 
-BuenasPasswordName:    db "BUENA'S PASSWORD@"
+BuenasPasswordName:    db "BUENAs PASSWORT@"
 NotBuenasPasswordName: db "@"
 
 LoadStation_UnownRadio:
@@ -1870,15 +1870,15 @@ NoRadioName:
 	call Textbox
 	ret
 
-OaksPKMNTalkName:     db "OAK's <PK><MN> Talk@"
+OaksPKMNTalkName:     db "EICHs <PKMN>-Talk@"
 PokedexShowName:      db "#DEX Show@"
-PokemonMusicName:     db "#MON Music@"
-LuckyChannelName:     db "Lucky Channel@"
+PokemonMusicName:     db "#MON-Musik@"
+LuckyChannelName:     db "Glückskanal@"
 UnownStationName:     db "?????@"
 
-PlacesAndPeopleName:  db "Places & People@"
-LetsAllSingName:      db "Let's All Sing!@"
-PokeFluteStationName: db "# FLUTE@"
+PlacesAndPeopleName:  db "Orte & Personen@"
+LetsAllSingName:      db "Lasst uns singen@"
+PokeFluteStationName: db "#MON-FLÖTE@"
 
 _TownMap:
 	ld hl, wOptions
