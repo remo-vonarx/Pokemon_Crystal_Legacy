@@ -293,29 +293,32 @@ _NameCardLinkCommErrorText::
 	prompt
 
 _BadgeRequiredText::
-	text "Sorry! A new BADGE"
-	line "is required."
+	text "Du benötigst einen"
+	line "neuen ORDEN."
 	prompt
 
 _CantUseItemText::
-	text "Can't use that"
-	line "here."
+	text "Du kannst das hier"
+	line "nicht benutzen."
 	prompt
 
 _UseCutText::
 	text_ram wStringBuffer2
-	text " used"
-	line "CUT!"
+	text " setzt"
+	line "den ZERSCHNEIDER"
+	cont "ein!"
 	prompt
 
 _CutNothingText::
-	text "There's nothing to"
-	line "CUT here."
+	text "Hier kann"
+	line "man nichts"
+	cont "zerschneiden."
 	prompt
 
 _BlindingFlashText::
-	text "A blinding FLASH"
-	line "lights the area!@"
+	text "Ein gleißender"
+	line "BLITZ erhellt"
+	cont "das Gebiet!@"
 	text_promptbutton
 	text_end
 
@@ -323,276 +326,297 @@ _BlindingFlashText::
 
 _UsedSurfText::
 	text_ram wStringBuffer2
-	text " used"
-	line "SURF!"
+	text " setzt"
+	line "SURFER ein!"
 	done
 
 _CantSurfText::
-	text "You can't SURF"
-	line "here."
+	text "SURFER kann hier"
+	line "nicht eingesetzt"
+	cont "werden."
 	prompt
 
 _AlreadySurfingText::
-	text "You're already"
-	line "SURFING."
+	text "SURFER ist bereits"
+	line "eingesetzt."
 	prompt
 
 _AskSurfText::
-	text "The water is calm."
-	line "Want to SURF?"
+	text "Die See ist ruhig."
+	line "Möchtest du SURFER"
+	cont "einsetzen?"
 	done
 
 _UseWaterfallText::
 	text_ram wStringBuffer2
-	text " used"
-	line "WATERFALL!"
+	text " setzt"
+	line "KASKADE ein!"
 	done
 
 _HugeWaterfallText::
-	text "Wow, it's a huge"
-	line "waterfall."
+	text "Wow, das ist ein"
+	line "großer Wasserfall."
 	done
 
 _AskWaterfallText::
-	text "Do you want to use"
-	line "WATERFALL?"
+	text "Möchtest du"
+	line "KASKADE einsetzen?"
 	done
 
 _UseDigText::
 	text_ram wStringBuffer2
-	text " used"
-	line "DIG!"
+	text " setzt"
+	line "SCHAUFLER ein!"
 	done
 
 _UseEscapeRopeText::
-	text "<PLAYER> used an"
-	line "ESCAPE ROPE."
+	text "<PLAYER> setzt"
+	line "FLUCHTSEIL ein."
 	done
 
 _CantUseDigText::
-	text "Can't use that"
-	line "here."
+	text "Das kann hier"
+	line "nicht eingesetzt"
+	cont "werden."
 	done
 
 _TeleportReturnText::
-	text "Return to the last"
-	line "#MON CENTER."
+	text "Bringt dich zum"
+	line "letzten #MON-"
+	cont "CENTER."
 	done
 
 _CantUseTeleportText::
-	text "Can't use that"
-	line "here."
-
-	para ""
-	done
+	text "Das kann hier"
+	line "nicht eingesetzt"
+	cont "werden."
+	prompt
 
 _AlreadyUsingStrengthText::
-	text "A #MON is using"
-	line "STRENGTH already."
+	text "Ein #MON setzt"
+	line "bereits STÄRKE"
+	cont "ein."
 	prompt
 
 _UseStrengthText::
 	text_ram wStringBuffer2
-	text " used"
-	line "STRENGTH!"
+	text " setzt"
+	line "STÄRKE ein!"
 	done
 
 _MoveBoulderText::
 	text_ram wStringBuffer1
-	text " can"
-	line "move boulders."
+	text " kann"
+	line "Felsen bewegen."
 	prompt
 
 _AskStrengthText::
-	text "A #MON may be"
-	line "able to move this."
+	text "Ein #MON könnte"
+	line "das vielleicht"
+	cont "bewegen."
 
-	para "Want to use"
-	line "STRENGTH?"
+	para "Möchtest du STÄRKE"
+	line "einsetzen?"
 	done
 
 _BouldersMoveText::
-	text "Boulders may now"
-	line "be moved!"
+	text "Du kannst jetzt"
+	line "Felsen bewegen!"
 	done
 
 _BouldersMayMoveText::
-	text "A #MON may be"
-	line "able to move this."
+	text "Ein #MON könnte"
+	line "das vielleicht"
+	cont "bewegen."
 	done
 
 _UseWhirlpoolText::
 	text_ram wStringBuffer2
-	text " used"
-	line "WHIRLPOOL!"
+	text " setzt"
+	line "WHIRLPOOL ein!"
 	prompt
 
 _MayPassWhirlpoolText::
-	text "It's a vicious"
-	line "whirlpool!"
+	text "Das ist ein"
+	line "teuflischer"
+	cont "Strudel!"
 
-	para "A #MON may be"
-	line "able to pass it."
+	para "Ein #MON könnte"
+	line "den Strudel"
+	cont "durchqueren."
 	done
 
 _AskWhirlpoolText::
-	text "A whirlpool is in"
-	line "the way."
+	text "Ein Strudel ist"
+	line "im Weg."
 
-	para "Want to use"
-	line "WHIRLPOOL?"
+	para "Möchtest du"
+	line "WHIRLPOOL"
+	cont "einsetzen?"
 	done
 
 _UseHeadbuttText::
 	text_ram wStringBuffer2
-	text " did a"
-	line "HEADBUTT!"
+	text " setzt"
+	line "KOPFNUSS ein!"
 	prompt
 
 _HeadbuttNothingText::
-	text "Nope. Nothing…"
+	text "Nein. Nichts…"
 	done
 
 _AskHeadbuttText::
-	text "A #MON could be"
-	line "in this tree."
+	text "Vielleicht steckt"
+	line "ein #MON in"
+	cont "diesem Baum."
 
-	para "Want to HEADBUTT"
-	line "it?"
+	para "Möchtest du KOPF-"
+	line "NUSS einsetzen?"
 	done
 
 _UseRockSmashText::
 	text_ram wStringBuffer2
-	text " used"
-	line "ROCK SMASH!"
+	text " setzt"
+	line "ZERTRÜMMERER ein!"
 	prompt
 
 _MaySmashText::
-	text "Maybe a #MON"
-	line "can break this."
+	text "Ein #MON könnte"
+	line "ihn vielleicht"
+	cont "zerschmettern."
 	done
 
 _AskRockSmashText::
-	text "This rock looks"
-	line "breakable."
+	text "Dieser Fels sieht"
+	line "zerbrechlich aus."
 
-	para "Want to use ROCK"
-	line "SMASH?"
+	para "Soll ZERTRÜMMERER"
+	line "eingesetzt werden?"
 	done
 
 _RodBiteText::
-	text "Oh!"
-	line "A bite!"
+	text "Uah!"
+	line "Da hat etwas"
+	cont "angebissen!"
 	prompt
 
 _RodNothingText::
-	text "Not even a nibble!"
+	text "Nicht einmal"
+	line "angeknabbert!"
 	prompt
 
 _UnusedNothingHereText::
-	text "Looks like there's"
-	line "nothing here."
+	text "Hier scheint"
+	line "nichts zu sein."
 	prompt
 
 _CantGetOffBikeText::
-	text "You can't get off"
-	line "here!"
+	text "Du kannst hier"
+	line "nicht absteigen!"
 	done
 
 _GotOnBikeText::
-	text "<PLAYER> got on the"
-	line "@"
+	text "<PLAYER> steigt"
+	line "aufs @"
 	text_ram wStringBuffer2
 	text "."
 	done
 
 _GotOffBikeText::
-	text "<PLAYER> got off"
-	line "the @"
+	text "<PLAYER> steigt von"
+	line "@"
 	text_ram wStringBuffer2
-	text "."
+	text " ab."
 	done
 
 _AskCutText::
-	text "This tree can be"
-	line "CUT!"
+	text "Du kannst den"
+	line "ZERSCHNEIDER hier"
+	cont "einsetzen!"
 
-	para "Want to use CUT?"
+	para "Möchtest du den"
+	line "ZERSCHNEIDER"
+
+	para "einsetzen?"
 	done
 
 _CanCutText::
-	text "This tree can be"
-	line "CUT!"
+	text "Der ZERSCHNEIDER"
+	line "kann hier"
+	cont "eingesetzt werden!"
 	done
 
 _FoundItemText::
-	text "<PLAYER> found"
+	text "<PLAYER> findet"
 	line "@"
 	text_ram wStringBuffer3
 	text "!"
 	done
 
 _CantCarryItemText::
-	text "But <PLAYER> can't"
-	line "carry any more"
-	cont "items."
+	text "<PLAYER> kann keine"
+	line "weiteren Items"
+	cont "mehr tragen!"
 	done
 
 _WhitedOutText::
-	text "<PLAYER> is out of"
-	line "useable #MON!"
+	text "<PLAYER> hat kein"
+	line "kampffähiges"
+	cont "#MON mehr!"
 
-	para "<PLAYER> whited"
-	line "out!"
+	para "<PLAYER> fällt"
+	line "in Ohnmacht!"
 	done
 
 _ItemfinderItemNearbyText::
-	text "Yes! ITEMFINDER"
-	line "indicates there's"
-	cont "an item nearby."
+	text "Der DETEKTOR zeigt"
+	line "dir an, dass ein"
+	cont "Item in der Nähe"
+	cont "ist."
 	prompt
 
 _ItemfinderNopeText::
-	text "Nope! ITEMFINDER"
-	line "isn't responding."
+	text "Der DETEKTOR"
+	line "reagiert nicht."
 	prompt
 
 _PoisonFaintText::
 	text_ram wStringBuffer3
 	text_start
-	line "fainted!"
+	line "wurde besiegt!"
 	prompt
 
 _PoisonWhiteoutText::
-	text "<PLAYER> is out of"
-	line "useable #MON!"
+	text "<PLAYER> hat kein"
+	line "kampffähiges"
+	cont "#MON mehr!"
 
-	para "<PLAYER> whited"
-	line "out!"
+	para "<PLAYER> wird"
+	line "ohnmächtig!"
 	prompt
 
 _UseSweetScentText::
 	text_ram wStringBuffer3
-	text " used"
-	line "SWEET SCENT!"
+	text_start
+	line "ben. LOCKDUFT!"
 	done
 
 _SweetScentNothingText::
-	text "Looks like there's"
-	line "nothing here…"
+	text "Hier ist wohl"
+	line "nichts…"
 	done
 
 _SquirtbottleNothingText::
-	text "<PLAYER> sprinkled"
-	line "water."
+	text "<PLAYER>"
+	line "verspritzt Wasser."
 
-	para "But nothing"
-	line "happened…"
+	para "Nichts geschieht…"
 	done
 
 _UseSacredAshText::
-	text "<PLAYER>'s #MON"
-	line "were all healed!"
+	text "Die #MON"
+	line "von <PLAYER>"
+	cont "wurden geheilt!"
 	done
 
 _AnEggCantHoldAnItemText::
@@ -1129,11 +1153,11 @@ _LuckyNumberMatchPCText::
 	prompt
 
 _CaughtAskNicknameText::
-	text "Give a nickname to"
-	line "the @"
+	text "Möchtest du"
+	line "@"
 	text_ram wStringBuffer1
-	text " you"
-	cont "received?"
+	text " einen"
+	cont "Spitznamen geben?"
 	done
 
 _PokecenterPCCantUseText::
@@ -1604,11 +1628,12 @@ _PokemonNotEnoughHPText::
 	prompt
 
 _MayRegisterItemText::
-	text "An item in your"
-	line "PACK may be"
+	text "Ein Item aus"
+	line "deinem BEUTEL"
 
-	para "registered for use"
-	line "on SELECT Button."
+	para "kann auf"
+	line "SELECT"
+	cont "gelegt werden."
 	done
 
 _OakText1::

@@ -1,30 +1,29 @@
 _FruitBearingTreeText::
-	text "It's a fruit-"
-	line "bearing tree."
+	text "Es ist ein"
+	line "Obstbaum."
 	done
 
 _HeyItsFruitText::
-	text "Hey! It's"
+	text "Hey! Das ist eine"
 	line "@"
 	text_ram wStringBuffer3
 	text "!"
 	done
 
 _ObtainedFruitText::
-	text "Obtained"
-	line "@"
 	text_ram wStringBuffer3
-	text "!"
+	text_start
+	line "erhalten!"
 	done
 
 _FruitPackIsFullText::
-	text "But the PACK is"
-	line "full…"
+	text "Aber der BEUTEL"
+	line "ist voll…"
 	done
 
 _NothingHereText::
-	text "There's nothing"
-	line "here…"
+	text "Hier ist"
+	line "nichts…"
 	done
 
 _WhichApricornText::
@@ -1299,7 +1298,7 @@ _ObtainedTheVoltorbBadgeText:: ; unreferenced
 	done
 
 _AskFloorElevatorText::
-	text "Which floor?"
+	text "Welcher Stock?"
 	done
 
 _BugCatchingContestTimeUpText::
@@ -1314,8 +1313,8 @@ _BugCatchingContestIsOverText::
 	done
 
 _RepelWoreOffText::
-	text "REPEL's effect"
-	line "wore off."
+	text "SCHUTZ wirkt"
+	line "nicht mehr."
 	done
 
 _UseAnotherRepelText::
@@ -1329,15 +1328,16 @@ _UseAnotherRepelText::
 
 
 _PlayerFoundItemText::
-	text "<PLAYER> found"
+	text "<PLAYER> findet"
 	line "@"
 	text_ram wStringBuffer3
-	text "!"
+	text "."
 	done
 
 _ButNoSpaceText::
-	text "But <PLAYER> has"
-	line "no space left…"
+	text "Aber <PLAYER> hat"
+	line "keinen Platz"
+	cont "dafür…"
 	done
 
 _JustSawSomeRareMonText::
@@ -1361,7 +1361,7 @@ _SavingRecordText::
 
 _ReceiveItemText::
 	text_ram wPlayerName
-	text " received"
+	text " erhält"
 	line "@"
 	text_ram wStringBuffer1
 	text "!@"
@@ -1372,12 +1372,13 @@ _ReceiveItemText::
 	text_end ; unreferenced
 
 _NoCoinsText::
-	text "You have no coins."
+	text "Du hast keine"
+	line "Münzen."
 	prompt
 
 _NoCoinCaseText::
-	text "You don't have a"
-	line "COIN CASE."
+	text "Du hast keinen"
+	line "MÜNZKORB."
 	prompt
 
 _NPCTradeCableText::
