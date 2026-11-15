@@ -357,33 +357,41 @@ _LookGiantDecoText::
 
 _MomHiHowAreYouText::
 	text "Hi, <PLAYER>!"
-	line "How are you?"
+	line "Wie geht es dir?"
 	prompt
 
 _MomFoundAnItemText::
-	text "I found a useful"
-	line "item shopping, so"
+	text "Ich habe beim"
+	line "Einkaufen ein"
+	cont "nützliches Item"
+	cont "gefunden und"
 	prompt
 
 _MomBoughtWithYourMoneyText::
-	text "I bought it with"
-	line "your money. Sorry!"
+	text "ich habe dieses"
+	line "dekorative Item"
+
+	para "von deinem Geld"
+	line "gekauft!"
 	prompt
 
 _MomItsInPCText::
-	text "It's in your PC."
-	line "You'll like it!"
+	text "Es ist in deinem"
+	line "PC. Es wird dir"
+	cont "gefallen!"
 	done
 
 _MomFoundADollText::
-	text "While shopping"
-	line "today, I saw this"
-	cont "adorable doll, so"
+	text "Beim Einkaufen"
+	line "heute habe ich"
+	cont "eine tolle Puppe"
+	cont "gesehen und"
 	prompt
 
 _MomItsInYourRoomText::
-	text "It's in your room."
-	line "You'll love it!"
+	text "Sie ist in deinem"
+	line "Zimmer. Du wirst"
+	cont "sie lieben!"
 	done
 
 _MonWasSentToText::
@@ -1556,123 +1564,127 @@ _NPCTradeAfterText4::
 	done
 
 _MomLeavingText1::
-	text "Wow, that's a cute"
-	line "#MON."
+	text "Das ist ein nied-"
+	line "liches #MON."
 
-	para "Where did you get"
-	line "it?"
+	para "Wo hast du es"
+	line "her?"
 
 	para "…"
 
-	para "So, you're leaving"
-	line "on an adventure…"
+	para "Du beginnst also"
+	line "ein Abenteuer…"
 
-	para "OK!"
-	line "I'll help too."
+	para "O.K.! Auch ich"
+	line "werde dir helfen."
 
-	para "But what can I do"
-	line "for you?"
+	para "Aber was kann ich"
+	line "für dich tun?"
 
-	para "I know! I'll save"
-	line "money for you."
+	para "Ich weiß! Ich"
+	line "werde für dich"
+	cont "sparen."
 
-	para "On a long journey,"
-	line "money's important."
+	para "Auf einer langen"
+	line "Reise ist Geld"
+	cont "sehr wichtig."
 
-	para "Do you want me to"
-	line "save your money?"
+	para "Soll ich dein"
+	line "Geld sparen?"
 	done
 
 _MomLeavingText2::
-	text "OK, I'll take care"
-	line "of your money."
+	text "O.K., ich verwalte"
+	line "deine Ersparnisse."
 
 	para "<……><……><……>"
 	prompt
 
 _MomLeavingText3::
-	text "Be careful."
+	text "Sei auf der Hut."
 
-	para "#MON are your"
-	line "friends. You need"
-	cont "to work as a team."
+	para "#MON sind"
+	line "deine Kameraden."
+	cont "Ihr müsst als Team"
+	cont "auftreten."
 
-	para "Now, go on!"
+	para "Also mach's gut!"
 	done
 
 _MomIsThisAboutYourMoneyText::
-	text "Hi! Welcome home!"
-	line "You're trying very"
-	cont "hard, I see."
+	text "Hi! Willkommen!"
+	line "Ich sehe, du"
+	cont "bemühst dich sehr."
 
-	para "I've kept your"
-	line "room tidy."
+	para "Ich habe dein"
+	line "Zimmer aufgeräumt."
 
-	para "Or is this about"
-	line "your money?"
+	para "Ist es wegen"
+	line "deinem Geld?"
 	done
 
 _MomBankWhatDoYouWantToDoText::
-	text "What do you want"
-	line "to do?"
+	text "Was wirst du"
+	line "tun?"
 	done
 
 _MomStoreMoneyText::
-	text "How much do you"
-	line "want to save?"
+	text "Wie viel möchtest"
+	line "du sparen?"
 	done
 
 _MomTakeMoneyText::
-	text "How much do you"
-	line "want to take?"
+	text "Wie viel möchtest"
+	line "du mitnehmen?"
 	done
 
 _MomSaveMoneyText::
-	text "Do you want to"
-	line "save some money?"
+	text "Möchtest du weiter"
+	line "Geld sparen?"
 	done
 
 _MomHaventSavedThatMuchText::
-	text "You haven't saved"
-	line "that much."
+	text "So viel hast du"
+	line "nicht gespart."
 	prompt
 
 _MomNotEnoughRoomInWalletText::
-	text "You can't take"
-	line "that much."
+	text "So viel kannst du"
+	line "nicht mitnehmen."
 	prompt
 
 _MomInsufficientFundsInWalletText::
-	text "You don't have"
-	line "that much."
+	text "So viel hast"
+	line "du nicht."
 	prompt
 
 _MomNotEnoughRoomInBankText::
-	text "You can't save"
-	line "that much."
+	text "So viel kannst"
+	line "du nicht sparen."
 	prompt
 
 _MomStartSavingMoneyText::
-	text "OK, I'll save your"
-	line "money. Trust me!"
+	text "O.K., ich spare"
+	line "für dich! Traue"
+	cont "mir!"
 
-	para "<PLAYER>, stick"
-	line "with it!"
+	para "<PLAYER>, bleib"
+	line "dabei!"
 	done
 
 _MomStoredMoneyText::
-	text "Your money's safe"
-	line "here! Get going!"
+	text "Dein Geld ist hier"
+	line "sicher! Tschüss!"
 	done
 
 _MomTakenMoneyText::
-	text "<PLAYER>, don't"
-	line "give up!"
+	text "<PLAYER>, nur nicht"
+	line "aufgeben!"
 	done
 
 _MomJustDoWhatYouCanText::
-	text "Just do what"
-	line "you can."
+	text "Gib immer dein"
+	line "Bestes."
 	done
 
 _DaycareDummyText::
