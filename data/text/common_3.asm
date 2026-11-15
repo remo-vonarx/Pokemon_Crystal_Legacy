@@ -235,25 +235,29 @@ _MoveMonWOMailSaveText::
 	done
 
 _WindowAreaExceededErrorText:: ; unreferenced
-	text "The window save"
-	line "area was exceeded."
+	text "Die Speicherkapa-"
+	line "zität des Fensters"
+	cont "wurde überschrit-"
+	cont "ten."
 	done
 
 _WindowPoppingErrorText::
-	text "No windows avail-"
-	line "able for popping."
+	text "Für den Tausch"
+	line "stehen keine Fens-"
+	cont "ter zur Verfügung."
 	done
 
 _CorruptedEventText:: ; unreferenced
-	text "Corrupted event!"
+	text "Vorgang abge-"
+	cont "brochen!"
 	prompt
 
 _ObjectEventText::
-	text "Object event"
+	text "Object event."
 	done
 
 _BGEventText::
-	text "BG event"
+	text "BG event."
 	done
 
 _CoordinatesEventText::

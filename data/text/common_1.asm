@@ -225,55 +225,55 @@ _OakTimeIsItText::
 	done
 
 _ThereIsNothingConnectedText:: ; unreferenced
-	text "There is nothing"
-	line "connected."
+	text "Es ist nichts"
+	line "angeschlossen."
 	done
 
 _CheckCellPhoneAdapterText:: ; unreferenced
-	text "Check cell phone"
-	line "adapter."
+	text "Überprüfe den"
+	line "Handy-Adapter."
 	done
 
 _CheckCDMAAdapterText:: ; unreferenced
-	text "Check CDMA"
-	line "adapter."
+	text "Überprüfe"
+	line "CDMA-Adapter."
 	done
 
 _CheckDOCOMOPHSAdapterText:: ; unreferenced
-	text "Check DOCOMO PHS"
-	line "adapter."
+	text "Überprüfe DOCOMO"
+	line "PHS-Adapter."
 	done
 
 _CheckDDIPHSAdapterText:: ; unreferenced
-	text "Check DDI PHS"
-	line "adapter."
+	text "Überprüfe DDI"
+	line "PHS-Adapter."
 	done
 
 _CheckMobileAdapterText:: ; unreferenced
-	text "Check unlimited"
-	line "battle mobile"
-	cont "adapter."
+	text "Überprüfe unbe-"
+	line "grenzten Mobil-"
+	cont "Kampf-Adapter."
 	done
 
 ; Mobile Adapter End
 
 _ThePasswordIsText:: ; unreferenced
-	text "The password is:"
+	text "Das Passwort ist:"
 	line ""
 	done
 
 _IsThisOKText:: ; unreferenced
-	text "Is this OK?"
+	text "In Ordnung?"
 	done
 
 _EnterTheIDNoText:: ; unreferenced
-	text "Enter the"
-	line "ID no."
+	text "Gib die"
+	line "ID-Nummer ein.."
 	done
 
 _EnterTheAmountText:: ; unreferenced
-	text "Enter the"
-	line "amount."
+	text "Gib den"
+	line "Betrag ein."
 	done
 
 _NothingToChooseText::
@@ -1148,78 +1148,81 @@ _EnemyUsedOnText::
 	prompt
 
 _ThatCantBeUsedRightNowText:: ; unreferenced
-	text "That can't be used"
-	line "right now."
+	text "Es ist noch nicht"
+	line "an der Zeit, dies"
+	cont "zu benutzen."
 	prompt
 
 _ThatItemCantBePutInThePackText:: ; unreferenced
-	text "That item can't be"
-	line "put in the PACK."
+	text "Dieses Item gehört"
+	line "nicht in den"
+	cont "BEUTEL."
 	done
 
 _TheItemWasPutInThePackText:: ; unreferenced
-	text "The @"
 	text_ram wStringBuffer1
 	text_start
-	line "was put in the"
-	cont "PACK."
+	line "wurde im BEUTEL"
+	cont "verstaut."
 	done
 
 _RemainingTimeText:: ; unreferenced
-	text "Remaining Time"
+	text "Verbleibende Zeit"
 	done
 
 _YourMonsHPWasHealedText:: ; unreferenced
-	text "Your #MON's HP"
-	line "was healed."
+	text "Dein #MON wurde"
+	line "komplett geheilt."
 	prompt
 
 _WarpingText:: ; unreferenced
-	text "Warping…"
+	text "Warpen…"
 	done
 
 _ChangeWhichNumberText:: ; unreferenced
-	text "Which number"
-	line "should be changed?"
+	text "Welche Nummer soll"
+	line "geändert werden?"
 	done
 
 _WillYouPlayWithMonText:: ; unreferenced
-	text "Will you play with"
+	text "Möchtest du"
 	line "@"
 	text_ram wStringBuffer2
-	text "?"
+	text " einsetzen?"
 	done
 
 _YouNeedTwoMonForBreedingText:: ; unreferenced
-	text "You need two #-"
-	line "MON for breeding."
+	text "Du benötigst zwei"
+	line "#MON, um zu"
+	cont "züchten."
 	prompt
 
 _BreedingIsNotPossibleText:: ; unreferenced
-	text "Breeding is not"
-	line "possible."
+	text "Züchten ist hier"
+	line "nicht möglich."
 	prompt
 
 _CompatibilityShouldTheyBreedText:: ; unreferenced
-	text "The compatibility"
-	line "is @"
+	text "Sie passen"
+	line "@"
 	text_decimal wBreedingCompatibility, 1, 3
-	text "."
-	cont "Should they breed?"
+	text_start
+	cont "zueinander."
+	cont "Züchten?"
 	done
 
 _ThereIsNoEggText:: ; unreferenced
-	text "There is no EGG."
+	text "Es gibt kein EI."
 	line ""
 	prompt
 
 _ItsGoingToHatchText:: ; unreferenced
-	text "It's going to"
-	line "hatch!"
+	text "Es wird bald aus"
+	line "dem EI schlüpfen!"
 	prompt
 
 _TestEventText:: ; unreferenced
-	text "Test event"
+	text "Ereignistest"
 	line "@"
 	text_decimal wStringBuffer2, 1, 2
 	text "?"
@@ -1230,24 +1233,24 @@ _StartText:: ; unreferenced
 	done
 
 _EndText:: ; unreferenced
-	text "End!"
+	text "Ende!"
 	done
 
 _ForABoyText:: ; unreferenced
-	text "For a boy!"
+	text "Für einen Jungen!"
 	done
 
 _ForAGirlText:: ; unreferenced
-	text "For a girl!"
+	text "Für ein Mädchen!"
 	done
 
 _DoesntConcernABoyText:: ; unreferenced
-	text "This doesn't"
-	line "concern a boy!"
+	text "Das geht Jungen"
+	line "nichts an!"
 	done
 
 _TheBoxIsFullText:: ; unreferenced
-	text "The BOX is full!"
+	text "Die BOX ist voll!"
 	done
 
 ; Mobile Adapter
@@ -1285,18 +1288,18 @@ _ClosingLinkText::
 	done
 
 _ClearTimeLimitText:: ; unreferenced
-	text "Clear the time"
-	line "limit?"
+	text "Zeitbegrenzung"
+	line "löschen?"
 	done
 
 _TimeLimitWasClearedText:: ; unreferenced
-	text "The time limit was"
-	line "cleared."
+	text "Die Zeitbegrenzung"
+	line "wurde gelöscht."
 	done
 
 _PickErrorPacketText:: ; unreferenced
-	text "Pick which packet"
-	line "as an error?"
+	text "Welches Paket als"
+	line "Fehler wählen?"
 	done
 
 _TradingMonForOTMonText::
@@ -1311,8 +1314,8 @@ _TradingMonForOTMonText::
 ; Mobile Adapter End
 
 _ObtainedTheVoltorbBadgeText:: ; unreferenced
-	text "Obtained the"
-	line "VOLTORBBADGE!"
+	text "VOLTOBALORDEN"
+	line "erhalten!"
 	done
 
 _AskFloorElevatorText::
@@ -1375,8 +1378,8 @@ _JustSawSomeRareMonText::
 	prompt
 
 _SavingRecordText::
-	text "SAVING RECORD…"
-	line "DON'T TURN OFF!"
+	text "SPEICHERN…"
+	line ""
 	done
 
 _ReceiveItemText::

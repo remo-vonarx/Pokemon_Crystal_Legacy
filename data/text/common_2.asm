@@ -966,11 +966,11 @@ _MailMovedFromBoxText::
 	prompt
 
 _YesPromptText:: ; unreferenced
-	text "Yes"
+	text "Ja"
 	prompt
 
 _NoPromptText:: ; unreferenced
-	text "No"
+	text "Nein"
 	prompt
 
 _AnimationTypeText:: ; unreferenced
@@ -978,14 +978,14 @@ _AnimationTypeText:: ; unreferenced
 	text " @"
 	text_ram wStringBuffer1
 	text_start
-	line "Animation type @"
+	line "Animationstyp @"
 	text_ram wStringBuffer2
 	text_end
 
 	text_end ; unreferenced
 
 _MonNumberText:: ; unreferenced
-	text "#MON number?"
+	text "#MON-Nummer?"
 	done
 
 _WasSentToBillsPCText::
@@ -1460,22 +1460,23 @@ _OakPCText4::
 	done
 
 _TrainerRankingExplanationText:: ; unreferenced
-	text "Triple-theme"
-	line "trainer ranking!"
+	text "Dreifache Trainer"
+	line "Bestenliste!"
 
-	para "The SAVE file you"
-	line "just sent might"
-	cont "make the rankings!"
+	para "Dieser SPIELSTAND"
+	line "könnte die Besten-"
+	cont "liste erreichen!"
 
 	para ""
 	done
 
 _TrainerRankingNoDataText:: ; unreferenced
-	text "There is no"
-	line "ranking data."
+	text "Es gibt keine"
+	line "Bestenliste."
 
-	para "Link to obtain"
-	line "ranking data."
+	para "Verbindung erstel-"
+	line "len, um Besten-"
+	cont "liste zu erhalten."
 
 	para ""
 	done
