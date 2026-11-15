@@ -1,95 +1,98 @@
 _NoPhotoText::
-	text "Oh, no picture?"
-	line "Come again, OK?"
+	text "Kein Foto? Schau"
+	line "mal wieder vorbei!"
 	done
 
 _EggPhotoText::
-	text "An EGG? My talent"
-	line "is worth more…"
+	text "Ein EI? Mein"
+	line "Talent hat mehr"
+	cont "verdient…"
 	done
 
 _NameRaterHelloText::
-	text "Hello, hello! I'm"
-	line "the NAME RATER."
+	text "Hallo! Ich bin der"
+	line "NAMEN-BEWERTER."
 
-	para "I rate the names"
-	line "of #MON."
+	para "Ich bewerte die"
+	line "Namen deiner"
+	cont "#MON."
 
-	para "Would you like me"
-	line "to rate names?"
+	para "Soll ich einen"
+	line "Namen bewerten?"
 	done
 
 _NameRaterWhichMonText::
-	text "Which #MON's"
-	line "nickname should I"
-	cont "rate for you?"
+	text "Welchen #MON-"
+	line "Spitznamen soll"
+	cont "ich bewerten?"
 	prompt
 
 _NameRaterBetterNameText::
 	text "Hm… @"
 	text_ram wStringBuffer1
 	text "…"
-	line "That's a fairly"
-	cont "decent name."
+	line "Das ist kein"
+	cont "schlechter Name."
 
-	para "But, how about a"
-	line "slightly better"
-	cont "nickname?"
+	para "Aber überlege dir"
+	line "einen besseren"
+	cont "Spitznamen!"
 
-	para "Want me to give it"
-	line "a better name?"
+	para "Soll ich ihm einen"
+	line "neuen Namen geben?"
 	done
 
 _NameRaterWhatNameText::
-	text "All right. What"
-	line "name should we"
-	cont "give it, then?"
+	text "O.K. Welchen"
+	line "Namen möchtest"
+	cont "du haben?"
 	prompt
 
 _NameRaterFinishedText::
-	text "That's a better"
-	line "name than before!"
+	text "Dieser Name"
+	line "ist besser!"
 
-	para "Well done!"
+	para "Gut gemacht!"
 	done
 
 _NameRaterComeAgainText::
-	text "OK, then. Come"
-	line "again sometime."
+	text "O.K. Du kannst"
+	line "mich immer be-"
+	cont "suchen."
 	done
 
 _NameRaterPerfectNameText::
 	text "Hm… @"
 	text_ram wStringBuffer1
 	text "?"
-	line "What a great name!"
-	cont "It's perfect."
+	line "Ein wirklich"
+	cont "tadelloser Name!"
 
-	para "Treat @"
+	para "Kümmere dich gut"
+	line "um @"
 	text_ram wStringBuffer1
-	text_start
-	line "with loving care."
+	text "."
 	done
 
 _NameRaterEggText::
-	text "Whoa… That's just"
-	line "an EGG."
+	text "Wow… Das ist nur"
+	line "ein EI."
 	done
 
 _NameRaterSameNameText::
-	text "It might look the"
-	line "same as before,"
+	text "Er sieht genauso"
+	line "aus, wie der alte,"
 
-	para "but this new name"
-	line "is much better!"
+	para "aber er ist "
+	line "viel besser."
 
-	para "Well done!"
+	para "Gut gemacht!"
 	done
 
 _NameRaterNamedText::
-	text "All right. This"
-	line "#MON is now"
-	cont "named @"
+	text "O.K. Der neue Name"
+	line "dieses #MON"
+	cont "ist @"
 	text_ram wStringBuffer1
 	text "."
 	prompt
@@ -1108,22 +1111,23 @@ _ContestJudging_ThirdPlaceScoreText::
 	prompt
 
 _MagikarpGuruMeasureText::
-	text "Let me measure"
-	line "that MAGIKARP."
+	text "Lass mich dein"
+	line "KARPADOR messen."
 
-	para "…Hm, it measures"
+	para "…Hm, es ist"
 	line "@"
 	text_ram wStringBuffer1
-	text "."
+	text "cm"
+	cont "groß."
 	prompt
 
 _KarpGuruRecordText::
-	text "CURRENT RECORD"
+	text "AKTUELLER REKORD"
 
 	para "@"
 	text_ram wStringBuffer1
-	text " caught by"
-	line "@"
+	text "cm gefangen"
+	line "von @"
 	text_ram wMagikarpRecordHoldersName
 	text_promptbutton
 	text_end
@@ -1131,27 +1135,27 @@ _KarpGuruRecordText::
 	text_end ; unreferenced
 
 _LuckyNumberMatchPartyText::
-	text "Congratulations!"
+	text "Glückwunsch!"
 
-	para "We have a match"
-	line "with the ID number"
-
-	para "of @"
+	para "Die ID-Nummer"
+	line "von @"
 	text_ram wStringBuffer1
-	text " in"
-	line "your party."
+	text_start
+
+	para "in deinem Team"
+	line "ist stimmig."
 	prompt
 
 _LuckyNumberMatchPCText::
-	text "Congratulations!"
+	text "Glückwunsch!"
 
-	para "We have a match"
-	line "with the ID number"
-
-	para "of @"
+	para "Die ID-Nummer"
+	line "von @"
 	text_ram wStringBuffer1
-	text " in"
-	line "your PC BOX."
+	text_start
+
+	para "in deiner PC-BOX"
+	line "ist stimmig."
 	prompt
 
 _CaughtAskNicknameText::

@@ -27,13 +27,13 @@ _NothingHereText::
 	done
 
 _WhichApricornText::
-	text "Which APRICORN"
-	line "should I use?"
+	text "Welche APRIKOKO"
+	line "soll ich benutzen?"
 	done
 
 _HowManyShouldIMakeText::
-	text "How many should I"
-	line "make?"
+	text "Wie viele soll ich"
+	line "fertigen?"
 	done
 
 _RecoveredSomeHPText::
@@ -1355,17 +1355,18 @@ _ButNoSpaceText::
 	done
 
 _JustSawSomeRareMonText::
-	text "I just saw some"
-	line "rare @"
+	text "Ich sah seltene"
+	line "@"
 	text_ram wStringBuffer1
-	text " in"
+	text " bei"
 	cont "@"
 	text_ram wStringBuffer2
 	text "."
 
-	para "I'll call you if I"
-	line "see another rare"
-	cont "#MON, OK?"
+	para "Ich rufe an, wenn"
+	line "ich ein anderes"
+	cont "seltenes #MON"
+	cont "sehe, in Ordnung?"
 	prompt
 
 _SavingRecordText::
@@ -1396,15 +1397,15 @@ _NoCoinCaseText::
 	prompt
 
 _NPCTradeCableText::
-	text "OK, connect the"
-	line "Game Link Cable."
+	text "O.K., benutze das"
+	line "Game Link-Kabel."
 	prompt
 
 Text_NPCTraded::
-	text "<PLAYER> traded"
+	text "<PLAYER> tauscht"
 	line "@"
 	text_ram wMonOrItemNameBuffer
-	text " for"
+	text " gegen"
 	cont "@"
 	text_ram wStringBuffer2
 	text ".@"
@@ -1418,155 +1419,165 @@ _NPCTradeFanfareText::
 	text_end ; unreferenced
 
 _NPCTradeIntroText1::
-	text "I collect #MON."
-	line "Do you have"
+	text "Ich sammle #-"
+	line "MON. Hast du ein"
 	cont "@"
 	text_ram wStringBuffer1
 	text "?"
 
-	para "Want to trade it"
-	line "for my @"
+	para "Möchtest du es"
+	line "gegen mein"
+
+	para "@"
+	text_ram wStringBuffer2
+	text_start
+	line "tauschen?"
+	done
+
+_NPCTradeCancelText1::
+	text "Du möchtest nicht"
+	line "tauschen? Schade…"
+	done
+
+_NPCTradeWrongText1::
+	text "Häh? Das ist kein"
+	line "@"
+	text_ram wStringBuffer1
+	text "."
+	cont "Wie enttäuschend…"
+	done
+
+_NPCTradeCompleteText1::
+	text "Yo! Ich habe mir"
+	line "@"
+	text_ram wStringBuffer1
+	text_start
+	cont "besorgt! Danke!"
+	done
+
+_NPCTradeAfterText1::
+	text "Hi, wie geht es"
+	line "meinem @"
 	text_ram wStringBuffer2
 	text "?"
 	done
 
-_NPCTradeCancelText1::
-	text "You don't want to"
-	line "trade? Aww…"
-	done
-
-_NPCTradeWrongText1::
-	text "Huh? That's not"
-	line "@"
-	text_ram wStringBuffer1
-	text ". "
-	cont "What a letdown…"
-	done
-
-_NPCTradeCompleteText1::
-	text "Yay! I got myself"
-	line "@"
-	text_ram wStringBuffer1
-	text "!"
-	cont "Thanks!"
-	done
-
-_NPCTradeAfterText1::
-	text "Hi, how's my old"
-	line "@"
-	text_ram wStringBuffer2
-	text " doing?"
-	done
-
 _NPCTradeIntroText2::
-	text "Hi, I'm looking"
-	line "for this #MON."
+	text "Hi, ich suche"
+	line "ein #MON."
 
-	para "If you have"
+	para "Wenn du ein"
 	line "@"
 	text_ram wStringBuffer1
-	text ", would"
+	text " hast,"
 
-	para "you trade it for"
-	line "my @"
+	para "tauschst du es"
+	line "gegen mein"
+	cont "@"
 	text_ram wStringBuffer2
 	text "?"
 	done
 
 _NPCTradeCancelText2::
-	text "You don't have"
-	line "one either?"
+	text "Du hast auch"
+	line "keines?"
 
-	para "Gee, that's really"
-	line "disappointing…"
+	para "Das ist wirklich"
+	line "enttäuschend…"
 	done
 
 _NPCTradeWrongText2::
-	text "You don't have"
+	text "Du hast kein"
 	line "@"
 	text_ram wStringBuffer1
-	text "? That's"
-	cont "too bad, then."
+	text "? Das"
+	cont "ist schade, na ja."
 	done
 
 _NPCTradeCompleteText2::
-	text "Great! Thank you!"
+	text "Großartig! Danke!"
 
-	para "I finally got"
-	line "@"
+	para "Endlich habe ich"
+	line "ein @"
 	text_ram wStringBuffer1
 	text "."
 	done
 
 _NPCTradeAfterText2::
-	text "Hi! The @"
+	text "Dem @"
 	text_ram wMonOrItemNameBuffer
-	text_start
-	line "you traded me is"
-	cont "doing great!"
+	text ","
+	line "das du mit mir"
+	cont "getauscht hast,"
+	cont "geht es gut!"
 	done
 
 _NPCTradeIntroText3::
 	text_ram wMonOrItemNameBuffer
-	text "'s cute,"
-	line "but I don't have"
+	text " ist"
+	line "niedlich, aber ich"
 
-	para "it. Do you have"
-	line "@"
+	para "habe keines. Hast"
+	line "du ein @"
 	text_ram wStringBuffer1
 	text "?"
 
-	para "Want to trade it"
-	line "for my @"
+	para "Möchtest du es"
+	line "gegen mein"
+
+	para "@"
 	text_ram wStringBuffer2
-	text "?"
+	text_start
+	line "tauschen?"
 	done
 
 _NPCTradeCancelText3::
-	text "You don't want to"
-	line "trade? Oh, darn…"
+	text "Du möchtest nicht"
+	line "tauschen? Schade…"
 	done
 
 _NPCTradeWrongText3::
-	text "That's not"
+	text "Das ist kein"
 	line "@"
 	text_ram wStringBuffer1
 	text "."
 
-	para "Please trade with"
-	line "me if you get one."
+	para "Komm wieder, wenn"
+	line "du tauschen"
+	cont "möchtest."
 	done
 
 _NPCTradeCompleteText3::
-	text "Wow! Thank you!"
-	line "I always wanted"
+	text "Danke! Ich wollte"
+	line "immer schon ein"
 	cont "@"
 	text_ram wMonOrItemNameBuffer
 	text "!"
 	done
 
 _NPCTradeAfterText3::
-	text "How is that"
-	line "@"
+	text "Wie geht es dem"
+	line "getauschten"
+	cont "@"
 	text_ram wStringBuffer2
-	text " I"
-	cont "traded you doing?"
+	text "?"
 
-	para "Your @"
+	para "Dein @"
 	text_ram wMonOrItemNameBuffer
-	text "'s"
-	line "so cute!"
+	text_start
+	line "ist so niedlich!"
 	done
 
 _NPCTradeCompleteText4::
-	text "Uh? What happened?"
+	text "Was ist passiert?"
 	done
 
 _NPCTradeAfterText4::
-	text "Trading is so odd…"
+	text "Tauschen ist"
+	line "seltsam…"
 
-	para "I still have a lot"
-	line "to learn about it."
+	para "Ich muss noch viel"
+	line "darüber lernen."
 	done
 
 _MomLeavingText1::
@@ -1927,17 +1938,17 @@ _NoRoomForEggText::
 	done
 
 _WhichMonPhotoText::
-	text "Which #MON"
-	line "should I photo-"
-	cont "graph?"
+	text "Welches #MON"
+	line "soll ich"
+	cont "fotografieren?"
 	prompt
 
 _HoldStillText::
-	text "All righty. Hold"
-	line "still for a bit."
+	text "O.K. Beweg dich"
+	line "nicht."
 	prompt
 
 _PrestoAllDoneText::
-	text "Presto! All done."
-	line "Come again, OK?"
+	text "Erledigt! Schau"
+	line "mal wieder vorbei!"
 	done

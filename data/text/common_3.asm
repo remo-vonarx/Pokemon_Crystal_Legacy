@@ -275,169 +275,176 @@ _PocketIsFullText::
 	prompt
 
 _SeerSeeAllText::
-	text "I see all."
-	line "I know all…"
+	text "Ich sehe alles."
+	line "Ich weiß alles…"
 
-	para "Certainly, I know"
-	line "of your #MON!"
+	para "Gewiss kenne ich"
+	line "deine #MON!"
 	done
 
 _SeerCantTellAThingText::
-	text "Whaaaat? I can't"
-	line "tell a thing!"
+	text "Wiiieeee? Ich kann"
+	line "nichts sagen!"
 
-	para "How could I not"
-	line "know of this?"
+	para "Wieso weiß ich"
+	line "darüber nichts?"
 	done
 
 _SeerNameLocationText::
-	text "Hm… I see you met"
+	text "Hm… du trafst"
 	line "@"
 	text_ram wSeerNickname
-	text " here:"
+	text " hier:"
 	cont "@"
 	text_ram wSeerCaughtLocation
 	text "!"
 	prompt
 
 _SeerTimeLevelText::
-	text "The time was"
+	text "Die Tageszeit war"
 	line "@"
 	text_ram wSeerTimeOfDay
 	text "!"
 
-	para "Its level was @"
+	para "Sein Level war @"
 	text_ram wSeerCaughtLevelString
 	text "!"
 
-	para "Am I good or what?"
+	para "Ich bin gut, oder?"
 	prompt
 
 _SeerTradeText::
-	text "Hm… @"
+	text "Hm… hast du"
+	line "@"
 	text_ram wSeerNickname
-	text_start
-	line "came from @"
-	text_ram wSeerOT
-	text_start
-	cont "in a trade?"
+	text " mit"
 
 	para "@"
-	text_ram wSeerCaughtLocation
-	text_start
-	line "was where @"
 	text_ram wSeerOT
 	text_start
-	cont "met @"
+	line "getauscht?"
+
+	para "@"
+	text_ram wSeerOT
+	text " traf"
+	line "@"
 	text_ram wSeerNickname
+	text " hier:"
+	cont "@"
+	text_ram wSeerCaughtLocation
 	text "!"
 	prompt
 
 _SeerNoLocationText::
-	text "What!? Incredible!"
+	text "Was!? Unglaublich!"
 
-	para "I don't understand"
-	line "how, but it is"
+	para "Ich weiß nicht"
+	line "wie, aber es ist"
 
-	para "incredible!"
-	line "You are special."
+	para "unglaublich!"
+	line "Du bist anders."
 
-	para "I can't tell where"
-	line "you met it, but it"
-	cont "was at level @"
+	para "Ich kann nicht sa-"
+	line "gen, wo du es"
+	cont "trafst, aber sein"
+	cont "Level war @"
 	text_ram wSeerCaughtLevelString
 	text "."
 
-	para "Am I good or what?"
+	para "Ich bin gut, oder?"
 	prompt
 
 _SeerEggText::
-	text "Hey!"
+	text "Heh!"
 
-	para "That's an EGG!"
+	para "Das ist ein EI!"
 
-	para "You can't say that"
-	line "you've met it yet…"
+	para "Du kannst nicht"
+	line "behaupten, du"
+	cont "hättest es schon"
+	cont "getroffen…"
 	done
 
 _SeerDoNothingText::
-	text "Fufufu! I saw that"
-	line "you'd do nothing!"
+	text "Fufufu! Ich sah,"
+	line "dass du müßig"
+	cont "gehst!"
 	done
 
 _SeerMoreCareText::
-	text "Incidentally…"
+	text "Apropos…"
 
-	para "It would be wise"
-	line "to raise your"
+	para "Du solltest deine"
+	line "#MON etwas"
 
-	para "#MON with a"
-	line "little more care."
+	para "umsichtiger"
+	line "trainieren."
 	done
 
 _SeerMoreConfidentText::
-	text "Incidentally…"
+	text "Übrigens…"
 
-	para "It seems to have"
-	line "grown a little."
+	para "Es scheint"
+	line "gewachsen zu sein."
 
 	para "@"
 	text_ram wSeerNickname
-	text " seems"
-	line "to be becoming"
-	cont "more confident."
+	text_start
+	line "wird immer"
+	cont "selbstbewusster."
 	done
 
 _SeerMuchStrengthText::
-	text "Incidentally…"
+	text "Apropos…"
 
 	para "@"
 	text_ram wSeerNickname
-	text " has"
-	line "grown. It's gained"
-	cont "much strength."
+	text " ist"
+	line "gewachsen. Es ist"
+	cont "viel stärker."
 	done
 
 _SeerMightyText::
-	text "Incidentally…"
+	text "Apropos…"
 
-	para "It certainly has"
-	line "grown mighty!"
+	para "Es ist sehr"
+	line "gewachsen!"
 
-	para "This @"
+	para "@"
 	text_ram wSeerNickname
 	text_start
-	line "must have come"
+	line "muss viele"
 
-	para "through numerous"
-	line "#MON battles."
+	para "#MON-Kämpfe"
+	line "bestritten haben."
 
-	para "It looks brimming"
-	line "with confidence."
+	para "Es strotzt vor"
+	line "Selbstbewusstsein."
 	done
 
 _SeerImpressedText::
-	text "Incidentally…"
+	text "Apropos…"
 
-	para "I'm impressed by"
-	line "your dedication."
+	para "Deine Hingabe be-"
+	line "eindruckt mich."
 
-	para "It's been a long"
-	line "time since I've"
+	para "Es ist schon lange"
+	line "her, dass ich ein"
 
-	para "seen a #MON as"
-	line "mighty as this"
-	cont "@"
-	text_ram wSeerNickname
-	text "."
-
-	para "I'm sure that"
-	line "seeing @"
+	para "so starkes #MON"
+	line "wie @"
 	text_ram wSeerNickname
 	text_start
+	cont "gesehen habe."
 
-	para "in battle would"
-	line "excite anyone."
+	para "Ich bin sicher,"
+	line "dass jeder"
+
+	para "@"
+	text_ram wSeerNickname
+	text_start
+	line "gerne kämpfen"
+	cont "sehen würde."
 	done
 
 _CongratulationsYourPokemonText::
@@ -950,12 +957,12 @@ _MobileCardFolderFinishRegisteringCardsText::
 	done
 
 _PhoneWrongNumberText::
-	text "Huh? Sorry, wrong"
-	line "number!"
+	text "Äh? Ich habe mich"
+	line "verwählt!"
 	done
 
 _PhoneClickText::
-	text "Click!"
+	text "Klick!"
 	done
 
 _PhoneEllipseText::
@@ -963,17 +970,19 @@ _PhoneEllipseText::
 	done
 
 _PhoneOutOfAreaText::
-	text "That number is out"
-	line "of the area."
+	text "Die Nummer ist"
+	line "außerhalb des"
+	cont "Funknetzes."
 	done
 
 _PhoneJustTalkToThemText::
-	text "Just go talk to"
-	line "that person!"
+	text "Du musst diesen"
+	line "Gesprächspartner"
+	cont "zu Fuß aufsuchen!"
 	done
 
 _PhoneThankYouText::
-	text "Thank you!"
+	text "Danke!"
 	done
 
 _SpaceSpaceColonText:: ; unreferenced
@@ -1510,57 +1519,66 @@ _ItemGotOffText::
 
 _KnowsMoveText::
 	text_ram wStringBuffer1
-	text " knows"
+	text " kennt"
 	line "@"
 	text_ram wStringBuffer2
 	text "."
 	prompt
 
 _MoveKnowsOneText::
-	text "That #MON knows"
-	line "only one move."
+	text "Dieses #MON"
+	line "kann nur eine"
+	cont "Attacke."
 	done
 
 _AskDeleteMoveText::
-	text "Oh, make it forget"
-	line "@"
+	text "Soll @"
 	text_ram wStringBuffer1
-	text "?"
+	text_start
+	line "vergessen werden?"
 	done
 
 _DeleterForgotMoveText::
-	text "Done! Your #MON"
-	line "forgot the move."
+	text "Dein #MON hat"
+	line "die Attacke"
+	cont "vergessen."
 	done
 
 _DeleterEggText::
-	text "An EGG doesn't"
-	line "know any moves!"
+	text "Ein EI verfügt"
+	line "über keine"
+	cont "Attacken!"
 	done
 
 _DeleterNoComeAgainText::
-	text "No? Come visit me"
-	line "again."
+	text "Nein? Besuche mich"
+	line "wieder."
 	done
 
 _DeleterAskWhichMoveText::
-	text "Which move should"
-	line "it forget, then?"
+	text "Welche Attacke"
+	line "soll vergessen"
+	cont "werden?"
 	prompt
 
 _DeleterIntroText::
-	text "Um… Oh, yes, I'm"
-	line "the MOVE DELETER."
+	text "Ähm… Oh, ja, ich"
+	line "bin der ATTACKEN-"
+	cont "VERLERNER."
 
-	para "I can make #MON"
-	line "forget moves."
+	para "Ich verfüge über"
+	line "die Fähigkeit,"
+	cont "#MON ihre"
+	cont "Attacken vergessen"
+	cont "zu lassen."
 
-	para "Shall I make a"
-	line "#MON forget?"
+	para "Soll ein #MON "
+	line "eine Attacke"
+	cont "vergessen?"
 	done
 
 _DeleterAskWhichMonText::
-	text "Which #MON?"
+	text "Welches #MON?"
 	prompt
 
 _DSTIsThatOKText::
