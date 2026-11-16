@@ -229,6 +229,10 @@ INCLUDE "maps/CianwoodPharmacy.asm"
 INCLUDE "maps/CianwoodPhotoStudio.asm"
 INCLUDE "maps/CianwoodLugiaSpeechHouse.asm"
 INCLUDE "maps/PokeSeersHouse.asm"
+
+
+SECTION "Map Scripts 12 Battle Tower", ROMX
+
 INCLUDE "maps/BattleTower1F.asm"
 INCLUDE "maps/BattleTowerBattleRoom.asm"
 INCLUDE "maps/BattleTowerElevator.asm"
