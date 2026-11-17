@@ -138,139 +138,148 @@ VioletGymStatue:
 	jumpstd GymStatue2Script
 
 FalknerIntroText:
-	text "I'm FALKNER, the"
-	line "VIOLET #MON GYM"
-	cont "leader!"
+	text "Ich bin FALK, der"
+	line "ARENALEITER von"
+	cont "VIOLA CITY!"
 
-	para "People say you can"
-	line "clip FLYING-type"
+	para "Man sagt, dass man"
+	line "die Flügel von"
 
-	para "#MON's wings"
-	line "with a jolt of"
-	cont "electricity…"
+	para "Flug-#MON mit"
+	line "einem elektrischen"
 
-	para "I won't allow such"
-	line "insults to bird"
-	cont "#MON!"
+	para "Blitz stutzen"
+	line "kann…"
 
-	para "I'll show you the"
-	line "real power of the"
+	para "So etwas werde ich"
+	line "niemals zulassen!"
 
-	para "magnificent bird"
-	line "#MON!"
+	para "Ich werde dich die"
+	line "wahre Kraft der"
+
+	para "Flug-#MON"
+	line "spüren lassen!"
 	done
 
 FalknerWinLossText:
-	text "…Darn! My dad's"
-	line "cherished bird"
-	cont "#MON…"
+	text "…Verflixt! Mein"
+	line "Vater hat Flug-"
+	cont "#MON geliebt…"
 
-	para "All right."
-	line "Take this."
+	para "Also gut."
+	line "Nimm dies!"
 
-	para "It's the official"
-	line "#MON LEAGUE"
-	cont "ZEPHYRBADGE."
+	para "Es ist der offi-"
+	line "zielle FLÜGELORDEN"
+	cont "der #MON"
+	cont "LIGA."
 	done
 
 ReceivedZephyrBadgeText:
-	text "<PLAYER> received"
-	line "ZEPHYRBADGE."
+	text "<PLAYER> erhält den"
+	line "FLÜGELORDEN."
 	done
 
 FalknerZephyrBadgeText:
-	text "ZEPHYRBADGE"
-	line "raises the attack"
-	cont "power of #MON."
+	text "Der FLÜGELORDEN"
+	line "stärkt den ANGR-"
+	cont "Wert deiner #-"
+	cont "MON."
 
-	para "It also enables"
-	line "#MON to use"
+	para "Außerdem können"
+	line "deine #MON"
 
-	para "FLASH, if they"
-	line "have it, anytime."
+	para "jederzeit BLITZ"
+	line "einsetzen."
 
-	para "Here--take this"
-	line "too."
+	para "Hier - ich habe"
+	line "noch etwas für"
+	cont "dich."
 	done
 
 FalknerTMMudSlapText:
-	text "By using a TM, a"
-	line "#MON will"
+	text "Benutzt ein #-"
+	line "MON eine TM, er-"
+	cont "lernt es sofort"
+	cont "eine neue Attacke."
 
-	para "instantly learn a"
-	line "new move."
+	para "Überlege dir den"
+	line "Einsatz gut - eine"
+	cont "TM kann nur einmal"
+	cont "eingesetzt werden."
 
-	para "Think before you"
-	line "act--a TM can be"
-	cont "used only once."
+	para "TM31 enthält"
+	line "LEHMSCHELLE."
 
-	para "TM31 contains"
-	line "MUD-SLAP."
+	para "Sie fügt dem Geg-"
+	line "ner Schaden zu und"
 
-	para "It reduces the"
-	line "enemy's accuracy"
+	para "reduziert gleich-"
+	line "zeitig seine Ge-"
+	cont "nauigkeit."
 
-	para "while it causes"
-	line "damage."
-
-	para "In other words, it"
-	line "is both defensive"
-	cont "and offensive."
+	para "Mit anderen Wor-"
+	line "ten: Sie ist"
+	cont "sowohl defensiv"
+	cont "als auch offensiv."
 	done
 
 FalknerFightDoneText:
-	text "There are #MON"
-	line "GYMS in cities and"
-	cont "towns ahead."
+	text "In so mancher"
+	line "Stadt warten noch"
+	cont "ARENEN auf dich."
 
-	para "You should test"
-	line "your skills at"
-	cont "these GYMS."
+	para "Du solltest dein"
+	line "Können in diesen"
+	cont "ARENEN beweisen."
 
-	para "I'm going to train"
-	line "harder to become"
+	para "Ich werde noch"
+	line "härter trainieren,"
 
-	para "the greatest bird"
-	line "master!"
+	para "um der größte Vo-"
+	line "gel-Experte aller"
+	cont "Zeiten zu werden!"
 	done
 
 FalknerRematchText:
-	text "Congratulations"
-	line "on defeating the"
-	cont "ELITE 4!"
+	text "Glückwunsch zu"
+	line "deinem Sieg über"
+	cont "die TOP VIER!"
 
-	para "I've been training"
-	line "my FLYING-type"
-	cont "#MON even"
-	cont "harder."
+	para "Ich habe meine"
+	line "Flug-#MON noch"
+	cont "härter trainiert."
 
-	para "Think you can take"
-	line "on the power of"
-	cont "the skies again?"
+	para "Traust du dir zu,"
+	line "es noch einmal mit"
+	cont "der Macht der"
+	cont "Lüfte aufzunehmen?"
 	done
 
 Falkner_RematchDefeatText:
 	text "Wow…"
-	line "You beat me again."
+	line "Du hast mich"
+	cont "wieder besiegt."
 
-	para "I'm going to train"
-	line "harder to become"
+	para "Ich werde noch"
+	line "härter trainieren,"
 
-	para "the greatest bird"
-	line "master!"
+	para "um der größte Vo-"
+	line "gel-Experte aller"
+	cont "Zeiten zu werden!"
 	done
 
 BirdKeeperRodSeenText:
-	text "The keyword is"
-	line "guts!"
+	text "Das Motto lautet:"
+	line "Courage!"
 
-	para "Those here are"
-	line "training night and"
+	para "Sie alle hier üben"
+	line "Tag und Nacht,"
 
-	para "day to become bird"
-	line "#MON masters."
+	para "um Vogel-Meister-"
+	line "Trainer zu werden."
 
-	para "Come on!"
+	para "Komm schon!"
 	done
 
 BirdKeeperRodBeatenText:
@@ -278,81 +287,91 @@ BirdKeeperRodBeatenText:
 	done
 
 BirdKeeperRodAfterBattleText:
-	text "FALKNER's skills"
-	line "are for real!"
+	text "FALKs Fähigkeiten"
+	line "sind unübertreff-"
+	cont "lich!"
 
-	para "Don't get cocky"
-	line "just because you"
-	cont "beat me!"
+	para "Du solltest dich"
+	line "nicht überschät-"
+	cont "zen, nur weil du"
+	cont "mich geschlagen"
+	cont "hast!"
 	done
 
 BirdKeeperAbeSeenText:
-	text "Let me see if you"
-	line "are good enough to"
-	cont "face FALKNER!"
+	text "Lass mich heraus-"
+	line "finden, ob du gut"
+	cont "genug bist, um ge-"
+	cont "gen FALK anzutre-"
+	cont "ten!"
 	done
 
 BirdKeeperAbeBeatenText:
-	text "This can't be"
-	line "true!"
+	text "Das kann nicht"
+	line "wahr sein!"
 	done
 
 BirdKeeperAbeAfterBattleText:
-	text "This is pathetic,"
-	line "losing to some"
-	cont "rookie trainer…"
+	text "Das ist peinlich!"
+	line "Von einem Anfänger"
+	cont "besiegt…"
 	done
 
 VioletGymGuideText:
-	text "Hey! What's up?"
-	line "I'm no trainer,"
-	
-	para "but I can give"
-	line "some advice!"
+	text "Hey! Was gibt's?"
+	line "Zwar bin ich kein"
 
-	para "Believe me!"
-	line "If you believe, a"
+	para "Trainer, aber ich"
+	line "kann dir gute"
+	cont "Tipps geben!"
 
-	para "championship dream"
-	line "can come true."
+	para "Glaube mir!"
+	line "Wenn du es tust,"
 
-	para "You believe?"
-	line "Then listen."
-	
-	para "FALKNER's ace"
-	line "is a bulky owl"
-	
-	para "that loves to"
-	line "eat BERRIES."
-	
-	para "While it's not"
-	line "the strongest,"
-	
-	para "it can take a"
-	line "lot of hits."
-	
-	para "You can hurt it"
-	line "with ELECTRIC- and"
-	cont "ROCK-type moves,"
-	
-	para "but watch out for"
-	line "MUD-SLAP!"
-	
-	para "If you want more"
-	line "help, go visit the"
-	cont "#MON ACADEMY."
-	
-	para "The students there"
-	line "really know their"
-	cont "stuff!"
+	para "kann dein Traum"
+	line "von der Meister-"
+	cont "schaft in Erfül-"
+	cont "lung gehen."
+
+	para "Du glaubst mir?"
+	line "Dann pass auf!"
+
+	para "FALKs Trumpf ist"
+	line "eine robuste Eule,"
+	cont "die gern BEEREN"
+	cont "frisst."
+
+	para "Sie ist zwar nicht"
+	line "die Stärkste, kann"
+
+	para "aber viel ein-"
+	line "stecken."
+
+	para "Mit Elektro- und"
+	line "Gestein-Attacken"
+	cont "kannst du ihr"
+	cont "schaden,"
+
+	para "aber nimm dich vor"
+	line "LEHMSCHELLE in"
+	cont "Acht!"
+
+	para "Wenn du mehr Hilfe"
+	line "brauchst, besuche"
+	cont "die #MON-"
+	cont "AKADEMIE."
+
+	para "Die Schüler dort"
+	line "kennen sich rich-"
+	cont "tig gut aus!"
 	done
 
 VioletGymGuideWinText:
-	text "Nice battle! Keep"
-	line "it up, and you'll"
+	text "Netter Kampf! Mach"
+	line "weiter so und bald"
 
-	para "be the CHAMP in no"
-	line "time at all!"
+	para "schon wirst du der"
+	line "CHAMP sein!"
 	done
 
 VioletGym_MapEvents:
