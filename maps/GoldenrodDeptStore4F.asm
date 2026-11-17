@@ -38,56 +38,51 @@ GoldenrodDeptStore4FElevatorButton:
 	jumpstd ElevatorButtonScript
 
 GoldenrodDeptStore4FCooltrainerMText:
-	text "Hey. I love strong"
-	line "#MON."
+	text "Hey! Ich mag star-"
+	line "ke #MON."
 
-	para "I feed them PRO-"
-	line "TEIN to crank up"
-	cont "their ATTACK."
+	para "Ich füttere sie"
+	line "mit PROTEIN, um"
+	cont "ihren ANGR zu ver-"
+	cont "stärken."
 	done
 
 GoldenrodDeptStore4FBugCatcherText:
-	text "IRON adds to your"
-	line "#MON's DEFENSE."
+	text "EISEN verstärkt"
+	line "die VERT deiner"
+	cont "#MON."
 	done
 
 GoldenrodDeptStore4FGameboyKidText:
-	text "There were"
-	line "rumours that"
+	text "Es gab Gerüchte,"
+	line "dass sich manche"
+	cont "#MON nur durch"
+	cont "Tausch entwickeln."
 
-	para "some #MON"
-	line "evolve only by"
+	para "Pfff…"
+	line "So ein Unsinn."
 
-	para "being traded via a"
-	line "Game Link cable."
+	para "Ich kenne einige"
+	line "dieser #MON:"
+	cont "MASCHOCK, KADABRA,"
+	cont "ALPOLLO und"
+	cont "GEOROK,"
 
-	para "Pfft..."
+	para "aber sie alle ent-"
+	line "wickeln sich durch"
+	cont "Levelaufstieg."
 
-	para "Such"
-	line "misinformation."
-
-	para "I know some"
-	line "of the rumoured"
-	cont "#MON:"
-
-	para "MACHOKE, KADABRA,"
-	line "HAUNTER and, um,"
-	cont "GRAVELER,"
-
-	para "but they all"
-	line "evolve through"
-	cont "level up."
-
-	para "Your #DEX shows"
-	line "how #MON really"
-	cont "evolve!"
+	para "Dein #DEX"
+	line "zeigt, wie sich"
+	cont "#MON wirklich"
+	cont "entwickeln!"
 	done
 
 GoldenrodDeptStore4FDirectoryText:
-	text "Let Us Pump Up"
-	line "Your #MON!"
+	text "Wir kümmern uns um"
+	line "Ihre #MON!"
 
-	para "4F MEDICINE BOX"
+	para "3S ARZNEI"
 	done
 
 GoldenrodDeptStore4F_MapEvents:
