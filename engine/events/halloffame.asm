@@ -129,7 +129,7 @@ AnimateHallOfFame:
 	ret
 
 .String_NewHallOfFamer:
-	db "New Hall of Famer!@"
+	db "RH-Einsteiger@"
 
 GetHallOfFameParty:
 	ld hl, wHallOfFamePokemonList
@@ -373,7 +373,7 @@ _HallOfFamePC:
 	ld de, .TimeFamer
 	hlcoord 1, 2
 	call PlaceString
-	hlcoord 2, 2
+	hlcoord 1, 2
 	ld de, wHallOfFameTempWinCount
 	lb bc, 1, 3
 	call PrintNum
@@ -396,10 +396,10 @@ _HallOfFamePC:
 	db "@"
 
 .HOFMaster:
-	db "    HOF Master!@"
+	db "RH-Meister@"
 
 .TimeFamer:
-	db "    -Time Famer@"
+	db "   .RH-Eintrag@"
 
 LoadHOFTeam:
 	ld a, [wJumptableIndex]
@@ -506,7 +506,7 @@ DisplayHOFMon:
 	ld [hli], a
 	ld a, "№"
 	ld [hli], a
-	ld [hl], "/"
+	ld [hl], "."
 	hlcoord 10, 16
 	ld de, wTempMonID
 	lb bc, PRINTNUM_LEADINGZEROS | 2, 5
@@ -618,7 +618,7 @@ HOF_AnimatePlayerPic:
 	ld [hli], a
 	ld a, "№"
 	ld [hli], a
-	ld [hl], "/"
+	ld [hl], "."
 	hlcoord 4, 6
 	ld de, wPlayerID
 	lb bc, PRINTNUM_LEADINGZEROS | 2, 5
@@ -640,7 +640,7 @@ HOF_AnimatePlayerPic:
 	ret
 
 .PlayTime:
-	db "PLAY TIME@"
+	db "SPIELZEIT@"
 
 .crystal_legacy_1:
 	db "Crystal@"
@@ -649,7 +649,7 @@ HOF_AnimatePlayerPic:
 	db "Legacy@"
 
 .crystal_legacy_3:
-	db "Hard@"
+	db "Schwer@"
 
 .crystal_legacy_4:
-	db "HC@"
+	db "Extrem@"
