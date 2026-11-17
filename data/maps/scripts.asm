@@ -41,6 +41,10 @@ INCLUDE "maps/UnionCaveB1F.asm"
 INCLUDE "maps/UnionCaveB2F.asm"
 INCLUDE "maps/SlowpokeWellB1F.asm"
 INCLUDE "maps/SlowpokeWellB2F.asm"
+
+
+SECTION "Map Scripts 2 Olivine Lighthouse", ROMX
+
 INCLUDE "maps/OlivineLighthouse1F.asm"
 INCLUDE "maps/OlivineLighthouse2F.asm"
 INCLUDE "maps/OlivineLighthouse3F.asm"
