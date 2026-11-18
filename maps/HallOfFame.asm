@@ -71,117 +71,122 @@ HallOfFame_SlowlyApproachMachine:
 	step_end
 
 HallOfFame_LanceText:
-	text "LANCE: It's been a"
-	line "long time since I"
-	cont "last came here."
+	text "SIEGFRIED: Ich war"
+	line "schon lange nicht"
+	cont "mehr hier."
 
-	para "This is where we"
-	line "honor the LEAGUE"
+	para "Hier werden die"
+	line "LIGA-CHAMPS"
 
-	para "CHAMPIONS for all"
-	line "eternity."
+	para "für alle Ewigkeit"
+	line "gewürdigt."
 
-	para "Their courageous"
-	line "#MON are also"
-	cont "inducted."
+	para "Ihre mutigen #-"
+	line "MON sind auch"
+	cont "aufgeführt."
 
-	para "Here today, we"
-	line "witnessed the rise"
+	para "Hier und heute"
+	line "wurden wir Zeuge"
 
-	para "of a new LEAGUE"
-	line "CHAMPION--a"
+	para "des Aufstiegs ei-"
+	line "nes neuen LIGA-"
+	cont "CHAMPS -- eines"
+	cont "Trainers, der"
 
-	para "trainer who feels"
-	line "compassion for,"
+	para "Leidenschaft für"
+	line "und Vertrauen in"
+	cont "seine #MON hat."
 
-	para "and trust toward,"
-	line "all #MON."
+	para "Ein Trainer,"
+	line "dessen Erfolg auf"
 
-	para "A trainer who"
-	line "succeeded through"
+	para "Ausdauer und"
+	line "Entschlossenheit"
+	cont "basiert."
 
-	para "perseverance and"
-	line "determination."
+	para "Der neue LIGA-"
+	line "CHAMP, der"
 
-	para "The new LEAGUE"
-	line "CHAMPION who has"
+	para "alle Zeichen von"
+	line "Größe in sich"
+	cont "vereint!"
 
-	para "all the makings"
-	line "of greatness!"
+	para "<PLAY_G>, darf ich"
+	line "dich und deine"
 
-	para "<PLAY_G>, allow me"
-	line "to register you"
-
-	para "and your partners"
-	line "as CHAMPIONS!"
+	para "Partner als"
+	line "CHAMPS"
+	cont "eintragen?"
 	done
 
 HallOfFame_Rematch_LanceText:
-	text "LANCE: I remember,"
-    line "it wasn't long ago"
-    cont "I stood here,"
+	text "SIEGFRIED: Ich"
+	line "erinnere mich,"
 
-    para "welcoming you as"
-    line "the CHAMPION of"
-    cont "JOHTO."
+	para "es ist nicht lange"
+	line "her, da stand ich"
+	cont "hier"
 
-    para "And now, here we"
-    line "are again,"
-	
-	para "in this sacred"
-    line "place where we"
-    cont "honor the very "
-    cont "best trainers"
-	cont "and their #MON."
+	para "und begrüßte dich"
+	line "als CHAMP von"
+	cont "JOHTO."
 
-    para "Today, you've"
-    line "proven yourself"
-	cont "not just in JOHTO,"
-	
-	para "but in KANTO as"
-    line "well,"
-	
-	para "besting even my"
-    line "strongest team."
+	para "Und nun sind wir"
+	line "wieder hier,"
 
-    para "You've shown"
-    line "remarkable"
-	cont "compassion and"
-    cont "trust in your"
-    cont "#MON,"
-	
-	para "a bond that"
-    line "has carried you to"
-    cont "victory time and"
-    cont "again."
+	para "an diesem heiligen"
+	line "Ort, an dem wir"
+	cont "die allerbesten"
+	cont "Trainer und ihre"
+	cont "#MON ehren."
 
-    para "Your journey,"
-    line "marked by"
-	cont "perseverance and"
-    cont "unwavering"
-	cont "determination,"
+	para "Inzwischen hast du"
+	line "dich nicht nur in"
+	cont "JOHTO, sondern nun"
+	cont "auch in KANTO"
+	cont "bewiesen"
 
-    para "speaks to your"
-    line "true spirit as a"
-	cont "trainer."
+	para "und heute sogar"
+	line "mein stärkstes"
+	cont "Team bezwungen."
 
-    para "You have all the"
-    line "makings of a true"
-    cont "great,"
-	
-	para "perhaps even"
-    line "the greatest."
+	para "Du hast deinen"
+	line "#MON bemerkens-"
+	cont "wertes Mitgefühl"
+	cont "und Vertrauen"
+	cont "entgegengebracht,"
 
-    para "<PLAY_G>,"
-	line "it is my honor"
-    cont "to register you,"
+	para "ein Band, das dich"
+	line "immer wieder zum"
+	cont "Sieg getragen hat."
 
-    para "and your trusted"
-    line "partners,"
+	para "Deine Reise war"
+	line "geprägt von"
+	cont "Ausdauer und"
+	cont "unerschütterlicher"
+	cont "Entschlossenheit."
 
-	para "as champions"
-    line "once again."
-    done
+	para "Sie zeugt von"
+	line "deinem wahren"
+	cont "Wesen als Trainer."
+
+	para "Du hast das Zeug"
+	line "zu einer wahren"
+	cont "Größe,"
+
+	para "vielleicht sogar"
+	line "zur allergrößten."
+
+	para "<PLAY_G>, es ist"
+	line "mir eine Ehre,"
+	cont "dich"
+
+	para "und deine treuen"
+	line "Partner"
+
+	para "erneut als CHAMPS"
+	line "einzutragen."
+	done
 
 HallOfFame_MapEvents:
 	db 0, 0 ; filler
