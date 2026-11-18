@@ -136,12 +136,11 @@ GiovanniLeavesMovement:
 	step_end
 
 MahoganyMart1FGioLeavesText:
-	text "I have to" 
-	line "leave..."
-	
-	para "You two can"
-	line "handle this,"
-	cont "right?"
+	text "Ich muss jetzt"
+	line "gehen…"
+
+	para "Ihr zwei schafft"
+	line "das doch, oder?"
 	done
 
 MahoganyMart1FGrannyScript:
@@ -198,68 +197,73 @@ MahoganyMart1FLanceGoDownStairsMovement:
 	step_end
 
 MahoganyMart1FRageCandyBarText: ; unreferenced
-	text "Hello, kiddo!"
+	text "Hallo, Wicht!"
 
-	para "You wouldn't"
-	line "all the things"
+	para "Du glaubst gar"
+	line "nicht, was ich"
 
-	para "I found in the"
-	line "basement!"
+	para "alles im Keller"
+	line "gefunden habe!"
 	done
 
 MahoganyMart1FPharmacistText_LanceEntered:
-	text "Arrgh… You found"
-	line "the secret stair-"
-	cont "way…"
+	text "Arrgh… Du hast"
+	line "die Geheimtreppe"
+	cont "gefunden…"
 	done
 
 MahoganyMart1FBlackBeltText:
-	text "Heheh! The experi-"
-	line "ment worked like a"
-	cont "charm."
+	text "Heheh! Das"
+	line "Experiment verlief"
+	cont "wie am Schnürchen."
 
-	para "MAGIKARP are just"
-	line "worthless, but"
+	para "KARPADOR ist"
+	line "wertlos, aber"
 
-	para "GYARADOS are big"
-	line "moneymakers."
+	para "GARADOS verkauft"
+	line "sich gut."
 	done
 
 MahoganyMart1FBlackBeltText_LanceEntered:
 	text "Urrgh…"
 
-	para "That guy's"
-	line "#MON are tough…"
+	para "Seine #MON sind"
+	line "stark…"
 	done
 
 MahoganyMart1FLanceDragoniteHyperBeamText:
-	text "???: NIDOQUEEN,"
-	line "HYPER BEAM."
+	text "???:"
+	line "NIDOQUEEN,"
+
+	para "HYPERSTRAHL!"
 	done
 
 MahoganyMart1FLanceRadioText:
-	text "What took you,"
+	text "Wo bleibst du,"
 	line "<PLAY_G>?"
 
-	para "Just as we"
-	line "thought,"
+	para "Das haben wir uns"
+	line "gleich gedacht."
 
-	para "that strange radio"
-	line "signal is coming"
-	cont "from here."
+	para "Die merkwürdigen"
+	line "Radiowellen kommen"
+	cont "von hier."
 	done
 
 MahoganyMart1FLanceStairsText:
-	text "The stairs are"
-	line "right here."
+	text "Die Treppe"
+	line "ist hier."
 	done
 
 MahoganyMart1FLanceSplitUpText:
-	text "LANCE: <PLAY_G>, we"
-	line "should split up to"
+	text "SIEGFRIED:"
+	line "<PLAY_G>,"
 
-	para "check this place."
-	line "I'll go first."
+	para "wir sollten uns"
+	line "trennen, um diesen"
+
+	para "Ort zu erforschen."
+	line "Ich gehe zuerst."
 	done
 
 MahoganyMart1F_MapEvents:

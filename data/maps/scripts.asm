@@ -395,14 +395,18 @@ INCLUDE "maps/MahoganyRedGyaradosSpeechHouse.asm"
 INCLUDE "maps/MahoganyGym.asm"
 INCLUDE "maps/MahoganyPokecenter1F.asm"
 INCLUDE "maps/Route42EcruteakGate.asm"
-INCLUDE "maps/LakeOfRageHiddenPowerHouse.asm"
-INCLUDE "maps/LakeOfRageMagikarpHouse.asm"
-INCLUDE "maps/Route43MahoganyGate.asm"
-INCLUDE "maps/Route43Gate.asm"
 INCLUDE "maps/RedsHouse1F.asm"
 INCLUDE "maps/RedsHouse2F.asm"
 INCLUDE "maps/BluesHouse.asm"
 INCLUDE "maps/OaksLab.asm"
+
+
+SECTION "Map Scripts 19 Lake of Rage", ROMX
+
+INCLUDE "maps/LakeOfRageHiddenPowerHouse.asm"
+INCLUDE "maps/LakeOfRageMagikarpHouse.asm"
+INCLUDE "maps/Route43MahoganyGate.asm"
+INCLUDE "maps/Route43Gate.asm"
 
 
 SECTION "Map Scripts 20", ROMX
