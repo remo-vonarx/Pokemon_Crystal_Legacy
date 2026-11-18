@@ -105,75 +105,86 @@ WillsRoom_EnterMovement:
 	step_end
 
 WillScript_WillRematchBeforeText:
-	text "WILL:"
-	line "Ah, welcome back."
+	text "WILLI:"
+	line "Ah, willkommen"
+	cont "zurück."
 
-    para "I have foreseen"
-    line "this encounter."
+	para "Ich habe diese"
+	line "Begegnung voraus-"
+	cont "gesehen."
 
-    para "My psychic #MON"
-    line "and I have"
-	cont "evolved,"
+	para "Meine Psycho-"
+	line "#MON und ich"
+	cont "haben uns weiter-"
+	cont "entwickelt"
 
-    para "developing new"
-	line "tactics."
+	para "und neue Taktiken"
+	line "erarbeitet."
 
-    para "Prepare yourself"
-    line "for a battle of"
-    cont "enhanced strategy"
-	cont "and might."
+	para "Mach dich gefasst"
+	line "auf einen Kampf"
+	cont "mit verfeinerter"
+	cont "Strategie und"
+	cont "Stärke."
 
-    para "Let us see if"
-    line "your foresight"
-    cont "matches mine."
+	para "Lass uns sehen,"
+	line "ob deine Voraus-"
+	cont "sicht meiner"
+	cont "gewachsen ist."
 	done
 
 WillScript_WillBeforeText:
-	text "Welcome to #MON"
-	line "LEAGUE, <PLAYER>."
+	text "Willkommen in der"
+	line "#MON LIGA,"
+	cont "<PLAYER>."
 
-	para "Allow me to intro-"
-	line "duce myself. I am"
-	cont "WILL."
+	para "Erlaube mir, mich"
+	line "vorzustellen. Ich"
+	cont "bin WILLI."
 
-	para "I have trained all"
-	line "around the world,"
+	para "Ich habe die ganze"
+	line "Welt bereist, um"
 
-	para "making my psychic"
-	line "#MON powerful."
+	para "meine Psycho-#-"
+	line "MON zu verbessern."
 
-	para "And, at last, I've"
-	line "been accepted into"
-	cont "the ELITE FOUR."
+	para "Und schließlich"
+	line "habe ich es"
+	cont "in die TOP VIER"
+	cont "geschafft."
 
-	para "I can only keep"
-	line "getting better!"
+	para "Ich werde ständig"
+	line "besser!"
 
-	para "Losing is not an"
-	line "option!"
+	para "Verlieren ist"
+	line "keine Alternative!"
 	done
 
 WillScript_WillBeatenText:
-	text "I… I can't…"
-	line "believe it…"
+	text "Ich… ich kann…"
+	line "es nicht glauben…"
 	done
 
 WillScript_WillDefeatText:
-	text "Even though I was"
-	line "defeated, I won't"
-	cont "change my course."
+	text "Auch wenn ich"
+	line "besiegt wurde,"
+	cont "werde ich an"
+	cont "meiner Überzeugung"
+	cont "festhalten."
 
-	para "I will continue"
-	line "battling until I"
+	para "Ich werde weiter"
+	line "kämpfen, bis ich"
 
-	para "stand above all"
-	line "trainers!"
+	para "besser bin, als"
+	line "alle anderen"
+	cont "Trainer!"
 
-	para "Now, <PLAYER>, move"
-	line "on and experience"
+	para "<PLAYER>, schreite"
+	line "voran und lerne"
 
-	para "the true ferocity"
-	line "of the ELITE FOUR."
+	para "die Grausamkeit"
+	line "der TOP VIER"
+	cont "kennen."
 	done
 
 WillsRoom_MapEvents:
