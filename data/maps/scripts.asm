@@ -360,7 +360,6 @@ INCLUDE "maps/MobileBattleRoom.asm"
 SECTION "Map Scripts 18", ROMX
 
 INCLUDE "maps/Route36.asm"
-INCLUDE "maps/FuchsiaCity.asm"
 INCLUDE "maps/BlackthornGym1F.asm"
 INCLUDE "maps/BlackthornGym2F.asm"
 INCLUDE "maps/BlackthornDragonSpeechHouse.asm"
@@ -368,14 +367,6 @@ INCLUDE "maps/BlackthornEmysHouse.asm"
 INCLUDE "maps/BlackthornMart.asm"
 INCLUDE "maps/BlackthornPokecenter1F.asm"
 INCLUDE "maps/MoveDeletersHouse.asm"
-INCLUDE "maps/FuchsiaMart.asm"
-INCLUDE "maps/SafariZoneMainOffice.asm"
-INCLUDE "maps/FuchsiaGym.asm"
-INCLUDE "maps/BillsBrothersHouse.asm"
-INCLUDE "maps/FuchsiaPokecenter1F.asm"
-INCLUDE "maps/FuchsiaPokecenter2FBeta.asm"
-INCLUDE "maps/SafariZoneWardensHome.asm"
-INCLUDE "maps/Route15FuchsiaGate.asm"
 INCLUDE "maps/CherrygroveMart.asm"
 INCLUDE "maps/CherrygrovePokecenter1F.asm"
 INCLUDE "maps/CherrygroveGymSpeechHouse.asm"
@@ -384,6 +375,19 @@ INCLUDE "maps/CherrygroveEvolutionSpeechHouse.asm"
 INCLUDE "maps/Route30BerryHouse.asm"
 INCLUDE "maps/MrPokemonsHouse.asm"
 INCLUDE "maps/Route31VioletGate.asm"
+
+
+SECTION "Map Scripts 18 Fuchsia", ROMX
+
+INCLUDE "maps/FuchsiaCity.asm"
+INCLUDE "maps/FuchsiaMart.asm"
+INCLUDE "maps/SafariZoneMainOffice.asm"
+INCLUDE "maps/FuchsiaGym.asm"
+INCLUDE "maps/BillsBrothersHouse.asm"
+INCLUDE "maps/FuchsiaPokecenter1F.asm"
+INCLUDE "maps/FuchsiaPokecenter2FBeta.asm"
+INCLUDE "maps/SafariZoneWardensHome.asm"
+INCLUDE "maps/Route15FuchsiaGate.asm"
 
 
 SECTION "Map Scripts 19", ROMX
