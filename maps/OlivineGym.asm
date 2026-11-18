@@ -150,160 +150,176 @@ OlivineGymStatue:
 	jumpstd GymStatue2Script
 
 Jasmine_SteelTypeIntro:
-	text "…Thank you for"
-	line "your help at the"
-	cont "LIGHTHOUSE…"
+	text "…Danke für deine"
+	line "Hilfe beim LEUCHT-"
+	cont "TURM…"
 
-	para "But this is dif-"
-	line "ferent. Please"
+	para "Erlaube mir, mich"
+	line "vorstellen zu dür-"
+	cont "fen!"
 
-	para "allow me to intro-"
-	line "duce myself."
+	para "Ich bin JASMIN,"
+	line "eine ARENALEITE-"
+	cont "RIN. Ich setze"
+	cont "STAHL-#MON ein."
 
-	para "I am JASMINE, a"
-	line "GYM LEADER. I use"
-	cont "the STEEL-type."
+	para "…Hast du von die-"
+	line "sem Typ schon ge-"
+	cont "hört?"
 
-	para "…Do you know about"
-	line "the STEEL-type?"
+	para "Er wurde erst vor"
+	line "kurzer Zeit ent-"
+	cont "deckt."
 
-	para "It's a type that"
-	line "was only recently"
-	cont "discovered."
-
-	para "…Um… May I begin?"
+	para "…Ähm… Darf ich be-"
+	line "ginnen?"
 	done
 
 Jasmine_BetterTrainer:
-	text "…You are a better"
-	line "trainer than me,"
+	text "…Du bist ein bes-"
+	line "serer Trainer als"
 
-	para "in both skill and"
-	line "kindness."
+	para "ich. Das betrifft"
+	line "sowohl Geschick,"
 
-	para "In accordance with"
-	line "LEAGUE rules, I"
+	para "als auch Fein-"
+	line "gefühl."
 
-	para "confer upon you"
-	line "this BADGE."
+	para "In Übereinstimmung"
+	line "mit den Regeln der"
+
+	para "LIGA überreiche"
+	line "ich dir diesen"
+	cont "ORDEN."
 	done
 
 Text_ReceivedMineralBadge:
-	text "<PLAYER> received"
-	line "MINERALBADGE."
+	text "<PLAYER> erhält"
+	line "STAHLORDEN."
 	done
 
 Jasmine_BadgeSpeech:
-	text "MINERALBADGE"
-	line "raises #MON's"
-	cont "DEFENSE."
+	text "Der STAHLORDEN"
+	line "erhöht die VERT"
+	cont "deiner #MON."
 
-	para "…Um… Please take"
-	line "this too…"
+	para "…Ähm… Bitte nimm"
+	line "auch das…"
 	done
 
 Text_ReceivedTM09: ; unreferenced
-	text "<PLAYER> received"
+	text "<PLAYER> erhält"
 	line "TM09."
 	done
 
 Jasmine_IronTailSpeech:
-	text "…You could use"
-	line "that TM to teach"
-	cont "IRON TAIL."
+	text "…Mit dieser TM"
+	line "kannst du deinen"
+	cont "#MON EISEN-"
+	cont "SCHWEIF lehren."
 	done
 
 Jasmine_GoodLuck:
-	text "Um… I don't know"
-	line "how to say this,"
-	cont "but good luck…"
+	text "Ähm… Ich weiß"
+	line "nicht, wie ich das"
+	cont "sagen soll, aber…"
+	cont "Viel Glück!"
 	done
 
 JasmineRematchText:
-	text "…Congratulations,"
-    line "JOHTO CHAMPION."
+	text "…Herzlichen"
+	line "Glückwunsch,"
+	cont "JOHTO-CHAMP."
 
-    para "You have become"
-    line "so strong…"
+	para "Du bist so stark"
+	line "geworden…"
 
-    para "I wonder if I"
-    line "have improved."
+	para "Ob ich mich wohl"
+	line "auch verbessert"
+	cont "habe?"
 
-    para "Would you like"
-    line "to test that?"
+	para "Willst du es"
+	line "herausfinden?"
 
-    para "Want to have a"
-    line "rematch with me?"
+	para "Möchtest du noch"
+	line "einmal gegen mich"
+	cont "antreten?"
 	done
 
 Jasmine_RematchDefeatText:
-	text "…You are a better"
-	line "trainer than me,"
+	text "…Du bist ein bes-"
+	line "serer Trainer als"
 
-	para "in both skill and"
-	line "kindness."
+	para "ich. Das betrifft"
+	line "sowohl Geschick,"
+
+	para "als auch Fein-"
+	line "gefühl."
 	done
 
 OlivineGymGuideText:
-	text "JASMINE uses the"
-	line "newly discovered"
-	cont "STEEL-type."
+	text "JASMIN setzt den"
+	line "neu entdeckten Typ"
+	cont "Stahl ein."
 
-	para "She's known for"
-	line "having not one,"
-	cont "but two aces."
-	
-	para "The first is a"
-	line "metal bug that can"
-	
-	para "use a technique to"
-	line "boost its ATTACK."
-	
-	para "While fire will"
-	line "hurt it, it can"
+	para "Sie ist dafür be-"
+	line "kannt, nicht nur"
+	cont "ein, sondern zwei"
+	cont "Asse zu haben."
 
-	para "sometimes endure"
-	line "powerful blows."
-	
-	para "The second is a"
-	line "giant iron snake"
-	
-	para "with lots of"
-	line "powerful moves."
-	
-	para "Approach it with"
-	line "caution."
-	
-	para "It may look slow,"
-	line "but I've seen it"
+	para "Das erste ist ein"
+	line "Metallkäfer, der"
+	cont "mit einer Technik"
+	cont "seinen ANGRIFF"
+	cont "steigern kann."
 
-	para "strike first with"
-	line "shocking displays"
-	cont "of SPEED."
+	para "Feuer schadet ihm"
+	line "zwar, aber manch-"
+	cont "mal übersteht es"
+	cont "auch starke"
+	cont "Treffer."
+
+	para "Das zweite ist"
+	line "eine riesige"
+	cont "Eisenschlange mit"
+	cont "vielen starken"
+	cont "Attacken."
+
+	para "Sei vor ihr auf"
+	line "der Hut."
+
+	para "Sie mag langsam"
+	line "aussehen, aber ich"
+	cont "habe gesehen, wie"
+	cont "sie mit verblüf-"
+	cont "fender INITIATIVE"
+	cont "zuerst zuschlug."
 	done
 
 OlivineGymGuideWinText:
-	text "That was awesome."
+	text "Das war großartig!"
 
-	para "The STEEL-type,"
-	line "huh?"
+	para "Der Typ Stahl,"
+	line "was?"
 
-	para "That was a close"
-	line "encounter of an"
-	cont "unknown kind!"
+	para "Das war eine un-"
+	line "heimliche Begeg-"
+	cont "nung der unbe-"
+	cont "kannten Art."
 	done
 
 OlivineGymGuidePreText:
-	text "JASMINE, the GYM"
-	line "LEADER, is at the"
-	cont "LIGHTHOUSE."
+	text "JASMIN, die ARE-"
+	line "NALEITERIN, ist im"
+	cont "LEUCHTTURM."
 
-	para "She's been tending"
-	line "to a sick #MON."
+	para "Sie kümmert sich"
+	line "um ein krankes"
+	cont "#MON."
 
-	para "A strong trainer"
-	line "has to be compas-"
-	cont "sionate."
+	para "Ein starker Trai-"
+	line "ner muss auch Mit-"
+	cont "gefühl zeigen."
 	done
 
 OlivineGym_MapEvents:
