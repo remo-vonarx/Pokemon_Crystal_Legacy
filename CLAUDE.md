@@ -42,6 +42,7 @@ Settled choices for this hack. If one of the topics below is not decided yet and
 - Debug room (debug builds only): stays English.
 - Choices from the first translation (branch `backup/german-translation-before-reset-2026-11-13`) are not settled: follow the German ROM and ask again when one comes up. Only `KAMPF` in the battle menu is kept (see `GLOSSARY.md`) and its drawn graphics may be reused (see the profile).
 - One-off NPC names without an official source: propose a German name and flag it.
+- Map script sections that overflow: split them yourself, without asking. Crystal keeps each map's scripts, texts and events in one section of at most 16 KB, so a map moves whole. Move maps into a new floating section named after the old one and the place (`Map Scripts 18 Fuchsia`), as its own commit before the translation commits. Pick maps that sit together, in this order: the maps the German ROM keeps in another bank (slice 21), still-English Kanto maps (slice 18, slice 23: they grow later anyway), the slice's own maps by town or building. Measure the full size from a test build's `.map` file, add the split and the bytes left to the profile's Build row, and report it in the summary. Any other overflow (ROM0, code, data, a bank no split can fix) still stops the task.
 
 ## Source priority
 
@@ -148,7 +149,7 @@ Exceptions to these rules exist only where the project decisions say so (e.g. Po
 
 ## Validation (every task)
 
-- The build must succeed without errors. If a section or bank overflows because German text is longer, stop and report. Don't move sections on your own.
+- The build must succeed without errors. If a section or bank overflows because German text is longer, stop and report, unless the project decisions say how to handle that overflow. Don't move sections on your own otherwise.
 - The Virtual Console patch must build too (`crystal11_vc`, see the profile), without errors or warnings.
 - Re-check every changed line against the textbox and length limits.
 - Test every change in the game (see below).
