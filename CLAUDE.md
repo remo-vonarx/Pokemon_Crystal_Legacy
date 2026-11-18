@@ -78,6 +78,16 @@ Text the hack added has no German original, so translate it faithfully:
 
   | File:line | English | German candidate(s) | Source | Where in game | Why unsure / what differs |
 
+- Show every own or changed text for review side by side in three columns: the hack's English, the German original and the new German, each column as wide as the textbox and laid out as the lines appear in the box, with a blank line between boxes. Write `(none: new in the hack)` in the middle column where the original has no such text. Use this layout wherever a text is up for review, also in question previews:
+
+  ```
+  ENGLISH           | GERMAN ORIGINAL    | OURS
+  ------------------+--------------------+------------------
+  We'll be waiting  | Ich werde auf dich | Wir werden auf
+  for you, <PLAYER>.| warten, <PLAYER>.  | dich warten,
+                    |                    | <PLAYER>.
+  ```
+
 - Keep each task scoped to one area (one map, one data file, one menu). No drive-by refactors.
 - Change string contents only. Don't rename labels, reorder data or touch game logic. If a translation needs a code change (e.g. wider menu), propose it first.
 - Reference material (dumps, original ROMs, previous translations) is read-only.
