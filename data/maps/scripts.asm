@@ -471,6 +471,10 @@ INCLUDE "maps/CeladonCity.asm"
 INCLUDE "maps/Route15.asm"
 INCLUDE "maps/VermilionCity.asm"
 INCLUDE "maps/Route9.asm"
+
+
+SECTION "Map Scripts 23 Cinnabar", ROMX
+
 INCLUDE "maps/CinnabarPokecenter1F.asm"
 INCLUDE "maps/CinnabarPokecenter2FBeta.asm"
 INCLUDE "maps/Route19FuchsiaGate.asm"
