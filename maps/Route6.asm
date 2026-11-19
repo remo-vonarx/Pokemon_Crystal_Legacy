@@ -37,56 +37,62 @@ Route6UndergroundPathSign:
 	jumptext Route6UndergroundPathSignText
 
 Route6PokefanMText:
-	text "The road is closed"
-	line "until the problem"
+	text "Die Straße zum"
+	line "KRAFTWERK bleibt"
 
-	para "at the POWER PLANT"
-	line "is solved."
+	para "gesperrt, bis das"
+	line "Problem gelöst"
+	cont "wurde."
 	done
 
 Route6UndergroundPathSignText:
-	text "UNDERGROUND PATH"
+	text "TUNNELPFAD"
 
-	para "CERULEAN CITY -"
-	line "VERMILION CITY"
+	para "AZURIA CITY -"
+	line "ORANIA CITY"
 	done
 
 PokefanmRexSeenText:
-	text "My STANTLER is"
-	line "the cutest in"
-	cont "the world."
+	text "Mein DAMHIRPLEX"
+	line "ist das"
+	cont "niedlichste der"
+	cont "ganzen Welt."
 	done
 
 PokefanmRexBeatenText:
-	text "My STANTLER!"
+	text "Mein DAMHIRPLEX!"
 	done
 
 PokefanmRexAfterBattleText:
-	text "Look how adorable"
-	line "my STANTLER acts!"
+	text "Sieh, wie grazil"
+	line "sich mein"
+	cont "DAMHIRPLEX bewegt!"
 
-	para "Isn't it cute"
-	line "enough to make"
-	cont "your heart melt?"
+	para "Ist es nicht"
+	line "so süß, dass"
+	cont "dein Herz"
+	cont "dahinschmilzt?"
 	done
 
 PokefanmAllanSeenText:
-	text "My GRANBULL is"
-	line "the cutest in the"
-	cont "world."
+	text "Mein GRANBULL ist"
+	line "das niedlichste"
+	cont "der ganzen Welt."
 	done
 
 PokefanmAllanBeatenText:
-	text "My GRANBULL!"
+	text "Mein GRANBULL!"
 	done
 
 PokefanmAllanAfterBattleText:
-	text "Look how adorable"
-	line "my GRANBULL acts!"
+	text "Sieh, wie grazil"
+	line "sich mein GRANBULL"
+	cont "bewegt!"
 
-	para "Isn't it cute"
-	line "enough to make"
-	cont "your heart melt?"
+	para "Ist es nicht"
+	line "so süß, dass"
+	cont "dein Herz"
+	cont "dahinschmilzt?"
 	done
 
 Route6_MapEvents:
