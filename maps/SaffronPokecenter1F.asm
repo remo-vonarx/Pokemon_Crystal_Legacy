@@ -40,73 +40,77 @@ SaffronPokecenter1FYoungsterScript:
 	jumptextfaceplayer SaffronPokecenter1FYoungsterText
 
 SaffronPokecenter1FTeacherText:
-	text "What are JOHTO's"
-	line "#MON CENTERS"
-	cont "like?"
+	text "Wie sehen die"
+	line "#MON-CENTER in"
+	cont "JOHTO aus?"
 
-	para "…Oh, I see. So"
-	line "they're not much"
+	para "…Oh, aha. Sie"
+	line "unterscheiden sich"
 
-	para "different from the"
-	line "ones in KANTO."
+	para "kaum von denen"
+	line "in KANTO."
 
-	para "I can go to JOHTO"
-	line "without worrying,"
-	cont "then!"
+	para "Ich kann also nach"
+	line "JOHTO gehen, ohne"
+	cont "mich zu sorgen!"
 	done
 
 SaffronPokecenter1FTeacherMobileText:
-	text "What are JOHTO's"
-	line "#MON CENTERS"
-	cont "like?"
+	text "Wie sehen die"
+	line "#MON-CENTER in"
+	cont "JOHTO aus?"
 
-	para "…Oh, I see."
-	line "So they let you"
+	para "…Oh, aha."
+	line "Man kann auch über"
 
-	para "link with people"
-	line "far away?"
+	para "große Distanzen"
+	line "tauschen?"
 
-	para "Then I'll get my"
-	line "friend in JOHTO to"
+	para "Dann sage ich mei-"
+	line "nem Freund in"
 
-	para "catch a MARILL and"
-	line "trade it to me!"
+	para "JOHTO, dass er mir"
+	line "ein MARILL fangen"
+
+	para "und dann mit mir"
+	line "tauschen soll!"
 	done
 
 SaffronPokecenter1FFisherText:
-	text "I just happened to"
-	line "come through ROCK"
+	text "Ich bin gerade"
+	line "durch den FELS-"
+	cont "TUNNEL gekommen."
 
-	para "TUNNEL. There was"
-	line "some commotion at"
-	cont "the POWER PLANT."
+	para "Da war irgendetwas"
+	line "im Gange beim"
+	cont "KRAFTWERK."
 	done
 
 SaffronPokecenter1FFisherReturnedMachinePartText:
-	text "Caves collapse"
-	line "easily."
+	text "Die Höhlen stürzen"
+	line "leicht ein."
 
-	para "Several caves have"
-	line "disappeared in the"
+	para "In letzter Zeit"
+	line "sind einige Höhlen"
 
-	para "past few years,"
-	line "like the one out-"
-	cont "side CERULEAN."
+	para "verschwunden. Wie"
+	line "die Höhle vor"
+	cont "AZURIA CITY."
 
-	para "As a pro HIKER,"
-	line "that's common"
-	cont "knowledge."
+	para "Für einen Profi-"
+	line "WANDERER ist das"
+	cont "Grundwissen."
 	done
 
 SaffronPokecenter1FYoungsterText:
-	text "SILPH CO.'s HEAD"
-	line "OFFICE and the"
+	text "Die ZENTRALE von"
+	line "SILPH CO. und der"
 
-	para "MAGNET TRAIN STA-"
-	line "TION--they're the"
+	para "MAGNETZUG-BAHNHOF"
+	line "sind sehenswürdige"
 
-	para "places to see in"
-	line "SAFFRON."
+	para "Orte in SAFFRONIA"
+	line "CITY."
 	done
 
 SaffronPokecenter1F_MapEvents:
