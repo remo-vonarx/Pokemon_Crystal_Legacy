@@ -32,7 +32,7 @@ ZapdosScript:
 	end
 
 PowerPlantSignText:
-	text "KANTO POWER PLANT"
+	text "KRAFTWERK KANTO"
 	done
 
 ZapdosBattleText:
