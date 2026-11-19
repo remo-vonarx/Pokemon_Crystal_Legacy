@@ -94,144 +94,162 @@ SeafoamGymGuideScript:
 	end
 
 BlaineIntroText:
-	text "BLAINE: Waaah!"
+	text "PYRO: Wuah!"
 
-	para "My GYM in CINNABAR"
-	line "burned down."
-	
-	para "But I'm back in"
-	line "business as a GYM"
+	para "Meine PKMN-ARENA"
+	line "auf der ZINNOBER-"
+	cont "INSEL ist abge-"
+	cont "brannt."
 
-	para "LEADER here in"
-	line "this cave."
+	para "Aber ich führe"
+	line "meine Tätigkeit"
 
-	para "It's fine though,"
-	line "I have faced"
+	para "als ARENALEITER in"
+	line "dieser Höhle"
+	cont "weiter aus."
 
-	para "hardship like"
-	line "this before."
+	para "Halb so wild, ich"
+	line "habe schon früher"
 
-	para "Long ago I was"
-	line "lost in the"
-	
-	para "mountains until"
-	line "a fiery bird"
-	
-	para "#MON appeared"
-	line "to lead me down."
-	
-	para "All these years"
-	line "later and now"
-	
-	para "RED has entrusted"
-	line "me to look over"
+	para "solche Härten"
+	line "durchgestanden."
 
-	para "that same"
-	line "legendary bird,"
+	para "Vor langer Zeit"
+	line "verirrte ich mich"
 
-	para "MOLTRES."
-	
-	para "Ha! You'd better"
-	line "have BURN HEAL,"
-	
-	para "It's even hotter"
-	line "than your mom!"
+	para "in den Bergen, bis"
+	line "ein feuriges"
+
+	para "Vogel-#MON"
+	line "erschien und mich"
+	cont "ins Tal führte."
+
+	para "Und jetzt, all die"
+	line "Jahre später, hat"
+
+	para "ROT mir genau"
+	line "diesen legendären"
+	cont "Vogel anvertraut:"
+
+	para "LAVADOS."
+
+	para "Es wäre besser,"
+	line "du hast"
+	cont "FEUERHEILER!"
+
+	para "Hier wird es sogar"
+	line "heißer als deine"
+	cont "Mutter!"
 	done
 
 BlaineWinLossText:
-	text "BLAINE: Awesome."
-	line "I've burned out…"
+	text "PYRO: Gut gemacht."
+	line "Ich bin"
+	cont "ausgebrannt…"
 
-	para "You've earned"
-	line "VOLCANOBADGE!"
+	para "Hier nimm den"
+	line "VULKANORDEN!"
 	done
 
 ReceivedVolcanoBadgeText:
-	text "<PLAYER> received"
-	line "VOLCANOBADGE."
+	text "<PLAYER> erhält"
+	line "VULKANORDEN."
 	done
 
 BlaineAfterBattleText:
-	text "BLAINE: I did lose"
-	line "this time, but I'm"
+	text "PYRO: Diesmal habe"
+	line "ich verloren, aber"
 
-	para "going to win the"
-	line "next time."
+	para "beim nächsten Mal"
+	line "werde ich"
+	cont "gewinnen."
 
-	para "When I rebuild my"
-	line "CINNABAR GYM,"
+	para "Ich werde meine"
+	line "PKMN-ARENA auf der"
 
-	para "we'll have to have"
-	line "a rematch."
+	para "ZINNOBERINSEL"
+	line "wieder aufbauen"
+	cont "und dann wirst du"
+	cont "erneut gegen mich"
+	cont "antreten."
 	done
 
 BlaineFightDoneText:
-	text "BLAINE: My fire"
-	line "#MON will be"
+	text "PYRO: Meine Feuer-"
+	line "#MON werden"
 
-	para "even stronger."
-	line "Just you watch!"
+	para "noch stärker sein."
+	line "Du wirst schon"
+	cont "sehen!"
 	done
 
 BlaineRematchText:
-	text "BLAINE: Whoa!"
+	text "PYRO: Oha!"
 
-	para "I see you've"
-	line "become the"
-	cont "KANTO CHAMPION!"
+	para "Wie ich sehe,"
+	line "bist du jetzt"
+	cont "KANTO-CHAMP!"
 
-	para "That's blazing!"
+	para "Das ist ja"
+	line "brandheiß!"
 
-	para "Your skills are"
-	line "top-notch."
+	para "Deine Fähigkeiten"
+	line "sind erstklassig."
 
-	para "I'm always"
-	line "up for a battle."
+	para "Ich bin immer für"
+	line "einen Kampf zu"
+	cont "haben."
 
-	para "Want to have a"
-	line "rematch with me?"
+	para "Möchtest du noch"
+	line "einmal gegen mich"
+	cont "antreten?"
 	done
 
 Blaine_RematchDefeatText:
-	text "BLAINE: Your"
-	line "skills are truly"
-	cont "fiery!"
+	text "PYRO: Deine"
+	line "Fähigkeiten sind"
+	cont "wahrlich feurig!"
 
-	para "You've burned"
-	line "right through"
-	cont "my defenses."
+	para "Du hast dich"
+	line "glatt durch meine"
+	cont "Verteidigung"
+	cont "gebrannt."
 	done
 
 SeafoamGymGuideWinText:
-	text "Yo!"
+	text "Jawohl!"
 
-	para "… Huh? It's over"
-	line "already?"
+	para "…Huh? Es ist"
+	line "schon vorüber?"
 
-	para "Sorry, sorry!"
+	para "Sorry, Kumpel!"
 
-	para "CINNABAR GYM was"
-	line "gone, so I didn't"
+	para "Die PKMN-ARENA auf"
+	line "der ZINNOBERINSEL"
 
-	para "know where to find"
-	line "you."
+	para "existiert nicht"
+	line "mehr und ich"
+	cont "wusste nicht, wo"
+	cont "du steckst."
 
-	para "But, hey, you're"
-	line "plenty strong even"
+	para "Aber egal! Du"
+	line "bist auch ohne"
 
-	para "without my advice."
-	line "I knew you'd win!"
+	para "meinen Ratschlag"
+	line "zurechtgekommen."
+	cont "Ich wusste, du"
+	cont "würdest gewinnen."
 	done
 
 SeafoamGymGuideWinText2:
-	text "A #MON GYM can"
-	line "be anywhere as"
+	text "Eine PKMN-ARENA"
+	line "kann überall sein,"
 
-	para "long as the GYM"
-	line "LEADER is there."
+	para "solange der ARENA-"
+	line "LEITER dort ist."
 
-	para "There's no need"
-	line "for a building."
+	para "Man braucht dafür"
+	line "kein Gebäude."
 	done
 
 SeafoamGym_MapEvents:
