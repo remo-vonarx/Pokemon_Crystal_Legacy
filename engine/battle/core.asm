@@ -5155,11 +5155,11 @@ Battle_StatsScreen:
 
 	ld hl, vTiles2 tile $31
 	ld de, vTiles0
-	ld bc, $11 tiles
+	ld bc, $12 tiles ; the stats screen loads 18 tiles at $31, with the bold A of "AP" at $42
 	call CopyBytes
 
 	ld hl, vTiles2
-	ld de, vTiles0 tile $11
+	ld de, vTiles0 tile $12
 	ld bc, $31 tiles
 	call CopyBytes
 
@@ -5176,10 +5176,10 @@ Battle_StatsScreen:
 
 	ld hl, vTiles0
 	ld de, vTiles2 tile $31
-	ld bc, $11 tiles
+	ld bc, $12 tiles
 	call CopyBytes
 
-	ld hl, vTiles0 tile $11
+	ld hl, vTiles0 tile $12
 	ld de, vTiles2
 	ld bc, $31 tiles
 	call CopyBytes

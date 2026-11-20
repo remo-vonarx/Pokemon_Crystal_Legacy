@@ -123,6 +123,6 @@ StatsScreen_LoadFont:
 LoadStatsScreenPageTilesGFX:
 	ld de, StatsScreenPageTilesGFX
 	ld hl, vTiles2 tile $31
-	lb bc, BANK(StatsScreenPageTilesGFX), 17 ; Loading 8 More Tiles than in Vanilla
+	lb bc, BANK(StatsScreenPageTilesGFX), 18 ; 17 as in Vanilla, then the bold A of "AP" at $42
 	call Get2bppViaHDMA
 	ret
