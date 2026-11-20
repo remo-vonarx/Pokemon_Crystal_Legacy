@@ -1576,7 +1576,7 @@ EggMoreTimeString:
 EggALotMoreTimeString:
 	db   "Das Ei braucht"
 	next "noch eine ganze"
-	next "Weile,bis"
+	next "Weile, bis"
 	next "es schlüpft!@"
 
 StatsScreen_AnimateEgg:
