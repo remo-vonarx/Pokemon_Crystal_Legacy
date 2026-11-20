@@ -846,7 +846,7 @@ _DeleteSavedLoginPasswordText::
 
 _DeletedTheLoginPasswordText::
 	text "Das LOG-IN-"
-	line "PASSWORT löschen?"
+	line "PASSWORT gelöscht."
 	done
 
 _MobilePickThreeMonForBattleText::

@@ -5155,11 +5155,11 @@ Battle_StatsScreen:
 
 	ld hl, vTiles2 tile $31
 	ld de, vTiles0
-	ld bc, $11 tiles
+	ld bc, $12 tiles ; the stats screen loads 18 tiles at $31, with the bold A of "AP" at $42
 	call CopyBytes
 
 	ld hl, vTiles2
-	ld de, vTiles0 tile $11
+	ld de, vTiles0 tile $12
 	ld bc, $31 tiles
 	call CopyBytes
 
@@ -5176,10 +5176,10 @@ Battle_StatsScreen:
 
 	ld hl, vTiles0
 	ld de, vTiles2 tile $31
-	ld bc, $11 tiles
+	ld bc, $12 tiles
 	call CopyBytes
 
-	ld hl, vTiles0 tile $11
+	ld hl, vTiles0 tile $12
 	ld de, vTiles2
 	ld bc, $31 tiles
 	call CopyBytes
@@ -9294,7 +9294,7 @@ GetWeatherImage:
 	and a
 	ret z
 	ld de, RainWeatherImage
-	lb bc, PAL_BATTLE_OB_BLUE, 4
+	lb bc, PAL_BATTLE_OB_BLUE, 6
 	dec a
 	jr z, .done
 	ld de, SunWeatherImage
@@ -9308,7 +9308,7 @@ GetWeatherImage:
 	
 .done
 	push bc
-	ld b, BANK(WeatherImages) ; c = 4
+	ld b, BANK(WeatherImages) ; c = 6
 	ld hl, vTiles0
 	call Request2bpp
 	pop bc
@@ -9332,7 +9332,9 @@ GetWeatherImage:
 .WeatherImageOAMData
 ; positions are backwards since
 ; we load them in reverse order
-	db $88, $1c ; y/x - bottom right
-	db $88, $14 ; y/x - bottom left
-	db $80, $1c ; y/x - top right
-	db $80, $14 ; y/x - top left
+	db $88, $20 ; y/x - bottom right
+	db $88, $18 ; y/x - bottom middle
+	db $88, $10 ; y/x - bottom left
+	db $80, $20 ; y/x - top right
+	db $80, $18 ; y/x - top middle
+	db $80, $10 ; y/x - top left

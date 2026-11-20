@@ -76,7 +76,7 @@ BikerRileyBeatenText:
 	done
 
 BikerRileyAfterBattleText:
-	text "Wer't nicht frech,"
+	text "Werd' nicht frech,"
 	line "du Null aus JOHTO!"
 	done
 

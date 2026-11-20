@@ -244,8 +244,7 @@ ListMovePP:
 	ld a, [wListMovesLineSpacing]
 	ld e, a
 	ld d, 0
-	ld a, $3e ; P
-	call .load_loop
+	call .load_ap_loop
 	ld a, b
 	and a
 	jr z, .skip
@@ -320,6 +319,17 @@ ListMovePP:
 	add hl, de
 	dec c
 	jr nz, .load_loop
+	ret
+
+.load_ap_loop
+; "AP", as in the German ROM: its bold A (tile $42), then the bold P
+	ld a, $42 ; A
+	ld [hli], a
+	ld a, $3e ; P
+	ld [hld], a
+	add hl, de
+	dec c
+	jr nz, .load_ap_loop
 	ret
 
 BrokenPlacePPUnits: ; unreferenced

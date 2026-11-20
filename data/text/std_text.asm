@@ -39,8 +39,9 @@ PokeComNurseDayText:
 	done
 
 PokeComNurseNiteText:
-	text "Schön dass du noch"
-	line "unterwegs bist."
+	text "Schön, dass du"
+	line "noch unterwegs"
+	cont "bist."
 
 	para "Dies ist das #-"
 	line "MON KOMMUNIKA-"

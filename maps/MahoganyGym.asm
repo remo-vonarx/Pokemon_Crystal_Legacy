@@ -247,7 +247,7 @@ PryceText_Impressed:
 	cont "druckt."
 
 	para "Mit deinem starken"
-	line "Willen, wirst du"
+	line "Willen wirst du"
 
 	para "alle Widrigkeiten"
 	line "in deinem Leben"
@@ -342,7 +342,7 @@ Pryce_RematchDefeatText:
 	cont "druckt."
 
 	para "Mit deinem starken"
-	line "Willen, wirst du"
+	line "Willen wirst du"
 
 	para "alle Widrigkeiten"
 	line "in deinem Leben"

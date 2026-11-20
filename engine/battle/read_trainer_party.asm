@@ -485,4 +485,59 @@ IncompleteCopyNameFunction: ; unreferenced
 	pop de
 	ret
 
+PlaceEnemyTrainerName::
+; Place the trainer's name (wStringBuffer1) at bc, after the class and a space,
+; and return hl = the position after the name.
+; Some of Legacy's Battle Tower names don't fit there after their German class:
+; then the name goes on the next line, and the box scrolls as with `cont`.
+	ld h, b
+	ld l, c
+	ld de, wStringBuffer1
+	call .CheckWidth
+	jr c, .next_line
+	call PlaceString
+	ld h, b
+	ld l, c
+	ret
+
+.next_line
+	hlcoord TEXTBOX_INNERX, TEXTBOX_INNERY + 2
+	call PlaceString
+	push bc
+	ld h, b
+	ld l, c
+	ld de, .cont
+	call PlaceString
+	pop hl
+	ld bc, -2 * SCREEN_WIDTH ; the end of the name, scrolled up one line
+	add hl, bc
+	ret
+
+.cont: db "<_CONT>@"
+
+.CheckWidth:
+; Return carry if class, space and name are wider than the text box.
+	push hl
+	ld c, 1 ; the space
+	ld hl, wOTClassName
+	call .AddWidth
+	ld hl, wStringBuffer1
+	call .AddWidth
+	ld a, TEXTBOX_INNERW
+	cp c
+	pop hl
+	ret
+
+.AddWidth:
+	ld a, [hli]
+	cp "@"
+	ret z
+	inc c
+	cp "#" ; prints "POKé", four tiles
+	jr nz, .AddWidth
+	inc c
+	inc c
+	inc c
+	jr .AddWidth
+
 INCLUDE "data/trainers/party_pointers.asm"

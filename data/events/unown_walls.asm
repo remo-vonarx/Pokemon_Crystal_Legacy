@@ -19,13 +19,13 @@ ENDM
 UnownWalls:
 ; UNOWNWORDS_ESCAPE
 	; db $08, $44, $04, $00, $2e, $08, -1
-	unownwall "ESCAPE"
+	unownwall "FLUCHT"
 ; UNOWNWORDS_LIGHT
 	; db $26, $20, $0c, $0e, $46, -1
-	unownwall "LIGHT"
+	unownwall "BLITZ"
 ; UNOWNWORDS_WATER
 	; db $4c, $00, $46, $08, $42, -1
-	unownwall "WATER"
+	unownwall "WASSER"
 ; UNOWNWORDS_HO_OH
 	; db $0e, $2c, $64, $2c, $0e, -1
 	unownwall "HO-OH"
@@ -39,7 +39,7 @@ MenuHeaders_UnownWalls:
 	menu_coords 4, 4, 15, 9
 ; UNOWNWORDS_WATER
 	db MENU_BACKUP_TILES ; flags
-	menu_coords 4, 4, 15, 9
+	menu_coords 3, 4, 16, 9
 ; UNOWNWORDS_HO_OH
 	db MENU_BACKUP_TILES ; flags
 	menu_coords 4, 4, 15, 9

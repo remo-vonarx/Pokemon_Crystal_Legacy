@@ -235,6 +235,10 @@ INCBIN "gfx/battle/balls.2bpp"
 _ShowLinkBattleParticipants:
 	call ClearBGPalettes
 	call LoadFontsExtra
+	ld de, LinkBattleVSGFX
+	ld hl, vTiles2 tile $69
+	lb bc, BANK(LinkBattleVSGFX), 2
+	call Get2bppViaHDMA
 	hlcoord 2, 3
 	ld b, 9
 	ld c, 14
@@ -246,9 +250,9 @@ _ShowLinkBattleParticipants:
 	ld de, wOTPlayerName
 	call PlaceString
 	hlcoord 9, 8
-	ld a, "<BOLD_V>"
+	ld a, $69 ; bold V
 	ld [hli], a
-	ld [hl], "<BOLD_S>"
+	ld [hl], $6a ; bold S
 	farcall LinkBattle_TrainerHuds ; no need to farcall
 	ld b, SCGB_DIPLOMA
 	call GetSGBLayout
