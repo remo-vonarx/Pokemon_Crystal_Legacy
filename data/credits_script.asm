@@ -38,6 +38,11 @@ CreditsScript:
 
 	db CREDITS_WAIT, 12
 
+	db          TRANSLATION, 1
+	db         REMO_VON_ARX, 2
+
+	db CREDITS_WAIT, 12
+
 ; Clear the banner.
 	db CREDITS_CLEAR
 

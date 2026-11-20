@@ -123,6 +123,8 @@
 	const CRZSHADOWS
 	const EDITOR
 	const WEEBRACREDITS
+	const TRANSLATION
+	const REMO_VON_ARX
 	const DISCORDADMIN
 	const JAAS
 	const MODERATORS

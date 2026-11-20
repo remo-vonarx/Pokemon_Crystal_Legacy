@@ -124,6 +124,8 @@ CreditsStringsPointers:
 	dw .cRzShadows
 	dw .Editor
 	dw .Weebra
+	dw .Translation
+	dw .RemoVonArx
 	dw .DiscordAdmin
 	dw .Jaas
 	dw .Moderators
@@ -260,8 +262,8 @@ CreditsStringsPointers:
 .EmiBessho:           db "     EMI BESSHO@"
 .TakashiInamoto:      db "  TAKASHI INAMOTO@"
 .Staff:               db "      #MON"                 ; "ポケットモンスター"
-                    next "   CRYSTAL LEGACY"          ; "　　クりスタル　バージョン"
-                    next "       STAFF@"              ; "　　　　スタッフ@"
+                    next "Kristall-Vermächtnis"       ; "　　クりスタル　バージョン"
+                    next "       Staff@"              ; "　　　　スタッフ@"
 .Director:            db "      Leitung@"             ; "エグゼクティブ　ディレクター@"
 .CoDirector:          db "     Assistenz@"            ; "ディレクター@"
 .Programmers:         db "   Programmierer@"          ; "プログラム@"
@@ -293,21 +295,23 @@ CreditsStringsPointers:
 .TextTranslation:     db "   Deutscher Text@"
 .PaadTesting:         db "  Product-Testing@"
 .TextCheck:           db "     Text Check@"
-.CreatedBy:		 	  db "    CREATED BY@"
+.CreatedBy:		 	  db "   Erschaffen von@"
 .SmithPlaysPokemons:  db " SMITHPLAYSPOKEMON@"
-.Dev:				  db "     DEVELOPER@"
+.Dev:				  db "     Entwickler@"
 .TheSmithPlays: 	  db "  THE SMITH PLAYS@"
 .cRzShadows: 		  db "    CRZ SHADOWS@"
-.Editor:			  db "      EDITOR@"
+.Editor:			  db "    Videoschnitt@"
 .Weebra: 		      db "      WEEBRA@"
-.DiscordAdmin:		  db "   DISCORD ADMIN@"
+.Translation:         db "Deutsche Übersetzung@"
+.RemoVonArx:          db "    REMO VON ARX@"
+.DiscordAdmin:		  db "   Discord-Admin@"
 .Jaas:				  db "    JAASHOOUHH@"
-.Moderators:		  db "    MODERATORS@"
+.Moderators:		  db "    Moderatoren@"
 .Mod1:				  db "       REGI@"
 .Mod2:				  db "       AERO@"
 .Mod3:				  db "       DAILY@"
 .Mod4:				  db "       ZACH@"
-.Playtesters:		  db "    PLAYTESTERS@"
+.Playtesters:		  db "    Spieltester@"
 .Tester1:			  db "       DISQ@"
 .Tester2:			  db "     TIBERIUS@"
 .Tester3:			  db "       SABLE@"
@@ -320,7 +324,7 @@ CreditsStringsPointers:
 .Tester10:			  db "      TALOS-8@"
 .Tester11:			  db "    WOOTONMAJR@"
 .Tester12:			  db "       BRICE@"
-.SpriteArtists:		  db "  SPRITE ARTISTS@"
+.SpriteArtists:		  db "  Sprite-Künstler@"
 .SpriteArtist1:		  db "       KATT@"
 .SpriteArtist2:		  db "      CHAMBER@"
 .SpriteArtist3:		  db "     SOLOO993@"
@@ -330,7 +334,7 @@ CreditsStringsPointers:
 .SpriteArtist7:		  db "     PIKACHU25@"
 .SpriteArtist8:		  db "     TOM WANG@"
 .SpriteArtist9:		  db "      SEASICK@"
-.Tutorials:			  db "     TUTORIALS@"
+.Tutorials:			  db "     Tutorials@"
 .Nayru: 		      db "      NAYRU62@"
 .Pokecrystal2: 		  db "      RANGI42@"
 .Pokecrystal3: 		  db "       IDAIN@"
@@ -345,13 +349,13 @@ CreditsStringsPointers:
 .Pokecrystal12: 	  db "    NOBODYSOCIETY@"
 .Pokecrystal13: 	  db "     LUTHER7718@"
 .Pokecrystal14: 	  db "      MAUVRE@"
-.Pokecrystal:         db "  THANK YOU TO THE"
-					next " PRET TEAM FOR THE"
-					next "    POKECRYSTAL"
-					next "    DISASSEMBLY@"
-.NayruThanksText:     db "   IMPROVED DEX"
-					next " POKEMON DVS SCREEN"
-					next "      MADE BY@"
+.Pokecrystal:         db "    Danke an das"
+					next " PRET-Team für das"
+					next "    POKECRYSTAL-"
+					next "    Disassembly@"
+.NayruThanksText:     db "Verbesserter #DEX"
+					next " #MON-DV-Anzeige"
+					next "    erstellt von@"
 
 .Copyright:
 	;    (C) 1  9  9  5 - 2  0  0  1     N  i  n  t  e  n  d  o
