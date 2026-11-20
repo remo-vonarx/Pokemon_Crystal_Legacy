@@ -117,12 +117,12 @@ RedMovemenetScript:
 	step_end
 
 MewtwoBattleText:
-	text "Mew!"
+	text "Mewtu!"
 	done
 
 RedSeenText:
-	text "<……>"
-	line "<……>"
+	text "…"
+	line "…"
 	done
 
 RedWinLossText:
