@@ -184,99 +184,104 @@ Movement_TrainerHouseTurnBack:
 	step_end
 
 TrainerHouseB1FIntroText:
-	text "Hi. Welcome to our"
-	line "TRAINING HALL."
+	text "Hi. Willkommen in"
+	line "unserer"
+	cont "ÜBUNGSHALLE."
 
-	para "You may battle a"
-	line "trainer once per"
-	cont "day."
+	para "Einmal pro Tag"
+	line "kannst du gegen"
+	cont "einen Trainer"
+	cont "kämpfen."
 	done
 
 TrainerHouseB1FYourOpponentIsText:
 	text_ram wStringBuffer3
-	text " is your"
-	line "opponent today."
+	text " ist"
+	line "heute dein Gegner."
 	done
 
 TrainerHouseB1FAskWantToBattleText:
-	text "Would you like to"
-	line "battle?"
+	text "Möchtest du"
+	line "kämpfen?"
 	done
 
 TrainerHouseB1FGoRightInText:
-	text "Please go right"
-	line "through."
+	text "Geh bitte einfach"
+	line "weiter."
 
-	para "You may begin"
-	line "right away."
+	para "Du darfst sofort"
+	line "anfangen."
 	done
 
 TrainerHouseB1FPleaseComeAgainText:
-	text "Sorry. Only those"
-	line "trainers who will"
-
-	para "be battling are"
-	line "allowed to go in."
+	text "Nur die Trainer,"
+	line "die kämpfen dür-"
+	cont "fen, haben"
+	cont "Zutritt."
 	done
 
 TrainerHouseB1FSecondChallengeDeniedText:
-	text "I'm sorry."
-	line "This would be your"
+	text "Es tut mir Leid,"
+	line "das wäre für dich"
 
-	para "second time today."
-	line "You're permitted"
+	para "heute der zweite"
+	line "Kampf. Es ist aber"
 
-	para "to enter just once"
-	line "a day."
+	para "nur ein Kampf pro"
+	line "Tag erlaubt."
 	done
 
 TrainerHouseB1FCalBeatenText:
-	text "I lost…"
-	line "Darn…"
+	text "Ich habe verloren…"
+	line "Mist…"
 	done
 
 TrainerHouseB1FSmithBeatenText:
-	text "I lost…"
-	line "Not so zesty."
+	text "Ich habe verloren…"
+	line "Nicht so"
+	cont "prickelnd."
 	done
 
 TrainerHouseB1FCraigBeatenText:
-	text "This is good data!"
-	line "I can use this."
+	text "Das sind gute"
+	line "Daten! Die kann"
+	cont "ich gebrauchen."
 	done
 
 TrainerHouseB1FWeebraBeatenText:
-	text "Aw, shucks…"
+	text "Ach, Mist…"
 
-	para "And I didn't even"
-	line "get to use my"
-	cont "'Essence of"
-	cont "Breaker Style'…"
+	para "Und ich konnte"
+	line "nicht einmal meine"
+	cont "'Essenz des"
+	cont "Breaker-Stils'"
+	cont "einsetzen…"
 	done
 
 TrainerHouseB1FCalBeforeText:
-	text "I traveled out"
-	line "here just so I"
-	cont "could battle you."
+	text "Ich bin nur"
+	line "hergereist, um"
+	cont "gegen dich zu"
+	cont "kämpfen."
 	done
 
 TrainerHouseB1FSmithBeforeText:
-	text "Hey, what's up?"
+	text "Hey, was geht?"
 	done
 
 TrainerHouseB1FCraigBeforeText:
-	text "I'm trying to"
-	line "gain battle"
-	cont "experience"
-	
-	para "for a game I'm"
-	line "making based on"
-	cont "#MON."
+	text "Ich versuche,"
+	line "Kampferfahrung zu"
+	cont "sammeln,"
+
+	para "für ein Spiel, das"
+	line "ich nach #MON"
+	cont "entwickle."
 	done
 
 TrainerHouseB1FWeebraBeforeText:
-	text "You look pretty"
-	line "strong, eh?"
+	text "Du siehst ziemlich"
+	line "stark aus, was?"
 	done
 
 TrainerHouseB1F_MapEvents:
