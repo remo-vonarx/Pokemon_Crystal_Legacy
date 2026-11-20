@@ -479,6 +479,9 @@ INCLUDE "engine/pokedex/unown_dex.asm"
 INCLUDE "engine/battle/hidden_power.asm"
 INCLUDE "engine/battle/misc.asm"
 
+LinkBattleVSGFX:
+INCBIN "gfx/battle/link_vs.2bpp"
+
 
 SECTION "bank3F", ROMX
 
