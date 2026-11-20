@@ -325,9 +325,10 @@ PlaceEnemysName::
 	call PlaceString
 	push bc
 	callfar Battle_GetTrainerName
-	pop hl
-	ld de, wStringBuffer1
-	jr PlaceCommandCharacter
+	pop bc
+	farcall PlaceEnemyTrainerName
+	pop de
+	jp NextChar
 
 .rival
 	ld de, wRivalName
