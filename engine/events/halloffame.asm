@@ -558,15 +558,15 @@ HOF_AnimatePlayerPic:
 	call HOF_SlideFrontpic
 	xor a
 	ldh [hBGMapMode], a
-	hlcoord 0, 2
-	lb bc, 8, 9
+	hlcoord 0, 4
+	lb bc, 6, 9
 	call Textbox
 	hlcoord 0, 12
 	lb bc, 4, 18
 	call Textbox
 
-	hlcoord 31, 0
-	lb bc, 2, 7
+	hlcoord 0, 0
+	lb bc, 2, 18
 	call Textbox
 
 	ld de, ENGINE_HARDCORE_MODE
@@ -584,49 +584,57 @@ HOF_AnimatePlayerPic:
 	jr .NormalMode
 
 .NormalMode:
-	hlcoord 32, 1
+	hlcoord 1, 1
 	ld de, .crystal_legacy_1
 	call PlaceString
 
-	hlcoord 32, 2
+	hlcoord 1, 2
 	ld de, .crystal_legacy_2
 	call PlaceString
 	jr .EndMode
 .HardMode:
-	hlcoord 32, 1
+	hlcoord 1, 1
+	ld de, .crystal_legacy_1
+	call PlaceString
+
+	hlcoord 1, 2
 	ld de, .crystal_legacy_2
 	call PlaceString
 
-	hlcoord 32, 2
+	hlcoord 13, 2
 	ld de, .crystal_legacy_3
 	call PlaceString
 	jr .EndMode
 .HardcoreMode:
-	hlcoord 32, 1
+	hlcoord 1, 1
+	ld de, .crystal_legacy_1
+	call PlaceString
+
+	hlcoord 1, 2
 	ld de, .crystal_legacy_2
 	call PlaceString
 
-	hlcoord 32, 2
+	hlcoord 13, 2
 	ld de, .crystal_legacy_4
 	call PlaceString
 .EndMode:
-	hlcoord 2, 4
+	hlcoord 2, 5
 	ld de, wPlayerName
 	call PlaceString
-	hlcoord 1, 6
+	hlcoord 1, 7
 	ld a, "<ID>"
 	ld [hli], a
 	ld a, "№"
 	ld [hli], a
 	ld [hl], "."
-	hlcoord 4, 6
+	hlcoord 4, 7
 	ld de, wPlayerID
 	lb bc, PRINTNUM_LEADINGZEROS | 2, 5
 	call PrintNum
-	hlcoord 1, 8
+	hlcoord 1, 9
 	ld de, .PlayTime
 	call PlaceString
-	hlcoord 3, 9
+	hlcoord 3, 10
 	ld de, wGameTimeHours
 	lb bc, 2, 3
 	call PrintNum
@@ -643,10 +651,10 @@ HOF_AnimatePlayerPic:
 	db "SPIELZEIT@"
 
 .crystal_legacy_1:
-	db "Crystal@"
+	db "Kristall-@"
 
 .crystal_legacy_2:
-	db "Legacy@"
+	db "Vermächtnis@"
 
 .crystal_legacy_3:
 	db "Schwer@"
