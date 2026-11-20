@@ -3943,8 +3943,8 @@ Function17f220:
 	ret
 
 .Genders: dw .Boy, .Girl
-.Boy:     db "Boy@"
-.Girl:    db "Girl@"
+.Boy:     db "Junge@"
+.Girl:    db "Mädchen@"
 
 Function17f27b:
 	pop hl
