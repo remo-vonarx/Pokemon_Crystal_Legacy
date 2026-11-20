@@ -71,6 +71,18 @@ CreditsStringsPointers:
 	dw .TerukiMurakawa
 	dw .KazuyoshiOsawa
 	dw .KimikoNakamichi
+	dw .KaiZeh
+	dw .HiroyukiUesugi
+	dw .TanjaBaar
+	dw .KaiNeumann
+	dw .MauriceTisdale
+	dw .DanielSchaefers
+	dw .MartinaDeimel
+	dw .PatrickThieret
+	dw .JensPeppel
+	dw .GermanTestingTeam
+	dw .EmiBessho
+	dw .TakashiInamoto
 	dw .End
 	dw .Unknown
 	dw .Staff
@@ -104,6 +116,7 @@ CreditsStringsPointers:
 	dw .UsCoordination
 	dw .TextTranslation
 	dw .PaadTesting
+	dw .TextCheck
 	dw .CreatedBy
 	dw .SmithPlaysPokemons
 	dw .Dev
@@ -234,38 +247,52 @@ CreditsStringsPointers:
 .TerukiMurakawa:      db "  TERUKI MURAKAWA@"
 .KazuyoshiOsawa:      db "  KAZUYOSHI OSAWA@"
 .KimikoNakamichi:     db "  KIMIKO NAKAMICHI@"
+.KaiZeh:              db "      KAI ZEH@"
+.HiroyukiUesugi:      db "  HIROYUKI UESUGI@"
+.TanjaBaar:           db "     TANJA BAAR@"
+.KaiNeumann:          db "    KAI NEUMANN@"
+.MauriceTisdale:      db "  MAURICE TISDALE@"
+.DanielSchaefers:     db "  DANIEL SCHÄFERS@"
+.MartinaDeimel:       db "   MARTINA DEIMEL@"
+.PatrickThieret:      db "  PATRICK THIERET@"
+.JensPeppel:          db "    JENS PEPPEL@"
+.GermanTestingTeam:   db "GERMAN TESTING TEAM@"
+.EmiBessho:           db "     EMI BESSHO@"
+.TakashiInamoto:      db "  TAKASHI INAMOTO@"
 .Staff:               db "      #MON"                 ; "ポケットモンスター"
                     next "   CRYSTAL LEGACY"          ; "　　クりスタル　バージョン"
                     next "       STAFF@"              ; "　　　　スタッフ@"
-.Director:            db "      DIRECTOR@"            ; "エグゼクティブ　ディレクター@"
-.CoDirector:          db "    CO-DIRECTOR@"           ; "ディレクター@"
-.Programmers:         db "    PROGRAMMERS@"           ; "プログラム@"
-.GraphicsDirector:    db " GRAPHICS DIRECTOR@"        ; "グラフィック　ディレクター@"
-.MonsterDesign:       db "   MONSTER DESIGN@"         ; "#　デザイン@"
-.GraphicsDesign:      db "  GRAPHICS DESIGN@"         ; "グラフィック　デザイン@"
-.Music:               db "       MUSIC@"              ; "おんがく@"
-.SoundEffects:        db "   SOUND EFFECTS@"          ; "サウンド　エフェクト@"
-.GameDesign:          db "    GAME DESIGN@"           ; "ゲームデザイン@"
-.GameScenario:        db "   GAME SCENARIO@"          ; "シナりオ@"
-.ToolProgramming:     db "  TOOL PROGRAMMING@"        ; "ツール　プログラム@"
-.ParametricDesign:    db " PARAMETRIC DESIGN@"        ; "パラメーター　せってい@"
-.ScriptDesign:        db "   SCRIPT DESIGN@"          ; "スクりプト　せってい@"
-.MapDataDesign:       db "  MAP DATA DESIGN@"         ; "マップデータ　せってい@"
-.MapDesign:           db "     MAP DESIGN@"           ; "マップ　デザイン@"
-.ProductTesting:      db "  PRODUCT TESTING@"         ; "デバッグプレイ@"
-.SpecialThanks:       db "   SPECIAL THANKS@"         ; "スぺシャルサンクス@"
-.Producers:           db "     PRODUCERS@"            ; "プロデューサー@"
-.ExecutiveProducer:   db " EXECUTIVE PRODUCER@"       ; "エグゼクティブ　プロデューサー@"
-.PokemonAnimation:    db " #MON ANIMATION@"           ; "#　アニメーション@"
-.PokedexText:         db "    #DEX TEXT@"             ; "ずかん　テキスト@"
-.MobilePrjLeader:     db " MOBILE PRJ. LEADER@"       ; "モバイルプロジェクト　りーダー@"
-.MobileSystemAd:      db " MOBILE SYSTEM AD.@"        ; "モバイル　システムアドバイザー@"
-.MobileStadiumDir:    db "MOBILE STADIUM DIR.@"       ; "モバイルスタジアム　ディレクター@"
-.Coordination:        db "    COORDINATION@"          ; "コーディネーター@"
-.UsVersionStaff:      db "  US VERSION STAFF@"
-.UsCoordination:      db "  US COORDINATION@"
-.TextTranslation:     db "  TEXT TRANSLATION@"
-.PaadTesting:         db "    PAAD TESTING@"
+.Director:            db "      Leitung@"             ; "エグゼクティブ　ディレクター@"
+.CoDirector:          db "     Assistenz@"            ; "ディレクター@"
+.Programmers:         db "   Programmierer@"          ; "プログラム@"
+.GraphicsDirector:    db "       Grafik@"             ; "グラフィック　ディレクター@"
+.MonsterDesign:       db "   Monster-Design@"         ; "#　デザイン@"
+.GraphicsDesign:      db "   Grafik-Design@"          ; "グラフィック　デザイン@"
+.Music:               db "       Musik@"              ; "おんがく@"
+.SoundEffects:        db "   Sound-Effekte@"          ; "サウンド　エフェクト@"
+.GameDesign:          db "    Spiel-Design@"          ; "ゲームデザイン@"
+.GameScenario:        db "   Spiel-Szenario@"         ; "シナりオ@"
+.ToolProgramming:     db "Tool-Programmierung@"       ; "ツール　プログラム@"
+.ParametricDesign:    db "  Parametr. Design@"        ; "パラメーター　せってい@"
+.ScriptDesign:        db "       Script@"             ; "スクりプト　せってい@"
+.MapDataDesign:       db "   Karten-Inhalt@"          ; "マップデータ　せってい@"
+.MapDesign:           db "   Karten-Design@"          ; "マップ　デザイン@"
+.ProductTesting:      db "  Product-Testing@"         ; "デバッグプレイ@"
+.SpecialThanks:       db "  Besonderer Dank@"         ; "スぺシャルサンクス@"
+.Producers:           db "    Produzenten@"           ; "プロデューサー@"
+.ExecutiveProducer:   db "    Ausführender"           ; "エグゼクティブ　プロデューサー@"
+                    next "     Produzent@"
+.PokemonAnimation:    db " #MON-Animation@"           ; "#　アニメーション@"
+.PokedexText:         db "    #DEX-Text@"             ; "ずかん　テキスト@"
+.MobilePrjLeader:     db "@"                          ; "モバイルプロジェクト　りーダー@"
+.MobileSystemAd:      db "@"                          ; "モバイル　システムアドバイザー@"
+.MobileStadiumDir:    db "@"                          ; "モバイルスタジアム　ディレクター@"
+.Coordination:        db "    Koordination@"          ; "コーディネーター@"
+.UsVersionStaff:      db "   Deutsches Team@"
+.UsCoordination:      db "Europa-Koordination@"
+.TextTranslation:     db "   Deutscher Text@"
+.PaadTesting:         db "  Product-Testing@"
+.TextCheck:           db "     Text Check@"
 .CreatedBy:		 	  db "    CREATED BY@"
 .SmithPlaysPokemons:  db " SMITHPLAYSPOKEMON@"
 .Dev:				  db "     DEVELOPER@"
