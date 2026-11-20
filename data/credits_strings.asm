@@ -71,6 +71,18 @@ CreditsStringsPointers:
 	dw .TerukiMurakawa
 	dw .KazuyoshiOsawa
 	dw .KimikoNakamichi
+	dw .KaiZeh
+	dw .HiroyukiUesugi
+	dw .TanjaBaar
+	dw .KaiNeumann
+	dw .MauriceTisdale
+	dw .DanielSchaefers
+	dw .MartinaDeimel
+	dw .PatrickThieret
+	dw .JensPeppel
+	dw .GermanTestingTeam
+	dw .EmiBessho
+	dw .TakashiInamoto
 	dw .End
 	dw .Unknown
 	dw .Staff
@@ -104,6 +116,7 @@ CreditsStringsPointers:
 	dw .UsCoordination
 	dw .TextTranslation
 	dw .PaadTesting
+	dw .TextCheck
 	dw .CreatedBy
 	dw .SmithPlaysPokemons
 	dw .Dev
@@ -111,6 +124,8 @@ CreditsStringsPointers:
 	dw .cRzShadows
 	dw .Editor
 	dw .Weebra
+	dw .Translation
+	dw .RemoVonArx
 	dw .DiscordAdmin
 	dw .Jaas
 	dw .Moderators
@@ -234,53 +249,69 @@ CreditsStringsPointers:
 .TerukiMurakawa:      db "  TERUKI MURAKAWA@"
 .KazuyoshiOsawa:      db "  KAZUYOSHI OSAWA@"
 .KimikoNakamichi:     db "  KIMIKO NAKAMICHI@"
+.KaiZeh:              db "      KAI ZEH@"
+.HiroyukiUesugi:      db "  HIROYUKI UESUGI@"
+.TanjaBaar:           db "     TANJA BAAR@"
+.KaiNeumann:          db "    KAI NEUMANN@"
+.MauriceTisdale:      db "  MAURICE TISDALE@"
+.DanielSchaefers:     db "  DANIEL SCHÄFERS@"
+.MartinaDeimel:       db "   MARTINA DEIMEL@"
+.PatrickThieret:      db "  PATRICK THIERET@"
+.JensPeppel:          db "    JENS PEPPEL@"
+.GermanTestingTeam:   db "GERMAN TESTING TEAM@"
+.EmiBessho:           db "     EMI BESSHO@"
+.TakashiInamoto:      db "  TAKASHI INAMOTO@"
 .Staff:               db "      #MON"                 ; "ポケットモンスター"
-                    next "   CRYSTAL LEGACY"          ; "　　クりスタル　バージョン"
-                    next "       STAFF@"              ; "　　　　スタッフ@"
-.Director:            db "      DIRECTOR@"            ; "エグゼクティブ　ディレクター@"
-.CoDirector:          db "    CO-DIRECTOR@"           ; "ディレクター@"
-.Programmers:         db "    PROGRAMMERS@"           ; "プログラム@"
-.GraphicsDirector:    db " GRAPHICS DIRECTOR@"        ; "グラフィック　ディレクター@"
-.MonsterDesign:       db "   MONSTER DESIGN@"         ; "#　デザイン@"
-.GraphicsDesign:      db "  GRAPHICS DESIGN@"         ; "グラフィック　デザイン@"
-.Music:               db "       MUSIC@"              ; "おんがく@"
-.SoundEffects:        db "   SOUND EFFECTS@"          ; "サウンド　エフェクト@"
-.GameDesign:          db "    GAME DESIGN@"           ; "ゲームデザイン@"
-.GameScenario:        db "   GAME SCENARIO@"          ; "シナりオ@"
-.ToolProgramming:     db "  TOOL PROGRAMMING@"        ; "ツール　プログラム@"
-.ParametricDesign:    db " PARAMETRIC DESIGN@"        ; "パラメーター　せってい@"
-.ScriptDesign:        db "   SCRIPT DESIGN@"          ; "スクりプト　せってい@"
-.MapDataDesign:       db "  MAP DATA DESIGN@"         ; "マップデータ　せってい@"
-.MapDesign:           db "     MAP DESIGN@"           ; "マップ　デザイン@"
-.ProductTesting:      db "  PRODUCT TESTING@"         ; "デバッグプレイ@"
-.SpecialThanks:       db "   SPECIAL THANKS@"         ; "スぺシャルサンクス@"
-.Producers:           db "     PRODUCERS@"            ; "プロデューサー@"
-.ExecutiveProducer:   db " EXECUTIVE PRODUCER@"       ; "エグゼクティブ　プロデューサー@"
-.PokemonAnimation:    db " #MON ANIMATION@"           ; "#　アニメーション@"
-.PokedexText:         db "    #DEX TEXT@"             ; "ずかん　テキスト@"
-.MobilePrjLeader:     db " MOBILE PRJ. LEADER@"       ; "モバイルプロジェクト　りーダー@"
-.MobileSystemAd:      db " MOBILE SYSTEM AD.@"        ; "モバイル　システムアドバイザー@"
-.MobileStadiumDir:    db "MOBILE STADIUM DIR.@"       ; "モバイルスタジアム　ディレクター@"
-.Coordination:        db "    COORDINATION@"          ; "コーディネーター@"
-.UsVersionStaff:      db "  US VERSION STAFF@"
-.UsCoordination:      db "  US COORDINATION@"
-.TextTranslation:     db "  TEXT TRANSLATION@"
-.PaadTesting:         db "    PAAD TESTING@"
-.CreatedBy:		 	  db "    CREATED BY@"
+                    next "Kristall-Vermächtnis"       ; "　　クりスタル　バージョン"
+                    next "       Staff@"              ; "　　　　スタッフ@"
+.Director:            db "      Leitung@"             ; "エグゼクティブ　ディレクター@"
+.CoDirector:          db "     Assistenz@"            ; "ディレクター@"
+.Programmers:         db "   Programmierer@"          ; "プログラム@"
+.GraphicsDirector:    db "       Grafik@"             ; "グラフィック　ディレクター@"
+.MonsterDesign:       db "   Monster-Design@"         ; "#　デザイン@"
+.GraphicsDesign:      db "   Grafik-Design@"          ; "グラフィック　デザイン@"
+.Music:               db "       Musik@"              ; "おんがく@"
+.SoundEffects:        db "   Sound-Effekte@"          ; "サウンド　エフェクト@"
+.GameDesign:          db "    Spiel-Design@"          ; "ゲームデザイン@"
+.GameScenario:        db "   Spiel-Szenario@"         ; "シナりオ@"
+.ToolProgramming:     db "Tool-Programmierung@"       ; "ツール　プログラム@"
+.ParametricDesign:    db "  Parametr. Design@"        ; "パラメーター　せってい@"
+.ScriptDesign:        db "       Script@"             ; "スクりプト　せってい@"
+.MapDataDesign:       db "   Karten-Inhalt@"          ; "マップデータ　せってい@"
+.MapDesign:           db "   Karten-Design@"          ; "マップ　デザイン@"
+.ProductTesting:      db "  Product-Testing@"         ; "デバッグプレイ@"
+.SpecialThanks:       db "  Besonderer Dank@"         ; "スぺシャルサンクス@"
+.Producers:           db "    Produzenten@"           ; "プロデューサー@"
+.ExecutiveProducer:   db "    Ausführender"           ; "エグゼクティブ　プロデューサー@"
+                    next "     Produzent@"
+.PokemonAnimation:    db " #MON-Animation@"           ; "#　アニメーション@"
+.PokedexText:         db "    #DEX-Text@"             ; "ずかん　テキスト@"
+.MobilePrjLeader:     db "@"                          ; "モバイルプロジェクト　りーダー@"
+.MobileSystemAd:      db "@"                          ; "モバイル　システムアドバイザー@"
+.MobileStadiumDir:    db "@"                          ; "モバイルスタジアム　ディレクター@"
+.Coordination:        db "    Koordination@"          ; "コーディネーター@"
+.UsVersionStaff:      db "   Deutsches Team@"
+.UsCoordination:      db "Europa-Koordination@"
+.TextTranslation:     db "   Deutscher Text@"
+.PaadTesting:         db "  Product-Testing@"
+.TextCheck:           db "     Text Check@"
+.CreatedBy:		 	  db "   Erschaffen von@"
 .SmithPlaysPokemons:  db " SMITHPLAYSPOKEMON@"
-.Dev:				  db "     DEVELOPER@"
+.Dev:				  db "     Entwickler@"
 .TheSmithPlays: 	  db "  THE SMITH PLAYS@"
 .cRzShadows: 		  db "    CRZ SHADOWS@"
-.Editor:			  db "      EDITOR@"
+.Editor:			  db "    Videoschnitt@"
 .Weebra: 		      db "      WEEBRA@"
-.DiscordAdmin:		  db "   DISCORD ADMIN@"
+.Translation:         db "Deutsche Übersetzung@"
+.RemoVonArx:          db "    REMO VON ARX@"
+.DiscordAdmin:		  db "   Discord-Admin@"
 .Jaas:				  db "    JAASHOOUHH@"
-.Moderators:		  db "    MODERATORS@"
+.Moderators:		  db "    Moderatoren@"
 .Mod1:				  db "       REGI@"
 .Mod2:				  db "       AERO@"
 .Mod3:				  db "       DAILY@"
 .Mod4:				  db "       ZACH@"
-.Playtesters:		  db "    PLAYTESTERS@"
+.Playtesters:		  db "    Spieltester@"
 .Tester1:			  db "       DISQ@"
 .Tester2:			  db "     TIBERIUS@"
 .Tester3:			  db "       SABLE@"
@@ -293,7 +324,7 @@ CreditsStringsPointers:
 .Tester10:			  db "      TALOS-8@"
 .Tester11:			  db "    WOOTONMAJR@"
 .Tester12:			  db "       BRICE@"
-.SpriteArtists:		  db "  SPRITE ARTISTS@"
+.SpriteArtists:		  db "  Sprite-Künstler@"
 .SpriteArtist1:		  db "       KATT@"
 .SpriteArtist2:		  db "      CHAMBER@"
 .SpriteArtist3:		  db "     SOLOO993@"
@@ -303,7 +334,7 @@ CreditsStringsPointers:
 .SpriteArtist7:		  db "     PIKACHU25@"
 .SpriteArtist8:		  db "     TOM WANG@"
 .SpriteArtist9:		  db "      SEASICK@"
-.Tutorials:			  db "     TUTORIALS@"
+.Tutorials:			  db "     Tutorials@"
 .Nayru: 		      db "      NAYRU62@"
 .Pokecrystal2: 		  db "      RANGI42@"
 .Pokecrystal3: 		  db "       IDAIN@"
@@ -318,13 +349,13 @@ CreditsStringsPointers:
 .Pokecrystal12: 	  db "    NOBODYSOCIETY@"
 .Pokecrystal13: 	  db "     LUTHER7718@"
 .Pokecrystal14: 	  db "      MAUVRE@"
-.Pokecrystal:         db "  THANK YOU TO THE"
-					next " PRET TEAM FOR THE"
-					next "    POKECRYSTAL"
-					next "    DISASSEMBLY@"
-.NayruThanksText:     db "   IMPROVED DEX"
-					next " POKEMON DVS SCREEN"
-					next "      MADE BY@"
+.Pokecrystal:         db "    Danke an das"
+					next " PRET-Team für das"
+					next "    POKECRYSTAL-"
+					next "    Disassembly@"
+.NayruThanksText:     db "Verbesserter #DEX"
+					next " #MON-DV-Anzeige"
+					next "    erstellt von@"
 
 .Copyright:
 	;    (C) 1  9  9  5 - 2  0  0  1     N  i  n  t  e  n  d  o
