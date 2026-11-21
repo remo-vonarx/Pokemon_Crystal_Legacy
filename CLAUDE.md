@@ -2,7 +2,7 @@
 
 Guardrails for translating a Pokémon ROM hack into German. They apply to every task unless the task explicitly overrides them.
 
-Everything game-specific lives in **Project profile** and **Project decisions**. The rest of this file is the same for every hack and refers to those two sections.
+Everything game-specific lives in **Project profile** and **Project decisions**. The rest of this file is the same for every hack, Game Boy or GBA, and refers to those two sections: engine, emulator and tool details belong in the profile.
 
 ## Project profile
 
@@ -21,9 +21,9 @@ Fill in once per hack. If a field is empty or turns out wrong, find the right va
 | Build | `make RGBDS=~/.local/rgbds-0.5.2/bin/` (rgbds 0.5.2) builds `pokecrystal.gbc`. All targets: `crystal crystal11 crystal_au crystal_debug crystal11_debug crystal11_vc`. Upstream's own code gives 10 distinct rgbasm warnings (`-Wtruncation`, all from Legacy's Battle Tower prize table, which stores decoration events as their low byte on purpose); a task adds none. The four from the link battle intro (`-Wnumeric-string`, `trainer_huds.asm`) went with the bold VS fix (PR #42). ROM0 has 303 bytes of slack (after the Battle Tower name break, PR #42), but most of it is gaps between the fixed sections: the `Home` section ends at $3FA6, 89 bytes before the end, and in the debug build at $3FD4, only 43; check the debug build for any ROM0 growth. An overflow error's `reached` size is where rgbasm stopped, not the section's full size: measure the growth from the `.map` files. Sections split for the German text: see **Map script sections** below the table |
 | Debug build | `make RGBDS=~/.local/rgbds-0.5.2/bin/ crystal_debug`. With a save, the main menu adds DEBUG ROOM (pret's developer tool); not tried in Legacy yet |
 | Virtual Console | The game must also run as a Virtual Console title on the New Nintendo 3DS. `make RGBDS=~/.local/rgbds-0.5.2/bin/ crystal11_vc` builds `pokecrystal11.patch`, the VC patch that goes with `pokecrystal11.gbc`, from `vc/pokecrystal11.patch.template` (the helper ROM `pokecrystal11_vc.gbc` only feeds the patch). Only a real 3DS can run it; the build checks the hooks |
-| Check scripts | `python3 tools/check_text_width.py`, `python3 tools/check_text_mode.py`, `python3 tools/check_names.py` (names from `tools/german_names.py`, read from the German ROM's tables by position). Known false alarms: `maps/RuinsOfAlphInnerChamber.asm:136`, Legacy's `NoRoomText` never ends, but nothing uses it; `check_names.py`'s `KimonoGirlGroup NAOKO should be EDITH`, the German ROM names pret's two NAOKOs NAOKO and EDITH by position. `check_names.py --tables` reports only that NAOKO false alarm; without options it reports the same NAOKO false alarm, since slice 34 no English names are left in texts |
-| Emulator | PyBoy 2.9 with Pillow, in a venv in the scratchpad |
-| Tilemap symbol | `wTilemap`, 20×18 tiles at `$C4A0`; the German ROM keeps it at `$C4A0` too |
+| Check scripts | `python3 tools/check_text_width.py`, `python3 tools/check_text_mode.py`, `python3 tools/check_names.py` (names from `tools/german_names.py`, read from the German ROM's tables by position). Known false alarms: `maps/RuinsOfAlphInnerChamber.asm:136`, Legacy's `NoRoomText` never ends, but nothing uses it; `check_names.py`'s `KimonoGirlGroup NAOKO should be EDITH`, the German ROM names pret's two NAOKOs NAOKO and EDITH by position. `check_names.py --tables` reports only that NAOKO false alarm; without options it reports the same NAOKO false alarm, since slice 34 no English names are left in texts. No merge check: Yellow Legacy's `tools/qa/check_all.sh` is not ported |
+| Emulator | PyBoy 2.9 with Pillow, in a venv in the scratchpad. The save goes in as a stream, `ram_file=`, and the run ends with `stop(save=False)`, or `stop(save=True, ram_file=…)` to keep an edited save in memory. Link: both instances share a `SerialSharedMemoryBuffer` with `serial_interrupt_based=True` (Crystal: a subclass that splits the roles itself, and the ROM patches in **Link, printer and mobile** below). PyBoy differs from hardware in two ways that break a handshake (seen in Yellow Legacy): it completes a transfer that waits for an outside clock even when neither side clocks, and a CPU that waits for an outside clock freezes until the other side transfers; so arm the slave only while the master waits (write `$80` to `rSC` while `buf.barrier.n_waiting > 0`). With Yellow's plain buffer, create the second instance about two seconds after the first: each takes its slot from the buffer's first byte. Printer: `printer=True, printer_output=DIR` saves each printout as an image when the instance stops; save states don't work with it |
+| Reading the screen | The tilemap `wTilemap`, 20×18 tiles at `$C4A0`; the German ROM keeps it at `$C4A0` too |
 | Test entry points | See **Test entry points** below the table, sorted by topic |
 
 ### Map script sections
@@ -258,6 +258,7 @@ For each string, use the first source that covers it:
 4. Official German text from later games: PokéWiki (pokewiki.de); PokeAPI (pokeapi.co, language `de`) for species, moves, items, abilities and natures.
 5. Own translation: allowed, but always flagged as such and listed for review. See "New content from the hack" below.
 
+- Take each menu string from the German original's same screen, not from a glossary row for the same English word elsewhere: the original can use different words on different screens (Yellow Legacy: CANCEL is ZURÜCK in lists, ABBRECHEN on the trade screen). If the dump lacks a string, search the original ROM for its bytes and read the box setup in the code that loads it.
 - PokeAPI documentation: https://pokeapi.co/docs/v2. Useful endpoints: `pokemon-species`, `move`, `item`, `ability`, `nature`. German text is in the `names`, `genera` and `flavor_text_entries` lists, filtered by `language.name == "de"` (e.g. https://pokeapi.co/api/v2/item/assault-vest).
 - PokeAPI's German data is incomplete for some entries. If a German value is missing or looks wrong, check PokéWiki; if the two disagree, PokéWiki wins and you mention the difference.
 - Cache PokeAPI responses locally in the scratchpad instead of requesting the same resource again.
@@ -300,12 +301,12 @@ Text the hack added has no German original, so translate it faithfully:
 ## Text constraints
 
 - Never exceed the textbox from the profile. With variable-width fonts, measure in pixels, not characters.
-- If the profile says the ▼ covers a text tile, a line in the box's bottom row that waits for a button (followed by `cont`, `para` or `prompt`) holds one character less: the character under the ▼ is lost.
+- If the profile says the ▼ covers a text tile, a line in the box's bottom row that waits for a button (before a scroll, a new box or a prompt) holds one character less: the character under the ▼ is lost.
 - Pokédex entries: follow the line limits and the ending in the profile (some engines add a closing "." themselves).
 - Keep the semantics of the text commands: re-breaking lines is fine; changing how a box ends is not.
 - Count variables (player and rival name, Pokémon, item and move names, numbers) at their maximum length. Take the limits from the length constants, never from memory.
 - Names and fixed-width strings (menus, padded labels) must respect their length constant or exact padded width.
-- Use only characters defined in the charmap. Verify that ä, ö, ü, Ä, Ö, Ü, ß and any punctuation you use map to font tiles. Don't add charmap entries or font graphics without asking.
+- Use only characters defined in the charmap. Verify that ä, ö, ü, Ä, Ö, Ü, ß and any punctuation you use map to glyphs in the font. Don't add charmap entries or font graphics without asking.
 - Know the special charmap tokens (e.g. `#` for "POKé") and follow the project decisions on whether to use them.
 - Avoid German constructions whose article, case or gender depends on a variable (e.g. "einen/eine <ITEM>"). Rephrase neutrally.
 - If the player can be male or female, avoid gendered forms for the player, or follow how the German original handles it.
@@ -354,38 +355,44 @@ Exceptions to these rules exist only where the project decisions say so (e.g. Po
 ## Validation (every task)
 
 - The build must succeed without errors. If a section or bank overflows because German text is longer, stop and report, unless the project decisions say how to handle that overflow. Don't move sections on your own otherwise.
-- The Virtual Console patch must build too (`crystal11_vc`, see the profile), without errors or warnings.
+- If the profile names a Virtual Console build, it must build too, without errors or warnings.
 - Re-check every changed line against the textbox and length limits.
 - Test every change in the game (see below).
+- Before a merge, run the profile's merge check, if it names one, on the PR against main. Every text it shows as changed must be one the PR touched.
 - Finish with a summary: files touched, strings translated, own proposals (flagged), open questions, screens seen and screens not reached.
 
 ## Testing in the game
 
-A text, menu or graphics change is done when you have seen it in the emulator and it matches the German original **by position**: the same tiles in the same places, unless the hack itself changed that spot or the new spelling writes ss where the original has ß (dass for daß). Where it did, compare against the hack's English screen instead: same layout, German text fits. A string existing somewhere in the ROM proves nothing.
+A text, menu or graphics change is done when you have seen it in the emulator and it matches the German original **by position**: the same characters in the same places, unless the hack itself changed that spot or the new spelling writes ss where the original has ß (dass for daß). Where it did, compare against the hack's English screen instead: same layout, German text fits. A string existing somewhere in the ROM proves nothing.
 
 1. After any text edit, run the check scripts from the profile. Ignore only the known false alarms listed there.
 2. Clone the repo into the scratchpad and do all test work there. Hooks, ROM patches and save states stay in that clone and are never committed.
 3. Build the debug ROM (or the normal one if there is none) as described in the profile.
-4. Drive it from a script with the emulator from the profile, with its dependencies in a venv in the scratchpad. Read the tilemap to check each position, and save a screenshot for me.
-5. Open the same screen in the German original ROM and compare it tile by tile. For menus, compare the box coordinates too. The original ROM's RAM addresses differ from the hack's symbol file: never reuse those addresses on it.
+4. Drive it from a script with the emulator from the profile, with its dependencies in a venv in the scratchpad. Read the screen as the profile's **Reading the screen** says to check each position, and save a screenshot for me. Hand the emulator its save as a stream and stop it without writing a save file (the profile's **Emulator** row says how): for the original ROM, the file would land in the read-only reference folder.
+5. Open the same screen in the German original ROM and compare it position by position: tile by tile with a fixed-width font, in pixels with a variable-width one. For menus, compare the box coordinates too, and every state of the menu: after a choice, markers can overwrite letters. The original ROM's RAM addresses differ from the hack's symbol file: never reuse those addresses on it. Where the two ROMs give the same glyph different tile ids (see the profile), compare by glyph. Compare screens that stay still: frames caught while text is still being typed differ by timing alone.
 6. Tell me which screens you saw, and name the ones you could not reach.
 
 ### Reaching a screen
 
 - Use the debug menu if the hack has one.
-- For screens you can't reach directly, add a hook at the top of a routine that runs every overworld frame. The hook reads an unused RAM byte and jumps to a test case: a warp, a battle, or any routine through a far call. Save a state in the overworld and reload it for each case.
+- For screens you can't reach directly, add a hook at the top of a routine that runs every overworld frame. The hook reads an unused RAM byte and jumps to a test case: a warp, a battle, or a call to any routine. Save a state in the overworld and reload it for each case.
 - Battles can often be started by setting the opponent and level variables in the overworld and taking one step.
 - If a warp keeps the old position (e.g. between maps with the same tileset), warp through an interior first.
 - If the game has a real-time clock, set it so time-of-day and weekday texts appear.
+- Screens that show saved data (a Hall of Fame list, say) need that data in the save: write it into the save RAM before booting.
+- Where save states don't work (printer, link), boot from a prepared in-game save. Find walking paths in a run with save states, then replay the inputs.
 - When you find a reliable way to reach a kind of screen, propose adding it to the profile.
 
 ### Link features (trades, link battles)
 
-- Run two emulator instances that share the serial connection. With PyBoy: a shared subclass of `SerialSharedMemoryBuffer`, with `serial_interrupt_based=True` (worked with PyBoy 2.9).
-- One side must be master and the other slave. Patch a copy of the ROM for the second instance so it takes the other role, and record the patch in the profile.
-- Arm the slave only while the master waits (with PyBoy: write `$80` to `rSC` while `buf.barrier.n_waiting > 0`).
-- Save states break serial, so each run boots from scratch. Prepare a save standing in front of the link receptionist.
+- Run two emulator instances joined by an emulated link cable; the profile's **Emulator** row says how.
+- Save states break the link, so each run boots from scratch. Prepare an in-game save standing in front of the link receptionist.
+- One side clocks the link (master), the other follows (slave), and the handshake decides the roles. Where the emulator differs from hardware and the handshake fails, patch each copy so it takes its own role, then check both roles in RAM right after connecting. Record every patch in the profile.
 - If the link menu misses inputs, hold each button longer (about 12 frames was needed in Yellow Legacy).
+
+### Printer
+
+- If the game prints (Game Boy Printer), compare the printouts with the German original's too, not only the screens. The profile's **Emulator** row says how to capture them.
 
 ## Git
 
